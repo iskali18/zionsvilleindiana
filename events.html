@@ -3,51 +3,56 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Zionsville Indiana | Events Calendar</title>
-  <meta name="description" content="Full events calendar for Zionsville, Indiana and nearby highlights." />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script data-cfasync="false" src="https://public.tockify.com/browser/embed.js"></script>
+  <title>Featured Community Events | ZionsvilleIndiana.com</title>
+  <meta name="description" content="Featured community events in Zionsville and nearby towns." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
-<body class="bg-zinc-950 text-zinc-50">
-  <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
-    <header class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-      <a href="index.html" class="text-lg sm:text-xl font-semibold tracking-tight">
-        ZionsvilleIndiana<span class="text-zinc-400">.com</span>
-      </a>
-
-      <nav class="flex flex-wrap gap-2">
-        <a class="px-3 py-2 rounded-full bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-sm" href="about.html">About</a>
-        <a class="px-3 py-2 rounded-full bg-zinc-800 border border-zinc-700 text-sm" href="events.html">Events</a>
-        <a class="px-3 py-2 rounded-full bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-sm" href="parks-trails.html">Parks &amp; Trails</a>
-        <a class="px-3 py-2 rounded-full bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-sm" href="downtown.html">Downtown Guide</a>
-        <a class="px-3 py-2 rounded-full bg-zinc-900 hover:bg-zinc-800 border border-zinc-800 text-sm" href="family.html">Family-Friendly</a>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand"><a href="index.html">ZionsvilleIndiana.com</a></div>
+      <nav class="links">
+        <a class="pill" href="events.html">Events</a>
+        <a class="pill" href="about.html">About</a>
+        <a class="pill" href="parks-trails.html">Parks & Trails</a>
+        <a class="pill" href="downtown.html">Downtown</a>
+        <a class="pill" href="family.html">Family-Friendly</a>
       </nav>
     </header>
 
-    <main class="mt-6 sm:mt-10">
-      <h1 class="text-3xl sm:text-4xl font-semibold">Events Calendar</h1>
-      <p class="mt-2 text-zinc-300 text-sm sm:text-base">
-        Big community events, festivals, seasonal celebrations, and a few nearby highlights.
+    <section class="hero">
+      <div class="kicker">Calendar</div>
+      <h1>Featured Community Events</h1>
+      <p>
+        This calendar highlights medium-to-large events in Zionsville and nearby towns—festivals, parades, concerts,
+        and seasonal celebrations. We keep it intentionally uncluttered.
       </p>
+    </section>
 
-      <div class="mt-6 rounded-2xl border border-zinc-800 bg-zinc-900/40 p-4 sm:p-6 shadow-soft">
-        <div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
+    <section class="grid">
+      <div class="card">
+        <h2>Calendar</h2>
+
+        <!-- ✅ Paste your FULL Tockify embed here -->
+        <!-- Example format (yours may differ): -->
+        <!-- <div data-tockify-component="calendar" data-tockify-calendar="YOURCALENDAR"></div>
+        <script data-cfasync="false" src="https://public.tockify.com/browser/embed.js"></script> -->
+	
+	<div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
+	<script data-cfasync="false" data-tockify-script="embed" 
+        src="https://public.tockify.com/browser/embed.js"></script>
+
+
+        <p class="small" style="margin-top:10px;">
+          Event details are provided by official sources. Please confirm times/locations with the event organizer.
+        </p>
       </div>
+    </section>
 
-      <p class="mt-4 text-sm text-zinc-400">
-        Want to submit an event? Email <a class="underline underline-offset-4 text-zinc-200 hover:text-white" href="mailto:hello@zionsvilleindiana.com">hello@zionsvilleindiana.com</a>.
-      </p>
-    </main>
-
-    <footer class="mt-10 sm:mt-14 border-t border-zinc-800 pt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2">
-      <div class="text-sm text-zinc-300">© <span id="year"></span> ZionsvilleIndiana.com</div>
-      <div class="text-sm text-zinc-400">Curated event listings + links to official sources.</div>
+    <footer class="footer">
+      <div><a href="index.html">← Back to home</a></div>
+      <div class="small">Curated community guide.</div>
     </footer>
   </div>
-
-  <script>
-    document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

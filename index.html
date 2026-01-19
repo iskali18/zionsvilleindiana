@@ -5,200 +5,130 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zionsville Indiana | Events, Guides, and Local Highlights</title>
   <meta name="description" content="A curated guide to Zionsville, Indiana: featured events, seasonal highlights, and local guides for parks, downtown, and family-friendly spots." />
-
-  <!-- Tailwind CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-
-  <!-- Tockify -->
-  <script data-cfasync="false" src="https://public.tockify.com/browser/embed.js"></script>
+  <link rel="stylesheet" href="styles.css" />
 </head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand">ZionsvilleIndiana.com</div>
+      <nav class="links">
+        <a class="pill" href="about.html">About</a>
+	<a class="pill" href="events.html">Events</a>
+        <a class="pill" href="parks-trails.html">Parks & Trails</a>
+        <a class="pill" href="downtown.html">Downtown Guide</a>
+        <a class="pill" href="family.html">Family-Friendly</a>
+      </nav>
+    </header>
 
-<body class="bg-zinc-950 text-zinc-50">
-<div class="max-w-6xl mx-auto px-4 py-8">
-
-<!-- NAV -->
-<header class="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mb-8">
-  <div class="text-xl font-semibold">ZionsvilleIndiana.com</div>
-
-  <nav class="flex flex-wrap gap-2">
-    <a class="px-3 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 text-sm" href="about.html">About</a>
-    <a class="px-3 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 text-sm" href="events.html">Events</a>
-    <a class="px-3 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 text-sm" href="parks-trails.html">Parks & Trails</a>
-    <a class="px-3 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 text-sm" href="downtown.html">Downtown Guide</a>
-    <a class="px-3 py-2 rounded-full border border-zinc-700 hover:bg-zinc-800 text-sm" href="family.html">Family-Friendly</a>
-  </nav>
-</header>
-
-<!-- HERO -->
-<section class="border border-zinc-800 rounded-3xl p-10 mb-10 bg-zinc-900/40">
-  <div class="text-xs uppercase tracking-widest text-zinc-400 mb-3">
-    Curated • Local • Simple
-  </div>
-
-  <h1 class="text-3xl md:text-5xl font-semibold mb-4">
-    What’s happening in Zionsville
-  </h1>
-
-  <p class="text-zinc-300 max-w-3xl mb-6">
-    This site highlights the biggest community events and the best local spots in Zionsville (plus a few nearby-town
-    events worth the short drive). No clutter—just the things most people actually want to know about.
-  </p>
-
-  <div class="flex gap-3">
-    <a class="px-5 py-3 rounded-xl bg-white text-black font-medium" href="#events">
-      View Featured Events
-    </a>
-    <a class="px-5 py-3 rounded-xl border border-zinc-700 hover:bg-zinc-800" href="#guides">
-      Explore Guides
-    </a>
-  </div>
-</section>
-
-<!-- EVENTS GRID -->
-<section id="events" class="grid md:grid-cols-2 gap-6 mb-10">
-
-<!-- LEFT -->
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="text-xl font-semibold">Upcoming Featured Events</h2>
-  <p class="text-sm text-zinc-300 mt-1">
-    Medium-to-large events only (festivals, parades, concerts, seasonal celebrations).
-  </p>
-
-  <div class="mt-4 p-4 rounded-xl border border-zinc-800 bg-zinc-950/40 text-sm">
-    <strong>Winter note:</strong> 
-    big events are lighter right now. Spring listings will ramp up as dates are posted.
-  </div>
-
-  <!-- TOCKIFY -->
-  <div class="mt-4">
-    <div data-tockify-component="agenda" 
-         data-tockify-calendar="zionsville.in" 
-         data-tockify-limit="5">
-    </div>
-  </div>
-
-  <p class="text-sm mt-4">
-    Prefer a full view?
-    <a class="font-semibold underline" href="events.html">Open the full calendar →</a>
-  </p>
-</div>
-
-<!-- RIGHT -->
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="text-xl font-semibold">This Week in Zionsville</h2>
-  <p class="text-sm text-zinc-300 mt-1">
-    A short roundup of what’s worth knowing—linked to original sources.
-  </p>
-
-  <ul class="mt-4 space-y-3">
-
-    <li class="flex gap-3 p-4 rounded-xl border border-zinc-800 bg-zinc-950/40">
-      <span class="text-xs px-3 py-1 rounded-full bg-zinc-800">Town</span>
-      <div>
-        <strong>Weekly roundup starts soon</strong>
-        <div class="text-sm text-zinc-300">
-          Add 3–5 links each week (town updates, schools, roads, big community items).
-        </div>
+    <section class="hero">
+      <div class="kicker">Curated • Local • Simple</div>
+      <h1>What’s happening in Zionsville</h1>
+      <p>
+        This site highlights the biggest community events and the best local spots in Zionsville (plus a few nearby-town
+        events worth the short drive). No clutter—just the things most people actually want to know about.
+      </p>
+      <div class="buttonrow">
+        <a class="btn primary" href="#events">View Featured Events</a>
+        <a class="btn" href="#guides">Explore Guides</a>
       </div>
-    </li>
+    </section>
 
-    <li class="flex gap-3 p-4 rounded-xl border border-zinc-800 bg-zinc-950/40">
-      <span class="text-xs px-3 py-1 rounded-full bg-zinc-800">Schools</span>
-      <div>
-        <strong>Key dates & major announcements</strong>
-        <div class="text-sm text-zinc-300">
-          Link out to ZCS + official sources.
-        </div>
+    <section class="grid" id="events">
+      <div class="card half">
+        <h2>Upcoming Featured Events</h2>
+        <p class="small">Medium-to-large events only (festivals, parades, concerts, seasonal celebrations).</p>
+
+<div class="notice" style="margin-top:12px;">
+  <strong>Winter note:</strong> big events are lighter right now. 
+  Spring listings will ramp up as dates are posted.
+</div>
+
+<!-- TOCKIFY UPCOMING EVENTS PREVIEW -->
+<div data-tockify-component="agenda" 
+     data-tockify-calendar="zionsville.in" 
+     data-tockify-limit="5">
+</div>
+
+<p class="small" style="margin-top:10px;">
+  Prefer a full view? 
+  <a href="events.html"><strong>Open the full calendar →</strong></a>
+</p>
+
+      <div class="card half">
+        <h2>This Week in Zionsville</h2>
+        <p class="small">A short roundup of what’s worth knowing—linked to original sources.</p>
+        <ul class="list">
+          <li>
+            <span class="tag">Town</span>
+            <div>
+              <strong>Weekly roundup starts soon</strong>
+              <div class="small">Add 3–5 links each week (town updates, schools, roads, big community items).</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Schools</span>
+            <div>
+              <strong>Key dates & major announcements</strong>
+              <div class="small">Link out to ZCS + official sources.</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Community</span>
+            <div>
+              <strong>Big fundraisers, seasonal drives, and major openings</strong>
+              <div class="small">Only the bigger stuff—no clutter.</div>
+            </div>
+          </li>
+        </ul>
       </div>
-    </li>
+    </section>
 
-    <li class="flex gap-3 p-4 rounded-xl border border-zinc-800 bg-zinc-950/40">
-      <span class="text-xs px-3 py-1 rounded-full bg-zinc-800">Community</span>
-      <div>
-        <strong>Big fundraisers, seasonal drives, and major openings</strong>
-        <div class="text-sm text-zinc-300">
-          Only the bigger stuff—no clutter.
-        </div>
+    <section class="grid" id="guides" style="margin-top:14px;">
+      <div class="card third">
+        <h2>About Zionsville</h2>
+        <p>Quick context on the town, vibe, and how this site stays curated.</p>
+        <p style="margin-top:10px;"><a class="btn" href="about.html">Open page →</a></p>
       </div>
-    </li>
 
-  </ul>
-</div>
-</section>
+      <div class="card third">
+        <h2>Parks & Trails</h2>
+        <p>Low-key outdoor spots, walking trails, and family-friendly parks.</p>
+        <p style="margin-top:10px;"><a class="btn" href="parks-trails.html">Open page →</a></p>
+      </div>
 
-<!-- GUIDES GRID -->
-<section id="guides" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+      <div class="card third">
+        <h2>Downtown Guide</h2>
+        <p>Shops, food, coffee, and the best “walk around” areas.</p>
+        <p style="margin-top:10px;"><a class="btn" href="downtown.html">Open page →</a></p>
+      </div>
 
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="font-semibold">About Zionsville</h2>
-  <p class="text-sm text-zinc-300 mt-2">
-    Quick context on the town, vibe, and how this site stays curated.
-  </p>
-  <p class="mt-4">
-    <a class="underline" href="about.html">Open page →</a>
-  </p>
-</div>
+      <div class="card third">
+        <h2>Family-Friendly</h2>
+        <p>Easy wins: indoor options, simple outings, and seasonal ideas.</p>
+        <p style="margin-top:10px;"><a class="btn" href="family.html">Open page →</a></p>
+      </div>
 
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="font-semibold">Parks & Trails</h2>
-  <p class="text-sm text-zinc-300 mt-2">
-    Low-key outdoor spots, walking trails, and family-friendly parks.
-  </p>
-  <p class="mt-4">
-    <a class="underline" href="parks-trails.html">Open page →</a>
-  </p>
-</div>
+      <div class="card third">
+        <h2>Seasonal Highlights</h2>
+        <p>One section to update 4×/year: spring, summer, fall, winter.</p>
+        <p class="small" style="margin-top:10px;">(You can add a seasonal page later—this can stay on the homepage for now.)</p>
+      </div>
 
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="font-semibold">Downtown Guide</h2>
-  <p class="text-sm text-zinc-300 mt-2">
-    Shops, food, coffee, and the best “walk around” areas.
-  </p>
-  <p class="mt-4">
-    <a class="underline" href="downtown.html">Open page →</a>
-  </p>
-</div>
+      <div class="card third">
+        <h2>Contact</h2>
+        <p>Keep it simple. Email only. No forms required.</p>
+        <p style="margin-top:10px;"><a class="btn" href="mailto:hello@zionsvilleindiana.com">Email →</a></p>
+      </div>
+    </section>
 
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="font-semibold">Family-Friendly</h2>
-  <p class="text-sm text-zinc-300 mt-2">
-    Easy wins: indoor options, simple outings, and seasonal ideas.
-  </p>
-  <p class="mt-4">
-    <a class="underline" href="family.html">Open page →</a>
-  </p>
-</div>
+    <footer class="footer">
+      <div>© <span id="year"></span> ZionsvilleIndiana.com</div>
+      <div class="small">Curated event listings + links to official sources.</div>
+    </footer>
+  </div>
 
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="font-semibold">Seasonal Highlights</h2>
-  <p class="text-sm text-zinc-300 mt-2">
-    One section to update 4×/year: spring, summer, fall, winter.
-  </p>
-</div>
-
-<div class="border border-zinc-800 rounded-2xl p-6 bg-zinc-900/40">
-  <h2 class="font-semibold">Contact</h2>
-  <p class="text-sm text-zinc-300 mt-2">
-    Keep it simple. Email only. No forms required.
-  </p>
-  <p class="mt-4">
-    <a class="underline" href="mailto:hello@zionsvilleindiana.com">Email →</a>
-  </p>
-</div>
-
-</section>
-
-<!-- FOOTER -->
-<footer class="border-t border-zinc-800 pt-6 flex justify-between text-sm text-zinc-400">
-  <div>© <span id="year"></span> ZionsvilleIndiana.com</div>
-  <div>Curated event listings + links to official sources.</div>
-</footer>
-
-</div>
-
-<script>
-document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
