@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zionsville Indiana | Events, Guides, and Local Highlights</title>
+  <meta name="description" content="A curated guide to Zionsville, Indiana: featured events, seasonal highlights, and local guides for parks, downtown, and family-friendly spots." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="nav">
+      <div class="brand">ZionsvilleIndiana.com</div>
+      <nav class="links">
+        <a class="pill" href="about.html">About</a>
+	<a class="pill" href="events.html">Events</a>
+        <a class="pill" href="parks-trails.html">Parks & Trails</a>
+        <a class="pill" href="downtown.html">Downtown Guide</a>
+        <a class="pill" href="family.html">Family-Friendly</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="kicker">Curated • Local • Simple</div>
+      <h1>What’s happening in Zionsville</h1>
+      <p>
+        This site highlights the biggest community events and the best local spots in Zionsville (plus a few nearby-town
+        events worth the short drive). No clutter—just the things most people actually want to know about.
+      </p>
+      <div class="buttonrow">
+        <a class="btn primary" href="#events">View Featured Events</a>
+        <a class="btn" href="#guides">Explore Guides</a>
+      </div>
+    </section>
+
+    <section class="grid" id="events">
+      <div class="card half">
+        <h2>Upcoming Featured Events</h2>
+        <p class="small">Medium-to-large events only (festivals, parades, concerts, seasonal celebrations).</p>
+
+<div class="notice" style="margin-top:12px;">
+  <strong>Winter note:</strong> big events are lighter right now. 
+  Spring listings will ramp up as dates are posted.
+</div>
+
+<!-- TOCKIFY UPCOMING EVENTS PREVIEW -->
+<div data-tockify-component="agenda" 
+     data-tockify-calendar="zionsville.in" 
+     data-tockify-limit="5">
+</div>
+
+<p class="small" style="margin-top:10px;">
+  Prefer a full view? 
+  <a href="events.html"><strong>Open the full calendar →</strong></a>
+</p>
+
+      <div class="card half">
+        <h2>This Week in Zionsville</h2>
+        <p class="small">A short roundup of what’s worth knowing—linked to original sources.</p>
+        <ul class="list">
+          <li>
+            <span class="tag">Town</span>
+            <div>
+              <strong>Weekly roundup starts soon</strong>
+              <div class="small">Add 3–5 links each week (town updates, schools, roads, big community items).</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Schools</span>
+            <div>
+              <strong>Key dates & major announcements</strong>
+              <div class="small">Link out to ZCS + official sources.</div>
+            </div>
+          </li>
+          <li>
+            <span class="tag">Community</span>
+            <div>
+              <strong>Big fundraisers, seasonal drives, and major openings</strong>
+              <div class="small">Only the bigger stuff—no clutter.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid" id="guides" style="margin-top:14px;">
+      <div class="card third">
+        <h2>About Zionsville</h2>
+        <p>Quick context on the town, vibe, and how this site stays curated.</p>
+        <p style="margin-top:10px;"><a class="btn" href="about.html">Open page →</a></p>
+      </div>
+
+      <div class="card third">
+        <h2>Parks & Trails</h2>
+        <p>Low-key outdoor spots, walking trails, and family-friendly parks.</p>
+        <p style="margin-top:10px;"><a class="btn" href="parks-trails.html">Open page →</a></p>
+      </div>
+
+      <div class="card third">
+        <h2>Downtown Guide</h2>
+        <p>Shops, food, coffee, and the best “walk around” areas.</p>
+        <p style="margin-top:10px;"><a class="btn" href="downtown.html">Open page →</a></p>
+      </div>
+
+      <div class="card third">
+        <h2>Family-Friendly</h2>
+        <p>Easy wins: indoor options, simple outings, and seasonal ideas.</p>
+        <p style="margin-top:10px;"><a class="btn" href="family.html">Open page →</a></p>
+      </div>
+
+      <div class="card third">
+        <h2>Seasonal Highlights</h2>
+        <p>One section to update 4×/year: spring, summer, fall, winter.</p>
+        <p class="small" style="margin-top:10px;">(You can add a seasonal page later—this can stay on the homepage for now.)</p>
+      </div>
+
+      <div class="card third">
+        <h2>Contact</h2>
+        <p>Keep it simple. Email only. No forms required.</p>
+        <p style="margin-top:10px;"><a class="btn" href="mailto:hello@zionsvilleindiana.com">Email →</a></p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>© <span id="year"></span> ZionsvilleIndiana.com</div>
+      <div class="small">Curated event listings + links to official sources.</div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
