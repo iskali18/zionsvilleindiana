@@ -240,3 +240,56 @@ code{
 [data-tockify-component]{
   margin-top:6px;
 }
+
+/* Hero image */
+
+.hero-image{
+  background:url("hero.jpg") center/cover no-repeat;
+  min-height:420px;
+  display:flex;
+  align-items:center;
+  border-bottom:1px solid var(--line);
+}
+
+.hero-overlay{
+  width:100%;
+  background:linear-gradient(
+    to bottom,
+    rgba(0,0,0,.45),
+    rgba(0,0,0,.55)
+  );
+}
+
+.hero-content{
+  max-width:980px;
+  margin:0 auto;
+  padding:56px 24px;
+  color:white;
+}
+
+.hero-content h1{
+  color:white;
+  font-size:42px;
+  margin:0 0 12px;
+}
+
+.hero-content p{
+  color:#e5e7eb;
+  max-width:65ch;
+  line-height:1.6;
+}
+
+.hero-content .eyebrow{
+  color:#bfdbfe;
+}
+
+.hero-content .btn{
+  background:white;
+  color:#111827;
+  border:none;
+}
+
+.hero-content .btn.primary{
+  background:#2563eb;
+  color:white;
+}
