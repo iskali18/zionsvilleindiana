@@ -52,7 +52,7 @@
 
         <div class="hero-actions">
           <a class="btn primary" href="events.html">View events calendar</a>
-          <a class="btn" href="#guides">Browse local guides</a>
+          <a class="btn" href="about.html">About this site</a>
         </div>
       </div>
 
@@ -69,30 +69,30 @@
       <h2>Upcoming events</h2>
 
       <p class="muted">
-        A curated list of festivals, parades, concerts, and seasonal community events
+        A curated selection of festivals, parades, concerts, and seasonal community events
         in Zionsville and nearby towns.
       </p>
 
-      <!-- FEATURED 3 EVENTS -->
+      <!-- FEATURED EVENT CARDS -->
       <div class="event-sample">
 
-        <div class="event-card">
+        <a href="events.html" class="event-card">
           <div class="event-date">Mar 23</div>
           <div class="event-title">Brick Street Market Opening Day</div>
           <div class="event-meta">Downtown Zionsville</div>
-        </div>
+        </a>
 
-        <div class="event-card">
+        <a href="events.html" class="event-card">
           <div class="event-date">Apr 6</div>
           <div class="event-title">Spring Community Festival</div>
           <div class="event-meta">Town Hall Green</div>
-        </div>
+        </a>
 
-        <div class="event-card">
+        <a href="events.html" class="event-card">
           <div class="event-date">Apr 20</div>
           <div class="event-title">Live Music in the Village</div>
           <div class="event-meta">Village Green</div>
-        </div>
+        </a>
 
       </div>
 
@@ -100,91 +100,6 @@
         <a href="events.html"><strong>View full events calendar →</strong></a>
       </div>
 
-      <!-- FULL AGENDA -->
-      <div class="content-block" style="margin-top:18px;">
-        <div data-tockify-component="agenda"
-             data-tockify-calendar="zionsville.in"
-             data-tockify-limit="6">
-        </div>
-      </div>
-
-      <p class="small">
-        Have an event you’d like us to consider?
-        Send the official event page to
-        <a href="mailto:hello@zionsvilleindiana.com">hello@zionsvilleindiana.com</a>.
-      </p>
-    </section>
-
-    <!-- GUIDES -->
-    <section class="content-section" id="guides">
-      <h2>Explore Zionsville</h2>
-
-      <p class="muted">
-        Evergreen guides to help you explore Zionsville throughout the year.
-      </p>
-
-      <div class="content-block">
-        <ul class="linklist">
-          <li>
-            <a href="downtown.html"><strong>Downtown Zionsville</strong></a>
-            <div class="small">
-              Shops, dining, coffee spots, and ideas for first-time visitors.
-            </div>
-          </li>
-
-          <li>
-            <a href="parks-trails.html"><strong>Parks & Trails</strong></a>
-            <div class="small">
-              Walking paths, outdoor spaces, and easy nature escapes.
-            </div>
-          </li>
-
-          <li>
-            <a href="family.html"><strong>Family-Friendly Activities</strong></a>
-            <div class="small">
-              Simple outings for weekends and school breaks.
-            </div>
-          </li>
-
-          <li>
-            <a href="about.html"><strong>About This Site</strong></a>
-            <div class="small">
-              How events are selected and what you’ll find here.
-            </div>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- THIS WEEK -->
-    <section class="content-section" id="week">
-      <h2>This week in Zionsville</h2>
-
-      <p class="muted">
-        A short roundup of timely updates with links to original sources.
-      </p>
-
-      <div class="content-block">
-        <ul class="linklist">
-          <li>
-            <strong>Town updates:</strong>
-            Important announcements from the Town of Zionsville →
-            <span class="small">link to official source</span>
-          </li>
-
-          <li>
-            <strong>Schools:</strong>
-            Key dates or notices from Zionsville Community Schools →
-            <span class="small">official school source</span>
-          </li>
-
-          <li>
-            <strong>Community:</strong>
-            Noteworthy local news or openings →
-            <span class="small">trusted local publication</span>
-          </li>
-        </ul>
-      </div>
     </section>
 
   </div>
@@ -211,11 +126,6 @@
     © <span id="year"></span> ZionsvilleIndiana.com
   </div>
 </footer>
-
-<!-- Tockify script -->
-<script data-cfasync="false"
-        data-tockify-script="embed"
-        src="https://public.tockify.com/browser/embed.js"></script>
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
