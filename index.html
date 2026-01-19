@@ -9,104 +9,94 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="container header-inner">
-    <div class="brand">
-      <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
-      <div class="brand-sub">Events and local highlights</div>
+<!-- HERO -->
+<section class="hero">
+
+  <!-- Thin overlay header on top of the hero image -->
+  <header class="hero-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
+      </div>
+
+      <nav class="nav">
+        <a href="events.html">Events</a>
+        <a href="downtown.html">Downtown</a>
+        <a href="parks-trails.html">Parks & Trails</a>
+        <a href="family.html">Family</a>
+        <a href="about.html">About</a>
+      </nav>
     </div>
+  </header>
 
-    <nav class="nav">
-      <a href="events.html">Events</a>
-      <a href="downtown.html">Downtown</a>
-      <a href="parks-trails.html">Parks & Trails</a>
-      <a href="family.html">Family</a>
-      <a href="about.html">About</a>
-    </nav>
-  </div>
-</header>
-
-<main>
-
-  <!-- FULL-SCREEN HERO IMAGE (no text on top) -->
-  <section class="hero-photo">
+  <!-- Hero image (fully visible in viewport) -->
+  <figure class="hero-media">
     <img src="hero.jpg" alt="Landscape photo from Zionsville, Indiana" class="hero-img" />
-  </section>
+    <figcaption class="hero-caption">
+      <span class="cap">Featured photo</span>
+      <span class="cap-text">Add a short caption here (location • season • year).</span>
+    </figcaption>
+  </figure>
 
-  <!-- HEADLINE + INTRO (below image, clean + readable) -->
-  <section class="intro">
+  <!-- Minimal title block (NOT on top of the photo) -->
+  <div class="hero-bottom">
     <div class="container">
       <div class="kicker">Zionsville, Indiana</div>
-      <h1>Seasonal moments and community gatherings</h1>
+      <h1>Local events and seasonal highlights—through original photography.</h1>
 
-      <p class="lede">
-        ZionsvilleIndiana.com is a photo-forward guide to local events and seasonal highlights in Zionsville
-        and nearby towns. The calendar is curated for quality, with an emphasis on community traditions,
-        family-friendly gatherings, and standout seasonal events.
-      </p>
-
-      <div class="intro-actions">
-        <a class="btn primary" href="#events">Upcoming events</a>
-        <a class="btn" href="events.html">Full calendar</a>
-      </div>
-
-      <div class="caption">
-        <span class="caption-label">Featured photo</span>
-        <span class="caption-text">Add a short caption here (location • season • year).</span>
+      <div class="hero-links">
+        <a class="link-btn" href="#events">See upcoming events <span class="arrow">→</span></a>
+        <a class="link-btn subtle" href="events.html">View full calendar <span class="arrow">→</span></a>
       </div>
     </div>
-  </section>
+  </div>
 
-  <!-- EVENTS (3 cards in a row) -->
-  <section class="section" id="events">
-    <div class="container section-head">
-      <h2>Upcoming events</h2>
-      <p class="muted">A small selection of what’s next. See the calendar for the full schedule.</p>
-    </div>
+</section>
 
-    <div class="container event-grid">
-      <a href="events.html" class="event-card">
-        <img src="event1.jpg" alt="Event photo" class="event-img" />
-        <div class="event-body">
-          <div class="event-date">Mar 23</div>
-          <div class="event-title">Brick Street Market Opening Day</div>
-          <div class="event-meta">Downtown Zionsville</div>
-        </div>
-      </a>
+<!-- EVENTS -->
+<section class="section" id="events">
+  <div class="container section-head">
+    <h2>Upcoming events</h2>
+    <p class="muted">Three upcoming highlights. Visit the calendar for the complete schedule.</p>
+  </div>
 
-      <a href="events.html" class="event-card">
-        <img src="event2.jpg" alt="Event photo" class="event-img" />
-        <div class="event-body">
-          <div class="event-date">Apr 6</div>
-          <div class="event-title">Spring Community Festival</div>
-          <div class="event-meta">Town Hall Green</div>
-        </div>
-      </a>
+  <div class="container event-grid">
+    <a href="events.html" class="event-card">
+      <img src="event1.jpg" alt="Event photo" class="event-img" />
+      <div class="event-body">
+        <div class="event-date">Mar 23</div>
+        <div class="event-title">Brick Street Market Opening Day</div>
+        <div class="event-meta">Downtown Zionsville</div>
+      </div>
+    </a>
 
-      <a href="events.html" class="event-card">
-        <img src="event3.jpg" alt="Event photo" class="event-img" />
-        <div class="event-body">
-          <div class="event-date">Apr 20</div>
-          <div class="event-title">Live Music in the Village</div>
-          <div class="event-meta">Village Green</div>
-        </div>
-      </a>
-    </div>
+    <a href="events.html" class="event-card">
+      <img src="event2.jpg" alt="Event photo" class="event-img" />
+      <div class="event-body">
+        <div class="event-date">Apr 6</div>
+        <div class="event-title">Spring Community Festival</div>
+        <div class="event-meta">Town Hall Green</div>
+      </div>
+    </a>
 
-    <div class="container section-footer">
-      <a class="link-cta" href="events.html">View the full events calendar →</a>
-    </div>
-  </section>
+    <a href="events.html" class="event-card">
+      <img src="event3.jpg" alt="Event photo" class="event-img" />
+      <div class="event-body">
+        <div class="event-date">Apr 20</div>
+        <div class="event-title">Live Music in the Village</div>
+        <div class="event-meta">Village Green</div>
+      </div>
+    </a>
+  </div>
 
-</main>
+  <div class="container section-footer">
+    <a class="link-btn" href="events.html">View the full events calendar <span class="arrow">→</span></a>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div>
-      <div class="footer-brand">ZionsvilleIndiana.com</div>
-      <div class="muted">Curated event highlights and original photography.</div>
-    </div>
-
+    <div class="footer-brand">ZionsvilleIndiana.com</div>
     <div class="footer-links">
       <a href="events.html">Events</a>
       <a href="about.html">About</a>
