@@ -4,129 +4,199 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Zionsville Indiana | Events, Guides, and Local Highlights</title>
-  <meta name="description" content="A curated guide to Zionsville, Indiana: featured events, seasonal highlights, and local guides for parks, downtown, and family-friendly spots." />
+  <meta name="description" content="A curated guide to Zionsville, Indiana: featured events, seasonal highlights, and local guides." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="nav">
-      <div class="brand">ZionsvilleIndiana.com</div>
-      <nav class="links">
-        <a class="pill" href="about.html">About</a>
-	<a class="pill" href="events.html">Events</a>
-        <a class="pill" href="parks-trails.html">Parks & Trails</a>
-        <a class="pill" href="downtown.html">Downtown Guide</a>
-        <a class="pill" href="family.html">Family-Friendly</a>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
+        <div class="brand-sub">Curated events + simple local guides</div>
+      </div>
+
+      <nav class="nav">
+        <a href="events.html">Events</a>
+        <a href="downtown.html">Downtown</a>
+        <a href="parks-trails.html">Parks & Trails</a>
+        <a href="family.html">Family</a>
+        <a href="about.html">About</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <section class="hero">
-      <div class="kicker">Curated • Local • Simple</div>
-      <h1>What’s happening in Zionsville</h1>
-      <p>
-        This site highlights the biggest community events and the best local spots in Zionsville (plus a few nearby-town
-        events worth the short drive). No clutter—just the things most people actually want to know about.
-      </p>
-      <div class="buttonrow">
-        <a class="btn primary" href="#events">View Featured Events</a>
-        <a class="btn" href="#guides">Explore Guides</a>
+  <!-- HERO (no image, WP-style band) -->
+  <section class="hero-band">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <div class="eyebrow">ZIONSVILLE, INDIANA</div>
+        <h1>What’s happening in Zionsville—without the clutter.</h1>
+        <p>
+          A curated look at the biggest community events in Zionsville (plus a few nearby-town highlights),
+          along with quick guides for parks, downtown, and easy family outings.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="events.html">View full calendar</a>
+          <a class="btn" href="#guides">Explore local guides</a>
+        </div>
+
+        <div class="micro">
+          <span class="dot"></span> Medium-to-large events only • Festivals • Parades • Concerts • Seasonal celebrations
+        </div>
       </div>
-    </section>
 
-    <section class="grid" id="events">
-      <div class="card half">
+      <aside class="hero-side">
+        <div class="hero-panel">
+          <div class="panel-title">Quick links</div>
+          <a class="panel-link" href="events.html">Featured Events Calendar →</a>
+          <a class="panel-link" href="#week">This Week in Zionsville →</a>
+          <a class="panel-link" href="#guides">Guides: parks, downtown, family →</a>
+        </div>
+
+        <div class="hero-panel notice">
+          <div class="panel-title">Winter note</div>
+          <div class="panel-text">
+            Big events are lighter right now. Spring listings will ramp up as dates are posted.
+          </div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FEATURED EVENTS STRIP -->
+  <main>
+    <section class="section">
+      <div class="container section-head">
         <h2>Upcoming Featured Events</h2>
-        <p class="small">Medium-to-large events only (festivals, parades, concerts, seasonal celebrations).</p>
+        <p>Here are the next few bigger events—kept intentionally uncluttered.</p>
+      </div>
 
-<div class="notice" style="margin-top:12px;">
-  <strong>Winter note:</strong> big events are lighter right now. 
-  Spring listings will ramp up as dates are posted.
-</div>
+      <div class="container section-body two-col">
+        <div class="content-block">
+          <!-- ✅ TOCKIFY HOMEPAGE PREVIEW (agenda) -->
+          <div data-tockify-component="agenda"
+               data-tockify-calendar="zionsville.in"
+               data-tockify-limit="6">
+          </div>
 
-<!-- TOCKIFY UPCOMING EVENTS PREVIEW -->
-<div data-tockify-component="agenda" 
-     data-tockify-calendar="zionsville.in" 
-     data-tockify-limit="5">
-</div>
+          <div class="below-embed">
+            Prefer a full view? <a href="events.html"><strong>Open the full calendar →</strong></a>
+          </div>
+        </div>
 
-<p class="small" style="margin-top:10px;">
-  Prefer a full view? 
-  <a href="events.html"><strong>Open the full calendar →</strong></a>
-</p>
+        <div class="content-block sidebar">
+          <div class="sidebar-box">
+            <div class="sidebar-title">Nearby-town highlights</div>
+            <p class="muted">
+              We’ll occasionally include major events in Carmel, Westfield, Whitestown, and Lebanon if they’re worth the short drive.
+            </p>
+            <ul class="checklist">
+              <li>Seasonal festivals & parades</li>
+              <li>Large markets & concerts</li>
+              <li>Major community celebrations</li>
+            </ul>
+          </div>
 
-      <div class="card half">
+          <div class="sidebar-box">
+            <div class="sidebar-title">Suggest a big event</div>
+            <p class="muted">Send the official link + date/time/location.</p>
+            <a class="btn" href="mailto:hello@zionsvilleindiana.com">Email us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THIS WEEK STRIP -->
+    <section class="section alt" id="week">
+      <div class="container section-head">
         <h2>This Week in Zionsville</h2>
-        <p class="small">A short roundup of what’s worth knowing—linked to original sources.</p>
-        <ul class="list">
-          <li>
-            <span class="tag">Town</span>
-            <div>
-              <strong>Weekly roundup starts soon</strong>
-              <div class="small">Add 3–5 links each week (town updates, schools, roads, big community items).</div>
-            </div>
-          </li>
-          <li>
-            <span class="tag">Schools</span>
-            <div>
-              <strong>Key dates & major announcements</strong>
-              <div class="small">Link out to ZCS + official sources.</div>
-            </div>
-          </li>
-          <li>
-            <span class="tag">Community</span>
-            <div>
-              <strong>Big fundraisers, seasonal drives, and major openings</strong>
-              <div class="small">Only the bigger stuff—no clutter.</div>
-            </div>
-          </li>
-        </ul>
+        <p>Quick links to original sources. No rewrites—just the most useful updates.</p>
+      </div>
+
+      <div class="container">
+        <div class="updates">
+          <article class="update">
+            <div class="badge">Town</div>
+            <div class="update-title">Add 1–2 town updates here each week</div>
+            <div class="update-meta">Link to official source</div>
+          </article>
+
+          <article class="update">
+            <div class="badge">Schools</div>
+            <div class="update-title">Add 1 school headline or key date</div>
+            <div class="update-meta">Link to ZCS / official source</div>
+          </article>
+
+          <article class="update">
+            <div class="badge">Community</div>
+            <div class="update-title">Add 1 community item (opening, fundraiser, etc.)</div>
+            <div class="update-meta">Link to reputable local source</div>
+          </article>
+        </div>
+
+        <div class="below-embed">
+          Want this as a weekly post later? Create <code>weekly.html</code> when you’re ready—no rush.
+        </div>
       </div>
     </section>
 
-    <section class="grid" id="guides" style="margin-top:14px;">
-      <div class="card third">
-        <h2>About Zionsville</h2>
-        <p>Quick context on the town, vibe, and how this site stays curated.</p>
-        <p style="margin-top:10px;"><a class="btn" href="about.html">Open page →</a></p>
+    <!-- GUIDES (tile layout, WP feel) -->
+    <section class="section" id="guides">
+      <div class="container section-head">
+        <h2>Explore Zionsville</h2>
+        <p>Evergreen guides you can keep updated with minimal effort.</p>
       </div>
 
-      <div class="card third">
-        <h2>Parks & Trails</h2>
-        <p>Low-key outdoor spots, walking trails, and family-friendly parks.</p>
-        <p style="margin-top:10px;"><a class="btn" href="parks-trails.html">Open page →</a></p>
-      </div>
+      <div class="container tiles">
+        <a class="tile" href="downtown.html">
+          <div class="tile-icon">🏛️</div>
+          <div class="tile-title">Downtown Guide</div>
+          <div class="tile-text">Walkable spots, food, coffee, and “first visit” ideas.</div>
+        </a>
 
-      <div class="card third">
-        <h2>Downtown Guide</h2>
-        <p>Shops, food, coffee, and the best “walk around” areas.</p>
-        <p style="margin-top:10px;"><a class="btn" href="downtown.html">Open page →</a></p>
-      </div>
+        <a class="tile" href="parks-trails.html">
+          <div class="tile-icon">🌿</div>
+          <div class="tile-title">Parks & Trails</div>
+          <div class="tile-text">Low-key outdoor picks, trails, and easy walks.</div>
+        </a>
 
-      <div class="card third">
-        <h2>Family-Friendly</h2>
-        <p>Easy wins: indoor options, simple outings, and seasonal ideas.</p>
-        <p style="margin-top:10px;"><a class="btn" href="family.html">Open page →</a></p>
-      </div>
+        <a class="tile" href="family.html">
+          <div class="tile-icon">👨‍👩‍👧‍👦</div>
+          <div class="tile-title">Family-Friendly</div>
+          <div class="tile-text">Simple wins for weekends and slower seasons.</div>
+        </a>
 
-      <div class="card third">
-        <h2>Seasonal Highlights</h2>
-        <p>One section to update 4×/year: spring, summer, fall, winter.</p>
-        <p class="small" style="margin-top:10px;">(You can add a seasonal page later—this can stay on the homepage for now.)</p>
-      </div>
-
-      <div class="card third">
-        <h2>Contact</h2>
-        <p>Keep it simple. Email only. No forms required.</p>
-        <p style="margin-top:10px;"><a class="btn" href="mailto:hello@zionsvilleindiana.com">Email →</a></p>
+        <a class="tile" href="about.html">
+          <div class="tile-icon">ℹ️</div>
+          <div class="tile-title">About This Site</div>
+          <div class="tile-text">How events are chosen and what “featured” means here.</div>
+        </a>
       </div>
     </section>
+  </main>
 
-    <footer class="footer">
-      <div>© <span id="year"></span> ZionsvilleIndiana.com</div>
-      <div class="small">Curated event listings + links to official sources.</div>
-    </footer>
-  </div>
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">ZionsvilleIndiana.com</div>
+        <div class="muted">Curated event listings + links to official sources.</div>
+      </div>
+      <div class="footer-links">
+        <a href="events.html">Events</a>
+        <a href="about.html">About</a>
+        <a href="mailto:hello@zionsvilleindiana.com">Contact</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      © <span id="year"></span> ZionsvilleIndiana.com
+    </div>
+  </footer>
 
+  <!-- ✅ IMPORTANT: Load Tockify script once per page that uses embed -->
+  <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
   <script>
     document.getElementById("year").textContent = new Date().getFullYear();
   </script>
