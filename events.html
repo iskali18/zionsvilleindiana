@@ -7,10 +7,9 @@
   <meta name="description" content="Featured community events in Zionsville and nearby towns." />
   <link rel="stylesheet" href="styles.css" />
 </head>
+<body>
 
-<body class="page">
-
-<!-- Header (same structure as homepage, but not overlay) -->
+<!-- Match index.html header/nav -->
 <header class="hero-header">
   <div class="container header-inner">
     <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
@@ -24,7 +23,37 @@
   </div>
 </header>
 
-<!-- Full-width hero with background image -->
-<section class="hero hero-subpage" style="min-height:40vh;">
-  <div class="container">
-    <div class="kicker">Cale
+<div class="container">
+
+  <!-- Hero height reduced to ~40vh -->
+  <section class="hero" style="min-height:40vh;">
+    <div class="kicker">Calendar</div>
+    <h1>Featured Community Events</h1>
+    <p>
+      This calendar highlights medium-to-large events in Zionsville and nearby towns—festivals, parades, concerts,
+      and seasonal celebrations. We keep it intentionally uncluttered.
+    </p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Calendar</h2>
+
+      <div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
+      <script data-cfasync="false" data-tockify-script="embed"
+        src="https://public.tockify.com/browser/embed.js"></script>
+
+      <p class="small" style="margin-top:10px;">
+        Event details are provided by official sources. Please confirm times/locations with the event organizer.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div><a href="index.html">← Back to home</a></div>
+    <div class="small">Curated community guide.</div>
+  </footer>
+
+</div>
+</body>
+</html>
