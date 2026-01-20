@@ -325,5 +325,27 @@ a{color:inherit;text-decoration:none}
   box-shadow:0 10px 30px rgba(0,0,0,.06);
 }
 
+/* Events page hero background (full-width section) */
+.hero-subpage{
+  background:
+    linear-gradient(rgba(255,255,255,.90), rgba(255,255,255,.90)),
+    url("hero.jpg") center/cover no-repeat;
+  padding: 90px 0 24px; /* top padding accounts for the fixed header */
+}
+
+/* Basic layout for events page content */
+.grid{ margin: 22px 0 40px; }
+
+.card{
+  border:1px solid var(--line);
+  border-radius: var(--radius);
+  background:#fff;
+  padding: 16px;
+}
+
+/* Prevent embeds from causing horizontal scroll */
+html, body { overflow-x: hidden; }
+.card iframe, .card embed, .card object { max-width: 100%; }
+
 
 
