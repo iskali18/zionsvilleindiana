@@ -263,5 +263,8 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
   .nav a{font-size:12px;padding:6px 9px;}
   .hero-caption{left:10px;bottom:10px;}
+  .header-inner{flex-wrap:wrap; gap:10px;}
+  .nav{width:100%;}
 }
+
 
