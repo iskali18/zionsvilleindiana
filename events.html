@@ -8,51 +8,52 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="container">
-    <header class="nav">
-      <div class="brand"><a href="index.html">ZionsvilleIndiana.com</a></div>
-      <nav class="links">
-        <a class="pill" href="events.html">Events</a>
-        <a class="pill" href="about.html">About</a>
-        <a class="pill" href="parks-trails.html">Parks & Trails</a>
-        <a class="pill" href="downtown.html">Downtown</a>
-        <a class="pill" href="family.html">Family-Friendly</a>
-      </nav>
-    </header>
 
-    <section class="hero">
-      <div class="kicker">Calendar</div>
-      <h1>Featured Community Events</h1>
-      <p>
-        This calendar highlights medium-to-large events in Zionsville and nearby towns—festivals, parades, concerts,
-        and seasonal celebrations. We keep it intentionally uncluttered.
-      </p>
-    </section>
+<!-- Match index.html header/nav -->
+<header class="hero-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
 
-    <section class="grid">
-      <div class="card">
-        <h2>Calendar</h2>
+    <nav class="nav">
+      <a href="events.html">Events</a>
+      <a href="downtown.html">Downtown</a>
+      <a href="parks-trails.html">Parks & Trails</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
 
-        <!-- ✅ Paste your FULL Tockify embed here -->
-        <!-- Example format (yours may differ): -->
-        <!-- <div data-tockify-component="calendar" data-tockify-calendar="YOURCALENDAR"></div>
-        <script data-cfasync="false" src="https://public.tockify.com/browser/embed.js"></script> -->
-	
-	<div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
-	<script data-cfasync="false" data-tockify-script="embed" 
+<div class="container">
+
+  <!-- Hero height reduced to ~40vh -->
+  <section class="hero" style="min-height:40vh;">
+    <div class="kicker">Calendar</div>
+    <h1>Featured Community Events</h1>
+    <p>
+      This calendar highlights medium-to-large events in Zionsville and nearby towns—festivals, parades, concerts,
+      and seasonal celebrations. We keep it intentionally uncluttered.
+    </p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h2>Calendar</h2>
+
+      <div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
+      <script data-cfasync="false" data-tockify-script="embed"
         src="https://public.tockify.com/browser/embed.js"></script>
 
+      <p class="small" style="margin-top:10px;">
+        Event details are provided by official sources. Please confirm times/locations with the event organizer.
+      </p>
+    </div>
+  </section>
 
-        <p class="small" style="margin-top:10px;">
-          Event details are provided by official sources. Please confirm times/locations with the event organizer.
-        </p>
-      </div>
-    </section>
+  <footer class="footer">
+    <div><a href="index.html">← Back to home</a></div>
+    <div class="small">Curated community guide.</div>
+  </footer>
 
-    <footer class="footer">
-      <div><a href="index.html">← Back to home</a></div>
-      <div class="small">Curated community guide.</div>
-    </footer>
-  </div>
+</div>
 </body>
 </html>
