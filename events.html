@@ -7,7 +7,8 @@
   <meta name="description" content="Featured community events in Zionsville and nearby towns." />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+
+<body class="page">
 
 <!-- Match index.html header/nav -->
 <header class="hero-header">
@@ -23,17 +24,19 @@
   </div>
 </header>
 
-<div class="container">
-
-  <!-- Hero height reduced to ~40vh -->
-  <section class="hero" style="min-height:40vh;">
+<!-- Full-width hero background without causing horizontal scroll -->
+<section class="hero hero-subpage" style="min-height:40vh;">
+  <div class="container">
     <div class="kicker">Calendar</div>
     <h1>Featured Community Events</h1>
     <p>
       This calendar highlights medium-to-large events in Zionsville and nearby towns—festivals, parades, concerts,
       and seasonal celebrations. We keep it intentionally uncluttered.
     </p>
-  </section>
+  </div>
+</section>
+
+<div class="container">
 
   <section class="grid">
     <div class="card">
