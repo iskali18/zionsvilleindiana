@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
   --page:#ffffff;
@@ -14,13 +15,12 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
-/* Safety: prevents horizontal scrollbar from embeds/odd widths */
-html, body { overflow-x: hidden; }
-
 body{
-  font-family:'Manrope',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   color:var(--text);
   background:var(--page);
+  font-size:16px;
+  line-height:1.65;
 }
 
 a{color:inherit;text-decoration:none}
@@ -34,12 +34,12 @@ a{color:inherit;text-decoration:none}
 /* HERO */
 .hero{background:#fff}
 
-/* Thin overlay header (homepage) */
+/* Thin overlay header */
 .hero-header{
-  position:fixed;              /* stays on top, doesn't steal hero space */
+  position:fixed;
   top:0; left:0; right:0;
   z-index:50;
-  pointer-events:none;         /* so hero still scrolls naturally */
+  pointer-events:none;
 }
 .header-inner{
   display:flex;
@@ -49,19 +49,21 @@ a{color:inherit;text-decoration:none}
   pointer-events:auto;
 }
 .brand-link{
+  font-family:'Manrope',sans-serif;
   font-weight:800;
   font-size:16px;
   color:#fff;
   text-shadow:0 2px 14px rgba(0,0,0,.35);
 }
 
-/* Nav pills: thinner + subtle */
+/* Nav */
 .nav{
   display:flex;
   gap:10px;
   flex-wrap:wrap;
 }
 .nav a{
+  font-family:'Manrope',sans-serif;
   color:rgba(255,255,255,.92);
   font-weight:700;
   font-size:13px;
@@ -73,21 +75,19 @@ a{color:inherit;text-decoration:none}
 }
 .nav a:hover{background:rgba(0,0,0,.32)}
 
-/* FULL BLEED hero media (homepage) */
+/* HERO MEDIA */
 .hero-media{
   margin:0;
   position:relative;
-  height:100svh;               /* full screen (mobile safe) */
+  height:100svh;
   min-height:560px;
   overflow:hidden;
   background:#000;
 }
-
 .hero-img{
-  width:100vw;                 /* true full width */
+  width:100vw;
   height:100%;
-  object-fit:cover;            /* ✅ fills the screen */
-  object-position:center;
+  object-fit:cover;
   display:block;
 }
 
@@ -96,7 +96,6 @@ a{color:inherit;text-decoration:none}
   position:absolute;
   left:16px;
   bottom:14px;
-  margin:0;
   padding:8px 10px;
   border-radius:999px;
   background:var(--chip);
@@ -105,24 +104,24 @@ a{color:inherit;text-decoration:none}
   display:flex;
   gap:10px;
   align-items:center;
-  flex-wrap:wrap;
   font-size:12px;
 }
 .cap{
+  font-family:'Manrope',sans-serif;
   font-weight:800;
   letter-spacing:.08em;
   text-transform:uppercase;
   font-size:10px;
-  opacity:.9;
 }
 .cap-text{opacity:.85}
 
-/* Bottom intro block (homepage) */
+/* Bottom intro */
 .hero-bottom{
   padding:22px 0 10px;
 }
 
 .kicker{
+  font-family:'Manrope',sans-serif;
   font-size:11px;
   letter-spacing:.14em;
   text-transform:uppercase;
@@ -132,33 +131,29 @@ a{color:inherit;text-decoration:none}
 }
 
 .hero-bottom h1{
+  font-family:'Manrope',sans-serif;
   margin:0 0 14px;
-  font-size:clamp(24px, 3.2vw, 40px);
+  font-size:clamp(26px, 3.2vw, 40px);
   line-height:1.12;
   letter-spacing:-0.02em;
   max-width:46ch;
 }
 
-/* Elegant link CTAs */
+/* Links */
 .hero-links{
   display:flex;
   gap:18px;
   flex-wrap:wrap;
-  align-items:center;
 }
 .link-btn{
+  font-family:'Manrope',sans-serif;
   font-weight:800;
   font-size:14px;
   padding:6px 0;
   border-bottom:1px solid rgba(11,15,20,.28);
-  transition:border-color .15s ease, opacity .15s ease;
 }
 .link-btn:hover{border-bottom-color: rgba(11,15,20,.65);}
-.link-btn.subtle{
-  opacity:.72;
-  border-bottom-color: rgba(11,15,20,.18);
-}
-.link-btn.subtle:hover{opacity:.9}
+
 .arrow{margin-left:6px}
 
 /* SECTION */
@@ -168,6 +163,7 @@ a{color:inherit;text-decoration:none}
 }
 
 .section-head h2{
+  font-family:'Manrope',sans-serif;
   margin:0 0 6px;
   font-size:18px;
   letter-spacing:.02em;
@@ -178,11 +174,21 @@ a{color:inherit;text-decoration:none}
 .muted{
   margin:0;
   color:var(--muted);
-  font-size:14px;
-  line-height:1.6;
+  font-size:15px;
 }
 
-/* Events grid (homepage cards) */
+/* FEATURED */
+.featured-row{
+  display:grid;
+  grid-template-columns:1fr 1.2fr;
+  gap:20px;
+}
+
+.featured-text p{
+  margin:0 0 12px;
+}
+
+/* Events grid */
 .event-grid{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
@@ -191,52 +197,44 @@ a{color:inherit;text-decoration:none}
 }
 
 .event-card{
-  display:block;
   border-radius:var(--radius);
   overflow:hidden;
   border:1px solid var(--line);
   background:#fff;
-  transition:transform .12s ease, box-shadow .18s ease;
 }
-.event-card:hover{
-  transform:translateY(-2px);
-  box-shadow:var(--shadow);
-}
-
 .event-img{
   width:100%;
   height:180px;
   object-fit:cover;
-  display:block;
-  background:#111;
 }
 
-.event-body{padding:14px 14px 16px;}
+.event-body{padding:14px;}
 
 .event-date{
+  font-family:'Manrope',sans-serif;
   font-weight:800;
   font-size:12px;
   letter-spacing:.10em;
   text-transform:uppercase;
   color:var(--muted);
-  margin-bottom:6px;
-}
-.event-title{
-  font-weight:800;
-  font-size:16px;
-  line-height:1.25;
-  margin-bottom:6px;
-  letter-spacing:-0.01em;
-}
-.event-desc{
-  font-size:0.85em;
-}
-.event-meta{
-  color:var(--muted);
-  font-size:13px;
 }
 
-.section-footer{margin-top:16px;}
+.event-title{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:16px;
+  margin-bottom:4px;
+}
+
+.event-desc{
+  font-size:15px;
+  margin-bottom:6px;
+}
+
+.event-meta{
+  font-size:14px;
+  color:var(--muted);
+}
 
 /* Footer */
 .site-footer{
@@ -246,99 +244,14 @@ a{color:inherit;text-decoration:none}
 .footer-inner{
   display:flex;
   justify-content:space-between;
-  align-items:center;
-  gap:12px;
-  flex-wrap:wrap;
 }
-.footer-brand{font-weight:800;}
-.footer-links{
-  display:flex;
-  gap:14px;
-  flex-wrap:wrap;
+.footer-brand{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
 }
-.footer-links a{
-  font-weight:700;
-  color:var(--muted);
-}
-.footer-links a:hover{color:var(--text);}
-
-/* ---------- Subpage fixes (Events/Downtown/Parks/About) ---------- */
-
-/* Prevent fixed overlay header from covering content on subpages */
-.page .hero-header{
-  position:sticky;
-  top:0;
-  pointer-events:auto;
-  background:#fff;
-}
-
-.page .brand-link{
-  color:var(--text);
-  text-shadow:none;
-}
-
-.page .nav a{
-  color:var(--text);
-  background:rgba(11,15,20,.06);
-  backdrop-filter:none;
-}
-
-.page .nav a:hover{background:rgba(11,15,20,.10);}
-
-/* Use this on subpages when you want a photo-backed hero:
-   <section class="hero hero-subpage" style="min-height:40vh;">
-*/
-.hero-subpage{
-  background:
-    linear-gradient(rgba(255,255,255,0.88), rgba(255,255,255,0.88)),
-    url("hero.jpg") center/cover no-repeat;
-
-  /* keeps spacing comfortable below sticky header */
-  padding:24px 0;
-}
-
-/* Subpage content wrappers (Events calendar card) */
-.grid{ margin: 18px 0 42px; }
-
-.card{
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  background:#fff;
-  padding:16px;
-}
-
-/* Safety for embeds inside cards */
-.card iframe, .card embed, .card object { max-width:100%; }
 
 /* Mobile */
 @media (max-width:900px){
   .event-grid{grid-template-columns:1fr;}
-  .nav a{font-size:12px;padding:6px 9px;}
-  .hero-caption{left:10px;bottom:10px;}
-
-  /* Header wrap on small screens */
-  .header-inner{flex-wrap:wrap; gap:10px;}
-  .nav{width:100%;}
+  .featured-row{grid-template-columns:1fr;}
 }
-
-.featured-row{
-  display:grid;
-  grid-template-columns: 1fr 1.2fr;
-  gap:24px;
-  align-items:center;
-}
-
-.featured-img img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  border-radius:var(--radius);
-}
-
-/* Mobile */
-@media (max-width:900px){
-  .featured-row{
-    grid-template-columns:1fr;
-  }
-}
-
