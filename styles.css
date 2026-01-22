@@ -92,34 +92,45 @@ a{color:inherit;text-decoration:none}
   display:block;
 }
 
-/* Caption */
+/* Caption – refined */
 .hero-caption{
   position:absolute;
   left:16px;
   bottom:14px;
   margin:0;
-  padding:8px 10px;
-  border-radius:999px;
-  background:var(--chip);
-  border:1px solid rgba(255,255,255,.35);
-  backdrop-filter: blur(10px);
+
+  /* smaller, tighter */
+  padding:4px 8px;
+  min-height:auto;
+
+  border-radius:10px; /* less pill-like */
+  background:rgba(255,255,255,.55); /* lighter */
+
+  border:1px solid rgba(255,255,255,.25);
+  backdrop-filter: blur(6px);
+
   display:flex;
-  gap:10px;
+  gap:8px;
   align-items:center;
   flex-wrap:wrap;
-  font-size:12px;
+  font-size:11px;
 }
+
+/* caption text */
 .cap{
   font-family:'Manrope',sans-serif;
   font-weight:800;
-  letter-spacing:.08em;
+  letter-spacing:.06em;
   text-transform:uppercase;
-  font-size:10px;
-  opacity:.9;
+  font-size:9px;
+  opacity:.8;
 }
-.cap-text{opacity:.85}
+.cap-text{
+  opacity:.8;
+  font-size:11px;
+}
 
-/* ULTRA subtle credits */
+/* Ultra-subtle credits */
 .hero-credit,
 .feature-credit{
   position:absolute;
@@ -127,15 +138,14 @@ a{color:inherit;text-decoration:none}
   bottom:14px;
   z-index:3;
 
-  font-size:9px;                  /* smaller */
-  color:rgba(255,255,255,.38);    /* lower opacity */
+  font-size:8px;
+  color:rgba(255,255,255,.28);
 
   background:none;
   border:none;
   padding:0;
 
-  text-shadow:
-    0 1px 1px rgba(0,0,0,.9);
+  text-shadow: 0 1px 1px rgba(0,0,0,.9);
 
   pointer-events:none;
   user-select:none;
@@ -351,13 +361,17 @@ a{color:inherit;text-decoration:none}
   .nav{width:100%;}
   .nav a{font-size:12px; padding:6px 9px;}
 
-  .hero-caption{left:10px; bottom:10px;}
+  .hero-caption{
+    left:10px;
+    bottom:10px;
+    padding:3px 7px;
+  }
 
   .hero-credit,
   .feature-credit{
     right:10px;
     bottom:10px;
-    font-size:8px;
+    font-size:7px;
   }
 
   .featured-row{grid-template-columns:1fr;}
