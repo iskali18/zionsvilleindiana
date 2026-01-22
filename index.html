@@ -55,8 +55,7 @@
 
       <!-- Image -->
       <div class="featured-img">
-        <img src="feature-fire.jpg" 
-             alt="Zionsville fire truck parked in town" />
+        <img src="feature-fire.jpg" alt="Zionsville fire truck parked in town" />
       </div>
 
       <!-- Text -->
@@ -102,7 +101,94 @@
     <!-- Event 1 -->
     <a href="https://business.zionsvillechamber.org/calendar/Details/torchy-s-tacos-grand-opening-and-ribbon-cutting-celebration-1588768?sourceTypeId=Website"
        class="event-card"
-       target="_blank">
+       target="_blank" rel="noopener">
 
       <img src="event1.jpg"
-           alt="Torchy's Tacos grand opening
+           alt="Torchy's Tacos grand opening ribbon cutting in Zionsville"
+           class="event-img" />
+
+      <div class="event-body">
+        <div class="event-date">Jan 28</div>
+        <div class="event-title">Torchy's Tacos Grand Opening & Ribbon Cutting Ceremony</div>
+        <div class="event-desc">
+          Join the Zionsville Chamber of Commerce as they officially welcome Torchy's Tacos to Zionsville
+        </div>
+        <div class="event-meta">
+          8:45–9:45 AM • 11826 Sylo Crossing, Suite 602
+        </div>
+      </div>
+    </a>
+
+    <!-- Event 2 -->
+    <a href="https://www.facebook.com/events/687340167479821"
+       class="event-card"
+       target="_blank" rel="noopener">
+
+      <img src="event2.jpg"
+           alt="Made in Zionsville event on Main Street featuring local classes and tastings"
+           class="event-img" />
+
+      <div class="event-body">
+        <div class="event-date">Feb 6–8</div>
+        <div class="event-title">Made in Zionsville</div>
+        <div class="event-desc">
+          Learn something new in Zionsville! Explore classes, workshops, demos and more!
+          Event by Main Street Zionsville, Village Yarn Company & Fivethirty Home
+        </div>
+        <div class="event-meta">
+          10 AM • 413 S Main St
+        </div>
+      </div>
+    </a>
+
+    <!-- Event 3 -->
+    <a href="events.html" class="event-card">
+
+      <img src="event3.jpg"
+           alt="Children participating in the EGGnormous Egg Hunt at Lions Park in Zionsville"
+           class="event-img" />
+
+      <div class="event-body">
+        <div class="event-date">Apr 4</div>
+        <div class="event-title">EGGnormous Egg Hunt</div>
+        <div class="event-desc">
+          A beloved Easter tradition with age-group egg hunts and family activities.
+        </div>
+        <div class="event-meta">Lions Park</div>
+        <div class="event-meta">
+          Time TBD • 115 S Elm Street
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <div class="container section-footer">
+    <a class="link-btn" href="events.html">
+      View the full events calendar <span class="arrow">→</span>
+    </a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">ZionsvilleIndiana.com</div>
+    <div class="footer-links">
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+      <a href="mailto:hello@zionsvilleindiana.com">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    © <span id="year"></span> ZionsvilleIndiana.com
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
