@@ -92,45 +92,33 @@ a{color:inherit;text-decoration:none}
   display:block;
 }
 
-/* Caption – refined */
+/* Caption (now lives in the bottom bar, not on the image) */
 .hero-caption{
-  position:absolute;
-  left:16px;
-  bottom:14px;
-  margin:0;
-
-  /* smaller, tighter */
-  padding:4px 8px;
-  min-height:auto;
-
-  border-radius:10px; /* less pill-like */
-  background:rgba(255,255,255,.55); /* lighter */
-
-  border:1px solid rgba(255,255,255,.25);
-  backdrop-filter: blur(6px);
-
+  margin-top:10px;
   display:flex;
-  gap:8px;
-  align-items:center;
+  gap:10px;
+  align-items:baseline;
   flex-wrap:wrap;
-  font-size:11px;
+
+  font-size:12px;
+  color:var(--muted);
 }
 
-/* caption text */
 .cap{
   font-family:'Manrope',sans-serif;
   font-weight:800;
-  letter-spacing:.06em;
+  letter-spacing:.08em;
   text-transform:uppercase;
-  font-size:9px;
-  opacity:.8;
+  font-size:10px;
+  color:var(--muted);
+  opacity:.9;
 }
 .cap-text{
-  opacity:.8;
-  font-size:11px;
+  color:var(--muted);
+  opacity:.9;
 }
 
-/* Ultra-subtle credits */
+/* Ultra-subtle credits (on images) */
 .hero-credit,
 .feature-credit{
   position:absolute;
@@ -150,9 +138,6 @@ a{color:inherit;text-decoration:none}
   pointer-events:none;
   user-select:none;
 }
-
-/* feature image positioning */
-.featured-img{ position:relative; }
 
 /* Bottom intro block */
 .hero-bottom{ padding:22px 0 10px; }
@@ -208,7 +193,7 @@ a{color:inherit;text-decoration:none}
   font-weight:800;
 }
 
-/* Normal muted paragraphs */
+/* Normal muted paragraphs (NOT all caps) */
 .muted{
   margin:0;
   color:var(--muted);
@@ -216,7 +201,7 @@ a{color:inherit;text-decoration:none}
   line-height:1.6;
 }
 
-/* Date label */
+/* Date label style (separate from .muted so it doesn't affect other sections) */
 .section-date{
   margin:0;
   font-family:'Manrope',sans-serif;
@@ -237,6 +222,7 @@ a{color:inherit;text-decoration:none}
 
 /* 4:3 consistent featured photos */
 .featured-img{
+  position:relative; /* for feature-credit positioning */
   border-radius:var(--radius);
   overflow:hidden;
   border:1px solid var(--line);
@@ -287,7 +273,7 @@ a{color:inherit;text-decoration:none}
 
 .event-img{
   width:100%;
-  height:180px;
+  height:180px;        /* IMPORTANT: prevents “huge photo” */
   object-fit:cover;
   display:block;
   background:#111;
@@ -361,12 +347,6 @@ a{color:inherit;text-decoration:none}
   .nav{width:100%;}
   .nav a{font-size:12px; padding:6px 9px;}
 
-  .hero-caption{
-    left:10px;
-    bottom:10px;
-    padding:3px 7px;
-  }
-
   .hero-credit,
   .feature-credit{
     right:10px;
@@ -378,7 +358,7 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
 }
 
-/* Non-hero pages */
+/* Non-hero pages: add class="page" on body for subpages */
 .page .hero-header{
   position:sticky;
   top:0;
