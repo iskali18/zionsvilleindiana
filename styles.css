@@ -255,3 +255,42 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
   .featured-row{grid-template-columns:1fr;}
 }
+
+/* --- FIX: Featured article layout + image sizing (paste at end) --- */
+#featured { display:block; }
+
+.featured-row{
+  display:grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap:18px;
+  align-items:stretch;
+}
+
+.featured-img{
+  border-radius: var(--radius);
+  overflow:hidden;
+  border:1px solid var(--line);
+  background:#111;
+}
+
+.featured-img img{
+  width:100%;
+  height:260px;        /* keeps the firetruck photo from becoming huge */
+  object-fit:cover;
+  display:block;
+}
+
+.featured-text{
+  padding:0;           /* your text already sits inside the container */
+}
+
+.featured-text h2{
+  margin-top:0;
+}
+
+/* Mobile */
+@media (max-width:900px){
+  .featured-row{ grid-template-columns:1fr; }
+  .featured-img img{ height:200px; }
+}
+
