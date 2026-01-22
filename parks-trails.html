@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parks & Trails | Zionsville Indiana</title>
+  <meta name="description" content="A curated guide to parks, trails, and outdoor spots in Zionsville, Indiana." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page">
+
+<section class="hero">
+
+  <header class="hero-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
+
+      <nav class="nav">
+        <a href="events.html">Events</a>
+        <a href="downtown.html">Downtown</a>
+        <a href="parks-trails.html" aria-current="page">Parks & Trails</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- SHORT HERO IMAGE -->
+  <figure class="hero-media short">
+    <img src="parks-hero.jpg"
+         alt="Trail and green space in Zionsville, Indiana"
+         class="hero-img" />
+    <div class="hero-credit">© ZionsvilleIndiana.com</div>
+  </figure>
+
+  <div class="hero-underbar">
+    <div class="container">
+      <div class="hero-caption">
+        <span class="cap">Featured photo</span>
+        <span class="cap-text">Zionsville parks & trails</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container page-hero">
+    <div class="kicker">Guide</div>
+    <h1>Parks & Trails</h1>
+    <p class="page-intro">
+      Easy walks, fresh air, and family-friendly outdoor spots — curated simply so you can get outside
+      without overthinking it.
+    </p>
+  </div>
+
+</section>
+
+<!-- rest of page unchanged -->
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">ZionsvilleIndiana.com</div>
+    <div class="footer-links">
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+      <a href="mailto:hello@zionsvilleindiana.com">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    © <span id="year"></span> ZionsvilleIndiana.com
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
