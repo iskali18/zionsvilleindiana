@@ -294,3 +294,25 @@ a{color:inherit;text-decoration:none}
   .featured-img img{ height:200px; }
 }
 
+/* Featured image: device-safe (no cropping) */
+.featured-img{
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: #fff; /* prevents black bars */
+}
+
+.featured-img img{
+  width: 100%;
+  height: 260px;          /* consistent block height */
+  object-fit: contain;    /* ✅ never crops */
+  object-position: center;
+  background: #fff;       /* letterbox color */
+  display: block;
+}
+
+@media (max-width:900px){
+  .featured-img img{ height: 200px; }
+}
+
+
