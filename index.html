@@ -33,14 +33,15 @@
 
   <div class="hero-bottom">
     <div class="container">
-      <div class="kicker">Zionsville, Indiana</div>
-      <h1>What’s happening around town</h1>
 
-      <!-- moved caption into the bottom bar -->
+      <!-- ✅ caption is now directly under the photo (top of the bottom bar) -->
       <div class="hero-caption">
         <span class="cap">Featured photo</span>
         <span class="cap-text">Maplelawn Farmstead • Summer • 2023</span>
       </div>
+
+      <div class="kicker">Zionsville, Indiana</div>
+      <h1>What’s happening around town</h1>
     </div>
   </div>
 
@@ -158,4 +159,22 @@
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <div class="footer-brand">ZionsvilleIndiana.c
+    <div class="footer-brand">ZionsvilleIndiana.com</div>
+    <div class="footer-links">
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+      <a href="mailto:hello@zionsvilleindiana.com">Contact</a>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    © <span id="year"></span> ZionsvilleIndiana.com
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
