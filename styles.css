@@ -119,31 +119,28 @@ a{color:inherit;text-decoration:none}
 }
 .cap-text{opacity:.85}
 
-/* ✅ Subtle on-image credit (NEW) */
+/* ✅ Subtle on-image credit (TEXT ONLY — no pill) */
 .hero-credit{
   position:absolute;
-  right:14px;
+  right:16px;
   bottom:14px;
   z-index:3;
 
   font-size:12px;
-  line-height:1.2;
-  color:rgba(255,255,255,.78);
+  color:rgba(255,255,255,.85);
 
-  background:rgba(0,0,0,.28);
-  border:1px solid rgba(255,255,255,.16);
-  backdrop-filter: blur(10px);
-  padding:7px 10px;
-  border-radius:999px;
+  /* text-only */
+  background:none;
+  border:none;
+  padding:0;
 
+  /* readability */
+  text-shadow:
+    0 1px 2px rgba(0,0,0,.90),
+    0 0 6px rgba(0,0,0,.60);
+
+  pointer-events:none;
   user-select:none;
-}
-.hero-credit a{
-  color:rgba(255,255,255,.86);
-  text-decoration:none;
-}
-.hero-credit a:hover{
-  text-decoration:underline;
 }
 
 /* Bottom intro block */
@@ -355,12 +352,11 @@ a{color:inherit;text-decoration:none}
 
   .hero-caption{left:10px; bottom:10px;}
 
-  /* Keep credit comfortable on small screens */
+  /* keep credit comfortable on small screens */
   .hero-credit{
     right:10px;
     bottom:10px;
     font-size:11px;
-    padding:6px 9px;
   }
 
   .featured-row{grid-template-columns:1fr;}
