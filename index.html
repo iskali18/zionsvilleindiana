@@ -3,9 +3,51 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <title>Zionsville Indiana | Events & Local Highlights</title>
   <meta name="description" content="A photo-forward guide to events and local highlights in Zionsville, Indiana." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://zionsvilleindiana.com/" />
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow" />
+
+  <!-- Theme color (mobile browser UI) -->
+  <meta name="theme-color" content="#ffffff" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ZionsvilleIndiana.com" />
+  <meta property="og:title" content="Zionsville Indiana | Events & Local Highlights" />
+  <meta property="og:description" content="A photo-forward guide to events and local highlights in Zionsville, Indiana." />
+  <meta property="og:url" content="https://zionsvilleindiana.com/" />
+  <!-- TIP: Replace with a real 1200x630 image path when ready -->
+  <meta property="og:image" content="https://zionsvilleindiana.com/og-home.jpg" />
+  <meta property="og:image:alt" content="Zionsville Indiana hero photo" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Zionsville Indiana | Events & Local Highlights" />
+  <meta name="twitter:description" content="A photo-forward guide to events and local highlights in Zionsville, Indiana." />
+  <meta name="twitter:image" content="https://zionsvilleindiana.com/og-home.jpg" />
+
+  <!-- Favicons (optional; safe to leave even if files added later) -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Structured data (minimal + safe) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ZionsvilleIndiana.com",
+    "url": "https://zionsvilleindiana.com/",
+    "inLanguage": "en-US"
+  }
+  </script>
 </head>
 <body>
 
@@ -26,10 +68,16 @@
 
   <figure class="hero-media">
     <img src="hero.jpg" alt="Landscape photo from Zionsville, Indiana" class="hero-img" />
+
     <figcaption class="hero-caption">
       <span class="cap">Featured photo</span>
       <span class="cap-text">Maplelawn Farmstead • Summer • 2023</span>
     </figcaption>
+
+    <!-- ✅ Subtle on-image credit (NEW) -->
+    <div class="hero-credit" aria-label="Photo credit">
+      Photo: <a href="photo-credits.html">Happy Spectrum Travels</a>
+    </div>
   </figure>
 
   <div class="hero-bottom">
@@ -161,7 +209,8 @@
   </div>
 
   <div class="container footer-bottom">
-    © <span id="year"></span> ZionsvilleIndiana.com
+    <!-- ✅ Footer copyright statement (UPDATED) -->
+    © <span id="year"></span> ZionsvilleIndiana.com. All rights reserved.
   </div>
 </footer>
 
