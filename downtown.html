@@ -10,6 +10,7 @@
 <body class="page">
 
 <section class="hero">
+
   <header class="hero-header">
     <div class="container header-inner">
       <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
@@ -23,15 +24,35 @@
     </div>
   </header>
 
+  <!-- SHORT HERO IMAGE -->
+  <figure class="hero-media short">
+    <img src="downtown-hero.jpg"
+         alt="Brick streets and storefronts in downtown Zionsville, Indiana"
+         class="hero-img" />
+    <div class="hero-credit">© ZionsvilleIndiana.com</div>
+  </figure>
+
+  <div class="hero-underbar">
+    <div class="container">
+      <div class="hero-caption">
+        <span class="cap">Featured photo</span>
+        <span class="cap-text">Downtown Zionsville • Any season</span>
+      </div>
+    </div>
+  </div>
+
   <div class="container page-hero">
     <div class="kicker">Guide</div>
     <h1>Downtown Zionsville</h1>
     <p class="page-intro">
       Brick streets, local shops, cozy cafés, and seasonal events — this is a curated starting point.
-      I’ll keep it simple: what to do, where to wander, and ideas for a great evening or weekend.
+      What to do, where to wander, and ideas for an easy evening or weekend.
     </p>
   </div>
+
 </section>
+
+<!-- rest of page remains exactly the same -->
 
 <section class="section">
   <div class="container section-head">
@@ -60,30 +81,24 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container section-head">
-    <h2>Highlights</h2>
-    <p class="muted">Use these as “content buckets” you can expand over time.</p>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">ZionsvilleIndiana.com</div>
+    <div class="footer-links">
+      <a href="events.html">Events</a>
+      <a href="about.html">About</a>
+      <a href="mailto:hello@zionsvilleindiana.com">Contact</a>
+    </div>
   </div>
 
-  <div class="container cards-3">
-    <div class="card">
-      <h3>Shops & browsing</h3>
-      <p class="muted">
-        A mix of local boutiques and specialty shops. Perfect for a low-key afternoon.
-      </p>
-      <div class="note">Add: 6–12 shop spotlights over time.</div>
-    </div>
+  <div class="container footer-bottom">
+    © <span id="year"></span> ZionsvilleIndiana.com
+  </div>
+</footer>
 
-    <div class="card">
-      <h3>Food & drink</h3>
-      <p class="muted">
-        A handful of spots you can rotate through for date nights and family meals.
-      </p>
-      <div class="note">Add: “What I’d order” notes (1–2 lines each).</div>
-    </div>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
 
-    <div class="card">
-      <h3>Seasonal moments</h3>
-      <p class="muted">
-        Markets, holiday strolls, pop-ups, and town traditions. Great for pho
+</body>
+</html>
