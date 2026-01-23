@@ -375,12 +375,12 @@ a{color:inherit;text-decoration:none}
   backdrop-filter:none;
 }
 .page .nav a:hover{background:rgba(11,15,20,.10);}
-.page .hero{ padding-top:22px; }
+.page .hero{ padding-top:0px; }
 
 /* ---------- Subpage layouts (Downtown / Parks) ---------- */
 
 .page-hero{
-  padding:84px 0 18px; /* header is sticky on .page */
+  padding:18px 0 18px; /* header is sticky on .page */
 }
 
 .page-intro{
@@ -551,6 +551,10 @@ a{color:inherit;text-decoration:none}
     height:34vh;
     min-height:220px;
   }
+}
+
+.page .header-inner{
+  padding:8px 0;
 }
 
 
