@@ -15,7 +15,9 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
+/* ✅ Prevent any horizontal “drift” / 100vw overflow issues */
 body{
+  overflow-x:hidden;
   font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   color:var(--text);
   background:var(--page);
@@ -25,8 +27,9 @@ body{
 
 a{color:inherit;text-decoration:none}
 
+/* ✅ One consistent alignment rule for the entire site */
 .container{
-  max-width:1120px;
+  max-width:1320px;   /* wider than 1120 so it feels less “boxed” */
   margin:0 auto;
   padding:0 20px;
 }
@@ -83,16 +86,19 @@ a{color:inherit;text-decoration:none}
   min-height:560px;
   overflow:hidden;
   background:#000;
+  width:100%; /* ✅ don’t use 100vw here */
 }
+
+/* ✅ CRITICAL: remove 100vw (scrollbar mismatch). Use 100% */
 .hero-img{
-  width:100vw;
+  width:100%;
   height:100%;
   object-fit:cover;
   object-position:center;
   display:block;
 }
 
-/* ✅ NEW: thin bar directly under the image (caption lives here) */
+/* Caption bar directly under the image */
 .hero-underbar{
   padding:8px 0 6px;
   border-bottom:1px solid var(--line);
@@ -193,7 +199,6 @@ a{color:inherit;text-decoration:none}
   font-weight:800;
 }
 
-/* Normal muted paragraphs (NOT all caps) */
 .muted{
   margin:0;
   color:var(--muted);
@@ -201,7 +206,6 @@ a{color:inherit;text-decoration:none}
   line-height:1.6;
 }
 
-/* Date label style */
 .section-date{
   margin:0;
   font-family:'Manrope',sans-serif;
@@ -220,7 +224,6 @@ a{color:inherit;text-decoration:none}
   align-items:start;
 }
 
-/* 4:3 consistent featured photos */
 .featured-img{
   position:relative;
   border-radius:var(--radius);
@@ -360,7 +363,7 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
 }
 
-/* Non-hero pages: add class="page" on body for subpages */
+/* Non-hero pages: body class="page" on subpages */
 .page .hero-header{
   position:sticky;
   top:0;
@@ -375,4 +378,72 @@ a{color:inherit;text-decoration:none}
   backdrop-filter:none;
 }
 .page .nav a:hover{background:rgba(11,15,20,.10);}
-.page .hero{ padding-top:22px; }
+.page .hero{ padding-top:0px; }
+
+/* ---------- Subpage layouts (Downtown / Parks / About) ---------- */
+.page-hero{
+  padding:18px 0 18px;
+}
+
+.page-intro{
+  margin:10px 0 0;
+  max-width:70ch;
+  color:var(--muted);
+  font-size:16px;
+  line-height:1.7;
+}
+
+.two-col{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+  margin-top:18px;
+}
+
+.cards-3{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:18px;
+  margin-top:18px;
+}
+
+.card{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:16px 16px 18px;
+  background:#fff;
+}
+
+.card h3{
+  font-family:'Manrope',sans-serif;
+  margin:0 0 8px;
+  font-size:16px;
+  letter-spacing:-0.01em;
+}
+
+.bullets{
+  margin:10px 0 0;
+  padding-left:18px;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.7;
+}
+
+.note{
+  margin-top:10px;
+  font-size:12px;
+  color:var(--muted);
+  border-top:1px dashed var(--line);
+  padding-top:10px;
+}
+
+.list{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  overflow:hidden;
+  background:#fff;
+  margin-top:18px;
+}
+
+.list-row{
+ 
