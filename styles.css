@@ -14,8 +14,8 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
-/* ✅ prevents any image (including event1.jpg / featured image) from blowing out its container */
-img{max-width:100%;height:auto}
+/* Safety: images never overflow containers */
+img{max-width:100%;height:auto;display:block}
 
 body{
   overflow-x:hidden;
@@ -48,15 +48,17 @@ a{color:inherit;text-decoration:none}
   top:0; left:0; right:0;
   z-index:50;
   pointer-events:none;
-  background:transparent; /* ✅ prevents any “white bar” effect on home */
+  background:transparent;
 }
 
-/* Header uses FULL WIDTH so nav is not “centered” */
+/* ✅ FIX: this was overriding .header-inner padding due to higher specificity.
+   Keep full width, but only set LEFT/RIGHT padding here (not top/bottom). */
 .hero-header .container{
   max-width:none;
   width:100%;
   margin:0;
-  padding:0 20px;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 /* Header row */
@@ -65,8 +67,8 @@ a{color:inherit;text-decoration:none}
   justify-content:space-between;
   align-items:center;
 
-  /* ✅ MORE TOP SPACE so buttons never touch the top (also respects iOS safe area) */
-  padding:calc(env(safe-area-inset-top) + 22px) 0 12px;
+  /* ✅ real breathing room from top for BOTH brand + nav */
+  padding:18px 0 12px;
 
   pointer-events:auto;
 }
@@ -90,7 +92,7 @@ a{color:inherit;text-decoration:none}
   font-family:'Manrope',sans-serif;
   font-weight:700;
   font-size:12px;
-  padding:7px 11px;   /* ✅ slightly taller pill */
+  padding:7px 11px;
   line-height:1;
   border-radius:999px;
   background:rgba(0,0,0,.22);
@@ -104,7 +106,7 @@ a{color:inherit;text-decoration:none}
    HERO MEDIA
    ========================= */
 .hero-media{
-  margin:0;            /* ✅ CRITICAL: removes default <figure> top margin (the white bar) */
+  margin:0;
   position:relative;
   width:100%;
   overflow:hidden;
@@ -117,18 +119,10 @@ a{color:inherit;text-decoration:none}
   min-height:560px;
 }
 
-/* Subpage hero */
-.hero-media.short{
-  height:40vh;
-  min-height:260px;
-  max-height:420px;
-}
-
 .hero-img{
   width:100%;
   height:100%;
   object-fit:cover;
-  display:block;
 }
 
 /* Photo credit */
@@ -206,135 +200,167 @@ a{color:inherit;text-decoration:none}
   margin:0 0 6px;
 }
 
+.section-date{
+  margin:0;
+  font-size:13px;
+  color:var(--muted);
+}
+
 .muted{
   color:var(--muted);
   font-size:15px;
 }
 
 /* =========================
-   SUBPAGE INTRO
+   FEATURED ARTICLE (YOUR REAL HTML)
    ========================= */
-.page-hero{
-  padding:18px 0;
-}
-
-.page-intro{
-  margin:10px 0 0;
-  max-width:70ch;
-  color:var(--muted);
-  font-size:16px;
-}
-
-/* =========================
-   CARDS / LAYOUT
-   ========================= */
-.two-col{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:18px;
-  margin-top:18px;
-}
-
-.card{
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:16px 16px 18px;
-  background:#fff;
-}
-
-/* ✅ keeps any images inside cards (including event images) from going huge */
-.card img{
-  display:block;
-  width:100%;
-  height:auto;
-  border-radius:14px;
-}
-
-.card h3{
-  font-family:'Manrope',sans-serif;
-  font-size:16px;
-  margin:0 0 8px;
-}
-
-.bullets{
-  padding-left:18px;
-  color:var(--muted);
-  font-size:14px;
-}
-
-/* =========================
-   FEATURED ARTICLE (image left, text right)
-   (no HTML changes; just layout)
-   ========================= */
-.featured,
-.featured-article,
-.featured-card,
-.feature,
-.hero-feature,
-.featured-post{
+.featured-row{
   display:flex;
   gap:18px;
   align-items:stretch;
 }
 
-/* Left-side image behavior */
-.featured img,
-.featured-article img,
-.featured-card img,
-.feature img,
-.hero-feature img,
-.featured-post img{
-  width:42%;
+/* Left image column */
+.featured-img{
+  flex:0 0 42%;
   max-width:420px;
-  flex:0 0 auto;
-  height:auto;
-  object-fit:cover;
-  border-radius:14px;
-  display:block;
+  position:relative;
 }
 
-/* Right-side content behavior */
-.featured .content,
-.featured-article .content,
-.featured-card .content,
-.feature .content,
-.hero-feature .content,
-.featured-post .content{
+/* Keep the featured image shaped nicely without making it “huge” */
+.featured-img img{
+  width:100%;
+  height:100%;
+  max-height:360px;
+  object-fit:cover;
+  border-radius:var(--radius);
+}
+
+/* Featured credit */
+.feature-credit{
+  position:absolute;
+  right:12px;
+  bottom:10px;
+  font-size:9px;
+  color:rgba(255,255,255,.55);
+  text-shadow:0 1px 2px rgba(0,0,0,.8);
+  pointer-events:none;
+}
+
+/* Right text column */
+.featured-text{
   flex:1 1 auto;
   min-width:0;
 }
 
+.featured-text h2{
+  font-family:'Manrope',sans-serif;
+  margin:6px 0 10px;
+  font-size:22px;
+  line-height:1.2;
+}
+
 /* =========================
-   EVENT CARDS (layout + image sizing)
-   (doesn't change structure; just makes common event card classnames behave)
+   BUTTON LINK (Read the full story / View full calendar)
    ========================= */
-.events-grid,
-.event-grid,
-.events-cards,
-.event-cards{
+.link-btn{
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+  margin-top:10px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:#fff;
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:12px;
+  letter-spacing:.02em;
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+}
+
+.link-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 10px 24px rgba(11,15,20,.10);
+  background:#fafafa;
+}
+
+.arrow{display:inline-block}
+
+/* =========================
+   EVENTS (YOUR REAL HTML)
+   ========================= */
+.event-grid{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
   gap:18px;
+  margin-top:18px;
 }
 
-.event-card,
-.event{
+/* Event card */
+.event-card{
   border:1px solid var(--line);
   border-radius:var(--radius);
   background:#fff;
-  overflow:hidden; /* ✅ ensures big images don't spill out */
-  box-shadow:var(--shadow);
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  min-height:100%;
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
 }
 
-.event-card img,
-.event img,
-.event-card .event-img,
-.event .event-img{
+.event-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 30px rgba(11,15,20,.10);
+  border-color:#dcdcdc;
+}
+
+/* ✅ Fix: event images were feeling “huge”.
+   Set a consistent image height (does NOT change card “sizes” unpredictably). */
+.event-img{
   width:100%;
-  display:block;
-  aspect-ratio:4/3;      /* ✅ stops “event1.jpg is gigantic” feeling */
+  height:170px;
   object-fit:cover;
-  height:auto;
+}
+
+/* Card body */
+.event-body{
+  padding:12px 14px 14px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.event-date{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+.event-title{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:15px;
+  line-height:1.25;
+}
+
+.event-desc{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
+
+.event-meta{
+  color:var(--muted);
+  font-size:12px;
+}
+
+/* Section footer button alignment */
+.section-footer{
+  margin-top:18px;
 }
 
 /* =========================
@@ -349,6 +375,7 @@ a{color:inherit;text-decoration:none}
   display:flex;
   justify-content:space-between;
   flex-wrap:wrap;
+  gap:12px;
 }
 
 .footer-brand{
@@ -367,13 +394,18 @@ a{color:inherit;text-decoration:none}
   color:var(--muted);
 }
 
+.footer-bottom{
+  margin-top:12px;
+  color:var(--muted);
+  font-size:13px;
+}
+
 /* =========================
    SUBPAGE HEADER STYLE
    ========================= */
 .page .hero-header{
   position:sticky;
-  top:0;
-  background:#fff;            /* subpages get the white header */
+  background:#fff;
   border-bottom:1px solid var(--line);
 }
 
@@ -395,43 +427,31 @@ a{color:inherit;text-decoration:none}
   .header-inner{
     flex-wrap:wrap;
     gap:10px;
-    padding:calc(env(safe-area-inset-top) + 18px) 0 10px;
+    padding:16px 0 10px;
   }
 
   .nav{width:100%;justify-content:flex-start}
 
-  .two-col{grid-template-columns:1fr}
-
-  /* Featured stacks on mobile */
-  .featured,
-  .featured-article,
-  .featured-card,
-  .feature,
-  .hero-feature,
-  .featured-post{
+  /* Featured stacks on mobile (image above text) */
+  .featured-row{
     flex-direction:column;
   }
 
-  .featured img,
-  .featured-article img,
-  .featured-card img,
-  .feature img,
-  .hero-feature img,
-  .featured-post img{
-    width:100%;
+  .featured-img{
     max-width:none;
+    flex:1 1 auto;
   }
 
-  /* Events grid stacks on mobile */
-  .events-grid,
-  .event-grid,
-  .events-cards,
-  .event-cards{
+  .featured-img img{
+    max-height:320px;
+  }
+
+  /* Events: single column on mobile */
+  .event-grid{
     grid-template-columns:1fr;
   }
 
-  .hero-media.short{
-    height:34vh;
-    min-height:220px;
+  .event-img{
+    height:190px;
   }
 }
