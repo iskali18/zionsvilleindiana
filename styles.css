@@ -557,5 +557,18 @@ a{color:inherit;text-decoration:none}
   padding:8px 0;
 }
 
+/* Pull nav to edges inside fixed hero header */
+.hero-header .container{
+  padding-left:12px;
+  padding-right:12px;
+}
+
+@media (max-width:900px){
+  .hero-header .container{
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
+
 
 
