@@ -34,27 +34,20 @@ a{color:inherit;text-decoration:none}
 /* HERO */
 .hero{background:#fff}
 
-/* Thin overlay header (HOME + SUBPAGES) */
+/* Thin overlay header */
 .hero-header{
   position:fixed;
   top:0; left:0; right:0;
   z-index:50;
   pointer-events:none;
 }
-
-/* ✅ Key fix: header should NOT be constrained by 1120px container */
-.hero-header .container{
-  max-width:none;
-}
-
 .header-inner{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:10px 0; /* restore original height */
+  padding:10px 0;
   pointer-events:auto;
 }
-
 .brand-link{
   font-family:'Manrope',sans-serif;
   font-weight:800;
@@ -367,9 +360,9 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
 }
 
-/* ---------------- Subpages (.page) ---------------- */
+/* ---------------- SUBPAGES ---------------- */
 
-/* Sticky header on subpages (white bar) */
+/* Sticky header on subpages */
 .page .hero-header{
   position:sticky;
   top:0;
@@ -378,11 +371,19 @@ a{color:inherit;text-decoration:none}
   border-bottom:1px solid var(--line);
 }
 
-/* ✅ Key fix: remove the big side whitespace on subpages */
-.page .container{
+/* ✅ CRITICAL: Keep the NAV in the normal centered container (NOT at screen edge) */
+.page .hero-header .container{
+  max-width:1120px;
+}
+
+/* ✅ CRITICAL: Make subpage CONTENT full-width (no big side whitespace) */
+.page section.section .container,
+.page .page-hero.container,
+.page .hero-underbar .container{
   max-width:none;
 }
 
+/* Subpage header colors */
 .page .brand-link{ color:var(--text); text-shadow:none; }
 .page .nav a{
   color:var(--text);
@@ -393,7 +394,8 @@ a{color:inherit;text-decoration:none}
 
 .page .hero{ padding-top:0; }
 
-/* Subpage intro spacing (no giant gaps) */
+/* ---------- Subpage layouts ---------- */
+
 .page-hero{
   padding:18px 0 18px;
 }
@@ -405,8 +407,6 @@ a{color:inherit;text-decoration:none}
   font-size:16px;
   line-height:1.7;
 }
-
-/* ---------- Subpage layouts (Downtown / Parks / About) ---------- */
 
 .two-col{
   display:grid;
@@ -539,13 +539,11 @@ a{color:inherit;text-decoration:none}
 }
 
 /* ---------- Short hero for subpages ---------- */
-
 .page .hero-media.short{
   height:40vh;
   min-height:260px;
   max-height:420px;
 }
-
 .page .hero-media.short .hero-img{
   object-position:center;
 }
