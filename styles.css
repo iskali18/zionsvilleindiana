@@ -49,10 +49,12 @@ a{color:inherit;text-decoration:none}
   z-index:50;
   pointer-events:none;
   background:transparent;
+
+  /* ✅ slightly less space above the header */
+  padding-top:calc(env(safe-area-inset-top) + 6px);
 }
 
-/* ✅ FIX: this was overriding .header-inner padding due to higher specificity.
-   Keep full width, but only set LEFT/RIGHT padding here (not top/bottom). */
+/* ✅ FIX: do not override .header-inner top/bottom padding */
 .hero-header .container{
   max-width:none;
   width:100%;
@@ -67,8 +69,8 @@ a{color:inherit;text-decoration:none}
   justify-content:space-between;
   align-items:center;
 
-  /* ✅ real breathing room from top for BOTH brand + nav */
-  padding:18px 0 12px;
+  /* ✅ reduced top padding (nav closer to top, but not touching) */
+  padding:12px 0 10px;
 
   pointer-events:auto;
 }
@@ -119,6 +121,13 @@ a{color:inherit;text-decoration:none}
   min-height:560px;
 }
 
+/* ✅ Subpage hero (downtown.html, etc.) */
+.hero-media.short{
+  height:40vh;
+  min-height:260px;
+  max-height:420px;
+}
+
 .hero-img{
   width:100%;
   height:100%;
@@ -140,7 +149,8 @@ a{color:inherit;text-decoration:none}
    HERO CAPTION BAR
    ========================= */
 .hero-underbar{
-  border-bottom:1px solid var(--line);
+  /* ✅ removed thin gray line */
+  border-bottom:none;
   padding:8px 0 6px;
 }
 
@@ -188,7 +198,9 @@ a{color:inherit;text-decoration:none}
    ========================= */
 .section{
   padding:34px 0 48px;
-  border-top:1px solid var(--line);
+
+  /* ✅ removed thin gray line */
+  border-top:none;
 }
 
 .section-head h2{
@@ -227,7 +239,7 @@ a{color:inherit;text-decoration:none}
   position:relative;
 }
 
-/* Keep the featured image shaped nicely without making it “huge” */
+/* Keep the featured image shaped nicely */
 .featured-img img{
   width:100%;
   height:100%;
@@ -315,8 +327,7 @@ a{color:inherit;text-decoration:none}
   border-color:#dcdcdc;
 }
 
-/* ✅ Fix: event images were feeling “huge”.
-   Set a consistent image height (does NOT change card “sizes” unpredictably). */
+/* Event image: consistent height so it doesn't feel huge */
 .event-img{
   width:100%;
   height:170px;
@@ -367,7 +378,8 @@ a{color:inherit;text-decoration:none}
    FOOTER
    ========================= */
 .site-footer{
-  border-top:1px solid var(--line);
+  /* ✅ removed thin gray line */
+  border-top:none;
   padding:18px 0 22px;
 }
 
@@ -405,15 +417,31 @@ a{color:inherit;text-decoration:none}
    ========================= */
 .page .hero-header{
   position:sticky;
+  top:0;
   background:#fff;
-  border-bottom:1px solid var(--line);
+
+  /* ✅ removed thin gray line */
+  border-bottom:none;
+
+  /* ✅ streamline subpage header overall height */
+  padding-top:0;
+}
+
+.page .header-inner{
+  /* ✅ shorter subpage header */
+  padding:10px 0 8px;
 }
 
 .page .brand-link{color:var(--text);text-shadow:none}
 
+/* Subpage nav pills slightly tighter */
 .page .nav a{
   background:rgba(11,15,20,.06);
   color:var(--text);
+
+  /* ✅ slimmer */
+  padding:6px 10px;
+  font-size:12px;
 }
 
 .page .nav a:hover{
@@ -427,7 +455,9 @@ a{color:inherit;text-decoration:none}
   .header-inner{
     flex-wrap:wrap;
     gap:10px;
-    padding:16px 0 10px;
+
+    /* ✅ slightly reduced */
+    padding:12px 0 10px;
   }
 
   .nav{width:100%;justify-content:flex-start}
@@ -453,5 +483,16 @@ a{color:inherit;text-decoration:none}
 
   .event-img{
     height:190px;
+  }
+
+  /* Subpage hero slightly smaller on mobile */
+  .hero-media.short{
+    height:34vh;
+    min-height:220px;
+  }
+
+  /* Streamlined subpage header on mobile too */
+  .page .header-inner{
+    padding:10px 0 8px;
   }
 }
