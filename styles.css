@@ -15,9 +15,8 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
-/* Prevent tiny horizontal overflow from scrollbar/100vw quirks */
 body{
-  overflow-x:hidden;
+  overflow-x:hidden; /* prevents tiny overflow drift */
   font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
   color:var(--text);
   background:var(--page);
@@ -27,7 +26,7 @@ body{
 
 a{color:inherit;text-decoration:none}
 
-/* Layout container (single source of truth) */
+/* Content container (single source of truth for page alignment) */
 .container{
   max-width:1120px;
   margin:0 auto;
@@ -37,7 +36,7 @@ a{color:inherit;text-decoration:none}
 /* HERO */
 .hero{background:#fff}
 
-/* Thin overlay header */
+/* Header */
 .hero-header{
   position:fixed;
   top:0; left:0; right:0;
@@ -45,19 +44,27 @@ a{color:inherit;text-decoration:none}
   pointer-events:none;
 }
 
-/* header-inner works whether it's on the same element as .container or nested */
+/* ✅ KEY: Make ONLY the HEADER area full width (fixes “nav feels centered”) */
+.hero-header .container{
+  max-width:none;     /* full width header */
+  width:100%;
+  margin:0;
+  padding:0 20px;     /* consistent page padding */
+}
+
+/* Header inner row */
 .header-inner{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:10px 0;
+  padding:8px 0;      /* ✅ shorter header */
   pointer-events:auto;
 }
 
 .brand-link{
   font-family:'Manrope',sans-serif;
   font-weight:800;
-  font-size:16px;
+  font-size:15px;     /* slightly smaller */
   color:#fff;
   text-shadow:0 2px 14px rgba(0,0,0,.35);
 }
@@ -72,17 +79,17 @@ a{color:inherit;text-decoration:none}
   font-family:'Manrope',sans-serif;
   color:rgba(255,255,255,.92);
   font-weight:700;
-  font-size:13px;
-  padding:6px 10px;
+  font-size:12px;     /* ✅ smaller */
+  padding:5px 9px;    /* ✅ tighter pill */
   border-radius:999px;
   background:rgba(0,0,0,.22);
   backdrop-filter: blur(10px);
   transition:background .15s ease;
+  line-height:1;      /* ✅ helps reduce header height */
 }
 .nav a:hover{background:rgba(0,0,0,.32)}
 
-/* FULL BLEED hero media */
-/* ✅ IMPORTANT: only the non-short heroes are full screen */
+/* Hero media */
 .hero-media{
   margin:0;
   position:relative;
@@ -91,20 +98,20 @@ a{color:inherit;text-decoration:none}
   width:100%;
 }
 
-/* Home (and any hero without .short) */
+/* Home page hero = full screen */
 .hero-media:not(.short){
   height:100svh;
   min-height:560px;
 }
 
-/* Subpages (short hero) */
+/* Subpage hero = short */
 .hero-media.short{
   height:40vh;
   min-height:260px;
   max-height:420px;
 }
 
-/* ✅ IMPORTANT: avoid 100vw (causes stagger/overflow due to scrollbar width) */
+/* ✅ CRITICAL: NEVER use 100vw here (causes stagger/drift due to scrollbar width) */
 .hero-img{
   width:100%;
   height:100%;
@@ -113,12 +120,13 @@ a{color:inherit;text-decoration:none}
   display:block;
 }
 
-/* Caption bar directly under the image */
+/* Caption underbar */
 .hero-underbar{
   padding:8px 0 6px;
   border-bottom:1px solid var(--line);
 }
 
+/* Caption content uses the normal container (so it lines up with page content) */
 .hero-caption{
   margin:0;
   display:flex;
@@ -139,23 +147,19 @@ a{color:inherit;text-decoration:none}
 }
 .cap-text{opacity:.9}
 
-/* Ultra-subtle credits (on images) */
+/* Credits */
 .hero-credit,
 .feature-credit{
   position:absolute;
   right:16px;
   bottom:14px;
   z-index:3;
-
   font-size:8px;
   color:rgba(255,255,255,.28);
-
   background:none;
   border:none;
   padding:0;
-
   text-shadow: 0 1px 1px rgba(0,0,0,.9);
-
   pointer-events:none;
   user-select:none;
 }
@@ -182,7 +186,7 @@ a{color:inherit;text-decoration:none}
   max-width:46ch;
 }
 
-/* Elegant link CTAs */
+/* Link CTA */
 .link-btn{
   font-family:'Manrope',sans-serif;
   font-weight:800;
@@ -199,7 +203,7 @@ a{color:inherit;text-decoration:none}
 .link-btn.subtle:hover{opacity:.9}
 .arrow{margin-left:6px}
 
-/* SECTION */
+/* Sections */
 .section{
   padding:34px 0 48px;
   border-top:1px solid var(--line);
@@ -214,7 +218,6 @@ a{color:inherit;text-decoration:none}
   font-weight:800;
 }
 
-/* Normal muted paragraphs (NOT all caps) */
 .muted{
   margin:0;
   color:var(--muted);
@@ -222,7 +225,6 @@ a{color:inherit;text-decoration:none}
   line-height:1.6;
 }
 
-/* Date label style */
 .section-date{
   margin:0;
   font-family:'Manrope',sans-serif;
@@ -233,7 +235,7 @@ a{color:inherit;text-decoration:none}
   color:var(--muted);
 }
 
-/* FEATURED */
+/* Featured */
 .featured-row{
   display:grid;
   grid-template-columns: 1fr 1.2fr;
@@ -241,7 +243,6 @@ a{color:inherit;text-decoration:none}
   align-items:start;
 }
 
-/* 4:3 consistent featured photos */
 .featured-img{
   position:relative;
   border-radius:var(--radius);
@@ -271,7 +272,7 @@ a{color:inherit;text-decoration:none}
   line-height:1.65;
 }
 
-/* Events grid */
+/* Events */
 .event-grid{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
@@ -362,7 +363,7 @@ a{color:inherit;text-decoration:none}
 }
 .footer-links a:hover{color:var(--text);}
 
-/* ---------- Subpages: body class="page" ---------- */
+/* Subpages */
 .page .hero-header{
   position:sticky;
   top:0;
@@ -370,6 +371,15 @@ a{color:inherit;text-decoration:none}
   background:#fff;
   border-bottom:1px solid var(--line);
 }
+
+/* Keep full-width header on subpages too (so pills are not “centered”) */
+.page .hero-header .container{
+  max-width:none;
+  width:100%;
+  margin:0;
+  padding:0 20px;
+}
+
 .page .brand-link{ color:var(--text); text-shadow:none; }
 .page .nav a{
   color:var(--text);
@@ -379,10 +389,8 @@ a{color:inherit;text-decoration:none}
 .page .nav a:hover{background:rgba(11,15,20,.10);}
 .page .hero{ padding-top:0; }
 
-/* Subpage intro block */
-.page-hero{
-  padding:18px 0 18px;
-}
+/* Subpage intro area */
+.page-hero{ padding:18px 0 18px; }
 
 .page-intro{
   margin:10px 0 0;
@@ -392,17 +400,10 @@ a{color:inherit;text-decoration:none}
   line-height:1.7;
 }
 
-/* Subpage layout helpers */
+/* Cards + layout helpers */
 .two-col{
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:18px;
-  margin-top:18px;
-}
-
-.cards-3{
-  display:grid;
-  grid-template-columns:repeat(3, 1fr);
   gap:18px;
   margin-top:18px;
 }
@@ -429,111 +430,11 @@ a{color:inherit;text-decoration:none}
   line-height:1.7;
 }
 
-.note{
-  margin-top:10px;
-  font-size:12px;
-  color:var(--muted);
-  border-top:1px dashed var(--line);
-  padding-top:10px;
-}
-
-.list{
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  overflow:hidden;
-  background:#fff;
-  margin-top:18px;
-}
-
-.list-row{
-  display:grid;
-  grid-template-columns:110px 1fr;
-  gap:14px;
-  padding:14px 14px;
-  border-top:1px solid var(--line);
-}
-.list-row:first-child{border-top:none}
-
-.list-date{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:12px;
-  letter-spacing:.10em;
-  text-transform:uppercase;
-  color:var(--muted);
-}
-
-.list-title{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:14px;
-  margin-bottom:4px;
-}
-
-.list-desc{
-  color:var(--muted);
-  font-size:13px;
-  line-height:1.6;
-}
-
-.spotlight{ margin-top:18px; }
-
-.spot{
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:16px 16px 14px;
-  background:#fff;
-  margin-bottom:14px;
-}
-
-.spot-top{
-  display:flex;
-  justify-content:space-between;
-  gap:10px;
-  flex-wrap:wrap;
-  align-items:baseline;
-  margin-bottom:6px;
-}
-
-.spot-title{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:16px;
-  letter-spacing:-0.01em;
-}
-
-.spot-tag{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:10px;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:var(--muted);
-  background:rgba(11,15,20,.06);
-  padding:6px 10px;
-  border-radius:999px;
-}
-
-.spot-desc{ margin:0 0 10px; }
-
-.spot-meta{
-  color:var(--muted);
-  font-size:12px;
-  border-top:1px dashed var(--line);
-  padding-top:10px;
-}
-
 /* Mobile */
 @media (max-width:900px){
   .header-inner{flex-wrap:wrap; gap:10px;}
   .nav{width:100%;}
   .nav a{font-size:12px; padding:6px 9px;}
-
-  /* Short hero on mobile */
-  .hero-media.short{
-    height:34vh;
-    min-height:220px;
-  }
 
   .hero-underbar{padding:7px 0 5px;}
 
@@ -546,8 +447,10 @@ a{color:inherit;text-decoration:none}
 
   .featured-row{grid-template-columns:1fr;}
   .event-grid{grid-template-columns:1fr;}
+  .two-col{grid-template-columns:1fr;}
 
-  .two-col{ grid-template-columns:1fr; }
-  .cards-3{ grid-template-columns:1fr; }
-  .list-row{ grid-template-columns:1fr; }
+  .hero-media.short{
+    height:34vh;
+    min-height:220px;
+  }
 }
