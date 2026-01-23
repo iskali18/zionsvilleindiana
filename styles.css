@@ -14,7 +14,7 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
-/* ✅ prevents any image (including event1.jpg) from blowing out its container */
+/* ✅ prevents any image (including event1.jpg / featured image) from blowing out its container */
 img{max-width:100%;height:auto}
 
 body{
@@ -49,9 +49,6 @@ a{color:inherit;text-decoration:none}
   z-index:50;
   pointer-events:none;
   background:transparent; /* ✅ prevents any “white bar” effect on home */
-
-  /* ✅ adds breathing room from the very top (and supports iOS safe area) */
-  padding-top:env(safe-area-inset-top);
 }
 
 /* Header uses FULL WIDTH so nav is not “centered” */
@@ -68,8 +65,8 @@ a{color:inherit;text-decoration:none}
   justify-content:space-between;
   align-items:center;
 
-  /* ✅ slightly more top space so pills never “kiss” the top edge */
-  padding:22px 0 12px;
+  /* ✅ MORE TOP SPACE so buttons never touch the top (also respects iOS safe area) */
+  padding:calc(env(safe-area-inset-top) + 22px) 0 12px;
 
   pointer-events:auto;
 }
@@ -266,6 +263,48 @@ a{color:inherit;text-decoration:none}
 }
 
 /* =========================
+   FEATURED ARTICLE (image left, text right)
+   (no HTML changes; just layout)
+   ========================= */
+.featured,
+.featured-article,
+.featured-card,
+.feature,
+.hero-feature,
+.featured-post{
+  display:flex;
+  gap:18px;
+  align-items:stretch;
+}
+
+/* Left-side image behavior */
+.featured img,
+.featured-article img,
+.featured-card img,
+.feature img,
+.hero-feature img,
+.featured-post img{
+  width:42%;
+  max-width:420px;
+  flex:0 0 auto;
+  height:auto;
+  object-fit:cover;
+  border-radius:14px;
+  display:block;
+}
+
+/* Right-side content behavior */
+.featured .content,
+.featured-article .content,
+.featured-card .content,
+.feature .content,
+.hero-feature .content,
+.featured-post .content{
+  flex:1 1 auto;
+  min-width:0;
+}
+
+/* =========================
    EVENT CARDS (layout + image sizing)
    (doesn't change structure; just makes common event card classnames behave)
    ========================= */
@@ -295,7 +334,7 @@ a{color:inherit;text-decoration:none}
   display:block;
   aspect-ratio:4/3;      /* ✅ stops “event1.jpg is gigantic” feeling */
   object-fit:cover;
-  height:auto;           /* for <img> without explicit height */
+  height:auto;
 }
 
 /* =========================
@@ -336,9 +375,6 @@ a{color:inherit;text-decoration:none}
   top:0;
   background:#fff;            /* subpages get the white header */
   border-bottom:1px solid var(--line);
-
-  /* ✅ keep the same top breathing room on subpages too */
-  padding-top:env(safe-area-inset-top);
 }
 
 .page .brand-link{color:var(--text);text-shadow:none}
@@ -356,11 +392,37 @@ a{color:inherit;text-decoration:none}
    MOBILE
    ========================= */
 @media (max-width:900px){
-  .header-inner{flex-wrap:wrap; gap:10px; padding:18px 0 10px;}
+  .header-inner{
+    flex-wrap:wrap;
+    gap:10px;
+    padding:calc(env(safe-area-inset-top) + 18px) 0 10px;
+  }
+
   .nav{width:100%;justify-content:flex-start}
 
   .two-col{grid-template-columns:1fr}
 
+  /* Featured stacks on mobile */
+  .featured,
+  .featured-article,
+  .featured-card,
+  .feature,
+  .hero-feature,
+  .featured-post{
+    flex-direction:column;
+  }
+
+  .featured img,
+  .featured-article img,
+  .featured-card img,
+  .feature img,
+  .hero-feature img,
+  .featured-post img{
+    width:100%;
+    max-width:none;
+  }
+
+  /* Events grid stacks on mobile */
   .events-grid,
   .event-grid,
   .events-cards,
