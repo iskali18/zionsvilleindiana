@@ -34,20 +34,27 @@ a{color:inherit;text-decoration:none}
 /* HERO */
 .hero{background:#fff}
 
-/* Thin overlay header */
+/* Thin overlay header (HOME + SUBPAGES) */
 .hero-header{
   position:fixed;
   top:0; left:0; right:0;
   z-index:50;
   pointer-events:none;
 }
+
+/* ✅ Key fix: header should NOT be constrained by 1120px container */
+.hero-header .container{
+  max-width:none;
+}
+
 .header-inner{
   display:flex;
   justify-content:space-between;
   align-items:center;
-  padding:10px 0;
+  padding:10px 0; /* restore original height */
   pointer-events:auto;
 }
+
 .brand-link{
   font-family:'Manrope',sans-serif;
   font-weight:800;
@@ -75,7 +82,7 @@ a{color:inherit;text-decoration:none}
 }
 .nav a:hover{background:rgba(0,0,0,.32)}
 
-/* FULL BLEED hero media */
+/* FULL BLEED hero media (HOME) */
 .hero-media{
   margin:0;
   position:relative;
@@ -92,7 +99,7 @@ a{color:inherit;text-decoration:none}
   display:block;
 }
 
-/* ✅ NEW: thin bar directly under the image (caption lives here) */
+/* Caption bar directly under the image */
 .hero-underbar{
   padding:8px 0 6px;
   border-bottom:1px solid var(--line);
@@ -360,7 +367,9 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
 }
 
-/* Non-hero pages: add class="page" on body for subpages */
+/* ---------------- Subpages (.page) ---------------- */
+
+/* Sticky header on subpages (white bar) */
 .page .hero-header{
   position:sticky;
   top:0;
@@ -368,6 +377,12 @@ a{color:inherit;text-decoration:none}
   background:#fff;
   border-bottom:1px solid var(--line);
 }
+
+/* ✅ Key fix: remove the big side whitespace on subpages */
+.page .container{
+  max-width:none;
+}
+
 .page .brand-link{ color:var(--text); text-shadow:none; }
 .page .nav a{
   color:var(--text);
@@ -375,12 +390,12 @@ a{color:inherit;text-decoration:none}
   backdrop-filter:none;
 }
 .page .nav a:hover{background:rgba(11,15,20,.10);}
-.page .hero{ padding-top:0px; }
 
-/* ---------- Subpage layouts (Downtown / Parks) ---------- */
+.page .hero{ padding-top:0; }
 
+/* Subpage intro spacing (no giant gaps) */
 .page-hero{
-  padding:18px 0 18px; /* header is sticky on .page */
+  padding:18px 0 18px;
 }
 
 .page-intro{
@@ -390,6 +405,8 @@ a{color:inherit;text-decoration:none}
   font-size:16px;
   line-height:1.7;
 }
+
+/* ---------- Subpage layouts (Downtown / Parks / About) ---------- */
 
 .two-col{
   display:grid;
@@ -450,7 +467,6 @@ a{color:inherit;text-decoration:none}
   padding:14px 14px;
   border-top:1px solid var(--line);
 }
-
 .list-row:first-child{border-top:none}
 
 .list-date{
@@ -522,13 +538,6 @@ a{color:inherit;text-decoration:none}
   padding-top:10px;
 }
 
-@media (max-width:900px){
-  .page-hero{ padding:72px 0 10px; }
-  .two-col{ grid-template-columns:1fr; }
-  .cards-3{ grid-template-columns:1fr; }
-  .list-row{ grid-template-columns:1fr; }
-}
-
 /* ---------- Short hero for subpages ---------- */
 
 .page .hero-media.short{
@@ -541,34 +550,19 @@ a{color:inherit;text-decoration:none}
   object-position:center;
 }
 
-/* tighten spacing below short hero */
+/* Slightly tighter caption bar on subpages */
 .page .hero-underbar{
   padding:6px 0 5px;
 }
 
 @media (max-width:900px){
+  .page-hero{ padding:16px 0 12px; }
+  .two-col{ grid-template-columns:1fr; }
+  .cards-3{ grid-template-columns:1fr; }
+  .list-row{ grid-template-columns:1fr; }
+
   .page .hero-media.short{
     height:34vh;
     min-height:220px;
   }
 }
-
-.page .header-inner{
-  padding:8px 0;
-}
-
-/* Pull nav to edges inside fixed hero header */
-.hero-header .container{
-  padding-left:12px;
-  padding-right:12px;
-}
-
-@media (max-width:900px){
-  .hero-header .container{
-    padding-left:10px;
-    padding-right:10px;
-  }
-}
-
-
-
