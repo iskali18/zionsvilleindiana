@@ -14,6 +14,9 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
+/* ✅ prevents any image (including event1.jpg) from blowing out its container */
+img{max-width:100%;height:auto}
+
 body{
   overflow-x:hidden;
   font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
@@ -46,6 +49,9 @@ a{color:inherit;text-decoration:none}
   z-index:50;
   pointer-events:none;
   background:transparent; /* ✅ prevents any “white bar” effect on home */
+
+  /* ✅ adds breathing room from the very top (and supports iOS safe area) */
+  padding-top:env(safe-area-inset-top);
 }
 
 /* Header uses FULL WIDTH so nav is not “centered” */
@@ -62,8 +68,8 @@ a{color:inherit;text-decoration:none}
   justify-content:space-between;
   align-items:center;
 
-  /* ✅ MORE TOP SPACE so buttons never touch the top */
-  padding:18px 0 12px;
+  /* ✅ slightly more top space so pills never “kiss” the top edge */
+  padding:22px 0 12px;
 
   pointer-events:auto;
 }
@@ -239,6 +245,14 @@ a{color:inherit;text-decoration:none}
   background:#fff;
 }
 
+/* ✅ keeps any images inside cards (including event images) from going huge */
+.card img{
+  display:block;
+  width:100%;
+  height:auto;
+  border-radius:14px;
+}
+
 .card h3{
   font-family:'Manrope',sans-serif;
   font-size:16px;
@@ -249,6 +263,39 @@ a{color:inherit;text-decoration:none}
   padding-left:18px;
   color:var(--muted);
   font-size:14px;
+}
+
+/* =========================
+   EVENT CARDS (layout + image sizing)
+   (doesn't change structure; just makes common event card classnames behave)
+   ========================= */
+.events-grid,
+.event-grid,
+.events-cards,
+.event-cards{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:18px;
+}
+
+.event-card,
+.event{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:#fff;
+  overflow:hidden; /* ✅ ensures big images don't spill out */
+  box-shadow:var(--shadow);
+}
+
+.event-card img,
+.event img,
+.event-card .event-img,
+.event .event-img{
+  width:100%;
+  display:block;
+  aspect-ratio:4/3;      /* ✅ stops “event1.jpg is gigantic” feeling */
+  object-fit:cover;
+  height:auto;           /* for <img> without explicit height */
 }
 
 /* =========================
@@ -286,8 +333,12 @@ a{color:inherit;text-decoration:none}
    ========================= */
 .page .hero-header{
   position:sticky;
+  top:0;
   background:#fff;            /* subpages get the white header */
   border-bottom:1px solid var(--line);
+
+  /* ✅ keep the same top breathing room on subpages too */
+  padding-top:env(safe-area-inset-top);
 }
 
 .page .brand-link{color:var(--text);text-shadow:none}
@@ -305,10 +356,17 @@ a{color:inherit;text-decoration:none}
    MOBILE
    ========================= */
 @media (max-width:900px){
-  .header-inner{flex-wrap:wrap; gap:10px; padding:16px 0 10px;}
+  .header-inner{flex-wrap:wrap; gap:10px; padding:18px 0 10px;}
   .nav{width:100%;justify-content:flex-start}
 
   .two-col{grid-template-columns:1fr}
+
+  .events-grid,
+  .event-grid,
+  .events-cards,
+  .event-cards{
+    grid-template-columns:1fr;
+  }
 
   .hero-media.short{
     height:34vh;
