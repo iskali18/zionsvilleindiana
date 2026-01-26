@@ -536,9 +536,28 @@ a{color:inherit;text-decoration:none}
   .hero-caption-right{
     display:none;
   }
-
   
 }
+
+/* =========================
+   DOWNTOWN ITINERARIES GRID
+   ========================= */
+
+/* Desktop & large screens: force 2x2 */
+#itineraries .event-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+}
+
+/* Tablet & mobile: stack cards */
+@media (max-width:900px){
+  #itineraries .event-grid{
+    grid-template-columns:1fr;
+  }
+}
+
+
 
 
 
