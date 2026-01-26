@@ -544,6 +544,24 @@ a{color:inherit;text-decoration:none}
    ========================= */
 
 /* Desktop & large screens: force 2x2 */
+/*#itineraries .event-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:18px;
+} */
+
+/* Tablet & mobile: stack cards */
+/*@media (max-width:900px){
+  #itineraries .event-grid{
+    grid-template-columns:1fr;
+  }
+}*/
+
+/* =========================
+   DOWNTOWN ITINERARIES GRID
+   ========================= */
+
+/* Desktop & large screens: force 2x2 */
 #itineraries .event-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
@@ -560,6 +578,7 @@ a{color:inherit;text-decoration:none}
 #itineraries .event-grid{
   outline:4px solid red;
 }
+
 
 
 
