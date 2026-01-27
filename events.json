@@ -1,17 +1,8 @@
 [
   {
-    "dateLabel": "Jan 28",
-    "title": "Torchy’s Tacos Grand Opening & Ribbon Cutting Ceremony",
-    "description": "Join the Zionsville Chamber of Commerce as they officially welcome Torchy’s Tacos to Zionsville.",
-    "meta": "8:45–9:45 AM • 11826 Sylo Crossing, Suite 602",
-    "image": "event1.jpg",
-    "alt": "Torchy's Tacos grand opening ribbon cutting in Zionsville",
-    "url": "https://business.zionsvillechamber.org/calendar/Details/torchy-s-tacos-grand-opening-and-ribbon-cutting-celebration-1588768?sourceTypeId=Website"
-  },
-  {
     "dateLabel": "Feb 6–8",
     "title": "Made in Zionsville",
-    "description": "Explore classes, workshops, demos and more — hosted by local businesses on Main Street.",
+    "description": "Explore classes, workshops, demos, and hands-on experiences hosted by local businesses throughout downtown.",
     "meta": "10 AM • 413 S Main St",
     "image": "event2.jpg",
     "alt": "Made in Zionsville event on Main Street featuring local classes and tastings",
@@ -20,10 +11,19 @@
   {
     "dateLabel": "Apr 4",
     "title": "EGGnormous Egg Hunt",
-    "description": "A beloved Easter tradition with age-group egg hunts and family activities.",
+    "description": "A beloved Easter tradition with age-group egg hunts and family-friendly activities.",
     "meta": "Lions Park • Time TBD",
     "image": "event3.jpg",
     "alt": "Children participating in the EGGnormous Egg Hunt at Lions Park in Zionsville",
+    "url": "events.html"
+  },
+  {
+    "dateLabel": "May 2",
+    "title": "Brick Street Market",
+    "description": "A seasonal outdoor market featuring local makers, artisans, and small businesses lining Main Street.",
+    "meta": "10:00 AM–4:00 PM • Main Street, Zionsville, IN 46077",
+    "image": "brick-street-market.jpg",
+    "alt": "Brick Street Market on Main Street in downtown Zionsville",
     "url": "events.html"
   }
 ]
