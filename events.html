@@ -4,59 +4,117 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Featured Community Events | ZionsvilleIndiana.com</title>
-  <meta name="description" content="Featured community events in Zionsville and nearby towns." />
+  <meta name="description" content="A curated list of featured community events in Zionsville and nearby towns." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body class="page">
 
-<!-- Match index.html header/nav -->
-<header class="hero-header">
-  <div class="container header-inner">
-    <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
+<section class="hero">
 
-    <nav class="nav">
-      <a href="events.html">Events</a>
-      <a href="downtown.html">Downtown</a>
-      <a href="parks-trails.html">Parks & Trails</a>
-      <a href="about.html">About</a>
-    </nav>
+  <!-- Header / Nav (matches your other pages) -->
+  <header class="hero-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
+
+      <nav class="nav">
+        <a href="events.html" aria-current="page">Events</a>
+        <a href="downtown.html">Downtown &amp; Beyond</a>
+        <a href="parks-trails.html">Parks &amp; Trails</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Short hero image (optional). If you don't want an image, remove this figure entirely. -->
+  <figure class="hero-media short">
+    <img
+      src="events-hero.jpg"
+      alt="Seasonal scene in Zionsville, Indiana"
+      class="hero-img"
+    />
+    <div class="hero-credit">© ZionsvilleIndiana.com</div>
+  </figure>
+
+  <!-- Caption bar -->
+  <div class="hero-underbar">
+    <div class="container">
+      <div class="hero-caption">
+        <div class="hero-caption-left">
+          <span class="cap">Page</span>
+          <span class="cap-text">Events</span>
+        </div>
+        <span class="hero-caption-right">Calendar</span>
+      </div>
+    </div>
   </div>
-</header>
 
-<!-- Full-width hero background without causing horizontal scroll -->
-<section class="hero hero-subpage" style="min-height:40vh;">
-  <div class="container">
-    <div class="kicker">Calendar</div>
+  <!-- Page intro -->
+  <div class="container page-hero">
     <h1>Featured Community Events</h1>
-    <p>
-    This calendar highlights notable community events in Zionsville, including festivals, parades, concerts, and seasonal celebrations. As it’s winter, the schedule is lighter right now, but more events will begin to appear as spring approaches. We curate the list thoughtfully to keep it helpful, relevant, and well organized.
-    </p>  
+    <p class="page-intro">
+      This page highlights notable community events in Zionsville and nearby towns. The schedule is
+      lighter in winter, but more events appear as spring approaches. Everything here is curated to
+      stay relevant, well organized, and easy to scan.
+    </p>
   </div>
+
 </section>
 
-<div class="container">
+<!-- Events grid (populated from events.json) -->
+<section class="section" id="events">
+  <div class="container event-grid" id="events-grid"></div>
+</section>
 
-  <section class="grid">
-    <div class="card">
-      <h2>Calendar</h2>
-
-      <div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
-      <script data-cfasync="false" data-tockify-script="embed"
-        src="https://public.tockify.com/browser/embed.js"></script>
-
-      <p class="small" style="margin-top:10px;">
-        Event details are provided by official sources. Please confirm times/locations with the event organizer.
-      </p>
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">ZionsvilleIndiana.com</div>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="downtown.html">Downtown &amp; Beyond</a>
+      <a href="parks-trails.html">Parks &amp; Trails</a>
+      <a href="about.html">About</a>
     </div>
-  </section>
+  </div>
 
-  <footer class="footer">
-    <div><a href="index.html">← Back to home</a></div>
-    <div class="small">Curated community guide.</div>
-  </footer>
+  <div class="container footer-bottom">
+    © <span id="year"></span> ZionsvilleIndiana.com
+  </div>
+</footer>
 
-</div>
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  async function loadEvents() {
+    const grid = document.getElementById("events-grid");
+    if (!grid) return;
+
+    try {
+      const res = await fetch("events.json", { cache: "no-store" });
+      if (!res.ok) throw new Error("Failed to load events.json");
+      const events = await res.json();
+
+      grid.innerHTML = events.map(ev => `
+        <a href="${ev.url}" class="event-card" target="_blank" rel="noopener">
+          <img src="${ev.image}" alt="${ev.alt || ""}" class="event-img" />
+          <div class="event-body">
+            <div class="event-date">${ev.dateLabel || ""}</div>
+            <div class="event-title">${ev.title || ""}</div>
+            <div class="event-desc">${ev.description || ""}</div>
+            ${ev.meta ? `<div class="event-meta">${ev.meta}</div>` : ""}
+          </div>
+        </a>
+      `).join("");
+    } catch (err) {
+      console.error(err);
+      grid.innerHTML = `
+        <div class="muted">Events are temporarily unavailable. Please check back soon.</div>
+      `;
+    }
+  }
+
+  loadEvents();
+</script>
+
 </body>
 </html>
-
