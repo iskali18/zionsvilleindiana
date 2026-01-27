@@ -1,0 +1,29 @@
+[
+  {
+    "dateLabel": "Jan 28",
+    "title": "Torchy’s Tacos Grand Opening & Ribbon Cutting Ceremony",
+    "description": "Join the Zionsville Chamber of Commerce as they officially welcome Torchy’s Tacos to Zionsville.",
+    "meta": "8:45–9:45 AM • 11826 Sylo Crossing, Suite 602",
+    "image": "event1.jpg",
+    "alt": "Torchy's Tacos grand opening ribbon cutting in Zionsville",
+    "url": "https://business.zionsvillechamber.org/calendar/Details/torchy-s-tacos-grand-opening-and-ribbon-cutting-celebration-1588768?sourceTypeId=Website"
+  },
+  {
+    "dateLabel": "Feb 6–8",
+    "title": "Made in Zionsville",
+    "description": "Explore classes, workshops, demos and more — hosted by local businesses on Main Street.",
+    "meta": "10 AM • 413 S Main St",
+    "image": "event2.jpg",
+    "alt": "Made in Zionsville event on Main Street featuring local classes and tastings",
+    "url": "https://www.facebook.com/events/687340167479821"
+  },
+  {
+    "dateLabel": "Apr 4",
+    "title": "EGGnormous Egg Hunt",
+    "description": "A beloved Easter tradition with age-group egg hunts and family activities.",
+    "meta": "Lions Park • Time TBD",
+    "image": "event3.jpg",
+    "alt": "Children participating in the EGGnormous Egg Hunt at Lions Park in Zionsville",
+    "url": "events.html"
+  }
+]
