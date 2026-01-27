@@ -398,6 +398,29 @@ a{color:inherit;text-decoration:none}
   font-size:12px;
 }
 
+/* =========================
+   ITINERARY CARDS (SOLID)
+   ========================= */
+.itinerary-card{
+  background:#fafafa;
+}
+
+.itinerary-card .event-body{
+  display:flex;
+  flex-direction:column;
+  min-height:100%;
+}
+
+.itinerary-title{
+  margin-top:auto;
+  padding-top:12px;
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:13px;
+  letter-spacing:.02em;
+}
+
+
 /* Section footer button alignment */
 .section-footer{
   margin-top:18px;
@@ -541,4 +564,5 @@ a{color:inherit;text-decoration:none}
     display:none;
   }
 }
+
 
