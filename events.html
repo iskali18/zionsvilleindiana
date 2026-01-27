@@ -3,84 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Featured Community Events | ZionsvilleIndiana.com</title>
-  <meta name="description" content="Featured community events in Zionsville and nearby towns, with a full calendar view below." />
+  <title>Community Events Calendar | ZionsvilleIndiana.com</title>
+  <meta name="description" content="A full calendar of community events in Zionsville and nearby towns." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body class="page">
 
-<section class="hero">
+<!-- HEADER / NAV -->
+<header class="hero-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
 
-  <!-- HEADER / NAV -->
-  <header class="hero-header">
-    <div class="container header-inner">
-      <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
-
-      <nav class="nav">
-        <a href="events.html" aria-current="page">Events</a>
-        <a href="downtown.html">Downtown &amp; Beyond</a>
-        <a href="parks-trails.html">Parks &amp; Trails</a>
-        <a href="about.html">About</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- SHORT HERO IMAGE (optional; keep if you have this file) -->
-  <figure class="hero-media short">
-    <img
-      src="events-hero.jpg"
-      alt="Seasonal scene in Zionsville, Indiana"
-      class="hero-img"
-    />
-    <div class="hero-credit">© ZionsvilleIndiana.com</div>
-  </figure>
-
-  <div class="hero-underbar">
-    <div class="container">
-      <div class="hero-caption">
-        <div class="hero-caption-left">
-          <span class="cap">Page</span>
-          <span class="cap-text">Events</span>
-        </div>
-        <span class="hero-caption-right">Calendar</span>
-      </div>
-    </div>
+    <nav class="nav">
+      <a href="events.html" aria-current="page">Events</a>
+      <a href="downtown.html">Downtown &amp; Beyond</a>
+      <a href="parks-trails.html">Parks &amp; Trails</a>
+      <a href="about.html">About</a>
+    </nav>
   </div>
+</header>
 
-  <div class="container page-hero">
-    <h1>Featured Community Events</h1>
-    <p class="page-intro">
-      This page highlights notable community events in Zionsville and nearby towns.
-      We curate the list of featured events to keep it relevant, easy to scan, and well organized.
-      <br><br>
-      For a full-year view, browse the calendar below.
-    </p>
-  </div>
+<!-- PAGE INTRO (NO HERO IMAGE) -->
+<div class="container page-hero">
+  <h1>Community Events Calendar</h1>
+  <p class="page-intro">
+    This calendar includes community events happening in and around Zionsville
+    throughout the year. Browse by month or week to see what’s coming up.
+  </p>
+</div>
 
-</section>
-
-<!-- FEATURED EVENTS (JSON) -->
-<section class="section" id="featured-events">
-  <div class="container section-head">
-    <h2>Featured highlights</h2>
-    <p class="muted">
-      A short list of events we think are most useful right now.
-    </p>
-  </div>
-
-  <div class="container event-grid" id="events-grid"></div>
-</section>
-
-<!-- FULL CALENDAR (TOCKIFY) -->
-<section class="section" id="full-calendar">
-  <div class="container section-head">
-    <h2>Full calendar</h2>
-    <p class="muted">
-      Prefer a month-by-month view? Browse the full calendar below.
-    </p>
-  </div>
-
+<!-- FULL CALENDAR -->
+<section class="section" id="calendar">
   <div class="container">
     <div class="tockify-wrap">
 <div data-tockify-component="calendar" data-tockify-calendar="zionsville.in"></div>
@@ -107,37 +61,6 @@
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
-
-  async function loadEvents() {
-    const grid = document.getElementById("events-grid");
-    if (!grid) return;
-
-    try {
-      const res = await fetch("events.json", { cache: "no-store" });
-      if (!res.ok) throw new Error("Failed to load events.json");
-      const events = await res.json();
-
-      grid.innerHTML = events.map(ev => `
-        <a href="${ev.url}" class="event-card"
-           ${String(ev.url || "").startsWith("http") ? 'target="_blank" rel="noopener"' : ''}>
-          <img src="${ev.image}" alt="${ev.alt || ""}" class="event-img" />
-          <div class="event-body">
-            <div class="event-date">${ev.dateLabel || ""}</div>
-            <div class="event-title">${ev.title || ""}</div>
-            <div class="event-desc">${ev.description || ""}</div>
-            ${ev.meta ? `<div class="event-meta">${ev.meta}</div>` : ""}
-          </div>
-        </a>
-      `).join("");
-    } catch (err) {
-      console.error(err);
-      grid.innerHTML = `
-        <div class="muted">Events are temporarily unavailable. Please check back soon.</div>
-      `;
-    }
-  }
-
-  loadEvents();
 </script>
 
 </body>
