@@ -6,7 +6,6 @@
   --text:#0b0f14;
   --muted:#5b6472;
   --line:#e7e7e7;
-
   --shadow:0 14px 40px rgba(11,15,20,.10);
   --radius:18px;
 }
@@ -14,7 +13,6 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
-/* Safety: images never overflow containers */
 img{max-width:100%;height:auto;display:block}
 
 body{
@@ -28,9 +26,6 @@ body{
 
 a{color:inherit;text-decoration:none}
 
-/* =========================
-   GLOBAL CONTAINER (CONTENT)
-   ========================= */
 .container{
   max-width:1120px;
   margin:0 auto;
@@ -42,19 +37,15 @@ a{color:inherit;text-decoration:none}
    ========================= */
 .hero{background:#fff}
 
-/* Header bar */
 .hero-header{
   position:fixed;
   top:0; left:0; right:0;
   z-index:50;
   pointer-events:none;
   background:transparent;
-
-  /* ✅ slightly less space above the header */
   padding-top:calc(env(safe-area-inset-top) + 6px);
 }
 
-/* ✅ FIX: do not override .header-inner top/bottom padding */
 .hero-header .container{
   max-width:none;
   width:100%;
@@ -63,15 +54,11 @@ a{color:inherit;text-decoration:none}
   padding-right:10px;
 }
 
-/* Header row */
 .header-inner{
   display:flex;
   justify-content:space-between;
   align-items:center;
-
-  /* ✅ reduced top padding (nav closer to top, but not touching) */
   padding:4px 0 6px;
-
   pointer-events:auto;
 }
 
@@ -83,7 +70,6 @@ a{color:inherit;text-decoration:none}
   text-shadow:0 2px 14px rgba(0,0,0,.35);
 }
 
-/* Nav */
 .nav{
   display:flex;
   gap:10px;
@@ -95,14 +81,17 @@ a{color:inherit;text-decoration:none}
   font-weight:700;
   font-size:12px;
   padding:7px 11px;
-  line-height:1;
   border-radius:999px;
   background:rgba(0,0,0,.22);
   color:rgba(255,255,255,.92);
-  backdrop-filter:blur(10px);
-  transition:background .15s ease;
 }
-.nav a:hover{background:rgba(0,0,0,.32)}
+
+.page .brand-link{color:var(--text);text-shadow:none}
+.page .nav a{
+  background:rgba(11,15,20,.06);
+  color:var(--text);
+  padding:6px 10px;
+}
 
 /* =========================
    HERO MEDIA
@@ -115,13 +104,11 @@ a{color:inherit;text-decoration:none}
   background:#000;
 }
 
-/* Homepage hero */
 .hero-media:not(.short){
   height:100svh;
   min-height:560px;
 }
 
-/* ✅ Subpage hero (downtown.html, etc.) */
 .hero-media.short{
   height:40vh;
   min-height:260px;
@@ -134,311 +121,118 @@ a{color:inherit;text-decoration:none}
   object-fit:cover;
 }
 
-/* Photo credit */
 .hero-credit{
   position:absolute;
   right:16px;
   bottom:14px;
   font-size:8px;
   color:rgba(255,255,255,.28);
-  text-shadow:0 1px 1px rgba(0,0,0,.9);
-  pointer-events:none;
 }
 
 /* =========================
-   HERO CAPTION BAR
+   HERO CAPTION
    ========================= */
 .hero-underbar{
-  /* ✅ removed thin gray line */
-  border-bottom:none;
   padding:8px 0 6px;
 }
 
 .hero-caption{
   display:flex;
   justify-content:space-between;
-  align-items:baseline;
-  gap:16px;
   font-size:12px;
   color:var(--muted);
-}
-
-.hero-caption-left{
-  display:flex;
-  gap:10px;
-  align-items:baseline;
-  min-width:0;
-}
-
-.hero-caption-right{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:10px;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:var(--muted);
-  white-space:nowrap;
 }
 
 .cap{
   font-family:'Manrope',sans-serif;
   font-weight:800;
   font-size:10px;
-  letter-spacing:.08em;
   text-transform:uppercase;
 }
 
 /* =========================
-   HERO TEXT
+   PAGE INTRO
    ========================= */
-.hero-bottom{padding:22px 0 10px}
-
-.kicker{
-  font-family:'Manrope',sans-serif;
-  font-size:11px;
-  letter-spacing:.14em;
-  text-transform:uppercase;
-  color:var(--muted);
-  font-weight:800;
-  margin-bottom:10px;
+.page-hero{
+  padding:18px 0;
 }
 
-.hero-bottom h1{
-  font-family:'Manrope',sans-serif;
-  margin:0;
-  font-size:clamp(26px,3.2vw,40px);
-  line-height:1.12;
-  max-width:46ch;
+.page-intro{
+  max-width:70ch;
+  color:var(--muted);
 }
 
 /* =========================
    SECTIONS
    ========================= */
 .section{
-  padding:28px 0 34px;   /* was 34px 0 48px */
-  border-top:none;
+  padding:28px 0 34px;
 }
 
 .section-head h2{
   font-family:'Manrope',sans-serif;
   font-size:18px;
-  letter-spacing:.02em;
   text-transform:uppercase;
   font-weight:800;
-  margin:0 0 4px;        /* was 0 0 6px */
-}
-
-.section-date{
-  margin:0;
-  font-size:13px;
-  color:var(--muted);
+  margin:0 0 4px;
 }
 
 .muted{
   color:var(--muted);
   font-size:15px;
-  margin:0;              /* ✅ removes default <p> margins */
-}
-
-/* ✅ only add space *after* the description line, not before/after unpredictably */
-.section-head .muted{
-  margin-top:2px;        /* small, controlled gap from the h2 */
-  margin-bottom:10px;    /* controlled space before cards/content */
 }
 
 /* =========================
-   FEATURED ARTICLE (YOUR REAL HTML)
-   ========================= */
-.featured-row{
-  display:flex;
-  gap:18px;
-  align-items:stretch;
-}
-
-/* Left image column */
-.featured-img{
-  flex:0 0 42%;
-  max-width:420px;
-  position:relative;
-}
-
-/* Keep the featured image shaped nicely */
-.featured-img img{
-  width:100%;
-  height:100%;
-  max-height:360px;
-  object-fit:cover;
-  border-radius:var(--radius);
-}
-
-/* Featured credit */
-.feature-credit{
-  position:absolute;
-  right:12px;
-  bottom:10px;
-  font-size:9px;
-  color:rgba(255,255,255,.55);
-  text-shadow:0 1px 2px rgba(0,0,0,.8);
-  pointer-events:none;
-}
-
-/* Right text column */
-.featured-text{
-  flex:1 1 auto;
-  min-width:0;
-}
-
-.featured-text h2{
-  font-family:'Manrope',sans-serif;
-  margin:6px 0 10px;
-  font-size:22px;
-  line-height:1.2;
-}
-
-.featured-text-date{
-  flex:1 1 auto;
-  min-width:0;
-  font-size:9px;
-}
-
-/* =========================
-   BUTTON LINK (Read the full story / View full calendar)
-   ========================= */
-.link-btn{
-  display:inline-flex;
-  gap:8px;
-  align-items:center;
-  margin-top:10px;
-  padding:10px 14px;
-  border-radius:999px;
-  border:1px solid var(--line);
-  background:#fff;
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:12px;
-  letter-spacing:.02em;
-  transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
-}
-
-.link-btn:hover{
-  transform:translateY(-1px);
-  box-shadow:0 10px 24px rgba(11,15,20,.10);
-  background:#fafafa;
-}
-
-.arrow{display:inline-block}
-
-/* =========================
-   EVENTS (YOUR REAL HTML)
+   GRID
    ========================= */
 .event-grid{
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(3,1fr);
   gap:18px;
   margin-top:10px;
 }
 
-/* Event card */
-.event-card{
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  background:#fff;
-  overflow:hidden;
-  display:flex;
-  flex-direction:column;
-  min-height:100%;
-  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
-}
-
-.event-card:hover{
-  transform:translateY(-2px);
-  box-shadow:0 14px 30px rgba(11,15,20,.10);
-  border-color:#dcdcdc;
-}
-
-/* Event image: consistent height so it doesn't feel huge */
-.event-img{
-  width:100%;
-  height:170px;
-  object-fit:cover;
-}
-
-/* Card body */
-.event-body{
-  padding:12px 14px 14px;
-  display:flex;
-  flex-direction:column;
-  gap:8px;
-}
-
-.event-date{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:11px;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:var(--muted);
-}
-
-.event-title{
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:15px;
-  line-height:1.25;
-}
-
-.event-desc{
-  color:var(--muted);
-  font-size:14px;
-  line-height:1.5;
-}
-
-.event-meta{
-  color:var(--muted);
-  font-size:12px;
-}
-
 /* =========================
-   ITINERARY CARDS (SOLID)
+   ITINERARY CARDS (FINAL SIMPLE)
    ========================= */
-.itinerary-card{
-  background:#fafafa;
+#itineraries .event-card{
+  background:#f2f3f5;            /* clearly not white */
+  border:1px solid #e0e0e0;
+  border-radius:var(--radius);
 }
 
-.itinerary-card .event-body{
-  display:flex;
-  flex-direction:column;
-  min-height:100%;
+#itineraries .event-body{
+  padding:18px;
 }
 
-.itinerary-title{
-  margin-top:auto;
-  padding-top:12px;
+#itineraries .event-desc{
+  font-size:14px;
+  color:var(--muted);
+  margin-bottom:10px;
+}
+
+#itineraries .event-meta{
+  font-size:12px;
+  color:var(--muted);
+}
+
+#itineraries .itinerary-title{
+  margin-top:14px;
   font-family:'Manrope',sans-serif;
   font-weight:800;
-  font-size:13px;
-  letter-spacing:.02em;
-}
-
-
-/* Section footer button alignment */
-.section-footer{
-  margin-top:18px;
+  font-size:14px;
 }
 
 /* =========================
    FOOTER
    ========================= */
 .site-footer{
-  /* ✅ removed thin gray line */
-  border-top:none;
   padding:12px 0 16px;
 }
 
 .footer-inner{
   display:flex;
   justify-content:space-between;
-  flex-wrap:wrap;
   gap:12px;
 }
 
@@ -447,122 +241,15 @@ a{color:inherit;text-decoration:none}
   font-weight:800;
 }
 
-.footer-links{
-  display:flex;
-  gap:14px;
-}
-
-.footer-links a{
-  font-family:'Manrope',sans-serif;
-  font-weight:700;
-  color:var(--muted);
-}
-
 .footer-bottom{
-  margin-top:2px;
-  color:var(--muted);
   font-size:13px;
-}
-
-/* =========================
-   SUBPAGE HEADER STYLE
-   ========================= */
-.page .hero-header{
-  position:sticky;
-  top:0;
-  background:#fff;
-
-  /* ✅ removed thin gray line */
-  border-bottom:none;
-
-  /* ✅ streamline subpage header overall height */
-  padding-top:0;
-}
-
-.page .header-inner{
-  /* ✅ shorter subpage header */
-  padding:4px 0 6px;
-}
-
-.page .hero-header .container{
-  padding-left:14px;
-  padding-right:14px;
-}
-
-.page .brand-link{color:var(--text);text-shadow:none}
-
-/* Subpage nav pills slightly tighter */
-.page .nav a{
-  background:rgba(11,15,20,.06);
-  color:var(--text);
-
-  /* ✅ slimmer */
-  padding:6px 10px;
-  font-size:12px;
-}
-
-.page .nav a:hover{
-  background:rgba(11,15,20,.10);
+  color:var(--muted);
 }
 
 /* =========================
    MOBILE
    ========================= */
-@media (max-width:900px){
-  .header-inner{
-    flex-wrap:wrap;
-    gap:10px;
-
-    /* ✅ slightly reduced */
-    padding:12px 0 10px;
-  }
-
-  .nav{width:100%;justify-content:flex-start}
-
-  /* Featured stacks on mobile (image above text) */
-  .featured-row{
-    flex-direction:column;
-  }
-
-  .featured-img{
-    max-width:none;
-    flex:1 1 auto;
-  }
-
-  .featured-img img{
-    max-height:320px;
-  }
-
-  /* Events: single column on mobile */
-  .event-grid{
-    grid-template-columns:1fr;
-  }
-
-  .event-img{
-    height:190px;
-  }
-
-  /* Subpage hero slightly smaller on mobile */
-  .hero-media.short{
-    height:34vh;
-    min-height:220px;
-  }
-
-  /* Streamlined subpage header on mobile too */
-  .page .header-inner{
-    padding:10px 0 8px;
-  }
-
-  /* Caption bar: prevent right label from wrapping on mobile */
-  .hero-caption{
-    flex-wrap:wrap;
-    row-gap:4px;
-  }
-
-  /* Hide the right label on very small screens */
-  .hero-caption-right{
-    display:none;
-  }
+@media(max-width:900px){
+  .event-grid{grid-template-columns:1fr}
+  .hero-caption-right{display:none}
 }
-
-
