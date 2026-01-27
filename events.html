@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Featured Community Events | ZionsvilleIndiana.com</title>
-  <meta name="description" content="A curated list of featured community events in Zionsville and nearby towns." />
+  <meta name="description" content="A curated list of featured community events in Zionsville and nearby towns, with a full calendar view below." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -12,7 +12,7 @@
 
 <section class="hero">
 
-  <!-- Header / Nav (matches your other pages) -->
+  <!-- HEADER / NAV -->
   <header class="hero-header">
     <div class="container header-inner">
       <a href="index.html" class="brand-link">ZionsvilleIndiana.com</a>
@@ -26,7 +26,8 @@
     </div>
   </header>
 
-  <!-- Short hero image (optional). If you don't want an image, remove this figure entirely. -->
+  /*
+  <!-- SHORT HERO IMAGE -->
   <figure class="hero-media short">
     <img
       src="events-hero.jpg"
@@ -35,8 +36,9 @@
     />
     <div class="hero-credit">© ZionsvilleIndiana.com</div>
   </figure>
+  */
 
-  <!-- Caption bar -->
+  <!-- HERO CAPTION BAR -->
   <div class="hero-underbar">
     <div class="container">
       <div class="hero-caption">
@@ -49,22 +51,42 @@
     </div>
   </div>
 
-  <!-- Page intro -->
+  <!-- PAGE INTRO -->
   <div class="container page-hero">
     <h1>Featured Community Events</h1>
     <p class="page-intro">
-      This page highlights notable community events in Zionsville and nearby towns. The schedule is
-      lighter in winter, but more events appear as spring approaches.
+      This page highlights notable community events in Zionsville and nearby towns. The schedule
+      is lighter in winter, with more events appearing as spring approaches. Everything featured
+      here is curated to stay relevant, easy to scan, and genuinely useful.
+      <br><br>
+      Looking for a full-year view? Scroll down to the calendar below.
     </p>
   </div>
 
 </section>
 
-<!-- Events grid (populated from events.json) -->
+<!-- FEATURED EVENTS (JSON) -->
 <section class="section" id="events">
   <div class="container event-grid" id="events-grid"></div>
 </section>
 
+<!-- FULL CALENDAR -->
+<section class="section" id="full-calendar">
+  <div class="container section-head">
+    <h2>Full calendar</h2>
+    <p class="muted">
+      Prefer a month-by-month view? Browse the full calendar below.
+    </p>
+  </div>
+
+  <div class="container">
+    <div class="tockify-wrap">
+      <!-- PASTE YOUR TOCKIFY EMBED CODE HERE -->
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container footer-inner">
     <div class="footer-brand">ZionsvilleIndiana.com</div>
@@ -94,7 +116,8 @@
       const events = await res.json();
 
       grid.innerHTML = events.map(ev => `
-        <a href="${ev.url}" class="event-card" target="_blank" rel="noopener">
+        <a href="${ev.url}" class="event-card"
+           ${String(ev.url || "").startsWith("http") ? 'target="_blank" rel="noopener"' : ''}>
           <img src="${ev.image}" alt="${ev.alt || ""}" class="event-img" />
           <div class="event-body">
             <div class="event-date">${ev.dateLabel || ""}</div>
@@ -117,4 +140,3 @@
 
 </body>
 </html>
-
