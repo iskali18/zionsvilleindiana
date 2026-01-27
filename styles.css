@@ -1,4 +1,4 @@
-[@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
 :root{
@@ -398,29 +398,6 @@ a{color:inherit;text-decoration:none}
   font-size:12px;
 }
 
-/* =========================
-   ITINERARY CARDS (SOLID)
-   ========================= */
-.itinerary-card{
-  background:#fafafa;
-}
-
-.itinerary-card .event-body{
-  display:flex;
-  flex-direction:column;
-  min-height:100%;
-}
-
-.itinerary-title{
-  margin-top:auto;
-  padding-top:12px;
-  font-family:'Manrope',sans-serif;
-  font-weight:800;
-  font-size:13px;
-  letter-spacing:.02em;
-}
-
-
 /* Section footer button alignment */
 .section-footer{
   margin-top:18px;
@@ -506,60 +483,84 @@ a{color:inherit;text-decoration:none}
 }
 
 /* =========================
+   ITINERARIES (SOLID CARD TOP BANNER - SAFE, ONLY #itineraries)
+   ========================= */
+/* Make itinerary cards NOT white, without touching index.html event cards */
+#itineraries .event-card{
+  background:#f3f4f6;
+  border-color:#e2e2e2;
+}
+
+/* Turn off hover lift on itineraries so they feel calmer */
+#itineraries .event-card:hover{
+  transform:none;
+  box-shadow:none;
+  border-color:#e2e2e2;
+}
+
+/* Solid “banner” block (replaces image visually) */
+#itineraries .itin-banner{
+  height:84px;
+  background:#dfe6ee; /* clearly not white */
+  border-bottom:1px solid #e2e2e2;
+  display:flex;
+  align-items:flex-end;
+  padding:12px 14px;
+}
+
+/* Banner title */
+#itineraries .itin-banner-title{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:13px;
+  letter-spacing:.02em;
+  color:var(--text);
+}
+
+/* Keep body spacing tidy since there’s no image */
+#itineraries .event-body{
+  padding:14px 14px 16px;
+}
+
+/* =========================
    MOBILE
    ========================= */
 @media (max-width:900px){
   .header-inner{
     flex-wrap:wrap;
     gap:10px;
-
-    /* ✅ slightly reduced */
     padding:12px 0 10px;
   }
 
   .nav{width:100%;justify-content:flex-start}
 
-  /* Featured stacks on mobile (image above text) */
-  .featured-row{
-    flex-direction:column;
-  }
+  .featured-row{flex-direction:column;}
 
   .featured-img{
     max-width:none;
     flex:1 1 auto;
   }
 
-  .featured-img img{
-    max-height:320px;
-  }
+  .featured-img img{max-height:320px;}
 
-  /* Events: single column on mobile */
-  .event-grid{
-    grid-template-columns:1fr;
-  }
+  .event-grid{grid-template-columns:1fr;}
 
-  .event-img{
-    height:190px;
-  }
+  .event-img{height:190px;}
 
-  /* Subpage hero slightly smaller on mobile */
   .hero-media.short{
     height:34vh;
     min-height:220px;
   }
 
-  /* Streamlined subpage header on mobile too */
   .page .header-inner{
     padding:10px 0 8px;
   }
 
-  /* Caption bar: prevent right label from wrapping on mobile */
   .hero-caption{
     flex-wrap:wrap;
     row-gap:4px;
   }
 
-  /* Hide the right label on very small screens */
   .hero-caption-right{
     display:none;
   }
