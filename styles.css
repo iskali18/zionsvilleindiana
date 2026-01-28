@@ -14,6 +14,9 @@
 *{box-sizing:border-box}
 html,body{margin:0;padding:0}
 
+/* ✅ Reset common elements that bring default spacing */
+figure{margin:0}
+
 /* Safety: images never overflow containers */
 img{max-width:100%;height:auto;display:block}
 
@@ -356,7 +359,24 @@ a{color:inherit;text-decoration:none}
   border-color:#dcdcdc;
 }
 
-/* Event image: consistent height so it doesn't feel huge */
+/* =========================
+   CARD IMAGE HEADERS (STANDARDIZE + CROP)
+   ========================= */
+/* Supports your existing pattern: <figure class="event-media"><img ...></figure> */
+.event-media{
+  width:100%;
+  height:170px;          /* ✅ same height across all cards */
+  overflow:hidden;       /* ✅ crop cleanly */
+  background:#000;       /* ✅ avoids any white showing during load/crop */
+}
+
+.event-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;      /* ✅ fill the space even if cropped */
+}
+
+/* Keep legacy support if any pages still use <img class="event-img"> */
 .event-img{
   width:100%;
   height:170px;
@@ -548,6 +568,7 @@ a{color:inherit;text-decoration:none}
   .event-grid{grid-template-columns:1fr;}
 
   .event-img{height:190px;}
+  .event-media{height:190px;} /* ✅ keep consistent on mobile */
 
   .hero-media.short{
     height:34vh;
@@ -567,6 +588,3 @@ a{color:inherit;text-decoration:none}
     display:none;
   }
 }
-
-
-
