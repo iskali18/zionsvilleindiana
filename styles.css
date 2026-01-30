@@ -137,6 +137,11 @@ a{color:inherit;text-decoration:none}
   object-fit:cover;
 }
 
+/* ✅ NEW: bias homepage hero crop upward (preserve bottom) */
+.hero-media:not(.short) .hero-img{
+  object-position:50% 30%;
+}
+
 /* Photo credit */
 .hero-credit{
   position:absolute;
@@ -588,4 +593,5 @@ a{color:inherit;text-decoration:none}
     display:none;
   }
 }
+
 
