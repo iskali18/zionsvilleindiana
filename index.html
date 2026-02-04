@@ -6,13 +6,87 @@
   <title>Zionsville Indiana | Events & Local Highlights</title>
   <meta name="description" content="A photo-forward guide to events and local highlights in Zionsville, Indiana." />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Lightweight styles for the new seasonal photo row + lightbox (homepage only) -->
+  <style>
+    .seasonal-grid{
+      display:grid;
+      grid-template-columns:repeat(4, 1fr);
+      gap:14px;
+      margin-top:10px;
+    }
+    .seasonal-card{
+      border-radius:18px;
+      overflow:hidden;
+      display:block;
+      border:1px solid #e7e7e7;
+      background:#fff;
+    }
+    .seasonal-card img{
+      width:100%;
+      height:170px;
+      object-fit:cover;
+      display:block;
+    }
+
+    /* Lightbox */
+    .lightbox{
+      position:fixed;
+      inset:0;
+      background:rgba(0,0,0,.86);
+      display:none;
+      align-items:center;
+      justify-content:center;
+      padding:24px;
+      z-index:999;
+    }
+    .lightbox.open{display:flex;}
+    .lightbox-inner{
+      max-width:min(1100px, 96vw);
+      max-height:86vh;
+      width:auto;
+      position:relative;
+    }
+    .lightbox-img{
+      width:100%;
+      height:auto;
+      max-height:86vh;
+      object-fit:contain;
+      border-radius:18px;
+      display:block;
+      background:#000;
+    }
+    .lightbox-close{
+      position:absolute;
+      top:-12px;
+      right:-12px;
+      width:38px;
+      height:38px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,.22);
+      background:rgba(11,15,20,.70);
+      color:#fff;
+      font-size:20px;
+      line-height:36px;
+      text-align:center;
+      cursor:pointer;
+    }
+
+    @media (max-width:900px){
+      .seasonal-grid{grid-template-columns:repeat(2, 1fr);}
+      .seasonal-card img{height:190px;}
+    }
+    @media (max-width:560px){
+      .seasonal-grid{grid-template-columns:1fr;}
+    }
+  </style>
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-25FXRPT58S"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-25FXRPT58S');
   </script>
 </head>
@@ -62,36 +136,37 @@
 <!-- FEATURED ARTICLE -->
 <section class="section" id="featured">
   <div class="container section-head">
-    <h2>Winter 2026 • Featured</h2>
+    <h2>Feb 2026 • Featured</h2>
   </div>
 
   <div class="container">
     <div class="featured-row">
 
       <div class="featured-img">
-        <img src="feature-fire.jpg" alt="Zionsville fire truck at the Fall Festival parade" />
+        <!-- Replace this with your Lincoln Park photo when you have one -->
+        <img src="feature-lincoln-park.jpg" alt="Lincoln Park in downtown Zionsville, Indiana" />
         <div class="feature-credit">© ZionsvilleIndiana.com</div>
       </div>
 
       <div class="featured-text">
-        <h2>Zionsville moves forward with new fire station</h2>
+        <h2>Lincoln Park refresh planned for spring start</h2>
 
         <p>
-          The Town of Zionsville is moving ahead with plans for a new fire station
-          to serve the west side of town. The facility, known as Station 295, will
-          be built at <strong>3302 E. 550 S.</strong>, just west of I-65. Work is
-          scheduled to commence this spring with completion targeted by year's end.
+          Lincoln Park, one of the most historically significant green spaces in Zionsville, is preparing for a refresh
+          focused on function, accessibility, and long-term use. Located in the heart of the Village, the park marks the
+          site where Abraham Lincoln once spoke and where his funeral service was held when the train carrying his body
+          passed back through town.
         </p>
 
         <p>
-          The new station will replace the Perry Township Volunteer Fire Department
-          and expand emergency response coverage for growing areas of the community.
-          Plans call for five apparatus bays, living quarters for firefighters,
-          and room for future expansion as the town continues to grow.
+          Plans include improvements to address drainage, a new gazebo to replace the former structure (with amenities such
+          as electrical access), and updates intended to make the space easier to use for more people, including improved
+          accessibility. Work is expected to begin in the spring, with completion targeted for late 2026. A fundraising
+          brick program is scheduled to reopen in January.
         </p>
 
         <a class="link-btn"
-           href="https://youarecurrent.com/2026/01/20/construction-on-new-zionsville-fire-station-expected-to-start-this-spring/"
+           href="#"
            target="_blank"
            rel="noopener">
           Read the full story on Current Publishing <span class="arrow">→</span>
@@ -101,6 +176,43 @@
     </div>
   </div>
 </section>
+
+<!-- RIGHT NOW (SEASONAL PHOTOS) -->
+<section class="section" id="right-now">
+  <div class="container section-head">
+    <h2>Right now</h2>
+    <p class="muted">
+      A few seasonal scenes from around town.
+    </p>
+  </div>
+
+  <div class="container seasonal-grid">
+    <!-- Replace filenames with your actual images. These open in a lightbox. -->
+    <a href="seasonal-1.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 1">
+      <img src="seasonal-1.jpg" alt="Winter scene in Zionsville, Indiana" loading="lazy" />
+    </a>
+
+    <a href="seasonal-2.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 2">
+      <img src="seasonal-2.jpg" alt="Snow-covered park landscape in Zionsville, Indiana" loading="lazy" />
+    </a>
+
+    <a href="seasonal-3.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 3">
+      <img src="seasonal-3.jpg" alt="Main Street winter scene in downtown Zionsville, Indiana" loading="lazy" />
+    </a>
+
+    <a href="seasonal-4.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 4">
+      <img src="seasonal-4.jpg" alt="Creek or trail scene in winter in Zionsville, Indiana" loading="lazy" />
+    </a>
+  </div>
+</section>
+
+<!-- Lightbox overlay -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-inner" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <img class="lightbox-img" id="lightboxImg" alt="" />
+  </div>
+</div>
 
 <!-- EVENTS -->
 <section class="section" id="events">
@@ -186,10 +298,48 @@
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Simple lightbox (homepage "Right now" photos)
+  (function(){
+    const overlay = document.getElementById("lightbox");
+    const img = document.getElementById("lightboxImg");
+    const closeBtn = document.getElementById("lightboxClose");
+
+    function openLightbox(src, alt){
+      img.src = src;
+      img.alt = alt || "";
+      overlay.classList.add("open");
+      overlay.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox(){
+      overlay.classList.remove("open");
+      overlay.setAttribute("aria-hidden", "true");
+      img.src = "";
+      img.alt = "";
+      document.body.style.overflow = "";
+    }
+
+    document.querySelectorAll(".js-lightbox").forEach(a => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const imageEl = a.querySelector("img");
+        openLightbox(a.getAttribute("href"), imageEl ? imageEl.getAttribute("alt") : "");
+      });
+    });
+
+    closeBtn.addEventListener("click", closeLightbox);
+
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) closeLightbox();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("open")) closeLightbox();
+    });
+  })();
 </script>
 
 </body>
 </html>
-
-
-
