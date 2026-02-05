@@ -6,13 +6,13 @@
   <title>Zionsville Indiana | Events & Local Highlights</title>
   <meta name="description" content="A photo-forward guide to events and local highlights in Zionsville, Indiana." />
   <link rel="stylesheet" href="styles.css" />
+
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-25FXRPT58S"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-25FXRPT58S');
   </script>
 </head>
@@ -62,36 +62,37 @@
 <!-- FEATURED ARTICLE -->
 <section class="section" id="featured">
   <div class="container section-head">
-    <h2>Winter 2026 • Featured</h2>
+    <h2>Feb 2026 • Featured</h2>
   </div>
 
   <div class="container">
     <div class="featured-row">
 
       <div class="featured-img">
-        <img src="feature-fire.jpg" alt="Zionsville fire truck at the Fall Festival parade" />
+        <!-- Lincoln Park photo -->
+        <img src="feature-lincoln-park.jpg" alt="Lincoln Park in downtown Zionsville, Indiana" />
         <div class="feature-credit">© ZionsvilleIndiana.com</div>
       </div>
 
       <div class="featured-text">
-        <h2>Zionsville moves forward with new fire station</h2>
+        <h2>Lincoln Park refresh planned for spring start</h2>
 
         <p>
-          The Town of Zionsville is moving ahead with plans for a new fire station
-          to serve the west side of town. The facility, known as Station 295, will
-          be built at <strong>3302 E. 550 S.</strong>, just west of I-65. Work is
-          scheduled to commence this spring with completion targeted by year's end.
+          Lincoln Park, one of the most historically significant green spaces in Zionsville, is preparing for a refresh
+          focused on function, accessibility, and long-term use. Located in the heart of the Village, the park marks the
+          site where Abraham Lincoln once spoke and where his funeral service was held when the train carrying his remains
+          passed back through town.
         </p>
 
         <p>
-          The new station will replace the Perry Township Volunteer Fire Department
-          and expand emergency response coverage for growing areas of the community.
-          Plans call for five apparatus bays, living quarters for firefighters,
-          and room for future expansion as the town continues to grow.
+          Plans include improvements to address drainage, a new gazebo to replace the former structure (with amenities such
+          as electrical access), and updates intended to make the space easier to use for more people, including improved
+          accessibility. Work is expected to begin in the spring, with completion targeted for late 2026. A fundraising
+          brick program is scheduled to reopen in January.
         </p>
 
         <a class="link-btn"
-           href="https://youarecurrent.com/2026/01/20/construction-on-new-zionsville-fire-station-expected-to-start-this-spring/"
+           href="https://youarecurrent.com/2025/12/30/looking-ahead-parks-road-projects-infrastructure-on-deck-for-zionsville-in-26/"
            target="_blank"
            rel="noopener">
           Read the full story on Current Publishing <span class="arrow">→</span>
@@ -101,6 +102,42 @@
     </div>
   </div>
 </section>
+
+<!-- SEASONAL PHOTOS -->
+<section class="section" id="right-now">
+  <div class="container section-head">
+    <h2>Local Scenes</h2>
+    <p class="muted">
+      A few moments from this season.
+    </p>
+  </div>
+
+  <div class="container seasonal-grid">
+    <a href="img/brick-street-inn-winter-zionsville.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 1">
+      <img src="img/brick-street-inn-winter-zionsville.jpg" alt="Brick Street Inn on Main Street in Zionsville, Indiana, with string lights and snow on a winter evening" loading="lazy" />
+    </a>
+
+    <a href="img/roasted-village-walkway-zionsville.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 2">
+      <img src="img/roasted-village-walkway-zionsville.jpg" alt="Covered walkway with benches and shopfronts near Roasted in the Village in downtown Zionsville, Indiana" loading="lazy" />
+    </a>
+
+    <a href="img/creekside-nature-park-winter-trail-zionsville.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 3">
+      <img src="img/creekside-nature-park-winter-trail-zionsville.jpg" alt="Snow-lined walking path through trees in Creekside Nature Park in Zionsville, Indiana during late winter" loading="lazy" />
+    </a>
+
+    <a href="img/cardinal-winter-zionsville.jpg" class="seasonal-card js-lightbox" aria-label="Open photo 4">
+      <img src="img/cardinal-winter-zionsville.jpg" alt="Red cardinal perched in bare tree branches in winter in Zionsville, Indiana" loading="lazy" />
+    </a>
+  </div>
+</section>
+
+<!-- Lightbox overlay -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-inner" role="dialog" aria-modal="true" aria-label="Photo viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+    <img class="lightbox-img" id="lightboxImg" alt="" />
+  </div>
+</div>
 
 <!-- EVENTS -->
 <section class="section" id="events">
@@ -186,10 +223,53 @@
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Simple lightbox (homepage "Right now" photos)
+  (function(){
+    const overlay = document.getElementById("lightbox");
+    const img = document.getElementById("lightboxImg");
+    const closeBtn = document.getElementById("lightboxClose");
+
+    function openLightbox(src, alt){
+      img.src = src;
+      img.alt = alt || "";
+      overlay.classList.add("open");
+      overlay.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function closeLightbox(){
+      overlay.classList.remove("open");
+      overlay.setAttribute("aria-hidden", "true");
+      img.src = "";
+      img.alt = "";
+      document.body.style.overflow = "";
+    }
+
+    document.querySelectorAll(".js-lightbox").forEach(a => {
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const imageEl = a.querySelector("img");
+        openLightbox(a.getAttribute("href"), imageEl ? imageEl.getAttribute("alt") : "");
+      });
+    });
+
+    closeBtn.addEventListener("click", closeLightbox);
+
+    overlay.addEventListener("click", (e) => {
+      if (e.target === overlay) closeLightbox();
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && overlay.classList.contains("open")) closeLightbox();
+    });
+  })();
 </script>
 
 </body>
 </html>
+
+
 
 
 
