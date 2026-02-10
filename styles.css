@@ -220,6 +220,38 @@ a{color:inherit;text-decoration:none}
 }
 
 /* =========================
+   QUICK LINKS (NEW)
+   ========================= */
+.quick-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-top:14px;
+}
+
+.quick-link{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:#fff;
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:12px;
+  letter-spacing:.02em;
+  line-height:1;
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+}
+
+.quick-link:hover{
+  transform:translateY(-1px);
+  box-shadow:0 10px 24px rgba(11,15,20,.10);
+  background:#fafafa;
+}
+
+/* =========================
    SECTIONS
    ========================= */
 .section{
@@ -663,10 +695,12 @@ a{color:inherit;text-decoration:none}
   .hero-caption-right{
     display:none;
   }
+
+  .quick-links{
+    gap:8px;
+  }
 }
 
 @media (max-width:560px){
   .seasonal-grid{grid-template-columns:1fr;}
 }
-
-
