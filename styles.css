@@ -220,36 +220,52 @@ a{color:inherit;text-decoration:none}
 }
 
 /* =========================
-   QUICK LINKS (NEW)
+   QUICK START BUTTONS (BIGGER + OBVIOUS)
    ========================= */
-.quick-links{
-  display:flex;
-  flex-wrap:wrap;
-  gap:10px;
-  margin-top:14px;
+.quick-start{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:14px;
+  margin-top:16px;
+  padding:14px;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:#fff;
+  box-shadow:0 10px 24px rgba(11,15,20,.06);
 }
 
-.quick-link{
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  padding:10px 14px;
-  border-radius:999px;
+.qs-btn{
+  display:flex;
+  flex-direction:column;
+  gap:4px;
+  padding:14px 14px;
   border:1px solid var(--line);
+  border-radius:16px;
+  background:#fafafa;
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease, border-color .12s ease;
+  min-height:70px;
+}
+
+.qs-btn:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 30px rgba(11,15,20,.10);
   background:#fff;
+  border-color:#dcdcdc;
+}
+
+.qs-title{
   font-family:'Manrope',sans-serif;
   font-weight:800;
-  font-size:12px;
-  letter-spacing:.02em;
-  line-height:1;
-  transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+  font-size:14px;
+  line-height:1.15;
 }
 
-.quick-link:hover{
-  transform:translateY(-1px);
-  box-shadow:0 10px 24px rgba(11,15,20,.10);
-  background:#fafafa;
+.qs-sub{
+  color:var(--muted);
+  font-size:12.5px;
+  line-height:1.25;
 }
+
 
 /* =========================
    SECTIONS
@@ -704,3 +720,4 @@ a{color:inherit;text-decoration:none}
 @media (max-width:560px){
   .seasonal-grid{grid-template-columns:1fr;}
 }
+
