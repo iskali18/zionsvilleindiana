@@ -220,6 +220,39 @@ a{color:inherit;text-decoration:none}
 }
 
 /* =========================
+   QUICK LINKS (SIMPLE, BIGGER BUTTONS)
+   ========================= */
+.quick-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:14px;
+}
+
+.quick-btn{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:14px;
+  padding:12px 18px;
+  line-height:1;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:#fff;
+  color:var(--text);
+  box-shadow:0 10px 24px rgba(11,15,20,.06);
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease, border-color .12s ease;
+}
+
+.quick-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 14px 30px rgba(11,15,20,.10);
+  background:#fafafa;
+  border-color:#dcdcdc;
+}
+
+
+
+/* =========================
    SECTIONS
    ========================= */
 .section{
@@ -662,6 +695,10 @@ a{color:inherit;text-decoration:none}
 
   .hero-caption-right{
     display:none;
+  }
+
+  .quick-links{
+    gap:8px;
   }
 }
 
