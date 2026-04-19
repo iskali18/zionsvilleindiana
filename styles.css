@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  --page:#ffffff;
+  --text:#0b0f14;
+  --muted:#5b6472;
+  --line:#e7e7e7;
+
+  --shadow:0 14px 40px rgba(11,15,20,.10);
+  --radius:18px;
+}
+
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+
+/* ✅ Reset common elements that bring default spacing */
+figure{margin:0}
+
+/* Safety: images never overflow containers */
+img{max-width:100%;height:auto;display:block}
+
+body{
+  overflow-x:hidden;
+  font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+  color:var(--text);
+  background:var(--page);
+  font-size:16px;
+  line-height:1.65;
+}
+
+a{color:inherit;text-decoration:none}
+
+/* =========================
+   GLOBAL CONTAINER (CONTENT)
+   ========================= */
+.container{
+  max-width:1120px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+/* =========================
+   HERO / HEADER
+   ========================= */
+.hero{background:#fff}
+
+/* Header bar */
+.hero-header{
+  position:fixed;
+  top:0; left:0; right:0;
+  z-index:50;
+  pointer-events:none;
+  background:transparent;
+
+  /* ✅ slightly less space above the header */
+  padding-top:calc(env(safe-area-inset-top) + 6px);
+}
+
+/* ✅ FIX: do not override .header-inner top/bottom padding */
+.hero-header .container{
+  max-width:none;
+  width:100%;
+  margin:0;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* Header row */
+.header-inner{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  /* ✅ reduced top padding (nav closer to top, but not touching) */
+  padding:4px 0 6px;
+
+  pointer-events:auto;
+}
+
+.brand-link{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:15px;
+  color:#fff;
+  text-shadow:0 2px 14px rgba(0,0,0,.35);
+}
+
+/* Nav */
+.nav{
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+.nav a{
+  font-family:'Manrope',sans-serif;
+  font-weight:700;
+  font-size:12px;
+  padding:7px 11px;
+  line-height:1;
+  border-radius:999px;
+  background:rgba(0,0,0,.22);
+  color:rgba(255,255,255,.92);
+  backdrop-filter:blur(10px);
+  transition:background .15s ease;
+}
+.nav a:hover{background:rgba(0,0,0,.32)}
+
+/* =========================
+   HERO MEDIA
+   ========================= */
+.hero-media{
+  margin:0;
+  position:relative;
+  width:100%;
+  overflow:hidden;
+  background:#000;
+}
+
+/* Homepage hero no longer fills entire screen */
+.hero-media:not(.short){
+  height:45svh;
+  min-height:520px;
+}
+
+/* ✅ Subpage hero (downtown.html, etc.) */
+.hero-media.short{
+  height:40vh;
+  min-height:260px;
+  max-height:420px;
+}
+
+.hero-img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+/* ✅ NEW: bias homepage hero crop upward (preserve bottom) */
+.hero-media:not(.short) .hero-img{
+  object-position:50% 75%;
+}
+
+/* Photo credit */
+.hero-credit{
+  position:absolute;
+  right:16px;
+  bottom:14px;
+  font-size:8px;
+  color:rgba(255,255,255,.28);
+  text-shadow:0 1px 1px rgba(0,0,0,.9);
+  pointer-events:none;
+}
+
+/* =========================
+   HERO CAPTION BAR
+   ========================= */
+.hero-underbar{
+  /* ✅ removed thin gray line */
+  border-bottom:none;
+  padding:8px 0 6px;
+}
+
+.hero-caption{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:16px;
+  font-size:12px;
+  color:var(--muted);
+}
+
+.hero-caption-left{
+  display:flex;
+  gap:10px;
+  align-items:baseline;
+  min-width:0;
+}
+
+.hero-caption-right{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:10px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--muted);
+  white-space:nowrap;
+}
+
+.cap{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:10px;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+
+/* =========================
+   HERO TEXT
+   ========================= */
+.hero-bottom{padding:22px 0 10px}
+
+.kicker{
+  font-family:'Manrope',sans-serif;
+  font-size:11px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--muted);
+  font-weight:800;
+  margin-bottom:10px;
+}
+
+.hero-bottom h1{
+  font-family:'Manrope',sans-serif;
+  margin:0;
+  font-size:clamp(26px,3.2vw,40px);
+  line-height:1.12;
+  max-width:46ch;
+}
+
+/* =========================
+   QUICK LINKS (SIMPLE, BIGGER BUTTONS)
+   ========================= */
+.quick-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:14px;
+}
+
+.quick-btn{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:14px;
+  padding:12px 18px;
+  line-height:1;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:#fff;
+  color:var(--text);
+  box-shadow:0 10px 24px rgba(11,15,20,.06);
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease, border-color .12s ease;
+}
+
+.quick-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 14px 30px rgba(11,15,20,.10);
+  background:#fafafa;
+  border-color:#dcdcdc;
+}
+
+
+
+/* =========================
+   SECTIONS
+   ========================= */
+.section{
+  padding:28px 0 34px;   /* was 34px 0 48px */
+  border-top:none;
+}
+
+.section-head h2{
+  font-family:'Manrope',sans-serif;
+  font-size:18px;
+  letter-spacing:.02em;
+  text-transform:uppercase;
+  font-weight:800;
+  margin:0 0 4px;        /* was 0 0 6px */
+}
+
+.section-date{
+  margin:0;
+  font-size:13px;
+  color:var(--muted);
+}
+
+.muted{
+  color:var(--muted);
+  font-size:15px;
+  margin:0;              /* ✅ removes default <p> margins */
+}
+
+/* ✅ only add space *after* the description line, not before/after unpredictably */
+.section-head .muted{
+  margin-top:2px;        /* small, controlled gap from the h2 */
+  margin-bottom:10px;    /* controlled space before cards/content */
+}
+
+/* =========================
+   FEATURED ARTICLE (YOUR REAL HTML)
+   ========================= */
+.featured-row{
+  display:flex;
+  gap:18px;
+  align-items:stretch;
+}
+
+/* Left image column */
+.featured-img{
+  flex:0 0 42%;
+  max-width:420px;
+  position:relative;
+
+  /* ✅ KEY FIX: don’t stretch taller than the image/text column */
+  align-self:stretch;
+
+  /* ✅ Clip overlay + corners cleanly */
+  border-radius:var(--radius);
+  overflow:hidden;
+
+  /* ✅ Avoid “black bar” under the photo */
+  background:transparent;
+}
+
+/* Keep the featured image shaped nicely */
+.featured-img img{
+  width:100%;
+  height:100%;
+  max-height:none;
+  object-fit:cover;
+  object-position:50% 50%;
+  /* ✅ radius lives on wrapper */
+  border-radius:0;
+}
+
+/* Featured credit */
+.feature-credit{
+  position:absolute;
+  right:12px;
+  bottom:10px;
+  z-index:2;
+  font-size:9px;
+  color:rgba(255,255,255,.55);
+  text-shadow:0 1px 2px rgba(0,0,0,.8);
+  pointer-events:none;
+}
+
+/* Right text column */
+.featured-text{
+  flex:1 1 auto;
+  min-width:0;
+}
+
+.featured-text h2{
+  font-family:'Manrope',sans-serif;
+  margin:6px 0 10px;
+  font-size:22px;
+  line-height:1.2;
+}
+
+.featured-text-date{
+  flex:1 1 auto;
+  min-width:0;
+  font-size:9px;
+}
+
+/* =========================
+   HOMEPAGE: "RIGHT NOW" PHOTO ROW + LIGHTBOX
+   ========================= */
+.seasonal-grid{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:14px;
+  margin-top:10px;
+}
+
+.seasonal-card{
+  border-radius:var(--radius);
+  overflow:hidden;
+  display:block;
+  border:1px solid var(--line);
+  background:#fff;
+}
+
+.seasonal-card img{
+  width:100%;
+  height:170px;
+  object-fit:cover;
+  display:block;
+}
+
+/* Lightbox overlay */
+.lightbox{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.86);
+  display:none;
+  align-items:center;
+  justify-content:center;
+  padding:24px;
+  z-index:999;
+}
+
+.lightbox.open{display:flex;}
+
+.lightbox-inner{
+  max-width:min(1100px, 96vw);
+  max-height:86vh;
+  width:auto;
+  position:relative;
+}
+
+.lightbox-img{
+  width:100%;
+  height:auto;
+  max-height:86vh;
+  object-fit:contain;
+  border-radius:var(--radius);
+  display:block;
+  background:#000;
+}
+
+.lightbox-close{
+  position:absolute;
+  top:-12px;
+  right:-12px;
+  width:38px;
+  height:38px;
+  border-radius:999px;
+  border:1px solid rgba(255,255,255,.22);
+  background:rgba(11,15,20,.70);
+  color:#fff;
+  font-size:20px;
+  line-height:36px;
+  text-align:center;
+  cursor:pointer;
+}
+
+/* =========================
+   BUTTON LINK (Read the full story / View full calendar)
+   ========================= */
+.link-btn{
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+  margin-top:10px;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid var(--line);
+  background:#fff;
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:12px;
+  letter-spacing:.02em;
+  transition:transform .12s ease, box-shadow .12s ease, background .12s ease;
+}
+
+.link-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 10px 24px rgba(11,15,20,.10);
+  background:#fafafa;
+}
+
+.arrow{display:inline-block}
+
+/* =========================
+   EVENTS (YOUR REAL HTML)
+   ========================= */
+.event-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:18px;
+  margin-top:10px;
+}
+
+/* Event card */
+.event-card{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  background:#fff;
+  overflow:hidden;
+  display:flex;
+  flex-direction:column;
+  min-height:100%;
+  transition:transform .12s ease, box-shadow .12s ease, border-color .12s ease;
+}
+
+.event-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 14px 30px rgba(11,15,20,.10);
+  border-color:#dcdcdc;
+}
+
+/* =========================
+   CARD IMAGE HEADERS (STANDARDIZE + CROP)
+   ========================= */
+.event-media{
+  width:100%;
+  height:170px;
+  overflow:hidden;
+  background:#000;
+}
+
+.event-media img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.event-img{
+  width:100%;
+  height:170px;
+  object-fit:cover;
+}
+
+/* Card body */
+.event-body{
+  padding:12px 14px 14px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.event-date{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:11px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  color:var(--muted);
+}
+
+.event-title{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:15px;
+  line-height:1.25;
+}
+
+.event-desc{
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.5;
+}
+
+.event-meta{
+  color:var(--muted);
+  font-size:12px;
+}
+
+/* Section footer button alignment */
+.section-footer{
+  margin-top:18px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+.site-footer{
+  border-top:none;
+  padding:12px 0 16px;
+}
+
+.footer-inner{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:12px;
+}
+
+.footer-brand{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+}
+
+.footer-links{
+  display:flex;
+  gap:14px;
+}
+
+.footer-links a{
+  font-family:'Manrope',sans-serif;
+  font-weight:700;
+  color:var(--muted);
+}
+
+.footer-bottom{
+  margin-top:2px;
+  color:var(--muted);
+  font-size:13px;
+}
+
+/* =========================
+   SUBPAGE HEADER STYLE
+   ========================= */
+.page .hero-header{
+  position:sticky;
+  top:0;
+  background:#fff;
+  border-bottom:none;
+  padding-top:0;
+}
+
+.page .header-inner{
+  padding:4px 0 6px;
+}
+
+.page .hero-header .container{
+  padding-left:14px;
+  padding-right:14px;
+}
+
+.page .brand-link{color:var(--text);text-shadow:none}
+
+.page .nav a{
+  background:rgba(11,15,20,.06);
+  color:var(--text);
+  padding:6px 10px;
+  font-size:12px;
+}
+
+.page .nav a:hover{
+  background:rgba(11,15,20,.10);
+}
+
+/* =========================
+   ITINERARIES (SOLID CARD TOP BANNER - SAFE, ONLY #itineraries)
+   ========================= */
+#itineraries .event-card{
+  background:#f3f4f6;
+  border-color:#e2e2e2;
+}
+
+#itineraries .event-card:hover{
+  transform:none;
+  box-shadow:none;
+  border-color:#e2e2e2;
+}
+
+#itineraries .itin-banner{
+  height:120px;
+  background:#dfe6ee;
+  border-bottom:1px solid #e2e2e2;
+  display:flex;
+  align-items:flex-end;
+  padding:12px 14px;
+}
+
+#itineraries .itin-banner-title{
+  font-family:'Manrope',sans-serif;
+  font-weight:800;
+  font-size:18px;
+  line-height:1.15;
+  letter-spacing:.01em;
+  color:var(--text);
+}
+
+#itineraries .event-body{
+  padding:14px 14px 16px;
+}
+
+/* =========================
+   MOBILE
+   ========================= */
+@media (max-width:900px){
+  .header-inner{
+    flex-wrap:wrap;
+    gap:10px;
+    padding:12px 0 10px;
+  }
+
+  .nav{width:100%;justify-content:flex-start}
+
+  .featured-row{flex-direction:column;}
+
+  .featured-img{
+    max-width:none;
+    flex:1 1 auto;
+  }
+
+  .featured-img img{max-height:320px;}
+
+  .event-grid{grid-template-columns:1fr;}
+
+  .event-img{height:190px;}
+  .event-media{height:190px;}
+
+  .seasonal-grid{grid-template-columns:repeat(2, 1fr);}
+  .seasonal-card img{height:190px;}
+
+  .hero-media.short{
+    height:34vh;
+    min-height:220px;
+  }
+
+  .page .header-inner{
+    padding:10px 0 8px;
+  }
+
+  .hero-caption{
+    flex-wrap:wrap;
+    row-gap:4px;
+  }
+
+  .hero-caption-right{
+    display:none;
+  }
+
+  .quick-links{
+    gap:8px;
+  }
+}
+
+@media (max-width:560px){
+  .seasonal-grid{grid-template-columns:1fr;}
+}
+
+
