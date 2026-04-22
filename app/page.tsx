@@ -95,7 +95,8 @@ const quickLinks = [
 ]
 
 export default function HomePage() {
-  const events = getFeaturedEvents(3)
+  const events = getFeaturedEvents(6)
+  const heroEvents = events.slice(0, 3)
 
   return (
     <>
@@ -172,7 +173,7 @@ export default function HomePage() {
 
               {/* Right — upcoming event cards */}
               <div className="flex flex-col gap-3 mt-6 lg:mt-0">
-                {events.map((event) => (
+                {heroEvents.map((event) => (
                   <Link
                     key={event.slug}
                     href={`/events/${event.slug}`}
