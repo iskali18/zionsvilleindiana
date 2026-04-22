@@ -186,15 +186,15 @@ export default function HomePage() {
                       ) : (
                         <>
                           <p className="text-brick-300 text-xs uppercase tracking-wide leading-none">
-                            {new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', {
+                            {new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', {
                               month: 'short',
-                              timeZone: 'America/Indiana/Indianapolis',
+                              timeZone: 'UTC',
                             })}
                           </p>
                           <p className="text-white font-display text-xl leading-none mt-0.5">
-                            {new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', {
+                            {new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', {
                               day: 'numeric',
-                              timeZone: 'America/Indiana/Indianapolis',
+                              timeZone: 'UTC',
                             })}
                           </p>
                         </>
@@ -210,7 +210,7 @@ export default function HomePage() {
                         <p className="text-stone-300 text-xs truncate mt-0.5">{event.recurrenceLabel}</p>
                       ) : event.endDate && event.endDate !== event.startDate ? (
                         <p className="text-stone-300 text-xs truncate mt-0.5">
-                          {`${new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })} – ${new Date(event.endDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}`}
+                          {`${new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })} – ${new Date(event.endDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`}
                         </p>
                       ) : null}
                       <p className="text-stone-300 text-xs truncate mt-0.5">{event.location}</p>
@@ -335,8 +335,8 @@ export default function HomePage() {
                       ? event.perennialLabel
                       : event.recurrenceLabel ?? (
                           event.endDate && event.endDate !== event.startDate
-                            ? `${new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })} – ${new Date(event.endDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}`
-                            : new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+                            ? `${new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })} – ${new Date(event.endDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`
+                            : new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
                         )
                     }
                   </p>
