@@ -202,6 +202,26 @@ export default async function EventPage({ params }: Props) {
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
 
+          {/* Map (optional, set via mapEmbedUrl in frontmatter) */}
+          {meta.mapEmbedUrl && (
+            <section className="mt-10">
+              <h2 className="font-display text-2xl text-stone-800 font-bold mb-2">
+                Parking & nearby restaurants
+              </h2>
+              <p className="text-sm text-stone-600 mb-4">
+                Tap a pin for details. Map opens in Google Maps for directions.
+              </p>
+              <div className="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm">
+                <iframe
+                  src={meta.mapEmbedUrl}
+                  className="w-full h-full border-0"
+                  loading="lazy"
+                  title={meta.mapTitle ?? `${meta.title} map`}
+                />
+              </div>
+            </section>
+          )}
+
           {/* Tags */}
           {meta.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mt-10 pt-6 border-t border-stone-200">

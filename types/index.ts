@@ -29,6 +29,10 @@ export interface EventMeta {
   perennialSortDate?: string
   perennialSeason?: string
   perennialLabel?: string
+  /** Optional Google MyMaps embed URL (e.g., parking and nearby restaurants for an event) */
+  mapEmbedUrl?: string
+  /** Optional title for the embedded map (used for iframe accessibility) */
+  mapTitle?: string
   metaTitle: string
   metaDescription: string
 }

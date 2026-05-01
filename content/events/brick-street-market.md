@@ -12,6 +12,8 @@ photoCredit: "Photo by Town of Zionsville"
 photoCreditHeroOnly: false
 tags: [market, artisan, outdoor, annual]
 featured: true
+mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=1oPINFddvaZW7YbNwGHytCoQpQVjN0no&ehbc=2E312F"
+mapTitle: "Brick Street Market 2026 — Map of Downtown Zionsville with Parking & Restaurants"
 faqs:
   - q: "When is the Brick Street Market 2026?"
     a: "Saturday, May 2, 2026 from 10 AM to 4 PM."
@@ -49,11 +51,11 @@ The 2026 Brick Street Market takes place on Saturday, May 2, from 10:00 AM to 4:
 
 **Arrive early if you prefer to park nearby.**
 
-Main Street is closed to vehicles during market hours. Street parking is available on Main Street north of the market area and along nearby streets, but fills quickly.
+Main Street is closed to vehicles during market hours. Street parking is available on **Main Street north of the market area** and along **nearby streets**, but fills quickly.
 
-The largest public parking lot is located at the northwest corner of **Main Street and Sycamore Road**, with access from both Main Street and First Street. A second lot is located at the southwest corner of **Main Street and Pine Street**. 
+The largest public parking lot is located at the northwest corner of **Main Street and Sycamore Road**, with access from First Street.  
 
-Additional parking is available on nearby streets and in public lots throughout the Village, including Lions Park, all within a short walk of the market.
+Additional parking is available on **nearby streets** and in **public lots throughout the Village**, including **Lions Park**, all within a short walk from the market.
 
 ## What to expect
 
@@ -88,6 +90,22 @@ The kids area, sponsored by Restore Life Chiropractic, includes activities and a
 ## Live music
 
 Live music plays throughout the day along the market route.
+
+## Where to eat near the market
+
+Beyond the on-site food court, most Main Street restaurants are a short walk from the market — a useful frame for a long day of browsing.
+
+**Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) and [Our Place Coffee](/businesses/our-place-coffee) are both Main Street coffee stops, good for arrival or an afternoon break.
+
+**Brunch** — [Rosie's Place](/businesses/rosies-place) is a long-standing brunch favorite, a natural choice if you arrive at 10 AM and want to start with a meal.
+
+**Casual lunch** — [Greek's Pizzeria](/businesses/greeks-pizzeria) for pizza and Greek classics (also a vendor in the market food court). [Zionsville Pizzeria](/businesses/zionsville-pizzeria) is another Main Street pizza option.
+
+**Elevated dining** — [Cobblestone](/businesses/cobblestone) for refined American or [Convivio](/businesses/convivio) for Italian, both on Main Street and well-suited for a sit-down meal during or after the market.
+
+**Sweets** — [Truffles & Creams](/businesses/truffles-and-creams) for handmade chocolates and [The Scoop](/businesses/the-scoop) for ice cream on warm afternoons.
+
+**Take home** — [Angelo's Italian Market](/businesses/angelos-italian-market) carries housemade pasta, sauces, and prepared foods.
 
 ## This year
 
