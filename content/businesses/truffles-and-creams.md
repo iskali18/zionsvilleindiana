@@ -7,7 +7,7 @@ shortDescription: "Handcrafted artisan chocolates and small-batch truffles."
 seo_title: "Truffles & Creams | Artisan Chocolates in Zionsville, IN"
 metaDescription: "Truffles & Creams handcrafts ganache truffles, caramels, and turtles in small batches. Visit the artisan chocolate shop just off Main Street in Zionsville."
 address: "55 E Pine St, Zionsville, IN 46077"
-phone: "(317) 560-6355"
+phone: "(317) 965-5471"
 website: "https://trufflesandcreams.com"
 lastVerified: "2026-04-16"
 ---

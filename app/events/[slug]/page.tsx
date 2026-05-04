@@ -209,7 +209,7 @@ export default async function EventPage({ params }: Props) {
                 Parking & nearby restaurants
               </h2>
               <p className="text-sm text-stone-600 mb-4">
-                Tap a pin for details. Map opens in Google Maps for directions.
+                Use the map below to find public lots, street parking areas, and nearby restaurants. Blue P icons mark public parking lots, while green P icons mark street parking areas. Tap any pin for details or directions in Google Maps.
               </p>
               <div className="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm">
                 <iframe
