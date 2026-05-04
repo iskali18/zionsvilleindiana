@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://zionsvilleindiana.com' },
 }
 
+export const revalidate = 86400
+
 const faqs = [
   {
     q: 'What is Zionsville known for?',

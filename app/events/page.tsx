@@ -14,6 +14,8 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://zionsvilleindiana.com/events' },
 }
 
+export const revalidate = 86400
+
 export default async function EventsPage() {
   const featuredEvents = getFeaturedEvents(6)
   const allEvents = getAllEvents()
