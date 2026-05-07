@@ -11,7 +11,7 @@ imageAlt: Children playing at Mulberry Fields Park splash pad during Zionsville'
 photoCredit:
 photoCreditHeroOnly:
 tags: [family, kids, outdoor, free, summer, end-of-school]
-featured: true
+featured: false
 externalUrl: https://www.zionsville-in.gov/parks
 metaTitle: "Party in the Park 2026 — May 28, Mulberry Fields | Splash Pad, DJ, Food Trucks"
 metaDescription: "Zionsville's Party in the Park returns Thursday, May 28, 2026, 3–6 PM at Mulberry Fields Park. Splash pad, live DJ, food trucks, Touch-a-Truck, Nature Center, and games. Free."
