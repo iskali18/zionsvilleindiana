@@ -116,7 +116,7 @@ export default function HomePage() {
         >
           <div className="absolute inset-0">
             <Image
-              src="/images/zionsville-indiana-main-street.jpg"
+              src="/images/zionsville-indiana-main-street.webp"
               alt="Main Street in Zionsville, Indiana"
               fill
               className="object-cover object-[center_40%] opacity-45"

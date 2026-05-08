@@ -1,6 +1,6 @@
 ---
 title: Zionsville 4th of July Celebration
-seoTitle: "Zionsville 4th of July Celebration 2026 — Zionsville, Indiana"
+seoTitle: "Zionsville 4th of July Celebration"
 description: Zionsville's annual Independence Day celebration at Lions Park with food vendors, bounce houses, live entertainment, and fireworks. One of the most popular events of the year.
 eventType: annual
 startDate: "2026-07-04"
@@ -13,8 +13,8 @@ photoCreditHeroOnly: true
 tags: [fireworks, family, annual, outdoor, summer, fourth-of-july]
 featured: true
 externalUrl: https://www.zionsvillelions.com
-metaTitle: "Zionsville 4th of July 2026 — Fireworks 10 PM, Lions Park | Largest Display Ever"
-metaDescription: "Zionsville's 4th of July Celebration is Saturday, July 4, 2026 at Lions Park. Largest fireworks display ever at 10 PM, food, DJ music, kids' bounce houses from 5 PM. Marking America 250."
+metaTitle: "Zionsville 4th of July Celebration: 2026 Fireworks, Schedule & Parking"
+metaDescription: "The Zionsville 4th of July Celebration at Lions Park brings fireworks, food, music, and family activities every Independence Day. 2026: Saturday, July 4 — largest fireworks display ever at 10 PM."
 faqs:
   - q: "When is the Zionsville 4th of July Celebration 2026?"
     a: "Saturday, July 4, 2026 at Lions Park (11053 Sycamore St, Zionsville). Festivities begin at 5 PM and run until the fireworks finish around 10:30 PM."
@@ -32,7 +32,7 @@ faqs:
     a: "The Zionsville Lions Club hosts the event in conjunction with the Town of Zionsville, with support from the Partners in the Park sponsors."
 ---
 
-The Zionsville 4th of July Celebration is one of the town's largest annual gatherings, hosted by the Zionsville Lions Club at Lions Park. Families spread out on the park's ball fields and green spaces with chairs and blankets for an afternoon and evening of food, music, and the fireworks finale at 10 PM.
+The Zionsville 4th of July Celebration is one of the town's largest annual gatherings, held every Independence Day at Lions Park and hosted by the Zionsville Lions Club. Families spread out on the park's ball fields and green spaces with chairs and blankets for an afternoon and evening of food, music, and a fireworks finale at 10 PM.
 
 **This year is bigger.** Coinciding with the road to America's 250th anniversary in 2026, the Lions Club has commissioned the Mad Bomber team to deliver the largest fireworks display in the event's history.
 
@@ -65,5 +65,3 @@ Free public lots are located at the northwest corner of Main Street and Sycamore
 ## Hosts
 
 The event is hosted by the [Zionsville Lions Club](https://www.zionsvillelions.com) in conjunction with the Town of Zionsville and the support of the Partners in the Park sponsors.
-
-

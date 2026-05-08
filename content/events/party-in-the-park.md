@@ -1,8 +1,8 @@
 ---
-title: Party in the Park 2026
-seoTitle: "Party in the Park 2026 — Mulberry Fields Park, Zionsville"
+title: Party in the Park
+seoTitle: "Party in the Park"
 description: A free end-of-school-year celebration at Mulberry Fields Park with games, a splash pad, food trucks, a live DJ, the nature center, and Touch-a-Truck with Zionsville Fire and Police.
-eventType: oneoff
+eventType: annual
 startDate: "2026-05-28"
 location: Mulberry Fields Park, Zionsville
 address: "Mulberry Fields Park, Zionsville, IN 46077"
@@ -13,8 +13,8 @@ photoCreditHeroOnly:
 tags: [family, kids, outdoor, free, summer, end-of-school]
 featured: false
 externalUrl: https://www.zionsville-in.gov/parks
-metaTitle: "Party in the Park 2026 — May 28, Mulberry Fields | Splash Pad, DJ, Food Trucks"
-metaDescription: "Zionsville's Party in the Park returns Thursday, May 28, 2026, 3–6 PM at Mulberry Fields Park. Splash pad, live DJ, food trucks, Touch-a-Truck, Nature Center, and games. Free."
+metaTitle: "Party in the Park: Zionsville's End-of-School Celebration at Mulberry Fields"
+metaDescription: "Party in the Park is Zionsville's free annual end-of-school celebration at Mulberry Fields Park. 2026: Thursday, May 28, 3–6 PM. Splash pad, live DJ, food trucks, Touch-a-Truck, Nature Center."
 faqs:
   - q: "When is Party in the Park 2026?"
     a: "Thursday, May 28, 2026 from 3:00 PM to 6:00 PM at Mulberry Fields Park."
@@ -32,7 +32,7 @@ faqs:
     a: "Yes, Mulberry Fields Park has its own parking lot. Arrive a bit early for the closest spots, as this is one of the busier afternoons of the year at the park."
 ---
 
-Party in the Park is Zionsville's free end-of-school-year celebration, held on the last day of school at Mulberry Fields Park. Hosted by Zionsville Parks and Recreation along with the Zionsville Nature Center and the Town of Zionsville, the event marks the kickoff to summer for local families with three hours of activities, food, and play.
+Party in the Park is Zionsville's free end-of-school-year celebration, held annually on the last day of school at Mulberry Fields Park. Hosted by Zionsville Parks and Recreation along with the Zionsville Nature Center and the Town of Zionsville, the event marks the kickoff to summer for local families with three hours of activities, food, and play.
 
 ## What's planned for 2026
 
