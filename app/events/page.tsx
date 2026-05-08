@@ -16,6 +16,35 @@ export const metadata: Metadata = {
 
 export const revalidate = 86400
 
+// Match a Google Calendar event title to an internal event slug.
+// Uses tokenized matching: punctuation-tolerant, stop-word-free,
+// and bidirectional so it works whether the calendar title is shorter
+// or longer than the slug.
+const STOP_WORDS = new Set(['at', 'the', 'in', 'of', 'a', 'an', 'and', 'on', 'for', 'to'])
+
+function tokenize(input: string): Set<string> {
+  return new Set(
+    input
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w && !STOP_WORDS.has(w))
+  )
+}
+
+function matchEventToSlug(eventTitle: string, slugs: string[]): string | undefined {
+  const titleWords = tokenize(eventTitle)
+  if (titleWords.size === 0) return undefined
+
+  return slugs.find((slug) => {
+    const slugWords = tokenize(slug.replace(/-/g, ' '))
+    if (slugWords.size === 0) return false
+    const slugInTitle = [...slugWords].every((w) => titleWords.has(w))
+    const titleInSlug = [...titleWords].every((w) => slugWords.has(w))
+    return slugInTitle || titleInSlug
+  })
+}
+
 export default async function EventsPage() {
   const featuredEvents = getFeaturedEvents(6)
   const allEvents = getAllEvents()
@@ -132,9 +161,7 @@ export default async function EventsPage() {
           ) : (
             <div className="divide-y divide-stone-100 border border-stone-200 rounded-lg bg-white overflow-hidden">
               {calendarEvents.map((event) => {
-                const matchedSlug = allSlugs.find((slug) =>
-                  event.title.toLowerCase().includes(slug.replace(/-/g, ' '))
-                )
+                const matchedSlug = matchEventToSlug(event.title, allSlugs)
                 const displayDate = new Date(
                   event.isAllDay ? event.startDate + 'T00:00:00' : event.startDate
                 )
