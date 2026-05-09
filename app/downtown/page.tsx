@@ -161,6 +161,21 @@ export default function DowntownPage() {
                 Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park, all within a short walk of downtown.
               </p>
             </div>
+
+            {/* Parking map */}
+            <div className="mt-8 max-w-4xl">
+              <div className="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
+                <iframe
+                  src="https://www.google.com/maps/d/u/3/embed?mid=18BtWWcIsHtC8hk8HPDtkO9oTk9clVAM&ehbc=2E312F"
+                  title="Map of public parking in downtown Zionsville, Indiana"
+                  loading="lazy"
+                  className="w-full h-full"
+                />
+              </div>
+              <p className="text-xs text-stone-500 mt-2">
+                Parking lots and street parking near downtown Zionsville. Pinch or scroll to zoom.
+              </p>
+            </div>
           </div>
 
           {/* ── CTA ──────────────────────────────────────────────────── */}

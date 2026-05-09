@@ -29,7 +29,7 @@ faqs:
   - q: "How much does the Zionsville Fall Festival cost?"
     a: "Admission to the festival at Lions Park is free. Carnival rides require single-ride tickets, available all carnival days. Carnival games are paid in cash at each booth — bring cash, as card acceptance isn't guaranteed. Unlimited-ride wristbands are offered on Sunday (Wristband Day); current-year pricing is announced closer to the event."
   - q: "Where do I park for the Zionsville Fall Festival?"
-    a: "On-site parking at Lions Park is available for $8.00 cash, which supports park maintenance. Overflow paid parking is available on the vacant lot at the southwest corner of Main and Sycamore Road for $8.00 cash. Free public lots are at the northwest corner of Main and Sycamore Road and the southwest corner of Main and Pine Street. Parking near the parade route and Lions Park fills quickly during the Saturday parade."
+    a: "Lions Park parking is free year-round, but during the Fall Festival, on-site parking is $8.00 cash, which supports park maintenance. Overflow paid parking is available on the vacant lot at the southwest corner of Main and Sycamore Road for $8.00 cash. Free public lots are at the northwest corner of Main and Sycamore Road and the southwest corner of Main and Pine Street. Parking near the parade route and Lions Park fills quickly during the Saturday parade."
   - q: "What are the Zionsville Fall Festival hours?"
     a: "The 2026 festival hours are listed as Friday 5:00 PM – 11:00 PM, Saturday 10:00 AM – 11:00 PM, and Sunday 12:00 PM – 5:00 PM. Activity times may vary by day."
   - q: "What activities are at the Zionsville Fall Festival?"
@@ -94,7 +94,7 @@ The parade typically includes school marching bands, local businesses, community
 
 **Carnival Games:** Games are paid in cash at each booth. Bring cash, as card acceptance varies and may not be available at every game.
 
-**Parking:** On-site parking at Lions Park is available for an $8.00 cash fee, which supports park maintenance. Overflow paid parking is available on the vacant lot at the southwest corner of **Main Street and Sycamore Road** for an $8.00 cash fee.
+**Parking:** Lions Park parking is free year-round, but during the Fall Festival, on-site parking is $8.00 cash, which supports park maintenance. Overflow paid parking is available on the vacant lot at the southwest corner of **Main Street and Sycamore Road** for an $8.00 cash fee.
 
 Free public parking lots are located at the northwest corner of **Main Street and Sycamore Road** and the southwest corner of **Main Street and Pine Street**. Additional parking may be available along nearby streets and in public lots throughout the Village.
 

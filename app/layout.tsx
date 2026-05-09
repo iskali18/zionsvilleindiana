@@ -18,8 +18,8 @@ const sans = Source_Sans_3({
 export const metadata: Metadata = {
   metadataBase: new URL('https://zionsvilleindiana.com'),
   title: {
-    default: 'Zionsville, Indiana — Events, Parks & Village Guide',
-    template: '%s | ZionsvilleIndiana.com',
+    default: 'Zionsville Indiana — Events, Parks & Village Guide',
+    template: '%s | Zionsville Indiana',
   },
   description:
     'Your guide to Zionsville, Indiana. Browse the 2026 events calendar, explore downtown shops and dining, and discover parks and trails in the village.',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     url: 'https://zionsvilleindiana.com',
-    siteName: 'ZionsvilleIndiana.com',
+    siteName: 'Zionsville Indiana',
     images: [{ url: '/images/og-default.jpg', width: 1200, height: 630 }],
   },
   twitter: {
@@ -42,6 +42,19 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" className={`${display.variable} ${sans.variable}`}>
       <head>
+        {/* WebSite schema — tells Google what to display as the site name in search results */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'Zionsville Indiana',
+              alternateName: 'ZionsvilleIndiana.com',
+              url: 'https://zionsvilleindiana.com',
+            }),
+          }}
+        />
         {/* Google Analytics */}
         <script
           async

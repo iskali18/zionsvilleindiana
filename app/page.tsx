@@ -116,7 +116,7 @@ export default function HomePage() {
         >
           <div className="absolute inset-0">
             <Image
-              src="/images/zionsville-indiana-main-street.webp"
+              src="/images/zionsville-indiana-main-street.jpg"
               alt="Main Street in Zionsville, Indiana"
               fill
               className="object-cover object-[center_40%] opacity-45"
@@ -254,24 +254,27 @@ export default function HomePage() {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
             <div className="max-w-3xl">
               <h2 className="font-display text-2xl text-stone-900 mb-4">
-                About Zionsville, Indiana
+                Welcome to Zionsville, Indiana
               </h2>
               <p className="text-stone-600 leading-relaxed mb-4">
-                The Town of Zionsville is located in Boone County, Indiana, about 20
-                miles northwest of Indianapolis. It is centered around a historic downtown,
-                with a brick-paved Main Street lined with locally-owned shops,
-                restaurants, and cafés.
+                Zionsville is a town in Boone County, Indiana, 
+                about 20 miles northwest of Indianapolis. It is best 
+                known for its historic Village district, where brick-paved 
+                Main Street is lined with locally owned shops, restaurants, 
+                and cafés.
+
               </p>
               <p className="text-stone-600 leading-relaxed mb-4">
-                The community is served by the highly rated Zionsville Community
-                Schools and includes parks, trails, and green spaces across the town.
-                Its character is reflected in its historic architecture, the Village district, 
-                and regularly-scheduled community events — including the weekly Farmers Market
-                in summer to the annual Fall Festival each September.
+                The community is served by highly rated Zionsville Community 
+                Schools and includes parks, trails, and green spaces throughout 
+                town. Zionsville&apos;s character comes through in its historic 
+                architecture, walkable downtown, and community events — from the 
+                weekly Farmers Market in summer to the annual Fall Festival 
+                each September.
               </p>
               <p className="text-stone-600 leading-relaxed">
-                This guide covers local events, downtown dining and shopping, and what's 
-                happening in Zionsville.
+                This guide highlights local events, downtown dining and shopping, and 
+                what&apos;s happening in Zionsville.
               </p>
               <div className="flex gap-4 mt-6">
                 <Link
