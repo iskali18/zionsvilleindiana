@@ -166,7 +166,7 @@ export default function DowntownPage() {
             <div className="mt-8 max-w-4xl">
               <div className="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
                 <iframe
-                  src="https://www.google.com/maps/d/u/3/embed?mid=18BtWWcIsHtC8hk8HPDtkO9oTk9clVAM&ehbc=2E312F"
+                  src="https://www.google.com/maps/d/u/3/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
                   title="Map of public parking in downtown Zionsville, Indiana"
                   loading="lazy"
                   className="w-full h-full"
