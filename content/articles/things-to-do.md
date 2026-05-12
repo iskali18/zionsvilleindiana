@@ -125,7 +125,7 @@ Use the itineraries below for ideas, then check current hours, seasonal schedule
 
 - Visit **Traders Point Creamery** or **WonderTree Farm**; check current tours, Farm Days, and market hours before you go
 - Lunch outside: choose a sit-down meal at **Toro Z Mexican Restaurant** or keep it casual with **Torchy’s Tacos**
-- Try birding at ******Creekside Nature Park** or **Zion Nature Sanctuary**; the [Merlin Bird ID](https://merlin.allaboutbirds.org/) app makes it easy for beginners to identify birds by their songs and calls
+- Try birding at **Creekside Nature Park** or **Zion Nature Sanctuary**; the [Merlin Bird ID](https://merlin.allaboutbirds.org/) app makes it easy for beginners to identify birds by their songs and calls
 - Keep listening for birds on a walk or ride along the **Big-4 Rail Trail**
 - End with chocolates from **Schakolad Chocolate Factory**
 
@@ -143,7 +143,7 @@ Use the itineraries below for ideas, then check current hours, seasonal schedule
 - Try the batting cages at **D-BAT Zionsville**
 - Play disc golf or go fishing at **Overley-Worman Park**
 - Run, walk, or bike on the **Big-4 Rail Trail**
-- Have dinner at **Zionsville Public House**, a casual 21-and-over sports bar
+- Have dinner at family-friendly **Shake Shack**, or at the **Zionsville Public House**, a casual 21-and-over sports bar
 
 ## Frequently asked questions
 

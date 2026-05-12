@@ -69,4 +69,4 @@ See the [Town of Zionsville Party in the Park page](https://www.zionsville-in.go
 
 ## After the event
 
-Mulberry Fields Park is a short drive from downtown Zionsville. [The Scoop](/businesses/the-scoop) on South Main Street is open into the evening for ice cream, and [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are dinner options on Main Street.
+ Amore Pizzeria is family-friendly option for dinner in Boone Village. [The Scoop](/businesses/the-scoop) on South Main Street is open into the evening for ice cream, and [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are additional dinner options on Main Street. 
