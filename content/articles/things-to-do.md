@@ -115,35 +115,35 @@ Use the itineraries below for ideas, then check current hours, seasonal schedule
 
 ### Family Saturday
 
-- Visit the Zionsville Nature Center and nearby Zion Nature Sanctuary
-- Have a casual lunch at Amore Pizzeria
-- Attend a library program or seasonal event; check schedules before you go, since some programs may run right after lunch
-- Stop for ice cream at Fundae’s
-- Burn off energy at the Lions Park playground before heading home
+- Visit the **Zionsville Nature Center** and nearby **Zion Nature Sanctuary**
+- Have a casual lunch at **Amore Pizzeria**
+- Attend a **library** program or seasonal event; check schedules before you go, since some programs may run right after lunch
+- Stop for ice cream at **Fundae’s**
+- Burn off energy at the **Lions Park** playground before heading home
 
 ### Outdoor-Focused Saturday (Seasonal)
 
-- Visit Traders Point Creamery or WonderTree Farm; check current tours, Farm Days, and market hours before you go
-- Lunch outside: choose a sit-down meal at Toro Z Mexican Restaurant or keep it casual with Torchy’s Tacos
-- Try birding at Creekside Nature Park or Zion Nature Sanctuary; the [Merlin Bird ID](https://merlin.allaboutbirds.org/) app makes it easy for beginners to identify birds by their songs and calls
-- Keep listening for birds on a walk or ride along the Big-4 Rail Trail
-- End with chocolates from Schakolad Chocolate Factory
+- Visit **Traders Point Creamery** or **WonderTree Farm**; check current tours, Farm Days, and market hours before you go
+- Lunch outside: choose a sit-down meal at **Toro Z Mexican Restaurant** or keep it casual with **Torchy’s Tacos**
+- Try birding at ******Creekside Nature Park** or **Zion Nature Sanctuary**; the [Merlin Bird ID](https://merlin.allaboutbirds.org/) app makes it easy for beginners to identify birds by their songs and calls
+- Keep listening for birds on a walk or ride along the **Big-4 Rail Trail**
+- End with chocolates from **Schakolad Chocolate Factory**
 
 ### Leisurely Saturday
 
-- Brunch at Lincoln Square Pancake House
-- Walk a couple of miles on the Big-4 Rail Trail, or take a shorter stroll at Lions Park and neighboring Creekside Nature Park
-- Shop for unique finds at Brown’s Antiques
-- Dinner: Mediterranean-style bowls at CAVA or Asian-inspired bowls at Bibibop Asian Grill
+- Brunch at **Lincoln Square Pancake House**
+- Walk a couple of miles on the **Big-4 Rail Trail**, or take a shorter stroll at **Lions Park** and neighboring **Creekside Nature Park**
+- Shop for unique finds at **Brown’s Antiques**
+- Dinner: Mediterranean-style bowls at **CAVA** or Asian-inspired bowls at **Bibibop Asian Grill**
 
 ### Sports Saturday
 
-- Breakfast or brunch at RIVET Coffee Bar, or a special-occasion lunch at Bowdie’s Chophouse with exotic and high-performance cars nearby
-- Play 9 holes at Zionsville Golf Course or practice your swing at The Range of Zionsville
-- Try the batting cages at D-BAT Zionsville
-- Play disc golf or go fishing at Overley-Worman Park
-- Run, walk, or bike on the Big-4 Rail Trail
-- Have dinner at Zionsville Public House, a casual 21-and-over sports bar
+- Breakfast or brunch at **RIVET Coffee Bar**, or a special-occasion lunch at **Bowdie’s Chophouse** with exotic and high-performance cars nearby
+- Play 9 holes at **Zionsville Golf Course** or practice your swing at **The Range of Zionsville**
+- Try the batting cages at **D-BAT Zionsville**
+- Play disc golf or go fishing at **Overley-Worman Park**
+- Run, walk, or bike on the **Big-4 Rail Trail**
+- Have dinner at **Zionsville Public House**, a casual 21-and-over sports bar
 
 ## Frequently asked questions
 
