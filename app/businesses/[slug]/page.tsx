@@ -165,7 +165,7 @@ export default async function BusinessPage({ params }: Props) {
 
         <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
           <Link href="/businesses" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
-            ← Business directory
+            Business directory →
           </Link>
           <Link href="/downtown" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
             Explore downtown Zionsville →

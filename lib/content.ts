@@ -2,9 +2,11 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
-import remarkHtml from 'remark-html'
 import remarkGfm from 'remark-gfm'
-import type { EventMeta, ParkMeta, BusinessMeta } from '@/types'
+import remarkRehype from 'remark-rehype'
+import rehypeExternalLinks from 'rehype-external-links'
+import rehypeStringify from 'rehype-stringify'
+import type { EventMeta, ParkMeta, BusinessMeta, ArticleMeta } from '@/types'
 
 const contentDir = path.join(process.cwd(), 'content')
 
@@ -22,7 +24,16 @@ function getSlugs(section: string): string[] {
 }
 
 async function parseMarkdown(content: string): Promise<string> {
-  const result = await remark().use(remarkGfm).use(remarkHtml).process(content)
+  const result = await remark()
+    .use(remarkGfm)
+    .use(remarkRehype)
+    .use(rehypeExternalLinks, {
+      target: '_blank',
+      rel: ['noopener', 'noreferrer'],
+      protocols: ['http', 'https'],
+    })
+    .use(rehypeStringify)
+    .process(content)
   return result.toString()
 }
 
@@ -135,4 +146,25 @@ export function getBusinessesByCategory(
   category: BusinessMeta['category']
 ): BusinessMeta[] {
   return getAllBusinesses().filter((b) => b.category === category)
+}
+
+// ─── Articles ────────────────────────────────────────────────────────────────
+
+export function getAllArticleSlugs(): string[] {
+  return getSlugs('articles')
+}
+
+export function getAllArticles(): ArticleMeta[] {
+  return getSlugs('articles').map((slug) => {
+    const { data } = readFile('articles', slug)
+    return { slug, ...data } as ArticleMeta
+  })
+}
+
+export async function getArticle(
+  slug: string
+): Promise<{ meta: ArticleMeta; contentHtml: string }> {
+  const { data, content } = readFile('articles', slug)
+  const contentHtml = await parseMarkdown(content)
+  return { meta: { slug, ...data } as ArticleMeta, contentHtml }
 }

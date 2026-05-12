@@ -25,7 +25,7 @@ faqs:
   - q: "Where is the Zionsville Farmers Market held?"
     a: "The market is held at 340 S Main St in downtown Zionsville. Main Street is closed to vehicles during market hours."
   - q: "Where do I park for the Zionsville Farmers Market?"
-    a: "The closest lot is at the northwest corner of Main Street and Sycamore Rd., accessible via First Street. Additional parking is available along Main Street north of the market area, on nearby side streets, and at Lions Park. Spaces close to the market fill quickly after 8:30 AM."
+    a: "The closest lot is at the northwest corner of Main Street and Sycamore Rd., also accessible via First Street. Additional parking is available along Main Street north of the market area, on nearby side streets, and at Lions Park. Spaces close to the market fill quickly after 8:30 AM."
   - q: "Are dogs allowed at the Zionsville Farmers Market?"
     a: "Yes, dogs are welcome on leash."
   - q: "What is sold at the Zionsville Farmers Market?"
@@ -33,7 +33,7 @@ faqs:
   - q: "What time should I arrive at the Zionsville Farmers Market?"
     a: "Arrive before 9 AM for the best selection — popular items like sweet corn and specialty baked goods often sell out before closing. Parking near the market is easiest before 8:30 AM."
   - q: "Is the Zionsville Farmers Market free to attend?"
-    a: "Yes, attendance is free. Most vendors accept cards, but cash is faster."
+    a: "Yes, attendance is free."
 ---
 
 The Zionsville Farmers Market is one of the most popular weekly gatherings in downtown Zionsville, drawing locals and visitors to Main Street in the Village every Saturday morning from mid-May through late September. It’s a relaxed Saturday tradition where shoppers can browse local vendors, hear live music, and spend the morning downtown.

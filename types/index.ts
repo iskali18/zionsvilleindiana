@@ -100,6 +100,19 @@ export interface BusinessMeta {
   seo_title?: string
 }
 
+// ___ Guides
+export interface ArticleMeta {
+  slug: string
+  title: string
+  seoTitle: string
+  description: string
+  hero_image?: string
+  hero_credit?: string
+  lastUpdated?: string
+  category?: 'discovery' | 'relocation' | 'outdoors' | 'food' | 'family'
+  ctas?: Array<{ label: string; href: string }>
+}
+
 // ─── Shared ──────────────────────────────────────────────────────────────────
 
 export interface BreadcrumbItem {

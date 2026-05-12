@@ -239,7 +239,7 @@ export default async function EventPage({ params }: Props) {
           {/* ── CTA ──────────────────────────────────────────────────── */}
           <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
             <Link href="/events" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
-              ← All events
+              All events →
             </Link>
             <Link href="/downtown" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
               Explore downtown Zionsville →
