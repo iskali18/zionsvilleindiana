@@ -73,16 +73,4 @@ Street parking is available along Main Street and nearby streets, but it fills q
 
 Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park, all within a short walk of downtown. Many residents and visitors walk several blocks rather than trying to park near the parade route, so dress for the walk.
 
-[A parking and route map will be added closer to the event.]
 
-## Make a night of it
-
-Christmas in the Village pairs naturally with dinner, shopping, and dessert downtown. Check restaurant hours and reservations before you go, especially on parade night.
-
-**Casual dinner** — [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are easy family dinner options on Main Street.
-
-**Elevated dining** — [Cobblestone](/businesses/cobblestone), [Convivio](/businesses/convivio), and [Noah Grant's](/businesses/noah-grants) are reservations-recommended Main Street spots.
-
-**Sweets** — [Truffles & Creams](/businesses/truffles-and-creams) on East Pine is a natural stop for handmade chocolates.
-
-For more downtown options, see [downtown Zionsville dining](/downtown/dining) and [downtown shopping](/downtown/shopping).
