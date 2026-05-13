@@ -12,10 +12,14 @@ export const metadata: Metadata = {
 }
 
 const quickFacts = [
+  { label: 'State', value: 'Indiana' },
   { label: 'County', value: 'Boone County' },
   { label: 'ZIP Code', value: '46077' },
-  { label: 'State', value: 'Indiana' },
-  { label: 'Location', value: ' ~20 miles northwest of Indianapolis' },
+  { label: 'Population', value: '31,702 (2020 census)' },
+  { label: 'Boone County population', value: '73,052 (2020 census)' },
+  { label: 'Land area', value: '67.22 square miles' },
+  { label: 'Location', value: '~20 miles northwest of Indianapolis' },
+  { label: 'Government', value: 'Mayor-Council (since 2015)' },
   { label: 'Known for', value: 'Historic brick street, the Village district, community events' },
 ]
 
@@ -97,6 +101,29 @@ const resources = [
   },
 ]
 
+const faqs = [
+  {
+    q: 'Where is Zionsville, Indiana?',
+    a: 'Zionsville is a town in Boone County, Indiana, located about 20 miles northwest of downtown Indianapolis. The historic Village district is centered on Main Street and is the most recognizable part of town. Zionsville is part of the broader Indianapolis metropolitan area.',
+  },
+  {
+    q: 'What is the ZIP code for Zionsville, Indiana?',
+    a: 'The primary ZIP code for Zionsville is 46077.',
+  },
+  {
+    q: 'How far is Zionsville from Indianapolis?',
+    a: 'Zionsville is approximately 20 miles northwest of downtown Indianapolis.',
+  },
+  {
+    q: 'What school district is Zionsville in?',
+    a: 'Zionsville is served by Zionsville Community Schools (ZCS), which operates elementary, middle, and high schools across the district. ZCS is regularly ranked among the top public school districts in Indiana.',
+  },
+  {
+    q: 'What township is Zionsville in?',
+    a: 'Zionsville is located within Eagle Township in Boone County, Indiana.',
+  },
+]
+
 const aboutSchema = {
   '@context': 'https://schema.org',
   '@type': 'City',
@@ -113,12 +140,26 @@ const aboutSchema = {
     'Zionsville is a town in Boone County, Indiana, located northwest of Indianapolis. It is known for its historic brick streets, Village district, and strong community events calendar.',
 }
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function AboutPage() {
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(aboutSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
       <Header />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
