@@ -28,6 +28,7 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
     },
   }
 
+  
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -146,8 +147,8 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
   )
 }
 
-function formatDate(iso: string): string {
-  const d = new Date(iso + 'T00:00:00')
+function formatDate(iso: string | Date): string {
+  const d = typeof iso === 'string' ? new Date(iso + 'T00:00:00') : iso
   return d.toLocaleDateString('en-US', {
     year: 'numeric',
     month: 'long',

@@ -6,15 +6,15 @@ import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Downtown Zionsville Indiana — Dining, Shopping & the Village',
+  title: 'Downtown Zionsville Indiana — Things to Do, Dining & Shopping',
   description:
-    'Explore downtown Zionsville, Indiana — the Village district of brick-paved streets, local restaurants, boutique shops, and an unhurried pace on Main Street.',
+    'Explore downtown Zionsville: dining on the brick-paved Village streets, local boutiques, family itineraries, parking info, and what to do on a visit to Main Street.',
   alternates: { canonical: 'https://zionsvilleindiana.com/downtown' },
 }
 
 const itineraries = [
   {
-    title: 'Family: fresh air + a sweet finish',
+    title: 'Family time near the Village',
     image: '/images/downtown/zionsville-lions-park-playground.jpg',
     alt: 'Family enjoying a walk near Lions Park in Zionsville',
     stops: [
@@ -27,7 +27,7 @@ const itineraries = [
     ],
   },
   {
-    title: 'A slow morning wander',
+    title: 'A leisurely morning downtown',
     image: '/images/downtown/zionsville-main-street-shop.jpg',
     alt: 'Quiet morning along Main Street in downtown Zionsville',
     stops: [
@@ -52,9 +52,46 @@ const itineraries = [
   },
 ]
 
+const faqs = [
+  {
+    q: 'What is downtown Zionsville?',
+    a: 'Downtown Zionsville is the Village district — a historic area centered on brick-paved Main Street, known for locally owned restaurants, boutiques, cafés, and small businesses. It is the most visited part of town.',
+  },
+  {
+    q: 'Where is downtown Zionsville?',
+    a: 'Downtown Zionsville is located along Main Street in Boone County, Indiana, about 20 miles northwest of Indianapolis. The Village district covers Main Street and several nearby blocks.',
+  },
+  {
+    q: 'Is downtown Zionsville walkable?',
+    a: 'Yes. The Village is compact and walkable, with brick streets and side streets lined with shops, restaurants, and cafés. Public parking is available within a short walk of Main Street.',
+  },
+  {
+    q: 'What is there to do in downtown Zionsville?',
+    a: 'Downtown Zionsville is a walking destination for dining, coffee, shopping at locally owned boutiques, gift shops, galleries, and attending seasonal events like the Farmers Market, Brick Street Market, Christmas in the Village, and the Fall Festival.',
+  },
+  {
+    q: 'When are downtown Zionsville shops open?',
+    a: 'Most downtown Zionsville shops are open Tuesday through Saturday during the day, with some open on Sundays. Restaurants and cafés have their own hours, and many are open evenings. Check individual business pages or websites for current hours.',
+  },
+]
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(({ q, a }) => ({
+    '@type': 'Question',
+    name: q,
+    acceptedAnswer: { '@type': 'Answer', text: a },
+  })),
+}
+
 export default function DowntownPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
       <Header />
       <main>
         {/* Hero */}
@@ -82,7 +119,30 @@ export default function DowntownPage() {
 
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
 
-          {/* Section nav */}
+          {/* Intro */}
+          <section className="max-w-3xl mb-12">
+            <h2 className="font-display text-3xl text-stone-900 mb-4">Explore Downtown Zionsville</h2>
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Downtown Zionsville is centered around the Village, a historic district known for its brick-paved Main Street, locally owned restaurants, boutiques, cafés, galleries, and small businesses. It is the part of Zionsville most visitors picture first — walkable streets, older storefronts, shaded sidewalks, and a slower pace than nearby suburban shopping centers.
+            </p>
+            <p className="text-stone-700 leading-relaxed">
+              The Village is compact enough to explore on foot but has enough variety to fill a morning, an afternoon, a dinner out, or a full event day. Visitors come for a meal, browse the shops, meet friends for coffee, attend a seasonal event, or walk between Main Street, Lions Park, and the nearby side streets.
+            </p>
+          </section>
+
+          {/* What you'll find */}
+          <section className="max-w-3xl mb-16">
+            <h2 className="font-display text-2xl text-stone-900 mb-4">What you'll find downtown</h2>
+            <ul className="space-y-2 text-stone-700">
+              <li className="flex gap-2"><span className="text-brick-600">•</span> Local restaurants, cafés, bakeries, and dessert shops</li>
+              <li className="flex gap-2"><span className="text-brick-600">•</span> Boutiques, gift shops, galleries, and home décor businesses</li>
+              <li className="flex gap-2"><span className="text-brick-600">•</span> Brick streets, historic buildings, and walkable side streets</li>
+              <li className="flex gap-2"><span className="text-brick-600">•</span> Community events, markets, parades, and seasonal celebrations</li>
+              <li className="flex gap-2"><span className="text-brick-600">•</span> Nearby outdoor areas including Lions Park and Creekside Nature Park</li>
+            </ul>
+          </section>
+
+          {/* Section nav cards */}
           <div className="grid sm:grid-cols-2 gap-5 mb-16">
             <Link
               href="/downtown/dining"
@@ -111,8 +171,10 @@ export default function DowntownPage() {
           </div>
 
           {/* Itineraries */}
-          <h2 className="font-display text-3xl text-stone-900 mb-2">Three easy ways to spend time in town</h2>
-          <p className="text-stone-500 mb-10">Easy ideas you can enjoy at your own pace.</p>
+          <h2 className="font-display text-3xl text-stone-900 mb-2">Three ways to spend time downtown</h2>
+          <p className="text-stone-500 mb-10 max-w-3xl">
+            Downtown Zionsville can be a short visit or the center of a slower day. These itineraries combine food, shopping, outdoor time, and a walk through the Village.
+          </p>
 
           <div className="space-y-12">
             {itineraries.map((itin) => (
@@ -147,6 +209,28 @@ export default function DowntownPage() {
             ))}
           </div>
 
+          {/* Events */}
+          <section className="mt-16 max-w-3xl">
+            <h2 className="font-display text-3xl text-stone-900 mb-4">Plan around downtown events</h2>
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Downtown Zionsville is also the center of community gatherings throughout the year. Main Street and the Village host farmers markets, shopping events, parades, holiday activities, and seasonal celebrations.
+            </p>
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Some of Zionsville's best-known events take place downtown or connect directly to the Village, including the{' '}
+              <Link href="/events/farmers-market" className="text-brick-600 hover:text-brick-700 font-medium">Zionsville Farmers Market</Link>
+              , Brick Street Market,{' '}
+              <Link href="/events/christmas-in-the-village" className="text-brick-600 hover:text-brick-700 font-medium">Christmas in the Village</Link>
+              , and the{' '}
+              <Link href="/events/fall-festival" className="text-brick-600 hover:text-brick-700 font-medium">Fall Festival</Link>.
+            </p>
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Before planning a visit, check the events calendar to see what is happening that weekend.
+            </p>
+            <Link href="/events" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
+              See upcoming Zionsville events →
+            </Link>
+          </section>
+
           {/* Parking */}
           <div id="parking" className="mt-16 pt-10 scroll-mt-6">
             <h2 className="font-display text-3xl text-stone-900 mb-6">Parking in Downtown Zionsville</h2>
@@ -177,6 +261,24 @@ export default function DowntownPage() {
               </p>
             </div>
           </div>
+
+          {/* FAQ */}
+          <section className="mt-16 max-w-3xl">
+            <h2 className="font-display text-3xl text-stone-900 mb-6">Frequently asked questions</h2>
+            <dl className="space-y-4">
+              {faqs.map(({ q, a }) => (
+                <div
+                  key={q}
+                  className="bg-stone-50 rounded-lg p-5 border border-stone-200"
+                >
+                  <dt className="font-display text-base font-semibold text-stone-900 mb-2">
+                    {q}
+                  </dt>
+                  <dd className="text-sm text-stone-700 leading-relaxed">{a}</dd>
+                </div>
+              ))}
+            </dl>
+          </section>
 
           {/* ── CTA ──────────────────────────────────────────────────── */}
           <div className="mt-16 pt-6 border-t border-stone-200 flex flex-wrap gap-6">

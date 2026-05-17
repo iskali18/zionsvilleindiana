@@ -6,13 +6,18 @@ eventType: recurring
 startDate: "2026-08-19"
 endDate: "2026-08-26"
 recurrenceLabel: "August 19 & 26, 2026"
+recurrence:
+  pattern: weekly
+  dayOfWeek: wednesday
+  startSeason: 2026-08-19
+  endSeason: 2026-08-26
 location: Maplelawn Farmstead, Zionsville
 address:  9575 Whitestown Rd, Zionsville, IN 46077
 image: /images/events/maplelawn-farmstead.jpg
 imageAlt: Maplelawn Farmstead in Zionsville, Indiana at sunset
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
-featured: true
+featured: false
 perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]

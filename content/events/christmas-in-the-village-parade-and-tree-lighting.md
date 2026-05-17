@@ -67,10 +67,10 @@ The kickoff parade marks the start of Zionsville’s holiday season downtown. Th
 **Dress warm:** This is an outdoor evening event in late November. Bring coats, hats, and gloves, especially if you plan to stand along the parade route.
 
 **Parking:**  
-This is one of the most heavily attended events of the year, and parking will be tight throughout the Village. Plan to arrive before 4:00 PM if you want to drive into the Village before parade-route streets close.
+This is one of the most heavily attended events of the year, and parking fills quickly throughout the Village. Plan to arrive before 4:00 PM if you want to park closer to the parade route.
 
-Street parking is available along Main Street and nearby streets, but it fills quickly on busy event nights. The largest public parking lot is located at the northwest corner of Main Street and Sycamore Road, with access from both Main Street and First Street. The lot at the southwest corner of Main and Pine Streets is closed for the tree lighting on parade night.
+Parking is not available along the parade route, which follows Mulberry Street, Ash Street, and Main Street. The largest public parking lot is at the northwest corner of Main Street and Sycamore Road, with access from First Street. The lot at the southwest corner of Main and Pine Streets is closed for the tree lighting on parade night.
 
-Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park, all within a short walk of downtown. Many residents and visitors walk several blocks rather than trying to park near the parade route, so dress for the walk.
+Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park. Many residents and visitors walk several blocks to the parade and tree lighting, so dress warmly and plan for the walk.
 
 

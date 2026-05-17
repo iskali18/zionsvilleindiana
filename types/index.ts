@@ -119,3 +119,17 @@ export interface BreadcrumbItem {
   label: string
   href: string
 }
+
+// ─── Recurring Weekly Events ──────────────────────────────────────────────────
+
+export interface EventMeta {
+  // ... all your existing fields stay the same ...
+
+  // Add this new optional field:
+  recurrence?: {
+    pattern: 'weekly'
+    dayOfWeek: 'sunday' | 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday'
+    startSeason: string  // YYYY-MM-DD
+    endSeason: string    // YYYY-MM-DD
+  }
+}
