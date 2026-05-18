@@ -9,8 +9,8 @@ recurrenceLabel: "Every Saturday, May 16 – Sep 26, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: saturday
-  startSeason: 2026-05-16
-  endSeason: 2026-09-26
+  startSeason: "2026-05-16"
+  endSeason: "2026-09-26"
 location: South Main Street, Downtown Zionsville
 address: "340 S Main St, Zionsville, IN 46077"
 image: /images/events/zionsville-farmers-market.jpg

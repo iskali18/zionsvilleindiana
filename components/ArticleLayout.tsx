@@ -28,7 +28,6 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
     },
   }
 
-  
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -48,6 +47,20 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
     ],
   }
 
+  // FAQ schema emitted invisibly when meta.faqs is present.
+  // The visible FAQ section is intentionally NOT rendered on the page.
+  const faqSchema = meta.faqs && meta.faqs.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: meta.faqs.map(({ q, a }) => ({
+          '@type': 'Question',
+          name: q,
+          acceptedAnswer: { '@type': 'Answer', text: a },
+        })),
+      }
+    : null
+
   return (
     <>
       <script
@@ -58,6 +71,12 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
 
       <Header />
       <main>

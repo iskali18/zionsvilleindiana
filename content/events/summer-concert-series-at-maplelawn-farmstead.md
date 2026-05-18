@@ -9,8 +9,8 @@ recurrenceLabel: "August 19 & 26, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: wednesday
-  startSeason: 2026-08-19
-  endSeason: 2026-08-26
+  startSeason: "2026-08-19"
+  endSeason: "2026-08-26"
 location: Maplelawn Farmstead, Zionsville
 address:  9575 Whitestown Rd, Zionsville, IN 46077
 image: /images/events/maplelawn-farmstead.jpg

@@ -63,7 +63,7 @@ const dayNameToIndex: Record<string, number> = {
  * Returns null if the season has ended or hasn't started yet within the window.
  */
 function nextWeeklyOccurrence(
-  recurrence: { pattern: string; dayOfWeek: string; startSeason: string; endSeason: string },
+  recurrence: { pattern: string; dayOfWeek: string; startSeason: string | Date; endSeason: string | Date },
   today: Date
 ): string | null {
   if (recurrence.pattern !== 'weekly') return null
@@ -71,8 +71,14 @@ function nextWeeklyOccurrence(
   const targetDayIndex = dayNameToIndex[recurrence.dayOfWeek.toLowerCase()]
   if (targetDayIndex === undefined) return null
 
-  const startSeason = new Date(recurrence.startSeason + 'T00:00:00')
-  const endSeason = new Date(recurrence.endSeason + 'T23:59:59')
+  // YAML may parse unquoted YYYY-MM-DD as Date objects. Coerce to YYYY-MM-DD string.
+  const toIso = (v: string | Date): string =>
+    v instanceof Date
+      ? `${v.getFullYear()}-${String(v.getMonth() + 1).padStart(2, '0')}-${String(v.getDate()).padStart(2, '0')}`
+      : v
+
+  const startSeason = new Date(toIso(recurrence.startSeason) + 'T00:00:00')
+  const endSeason = new Date(toIso(recurrence.endSeason) + 'T23:59:59')
 
   // Anchor point: max of today and season start
   const anchor = today < startSeason ? startSeason : today
@@ -113,11 +119,18 @@ export function getAllEventSlugs(): string[] {
 }
 
 export function getAllEvents(): EventMeta[] {
+  const now = new Date()
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+
   return getSlugs('events')
     .map((slug) => {
       const { data } = readFile('events', slug)
       return { slug, ...data } as EventMeta
     })
+    // Resolve recurrence: replace startDate with next occurrence for recurring events.
+    // Drop recurring events that have ended for the season.
+    .map((e) => applyRecurrence(e, today))
+    .filter((e): e is EventMeta => e !== null)
     .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
 }
 
@@ -125,13 +138,8 @@ export function getFeaturedEvents(limit = 3): EventMeta[] {
   const now = new Date()
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
 
-  // Resolve recurrence: replace startDate with next occurrence for recurring events.
-  // Drop recurring events that have ended for the season.
+  // getAllEvents() already resolves recurrence and sorts by resolved startDate
   const all = getAllEvents()
-    .map((e) => applyRecurrence(e, today))
-    .filter((e): e is EventMeta => e !== null)
-    // Re-sort after recurrence resolution since dates may have changed
-    .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
 
   // 1. Upcoming dated featured events (not perennials, on or after today)
   const upcoming = all

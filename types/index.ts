@@ -133,3 +133,15 @@ export interface EventMeta {
     endSeason: string    // YYYY-MM-DD
   }
 }
+
+// ─── FAQs ──────────────────────────────────────────────────
+
+export interface ArticleMeta {
+  // ... your existing fields ...
+
+  // Add this:
+  faqs?: Array<{
+    q: string
+    a: string
+  }>
+}
