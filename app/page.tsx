@@ -90,6 +90,7 @@ const homepageSchema = {
 
 const quickLinks = [
   { label: 'Zionsville Facts', href: '/about' },
+  { label: 'Things to Do', href: '/things-to-do' },
   { label: 'Downtown Dining', href: '/downtown/dining' },
   { label: 'Downtown Shopping', href: '/downtown/shopping' },
   { label: 'Farmers Market', href: '/events/farmers-market' },
@@ -147,6 +148,13 @@ export default function HomePage() {
                     className="underline hover:no-underline"
                   >
                   downtown
+                  </Link>
+                  ,{' '}
+                  <Link
+                    href="/things-to-do"
+                    className="underline hover:no-underline"
+                  >
+                  things to do
                   </Link>
                   , and what's happening in Zionsville —
                   updated regularly.
@@ -361,13 +369,22 @@ export default function HomePage() {
         {/* ── Downtown Zionsville ───────────────────────────────────────── */}
         <section className="bg-stone-100 py-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <h2 className="font-display text-3xl text-stone-900 mb-2">
-              Downtown Zionsville
-            </h2>
-            <p className="text-stone-500 mb-8">
-              Brick streets, local shops, cozy cafés, and an unhurried pace in
-              the Village.
-            </p>
+            <div className="max-w-3xl mb-8">
+              <h2 className="font-display text-3xl text-stone-900 mb-3">
+                Downtown Zionsville
+              </h2>
+              <p className="text-stone-500 mb-8">
+              Local dining, shopping, and cafés in the Village.  
+              </p>
+              <p className="text-stone-700 leading-relaxed mb-4">
+                Brick-paved Main Street is the heart of downtown Zionsville’s
+                Village district. Along this walkable stretch, historic storefronts
+                house locally owned restaurants, cafés, boutiques, galleries, and
+                small businesses.</p>
+              <p className="text-stone-600 leading-relaxed">
+                Plan a visit around a meal, shopping, coffee with a friend, or one of the seasonal events that fill Main Street throughout the year.
+              </p>
+            </div>
             <div className="grid sm:grid-cols-2 gap-5 mb-6">
               <Link
                 href="/downtown/dining"
@@ -384,7 +401,7 @@ export default function HomePage() {
                 <div className="relative p-6">
                   <h3 className="font-display text-2xl text-white">Dining</h3>
                   <p className="text-stone-300 text-sm mt-1">
-                    Restaurants & cafés in the Village
+                    Restaurants, cafés, and casual meals in the Village
                   </p>
                 </div>
               </Link>
@@ -405,7 +422,7 @@ export default function HomePage() {
                     Shopping
                   </h3>
                   <p className="text-stone-300 text-sm mt-1">
-                    Boutiques & local shops
+                    Boutiques, gifts, home décor, and local shops
                   </p>
                 </div>
               </Link>
@@ -416,6 +433,52 @@ export default function HomePage() {
             >
               Downtown guide & itineraries →
             </Link>
+          </div>
+        </section>
+
+        {/* ── Things to Do ──────────────────────────────────────────────── */}
+        <section className="bg-white py-16">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <h2 className="font-display text-3xl text-stone-900 mb-2">
+              Things to Do in Zionsville
+            </h2>
+            <p className="text-stone-500 mb-8">
+              Beyond Main Street — trails, parks, farms, and dining
+              outside the Village.
+            </p>
+            <div className="grid lg:grid-cols-2 gap-8 items-start">
+              <Link
+                href="/things-to-do"
+                className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
+              >
+                <Image
+                  src="/images/things-to-do-hero.jpg"
+                  alt="Things to do in Zionsville, Indiana"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </Link>
+              <div>
+                <p className="text-stone-700 leading-relaxed mb-4">
+                  A visit to Zionsville often starts in the historic Village
+                  district downtown, with its brick-paved Main Street, locally
+                  owned shops, and restaurants. But there is more to explore
+                  across town, including the Big-4 Rail Trail, the Zionsville
+                  Nature Center, Traders Point Creamery, Boone Village
+                  dining, and farm experiences beyond the Village.
+                </p>
+                <p className="text-stone-700 leading-relaxed mb-6">
+                  The Things to Do guide brings these together — downtown,
+                  outdoor recreation, dining outside Main Street, and more.
+                </p>
+                <Link
+                  href="/things-to-do"
+                  className="text-sm text-brick-600 hover:text-brick-700 font-medium"
+                >
+                  See things to do in Zionsville →
+                </Link>
+              </div>
+            </div>
           </div>
         </section>
 
