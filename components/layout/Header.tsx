@@ -18,7 +18,7 @@ export default function Header() {
     <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link href="/" className="font-display text-xl text-stone-900 hover:text-brick-600 transition-colors">
-          ZionsvilleIndiana.com
+          Zionsville <span className="text-stone-400 font-normal">Indiana</span>
         </Link>
 
         {/* Desktop nav */}
