@@ -388,7 +388,7 @@ export default function HomePage() {
             <div className="grid sm:grid-cols-2 gap-5 mb-6">
               <Link
                 href="/downtown/dining"
-                className="group relative rounded-lg overflow-hidden min-h-[200px] flex items-end bg-stone-800"
+                className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
               >
                 <div className="absolute inset-0">
                   <Image
@@ -407,7 +407,7 @@ export default function HomePage() {
               </Link>
               <Link
                 href="/downtown/shopping"
-                className="group relative rounded-lg overflow-hidden min-h-[200px] flex items-end bg-stone-800"
+                className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
               >
                 <div className="absolute inset-0">
                   <Image
