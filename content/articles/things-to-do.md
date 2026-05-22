@@ -95,11 +95,11 @@ When you want dessert or something to take home, Zionsville has several places f
   </figcaption>
 </figure>
 
-**RIVET Coffee Bar** is located inside the Graham Rahal Performance building on Creek Way. It serves coffee, tea, breakfast, and lunch, with exotic and high-performance cars displayed nearby — part of what makes it one of Zionsville’s more distinctive coffee spots.
+**RIVET Coffee Bar** is located inside the Graham Rahal Performance building on 106th Street. It serves coffee, tea, breakfast, and lunch, with exotic and high-performance cars displayed nearby — part of what makes it one of Zionsville’s more distinctive coffee spots.
 
-**Schakolad Chocolate Factory** in Boone Village offers European-style chocolates and truffles made fresh on-site using a three-generation family recipe. Because items are prepared and dipped in the store, it’s a convenient place to look for boxed chocolates, custom treats, gifts, or a quick sweet break.
+**Schakolad Chocolate Factory** in Boone Village on Oak Street offers European-style chocolates and truffles made fresh on-site using a three-generation family recipe. Because items are prepared and dipped in the store, it’s a convenient place to look for boxed chocolates, custom treats, gifts, or a quick sweet break.
 
-**Confectioneiress** is a local bakery specializing in custom cakes, cupcakes, French macarons, cake pops, cookies, cream pies, and other celebration desserts. Visitors can pick up a cupcake or order made-to-order sweets for birthdays, weddings, holidays, and special events.
+**Confectioneiress** is a local bakery near Oak Street and Zionsville Road, specializing in custom cakes, cupcakes, French macarons, cake pops, cookies, cream pies, and other celebration desserts. Visitors can pick up a cupcake or order made-to-order sweets for birthdays, weddings, holidays, and special events.
 
 ## Visit farms and rural Zionsville destinations
 
@@ -115,7 +115,7 @@ For time indoors, Zionsville has a few cultural and community spaces worth check
 
 The **[SullivanMunce Cultural Center](https://www.sullivanmunce.org/)** is a local history and culture destination with art, genealogy resources, and the Zionsville Welcome Center. Admission is free. It’s close to the Village, but it has a quieter feel than the Main Street shopping area.
 
-The **[Hussey-Mayfield Memorial Public Library](https://www.hmmpl.org/)** is also worth checking before a weekend in town. Its calendar often includes story times, workshops, author events, family programs, and seasonal programs. Library events can be helpful for families, rainy days, or anyone looking for something low-key.
+The **[Hussey-Mayfield Memorial Public Library](https://www.hmmpl.org/)** is also worth checking before a weekend in town. Its calendar often includes story times, workshops, author events, family programs, and seasonal activities. Library events can be an enjoyable option for families, rainy days, or low-key time indoors.
 
 ## Sports and outdoor recreation
 
