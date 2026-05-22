@@ -414,7 +414,7 @@ export default function HomePage() {
                     src="/images/downtown/zionsville-downtown-shopping.jpg"
                     alt="Shopping in downtown Zionsville"
                     fill
-                    className="object-cover opacity-80 group-hover:opacity-95 transition-opacity"
+                    className="object-cover object-top opacity-80 group-hover:opacity-95 transition-opacity"
                   />
                 </div>
                 <div className="relative p-6">

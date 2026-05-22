@@ -237,7 +237,7 @@ export default function DowntownPage() {
 
           {/* What you'll find */}
           <section className="mb-12">
-            <FloatImage src="/images/downtown/downtown-zionsville-main-street-2.jpg" alt="Downtown Zionsville, Indiana" />
+            <FloatImage src="/images/downtown/downtown-zionsville-sidewalk.jpg" alt="Downtown Zionsville, Indiana" />
             <h2 className="font-display text-2xl text-stone-900 mb-4">What you'll find downtown</h2>
             <ul className="space-y-2 text-stone-700">
               <li className="flex gap-2"><span className="text-brick-600">•</span> Local restaurants, cafés, bakeries, and dessert shops</li>
@@ -332,7 +332,7 @@ export default function DowntownPage() {
                 className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
               >
                 <div className="absolute inset-0">
-                  <Image src="/images/downtown/zionsville-downtown-shopping.jpg" alt="Downtown Zionsville shops on Main Street" fill className="object-cover opacity-80 group-hover:opacity-95 transition-opacity" />
+                  <Image src="/images/downtown/zionsville-downtown-shopping.jpg" alt="Downtown Zionsville shops on Main Street" fill className="object-cover object-top opacity-80 group-hover:opacity-95 transition-opacity" />
                 </div>
                 <div className="relative p-5">
                   <h3 className="font-display text-2xl text-white">Shopping</h3>
