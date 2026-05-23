@@ -98,6 +98,10 @@ export interface BusinessMeta {
   metaDescription: string
   area?: string
   seo_title?: string
+  faqs?: Array<{
+    q: string
+    a: string
+  }>
 }
 
 // ___ Guides
@@ -145,3 +149,4 @@ export interface ArticleMeta {
     a: string
   }>
 }
+

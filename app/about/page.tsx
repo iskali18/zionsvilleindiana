@@ -5,9 +5,9 @@ import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'About Zionsville, Indiana — Quick Facts & Community Resources',
+  title: 'Zionsville, Indiana — Facts, Schools & Boone County Resources',
   description:
-    'Zionsville is a town in Boone County, Indiana (ZIP 46077), located northwest of Indianapolis. Find quick facts, school calendars, utility links, and community resources.',
+    'Learn about the Town of Zionsville, Indiana, in Boone County — population, schools, township, government, utilities, and community resources.',
   alternates: { canonical: 'https://zionsvilleindiana.com/about' },
 }
 
@@ -15,12 +15,12 @@ const quickFacts = [
   { label: 'State', value: 'Indiana' },
   { label: 'County', value: 'Boone County' },
   { label: 'ZIP Code', value: '46077' },
-  { label: 'Population', value: '31,702 (2020 census)' },
+  { label: 'Population', value: '30,603 (2020 census)' },
   { label: 'Boone County population', value: '73,052 (2020 census)' },
   { label: 'Land area', value: '67.22 square miles' },
   { label: 'Location', value: '~20 miles northwest of Indianapolis' },
   { label: 'Government', value: 'Mayor-Council (since 2015)' },
-  { label: 'Known for', value: 'Historic brick street, the Village district, community events' },
+  { label: 'Known for', value: 'Historic Main Street, the Village district, community events' },
 ]
 
 const resources = [
@@ -28,7 +28,7 @@ const resources = [
     heading: 'Town Government',
     links: [
       { label: 'Town of Zionsville — Official Site', href: 'https://zionsville-in.gov' },
-      { label: 'Town Hall', href: 'https://zionsville-in.gov' },
+      { label: 'Town Hall & Departments', href: 'https://zionsville-in.gov' },
       { label: 'Town Jobs & Employment', href: 'https://zionsville-in.gov/jobs' },
       { label: 'Waste & Recycling Services', href: 'https://www.zionsville-in.gov/691/Trash-and-Utilities' },
     ],
@@ -96,7 +96,7 @@ const resources = [
     heading: 'Boone County',
     links: [
       { label: 'Boone County Government', href: 'https://www.boonecounty.in.gov' },
-      { label: 'Boone County Voter Registration', href: 'https://indianavoters.in.gov' },
+      { label: 'Indiana Voter Registration', href: 'https://indianavoters.in.gov' },
     ],
   },
 ]
@@ -104,7 +104,7 @@ const resources = [
 const faqs = [
   {
     q: 'Where is Zionsville, Indiana?',
-    a: 'Zionsville is a town in Boone County, Indiana, located about 20 miles northwest of downtown Indianapolis. The historic Village district is centered on Main Street and is the most recognizable part of town. Zionsville is part of the broader Indianapolis metropolitan area.',
+    a: 'Zionsville is a town in Boone County, Indiana, located about 20 miles northwest of downtown Indianapolis. The historic Village district is located around Main Street, and Zionsville is part of the broader Indianapolis metropolitan area.',
   },
   {
     q: 'What is the ZIP code for Zionsville, Indiana?',
@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     q: 'What school district is Zionsville in?',
-    a: 'Zionsville is served by Zionsville Community Schools (ZCS), which operates elementary, middle, and high schools across the district. ZCS is regularly ranked among the top public school districts in Indiana.',
+    a: 'Zionsville is served by Zionsville Community Schools (ZCS), which operates elementary, middle, and high schools across the district. ZCS is a highly regarded public school district in Boone County.',
   },
   {
     q: 'What township is Zionsville in?',
@@ -137,7 +137,7 @@ const aboutSchema = {
     addressCountry: 'US',
   },
   description:
-    'Zionsville is a town in Boone County, Indiana, located northwest of Indianapolis. It is known for its historic brick streets, Village district, and strong community events calendar.',
+    'Zionsville is a town in Boone County, Indiana, located northwest of Indianapolis. It is known for its historic brick-paved Main Street, the Village district, and community events.',
 }
 
 const faqSchema = {
@@ -189,21 +189,21 @@ export default function AboutPage() {
         <section className="prose-village mb-12">
           <h2>Zionsville, Indiana</h2>
           <p>
-            Zionsville is a town in Boone County, Indiana, located northwest of Indianapolis. 
-            It is best known for its Village district — a walkable area centered
-            on brick-paved Main Street lined with locally owned shops, restaurants, and cafés.
+            Zionsville is a town in Boone County, Indiana, northwest of Indianapolis.
+            Its historic Village district includes brick-paved Main Street, locally
+            owned shops, restaurants, cafés, and nearby residential streets.
           </p>
           <p>
-            The town's character is defined by a mix of historic architecture and a strong
-            community calendar, with events like the Farmers Market,
-            Fall Festival, and Christmas in the Village drawing residents and visitors throughout
-            the year. A network of parks, nature preserves, and trails, including
-            the Big 4 Rail Trail, makes outdoor activity a year-round part of life. 
+            The town&apos;s character shows up in its historic architecture, local businesses,
+            parks, trails, and community calendar. Annual and seasonal events include
+            the Farmers Market, Fall Festival, and Christmas in the Village. Outdoor
+            areas such as the Big-4 Rail Trail, Lions Park, and local nature preserves
+            add recreation space throughout the year.
           </p>
           <p>
-            The Town of Zionsville is located within Eagle Township in Boone County and is served
-            by the Zionsville Community Schools district. 
-            Zionsville is part of the broader Indianapolis metropolitan area.
+            Zionsville is located within Eagle Township in Boone County and is served
+            by Zionsville Community Schools. The town is also part of the broader
+            Indianapolis metropolitan area.
           </p>
         </section>
 

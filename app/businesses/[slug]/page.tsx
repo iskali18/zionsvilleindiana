@@ -77,8 +77,28 @@ export default async function BusinessPage({ params }: Props) {
     ? allParks.filter((p) => meta.nearbyParks!.includes(p.slug))
     : []
 
+  // FAQ schema (invisible) — emitted when the business MD has a `faqs` frontmatter array.
+  const faqSchema =
+    meta.faqs && meta.faqs.length > 0
+      ? {
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: meta.faqs.map(({ q, a }) => ({
+            '@type': 'Question',
+            name: q,
+            acceptedAnswer: { '@type': 'Answer', text: a },
+          })),
+        }
+      : null
+
   return (
     <>
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
       <Header />
       <main className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
         <Breadcrumb
