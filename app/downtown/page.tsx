@@ -57,7 +57,7 @@ const itineraries: Itinerary[] = [
     title: 'A leisurely morning downtown',
     intro:
       'A downtown morning can work best when you start with coffee or tea, browse as the shops open, and add brunch or baked goods before leaving the Village. This route is especially useful for a Saturday morning or a low-key weekday plan.',
-    image: '/images/downtown/downtown-zionsville-rosies-place-sign.jpg',
+    image: '/images/downtown/downtown-zionsville-rosies-place-sign.webp',
     imageAlt: 'Downtown Zionsville, Indiana',
     stops: [
       { name: 'Our Place Coffee', href: '/businesses/our-place-coffee', note: 'coffee to start the morning' },
@@ -85,8 +85,8 @@ const itineraries: Itinerary[] = [
     id: 'zionsville-bakeries-bagels-and-treats',
     title: 'Bakeries, bagels, and take-home treats',
     intro:
-      "This route highlights downtown’s bakeries, bagels, chocolates, cookies, and coffee. Pick a few favorites, or follow the list as a loose path for finding something fresh-baked, sweet, or easy to take home. It works best earlier in the day, since several bakeries and coffee shops keep daytime hours.",
-    image: '/images/downtown/downtown-zionsville-truffles-and-creams.jpg',  
+      "This route highlights downtown’s bakeries, bagels, chocolates, cookies, and coffee. Pick a few stops, or follow the list as a loose path for finding something fresh-baked, sweet, or easy to take home. It works best earlier in the day, since several bakeries and coffee shops keep daytime hours.",
+    image: '/images/downtown/downtown-zionsville-truffles-and-creams.webp',  
     imageAlt: 'Downtown Zionsville, Indiana',
     stops: [
       { name: 'Gables Bagels', href: 'https://gablesbagels.com/', external: true, note: 'fresh bagels and breakfast items' },
@@ -180,16 +180,14 @@ function StopName({ stop }: { stop: Stop }) {
   )
 }
 
-// Reusable decorative floating image. Floats right on desktop (md:w-96),
-// stacks full-width above text on mobile. Renders only if the file exists.
-function FloatImage({ src, alt }: { src: string; alt: string }) {
+// Reusable contained image. Full column width, fixed 3:2, rounded with subtle
+// shadow. Renders only if the file exists in public/.
+function ContainedImage({ src, alt }: { src: string; alt: string }) {
   const img = imageIfExists(src)
   if (!img) return null
   return (
-    <figure className="md:float-right md:ml-6 md:mb-4 md:w-96 mb-4">
-      <div className="relative aspect-[3/2] rounded-lg overflow-hidden bg-stone-200">
-        <Image src={img} alt={alt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 384px" />
-      </div>
+    <figure className="relative aspect-[3/2] rounded-lg overflow-hidden bg-stone-200 shadow-sm">
+      <Image src={img} alt={alt} fill className="object-cover" sizes="(max-width: 896px) 100vw, 896px" />
     </figure>
   )
 }
@@ -206,10 +204,10 @@ export default function DowntownPage() {
         {/* Hero */}
         <div className="relative h-72 sm:h-96 bg-stone-900 overflow-hidden">
           <Image
-            src="/images/downtown/downtown-zionsville-indiana.jpg"
+            src="/images/downtown/downtown-zionsville-indiana.webp"
             alt="Main Street in downtown Zionsville, Indiana"
             fill
-            className="object-cover object-[center_50%] opacity-90"
+            className="object-cover object-[center_55%] opacity-90"
             priority
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
@@ -222,10 +220,10 @@ export default function DowntownPage() {
           </div>
         </div>
 
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
 
           {/* Intro */}
-          <section className="max-w-3xl mb-12">
+          <section className="mb-12">
             <h2 className="font-display text-3xl text-stone-900 mb-4">Explore Downtown Zionsville</h2>
             <p className="text-stone-700 leading-relaxed mb-4">
               Downtown Zionsville is built around the brick-paved Main Street that runs through the heart of the Village district. This walkable stretch is home to locally owned restaurants, cafés, boutiques, galleries, and small businesses.
@@ -237,20 +235,19 @@ export default function DowntownPage() {
 
           {/* What you'll find */}
           <section className="mb-12">
-            <FloatImage src="/images/downtown/downtown-zionsville-sidewalk.jpg" alt="Downtown Zionsville, Indiana" />
             <h2 className="font-display text-2xl text-stone-900 mb-4">What you'll find downtown</h2>
-            <ul className="space-y-2 text-stone-700">
+            <ul className="space-y-2 text-stone-700 mb-6">
               <li className="flex gap-2"><span className="text-brick-600">•</span> Local restaurants, cafés, bakeries, and dessert shops</li>
               <li className="flex gap-2"><span className="text-brick-600">•</span> Boutiques, gift shops, galleries, and home décor businesses</li>
               <li className="flex gap-2"><span className="text-brick-600">•</span> The brick-lined Main Street, historic buildings, and walkable side streets</li>
               <li className="flex gap-2"><span className="text-brick-600">•</span> Seasonal events, markets, and parades throughout the year</li>
               <li className="flex gap-2"><span className="text-brick-600">•</span> Nearby outdoor areas including Lions Park and Creekside Nature Park</li>
             </ul>
-            <div className="clear-both" />
+            <ContainedImage src="/images/downtown/downtown-zionsville-sidewalk.webp" alt="Downtown Zionsville, Indiana" />
           </section>
 
           {/* Looking beyond Main Street */}
-          <section className="max-w-3xl mb-16">
+          <section className="mb-16">
             <h2 className="font-display text-2xl text-stone-900 mb-4">Looking beyond Main Street?</h2>
             <p className="text-stone-700 leading-relaxed mb-4">
               Downtown is the best starting point for a Zionsville visit, but there is more to explore around town — including the Big-4 Rail Trail, Zionsville Nature Center, SullivanMunce Cultural Center, Traders Point Creamery, Boone Village, and other dining areas outside the Village.
@@ -261,82 +258,103 @@ export default function DowntownPage() {
           </section>
 
           {/* Itineraries */}
-          <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
-          <p className="text-stone-500 mb-10 max-w-3xl">
-            Downtown Zionsville can fill a quick outing, a meal-centered plan, or
-            a fuller afternoon with coffee, shopping, dining, and events. These 
-            sample itineraries give you a few ways to spend time in the Village.
-          </p>
+          <div className="mb-10">
+            <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
+            <p className="text-stone-500">
+              Downtown Zionsville can fill a quick outing, a meal-centered plan, or
+              a fuller afternoon with coffee, shopping, dining, and events. These
+              sample itineraries give you a few ways to spend time in the Village.
+            </p>
+          </div>
 
-          <div className="space-y-12">
-            {itineraries.map((itin) => {
+          <div className="space-y-8">
+            {itineraries.map((itin, idx) => {
               const img = imageIfExists(itin.image)
               return (
-                <section key={itin.id} id={itin.id} className="scroll-mt-6">
-                  <h3 className="font-display text-2xl text-stone-900 mb-3">{itin.title}</h3>
-
-                  {/* Optional floating image — renders only if the file exists in public/.
-                      Floats right on desktop; stacks full-width above text on mobile. */}
+                <section
+                  key={itin.id}
+                  id={itin.id}
+                  className="scroll-mt-6 bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm"
+                >
+                  {/* Fixed 3:2 image on top — renders only if the file exists in public/.
+                      First image loads with priority (near fold); rest lazy-load for
+                      cellular-friendly data use. */}
                   {img && (
-                    <figure className="md:float-right md:ml-6 md:mb-4 md:w-96 mb-4">
-                      <div className="relative aspect-[3/2] rounded-lg overflow-hidden bg-stone-200">
-                        <Image src={img} alt={itin.imageAlt} fill className="object-cover" sizes="(max-width: 768px) 100vw, 384px" />
-                      </div>
-                    </figure>
+                    <div className="relative aspect-[3/2] bg-stone-200">
+                      <Image
+                        src={img}
+                        alt={itin.imageAlt}
+                        fill
+                        priority={idx === 0}
+                        className="object-cover"
+                        sizes="(max-width: 896px) 100vw, 896px"
+                      />
+                    </div>
                   )}
 
-                  <p className="text-stone-700 leading-relaxed mb-4 max-w-3xl">{itin.intro}</p>
+                  <div className="p-6">
+                    <h3 className="font-display text-2xl text-stone-900 mb-2">{itin.title}</h3>
+                    <p className="text-stone-700 leading-relaxed mb-4">{itin.intro}</p>
 
-                  <ol className="space-y-3 mb-2">
-                    {itin.stops.map((stop, i) => (
-                      <li key={i} className="flex gap-3 text-sm">
-                        <span className="shrink-0 w-5 h-5 rounded-full bg-brick-100 text-brick-700 flex items-center justify-center text-xs font-bold mt-0.5">
-                          {i + 1}
-                        </span>
-                        <span>
-                          <StopName stop={stop} />
-                          {' '}
-                          <span className="text-stone-500">— {stop.note}</span>
-                        </span>
-                      </li>
-                    ))}
-                  </ol>
-
-                  <div className="clear-both" />
+                    <ol className="space-y-3">
+                      {itin.stops.map((stop, i) => (
+                        <li key={i} className="flex gap-3 text-sm">
+                          <span className="shrink-0 w-5 h-5 rounded-full bg-brick-100 text-brick-700 flex items-center justify-center text-xs font-bold mt-0.5">
+                            {i + 1}
+                          </span>
+                          <span>
+                            <StopName stop={stop} />
+                            {' '}
+                            <span className="text-stone-500">— {stop.note}</span>
+                          </span>
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
                 </section>
               )
             })}
           </div>
 
-          {/* Section nav cards — moved below itineraries */}
+          {/* Section nav cards — 2-up, clearly clickable */}
           <section className="mt-16">
             <h2 className="font-display text-3xl text-stone-900 mb-3">Dining and shopping guides</h2>
-            <p className="text-stone-700 leading-relaxed mb-6 max-w-3xl">
+            <p className="text-stone-700 leading-relaxed mb-6">
               Use these guides to plan where to eat, shop, and spend time in the Village. The dining guide covers restaurants, cafés, coffee, and dessert, while the shopping guide highlights books, jewelry, home décor, and other local shops. These guides are growing, and more businesses will be added over time.
             </p>
-            <div className="grid sm:grid-cols-2 gap-5">
+            <div className="grid sm:grid-cols-2 gap-6">
               <Link
                 href="/downtown/dining"
-                className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
+                className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
               >
-                <div className="absolute inset-0">
-                  <Image src="/images/downtown/zionsville-downtown-dining.jpg" alt="Dining on Main Street in downtown Zionsville" fill className="object-cover opacity-80 group-hover:opacity-95 transition-opacity" />
+                <div className="relative aspect-[3/2] bg-stone-200">
+                  <Image src="/images/downtown/zionsville-downtown-dining.jpg" alt="Dining on Main Street in downtown Zionsville" fill className="object-cover" sizes="(max-width: 640px) 100vw, 436px" />
                 </div>
-                <div className="relative p-5">
-                  <h3 className="font-display text-2xl text-white">Dining</h3>
-                  <p className="text-stone-300 text-sm">Restaurants, cafés &amp; coffee shops</p>
+                <div className="p-5">
+                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Dining</h3>
+                  <p className="text-stone-600 text-sm leading-relaxed mb-3">
+                    Browse downtown restaurants, cafés, coffee shops, and dessert spots, with details on each business and where to find them in the Village.
+                  </p>
+                  <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
+                    Explore dining <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
+                  </span>
                 </div>
               </Link>
               <Link
                 href="/downtown/shopping"
-                className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
+                className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
               >
-                <div className="absolute inset-0">
-                  <Image src="/images/downtown/zionsville-downtown-shopping.jpg" alt="Downtown Zionsville shops on Main Street" fill className="object-cover object-top opacity-80 group-hover:opacity-95 transition-opacity" />
+                <div className="relative aspect-[3/2] bg-stone-200">
+                  <Image src="/images/downtown/zionsville-downtown-shopping.jpg" alt="Downtown Zionsville shops on Main Street" fill className="object-cover object-top" sizes="(max-width: 640px) 100vw, 436px" />
                 </div>
-                <div className="relative p-5">
-                  <h3 className="font-display text-2xl text-white">Shopping</h3>
-                  <p className="text-stone-300 text-sm">Local shops on Main Street</p>
+                <div className="p-5">
+                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Shopping</h3>
+                  <p className="text-stone-600 text-sm leading-relaxed mb-3">
+                    Find locally owned shops along Main Street, including books, jewelry, home décor, and gifts, with details on each store in the Village.
+                  </p>
+                  <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
+                    Browse shopping <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
+                  </span>
                 </div>
               </Link>
             </div>
@@ -344,12 +362,11 @@ export default function DowntownPage() {
 
           {/* Events */}
           <section className="mt-16">
-            <FloatImage src="/images/downtown/downtown-zionsville-brick-street-market.jpg" alt="Downtown Zionsville, Indiana" />
             <h2 className="font-display text-3xl text-stone-900 mb-4">Plan around downtown events</h2>
-            <p className="text-stone-700 leading-relaxed mb-4 max-w-3xl">
+            <p className="text-stone-700 leading-relaxed mb-4">
               Downtown Zionsville is a regular setting for community events throughout the year. Main Street and the surrounding Village district host or connect to farmers markets, shopping events, parades, holiday activities, and seasonal celebrations.
             </p>
-            <p className="text-stone-700 leading-relaxed mb-4 max-w-3xl">
+            <p className="text-stone-700 leading-relaxed mb-4">
               Some of Zionsville's familiar events take place downtown or include the Village as part of the experience, including the{' '}
               <Link href="/events/farmers-market" className="text-brick-600 hover:text-brick-700 font-medium">Zionsville Farmers Market</Link>
               , Brick Street Market, and{' '}
@@ -358,19 +375,19 @@ export default function DowntownPage() {
               <Link href="/events/fall-festival" className="text-brick-600 hover:text-brick-700 font-medium">Fall Festival</Link>
               {' '}takes place at Lions Park, close enough that many visitors also spend time downtown before or after festival activities.
             </p>
-            <p className="text-stone-700 leading-relaxed mb-4 max-w-3xl">
+            <p className="text-stone-700 leading-relaxed mb-6">
               Before choosing a date, check the events calendar. A quiet Saturday and a major event day can feel very different downtown, especially for parking, restaurant reservations, and crowd levels.
             </p>
-            <Link href="/events" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
+            <ContainedImage src="/images/downtown/downtown-zionsville-brick-street-market.webp" alt="Downtown Zionsville, Indiana" />
+            <Link href="/events" className="inline-block mt-6 text-sm text-brick-600 hover:text-brick-700 font-medium">
               See upcoming Zionsville events →
             </Link>
-            <div className="clear-both" />
           </section>
 
           {/* Parking */}
           <div id="parking" className="mt-16 pt-10 scroll-mt-6">
             <h2 className="font-display text-3xl text-stone-900 mb-6">Parking in Downtown Zionsville</h2>
-            <div className="max-w-2xl space-y-4">
+            <div className="space-y-4">
               <p className="text-stone-600 leading-relaxed">
                 Street parking is available along Main Street and nearby side streets, but it can fill quickly during busy weekends and major events. Public lots around the Village give visitors additional parking within walking distance of downtown shops and restaurants.
               </p>
@@ -382,7 +399,7 @@ export default function DowntownPage() {
               </p>
             </div>
 
-            <div className="mt-8 max-w-4xl">
+            <div className="mt-8">
               <div className="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
                 <iframe
                   src="https://www.google.com/maps/d/u/3/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
