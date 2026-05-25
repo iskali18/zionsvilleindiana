@@ -8,7 +8,7 @@ seo_title: "The Scoop Zionsville | Menu, Hours & Main Street Ice Cream"
 metaDescription: "Plan a visit to The Scoop in downtown Zionsville. Find hours, menu highlights, dairy-free and vegan options, patio seating, and location info on Main Street."
 address: "305 S Main St, Zionsville, IN 46077"
 website: "https://thescoopmainstreet.com"
-lastVerified: "2026-05-22"
+lastVerified: "2026-05-24"
 faqs:
   - q: "Where is The Scoop in Zionsville?"
     a: "The Scoop is located at 305 S Main Street in downtown Zionsville, near the south end of the Village."

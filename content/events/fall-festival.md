@@ -16,7 +16,7 @@ featured: true
 tags: [festival, family, annual, carnival, parade]
 area: downtown
 metaTitle: "Zionsville Fall Festival: 2026 Dates, Parade Route & Parking"
-metaDescription: "The Zionsville Fall Festival is a three-day Lions Park tradition with Poor Jack's Carnival, the Saturday 10 AM parade through the Village, food vendors, and a Sunday car show. 2026 dates: September 11–13."
+metaDescription: "Zionsville Fall Festival 2026: September 11–13 at Lions Park. Poor Jack's Carnival, the Saturday 10 AM parade through the Village, food vendors, and a car show."
 faqs:
   - q: "When is the Zionsville Fall Festival in 2026?"
     a: "The Zionsville Fall Festival runs Friday, September 11 through Sunday, September 13, 2026, at Lions Park. The festival is held annually on the weekend after Labor Day."
@@ -40,7 +40,7 @@ faqs:
     a: "The VIP Carnival is a free Friday-evening event for families with children with special needs, co-hosted by the Zionsville Lions Club and the HAWK Foundation. Families are encouraged to RSVP at zionsvillelions.com so the hosts can plan food and supplies, but last-minute attendees are welcome."
 ---
 
-The Zionsville Fall Festival is a long-running community tradition held the weekend after Labor Day at Lions Park. It's the Zionsville Lions Club's largest annual fundraiser and one of the biggest community events in Boone County, drawing visitors from across central Indiana for three days of carnival rides, food, the Saturday morning parade through the Village, and family-friendly activities.
+The Zionsville Fall Festival is a long-running community tradition held the weekend after Labor Day at Lions Park. It's the Zionsville Lions Club's largest annual fundraiser, drawing visitors from across central Indiana for three days of carnival rides, food, the Saturday morning parade through the Village, and family-friendly activities.
 
 The 73rd annual festival takes place September 11–13, 2026, with the theme "Out of this World." Admission to the festival at Lions Park is free; carnival rides require tickets, and games are paid separately.
 
