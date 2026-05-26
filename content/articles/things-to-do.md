@@ -79,8 +79,10 @@ The Holliday Farms area in northern Zionsville has upscale dining, including **V
 **106th Street / Creekside Corporate Park area — steakhouse dining near Graham Rahal Performance**  
 **Bowdie’s Chophouse** is an upscale steakhouse on the Graham Rahal Campus, with cocktails, wine, and views of exotic and high-performance vehicles on display while you dine.
 
-**Michigan Road area — casual chains, Thai food, and dessert**  
+**Michigan Road area — casual chains, Thai food, coffee, and dessert**  
 **Thai Eatery** along Michigan Road serves Thai street food including appetizers, noodles, fried rice, and curries. They also serve Thai iced tea, mango sticky rice, and custards to round out each meal.
+
+**Mochaland** is nearby in the same retail center as Thai Eatery, serving small-batch roasted coffee and bakery items near Bennett Parkway.
 
 Nearby at Sylo Crossing and The Farm development, newer dining and quick-service choices include **Torchy’s Tacos**, **Shake Shack**, **CAVA**, **Bibibop Asian Grill**, **Piada Italian Street Food**, **West Coast Sourdough**, **sweetgreen**, and **Graeter’s Ice Cream**. This area can be convenient for casual meals, family outings, or dessert.
 
@@ -150,4 +152,4 @@ Zionsville has spa and massage choices for a low-key day out or a more relaxed w
 
 ## Plan your day
 
-Before you choose a date, check the [Zionsville events calendar](/events). Many weekends bring farmers markets, library programs, concerts, festivals, holiday events, and seasonal community gatherings.
+Before you choose a date, check the [Zionsville events calendar](/events). Many weekends bring farmers markets, concerts, festivals, holiday events, and seasonal community gatherings.

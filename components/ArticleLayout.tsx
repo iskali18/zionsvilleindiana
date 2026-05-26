@@ -23,7 +23,7 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
     ...(meta.lastUpdated && { dateModified: meta.lastUpdated }),
     publisher: {
       '@type': 'Organization',
-      name: 'ZionsvilleIndiana.com',
+      name: 'Zionsville Indiana',
       url: 'https://zionsvilleindiana.com',
     },
   }

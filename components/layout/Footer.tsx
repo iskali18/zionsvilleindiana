@@ -32,7 +32,9 @@ export default function Footer() {
     <footer className="bg-stone-900 text-stone-300 mt-20">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-14 grid grid-cols-2 md:grid-cols-4 gap-8">
         <div className="col-span-2 md:col-span-1">
-          <p className="font-display text-white text-lg mb-2">ZionsvilleIndiana.com</p>
+          <p className="font-display text-lg mb-2">
+            <span className="text-white">Zionsville</span> <span className="text-stone-400">Indiana</span>
+          </p>
           <p className="text-sm text-stone-400 leading-relaxed">
             Your guide to events, dining, and community life in Zionsville, Indiana.
           </p>

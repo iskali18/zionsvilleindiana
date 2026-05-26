@@ -153,7 +153,7 @@ export function buildEventSchema(event: CalendarEvent) {
     url: event.htmlLink,
     organizer: {
       '@type': 'Organization',
-      name: 'ZionsvilleIndiana.com',
+      name: 'Zionsville Indiana',
       url: 'https://zionsvilleindiana.com',
     },
   }

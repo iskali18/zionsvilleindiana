@@ -51,7 +51,8 @@ const homepageSchema = {
     {
       '@type': 'Organization',
       '@id': 'https://zionsvilleindiana.com/#organization',
-      name: 'ZionsvilleIndiana.com',
+      name: 'Zionsville Indiana',
+      alternateName: 'ZionsvilleIndiana.com',
       url: 'https://zionsvilleindiana.com',
       logo: 'https://zionsvilleindiana.com/images/logo.png',
     },
@@ -59,7 +60,8 @@ const homepageSchema = {
       '@type': 'WebSite',
       '@id': 'https://zionsvilleindiana.com/#website',
       url: 'https://zionsvilleindiana.com',
-      name: 'ZionsvilleIndiana.com',
+      name: 'Zionsville Indiana',
+      alternateName: 'ZionsvilleIndiana.com',
       publisher: { '@id': 'https://zionsvilleindiana.com/#organization' },
     },
     {

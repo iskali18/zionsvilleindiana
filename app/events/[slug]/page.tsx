@@ -58,7 +58,7 @@ function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
     url: `https://zionsvilleindiana.com/events/${meta.slug}`,
     organizer: {
       '@type': 'Organization',
-      name: 'ZionsvilleIndiana.com',
+      name: 'Zionsville Indiana',
       url: 'https://zionsvilleindiana.com',
     },
   }
