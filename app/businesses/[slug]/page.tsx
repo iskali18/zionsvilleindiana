@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
+import Image from 'next/image'
 import Link from 'next/link'
+import fs from 'fs'
+import path from 'path'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
@@ -58,6 +61,25 @@ function formatVerifiedDate(iso: string): string {
   return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
 }
 
+// Collect up to 4 gallery images for a business by filename convention:
+// /public/images/businesses/zionsville-{slug}-1.jpg ... zionsville-{slug}-4.jpg.
+// Only files that actually exist are returned, so dropping in images is
+// all that's needed — no frontmatter edits. Returns [] if none exist.
+function getGalleryImages(slug: string): string[] {
+  const found: string[] = []
+  for (let i = 1; i <= 4; i++) {
+    const rel = `/images/businesses/zionsville-${slug}-${i}.jpg`
+    try {
+      if (fs.existsSync(path.join(process.cwd(), 'public', rel))) {
+        found.push(rel)
+      }
+    } catch {
+      // ignore and continue
+    }
+  }
+  return found
+}
+
 export default async function BusinessPage({ params }: Props) {
   const { slug } = await params
   let data;
@@ -71,6 +93,8 @@ export default async function BusinessPage({ params }: Props) {
   const { meta, contentHtml } = data
   
   const areaParking = meta.area ? parkingBlurbs[meta.area as keyof typeof parkingBlurbs] : []
+
+  const galleryImages = getGalleryImages(slug)
 
   const allParks = getAllParks()
   const nearbyParks = meta.nearbyParks
@@ -116,7 +140,7 @@ export default async function BusinessPage({ params }: Props) {
           <p className="text-stone-500">{meta.address}</p>
         </div>
 
-        <div className="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-10 grid sm:grid-cols-3 gap-4 text-sm">
+        <div className="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
           {meta.phone && (
             <div>
               <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Phone</p>
@@ -138,6 +162,19 @@ export default async function BusinessPage({ params }: Props) {
               </a>
             </div>
           )}
+          {meta.googleMapsUrl && (
+            <div>
+              <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Hours</p>
+              <a
+                href={meta.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brick-600 hover:text-brick-700 font-medium"
+              >
+                View on Google Maps →
+              </a>
+            </div>
+          )}
           <div>
             <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Listing verified</p>
             <p className="text-stone-500">{formatVerifiedDate(meta.lastVerified)}</p>
@@ -149,6 +186,25 @@ export default async function BusinessPage({ params }: Props) {
             className="prose-village mb-6"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
+        )}
+
+        {galleryImages.length > 0 && (
+          <div className="grid grid-cols-2 gap-4 mb-10">
+            {galleryImages.map((src, i) => (
+              <div
+                key={src}
+                className="relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200 shadow-sm"
+              >
+                <Image
+                  src={src}
+                  alt={meta.galleryAlt?.[i] || `${meta.name} in Zionsville, Indiana`}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 50vw, 440px"
+                />
+              </div>
+            ))}
+          </div>
         )}
 
         {areaParking && areaParking.length > 0 && (

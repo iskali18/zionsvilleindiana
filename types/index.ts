@@ -102,6 +102,12 @@ export interface BusinessMeta {
     q: string
     a: string
   }>
+  /** Optional per-image alt text for the photo gallery, index-matched to
+   *  zionsville-{slug}-1.jpg, -2.jpg, etc. Falls back to a generic alt if omitted. */
+  galleryAlt?: string[]
+  /** Optional link to the business's Google Maps / Business Profile entry,
+   *  used to show live hours without hardcoding them. */
+  googleMapsUrl?: string
 }
 
 // ___ Guides

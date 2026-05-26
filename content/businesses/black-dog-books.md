@@ -16,4 +16,3 @@ Black Dog Books is an independent bookshop housed in a historic 1850s building o
 
 Beyond its retail collection, the shop provides professional services such as custom book searches and expert repair for damaged or fragile volumes. It serves as a community hub for literary events, including candlelight readings and local author signings.
 
-**Hours:** Tuesday–Saturday: 11:00 am – 5:00 pm; Sunday: 11:00 am – 3:00 pm.
