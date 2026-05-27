@@ -29,8 +29,37 @@ faqs:
   - q: "Should I bring swimsuits for the splash pad?"
     a: "Yes — kids can cool off at the Mulberry Fields splash pad, so swimsuits, towels, and a change of clothes are recommended."
   - q: "Is there parking at Mulberry Fields Park?"
-    a: "Yes, Mulberry Fields Park has its own parking lot. Arrive early for the closest spots. Overflow parking is available at neighboring Zionsville Middle School."
+    a: "Yes, Mulberry Fields Park has its own parking lot. Arrive early for the closest spots. Overflow parking is available at neighboring Zionsville Middle School after school pickup hours only, which typically clears after 4:15 PM (school dismissal is at 3:45 PM, when the lot is extremely busy)."
 ---
+
+<!-- Zone 1 — scannable quick facts -->
+
+<div class="my-6 aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm bg-stone-100">
+  <!-- PASTE the Google MyMap embed URL into the src below when ready.
+       Google MyMaps → Share → Embed on my site → copy the src URL -->
+  <iframe
+    src="https://www.google.com/maps/d/u/3/embed?mid=1brT4ZQmuRzIy1kwqcakTV8V_XJH49n4&ehbc=2E312F"
+    title="Party in the Park — parking and venue map"
+    class="w-full h-full border-0"
+    loading="lazy"
+  ></iframe>
+</div>
+
+<p class="text-xs text-stone-500 mt-2">
+  Use the map to find Mulberry Fields Park, event parking, overflow parking, and nearby food options.
+</p>
+
+<div class="my-6 text-center text-stone-700">
+  <p class="text-xs uppercase tracking-widest text-stone-500 mb-2">Highlights</p>
+  <p class="text-base sm:text-lg font-medium leading-relaxed">
+    Splash pad · Touch-a-Truck · Live DJ · Food trucks · Face painting
+  </p>
+  <p class="text-sm text-stone-500 mt-2">
+    Free admission · Bring swimsuit and towel for the splash pad
+  </p>
+</div>
+
+<!-- Zone 2 — full prose (depth + SEO) -->
 
 Party in the Park is Zionsville's free end-of-school-year celebration, held annually on the last day of school at Mulberry Fields Park. Hosted by Zionsville Parks and Recreation along with the Zionsville Nature Center and the Town of Zionsville, the event marks the kickoff to summer for local families with three hours of activities, food, and play.
 
@@ -61,7 +90,7 @@ The afternoon includes:
 **Hours:** 3:00 PM – 6:00 PM  
 **Location:** Mulberry Fields Park, 9645 Whitestown Rd, Zionsville, IN 46077  
 **Admission:** Free  
-**Parking:** Mulberry Fields Park has its own parking lot. Overflow parking is available at neighboring Zionsville Middle School.
+**Parking:** Mulberry Fields Park has its own parking lot. Overflow parking is available at neighboring Zionsville Middle School after school pickup hours only, which typically clears after 4:15 PM (school dismissal is at 3:45 PM, when the lot is extremely busy).
 
 Bring swimsuits, towels, and a change of clothes for kids who want to use the splash pad. Sunscreen and water bottles are recommended. Food trucks operate independently, so bring cash or cards if you plan to eat there.
 
@@ -69,4 +98,4 @@ See the [Town of Zionsville Party in the Park page](https://www.zionsville-in.go
 
 ## After the event
 
- Amore Pizzeria is family-friendly option for dinner in Boone Village. [The Scoop](/businesses/the-scoop) on South Main Street is open into the evening for ice cream, and [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are additional dinner options on Main Street. 
+ **Amore Pizzeria** in Boone Village is a sit-down pizza option. For ice cream, [The Scoop](/businesses/the-scoop) on South Main Street is open into the evening, and **Fundaes** on Whitestown Parkway is another option close to Mulberry Fields. [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are additional dinner options on Main Street.

@@ -171,30 +171,30 @@ export default async function EventPage({ params }: Props) {
         </div>
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          {/* Details strip */}
-          <div className="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-10 grid sm:grid-cols-3 gap-4 text-sm">
+          {/* Details — mono info strip */}
+          <dl className="font-mono text-sm leading-7 mb-10 bg-stone-50 border border-stone-200 rounded-lg px-5 py-4 space-y-1">
             <div>
-              <p className="text-xs text-stone-500 uppercase tracking-wider mb-1">When</p>
-              <p className="text-stone-700 font-medium">{formatEventDate(meta)}</p>
+              <span className="inline-block w-28 sm:w-32 text-stone-500 font-medium">When</span>
+              <span className="text-stone-900 font-semibold">{formatEventDate(meta)}</span>
             </div>
             <div>
-              <p className="text-xs text-stone-500 uppercase tracking-wider mb-1">Where</p>
-              <p className="text-stone-700 font-medium">{meta.location}</p>
+              <span className="inline-block w-28 sm:w-32 text-stone-500 font-medium">Where</span>
+              <span className="text-stone-900 font-semibold">{meta.location}</span>
             </div>
             {meta.externalUrl && !meta.perennial && (
               <div>
-                <p className="text-xs text-stone-500 uppercase tracking-wider mb-1">More info</p>
+                <span className="inline-block w-28 sm:w-32 text-stone-500 font-medium">More info</span>
                 <a
                   href={meta.externalUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-brick-600 hover:text-brick-700 font-medium"
+                  className="font-semibold text-brick-600 hover:text-brick-700"
                 >
                   {getLinkText(meta.externalUrl)}
                 </a>
               </div>
             )}
-          </div>
+          </dl>
 
           {/* Body content */}
           <div

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { Lora, Source_Sans_3 } from 'next/font/google'
+import { Lora, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 
 const display = Lora({
@@ -9,9 +9,17 @@ const display = Lora({
   display: 'swap',
 })
 
-const sans = Source_Sans_3({
+const sans = Plus_Jakarta_Sans({
   subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
   variable: '--font-sans',
+  display: 'swap',
+})
+
+const mono = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['500', '600'],
+  variable: '--font-mono',
   display: 'swap',
 })
 
@@ -40,7 +48,7 @@ const GA_ID = 'G-25FXRPT58S' // ← replace with your GA4 measurement ID
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
+    <html lang="en" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <head>
         {/* WebSite schema — tells Google what to display as the site name in search results */}
         <script
@@ -71,7 +79,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           }}
         />
       </head>
-      <body className="bg-stone-50 text-stone-800 font-sans antialiased">
+      <body className="bg-stone-50 text-stone-800 font-sans font-medium antialiased">
         {children}
       </body>
     </html>

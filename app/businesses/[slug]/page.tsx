@@ -56,11 +56,6 @@ const getLinkText = (name: string, url: string) => {
   return `${cleanUrl} →`;
 };
 
-function formatVerifiedDate(iso: string): string {
-  const d = new Date(iso)
-  return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
-}
-
 // Collect up to 4 gallery images for a business by filename convention:
 // /public/images/businesses/zionsville-{slug}-1.jpg ... zionsville-{slug}-4.jpg.
 // Only files that actually exist are returned, so dropping in images is
@@ -140,23 +135,23 @@ export default async function BusinessPage({ params }: Props) {
           <p className="text-stone-500">{meta.address}</p>
         </div>
 
-        <div className="bg-stone-50 border border-stone-200 rounded-lg p-5 mb-10 grid sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+        <dl className="font-mono text-sm leading-7 mb-10 bg-stone-50 border border-stone-200 rounded-lg px-5 py-4 space-y-1">
           {meta.phone && (
             <div>
-              <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Phone</p>
-              <a href={`tel:${meta.phone}`} className="text-stone-700 font-medium hover:text-brick-600">
+              <span className="inline-block w-32 sm:w-40 text-stone-500 font-medium">Phone</span>
+              <a href={`tel:${meta.phone}`} className="text-stone-900 font-semibold hover:text-brick-600">
                 {meta.phone}
               </a>
             </div>
           )}
           {meta.website && (
             <div>
-              <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Website</p>
+              <span className="inline-block w-32 sm:w-40 text-stone-500 font-medium">Website</span>
               <a
                 href={meta.website}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-brick-600 hover:text-brick-700 font-medium"
+                className="font-semibold text-brick-600 hover:text-brick-700"
               >
                 {getLinkText(meta.name, meta.website)}
               </a>
@@ -164,22 +159,18 @@ export default async function BusinessPage({ params }: Props) {
           )}
           {meta.googleMapsUrl && (
             <div>
-              <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Hours</p>
+              <span className="inline-block w-32 sm:w-40 text-stone-500 font-medium">Hours</span>
               <a
                 href={meta.googleMapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-brick-600 hover:text-brick-700 font-medium"
+                className="font-semibold text-brick-600 hover:text-brick-700"
               >
                 View on Google Maps →
               </a>
             </div>
           )}
-          <div>
-            <p className="text-xs text-stone-400 uppercase tracking-wider mb-1">Listing verified</p>
-            <p className="text-stone-500">{formatVerifiedDate(meta.lastVerified)}</p>
-          </div>
-        </div>
+        </dl>
 
         {contentHtml && (
           <div
