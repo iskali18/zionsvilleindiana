@@ -10,7 +10,7 @@ address: "Main Street, Zionsville, IN 46077"
 image: /images/events/zionsville-main-street-shops.webp
 imageAlt: Evening shopping along Main Street in downtown Zionsville
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: true
+photoCreditHeroOnly: false
 featured: false
 tags: [shopping, evening, downtown, village, seasonal]
 area: downtown

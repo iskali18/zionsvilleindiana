@@ -7,7 +7,7 @@ startDate: "2026-06-26"
 endDate: "2026-06-27"
 location: SullivanMunce Cultural Center, Zionsville
 address: 225 West Hawthorne Street, Zionsville, IN 46077
-image: /images/events/gardens-of-zionsville.jpg
+image: /images/events/gardens-of-zionsville.webp
 imageAlt: Garden tour visitors browsing a historic private garden in Zionsville
 photoCredit:
 photoCreditHeroOnly:

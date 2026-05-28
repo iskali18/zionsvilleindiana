@@ -204,7 +204,7 @@ export default function DowntownPage() {
         {/* Hero */}
         <div className="relative h-72 sm:h-96 bg-stone-900 overflow-hidden">
           <Image
-            src="/images/downtown/downtown-zionsville-indiana.webp"
+            src="/images/downtown/zionsville-indiana-main-street.webp"
             alt="Main Street in downtown Zionsville, Indiana"
             fill
             className="object-cover object-[center_55%] opacity-90"

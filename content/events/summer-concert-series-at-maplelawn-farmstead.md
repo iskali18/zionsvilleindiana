@@ -17,7 +17,7 @@ image: /images/events/maplelawn-farmstead.jpg
 imageAlt: Maplelawn Farmstead in Zionsville, Indiana at sunset
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
-featured: false
+featured: true
 perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]

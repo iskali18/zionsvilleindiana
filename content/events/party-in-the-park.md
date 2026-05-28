@@ -104,7 +104,7 @@ The afternoon includes:
     loading="lazy"
   />
   <figcaption class="text-sm text-stone-500 mt-2">
-    Aerial view of Mulberry Fields Park showing on-site parking and nearby overflow parking. Overflow parking is available in the church parking lot north of Mulberry Fields Park, across Whitestown Parkway. Zionsville Middle School parking is available after school pickup ends, which is typically around 4:10 PM. <br />
+    Aerial view of Mulberry Fields Park showing on-site parking and nearby overflow parking. Overflow parking is available in the church parking lot north of Mulberry Fields Park, across Whitestown Road. Zionsville Middle School parking is available after school pickup ends, which is typically around 4:10 PM. <br />
     © TomTom, © OpenStreetMap, and © Vexcel Imaging.
   </figcaption>
 </figure>

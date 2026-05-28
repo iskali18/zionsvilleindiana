@@ -9,7 +9,7 @@ address: "11053 Sycamore St, Zionsville, IN 46077"
 image: /images/events/zionsville-fourth-of-july-fireworks.jpg
 imageAlt: Fireworks over Lions Park in Zionsville on the 4th of July
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: true
+photoCreditHeroOnly: false
 tags: [fireworks, family, annual, outdoor, summer, fourth-of-july]
 featured: true
 externalUrl: https://www.zionsvillelions.com

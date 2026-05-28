@@ -23,6 +23,8 @@ const BASE = 'https://www.googleapis.com/calendar/v3'
 const OFFICIAL_URLS: Record<string, string> = {
   'stories in the park': 'https://www.zionsvillelions.com/',
   'diabetes awareness day': 'https://www.zionsvillelions.com/',
+  'fright nights at maplelawn farmstead': 'https://zionsville-in.gov/740/Fright-Nights',
+  'trick or trees: registration required': 'https://www.zionsville-in.gov/739/Trick-or-Trees',
 }
 
 export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[]> {

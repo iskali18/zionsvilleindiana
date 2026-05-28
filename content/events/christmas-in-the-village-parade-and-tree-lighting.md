@@ -11,7 +11,7 @@ externalUrl: https://www.zionsvillechamber.org/christmas-in-the-village/
 image: /images/events/zionsville-christmas-in-the-village-parade.jpg
 imageAlt: "Crowds lining Main Street in Zionsville during the Christmas in the Village parade"
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: false
+photoCreditHeroOnly: true
 featured: true
 tags: [christmas, holiday, family, parade, downtown, annual]
 area: downtown

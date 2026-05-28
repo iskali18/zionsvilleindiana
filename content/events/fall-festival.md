@@ -11,7 +11,7 @@ externalUrl: https://www.zionsvillelions.com/fall-festival-parade-2
 image: /images/events/zionsville-fall-festival.jpg
 imageAlt: Carnival ride at Lions Park during the Zionsville Fall Festival
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: true
+photoCreditHeroOnly: false
 featured: true
 tags: [festival, family, annual, carnival, parade]
 area: downtown

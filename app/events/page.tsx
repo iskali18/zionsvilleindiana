@@ -46,7 +46,7 @@ function matchEventToSlug(eventTitle: string, slugs: string[]): string | undefin
 }
 
 export default async function EventsPage() {
-  const featuredEvents = getFeaturedEvents(6)
+  const featuredEvents = getFeaturedEvents(9)
   const allEvents = getAllEvents()
   const calendarEvents = await getUpcomingEvents(24)
   const allSlugs = allEvents.map((e) => e.slug)

@@ -16,7 +16,7 @@ address: 11053 Sycamore St, Zionsville, IN 46077
 image: /images/events/zionsville-summer-concert-series.jpg
 imageAlt: Live outdoor concert at Lions Park in Zionsville, Indiana
 photoCredit: "Photo by Zionsville Cultural District"
-photoCreditHeroOnly: true
+photoCreditHeroOnly: false
 featured: true
 perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html
