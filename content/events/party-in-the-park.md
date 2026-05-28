@@ -63,6 +63,18 @@ faqs:
 
 Party in the Park is Zionsville's free end-of-school-year celebration, held annually on the last day of school at Mulberry Fields Park. Hosted by Zionsville Parks and Recreation along with the Zionsville Nature Center and the Town of Zionsville, the event marks the kickoff to summer for local families with three hours of activities, food, and play.
 
+<figure class="my-8">
+  <img
+    src="/images/events/gallery/zionsville-mulberry-fields-park-event.webp"
+    alt="Families gathered at an event in Mulberry Fields Park in Zionsville, Indiana"
+    class="w-full h-auto rounded-lg shadow-sm block"
+    loading="lazy"
+  />
+  <figcaption class="text-sm text-stone-500 mt-2">
+    Families gather for an event in Mulberry Fields Park.
+  </figcaption>
+</figure>
+
 ## What's planned for 2026
 
 The afternoon includes:
@@ -84,13 +96,26 @@ The afternoon includes:
 - Kona Ice
 - Ohana
 
+<figure class="my-8">
+  <img
+    src="/images/events/gallery/zionsville-mulberry-fields-park-aerial-view.webp"
+    alt="Aerial view of Mulberry Fields Park in Zionsville, Indiana showing on-site parking and overflow parking nearby."
+    class="w-full h-auto rounded-lg shadow-sm block"
+    loading="lazy"
+  />
+  <figcaption class="text-sm text-stone-500 mt-2">
+    Aerial view of Mulberry Fields Park showing on-site parking and nearby overflow parking. Overflow parking is available in the church parking lot north of Mulberry Fields Park, across Whitestown Parkway. Zionsville Middle School parking is available after school pickup ends, which is typically around 4:10 PM. <br />
+    © TomTom, © OpenStreetMap, and © Vexcel Imaging.
+  </figcaption>
+</figure>
+
 ## Plan your visit
 
 **When:** Thursday, May 28, 2026 (last day of school)  
 **Hours:** 3:00 PM – 6:00 PM  
 **Location:** Mulberry Fields Park, 9645 Whitestown Rd, Zionsville, IN 46077  
 **Admission:** Free  
-**Parking:** Mulberry Fields Park has its own parking lot. Overflow parking is available at neighboring Zionsville Middle School after school pickup hours only, which typically clears after 4:15 PM (school dismissal is at 3:45 PM, when the lot is extremely busy).
+**Parking:** Mulberry Fields Park has its own parking lot. Overflow parking is available at neighboring Zionsville Middle School after school pickup hours only, which typically clears after 4:10 PM (school dismissal is at 3:45 PM, when the lot is extremely busy). Overflow parking is also available in the church parking lot north of Mulberry Fields Park, across Whitestown Parkway.
 
 Bring swimsuits, towels, and a change of clothes for kids who want to use the splash pad. Sunscreen and water bottles are recommended. Food trucks operate independently, so bring cash or cards if you plan to eat there.
 
