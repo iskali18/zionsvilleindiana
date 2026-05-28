@@ -7,11 +7,11 @@ startDate: "2026-06-11"
 endDate: "2026-06-11"
 location: Main Street, Downtown Zionsville
 address: "Main Street, Zionsville, IN 46077"
-image: /images/events/zionsville-main-street-shops.webp
+image: /images/events/zionsville-sip-stroll-and-shop.webp
 imageAlt: Evening shopping along Main Street in downtown Zionsville
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
-featured: false
+featured: true
 tags: [shopping, evening, downtown, village, seasonal]
 area: downtown
 externalUrl: https://www.facebook.com/events/2692243017827505

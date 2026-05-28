@@ -9,7 +9,7 @@ address: "11053 Sycamore St, Zionsville, IN 46077"
 image: /images/events/zionsville-stories-in-the-park.jpg
 imageAlt: Families gathered on the grass at Lions Park in Zionsville for an outdoor storytime event
 tags: [family, kids, outdoor, free, summer, literacy]
-featured: false
+featured: true
 externalUrl: https://www.zionsvillelions.com
 metaTitle: "Stories in the Park 2026 — Free Kids Reading Event at Lions Park, Jun 5"
 metaDescription: "Stories in the Park returns Friday, June 5, 2026, 10 AM–noon at Lions Park in Zionsville. A free outdoor reading event for preschool through grade 4. Hosted by the Zionsville Lions Club."
