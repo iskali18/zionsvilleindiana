@@ -43,26 +43,20 @@ const categoryLabels: Record<BusinessCategory, string> = {
   lodging: 'Hotel & Inn',
 }
 
-const getLinkText = (name: string, url: string) => {
-  const cleanUrl = url
+const getLinkText = (url: string) => {
+  return url
     .replace(/^https?:\/\//, '')
     .replace(/^www\./, '')
-    .replace(/\/$/, '');
-
-  if (cleanUrl.length > 25 || cleanUrl.includes('facebook.com') || cleanUrl.includes('instagram.com')) {
-    return `Visit ${name} website →`;
-  }
-
-  return `${cleanUrl} →`;
+    .replace(/\/$/, '') + ' →';
 };
 
-// Collect up to 4 gallery images for a business by filename convention:
-// /public/images/businesses/zionsville-{slug}-1.jpg ... zionsville-{slug}-4.jpg.
+// Collect up to 5 gallery images for a business by filename convention:
+// /public/images/businesses/zionsville-{slug}-1.jpg ... zionsville-{slug}-5.jpg.
 // Only files that actually exist are returned, so dropping in images is
 // all that's needed — no frontmatter edits. Returns [] if none exist.
 function getGalleryImages(slug: string): string[] {
   const found: string[] = []
-  for (let i = 1; i <= 4; i++) {
+  for (let i = 1; i <= 5; i++) {
     const rel = `/images/businesses/zionsville-${slug}-${i}.jpg`
     try {
       if (fs.existsSync(path.join(process.cwd(), 'public', rel))) {
@@ -153,7 +147,7 @@ export default async function BusinessPage({ params }: Props) {
                 rel="noopener noreferrer"
                 className="font-semibold text-brick-600 hover:text-brick-700"
               >
-                {getLinkText(meta.name, meta.website)}
+                {getLinkText(meta.website)}
               </a>
             </div>
           )}
@@ -172,6 +166,19 @@ export default async function BusinessPage({ params }: Props) {
           )}
         </dl>
 
+        {galleryImages[0] && (
+          <div className="relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200 shadow-sm mb-8">
+            <Image
+              src={galleryImages[0]}
+              alt={meta.galleryAlt?.[0] || `${meta.name} in Zionsville, Indiana`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 896px) 100vw, 896px"
+              priority
+            />
+          </div>
+        )}
+
         {contentHtml && (
           <div
             className="prose-village mb-6"
@@ -179,19 +186,19 @@ export default async function BusinessPage({ params }: Props) {
           />
         )}
 
-        {galleryImages.length > 0 && (
-          <div className="grid grid-cols-2 gap-4 mb-10">
-            {galleryImages.map((src, i) => (
+        {galleryImages.length > 1 && (
+          <div className="space-y-4 mb-10">
+            {galleryImages.slice(1).map((src, i) => (
               <div
                 key={src}
                 className="relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200 shadow-sm"
               >
                 <Image
                   src={src}
-                  alt={meta.galleryAlt?.[i] || `${meta.name} in Zionsville, Indiana`}
+                  alt={meta.galleryAlt?.[i + 1] || `${meta.name} in Zionsville, Indiana`}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 640px) 50vw, 440px"
+                  sizes="(max-width: 896px) 100vw, 896px"
                 />
               </div>
             ))}

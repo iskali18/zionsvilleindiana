@@ -319,7 +319,7 @@ export default function HomePage() {
               href="/events"
               className="text-sm text-brick-600 hover:text-brick-700 font-medium"
             >
-              Full calendar →
+              View all events →
             </Link>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -365,6 +365,14 @@ export default function HomePage() {
                 </div>
               </Link>
             ))}
+          </div>
+          <div className="flex gap-4 mt-6">
+            <Link
+                href="/events"
+                className="text-md text-brick-600 hover:text-brick-700 font-medium"
+              >
+            View all events →
+            </Link>
           </div>
         </section>
 
