@@ -12,6 +12,6 @@ website: "https://cobblestonez.com"
 lastVerified: "2026-04-13"
 ---
 
-Cobblestone is a casual American restaurant and full bar located on South Main Street in the heart of the Village. The establishment offers outdoor patio seating directly on the historic brick street, providing a relaxed atmosphere for lunch, dinner, or drinks. 
+Cobblestone is a casual American restaurant and full bar located on Main Street in the heart of the Village. The establishment offers outdoor patio seating directly on the historic brick street, providing a relaxed atmosphere for lunch, dinner, or drinks. 
 
 The menu features a variety of American fare, including fresh seafood, steaks, and seasonal salads. With its lively bar area and central location, it serves as a frequent gathering spot for both residents and visitors exploring downtown.

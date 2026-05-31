@@ -62,6 +62,6 @@ Bring a blanket or lawn chairs — most of the morning happens on open grass at 
 
 ## After the event
 
-Lions Park is adjacent to [Creekside Nature Park](/parks/creekside-nature-park), an easy short walk for families looking to extend the morning outdoors. Downtown Zionsville is also a short drive or walk away — [Rosie's Place](/businesses/rosies-place) is a popular family-friendly lunch spot, and [The Scoop](/businesses/the-scoop) on South Main Street is a natural treat stop for kids on warm days.
+Lions Park is adjacent to [Creekside Nature Park](/parks/creekside-nature-park), an easy short walk for families looking to extend the morning outdoors. Downtown Zionsville is also a short drive or walk away — [Rosie's Place](/businesses/rosies-place) is a popular family-friendly lunch spot, and [The Scoop](/businesses/the-scoop) on Main Street is a natural treat stop for kids on warm days.
 
 [Visit the Zionsville Lions Club website →](https://www.zionsvillelions.com/)

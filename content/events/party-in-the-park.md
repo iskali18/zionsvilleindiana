@@ -123,4 +123,4 @@ See the [Town of Zionsville Party in the Park page](https://www.zionsville-in.go
 
 ## After the event
 
- **Amore Pizzeria** in Boone Village is a sit-down pizza option. For ice cream, [The Scoop](/businesses/the-scoop) on South Main Street is open into the evening, and **Fundaes** on Whitestown Parkway is another option close to Mulberry Fields. [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are additional dinner options on Main Street.
+ **Amore Pizzeria** in Boone Village is a sit-down pizza option. For ice cream, [The Scoop](/businesses/the-scoop) on Main Street is open into the evening, and **Fundaes** on Whitestown Parkway is another option close to Mulberry Fields. [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are additional dinner options on Main Street.

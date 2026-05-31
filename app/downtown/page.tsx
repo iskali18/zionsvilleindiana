@@ -48,7 +48,7 @@ const itineraries: Itinerary[] = [
       { name: "Greek's Pizzeria", href: '/businesses/greeks-pizzeria', note: 'casual downtown lunch' },
       { name: 'Main Street', note: 'a short walk through the Village' },
       { name: 'Lions Park', href: 'https://www.zionsville-in.gov/710/Lions-Park', external: true, note: 'playground and open space close to downtown' },
-      { name: 'Creekside Nature Park', href: 'https://www.zionsville-in.gov/703/Creekside-Nature-Park', external: true, note: 'a short 0.6-mile loop trail nearby' },
+      { name: 'Creekside Nature Park', href: 'https://www.zionsville-in.gov/703/Creekside-Nature-Park', external: true, note: 'from Lions Park, follow the path under the nearby bridge to a 0.6-mile wooded loop with glimpses of Eagle Creek' },
       { name: 'The Scoop', href: '/businesses/the-scoop', note: 'ice cream before heading home' },
     ],
   },
@@ -62,8 +62,8 @@ const itineraries: Itinerary[] = [
     stops: [
       { name: 'Our Place Coffee', href: '/businesses/our-place-coffee', note: 'coffee to start the morning' },
       { name: 'Main Street shops', note: 'browse boutiques, gifts, books, jewelry, and home décor' },
-      { name: "Rosie's Place", href: '/businesses/rosies-place', note: 'brunch or early lunch' },
-      { name: "The Baker's House", href: 'https://bakershousebread.com/', external: true, note: 'sourdough or a pastry to take home; plan this earlier in the day, especially on weekends' },
+      { name: "Rosie's Place", href: '/businesses/rosies-place', note: 'sit-down brunch with French toast, omelets, or lunch options' },
+      { name: "The Baker's House", href: 'https://bakershousebread.com/', external: true, note: 'organic sourdough or pastries to take home; weekend visits are best by early afternoon' },
     ],
   },
   {
@@ -100,13 +100,14 @@ const itineraries: Itinerary[] = [
     id: 'zionsville-wine-and-italian-market',
     title: 'A European-inspired afternoon downtown',
     intro:
-      'This afternoon plan combines French patio dining with wine shopping and Italian market items in the Village. Start with lunch at Auberge, browse Grapevine Cottage for wine or gifts, then stop by Angelo\u2019s Italian Market for fresh pasta, sauces, or Italian items to take home.',
-    image: '/images/downtown/downtown-zionsville-main-street.jpg',
+      'This afternoon plan combines gift shopping, French patio dining, wine browsing, and Italian market items in the Village. Start at Gifted on Cedar Street for gifts, candles, or home accessories sourced from Europe and the United States. Then head to Auberge for lunch at the Brick Street Inn, browse Grapevine Cottage for wine or gifts, and stop by Angelo\u2019s Italian Market for fresh pasta, sauces, or Italian items to take home.',
+    image: '/images/businesses/zionsville-gifted-1.jpg',
     imageAlt: 'Downtown Zionsville, Indiana',
     stops: [
-      { name: 'Auberge', href: 'https://www.auberge-restaurant.com/', external: true, note: 'French patio lunch at the Brick Street Inn, weather permitting; reservations are worth considering' },
-      { name: 'Grapevine Cottage', href: 'https://grapevinecottage.com/', external: true, note: 'browse wine, gifts, food items, and accessories' },
-      { name: "Angelo's Italian Market", href: '/businesses/angelos-italian-market', note: 'fresh pasta, sauces, and Italian items to take home; check hours when planning the afternoon' },
+      { name: 'Gifted', href: '/businesses/gifted', note: 'European and American gifts just off Main Street' },
+      { name: 'Auberge', href: 'https://www.auberge-restaurant.com/', external: true, note: 'French lunch at the Brick Street Inn' },
+      { name: 'Grapevine Cottage', href: 'https://grapevinecottage.com/', external: true, note: 'French and Italian wines, gifts, and accessories' },
+      { name: "Angelo's Italian Market", href: '/businesses/angelos-italian-market', note: 'fresh pasta, sauces, and Italian pantry items' },
     ],
   },
 ]

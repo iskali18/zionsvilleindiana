@@ -23,7 +23,7 @@ faqs:
     a: "Yes. The Gooey Butter Cookies, in original, chocolate, and seasonal flavors, are sold under their own label and ship nationwide from their website."
 ---
 
-Rosie's Place is a family-owned breakfast, brunch, and lunch café on South Main Street in the heart of the Village, open in Zionsville since 2014. The restaurant is named for the grandmother of owner Debbi Bourgerie, who runs it with her husband, Michael. Most items — baked goods, bread, dressings, and soups — are made from scratch.
+Rosie's Place is a family-owned breakfast, brunch, and lunch café on Main Street in the heart of the Village, open in Zionsville since 2014. The restaurant is named for the grandmother of owner Debbi Bourgerie, who runs it with her husband, Michael. Most items — baked goods, bread, dressings, and soups — are made from scratch.
 
 ## Breakfast, brunch, and lunch
 
@@ -35,4 +35,4 @@ The bakery case is stocked daily with Gooey Butter Cookies in original, chocolat
 
 ## Planning your visit
 
-Rosie's Place is a daytime café, serving breakfast and lunch and closing in the mid-afternoon, so it isn't open for dinner. Hours can change seasonally or around holidays — check the current hours on its [Google Maps listing](https://maps.app.goo.gl/CugU99JpWeq5gG168) before planning a visit. The Zionsville café sits on the brick stretch of South Main Street; Rosie's Place also has locations in Noblesville and Carmel.
+Rosie's Place is a daytime café, serving breakfast and lunch and closing in the mid-afternoon, so it isn't open for dinner. Hours can change seasonally or around holidays — check the current hours on its [Google Maps listing](https://maps.app.goo.gl/CugU99JpWeq5gG168) before planning a visit. The Zionsville café sits on the brick stretch of Main Street; Rosie's Place also has locations in Noblesville and Carmel.

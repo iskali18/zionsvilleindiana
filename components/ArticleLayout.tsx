@@ -8,9 +8,14 @@ import type { ArticleMeta } from '@/types'
 interface ArticleLayoutProps {
   meta: ArticleMeta
   contentHtml: string
+  /** URL path prefix for the article. Empty string for root-level routes (e.g. /things-to-do).
+   *  Use "/articles" for articles under the articles hub. Affects schema URLs and breadcrumbs. */
+  pathPrefix?: string
 }
 
-export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps) {
+export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: ArticleLayoutProps) {
+  const fullPath = `${pathPrefix}/${meta.slug}`
+
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -18,7 +23,7 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
     description: meta.description,
     mainEntityOfPage: {
       '@type': 'WebPage',
-      '@id': `https://zionsvilleindiana.com/${meta.slug}`,
+      '@id': `https://zionsvilleindiana.com${fullPath}`,
     },
     ...(meta.lastUpdated && { dateModified: meta.lastUpdated }),
     publisher: {
@@ -27,6 +32,18 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
       url: 'https://zionsvilleindiana.com',
     },
   }
+
+  // Breadcrumb items vary by path prefix.
+  // Root-level (e.g. /things-to-do): [Article]
+  // Articles hub (e.g. /articles/zionsville-coffee-shops): [Articles, Article]
+  const breadcrumbItems = pathPrefix === '/articles'
+    ? [
+        { label: 'Articles', href: '/articles' },
+        { label: meta.title, href: fullPath },
+      ]
+    : [
+        { label: meta.title, href: fullPath },
+      ]
 
   const breadcrumbSchema = {
     '@context': 'https://schema.org',
@@ -38,12 +55,29 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
         name: 'Home',
         item: 'https://zionsvilleindiana.com',
       },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: meta.title,
-        item: `https://zionsvilleindiana.com/${meta.slug}`,
-      },
+      ...(pathPrefix === '/articles'
+        ? [
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: 'Articles',
+              item: 'https://zionsvilleindiana.com/articles',
+            },
+            {
+              '@type': 'ListItem',
+              position: 3,
+              name: meta.title,
+              item: `https://zionsvilleindiana.com${fullPath}`,
+            },
+          ]
+        : [
+            {
+              '@type': 'ListItem',
+              position: 2,
+              name: meta.title,
+              item: `https://zionsvilleindiana.com${fullPath}`,
+            },
+          ]),
     ],
   }
 
@@ -94,9 +128,7 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
 
             <div className="absolute top-4 left-4 sm:left-6">
               <Breadcrumb
-                items={[
-                  { label: meta.title, href: `/${meta.slug}` },
-                ]}
+                items={breadcrumbItems}
                 light
               />
             </div>
@@ -122,9 +154,7 @@ export default function ArticleLayout({ meta, contentHtml }: ArticleLayoutProps)
           {!meta.hero_image && (
             <>
               <Breadcrumb
-                items={[
-                  { label: meta.title, href: `/${meta.slug}` },
-                ]}
+                items={breadcrumbItems}
               />
               <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8">
                 {meta.title}

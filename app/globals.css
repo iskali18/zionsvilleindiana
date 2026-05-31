@@ -36,4 +36,40 @@
       prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-3
       prose-a:text-brick-600 prose-a:no-underline hover:prose-a:underline;
   }
+
+  .prose-village table {
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    width: 100%;
+  }
+
+  .prose-village table thead tr {
+    background-color: rgb(245 245 244); /* stone-100 */
+    border-bottom: 2px solid rgb(214 211 209); /* stone-300 */
+  }
+
+  .prose-village table th {
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-weight: 600;
+    color: rgb(41 37 36); /* stone-800 */
+  }
+
+  .prose-village table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid rgb(231 229 228); /* stone-200 */
+    color: rgb(68 64 60); /* stone-700 */
+  }
+
+  .prose-village table tbody tr:nth-child(even) {
+    background-color: rgb(250 250 249); /* stone-50 */
+  }
+
+  .prose-village table tbody tr:nth-child(odd) {
+    background-color: rgb(255 255 255); /* white */
+  }
+
+  .prose-village table tbody tr:hover {
+    background-color: rgb(245 245 244); /* stone-100 on hover */
+  }
 }

@@ -11,7 +11,7 @@ externalUrl: https://www.zionsvillechamber.org/christmas-in-the-village/
 image: /images/events/zionsville-christmas-in-the-village-parade.jpg
 imageAlt: "Crowds lining Main Street in Zionsville during the Christmas in the Village parade"
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: true
+photoCreditHeroOnly: false
 featured: true
 tags: [christmas, holiday, family, parade, downtown, annual]
 area: downtown
@@ -21,7 +21,7 @@ faqs:
   - q: "When is Christmas in the Village 2026?"
     a: "The Christmas in the Village kickoff is Saturday, November 28, 2026, beginning with the 5:00 PM parade and tree lighting immediately afterward. The Christmas in the Village season continues through December with shopping, dining events, and Santa visits on select dates in downtown Zionsville."
   - q: "What time is the Zionsville Christmas parade?"
-    a: "The parade begins at 5:00 PM at Eagle Elementary and ends at Old National Bank on South Main Street at approximately 6:00 PM."
+    a: "The parade begins at 5:00 PM at Eagle Elementary and ends at Old National Bank on Main Street at approximately 6:00 PM."
   - q: "Where is the Zionsville Christmas tree lighting?"
     a: "The Christmas tree is lit on the corner of Pine and Main Streets in downtown Zionsville, immediately following the parade — typically around 6:00 PM."
   - q: "What time do the streets close for the parade?"
@@ -38,7 +38,7 @@ faqs:
 
 Christmas in the Village is Zionsville’s annual holiday kickoff, beginning the Saturday after Thanksgiving with a parade through the Village and the town tree lighting at the corner of Pine and Main Streets. The kickoff evening leads into the Christmas in the Village season, with shopping events, dining, and Santa visits on select dates through December.
 
-The parade begins at 5:00 PM at Eagle Elementary and travels through the Village to Old National Bank on South Main Street, arriving around 6:00 PM. Santa and Mrs. Claus then light the town tree, officially starting the Christmas season in Zionsville.
+The parade begins at 5:00 PM at Eagle Elementary and travels through the Village to Old National Bank on Main Street, arriving around 6:00 PM. Santa and Mrs. Claus then light the town tree, officially starting the Christmas season in Zionsville.
 
 [Visit the Zionsville Chamber of Commerce website →](https://www.zionsvillechamber.org/christmas-in-the-village/)
 
@@ -48,7 +48,7 @@ The kickoff Saturday includes:
 
 - **4:00 PM** — Streets along the parade route close to vehicles
 - **5:00 PM** — Christmas parade begins at Eagle Elementary
-- **~6:00 PM** — Parade ends at Old National Bank on South Main Street
+- **~6:00 PM** — Parade ends at Old National Bank on Main Street
 - **Immediately following parade** — Christmas tree lighting at the corner of Pine and Main Streets with Santa and Mrs. Claus
 - **After the tree lighting** — Santa photos, downtown shopping, and dining
 
@@ -61,7 +61,7 @@ The kickoff parade marks the start of Zionsville’s holiday season downtown. Th
 ## Plan your visit
 
 **When:** Saturday, November 28, 2026, starting at 5:00 PM  
-**Parade route:** Begins at Eagle Elementary, ends at Old National Bank on South Main Street  
+**Parade route:** Begins at Eagle Elementary, ends at Old National Bank on Main Street  
 **Tree lighting:** Corner of Pine and Main Streets, immediately following the parade  
 **Admission:** Free  
 **Dress warm:** This is an outdoor evening event in late November. Bring coats, hats, and gloves, especially if you plan to stand along the parade route.

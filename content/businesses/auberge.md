@@ -23,7 +23,7 @@ faqs:
     a: "Yes. Weather permitting, the patio is open for breakfast, brunch, lunch, and dinner."
 ---
 
-Auberge is a French-inspired restaurant and bar located at the [Brick Street Inn](https://brickstreetinn.com/) on South Main Street in Zionsville. The kitchen draws from the cuisines of France, with menus for brunch, lunch, dinner, and drinks depending on the day. The restaurant also offers an extensive wine list, local craft beers, and craft cocktails. Weather permitting, the patio is open for breakfast, brunch, lunch, and dinner.
+Auberge is a French-inspired restaurant and bar located at the [Brick Street Inn](https://brickstreetinn.com/) on Main Street in Zionsville. The kitchen draws from the cuisines of France, with menus for brunch, lunch, dinner, and drinks depending on the day. The restaurant also offers an extensive wine list, local craft beers, and craft cocktails. Weather permitting, the patio is open for breakfast, brunch, lunch, and dinner.
 
 ## Reservations
 

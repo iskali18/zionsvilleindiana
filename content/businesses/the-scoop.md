@@ -3,7 +3,7 @@ name: "The Scoop"
 slug: the-scoop
 category: dining
 area: "downtown"
-shortDescription: "Ice cream shop in a restored Victorian building on South Main Street."
+shortDescription: "Ice cream shop in a restored Victorian building on Main Street."
 seo_title: "The Scoop Zionsville | Menu, Hours & Main Street Ice Cream"
 metaDescription: "Plan a visit to The Scoop in downtown Zionsville. Find hours, menu highlights, dairy-free and vegan options, patio seating, and location info on Main Street."
 address: "305 S Main St, Zionsville, IN 46077"
@@ -21,7 +21,7 @@ faqs:
   - q: "Does The Scoop have no-sugar-added ice cream?"
     a: "The menu lists NSA Moose Tracks as a no-sugar-added option. Availability may change, so check the current menu or call ahead."
   - q: "Is The Scoop close to the Zionsville Farmers Market?"
-    a: "Yes. The Scoop is on South Main Street, close to the area where the seasonal Zionsville Farmers Market is held."
+    a: "Yes. The Scoop is on Main Street, close to the area where the seasonal Zionsville Farmers Market is held."
 ---
 
 The Scoop is a downtown Zionsville ice cream shop at 305 S Main Street, near the south end of the Village. It occupies a restored Victorian building on the brick section of Main Street, with a wraparound porch and outdoor patio seating. The shop was opened by Elizabeth and John Demaree, longtime Zionsville residents, and serves a rotating menu of ice cream flavors, including classic choices, kid-friendly flavors, sorbets, a vegan option, and a no-sugar-added selection.

@@ -11,7 +11,7 @@ recurrence:
   dayOfWeek: saturday
   startSeason: "2026-05-16"
   endSeason: "2026-09-26"
-location: South Main Street, Downtown Zionsville
+location: Main Street, Downtown Zionsville
 address: "340 S Main St, Zionsville, IN 46077"
 image: /images/events/zionsville-farmers-market.jpg
 imageAlt: Fresh produce at Zionsville Farmers Market on Main Street
@@ -83,6 +83,6 @@ Several restaurants and coffee spots are a short walk from the market. A few way
 
 **Casual lunch** — [Greek's Pizzeria](/businesses/greeks-pizzeria) serves pizza and Greek dishes near Main Street. [Zionsville Pizzeria](/businesses/zionsville-pizzeria) is another Main Street pizza option.
 
-**Sweets** — [The Scoop](/businesses/the-scoop) is across from the market on South Main Street, serving ice cream and cold treats.
+**Sweets** — [The Scoop](/businesses/the-scoop) is across from the market on Main Street, serving ice cream and cold treats.
 
 **Take home** — [Angelo's Italian Market](/businesses/angelos-italian-market) carries housemade pasta, sauces, and prepared foods if you want to take something home after the market.

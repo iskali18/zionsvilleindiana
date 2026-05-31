@@ -33,6 +33,14 @@ export interface EventMeta {
   mapEmbedUrl?: string
   /** Optional title for the embedded map (used for iframe accessibility) */
   mapTitle?: string
+  /** Optional weekly recurrence definition. When set, getAllEvents() resolves
+   *  startDate to the next upcoming occurrence within the season window. */
+  recurrence?: {
+    pattern: 'weekly'
+    dayOfWeek: 'sunday' | 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday'
+    startSeason: string  // YYYY-MM-DD
+    endSeason: string    // YYYY-MM-DD
+  }
   metaTitle: string
   metaDescription: string
 }
@@ -110,7 +118,7 @@ export interface BusinessMeta {
   googleMapsUrl?: string
 }
 
-// ___ Guides
+// ─── Guides / Articles ──────────────────────────────────────────────────────
 export interface ArticleMeta {
   slug: string
   title: string
@@ -121,6 +129,13 @@ export interface ArticleMeta {
   lastUpdated?: string
   category?: 'discovery' | 'relocation' | 'outdoors' | 'food' | 'family'
   ctas?: Array<{ label: string; href: string }>
+  /** When true, the article is hidden from the /articles hub page and any listings.
+   *  The direct URL /articles/{slug} still resolves so the page can be previewed. */
+  draft?: boolean
+  faqs?: Array<{
+    q: string
+    a: string
+  }>
 }
 
 // ─── Shared ──────────────────────────────────────────────────────────────────
@@ -128,31 +143,5 @@ export interface ArticleMeta {
 export interface BreadcrumbItem {
   label: string
   href: string
-}
-
-// ─── Recurring Weekly Events ──────────────────────────────────────────────────
-
-export interface EventMeta {
-  // ... all your existing fields stay the same ...
-
-  // Add this new optional field:
-  recurrence?: {
-    pattern: 'weekly'
-    dayOfWeek: 'sunday' | 'monday' | 'tuesday' | 'wednesday' | 'thursday' | 'friday' | 'saturday'
-    startSeason: string  // YYYY-MM-DD
-    endSeason: string    // YYYY-MM-DD
-  }
-}
-
-// ─── FAQs ──────────────────────────────────────────────────
-
-export interface ArticleMeta {
-  // ... your existing fields ...
-
-  // Add this:
-  faqs?: Array<{
-    q: string
-    a: string
-  }>
 }
 

@@ -12,6 +12,6 @@ website: "https://convivioindy.com"
 lastVerified: "2026-04-12"
 ---
 
-Convivio Italian Artisan Cuisine utilizes a farm-to-table approach for its traditional Italian menu on South Main Street. The restaurant is known for its handmade fresh pasta, which is produced using specialized Italian machines visible to diners from the open kitchen. 
+Convivio Italian Artisan Cuisine utilizes a farm-to-table approach for its traditional Italian menu on Main Street. The restaurant is known for its handmade fresh pasta, which is produced using specialized Italian machines visible to diners from the open kitchen. 
 
 The menu changes seasonally to incorporate fresh ingredients and includes artisan wood-fired pizzas and regionally inspired Italian specials. Outdoor patio seating is available during warmer months. Given its popularity, reservations are recommended, particularly for weekend dining.

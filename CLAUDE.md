@@ -54,6 +54,28 @@ Informational and concise, NOT bloggy. Allowed: second-person "you," factual sta
 
 Use **"kids' area"** not "children's area."
 
+### Monetization-safe content (CRITICAL — protect sponsorship potential)
+The site is moving toward sponsorships (realtors, builders, mortgage, home services, etc.). **NEVER compare businesses on the site against each other** — even neutrally. Comparisons read as ranking, and any business owner reading their description will react to "smaller than X," "quieter than Y," "the most reliable Z" as picking favorites. Poison for monetization.
+
+Rules:
+- **No cross-business comparisons.** "Smaller, cozier" → just describe the space on its own merits.
+- **No superlatives that imply ranking** even when factually defensible. "The most extensive menu," "the most reliable stop," "the broadest food selection" → describe the feature, not its position.
+- **Each business described on its own merits.** Reader compares; we don't.
+- **"Different" framing instead of "better/worse" framing.** If you need to acknowledge variety, frame it neutrally ("RIVET has a substantial food menu" rather than "RIVET has a broader food menu than other coffee shops").
+- **Use-case grouping is fine** (e.g., "Best for working: Our Place" — this isn't comparing businesses, it's mapping intent to options). Avoid superlative comparisons within those groupings.
+
+### No-maintenance-burden rule (sitewide for all content)
+Don't write information that could go stale and need updating. **Never include in MD content:**
+- **Specific hours** — point to Google Maps for current hours instead
+- **Specific prices, amounts, dollar figures, or price ranges** — even if publicly stated by the business
+- **Inventory counts** — "14 bagel varieties," "carrying 200+ items," "two other locations" (use "a range of," "several varieties" instead). EXCEPTION: specific city names of a business's other locations ARE fine (e.g. "Rosie's Place also has locations in Noblesville and Carmel") — these are business assets that rarely change, and they help with Google snippets.
+- **Inventory specifics that rotate** — "currently carrying X brand" (use "rotating roster" or "brands include" instead)
+- **Award years** — "named 2024 Best of X" (will age poorly)
+- **Owner names** — owner identities belong on the business's own site, not third-party directories. Visitors want to know about products and services, not who owns the shop.
+- **Opening dates** — "opened in 2024," "since 2020," anniversary milestones. Visitors don't care about a shop's history; they care about what's there now.
+
+When in doubt: if the fact could change and require us to update the MD, leave it out. Broad-context phrasing always wins. The test: is this a *business asset* that rarely changes (specific city locations, the brand name, the product category), or is it a *moment-in-time count* (inventory, prices, hours, ownership, ages)?
+
 ---
 
 ## Critical rules
@@ -64,6 +86,7 @@ Use **"kids' area"** not "children's area."
 - Verified facts: Zionsville Golf Course is 9-hole par 36 (zionsvillenational.com)
 - RIVET Coffee Bar is **all caps**
 - Big-4 Rail Trail uses a **hyphen**
+- **Main Street** is just "Main Street" — never "South Main Street" or "North Main Street" in prose (those are address prefixes only; nobody calls the street that)
 - For spas: list 2–3 services only (massages, facials, body treatments); skip injectables, hair removal, nails, waxing
 
 ### URL rule (CRITICAL)
@@ -315,6 +338,14 @@ Cover shops Cy has personally visited. Independent-forward, chains briefly noted
 ### Other roundups planned
 Best Brunch, Best Pizza, Where to Take Kids, Kids Sports & Activities.
 
+### Directory page engagement (dining + shopping)
+ItemList + LocalBusiness JSON-LD schema added to both `/downtown/dining` and `/downtown/shopping` pages. Future enhancements to consider (one at a time, in Claude Code):
+- Sub-category filter pills at top of each directory (Bookstores, Jewelry, Home Decor, Specialty Foods, etc.)
+- Curated neighborhood sections (Main Street vs Pine Street vs 1st Street groupings)
+- "Plan Your Day" component that surfaces complementary activities (pair shopping with dining; coordinate with map work when that's done)
+- Upgrade LocalBusiness `@type` to specific subtypes (Restaurant, BakeryShop, Store) per business category
+- SKIP per voice rules: operating hours snapshot on cards, "Open until X PM" indicators, redundant CTAs on already-clickable cards.
+
 ### Major article priorities
 Living in Zionsville, ZCS Schools, Indianapolis Day Trips, Newcomer's First Year, Big 4 Rail Trail (field research summer 2026).
 
@@ -325,6 +356,24 @@ Illustrated bird's-eye map of downtown, Nano Banana stylized over Bing aerial. N
 - Vertical rhythm — reduce excessive `py-16` to `py-10/12`
 - Consistent image treatment sitewide (3:2, rounded-lg, shadow-sm)
 - Alt-text pass on all images (verify businesses via web_fetch before naming)
+
+### Downtown page itinerary updates
+- **Add Gifted** (12 E. Cedar Street) to the "European-inspired" itinerary card. The shop's identity centers on European-inspired gifts and luxury items sourced from Amsterdam, Berlin, Prague, Salzburg, Paris, London, etc. — a strong thematic fit. Owners Denise & Stacey.
+
+### Shopping inventory — permanent exclusions
+These Chamber retail listings are NOT to be added to the shopping directory (decided in May 2026 session, do not re-suggest):
+- A. J. Schnell woodworks (no storefront address listed)
+- Mary's Mess and Menagerie (no address listed)
+- SZN'd SAVORS (no address listed)
+- The Licorice Guy (no address listed)
+- Willy's Wagyu (rural address, not downtown)
+- Architectural Antiques of Indianapolis (Indianapolis address)
+- B Happy Skin (Danville)
+- Blue Ribbon Designs (Orchard Point — industrial area, not downtown)
+- Elite Pro Painting, Kinetico Water Systems, KTM Office Furniture, RDS Office Furniture (services or out of town, not retail visitors care about)
+- House of Colour Zionsville (color-analysis service, not a walk-in shop)
+- Village Custom Embroidery (embroidery service, not retail)
+- Wildwood Home Co. (interior design firm, not retail)
 
 ### Sponsorship strategy (Days 90–180+)
 Target tiers: realtors, home builders (Tier 1), mortgage brokers + HVAC + Indy nonprofits + private schools (Tier 2). Year 1 realistic: $2–3K/mo from 3–5 sponsors. Editorial/sponsored separation is inviolable. Build `/partners` and `/disclosure` pages as outreach approaches.

@@ -119,10 +119,10 @@ export default function HomePage() {
         >
           <div className="absolute inset-0">
             <Image
-              src="/images/zionsville-indiana-main-street.jpg"
+              src="/images/zionsville-indiana-main-street.webp"
               alt="Main Street in Zionsville, Indiana"
               fill
-              className="object-cover object-[center_40%] opacity-45"
+              className="object-cover object-[center_75%] opacity-45"
               priority
             />
           </div>
@@ -210,6 +210,14 @@ export default function HomePage() {
                               timeZone: 'UTC',
                             })}
                           </p>
+                          {!event.recurrenceLabel && (!event.endDate || event.endDate === event.startDate) && (
+                            <p className="text-brick-300 text-[10px] uppercase tracking-wide leading-none mt-1">
+                              {new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', {
+                                weekday: 'short',
+                                timeZone: 'UTC',
+                              })}
+                            </p>
+                          )}
                         </>
                       )}
                     </div>
@@ -352,7 +360,7 @@ export default function HomePage() {
                       : event.recurrenceLabel ?? (
                           event.endDate && event.endDate !== event.startDate
                             ? `${new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })} – ${new Date(event.endDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`
-                            : new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+                            : new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
                         )
                     }
                   </p>
