@@ -13,6 +13,14 @@ googleMapsUrl: "https://maps.app.goo.gl/hbvHeoULwmRY8vQ4A"
 lastVerified: "2026-05-31"
 ---
 
+<figure style="margin: 1.5rem auto; max-width: 28rem;">
+  <img src="/images/businesses/zionsville-roasted-in-the-village-vertical.jpg" alt="Outdoor seating at Roasted in the Village coffee shop in downtown Zionsville, Indiana" style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+</figure>
+
+<!--figure class="float-right ml-6 mb-4 w-1/3 max-w-md">
+  <img src="/images/businesses/zionsville-roasted-in-the-village-vertical.jpg" alt="Outdoor seating at Roasted in the Village coffee shop in downtown Zionsville, Indiana" class="w-full rounded-lg shadow-sm" />
+</figure-->
+
 Roasted in the Village is an independent coffee house located on East Pine Street, just steps from the brick Main Street. The shop has a cozy, relaxed interior and a focus on small-batch quality. They are well-known for their specialty seasonal lattes and a rotating selection of pastries baked fresh in-house.
 
 The shop often features work from local artists on the walls, adding to its connection to the community. Seating is available indoors, with a small outdoor area during warmer months. Roasted is a comfortable place to sit with coffee, pastries, or a seasonal latte while spending time downtown.
