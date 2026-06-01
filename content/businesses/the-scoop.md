@@ -8,12 +8,13 @@ seo_title: "The Scoop Zionsville | Menu, Hours & Main Street Ice Cream"
 metaDescription: "Plan a visit to The Scoop in downtown Zionsville. Find hours, menu highlights, dairy-free and vegan options, patio seating, and location info on Main Street."
 address: "305 S Main St, Zionsville, IN 46077"
 website: "https://thescoopmainstreet.com"
-lastVerified: "2026-05-24"
+googleMapsUrl: "https://maps.app.goo.gl/yy7jJ84oCnj2QBjV7"
+lastVerified: "2026-05-31"
 faqs:
   - q: "Where is The Scoop in Zionsville?"
     a: "The Scoop is located at 305 S Main Street in downtown Zionsville, near the south end of the Village."
   - q: "What are The Scoop's hours?"
-    a: "The Scoop is open Sunday through Thursday 11:00 AM to 9:00 PM, Friday 11:00 AM to 10:00 PM, and Saturday 10:00 AM to 10:00 PM. Hours can change seasonally, so confirm before a special trip."
+    a: "From spring through fall, The Scoop is open Sunday through Thursday 11:00 AM to 9:00 PM, Friday 11:00 AM to 10:00 PM, and Saturday 10:00 AM to 10:00 PM. Hours can change seasonally, so confirm before a special trip."
   - q: "Does The Scoop have outdoor seating?"
     a: "Yes. The Scoop is located in a restored Victorian building with a wraparound porch and outdoor patio area."
   - q: "Does The Scoop have vegan or dairy-free ice cream?"
@@ -66,12 +67,4 @@ Dietary needs can vary by ingredient, preparation, and cross-contact risk. If al
 
 The porch and patio set The Scoop apart from a typical ice cream storefront. Outdoor seating is pleasant during warm weather, and availability can depend on the season, weather, and how busy downtown is. On summer weekends, event days, and Farmers Market mornings, the area around Main Street can be busier than usual.
 
-## Current hours
 
-The Scoop's posted hours are:
-
-- **Sunday–Thursday:** 11:00 AM – 9:00 PM
-- **Friday:** 11:00 AM – 10:00 PM
-- **Saturday:** 10:00 AM – 10:00 PM
-
-Hours can change seasonally or around holidays, so confirm with The Scoop before making a special trip.

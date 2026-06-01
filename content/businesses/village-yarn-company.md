@@ -7,7 +7,9 @@ shortDescription: "Global yarn selection and fiber arts supplies."
 seo_title: "Village Yarn Company | Knitting & Fiber Arts in Zionsville, IN"
 metaDescription: "Village Yarn Company offers a curated selection of global yarns, tools, and patterns. Join our community for knitting and fiber arts classes in Zionsville."
 address: "209 S Main St, Zionsville, IN 46077"
-lastVerified: "2026-04-16"
+website: "https://www.facebook.com/villageyarncompany/"
+googleMapsUrl: "https://maps.app.goo.gl/5ppjTSN7oMayKsFq5"
+lastVerified: "2026-05-31"
 ---
 
 Village Yarn Company is a premier fiber arts destination located on Main Street. The shop carries an extensive and curated selection of yarns sourced from across the globe, alongside a full array of tools, patterns, and supplies for knitting, crocheting, weaving, and embroidery.

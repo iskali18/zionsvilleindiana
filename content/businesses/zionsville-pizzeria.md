@@ -9,9 +9,10 @@ metaDescription: "Visit Zionsville Pizzeria on Main Street for house-made dough,
 address: "255 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-2878"
 website: "https://zionsvillepizzeria.com"
-lastVerified: "2026-04-30"
+googleMapsUrl: "https://maps.app.goo.gl/7kKWj9eQjj1nxNbr9"
+lastVerified: "2026-05-31"
 ---
 
 Zionsville Pizzeria is a family-friendly pizza restaurant on Main Street in the Village. The kitchen makes its dough and sauce in-house, and the menu features classic and specialty pies along with subs, calzones, salads, and a soup-and-salad bar.
 
-The restaurant runs daily 11 AM–2 PM lunch specials and rotating daily promotions — including a Tuesday large one-topping pizza deal and a Friday/Saturday early-bird half-off pizza window from 3 to 5 PM. Dine-in seating is available, along with carry-out and delivery; the bar serves beer, wine, and cocktails.
+Zionsville Pizzeria offers dine-in, carry-out, and delivery, with a menu that also includes a pizza buffet, salad bar, beer, wine, and cocktails. The restaurant also offers online ordering, catering, and group pizza events, including make-your-own pizza parties.
