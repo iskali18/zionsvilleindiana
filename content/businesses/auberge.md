@@ -4,13 +4,13 @@ slug: auberge
 category: dining
 area: "downtown"
 shortDescription: "French restaurant and bar at the Brick Street Inn on Main Street."
-seo_title: "Auberge | French Restaurant in Zionsville, IN"
+seo_title: "Auberge | French Restaurant in Zionsville, Indiana"
 metaDescription: "Auberge is a French-inspired restaurant and bar at the Brick Street Inn on Main Street in Zionsville, with brunch, lunch, dinner, and craft cocktails."
 address: "175 S Main St, Zionsville, IN 46077"
 phone: "(317) 733-8755"
 website: "https://www.auberge-restaurant.com/"
-googleMapsUrl: "https://www.google.com/maps/place/175+S+Main+St,+Zionsville,+IN+46077"
-lastVerified: "2026-05-28"
+googleMapsUrl: "https://maps.app.goo.gl/5ZjH685jm5i8qjRD7"
+lastVerified: "2026-05-31"
 galleryAlt:
 faqs:
   - q: "What kind of food does Auberge serve?"
@@ -23,12 +23,6 @@ faqs:
     a: "Yes. Weather permitting, the patio is open for breakfast, brunch, lunch, and dinner."
 ---
 
-Auberge is a French-inspired restaurant and bar located at the [Brick Street Inn](https://brickstreetinn.com/) on Main Street in Zionsville. The kitchen draws from the cuisines of France, with menus for brunch, lunch, dinner, and drinks depending on the day. The restaurant also offers an extensive wine list, local craft beers, and craft cocktails. Weather permitting, the patio is open for breakfast, brunch, lunch, and dinner.
+Auberge is a French-inspired restaurant and bar located inside the [Brick Street Inn](/businesses/brick-street-inn) on Main Street in Zionsville. The kitchen draws from the cuisines of France, with menus for brunch, lunch, dinner, and drinks depending on the day. The restaurant also offers an extensive wine list, local craft beers, and craft cocktails. Weather permitting, the patio is open for breakfast, brunch, lunch, and dinner.
 
-## Reservations
-
-Reservations are available through OpenTable. The restaurant asks for a phone call directly for parties of five or more.
-
-## Planning your visit
-
-Auberge is located at 175 S. Main Street, inside the Brick Street Inn. Hours vary by day and include closures on some days of the week — check the current hours on its [Google Maps listing](https://www.google.com/maps/place/175+S+Main+St,+Zionsville,+IN+46077) before visiting, or [make a reservation](https://www.opentable.com/r/auberge-reservations-zionsville?restref=986650) through OpenTable.
+Reservations are available through [OpenTable](https://www.opentable.com/r/auberge-reservations-zionsville). The restaurant asks for a phone call directly for parties of five or more.

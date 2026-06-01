@@ -9,8 +9,8 @@ metaDescription: "Gifted is a specialty boutique just off Main Street in downtow
 address: "12 E Cedar St, Zionsville, IN 46077"
 phone: "(317) 875-2003"
 website: "https://www.giftedshoppe.com/"
-googleMapsUrl: "https://www.google.com/maps/place/12+E+Cedar+St,+Zionsville,+IN+46077"
-lastVerified: "2026-05-29"
+googleMapsUrl: "https://maps.app.goo.gl/qkdV6cLYg6sL8CY36"
+lastVerified: "2026-05-31"
 galleryAlt:
 faqs:
   - q: "What kind of gifts does Gifted sell?"
@@ -39,6 +39,3 @@ The boutique stocks specialty items across several categories:
 
 Gifted offers **complimentary gift wrapping** in store. The shop also sells gift baskets that customers can fill with selected items, and customers may bring their own baskets to fill.
 
-## Planning your visit
-
-Gifted is at 12 E. Cedar Street, just off Main Street in downtown Zionsville. Check the current hours on its [Google Maps listing](https://www.google.com/maps/place/12+E+Cedar+St,+Zionsville,+IN+46077) before visiting.

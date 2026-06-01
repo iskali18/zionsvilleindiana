@@ -9,8 +9,8 @@ metaDescription: "Gables Bagels in downtown Zionsville serves New York–style b
 address: "270 S Main St, Zionsville, IN 46077"
 phone: "(317) 727-5048"
 website: "https://gablesbagels.com/"
-googleMapsUrl: "https://www.google.com/maps/place/270+S+Main+St,+Zionsville,+IN+46077"
-lastVerified: "2026-05-28"
+googleMapsUrl: "https://maps.app.goo.gl/nvWGWu2D1aNb38KUA"
+lastVerified: "2026-05-31"
 galleryAlt:
 faqs:
   - q: "What kind of bagels does Gables Bagels serve?"
@@ -31,8 +31,6 @@ Bagels come in several varieties, including classic flavors and specialty option
 
 The menu includes breakfast sandwiches, the Classic Bagel with Lox, lunch sandwiches, sides, grab-and-go items, and beverages. Lunch sandwiches are served on bagels, ciabatta, or NY rye. The menu also lists gluten-free take-and-bake bagels.
 
-For larger or take-home orders, Gables Bagels offers fresh-baked dozens, frozen dozens, and the **Bagel Barrel**, which includes a frozen dozen with schmears.
+The shop accepts online orders for pickup. For larger or take-home orders, Gables Bagels offers fresh-baked dozens, frozen dozens, and the **Bagel Barrel**, which includes a frozen dozen with schmears. 
 
-## Planning your visit
 
-Gables Bagels is at 270 S. Main Street in downtown Zionsville. The shop accepts online orders for pickup. Check current hours on its [Google Maps listing](https://www.google.com/maps/place/270+S+Main+St,+Zionsville,+IN+46077) before visiting.

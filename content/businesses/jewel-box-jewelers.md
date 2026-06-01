@@ -9,7 +9,8 @@ metaDescription: "Zionsville's oldest jeweler, located in the Village since 1973
 address: "100 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-5076"
 website: "https://jewelboxjewelers.net"
-lastVerified: "2026-04-16"
+googleMapsUrl: "https://maps.app.goo.gl/EdYE5N1ZrV5cL3FT6"
+lastVerified: "2026-05-31"
 ---
 
 Established in 1973, Jewel Box Jewelers is the oldest jewelry store in Zionsville. Located on the corner of Main and Oak Streets, the shop has built a long-standing reputation for professional maintenance and repair services rather than high-pressure sales. 

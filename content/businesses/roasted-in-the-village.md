@@ -9,9 +9,10 @@ metaDescription: "Enjoy specialty lattes and house-baked goods at Roasted in the
 address: "27 E Pine St, Zionsville, IN 46077"
 phone: "(317) 344-2181"
 website: "https://roastedinthevillage.com"
-lastVerified: "2026-04-16"
+googleMapsUrl: "https://maps.app.goo.gl/hbvHeoULwmRY8vQ4A"
+lastVerified: "2026-05-31"
 ---
 
-Roasted in the Village is an independent coffee house located on East Pine Street, just steps from the brick Main Street. The shop is characterized by its cozy, art-filled interior and a focus on small-batch quality. They are well-known for their specialty seasonal lattes and a rotating selection of pastries baked fresh in-house.
+Roasted in the Village is an independent coffee house located on East Pine Street, just steps from the brick Main Street. The shop has a cozy, relaxed interior and a focus on small-batch quality. They are well-known for their specialty seasonal lattes and a rotating selection of pastries baked fresh in-house.
 
-The atmosphere is distinctly community-focused, often featuring work from local artists on the walls. While seating is available indoors, the shop also maintains a small outdoor area for warmer months. Due to its popularity with locals, the space often serves as a morning gathering spot in the Village.
+The shop often features work from local artists on the walls, adding to its connection to the community. Seating is available indoors, with a small outdoor area during warmer months. Roasted is a comfortable place to sit with coffee, pastries, or a seasonal latte while spending time downtown.

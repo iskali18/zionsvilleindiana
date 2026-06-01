@@ -213,10 +213,7 @@ export default async function BusinessPage({ params }: Props) {
                 <p>
                   <strong className="text-stone-900">Address:</strong>{' '}
                   <a
-                    href={
-                      meta.googleMapsUrl ||
-                      `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(meta.address)}`
-                    }
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(meta.address)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-brick-600 hover:text-brick-700"
@@ -239,17 +236,17 @@ export default async function BusinessPage({ params }: Props) {
                 </p>
               )}
               {meta.googleMapsUrl && (
-                <p>
-                  <strong className="text-stone-900">Hours:</strong> See their{' '}
+                <p className="text-sm text-stone-600">
+                  Hours may change with seasons and holidays. Check the{' '}
                   <a
                     href={meta.googleMapsUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-brick-600 hover:text-brick-700"
                   >
-                    business page →
+                    Google Maps business page →
                   </a>{' '}
-                  on Google Maps as hours may change with seasons and holidays.
+                  before visiting.
                 </p>
               )}
             </div>

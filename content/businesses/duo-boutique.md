@@ -4,13 +4,13 @@ slug: duo-boutique
 category: shopping
 area: "downtown"
 shortDescription: "Women's clothing boutique on Main Street with everyday apparel, accessories, prom dresses, and event wear."
-seo_title: "Duo Boutique | Women's Clothing in Zionsville, IN"
+seo_title: "Duo Boutique | Women's Clothing in Zionsville, Indiana"
 metaDescription: "Duo Boutique is a women's clothing store on Main Street in downtown Zionsville, with everyday apparel, accessories, prom dresses, and event wear."
 address: "150 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-9999"
 website: "https://duo.boutique/"
-googleMapsUrl: "https://www.google.com/maps/place/150+S+Main+St,+Zionsville,+IN+46077"
-lastVerified: "2026-05-29"
+googleMapsUrl: "https://maps.app.goo.gl/QCM8Zv98cV3u4Kni8"
+lastVerified: "2026-05-31"
 galleryAlt:
 faqs:
   - q: "What does Duo Boutique sell?"
@@ -31,6 +31,3 @@ The boutique stocks women's clothing across categories:
 - **Formal and event wear** — prom dresses, cocktail dresses, and special-occasion gowns
 - **Accessories** to complete each look
 
-## Planning your visit
-
-Duo Boutique is at 150 S. Main Street in downtown Zionsville. Check the current hours on its [Google Maps listing](https://www.google.com/maps/place/150+S+Main+St,+Zionsville,+IN+46077) before visiting.
