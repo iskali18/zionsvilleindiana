@@ -1,7 +1,7 @@
 ---
 title: Zionsville 4th of July Celebration
-seoTitle: "Zionsville 4th of July Celebration"
-description: Zionsville's annual Independence Day celebration at Lions Park with food vendors, bounce houses, live entertainment, and fireworks. One of the most popular events of the year.
+seoTitle: "Zionsville 4th of July (Fourth of July) Celebration 2026"
+description: Zionsville's annual Fourth of July fireworks and Independence Day celebration at Lions Park, with food vendors, bounce houses, live entertainment, and the largest fireworks display in the event's history in 2026.
 eventType: annual
 startDate: "2026-07-04"
 location: Lions Park, Zionsville
@@ -13,8 +13,8 @@ photoCreditHeroOnly: false
 tags: [fireworks, family, annual, outdoor, summer, fourth-of-july]
 featured: true
 externalUrl: https://www.zionsvillelions.com
-metaTitle: "Zionsville 4th of July Celebration: 2026 Fireworks, Schedule & Parking"
-metaDescription: "The Zionsville 4th of July Celebration at Lions Park brings fireworks, food, music, and family activities every Independence Day. 2026: Saturday, July 4 — largest fireworks display ever at 10 PM."
+metaTitle: "Zionsville 4th of July (Fourth of July) 2026: Fireworks, Schedule & Parking"
+metaDescription: "Zionsville 4th of July Celebration 2026: Saturday, July 4 at Lions Park. Fireworks at 10 PM — the largest display in the event's history — plus food, music, and family activities."
 faqs:
   - q: "When is the Zionsville 4th of July Celebration 2026?"
     a: "Saturday, July 4, 2026 at Lions Park (11053 Sycamore St, Zionsville). Festivities begin at 5 PM and run until the fireworks finish around 10:30 PM."

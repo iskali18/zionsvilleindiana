@@ -114,3 +114,7 @@ Beyond the on-site food court, most Main Street restaurants are a short walk fro
 After the market, Main Street shops begin opening around 10 AM, making it easy to extend your visit into [downtown Zionsville](/downtown).
 
 [Visit the Brick Street Market website →](https://www.zionsvillechamber.org/brick-street-market/)
+
+## Looking for the Zionsville Farmers Market?
+
+The Brick Street Market and the [Zionsville Farmers Market](/events/farmers-market) are two different events. The Brick Street Market is a one-day annual artisan and craft market held on a Saturday in early May, featuring over 140 makers, food vendors, and live music. The Zionsville Farmers Market is a weekly Saturday market running mid-May through late September, focused on local produce, baked goods, and prepared foods.

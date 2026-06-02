@@ -1,7 +1,7 @@
 ---
 title: Zionsville Street Dance
-seoTitle: "Zionsville Street Dance"
-description: A ticketed outdoor concert and community gathering on Main Street with live music, local beverages, food trucks, and a kids' area, hosted by the Zionsville Chamber of Commerce.
+seoTitle: "Zionsville Street Dance 2026"
+description: A ticketed outdoor concert and community gathering on Main Street with live music, local beverages, food trucks, and a kids' area, hosted by the Zionsville Chamber of Commerce. 2026: Saturday, August 1.
 eventType: annual
 startDate: "2026-08-01"
 location: Main Street, Downtown Zionsville

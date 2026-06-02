@@ -1,7 +1,7 @@
 ---
 title: Summer Concert Series at Lions Park
-seoTitle: "Summer Concert Series at Lions Park"
-description: Free weekly outdoor concerts at Lions Park every Wednesday evening, June through mid-August. Hosted by the Zionsville Cultural District.
+seoTitle: "Summer Concert Series at Lions Park 2026 — Zionsville, Indiana"
+description: Free weekly outdoor Lions Park concerts every Wednesday evening, June through mid-August 2026. The Zionsville Cultural District concert series features jazz, country, rock, and bluegrass on the lawn.
 eventType: recurring
 startDate: "2026-06-03"
 endDate: "2026-08-12"

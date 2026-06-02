@@ -23,7 +23,7 @@ externalUrl: https://www.zionsvillefarmersmarket.org/
 mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=18BtWWcIsHtC8hk8HPDtkO9oTk9clVAM&ehbc=2E312F"
 mapTitle: "Zionsville Farmers Market 2026 — Parking & Restaurants"
 metaTitle: "Zionsville Farmers Market 2026: Dates, Parking & Map"
-metaDescription: "Plan your visit to the Zionsville Farmers Market, Saturdays May 16 – Sep 26. Find hours, parking lot locations, dog policy, and nearby breakfast spots."
+metaDescription: "Zionsville Farmers Market 2026: Saturdays 8-11:30 AM, May 16-Sep 26 on Main Street. Fresh produce, baked goods, live music every week."
 faqs:
   - q: "When is the Zionsville Farmers Market in 2026?"
     a: "The Zionsville Farmers Market runs every Saturday from May 16 through September 26, 2026, from 8:00 AM to 11:30 AM."
@@ -86,3 +86,7 @@ Several restaurants and coffee spots are a short walk from the market. A few way
 **Sweets** — [The Scoop](/businesses/the-scoop) is across from the market on Main Street, serving ice cream and cold treats starting at 10:00 AM on Saturdays.
 
 **Take home** — [Angelo's Italian Market](/businesses/angelos-italian-market) carries housemade pasta, sauces, and prepared foods if you want to take something home after the market.
+
+## Looking for the Brick Street Market?
+
+The Zionsville Farmers Market and the [Brick Street Market](/events/brick-street-market) are two different events. The Zionsville Farmers Market is a weekly Saturday market running mid-May through late September, focused on local produce, baked goods, and prepared foods. The Brick Street Market is a one-day annual artisan and craft market held on a Saturday in early May, featuring over 140 makers, food vendors, and live music.

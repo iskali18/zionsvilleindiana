@@ -1,7 +1,7 @@
 ---
 title: Summer Concert Series at Maplelawn Farmstead
-seoTitle: "Summer Concert Series at Maplelawn Farmstead"
-description: Free outdoor concerts at historic Maplelawn Farmstead on the final two Wednesdays of August, wrapping up the Zionsville Cultural District's 2026 summer concert season.
+seoTitle: "Summer Concert Series at Maplelawn Farmstead 2026 — Zionsville, Indiana"
+description: Free outdoor concerts at the historic Maplelawn Farmstead on the final two Wednesdays of August, wrapping up the Zionsville Cultural District's 2026 summer concert season.
 eventType: recurring
 startDate: "2026-08-19"
 endDate: "2026-08-26"
