@@ -1,7 +1,7 @@
 ---
 title: Party in the Park
 seoTitle: "Party in the Park 2026 — Zionsville, Indiana"
-description: Zionsville's free annual end-of-school-year celebration at Mulberry Fields Park, 2026: Thursday, May 28. Games, splash pad, food trucks, live DJ, the nature center, and Touch-a-Truck with Zionsville Fire and Police.
+description: "Zionsville's free annual end-of-school-year celebration at Mulberry Fields Park, 2026: Thursday, May 28. Games, splash pad, food trucks, live DJ, the nature center, and Touch-a-Truck with Zionsville Fire and Police."
 eventType: annual
 startDate: "2026-05-28"
 location: Mulberry Fields Park, Zionsville

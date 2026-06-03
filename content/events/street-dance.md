@@ -1,7 +1,7 @@
 ---
 title: Zionsville Street Dance
 seoTitle: "Zionsville Street Dance 2026"
-description: A ticketed outdoor concert and community gathering on Main Street with live music, local beverages, food trucks, and a kids' area, hosted by the Zionsville Chamber of Commerce. 2026: Saturday, August 1.
+description: "A ticketed outdoor concert and community gathering on Main Street with live music, local beverages, food trucks, and a kids' area, hosted by the Zionsville Chamber of Commerce. 2026: Saturday, August 1."
 eventType: annual
 startDate: "2026-08-01"
 location: Main Street, Downtown Zionsville
@@ -15,7 +15,7 @@ featured: true
 externalUrl: https://business.zionsvillechamber.org/calendar/Details/zionsville-street-dance-2026-1687242
 area: downtown
 metaTitle: "Zionsville Street Dance: 2026 Date, Tickets & Lineup"
-metaDescription: "The Zionsville Street Dance is an annual outdoor concert and community event on Main Street with live music, local breweries, food trucks, and a kids' area. 2026: Saturday, August 1, 6–10 PM. The Dundies headline; Pigeons of Market Square open. Ticketed."
+metaDescription: "Zionsville Street Dance 2026 - Saturday, August 1, 6–10 PM on Main Street. Outdoor concert and community event  with live music, local breweries, food trucks, and a kids' area. The Dundies headline; Pigeons of Market Square open. Ticketed."
 faqs:
   - q: "When is the Zionsville Street Dance 2026?"
     a: "The Zionsville Street Dance is Saturday, August 1, 2026, from 6:00 PM to 10:00 PM on Main Street in downtown Zionsville. Gates open at 5:00 PM."

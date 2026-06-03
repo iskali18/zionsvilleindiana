@@ -22,7 +22,7 @@ perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]
 metaTitle: "Summer Concert Series at Maplelawn Farmstead: 2026 Schedule | Zionsville"
-metaDescription: "The Zionsville Cultural District's Summer Concert Series wraps up at historic Maplelawn Farmstead on August 19 and 26, 2026 — bluegrass and a local-talent showcase, free admission."
+metaDescription: "2026 Free Summer Concert Series - Wednesdays, August 19 & 26, 7PM at Maplelawn Farmstead — bluegrass and a local-talent showcase."
 faqs:
   - q: When are the Maplelawn Farmstead concerts in 2026?
     a: The 2026 concerts at Maplelawn Farmstead are on August 19 and August 26, starting at 7:00 PM.

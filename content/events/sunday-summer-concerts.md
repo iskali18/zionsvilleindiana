@@ -16,7 +16,7 @@ perennial: false
 externalUrl: https://www.zionsvillelions.com/concerts-in-july-1
 tags: [music, free, outdoor, family, summer, bands]
 metaTitle: "Sunday Summer Band Concerts at Lions Park 2026 — Zionsville, Indiana"
-metaDescription: "Free Sunday evening band concerts at Lions Park in Zionsville. 2026 dates: July 5, 12, 19, 26, and August 2 at 7:00 PM. Featured bands include the Indianapolis Symphonic Band, Zionsville Concert Band, and more."
+metaDescription: "2026 Free band concerts - Sundays, July 5 to August 2, 7PM at Lions Park in Zionsville. Featured bands include the Indianapolis Symphonic Band, Zionsville Concert Band, and more."
 faqs:
   - q: When are the Sunday Summer Concerts at Lions Park?
     a: The 2026 Sunday Summer Concerts run on five Sundays — July 5, 12, 19, 26, and August 2 — with each concert starting at 7:00 PM at Lions Park.
