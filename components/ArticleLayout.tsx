@@ -121,7 +121,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
               src={meta.hero_image}
               alt={meta.title}
               fill
-              className="object-cover object-[center_55%] opacity-90"
+              className="object-cover object-[center_75%] opacity-90"
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />

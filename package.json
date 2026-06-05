@@ -18,8 +18,10 @@
     "rehype-stringify": "^10.0.1",
     "remark": "^15.0.0",
     "remark-gfm": "^4.0.1",
+    "remark-heading-id": "^1.0.1",
     "remark-html": "^16.0.0",
-    "remark-rehype": "^11.1.2"
+    "remark-rehype": "^11.1.2",
+    "remark-slug": "^7.0.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.0",

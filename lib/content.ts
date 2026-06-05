@@ -3,6 +3,8 @@ import path from 'path'
 import matter from 'gray-matter'
 import { remark } from 'remark'
 import remarkGfm from 'remark-gfm'
+import remarkSlug from 'remark-slug'
+import remarkHeadingId from 'remark-heading-id'
 import remarkRehype from 'remark-rehype'
 import rehypeRaw from 'rehype-raw'
 import rehypeExternalLinks from 'rehype-external-links'
@@ -26,6 +28,8 @@ function getSlugs(section: string): string[] {
 
 async function parseMarkdown(content: string): Promise<string> {
   const result = await remark()
+    .use(remarkSlug)
+    .use(remarkHeadingId)
     .use(remarkGfm)
     .use(remarkRehype, { allowDangerousHtml: true })
     .use(rehypeRaw)
