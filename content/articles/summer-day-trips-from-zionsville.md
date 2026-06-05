@@ -83,7 +83,7 @@ Before you go, check the recreation area that matches your plans. Monroe Lake do
 
 Floating down Sugar Creek means covered bridges, sandstone cliffs, and a pace set by the river. Sugar Valley Canoe Trips offers canoe, kayak, and tube rentals on Sugar Creek, with trip lengths as short as 3 miles or as long as 15 miles. Pass a covered bridge or two and enjoy the scenery near Turkey Run and Shades State Parks. River trips require more planning than a pool day, so check outfitter rules, age requirements, life jacket policies, weather, and water levels before booking.
 
-Age limits depend on rental type and current creek conditions, and restrictions can change with water levels. Children under 6 must have one adult per child at all times. Call ahead or check Sugar Valley's Facebook page for current conditions before booking.
+Age limits depend on rental type and current creek conditions, and restrictions can change with water levels. Children under 6 must have one adult per child at all times. Call ahead or check Sugar Valley's [Facebook page](https://www.facebook.com/profile.php?id=61560745216174) for current conditions before booking.
 
 ### [Kokomo Beach Family Aquatic Center](https://www.cityofkokomo.org/departments/kokomo_beach.php) (Kokomo, IN)
 
@@ -133,7 +133,7 @@ For families who want to extend the trip, two-day tickets are available, and a b
 
 - **Location:** [2304 E Main St, Danville, IN](https://maps.app.goo.gl/TkinwEJXsgwLh4Dp8)
 - **Drive:** ~45 min · 25 miles SW
-- **Best For:** Strawberry picking, country market browsing
+- **Best For:** U-pick fruit, flowers, and market browsing
 - **Age Range:** All ages
 
 Beasley’s is a third-generation family farm dating to 1946, with a market inside a Civil War-era barn. The market stocks homegrown and locally sourced produce, baked goods, honey, jams, and barbecue sauces. 
