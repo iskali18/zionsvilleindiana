@@ -13,9 +13,9 @@ ctas:
     href: /downtown
 ---
 
-Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, farm experiences, local history, casual dining, sweets, sports facilities, spas, and seasonal events.
+Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, casual dining, farm experiences, sports facilities, and more.
 
-This guide covers things to do across Zionsville, from the historic Village district to parks, trails, farms, restaurants, and areas outside Main Street.
+This guide covers things to do across Zionsville, from the historic Village district to areas outside Main Street.
 
 Hours, reservations, and public access can change, especially for farms, cultural sites, sports facilities, and seasonal programs. Check each business or organization’s website before making plans.
 
