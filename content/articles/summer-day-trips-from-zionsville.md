@@ -244,7 +244,7 @@ Admission and parking are free, but simulator rides and some special experiences
 - **Location:** [1301 Western Ave, Cincinnati, OH](https://maps.app.goo.gl/UkivDNh1MgavcVcP6)
 - **Drive:** ~2 hrs 10 mins · 126 miles SE
 - **Best For:** A destination museum that fills a full day
-- **Age Range:** Preschool through middle school
+- **Age Range:** Infants through age 10
 
 The drive to Cincinnati is a bit longer, but the Children’s Museum at Union Terminal can easily fill an entire day. The Children’s Museum is housed inside **Union Terminal**, a 1933 Art Deco landmark and National Historic Landmark that feels impressive before you even reach the exhibits. Inside, kids can climb, crawl, pretend, build, experiment, and burn energy through themed play areas designed for hands-on learning. 
 
@@ -265,7 +265,7 @@ For food, Cincinnati Museum Center has several on-site dining choices, including
 - **Location:** [308 W 4th St, Bloomington, IN](https://maps.app.goo.gl/LzRcrH7gaxrJBq648)
 - **Drive:** ~1.5 hr · 65 miles SW
 - **Best For:** Hands-on science with a downtown lunch combo
-- **Age Range:** Preschool through middle school
+- **Age Range:** Preschool through tweens
 
 WonderLab offers two floors of hands-on science displays where kids can climb, build, splash, test, and explore. Younger kids may especially enjoy the two-story Grapevine Climber, while WaterWorks lets visitors experiment with moving water, flow, and simple engineering. Many children enjoy their Rube Goldberg machine, where buttons, knobs, and cranks change the direction of colorful balls. 
 
@@ -278,7 +278,7 @@ The museum is located along the B-Line Trail, a popular, 3-mile paved multi-use 
 - **Location:** [309 Washington St, Columbus, IN](https://maps.app.goo.gl/EPVzA7u7t9U8qUu88)
 - **Drive:** ~1.5 hrs · 65 miles SE
 - **Best For:** Active kids who like to climb, build, and move
-- **Age Range:** Toddlers through middle school
+- **Age Range:** Toddlers through tweens
 
 kidscommons is a good match for children who like climbing, building, pretend play, and hands-on exhibits. The museum's **ExploraHouse** turns an ordinary house into a kid-sized science lesson, with displays that let children explore light, heat, plumbing, and everyday systems from the inside out. Its most famous feature is the **giant toilet**, where kids can climb through the tank, slide into the bowl, and see plumbing up close in a way they are not likely to forget. **Bubble-ology** turns bubbles into a full-body experiment, while other areas give children several ways to move, create, and play.
 
@@ -304,7 +304,7 @@ State parks are the answer when you want a full outdoor day instead of a single 
 - **Location:** [8121 E Park Rd, Marshall, IN](https://maps.app.goo.gl/t92aL4mS5VqW2V7F7)
 - **Drive:** ~1 hr 15 mins · 57 miles W
 - **Best For:** Active hiking and dramatic ravine scenery
-- **Age Range:** All ages; older kids for hiking canyons
+- **Age Range:** All ages; rugged ravine trails are best for kids who can handle stairs, ladders, and uneven paths
 
 Turkey Run State Park has one of Indiana’s most dramatic landscapes, with narrow sandstone ravines, forested trails, a suspension bridge over Sugar Creek, and ladders built into some of the park’s more adventurous routes. Families with younger children can still enjoy easier parts of the park, including a half-mile trail, picnic areas, playgrounds, and the nature center.
 
