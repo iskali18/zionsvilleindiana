@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { getAllEventSlugs, getAllBusinessSlugs, getAllParkSlugs } from '@/lib/content'
+import { getAllEventSlugs, getAllBusinessSlugs, getAllParkSlugs, getAllArticleSlugs } from '@/lib/content'
 
 const BASE = 'https://zionsvilleindiana.com'
 
@@ -7,10 +7,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const eventSlugs = getAllEventSlugs()
   const businessSlugs = getAllBusinessSlugs()
   const parkSlugs = getAllParkSlugs()
+  const articleSlugs = getAllArticleSlugs()
 
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
     { url: `${BASE}/events`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
+    { url: `${BASE}/articles`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/downtown`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/downtown/dining`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/downtown/shopping`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
@@ -41,5 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }))
 
-  return [...staticRoutes, ...eventRoutes, ...businessRoutes, ...parkRoutes]
+  const articleRoutes: MetadataRoute.Sitemap = articleSlugs.map((slug) => ({
+    url: `${BASE}/articles/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.7,
+  }))
+
+  return [...staticRoutes, ...eventRoutes, ...businessRoutes, ...parkRoutes, ...articleRoutes]
 }
