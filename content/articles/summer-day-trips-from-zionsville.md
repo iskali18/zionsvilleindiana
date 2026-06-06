@@ -5,6 +5,7 @@ description: "A practical guide to summer day trips from Zionsville, Indiana —
 slug: "summer-day-trips-from-zionsville"
 category: "family"
 hero_image: /images/articles/summer-day-trips-from-zionsville.webp
+hero_position: "center 75%"
 lastUpdated: "2026-06-04"
 draft: false
 faqs:

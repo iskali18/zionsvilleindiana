@@ -267,47 +267,37 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── About Zionsville ─────────────────────────────────────────── */}
-        <section className="bg-white border-b border-stone-100">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-12">
-            <div className="max-w-3xl">
-              <h2 className="font-display text-2xl text-stone-900 mb-4">
-                Welcome to Zionsville, Indiana
-              </h2>
-              <p className="text-stone-600 leading-relaxed mb-4">
-                Zionsville is a town in Boone County, Indiana, 
-                about 20 miles northwest of Indianapolis. It is best 
-                known for its historic Village district, where brick-paved 
-                Main Street is lined with locally owned shops, restaurants, 
-                and cafés.
-
-              </p>
-              <p className="text-stone-600 leading-relaxed mb-4">
-                The community is served by highly rated Zionsville Community 
-                Schools and includes parks, trails, and green spaces throughout 
-                town. Zionsville&apos;s character comes through in its historic 
-                architecture, walkable downtown, and community events — from the 
-                weekly Farmers Market in summer to the annual Fall Festival 
-                each September.
-              </p>
-              <p className="text-stone-600 leading-relaxed">
-                This guide highlights local events, downtown dining and shopping, and 
-                what&apos;s happening in Zionsville.
-              </p>
-              <div className="flex gap-4 mt-6">
-                <Link
-                  href="/about"
-                  className="text-sm text-brick-600 hover:text-brick-700 font-medium"
-                >
-                  Quick facts & resources →
-                </Link>
-                <Link
-                  href="/downtown"
-                  className="text-sm text-brick-600 hover:text-brick-700 font-medium"
-                >
-                  Explore downtown →
-                </Link>
+        {/* ── Seasonal Spotlight ───────────────────────────────────────── */}
+        <section className="bg-white">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
+            <div className="max-w-3xl bg-amber-100 rounded-lg p-5 sm:p-6">
+              <div className="flex items-center gap-2 mb-2">
+                <span aria-hidden="true">☀️</span>
+                <p className="text-xs uppercase tracking-widest text-amber-800 font-medium">
+                  SUMMER 2026
+                </p>
               </div>
+              <h2 className="font-display text-2xl text-amber-950 mb-2">
+                Planning a{' '}
+                <Link
+                  href="/articles/summer-day-trips-from-zionsville"
+                  className="hover:text-amber-800"
+                >
+                  summer day trip
+                </Link>
+                ?
+              </h2>
+              <p className="text-amber-900 leading-relaxed mb-3">
+                From farms and water parks to state parks, museums, and animal encounters, 
+                Zionsville is within easy reach of dozens of family-friendly day trip destinations — 
+                most within a two-hour drive.
+              </p>
+              <Link
+                href="/articles/summer-day-trips-from-zionsville"
+                className="text-sm text-amber-800 hover:text-amber-900 font-medium"
+              >
+                See summer day trips from Zionsville →
+              </Link>
             </div>
           </div>
         </section>
@@ -483,11 +473,11 @@ export default function HomePage() {
                   owned shops, and restaurants. But there is more to explore
                   across town, including the Big-4 Rail Trail, the Zionsville
                   Nature Center, Traders Point Creamery, Boone Village
-                  dining, and farm experiences beyond the Village.
+                  dining, and seasonal farm experiences beyond the Village.
                 </p>
                 <p className="text-stone-700 leading-relaxed mb-6">
-                  The Things to Do guide brings these together — downtown,
-                  outdoor recreation, dining outside Main Street, and more.
+                  The Things to Do guide covers downtown, outdoor recreation, dining 
+                  beyond Main Street, and other places to explore around Zionsville.
                 </p>
                 <Link
                   href="/things-to-do"
@@ -495,6 +485,14 @@ export default function HomePage() {
                 >
                   See things to do in Zionsville →
                 </Link>
+                <div className="mt-3">
+                  <Link
+                    href="/articles/summer-day-trips-from-zionsville"
+                    className="text-sm text-brick-600 hover:text-brick-700 font-medium"
+                  >
+                    Looking beyond town? See summer day trips from Zionsville →
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

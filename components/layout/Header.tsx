@@ -9,7 +9,7 @@ const nav = [
   { label: 'Things to Do', href: '/things-to-do' },
   // { label: 'Articles', href: '/articles' },
   { label: 'Businesses', href: '/businesses' },
-  { label: 'About', href: '/about' },
+  { label: 'About Zionsville', href: '/about' },
 ]
 
 export default function Header() {

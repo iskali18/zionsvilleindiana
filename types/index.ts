@@ -126,6 +126,9 @@ export interface ArticleMeta {
   description: string
   hero_image?: string
   hero_credit?: string
+  /** Vertical position for the hero image (CSS object-position value, e.g. "center 30%", "center 75%").
+   *  Defaults to "center 55%" when omitted. */
+  hero_position?: string
   lastUpdated?: string
   category?: 'discovery' | 'relocation' | 'outdoors' | 'food' | 'family'
   ctas?: Array<{ label: string; href: string }>

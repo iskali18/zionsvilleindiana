@@ -3,8 +3,9 @@ title: Things to Do in Zionsville, Indiana
 seoTitle: "Things to Do in Zionsville, Indiana"
 description: Explore things to do in Zionsville beyond Main Street, including trails, nature stops, cultural sites, farm experiences, local dining, sweets, spas, and weekend activities.
 hero_image: /images/things-to-do-hero.jpg
+hero_position: "center 55%"
 hero_credit: Photo by Town of Zionsville
-lastUpdated: "2026-05-16"
+lastUpdated: "2026-06-06"
 category: discovery
 ctas:
   - label: View upcoming events
@@ -13,11 +14,11 @@ ctas:
     href: /downtown
 ---
 
-Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, casual dining, farm experiences, sports facilities, and more.
-
-This guide covers things to do across Zionsville, from the historic Village district to areas outside Main Street.
+Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, casual dining, farm experiences, sports facilities, and more. This guide covers things to do across Zionsville, from the historic Village district to areas outside Main Street.
 
 Hours, reservations, and public access can change, especially for farms, cultural sites, sports facilities, and seasonal programs. Check each business or organization’s website before making plans.
+
+
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/articles/zionsville-things-to-do-downtown.jpg" alt="Brick buildings and the sidewalk along Main Street in downtown Zionsville, Indiana, featuring local storefronts, the Southern Fancy Boutique sign, and parked cars under an overcast sky." class="rounded-lg shadow-sm" />
@@ -152,4 +153,6 @@ Zionsville has spa and massage choices for a low-key day out or a more relaxed w
 
 ## Plan your day
 
-Before you choose a date, check the [Zionsville events calendar](/events). Many weekends bring farmers markets, concerts, festivals, holiday events, and seasonal community gatherings.
+Before you choose a date, check the [Zionsville events calendar](/events). Many weekends bring farmers markets, concerts, festivals, holiday events, and seasonal community gatherings. 
+
+For full-day summer outings outside Zionsville, see our guide to [summer day trips from Zionsville](/articles/summer-day-trips-from-zionsville).

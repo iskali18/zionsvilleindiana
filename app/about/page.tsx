@@ -202,8 +202,8 @@ export default function AboutPage() {
           </p>
           <p>
             Zionsville is located within Eagle Township in Boone County and is served
-            by Zionsville Community Schools. The town is also part of the broader
-            Indianapolis metropolitan area.
+            by Zionsville Community Schools, a highly regarded public school district.
+            The town is also part of the broader Indianapolis metropolitan area.
           </p>
         </section>
 

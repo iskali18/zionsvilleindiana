@@ -415,18 +415,31 @@ export default function DowntownPage() {
             </div>
           </div>
 
-          {/* ── CTA ──────────────────────────────────────────────────── */}
-          <div className="mt-16 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
-            <Link href="/downtown/dining" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
-              Explore dining on Main Street →
-            </Link>
-            <Link href="/downtown/shopping" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
-              Browse downtown Zionsville shops →
-            </Link>
-            <Link href="/things-to-do" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
-              Things to do around Zionsville →
-            </Link>
-          </div>
+
+
+          {/* ── Keep exploring ───────────────────────────────────── */}
+          <section className="mt-16 pt-6 border-t border-stone-200">
+            <h2 className="font-display text-2xl text-stone-900 mb-3">
+              Keep exploring
+            </h2>
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Stay close to town with parks, trails, restaurants, and family activities — or look a little farther out for summer farms, water days, museums, and state parks.
+            </p>
+            <div className="flex flex-wrap gap-6">
+              <Link
+                href="/things-to-do"
+                className="text-sm text-brick-600 hover:text-brick-700 font-medium"
+              >
+                Explore more around Zionsville →
+              </Link>
+              <Link
+                href="/articles/summer-day-trips-from-zionsville"
+                className="text-sm text-brick-600 hover:text-brick-700 font-medium"
+              >
+                Find summer day trips from Zionsville →
+              </Link>
+            </div>
+          </section>
         </div>
       </main>
       <Footer />
