@@ -95,6 +95,37 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
       }
     : null
 
+  // Park schema emitted when meta.park is present.
+  // Describes the real-world park entity that the article is about.
+  // Can coexist with Article schema (article describes the page; Park describes the subject).
+  const parkSchema = meta.park
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'Park',
+        name: meta.park.name,
+        description: meta.park.description,
+        url: `https://zionsvilleindiana.com${fullPath}`,
+        address: meta.park.address,
+        ...(meta.park.lat && meta.park.lng && {
+          geo: {
+            '@type': 'GeoCoordinates',
+            latitude: meta.park.lat,
+            longitude: meta.park.lng,
+          },
+        }),
+        ...(meta.park.amenities && meta.park.amenities.length > 0 && {
+          amenityFeature: meta.park.amenities.map((name) => ({
+            '@type': 'LocationFeatureSpecification',
+            name,
+            value: true,
+          })),
+        }),
+        ...(meta.park.freeToEnter !== undefined && {
+          isAccessibleForFree: meta.park.freeToEnter,
+        }),
+      }
+    : null
+
   return (
     <>
       <script
@@ -109,6 +140,12 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      )}
+      {parkSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(parkSchema) }}
         />
       )}
 

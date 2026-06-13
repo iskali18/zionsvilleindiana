@@ -119,6 +119,21 @@ export interface BusinessMeta {
 }
 
 // ─── Guides / Articles ──────────────────────────────────────────────────────
+
+/** Embedded park data for articles whose subject is a real-world park.
+ *  Used to emit Park schema on the article page. Field shape mirrors ParkMeta
+ *  so content can migrate to /parks/[slug] without renaming when that route ships. */
+export interface ArticleParkData {
+  name: string
+  description: string
+  address: string
+  lat: number
+  lng: number
+  amenities: string[]
+  /** When true, emits isAccessibleForFree on the Park schema. */
+  freeToEnter?: boolean
+}
+
 export interface ArticleMeta {
   slug: string
   title: string
@@ -139,6 +154,9 @@ export interface ArticleMeta {
     q: string
     a: string
   }>
+  /** Optional park data. When present, ArticleLayout emits a Park schema in addition
+   *  to the standard Article schema. Used for park-subject articles before /parks/[slug] ships. */
+  park?: ArticleParkData
 }
 
 // ─── Shared ──────────────────────────────────────────────────────────────────
@@ -147,4 +165,3 @@ export interface BreadcrumbItem {
   label: string
   href: string
 }
-

@@ -6,6 +6,7 @@ slug: "summer-day-trips-from-zionsville"
 category: "family"
 hero_image: /images/articles/summer-day-trips-from-zionsville.webp
 hero_position: "center 75%"
+hero_credit: "© ZionsvilleIndiana.com"
 lastUpdated: "2026-06-04"
 draft: false
 faqs:

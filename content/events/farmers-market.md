@@ -57,7 +57,7 @@ The Zionsville Farmers Market is a weekly Saturday market in downtown Zionsville
 
 Vendors rotate throughout the season but typically include fresh produce from local farms, baked goods, prepared foods, honey, flowers, specialty meats, and handmade goods. Live music is often part of the morning, so the market feels as much like a community gathering as a place to shop.
 
-## Market Hours, Location, and Parking
+## Zionsville Farmers Market Parking, Hours, and Location
 
 **Hours:** 8:00 AM – 11:30 AM  
 **Location:** 340 S Main St (along Main Street in the Village)  
