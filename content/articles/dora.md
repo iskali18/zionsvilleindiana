@@ -94,7 +94,7 @@ The Zionsville DORA covers much of the Village business district, including the 
 - **North:** Poplar Street, including the north side of Poplar Street between Main and Maple streets
 - **South:** South of 106th Street, including the Creekside Corporate Park area
 - **West:** Generally Second Street in the Village core
-- **East:** Generally Elm Street, including the east side of Elm Street to Sycamore
+- **East:** Generally Elm Street through the Village; south of Sycamore Street, the boundary extends farther east.
 - **Additional included area:** SullivanMunce Cultural Center, included through a carve-out between Hawthorne and Sycamore streets
 
 The DORA boundary is not a simple rectangle. The map below shows the boundary as of this writing, but for the most current official boundary, visit the [Town of Zionsville's official DORA page](https://www.zionsville-in.gov/773/DORA).

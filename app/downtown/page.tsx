@@ -225,7 +225,7 @@ export default function DowntownPage() {
 
           {/* Intro */}
           <section className="mb-12">
-            <h2 className="font-display text-3xl text-stone-900 mb-4">Explore Downtown Zionsville</h2>
+            <h2 className="font-display text-3xl text-stone-900 mb-4">Things to Do in Downtown Zionsville</h2>
             <p className="text-stone-700 leading-relaxed mb-4">
               Downtown Zionsville is built around the brick-paved Main Street that runs through the heart of the Village district. This walkable stretch is home to locally owned restaurants, cafés, boutiques, galleries, and small businesses.
             </p>
