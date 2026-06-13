@@ -138,6 +138,19 @@ The businesses below are the current designated permittees listed on the Town of
 
 Participating businesses may change over time. Before ordering, look for official DORA signage at the business or check the town’s current permittee list.
 
+## Public Restrooms in the DORA {#dora-restrooms}
+
+A public restroom for DORA visitors is located in a temporary structure on the Main and Sycamore parking lot, just south of The Friendly Tavern. The trailer provides an immediate solution to a long-standing need for public restrooms in the Village.
+
+Features include:
+
+- ADA accessibility, including a baby changing table
+- Daily hours from 7 AM to 10 PM, with extended hours during special events
+- Exterior lighting and a security camera for enhanced safety
+- Routine maintenance by the Town’s Departments of Public Works (DPW) and Parks & Recreation
+
+The Town is also planning for the future development of a civic plaza in the Village, which would include permanent public restrooms.
+
 ## Frequently Asked Questions {#dora-faq}
 
 **Can you drink on Main Street Zionsville?**  
