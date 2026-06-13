@@ -1,7 +1,7 @@
 ---
 title: "Mulberry Fields Park"
 seoTitle: "Mulberry Fields Park in Zionsville: Splash Pad, Trails & Courts"
-description: "A guide to Mulberry Fields Park in Zionsville — splash pad, pickleball courts, skate park, shelter rentals, trails, and the Maplelawn Farmstead."
+description: "Splash pad, playground, pickleball courts, skate park, shelter rentals, trails, and the Maplelawn Farmstead."
 slug: mulberry-fields-park
 hero_image: /images/parks/zionsville-mulberry-fields-park-hero.webp
 hero_position: "center 55%"
