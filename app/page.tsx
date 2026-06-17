@@ -414,7 +414,7 @@ export default function HomePage() {
                 </div>
               </Link>
               <Link
-                href="/downtown/shopping"
+                href="/articles/shopping-in-downtown-zionsville"
                 className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
               >
                 <div className="absolute inset-0">

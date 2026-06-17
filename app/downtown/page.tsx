@@ -54,7 +54,7 @@ const itineraries: Itinerary[] = [
   },
   {
     id: 'places-to-get-breakfast-in-zionsville',
-    title: 'A leisurely morning downtown',
+    title: 'A leisurely morning',
     intro:
       'A downtown morning can work best when you start with coffee or tea, browse as the shops open, and add brunch or baked goods before leaving the Village. This route is especially useful for a Saturday morning or a low-key weekday plan.',
     image: '/images/downtown/downtown-zionsville-rosies-place-sign.webp',
@@ -98,7 +98,7 @@ const itineraries: Itinerary[] = [
   },
   {
     id: 'zionsville-wine-and-italian-market',
-    title: 'A European-inspired afternoon downtown',
+    title: 'A European-inspired afternoon',
     intro:
       'This afternoon plan combines gift shopping, French patio dining, wine browsing, and Italian market items in the Village. Start at Gifted on Cedar Street for gifts, candles, or home accessories sourced from Europe and the United States. Then head to Auberge for lunch at the Brick Street Inn, browse Grapevine Cottage for wine or gifts, and stop by Angelo\u2019s Italian Market for fresh pasta, sauces, or Italian items to take home.',
     image: '/images/businesses/zionsville-gifted-1.jpg',
@@ -261,11 +261,28 @@ export default function DowntownPage() {
           {/* Itineraries */}
           <div className="mb-10">
             <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
-            <p className="text-stone-500">
+            <p className="text-stone-500 mb-4">
               Downtown Zionsville can fill a quick outing, a meal-centered plan, or
               a fuller afternoon with coffee, shopping, dining, and events. These
               sample itineraries give you a few ways to spend time in the Village.
             </p>
+            <div className="flex flex-wrap gap-2">
+              <a href="#things-to-do-in-zionsville-with-kids" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                Family time near the Village
+              </a>
+              <a href="#places-to-get-breakfast-in-zionsville" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                A leisurely morning
+              </a>
+              <a href="#zionsville-date-night-itinerary" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                An elevated evening
+              </a>
+              <a href="#zionsville-bakeries-bagels-and-treats" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                Bakeries, bagels, and take-home treats
+              </a>
+              <a href="#zionsville-wine-and-italian-market" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                A European-inspired afternoon
+              </a>
+            </div>
           </div>
 
           <div className="space-y-8">
@@ -342,7 +359,7 @@ export default function DowntownPage() {
                 </div>
               </Link>
               <Link
-                href="/downtown/shopping"
+                href="/articles/shopping-in-downtown-zionsville"
                 className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
               >
                 <div className="relative aspect-[3/2] bg-stone-200">

@@ -51,7 +51,7 @@ export default function DiningPage() {
 
         {/* ── CTA ──────────────────────────────────────────────────── */}
         <div className="mt-6 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
-          <Link href="/downtown/shopping" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
+          <Link href="/articles/shopping-in-downtown-zionsville" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
             Explore downtown shopping →
           </Link>
           <Link href="/events" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
