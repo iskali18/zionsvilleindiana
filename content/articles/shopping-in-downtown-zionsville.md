@@ -77,7 +77,6 @@ Downtown clothing shops cover everyday boutique pieces, activewear, accessories,
 
 ### Nikki Blaine Couture
 - **Address:** 99 N. First St, Suite 100
-- **Website:** [nikkiblaine.com](https://nikkiblaine.com/)
 - Nikki Blaine Couture specializes in women’s evening wear, prom looks, glam-chic pieces, and bridal designs.
 
 ### Southern Fancy Boutique
@@ -169,7 +168,7 @@ Food-and-drink shopping downtown is built around take-home treats and ingredient
 
 ### Moody's Butcher Shop
 - **Address:** 20 E. Cedar St
-- **Website:** [moodysbutchershop.com](https://moodysbutchershop.com/locations/butcher-shop-in-zionsville/)
+- **Website:** [moodysbutchershop.com](https://moodysbutchershop.com/zionsville/)
 - Moody’s Butcher Shop is a full-service butcher with cut-to-order beef, pork, poultry, seafood, charcuterie, wine, craft beer, and market items.
 
 ### My Sugar Pie
@@ -316,7 +315,6 @@ Downtown galleries and studios make art part of the shopping district, from co-o
 
 ### Laforge Art
 - **Address:** 70 S. Main St
-- **Website:** [lauralaforge.com](https://lauralaforge.com/)
 - Laforge Art showcases the vibrant mixed-media and acrylic work of Zionsville artist Laura LaForge.
 
 ### Out of the Blue Art Studio
