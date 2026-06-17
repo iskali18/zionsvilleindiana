@@ -38,7 +38,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
   // Articles hub (e.g. /articles/zionsville-coffee-shops): [Articles, Article]
   const breadcrumbItems = pathPrefix === '/articles'
     ? [
-        { label: 'Articles', href: '/articles' },
+        { label: 'Guides', href: '/articles' },
         { label: meta.title, href: fullPath },
       ]
     : [
@@ -60,7 +60,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
             {
               '@type': 'ListItem',
               position: 2,
-              name: 'Articles',
+              name: 'Guides',
               item: 'https://zionsvilleindiana.com/articles',
             },
             {

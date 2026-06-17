@@ -41,7 +41,7 @@ export default function ArticlesPage() {
 
       <Header />
       <main className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
-        <Breadcrumb items={[{ label: 'Articles', href: '/articles' }]} />
+        <Breadcrumb items={[{ label: 'Guides', href: '/articles' }]} />
 
         <div className="mt-6 mb-4">
           <h1 className="font-display text-4xl text-stone-900">Articles &amp; Guides</h1>

@@ -8,7 +8,6 @@ const nav = [
   { label: 'Downtown', href: '/downtown' },
   { label: 'Things to Do', href: '/things-to-do' },
   { label: 'Guides', href: '/articles' },
-  { label: 'Businesses', href: '/businesses' },
   { label: 'About Zionsville', href: '/about' },
 ]
 
