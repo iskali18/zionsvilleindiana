@@ -25,7 +25,7 @@ faqs:
   - q: "Is admission free?"
     a: "Yes, the event is free to attend. On-site parking is $8.00 per vehicle (cash only). Off-site parking and street parking are free."
   - q: "Where should I park for the Zionsville 4th of July?"
-    a: "On-site parking at Lions Park opens at 4 PM ($8.00 per vehicle, cash only). Overflow paid parking is available on the vacant lot at the southwest corner of Main Street and Sycamore Rd. Free public lots are at the northwest corner of Main Street and Sycamore Rd. and the southwest corner of Main Street and Pine Street, plus surrounding streets. Spots near the park fill quickly."
+    a: "On-site parking at Lions Park opens at 4 PM ($8.00 per vehicle, cash only). Overflow paid parking is available on the vacant lot at the southwest corner of Main Street and Sycamore Street. Free public lots are at the northwest corner of Main Street and Sycamore Street and the southwest corner of Main Street and Pine Street, plus surrounding streets. Spots near the park fill quickly."
   - q: "What should I bring?"
     a: "Lawn chairs or blankets for seating, water, and bug spray. Prime viewing spots on the park's ball fields fill up hours before the 10 PM fireworks. Many attendees walk several blocks with chairs and wagons rather than parking on-site."
   - q: "Who hosts the Zionsville 4th of July Celebration?"
@@ -58,9 +58,9 @@ The celebration runs from late afternoon through the fireworks finale:
 **Parking:**  
 This is one of the most heavily attended events of the year. Many residents and visitors walk several blocks with lawn chairs, blankets, or wagons rather than driving close to the park.
 
-On-site parking at Lions Park is $8.00 per vehicle (cash only) and supports park maintenance — the lot opens at 4 PM. Overflow paid parking is available on the vacant lot at the southwest corner of Main Street and Sycamore Rd ($8.00 cash).
+On-site parking at Lions Park is $8.00 per vehicle (cash only) and supports park maintenance — the lot opens at 4 PM. Overflow paid parking is available on the vacant lot at the southwest corner of Main Street and Sycamore Street ($8.00 cash).
 
-Free public lots are located at the northwest corner of Main Street and Sycamore Rd. (south of The Friendly Tavern), with access from both Main Street and First Street, and at the southwest corner of Main Street and Pine Street. Additional free parking is available along nearby streets and in public lots throughout the Village.
+Free public lots are located at the northwest corner of Main Street and Sycamore Street. (south of The Friendly Tavern), with access from both Main Street and First Street, and at the southwest corner of Main Street and Pine Street. Additional free parking is available along nearby streets and in public lots throughout the Village.
 
 ## Hosts
 

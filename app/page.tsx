@@ -296,7 +296,7 @@ export default function HomePage() {
                 href="/articles/summer-day-trips-from-zionsville"
                 className="text-sm text-amber-800 hover:text-amber-900 font-medium"
               >
-                See summer day trips from Zionsville →
+                See summer day trip ideas for families →
               </Link>
             </div>
           </div>

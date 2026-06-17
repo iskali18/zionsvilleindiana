@@ -1,12 +1,12 @@
 ---
-title: "Summer Day Trips from Zionsville: Ideas for Families"
+title: "Summer Day Trips: Ideas for Families"
 seoTitle: "Summer Day Trips from Zionsville, Indiana — Ideas for Families"
 description: "Water days, farms, interactive museums, zoos, animal sanctuaries, and state parks within reasonable driving distance for families."
 slug: "summer-day-trips-from-zionsville"
 category: "family"
-hero_image: /images/articles/summer-day-trips-from-zionsville.webp
-hero_position: "center 75%"
-hero_credit: "© ZionsvilleIndiana.com"
+hero_image: /images/articles/summer-day-trips-from-zionsville-hero.webp
+hero_position: "center 55%"
+hero_credit: ""
 lastUpdated: "2026-06-04"
 draft: false
 faqs:

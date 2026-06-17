@@ -1,5 +1,5 @@
 ---
-title: Downtown Zionsville DORA Guide
+title: Downtown DORA Guide
 seoTitle: "Downtown Zionsville DORA Rules, Hours & Boundaries"
 description: Designated Outdoor Refreshment Area (DORA) - hours, rules, beverage size limits, district boundaries, and participating establishments in downtown Zionsville.
 hero_image: /images/zionsville-dora.webp

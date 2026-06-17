@@ -1,5 +1,5 @@
 ---
-title: Things to Do in Zionsville, Indiana
+title: Things to Do in Zionsville
 seoTitle: "Things to Do in Zionsville, Indiana"
 description: Things to do beyond Main Street, including trails, nature stops, cultural sites, farm experiences, local dining, sweets, spas, and weekend activities.
 hero_image: /images/things-to-do-hero.jpg
