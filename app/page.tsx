@@ -471,7 +471,7 @@ export default function HomePage() {
                   A visit to Zionsville often starts in the historic Village
                   district downtown, with its brick-paved Main Street, locally
                   owned shops, and restaurants. But there is more to explore
-                  across town, including the Big-4 Rail Trail, the Zionsville
+                  across town, including the Rail Trail, the Zionsville
                   Nature Center, Traders Point Creamery, Boone Village
                   dining, and seasonal farm experiences beyond the Village.
                 </p>

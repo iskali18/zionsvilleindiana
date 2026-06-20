@@ -29,7 +29,7 @@ faqs:
     a: "The splash pad typically runs from Memorial Day weekend through Labor Day. The park is open dawn to dusk. For questions, contact the Zionsville Parks Department at 317-733-2273."
   - q: "How do I arrange a Mulberry Fields shelter rental for an event?"
     a: "Shelter rentals are booked through the Mulberry Fields reservation page. The park has four shelters, and fees depend on residency status, date, and whether you're booking a half-day or full-day slot."
-  - q: "Is Mulberry Fields connected to the Big-4 Rail Trail?"
+  - q: "Is Mulberry Fields connected to the Rail Trail?"
     a: "Not directly from within the park grounds. Accessing the Rail Trail requires exiting the park and crossing Whitestown Road. However, because it sits just across the street, the park remains a convenient stop for trail users to take a break, use the restrooms, or access the playground."
   - q: "Are the pickleball courts reservable?"
     a: "The four pickleball courts are open to the public daily until 11:00 PM. Private individuals cannot reserve a court and must use the shared paddle system at the gate. Only registered businesses, nonprofits, and leagues can formalize reservations through the town."
@@ -57,9 +57,9 @@ figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
 </-->
 
 <figure>
-  <img src="/images/parks/zionsville-mulberry-fields-park-map.webp" alt="Aerial satellite map of Mulberry Fields Park in Zionsville, Indiana, with text labels highlighting the locations of various park features. From left to right, labels indicate Maplelawn Farmstead, the sledding hill and overlook, a large central lawn, four pickleball courts, picnic shelters A through D, the playground, and the splash pad. The upper right section marks the basketball court, skate park, and the parking lot areas. At the top right, a label indicates the Big-4 Rail Trail access across the main road near the roundabout. A compass rose sits in the bottom right corner." class="rounded-lg shadow-sm" />
+  <img src="/images/parks/zionsville-mulberry-fields-park-map.webp" alt="Aerial satellite map of Mulberry Fields Park in Zionsville, Indiana, with text labels highlighting the locations of various park features. From left to right, labels indicate Maplelawn Farmstead, the sledding hill and overlook, a large central lawn, four pickleball courts, picnic shelters A through D, the playground, and the splash pad. The upper right section marks the basketball court, skate park, and the parking lot areas. At the top right, a label indicates the Rail Trail access across the main road near the roundabout. A compass rose sits in the bottom right corner." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    An aerial layout of Mulberry Fields Park, showing the recreational amenities, picnic shelters, and Big-4 Rail Trail access across Whitestown Road. Not pictured is the newer concession building with public restrooms, located near Shelter A.<br />
+    An aerial layout of Mulberry Fields Park, showing the recreational amenities, picnic shelters, and Rail Trail access across Whitestown Road. Not pictured is the newer concession building with public restrooms, located near Shelter A.<br />
     <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
   </figcaption>
 </figure>
@@ -136,9 +136,9 @@ The largest section is the climbing area, which spans several connected pieces: 
 ## Trails & Big-4 Rail Trail Access
 
 <figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
-  <img src="/images/parks/zionsville-mulberry-fields-park-big-4-rail-trail.webp" alt="Two cyclists riding on the paved Big-4 Rail Trail near the perimeter of Mulberry Fields Park in Zionsville." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+  <img src="/images/parks/zionsville-mulberry-fields-park-rail-trail.webp" alt="Two cyclists riding on the paved Rail Trail near the perimeter of Mulberry Fields Park in Zionsville." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
   <figcaption style="font-size: 0.75rem; color: #78716c; font-style: italic; margin-top: 0.5rem;">
-    Paved trail users can transition from the Mulberry Fields loop to the main Big-4 Rail Trail by crossing Whitestown Road.<br />
+    Paved trail users can transition from the Mulberry Fields loop to the main Rail Trail by crossing Whitestown Road.<br />
     <span style="font-style: normal;">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
@@ -146,7 +146,7 @@ The largest section is the climbing area, which spans several connected pieces: 
 
 The park contains more than 2.5 miles of paved paths and sidewalks that loop around the sports fields, open lawns, and wooded areas. These paths make it easy to walk between the different amenities, and they're also a common route for longer walks or runs around the park. The path that climbs the sledding hill adds a steady incline for anyone looking to work elevation into a workout.
 
-While official maps note the park's proximity to the Big-4 Rail Trail, there is no direct trail connection inside the park grounds. To access the Rail Trail, visitors must exit the park entrance and cross Whitestown Road. Even with the crossing, the park remains a common rest stop for walkers and cyclists who want to take a break, use the restrooms, or let kids use the playground.
+While official maps note the park's proximity to the Rail Trail, there is no direct trail connection inside the park grounds. To access the Rail Trail, visitors must exit the park entrance and cross Whitestown Road. Even with the crossing, the park remains a common rest stop for walkers and cyclists who want to take a break, use the restrooms, or let kids use the playground.
 
 ---
 
@@ -249,7 +249,7 @@ The splash pad typically runs from Memorial Day weekend through Labor Day. The p
 **How do I arrange a Mulberry Fields shelter rental for an event?**
 Shelter rentals are booked through the [Mulberry Fields reservation page](https://zionsvillein.myrec.com/info/facilities/details.aspx?FacilityID=14709). The park has four shelters, and fees depend on residency status, date, and whether you're booking a half-day or full-day slot.
 
-**Is Mulberry Fields connected to the Big-4 Rail Trail?**
+**Is Mulberry Fields connected to the Rail Trail?**
 Not directly from within the park grounds. Accessing the Rail Trail requires exiting the park and crossing Whitestown Road. However, because it sits just across the street, the park remains a convenient stop for trail users to take a break, use the restrooms, or access the playground.
 
 **Are the pickleball courts reservable?**

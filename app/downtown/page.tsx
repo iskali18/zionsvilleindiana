@@ -251,7 +251,7 @@ export default function DowntownPage() {
           <section className="mb-16">
             <h2 className="font-display text-2xl text-stone-900 mb-4">Looking beyond Main Street?</h2>
             <p className="text-stone-700 leading-relaxed mb-4">
-              Downtown is the best starting point for a Zionsville visit, but there is more to explore around town — including the Big-4 Rail Trail, Zionsville Nature Center, SullivanMunce Cultural Center, Traders Point Creamery, Boone Village, and other dining areas outside the Village.
+              Downtown is the best starting point for a Zionsville visit, but there is more to explore around town — including the Rail Trail, Zionsville Nature Center, SullivanMunce Cultural Center, Traders Point Creamery, Boone Village, and other dining areas outside the Village.
             </p>
             <Link href="/things-to-do" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
               See things to do around Zionsville →

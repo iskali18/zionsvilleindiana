@@ -46,7 +46,7 @@ Downtown is especially helpful for:
 ## Get outside on the Big-4 Rail Trail and in local parks
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/articles/zionsville-things-to-do-big-4-rail-trail.jpg" alt="A straight, paved section of the Big-4 Rail Trail in Zionsville, Indiana, lined with mature green trees forming a lush canopy over the path on a sunny day." class="rounded-lg shadow-sm" />
+  <img src="/images/articles/zionsville-things-to-do-rail-trail.jpg" alt="A straight, paved section of the Big-4 Rail Trail in Zionsville, Indiana, lined with mature green trees forming a lush canopy over the path on a sunny day." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Paved Big-4 Rail Trail through a wooded section of Zionsville
   </figcaption>

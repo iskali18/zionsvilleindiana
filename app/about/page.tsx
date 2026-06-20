@@ -197,7 +197,7 @@ export default function AboutPage() {
             The town&apos;s character shows up in its historic architecture, local businesses,
             parks, trails, and community calendar. Annual and seasonal events include
             the Farmers Market, Fall Festival, and Christmas in the Village. Outdoor
-            areas such as the Big-4 Rail Trail, Lions Park, and local nature preserves
+            areas such as the Rail Trail, Lions Park, and local nature preserves
             add recreation space throughout the year.
           </p>
           <p>

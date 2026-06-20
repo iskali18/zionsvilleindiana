@@ -39,6 +39,50 @@
       prose-a:text-brick-600 prose-a:no-underline hover:prose-a:underline;
   }
 
+  /* H3 left border accent — 3px brick line on the left side of each H3 in articles */
+  .prose-village h3 {
+    padding-left: 0.75rem;
+    border-left: 3px solid rgb(220 38 38); /* brick-600 */
+  }
+
+  /* Eyebrow paragraph (small uppercase label above H2) — when immediately followed by H2,
+     tighten the gap so the eyebrow and H2 read as a unit. */
+  .prose-village p.eyebrow {
+    margin-top: 3rem;
+    margin-bottom: 0.25rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: rgb(220 38 38); /* brick-600 */
+    font-weight: 500;
+  }
+
+  .prose-village p.eyebrow + h2 {
+    margin-top: 0;
+  }
+
+  /* Tighten the gap between figure images and their captions */
+  .prose-village figure {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .prose-village figure img {
+    margin-bottom: 0;
+  }
+
+  .prose-village figcaption {
+    margin-top: 0.5rem;
+  }
+
+  /* Gallery figures inside a flex container — remove vertical margins so the
+     flex gap controls spacing instead. */
+  .prose-village .flex figure,
+  .prose-village .grid figure {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .prose-village table {
     border-collapse: collapse;
     margin: 1.5rem 0;
