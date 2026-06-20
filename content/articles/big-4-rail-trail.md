@@ -27,7 +27,6 @@ The Zionsville section is about 5 miles long, with a wide paved surface for walk
 * **Connected Zionsville-to-Whitestown route:** Nearly 9 miles
 * **Surface:** 12-ft-wide paved asphalt
 * **Uses:** Walking, running, biking, strollers, mobility devices, leashed dogs, and Class 1 or Class 2 e-bikes
-* **E-bikes:** Class 1 and Class 2 e-bikes are allowed on Zionsville trails
 * **Not allowed:** Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, gasoline-powered vehicles, and other prohibited motorized vehicles
 
 <figure class="float-none sm:float-right max-w-full sm:max-w-[267px] mx-auto sm:ml-6 sm:mb-4 my-4">
