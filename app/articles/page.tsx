@@ -9,7 +9,7 @@ import { getAllArticles } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Articles & Guides — Zionsville, Indiana',
   description:
-    'In-depth guides and articles about Zionsville, Indiana — covering coffee shops, dining roundups, neighborhood profiles, schools, and outdoor spots.',
+    'In-depth guides and articles about Zionsville, Indiana — covering the parks and trails, downtown Zionsville, things to do, and more.',
   alternates: { canonical: 'https://zionsvilleindiana.com/articles' },
 }
 
@@ -49,8 +49,7 @@ export default function ArticlesPage() {
 
         <div className="max-w-3xl mb-10">
           <p className="text-stone-600 leading-relaxed">
-            In-depth guides and roundups about Zionsville, Indiana — from coffee shop reviews
-            to neighborhood profiles, schools, and outdoor spots. Browse the full collection below.
+            In-depth guides and articles about Zionsville, Indiana — covering the parks and trails, downtown Zionsville, things to do, and more.
           </p>
         </div>
 

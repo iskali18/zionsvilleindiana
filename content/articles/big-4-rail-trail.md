@@ -17,7 +17,7 @@ ctas:
 
 ## Big-4 Rail Trail
 
-The Big-4 Rail Trail is Zionsville’s main paved trail corridor, beginning at the Zionsville Road trailhead on the southeast side of town and continuing northwest to the Whitestown border. Along the way, it links trailheads, parks, neighborhoods, Village-area access points, and several rest areas.
+The Big-4 Rail Trail is Zionsville’s main paved trail corridor, beginning at the Zionsville Road trailhead on the southeast side of town and continuing northwest to the Whitestown border. Along the way, it links parks, neighborhoods, a Village-area access point, and several rest areas.
 
 The Zionsville section is about 5 miles long, with a wide paved surface for walking, running, biking, strollers, mobility devices, and leashed dogs. The trail also continues into Whitestown, creating a nearly 9-mile paved route for longer walks and rides.
 
@@ -406,6 +406,12 @@ After leaving the park, the path has limited shade and wider views, with farm fi
 
 At 750 E, the Zionsville portion ends at a signed road crossing beside open farmland. Across the road, the Big-4 Rail Trail continues into Whitestown, heading north before turning northeast toward Main Street in Downtown Whitestown. Main Street is about 1.5 miles beyond 750 E, with a crossing at Albert S. White Drive along the way.
 
+At 750 E, the Zionsville portion ends at a signed road crossing beside open farmland. Across the road, the Big-4 Rail Trail continues into Whitestown, heading north before turning northeast toward Main Street in Downtown Whitestown. Main Street is about 1.5 miles beyond 750 E, with a crossing at Albert S. White Drive along the way. 
+
+The Whitestown trail continues beyond downtown to 500 E; together, the Zionsville and Whitestown sections make up [nearly 9 miles](https://storymaps.arcgis.com/stories/2e63587c2eef4729bfbe85cae288bd89) of paved trail.
+
+
+
 ### Section 5 at a Glance
 
 | Detail                  | Information                                                                                                                    |
@@ -419,7 +425,11 @@ At 750 E, the Zionsville portion ends at a signed road crossing beside open farm
 | Bike repair station     | No                                                                                                                             |
 | Shade                   | Limited                                                                                                                        |
 | Trail character         | Open edge-of-town stretch with farm fields and utility infrastructure nearby                                                   |
-| Whitestown continuation | Main Street in Downtown Whitestown is about 1.5 miles beyond 750 E and includes a crossing at Albert S. White Drive, which can be busy at times |
+| Whitestown continuation | Main Street in Downtown Whitestown is about 1.5 miles beyond 750 E; the trail continues beyond downtown to 500 E |
 | Key points              | Heritage Trail Park; open corridor; 750 E endpoint                                                                             |
 
-From creek bridges and wooded stretches to park access points and the open stretch near Whitestown, the Big-4 Rail Trail gives Zionsville a connected route for short walks, family bike rides, longer runs, and rides into Whitestown. Use the section tables to choose parking, check restrooms and water, and plan a turnaround before heading out.
+## Before you head out
+
+The Big-4 Rail Trail follows a continuous paved path from the Zionsville Road Trailhead past Town Hall, Mulberry Fields, and Heritage Trail Park. Along the way, the scenery shifts from creek crossings and wooded stretches to park access points, neighborhood edges, and open farmland near 750 E. Use the section tables to pick a starting point, check restroom and water access, and decide where to turn around — or continue into Whitestown.
+
+
