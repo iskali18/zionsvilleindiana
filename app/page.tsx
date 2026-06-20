@@ -6,7 +6,7 @@ import Footer from '@/components/layout/Footer'
 import { getFeaturedEvents } from '@/lib/content'
 
 export const metadata: Metadata = {
-  title: 'Zionsville, Indiana — Events, Downtown & Community Guide',
+  title: 'Zionsville Indiana — Events, Downtown & Community Guide',
   description:
     'Your guide to the Town of Zionsville, Indiana (Boone County, 46077). Find upcoming events, explore downtown dining and shopping, and learn about parks, trails, and community life.',
   alternates: { canonical: 'https://zionsvilleindiana.com' },
