@@ -395,7 +395,7 @@ export default function HomePage() {
             </div>
             <div className="grid sm:grid-cols-2 gap-5 mb-6">
               <Link
-                href="/downtown/dining"
+                href="/articles/dining-in-downtown-zionsville"
                 className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
               >
                 <div className="absolute inset-0">

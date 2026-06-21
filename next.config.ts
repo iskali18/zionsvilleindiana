@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/downtown/dining',
+        destination: '/articles/dining-in-downtown-zionsville',
+        permanent: true,
+      },
+      {
         source: '/articles/things-to-do',
         destination: '/things-to-do',
         permanent: true,

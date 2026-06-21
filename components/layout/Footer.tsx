@@ -12,7 +12,7 @@ const columns = [
   {
     heading: 'Downtown',
     links: [
-      { label: 'Dining', href: '/downtown/dining' },
+      { label: 'Dining', href: '/articles/dining-in-downtown-zionsville' },
       { label: 'Shopping', href: '/articles/shopping-in-downtown-zionsville' },
       { label: 'Parking', href: '/downtown#parking' },
     ],

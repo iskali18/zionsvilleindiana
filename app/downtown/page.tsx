@@ -342,7 +342,7 @@ export default function DowntownPage() {
             </p>
             <div className="grid sm:grid-cols-2 gap-6">
               <Link
-                href="/downtown/dining"
+                href="/articles/dining-in-downtown-zionsville"
                 className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
               >
                 <div className="relative aspect-[3/2] bg-stone-200">
