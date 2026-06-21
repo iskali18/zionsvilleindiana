@@ -223,41 +223,6 @@ export default function DowntownPage() {
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
 
-          {/* Intro */}
-          <section className="mb-12">
-            <h2 className="font-display text-3xl text-stone-900 mb-4">Things to Do in Downtown Zionsville</h2>
-            <p className="text-stone-700 leading-relaxed mb-4">
-              Downtown Zionsville is built around the brick-paved Main Street that runs through the heart of the Village district. This walkable stretch is home to locally owned restaurants, cafés, boutiques, galleries, and small businesses.
-            </p>
-            <p className="text-stone-700 leading-relaxed">
-              A downtown visit can be a quick stop or a full afternoon. Come for a meal, browse the shops, meet a friend for coffee, or plan around one of the seasonal events that bring people to Main Street throughout the year.
-            </p>
-          </section>
-
-          {/* What you'll find */}
-          <section className="mb-12">
-            <h2 className="font-display text-2xl text-stone-900 mb-4">What you'll find downtown</h2>
-            <ul className="space-y-2 text-stone-700 mb-6">
-              <li className="flex gap-2"><span className="text-brick-600">•</span> Local restaurants, cafés, bakeries, and dessert shops</li>
-              <li className="flex gap-2"><span className="text-brick-600">•</span> Boutiques, gift shops, galleries, and home décor businesses</li>
-              <li className="flex gap-2"><span className="text-brick-600">•</span> The brick-lined Main Street, historic buildings, and walkable side streets</li>
-              <li className="flex gap-2"><span className="text-brick-600">•</span> Seasonal events, markets, and parades throughout the year</li>
-              <li className="flex gap-2"><span className="text-brick-600">•</span> Nearby outdoor areas including Lions Park and Creekside Nature Park</li>
-            </ul>
-            <ContainedImage src="/images/downtown/downtown-zionsville-sidewalk.webp" alt="Downtown Zionsville, Indiana" />
-          </section>
-
-          {/* Looking beyond Main Street */}
-          <section className="mb-16">
-            <h2 className="font-display text-2xl text-stone-900 mb-4">Looking beyond Main Street?</h2>
-            <p className="text-stone-700 leading-relaxed mb-4">
-              Downtown is the best starting point for a Zionsville visit, but there is more to explore around town — including the Rail Trail, Zionsville Nature Center, SullivanMunce Cultural Center, Traders Point Creamery, Boone Village, and other dining areas outside the Village.
-            </p>
-            <Link href="/things-to-do" className="text-sm text-brick-600 hover:text-brick-700 font-medium">
-              See things to do around Zionsville →
-            </Link>
-          </section>
-
           {/* Itineraries */}
           <div className="mb-10">
             <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
@@ -431,8 +396,6 @@ export default function DowntownPage() {
               </p>
             </div>
           </div>
-
-
 
           {/* ── Keep exploring ───────────────────────────────────── */}
           <section className="mt-16 pt-6 border-t border-stone-200">
