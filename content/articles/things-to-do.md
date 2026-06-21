@@ -12,13 +12,36 @@ ctas:
     href: /events
   - label: Visit downtown Zionsville
     href: /downtown
+faqs:
+  - q: "What is there to do in Zionsville, Indiana?"
+    a: "Zionsville offers a mix of downtown shopping and dining along brick-paved Main Street, outdoor activities on the Big-4 Rail Trail and in local parks, farm visits, cultural sites like the SullivanMunce Cultural Center, and casual dining and coffee shops in areas outside the Village."
+  - q: "What are family-friendly things to do in Zionsville?"
+    a: "Families can visit Mulberry Fields Park for the splash pad and playground, walk or bike the Big-4 Rail Trail, explore the Zionsville Nature Center, attend seasonal events like the Farmers Market and Fall Festival, or stop for ice cream and coffee in the Village."
+  - q: "Are there things to do in Zionsville besides Main Street?"
+    a: "Yes. Outside the Village, you can explore the Big-4 Rail Trail, visit Mulberry Fields Park, Lions Park, or Creekside Nature Park, tour Traders Point Creamery or WonderTree Farm, or find dining options along Michigan Road, US-421, and the Boone Village area."
+  - q: "Is Zionsville a good day-trip destination?"
+    a: "Zionsville works well as a day trip from Indianapolis and surrounding communities. The walkable downtown, paved Rail Trail, parks, farms, and seasonal events offer enough to fill a half-day or full-day visit."
+  - q: "What outdoor activities are available in Zionsville?"
+    a: "Zionsville has the paved Big-4 Rail Trail for walking and biking, several parks including Lions Park, Creekside Nature Park, Zion Nature Sanctuary, and Mulberry Fields Park, plus disc golf and mountain biking at Overley-Worman Park, and the Zionsville Golf Course."
 ---
 
 Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, casual dining, farm experiences, sports facilities, and more. This guide covers things to do across Zionsville, from the historic Village district to areas outside Main Street.
 
 Hours, reservations, and public access can change, especially for farms, cultural sites, sports facilities, and seasonal programs. Check each business or organization’s website before making plans.
 
+## Browse by area and interest
 
+<div class="jump-pills">
+  <a href="#start-downtown-in-the-village">Downtown</a>
+  <a href="#get-outside-on-the-big-4-rail-trail-and-in-local-parks">Trails & parks</a>
+  <a href="#eat-and-explore-outside-the-village">Eat outside the Village</a>
+  <a href="#find-coffee-sweets-and-local-treats">Coffee & sweets</a>
+  <a href="#visit-farms-and-rural-zionsville-destinations">Farms & rural</a>
+  <a href="#explore-local-history-and-community-programs">History & community</a>
+  <a href="#sports-and-outdoor-recreation">Sports</a>
+  <a href="#spas-and-self-care">Spas</a>
+  <a href="#browse-vintage-finds-and-local-shops">Vintage & shops</a>
+</div>
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/articles/zionsville-things-to-do-downtown.jpg" alt="Brick buildings and the sidewalk along Main Street in downtown Zionsville, Indiana, featuring local storefronts, the Southern Fancy Boutique sign, and parked cars under an overcast sky." class="rounded-lg shadow-sm" />
@@ -39,7 +62,7 @@ Downtown is especially helpful for:
 - Browsing locally owned shops and galleries
 - Seasonal events, markets, parades, and holiday gatherings
 
-[See the full Downtown Zionsville guide](/downtown)
+[See the full Downtown Zionsville guide](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [dining](/articles/dining-in-downtown-zionsville) guides.
 
 <div class="clear-both"></div>
 
@@ -54,7 +77,7 @@ Downtown is especially helpful for:
 
 For time outdoors, start with the Big-4 Rail Trail, then add one of Zionsville’s parks or nature areas nearby.
 
-The **[Big-4 Rail Trail](https://www.zionsville-in.gov/701/Big-4-Rail-Trail)** is a paved trail that runs through Zionsville and connects to nearby Boone County communities. It is used for walking, biking, jogging, and stroller walks, making it easy to add fresh air to a day in town. The trail can also shape a longer plan: start with a walk or bike ride, then head toward coffee, lunch, Main Street, or one of the nearby parks.
+The **[Big-4 Rail Trail](/articles/big-4-rail-trail)** is a paved trail that runs through Zionsville and connects to nearby Boone County communities. It is used for walking, biking, jogging, and stroller walks, making it easy to add fresh air to a day in town. The trail can also shape a longer plan: start with a walk or bike ride, then head toward coffee, lunch, Main Street, or one of the nearby parks.
 
 The **[Zionsville Nature Center](https://www.zionsville-in.gov/270/Zionsville-Nature-Center)** is designed for families, nature lovers, and anyone interested in local wildlife and habitats. It offers nature exhibits, educational programming, and a closer look at Zionsville’s parks and natural areas.
 
@@ -63,6 +86,8 @@ The **[Zionsville Nature Center](https://www.zionsville-in.gov/270/Zionsville-Na
 **[Lions Park](https://www.zionsville-in.gov/710/Lions-Park)** is one of the town’s main community gathering spaces. It features playground areas, open green space, sports fields, and major community events, including the Zionsville Fall Festival. A paved trail around the park’s perimeter connects to neighboring Creekside Nature Park.
 
 **[Creekside Nature Park](https://www.zionsville-in.gov/703/Creekside-Nature-Park)** is a quieter outdoor area close to the Village, with a 0.6-mile loop trail and views of Eagle Creek through the trees.
+
+**[Mulberry Fields Park](/articles/mulberry-fields-park)** is a 38-acre community park with a splash pad, playground, pickleball courts, skate park, paved trails, sledding hill, and the historic Maplelawn Farmstead.
 
 ## Eat and explore outside the Village
 

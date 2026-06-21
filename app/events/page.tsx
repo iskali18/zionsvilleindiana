@@ -8,7 +8,7 @@ import { getFeaturedEvents, getAllEvents } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
 
 export const metadata: Metadata = {
-  title: 'Zionsville Indiana Events 2026 — Community Calendar',
+  title: 'Zionsville Indiana Events 2026 Calendar',
   description:
     'Find upcoming events in Zionsville, Indiana for 2026 — the Farmers Market, Fall Festival, Brick Street Market, community gatherings, and more.',
   alternates: { canonical: 'https://zionsvilleindiana.com/events' },

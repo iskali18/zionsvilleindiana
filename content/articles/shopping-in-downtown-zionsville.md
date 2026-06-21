@@ -336,4 +336,6 @@ For parking locations, public lots, and street parking near the shops, see the [
 
 ---
 
-For more on downtown Zionsville, see the [full downtown guide](/downtown) — including dining, coffee, and seasonal events along Main Street.
+For more on downtown Zionsville, see the full [**Downtown Guide**](/downtown) — including dining, coffee, and seasonal events along Main Street. 
+
+For activities beyond the Village, see our guide to [**Things to Do in Zionsville**](/things-to-do).

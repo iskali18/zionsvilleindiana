@@ -93,6 +93,8 @@ The main entrance leads into a large parking lot within a short walk of the play
 
 ---
 
+## The Splash Pad
+
 <figure>
   <img src="/images/parks/zionsville-mulberry-fields-park-splash-pad.webp" alt="A child playing under the colorful spraying water arches and caterpillar feature at the Mulberry Fields splash pad in Zionsville." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
@@ -100,10 +102,6 @@ The main entrance leads into a large parking lot within a short walk of the play
     <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
-
-
-
-## The Splash Pad
 
 For those visiting during the summer, the splash pad is a popular feature for families with younger children — well suited for toddlers through elementary age. The pad has a mix of ground-level jets, tall spray poles, and a large caterpillar arch that kids run through. There is also an overhead pour feature on one end. Next to the main pad, there is a shallow rocky creek where children can wade and explore the stones at a slower pace.
 
@@ -187,6 +185,8 @@ Shelters are reserved through the [Mulberry Fields reservation page](https://zio
 
 ---
 
+## The Sledding Hill
+
 <figure>
   <img src="/images/parks/zionsville-mulberry-fields-park-sledding-hill.webp" alt="Families climbing and sledding down the snow-covered public sledding hill at Mulberry Fields Park in Zionsville during winter." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
@@ -195,11 +195,11 @@ Shelters are reserved through the [Mulberry Fields reservation page](https://zio
   </figcaption>
 </figure>
 
-## The Sledding Hill
-
 The large hill on the property is a defining feature of the park landscape. In the spring and summer, it offers an open view across the fields and serves as a quiet spot to sit. Once there is enough snow in the winter, it becomes the primary sledding hill for the community.
 
 ---
+
+## Native Prairie & Natural Areas
 
 <figure>
   <img src="/images/parks/zionsville-mulberry-fields-park-creek-prairie-grass.webp" alt="Flat limestone steps and native prairie grasses along the man-made rocky creek bed at Mulberry Fields Park." class="rounded-lg shadow-sm" />
@@ -208,8 +208,6 @@ The large hill on the property is a defining feature of the park landscape. In t
     <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
-
-## Native Prairie & Natural Areas
 
 In addition to the active recreation spaces, a significant portion of Mulberry Fields Park is dedicated to native prairie and natural landscapes. Approximately 11 acres—nearly one-third of the park — are dedicated to native Indiana prairie. The natural spaces span the eastern portion of the property, the southern perimeter, and the slopes of the sledding hill, which feature a mix of native shrubs and trees.
 
@@ -221,6 +219,8 @@ For more detail on the park's native landscape design, see the [Indiana Native P
 
 ---
 
+## Maplelawn Farmstead
+
 <figure>
   <img src="/images/parks/zionsville-mulberry-fields-park-maplelawn-farmstead.webp" alt="The historic white wooden barns and red roofs of Maplelawn Farmstead at Mulberry Fields Park in Zionsville." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
@@ -228,8 +228,6 @@ For more detail on the park's native landscape design, see the [Indiana Native P
     <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
-
-## Maplelawn Farmstead
 
 On the northwestern corner of the park grounds sits Maplelawn Farmstead, located at 9575 Whitestown Road. This historic 3.5-acre site operates as a separate educational area within the park.
 
