@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function ArticlesPage() {
   // Hide drafts from the public hub. Drafts remain directly accessible at their URL for previewing.
-  const articles = getAllArticles().filter((a) => !a.draft)
+  const articles = getAllArticles().filter((a) => !a.draft && a.slug !== 'things-to-do')
 
   // ItemList schema with the visible articles
   const itemListSchema = {

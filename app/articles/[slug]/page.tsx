@@ -8,7 +8,9 @@ interface Props {
 }
 
 export async function generateStaticParams() {
-  return getAllArticleSlugs().map((slug) => ({ slug }))
+  return getAllArticleSlugs()
+    .filter((slug) => slug !== 'things-to-do')
+    .map((slug) => ({ slug }))
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
