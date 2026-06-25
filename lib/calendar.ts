@@ -22,6 +22,7 @@ const BASE = 'https://www.googleapis.com/calendar/v3'
 
 const OFFICIAL_URLS: Record<string, string> = {
   'stories in the park': 'https://www.zionsvillelions.com/',
+  '80\'s night': 'https://www.facebook.com/events/1379810587240039',
   'diabetes awareness day': 'https://www.zionsvillelions.com/',
   'fright nights at maplelawn farmstead': 'https://zionsville-in.gov/740/Fright-Nights',
   'trick or trees: registration required': 'https://www.zionsville-in.gov/739/Trick-or-Trees',

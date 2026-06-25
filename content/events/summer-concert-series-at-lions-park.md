@@ -65,7 +65,7 @@ Attendees typically bring lawn chairs or blankets for these relaxed, community-f
 
 **Parking:** Free on-site parking is available at Lions Park. A public parking lot is located at the northwest corner of **Main Street and Sycamore Road**, with access from both Main Street and First Street. A second lot is located at the southwest corner of **Main Street and Pine Street**. 
 
-Additional parking is available along nearby streets and in public lots throughout the Village.
+Additional parking is available along nearby streets and in public lots throughout the Village. See the [**Downtown Zionsville parking guide**](/downtown#parking).
 
 ## What to Bring
 

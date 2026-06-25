@@ -118,8 +118,8 @@ Downtown gift and home shops cover flowers, furniture, lighting, décor, paper g
 - Fivethirty Home carries hand-painted furniture, home décor, curated gifts, Indiana items, and furniture-paint supplies, with workshops for refinishing projects.
 
 ### From Bud to Blooms
-- **Address:** [275 S Main St, Zionsville, IN 46077](https://www.google.com/search?sca_esv=9b5c4a1df88459b7&biw=1940&bih=909&sxsrf=ANbL-n71w4_p0Cn-BhwYGDoIXxRcx34_Pw:1781663467006&q=from+bud+to+blooms+address&ludocid=8963501597367910620&sa=X&ved=2ahUKEwiEoL3QnY2VAxVQiCsGHTX2NhkQ6BN6BAhQEAI)
-- **Phone:** [(317) 979-8776](https://www.google.com/search?q=zionsville+from+buds+to+blooms&sca_esv=9b5c4a1df88459b7&sxsrf=ANbL-n5bRaH5XXqKFu_EgEXPlOAYEcDVXA%3A1781663436161&ei=zAYyasWmCa_umLQPlLOiWQ&biw=1940&bih=909&ved=0ahUKEwjFvOLBnY2VAxUvN4YAHZSZKAsQ4dUDCBI&uact=5&oq=zionsville+from+buds+to+blooms&gs_lp=Egxnd3Mtd2l6LXNlcnAiHnppb25zdmlsbGUgZnJvbSBidWRzIHRvIGJsb29tczICECYyCBAAGIAEGKIEMgUQABjvBTIFEAAY7wVI5xNQAFiOEnAAeAGQAQCYAeEBoAG1EqoBBjguMTAuMbgBA8gBAPgBAZgCE6AC9xLCAhMQLhivARjHARiABBiKBRiOBRgnwgIEECMYJ8ICDhAuGK8BGMcBGIAEGI4FwgIUEC4YgAQYigUYkQIYxwEYrwEYjgXCAg4QLhiABBjHARivARiOBcICBRAAGIAEwgIgEC4YrwEYxwEYgAQYigUYjgUYlwUY3AQY3gQY4ATYAQHCAgYQABgWGB7CAh0QLhiABBjHARivARiOBRiXBRjcBBjgBNgBAcICCxAAGIAEGIoFGIYDwgIIEAAYiQUYogSYAwC6BgYIARABGBSSBwY2LjEyLjGgB6Z7sgcGNi4xMi4xuAf3EsIHBjAuMTcuMsgHL4AIAQ&sclient=gws-wiz-serp#)
+- **Address:** 275 S Main St, Zionsville, IN 46077
+- **Phone:** (317) 979-8776
 - **Website:** [frombudtoblooms.com](https://www.frombudtoblooms.com/)
 - From Bud to Blooms is a flower shop on South Main Street offering floral arrangements and consultations for gifts, events, and special occasions.
 

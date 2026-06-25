@@ -51,7 +51,7 @@ This Sunday series is separate from the Zionsville Cultural District’s Wednesd
 **Location:** Lions Park, 11053 Sycamore St, Zionsville  
 **Admission:** Free; food and beverage are available for a donation
 
-**Parking:** Free parking is available at Lions Park. Additional public parking may be available in nearby Village lots and along surrounding streets.
+**Parking:** Free parking is available at Lions Park. Additional public parking may be available in nearby Village lots and along surrounding streets. See the [**Downtown Zionsville parking guide**](/downtown#parking).
 
 ## What to bring
 

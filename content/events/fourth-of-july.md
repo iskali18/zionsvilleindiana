@@ -60,7 +60,9 @@ This is one of the most heavily attended events of the year. Many residents and 
 
 On-site parking at Lions Park is $8.00 per vehicle (cash only) and supports park maintenance — the lot opens at 4 PM. Overflow paid parking is available on the vacant lot at the southwest corner of Main Street and Sycamore Street ($8.00 cash).
 
-Free public lots are located at the northwest corner of Main Street and Sycamore Street. (south of The Friendly Tavern), with access from both Main Street and First Street, and at the southwest corner of Main Street and Pine Street. Additional free parking is available along nearby streets and in public lots throughout the Village.
+Free public lots are located at the northwest corner of Main Street and Sycamore Street (south of The Friendly Tavern), with access from both Main Street and First Street, and at the southwest corner of Main Street and Pine Street. Additional free parking is available along nearby streets and in public lots throughout the Village.
+
+See the [**Downtown Zionsville parking guide**](/downtown#parking).
 
 ## Hosts
 
