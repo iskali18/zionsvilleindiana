@@ -75,6 +75,10 @@
     margin-top: 0.5rem;
   }
 
+  .prose-village .relative img {
+    margin: 0;
+  }
+
   /* Gallery figures inside a flex container — remove vertical margins so the
      flex gap controls spacing instead. */
   .prose-village .flex figure,

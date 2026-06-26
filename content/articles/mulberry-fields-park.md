@@ -55,9 +55,9 @@ faqs:
   </figcaption>
 </figure>
 
-Mulberry Fields Park is a 38-acre community park located at Ford Road and Whitestown Road. It serves as a central gathering place in Zionsville, featuring sports fields, paved paths, a splash pad, pickleball courts, a skate park, a playground, and a large hill. It's also a good anchor for a longer outing — [**Things to Do in Zionsville**](/things-to-do) are within easy reach from here.
+Mulberry Fields Park is a 38-acre community park located at Ford Road and Whitestown Road. It's a central gathering place in Zionsville, featuring sports fields, paved paths, a splash pad, pickleball courts, a skate park, a playground, and a large hill. It's also a good anchor for a longer outing — [**Things to Do in Zionsville**](/things-to-do) are within easy reach from here.
 
-The park is also home to Maplelawn Farmstead, which preserves a piece of local agricultural history on the northwestern edge of the grounds. During the warmer months, the splash pad, playground, and picnic shelters are the center of activity. In the winter, the hill becomes one of the main spots in town for sledding.
+The park is also home to Maplelawn Farmstead, which preserves a piece of local agricultural history on the northwestern edge of the grounds. During the warmer months, the splash pad, playground, and picnic shelters are the center of activity. In the winter, the hill becomes the main sledding spot in town.
 
 <div class="jump-pills">
   <a href="#getting-there">Getting There</a>
@@ -99,7 +99,7 @@ Free Wi-Fi is available near the concession stand, with coverage varying by loca
 
 Pet waste stations with bags and disposal bins are placed around the park. An Automated External Defibrillator (AED) is in Shelter A, next to the concession stand.
 
-<div class="my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="mt-6 mb-2  grid grid-cols-1 sm:grid-cols-3 gap-4">
   <a href="/images/parks/mulberry-fields-park-restrooms.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-park-restrooms.webp" alt="The front exterior of the modern public restroom building at Mulberry Fields Park, featuring tan brick, dark brown tile siding, and a large pitched roof with clerestory windows." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
@@ -131,7 +131,6 @@ Pet waste stations with bags and disposal bins are placed around the park. An Au
     </div>
   </a>
 </div>
-<br />
 <p class="text-xs text-stone-500 italic">Visitor services at Mulberry Fields Park include an AED in Shelter A, drinking fountains with pet-level bowls, pet waste stations, public restrooms, a concession building with a cash-only vending machine, and free community Wi-Fi near the concession stand. <span class="not-italic">© ZionsvilleIndiana.com</span></p>
 
 ---
@@ -146,11 +145,11 @@ Pet waste stations with bags and disposal bins are placed around the park. An Au
   </figcaption>
 </figure>
 
-For those visiting during the summer, the splash pad is a popular feature for families with younger children — well suited for toddlers through elementary age. The pad has a mix of ground-level jets, tall spray poles, and a large caterpillar arch that kids run through. There is also an overhead pour feature on one end. Next to the main pad, there is a shallow rocky creek where children can wade and explore the stones at a slower pace.
+For those visiting during the summer, the splash pad is a popular feature for families with younger children, best for toddlers through elementary age. The pad has a mix of ground-level jets, tall spray poles, and a large caterpillar arch that kids run through. There is also an overhead pour feature on one end. Next to the main pad, there is a shallow rocky creek where children can wade and explore the stones at their own pace.
 
 The splash pad is located right next to the playground and several picnic shelters, keeping the active play areas close together.
 
-<div class="my-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="mt-6 mb-2 grid grid-cols-1 sm:grid-cols-3 gap-4">
   <a href="/images/parks/mulberry-fields-splash-pad-1.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-splash-pad-1.webp" alt="The main splash pad area at Mulberry Fields Park in Zionsville, featuring colorful misting arches with a cartoon caterpillar, a cloud water shower, and park benches on a wet concrete deck." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
@@ -159,6 +158,11 @@ The splash pad is located right next to the playground and several picnic shelte
   <a href="/images/parks/mulberry-fields-splash-pad-2.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-splash-pad-2.webp" alt="Whimsical yellow flower and green palm tree water spray structures alongside a vertical blue geyser fountain at the Mulberry Fields Park seasonal splash pad." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+    </div>
+  </a>
+  <a href="/images/parks/mulberry-fields-splash-pad-creek-2.webp" target="_blank" rel="noopener" class="block">
+    <div class="relative aspect-[4/3]">
+      <img src="/images/parks/mulberry-fields-splash-pad-creek-2.webp" alt="An artificial stone creek feature with shallow water flowing over large, flat limestone rocks and steps, bordered by a wooden fence and wild grasses." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
     </div>
   </a>
   <a href="/images/parks/zionsville-mulberry-fields-park-splash-pad-creek.webp" target="_blank" rel="noopener" class="block">
@@ -171,8 +175,12 @@ The splash pad is located right next to the playground and several picnic shelte
       <img src="/images/parks/mulberry-fields-splash-pad-3.webp" alt="A shaded concrete walkway flanked by wooden fences leading toward the brick restroom and concession building at Mulberry Fields Park." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
     </div>
   </a>
+  <a href="/images/parks/mulberry-fields-splash-pad-4.webp" target="_blank" rel="noopener" class="block">
+    <div class="relative aspect-[4/3]">
+      <img src="/images/parks/mulberry-fields-splash-pad-4.webp" alt="A colorful outdoor splash pad with active water fountains, spraying rainbow arches, corn-shaped water nozzles, and a wet concrete surface under a cloudy sky." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+    </div>
+  </a>  
 </div>
-<br />
 <p class="text-xs text-stone-500 italic">The splash pad area at Mulberry Fields Park has colorful spray features, shaded walkways, benches, and a shallow rock-lined creek next to the water play area. <span class="not-italic">© ZionsvilleIndiana.com</span></p>
 
 ### Splash Pad Season
@@ -195,15 +203,15 @@ The playground sits on a wood mulch surface and is enclosed by a perimeter fence
 
 The largest section is the climbing area, which spans several connected pieces: a rock-climbing wall with colorful holds, arched panels with cutout footholds, and a large overhead frame with monkey bars, rings, a curved-rung ladder, and balance elements geared toward elementary-aged kids.
 
-<div class="my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="mt-6 mb-2  grid grid-cols-1 sm:grid-cols-3 gap-4">
   <a href="/images/parks/mulberry-fields-park-playground-1.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-park-playground-1.webp" alt="A brown metal climbing structure on a wood chip surface at Mulberry Fields Park, featuring overhead rings, monkey bars, and a small climbing wall with handholds." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
     </div>
   </a>
-  <a href="/images/parks/mulberry-fields-park-playground-2.webp" target="_blank" rel="noopener" class="block">
+  <a href="/images/parks/mulberry-fields-park-playground-4.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
-      <img src="/images/parks/mulberry-fields-park-playground-2.webp" alt="A playground play structure with two towers featuring blue roofs, steps, and tan plastic slides over a wood chip surface at Mulberry Fields Park." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+      <img src="/images/parks/mulberry-fields-park-playground-4.webp" alt="A children's playground with climbing structures and slides on wood chip mulch, positioned next to a black metal bench and an open-air timber picnic pavilion." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
     </div>
   </a>
   <a href="/images/parks/mulberry-fields-park-playground-3.webp" target="_blank" rel="noopener" class="block">
@@ -212,7 +220,6 @@ The largest section is the climbing area, which spans several connected pieces: 
     </div>
   </a>
 </div>
-<br />
 <p class="text-xs text-stone-500 italic">The Mulberry Fields playground includes climbing structures, slides, swings, and high-backed swing seats on a wood-mulch play surface. <span class="not-italic">© ZionsvilleIndiana.com</span></p>
 
 ---
@@ -297,7 +304,7 @@ Posted rules allow skateboards and in-line skates only; bicycles, scooters, and 
   </figcaption>
 </figure>
 
-Mulberry Fields has a full outdoor basketball court with two hoops and marked court lines. The paved surface has room for shooting, one-on-one play, and full-court games. Open to the public and free to use — no registration required.
+Mulberry Fields has a full outdoor basketball court with two hoops and marked court lines. The paved surface provides space for shooting, one-on-one play, and full-court games. Open to the public and free to use — no registration required.
 
 ---
 
@@ -317,10 +324,10 @@ There are four picnic shelters available for community use or formal rental, lab
 
 | Shelter | Tables | Electricity | Water | Grill | Nearby Features |
 |---------|--------|-------------|-------|-------|-----------------|
-| A | 4 | Yes | Yes | No | Public restroom, sports fields, concession stand |
-| B | 4 | Yes | Yes | Yes | Public restrooms |
-| C | 4 | Yes | No | Yes | Public restrooms, splash pad |
-| D | 4 | No | No | No | Public restroom, splash pad, playground |
+| A | 4 | Yes | Yes | No | Restrooms, sports fields, concession stand |
+| B | 4 | Yes | Yes | Yes | Restrooms |
+| C | 4 | Yes | No | Yes | Restrooms, splash pad |
+| D | 4 | No | No | No | Restrooms, splash pad, playground |
 
 </div>
 
@@ -328,25 +335,47 @@ For those who want to stay near the splash pad and playground, Shelter C and She
 
 Shelters are reserved through the [Mulberry Fields reservation page](https://zionsvillein.myrec.com/info/facilities/details.aspx?FacilityID=14709). The town offers two shifts: dawn to 2:00 PM, and 3:00 PM to dusk. Fees vary by residency status and day of the week.
 
-<div class="my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+<div class="mt-6 mb-2 grid grid-cols-1 sm:grid-cols-3 gap-4">
   <a href="/images/parks/mulberry-fields-park-shelter-a-concession-stand.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-park-shelter-a-concession-stand.webp" alt="The brick concession stand and restroom building located next to a covered picnic shelter, viewed across a marked pedestrian crosswalk at Mulberry Fields Park." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+      <span class="absolute bottom-2 right-2 bg-stone-900/40 text-white text-xs font-medium px-2 py-1 rounded">Shelter A and concession stand</span>       
     </div>
   </a>
   <a href="/images/parks/mulberry-fields-park-shelter-a.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-park-shelter-a.webp" alt="An open-air timber frame picnic shelter with a metal roof and picnic tables at Mulberry Fields Park, featuring a blue drinking fountain and bike rack on a concrete pad." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+      <span class="absolute bottom-2 right-2 bg-stone-900/40 text-white text-xs font-medium px-2 py-1 rounded">Shelter A</span>         
     </div>
   </a>
   <a href="/images/parks/mulberry-fields-park-shelter-c.webp" target="_blank" rel="noopener" class="block">
     <div class="relative aspect-[4/3]">
       <img src="/images/parks/mulberry-fields-park-shelter-c.webp" alt="A covered wooden picnic pavilion with multiple tables and an outdoor charcoal park grill on the grass at Mulberry Fields Park." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+      <span class="absolute bottom-2 right-2 bg-stone-900/40 text-white text-xs font-medium px-2 py-1 rounded">Shelter C</span>         
     </div>
   </a>
 </div>
-<br />
-<p class="text-xs text-stone-500 italic">From left to right: Shelter A with the concession stand and restroom building beside it; a closer view of Shelter A; and Shelter C. Mulberry Fields Park has four picnic shelters with covered tables, but features differ by shelter, including grills, drinking fountains, electricity, and distance to restrooms. <span class="not-italic">© ZionsvilleIndiana.com</span></p>
+<div class="mt-6 mb-2 grid grid-cols-1 sm:grid-cols-3 gap-4" >
+  <a href="/images/parks/mulberry-fields-park-shelters-b-c.webp" target="_blank" rel="noopener" class="block">
+    <div class="relative aspect-[4/3]">
+    <img src="/images/parks/mulberry-fields-park-shelters-b-c.webp" alt="Two open-air wooden picnic shelters with corrugated metal roofs and picnic tables on a concrete pad surrounded by a green lawn and trees." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />   
+    <span class="absolute bottom-2 right-2 bg-stone-900/40 text-white text-xs font-medium px-2 py-1 rounded">Shelters B & C</span>  
+    </div>
+  </a>
+  <a href="/images/parks/mulberry-fields-park-shelter-d-playground.webp" target="_blank" rel="noopener" class="block">
+    <div class="relative aspect-[4/3]">
+      <img src="/images/parks/mulberry-fields-park-shelter-d-playground.webp" alt="A park playground area with climbing structures and slides on wood chip mulch, positioned next to a black metal bench and a large picnic shelter with a stone wall." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+      <span class="absolute bottom-2 right-2 bg-stone-900/40 text-white text-xs font-medium px-2 py-1 rounded">Shelter D and playground</span>        
+    </div>
+  </a>
+  <a href="/images/parks/mulberry-fields-park-shelter-d.webp" target="_blank" rel="noopener" class="block">
+    <div class="relative aspect-[4/3]">
+      <img src="/images/parks/mulberry-fields-park-shelter-d.webp" alt="An open-air park pavilion featuring a stone accent wall, heavy timber framing, integrated picnic tables, and a metal bench on a concrete floor." class="absolute inset-0 w-full h-full object-cover rounded-lg shadow-sm" />
+      <span class="absolute bottom-2 right-2 bg-stone-900/40 text-white text-xs font-medium px-2 py-1 rounded">Shelter D</span>       
+    </div>
+  </a>
+</div>
+<p class="text-xs text-stone-500 italic">Mulberry Fields Park has four picnic shelters with covered tables, but features differ by shelter, including grills, drinking fountains, electricity, and distance to restrooms. Shelter A is next to athletic fields and the concession stand, while Shelters B, C, and D are near the playground and splash pad. <span class="not-italic">© ZionsvilleIndiana.com</span></p>
 
 ---
 
@@ -360,7 +389,7 @@ Shelters are reserved through the [Mulberry Fields reservation page](https://zio
   </figcaption>
 </figure>
 
-The large hill on the property is a defining feature of the park landscape. In the spring and summer, it offers an open view across the fields and serves as a quiet spot to sit. Once there is enough snow in the winter, it becomes the primary sledding hill for the community.
+The large hill on the property is a defining feature of the park. In the spring and summer, it provides an open view across the fields and offers a quiet spot to sit. Once there is enough snow in the winter, it becomes the primary sledding hill for the community.
 
 ---
 

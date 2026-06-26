@@ -97,7 +97,7 @@ Just past the half-mile mark, the trail crosses Eagle Creek on a historic railro
 
 After the Eagle Creek bridge, the trail reaches the Starkey Park Trail 1 junction. SP1 leaves the Rail Trail here and descends by wooden boardwalk switchbacks into Starkey Park. A bike repair station and bike rack are located along the Rail Trail at this junction.
 
-From there, the route continues to a Zionsville Train Depot historic landmark sign, marked by two benches along the trail. It then passes the Pine Street connection and Oak Street tunnel before reaching the Mile 1.5 post at Town Hall. The nearby rest area includes benches, a bike repair station, a little free library, and trash cans, with weekday restrooms and drinking fountains available inside Town Hall.
+From there, the route continues to a Zionsville Train Depot historic landmark sign, marked by two benches along the trail. It then passes the Pine Street connection -- which is located about a half mile from Main Street in downtown -- and the Oak Street tunnel before reaching the Mile 1.5 post at Town Hall. The nearby rest area includes benches, a bike repair station, a little free library, and trash cans, with weekday restrooms and drinking fountains available inside Town Hall.
 
 <div class="my-6 flex flex-col sm:flex-row gap-4">
   <figure class="flex-1 m-0">
@@ -139,7 +139,7 @@ From there, the route continues to a Zionsville Train Depot historic landmark si
 | Drinking water        | Zionsville Road Trailhead: drinking fountain and bottle filler<br>Town Hall: indoor drinking fountains and bottle filler available Monday–Friday, 8 AM–4 PM                                                                          |
 | Bike repair stations  | Zionsville Road Trailhead<br>Along the Rail Trail at the Starkey Park Trail 1 junction<br>Town Hall rest area                                                                                                                 |
 | Seating               | Benches at the Zionsville Road Trailhead, along the trail, and at the Town Hall rest area                                                                                                                                     |
-| Dog waste stations    | Located along the trail                                                                                                                                                                                                       |
+| Pet waste stations    | Located along the trail                                                                                                                                                                                                       |
 | S-Curve        | S-curve with centerline stripe near Town Hall                                                                                                                                                                 |
 | Tunnel                | Oak Street tunnel                                                                                                                                                                                                             |
 | Key points            | Mile 0 post; Overley-Worman Park connections; Eagle Creek Bridge; Starkey Park Trail 1 junction; Zionsville Train Depot historic landmark sign; Oak Street tunnel; Mile 1.5 post                                                |
