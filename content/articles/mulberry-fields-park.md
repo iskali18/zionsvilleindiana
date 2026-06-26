@@ -47,7 +47,7 @@ faqs:
 
 ---
 
-<figure>
+<figure id="park-map" class="scroll-mt-20">
   <img src="/images/parks/zionsville-mulberry-fields-park-map.webp" alt="Aerial satellite map of Mulberry Fields Park in Zionsville, Indiana, with text labels highlighting the locations of various park features. From left to right, labels indicate Maplelawn Farmstead, the sledding hill and overlook, a large central lawn, four pickleball courts, picnic shelters A through D, the playground, and the splash pad. The upper right section marks the basketball court, skate park, and the parking lot areas. At the top right, a label indicates the Rail Trail access across the main road near the roundabout. A compass rose sits in the bottom right corner." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
     An aerial layout of Mulberry Fields Park, showing the recreational amenities, picnic shelters, and Rail Trail access across Whitestown Road. Not pictured is the newer concession building with public restrooms, located near Shelter A.<br />
@@ -331,7 +331,7 @@ There are four picnic shelters available for community use or formal rental, lab
 
 </div>
 
-For those who want to stay near the splash pad and playground, Shelter C and Shelter D are the closest options, with Shelter B also nearby. Shelter A is located near the athletic fields and the concession building.
+For those who want to stay near the splash pad and playground, Shelter C and Shelter D are the closest options, with Shelter B also nearby. Shelter A is located near the athletic fields and the concession building. Refer to the [aerial park map](#park-map) to see the location of each shelter within the park.
 
 Shelters are reserved through the [Mulberry Fields reservation page](https://zionsvillein.myrec.com/info/facilities/details.aspx?FacilityID=14709). The town offers two shifts: dawn to 2:00 PM, and 3:00 PM to dusk. Fees vary by residency status and day of the week.
 
