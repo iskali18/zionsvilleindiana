@@ -23,9 +23,14 @@ const BASE = 'https://www.googleapis.com/calendar/v3'
 const OFFICIAL_URLS: Record<string, string> = {
   'stories in the park': 'https://www.zionsvillelions.com/',
   '80\'s night': 'https://www.facebook.com/events/1379810587240039',
+  'pizza party friday at mulberry fields': 'https://www.facebook.com/events/1655763592306236',
+  'park and play at mulberry fields': 'https://www.facebook.com/events/1525297579066058',
+  'wild and wacky water day at fire station 93': 'https://www.facebook.com/events/2222870561902849',
+  'indy british motor day': 'https://www.townplanner.com/event/870949/',
   'diabetes awareness day': 'https://www.zionsvillelions.com/',
   'fright nights at maplelawn farmstead': 'https://zionsville-in.gov/740/Fright-Nights',
   'trick or trees: registration required': 'https://www.zionsville-in.gov/739/Trick-or-Trees',
+  'zionsville half marathon & 5k': 'https://runsignup.com/Race/IN/Zionsville/ZionsvilleHalf',
 }
 
 export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[]> {

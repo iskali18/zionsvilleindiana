@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { getAllArticleSlugs, getArticle } from '@/lib/content'
 import ArticleLayout from '@/components/ArticleLayout'
+import ZcsCalendar from '@/components/ZcsCalendar'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -41,7 +42,12 @@ export default async function ArticlePage({ params }: Props) {
 
   try {
     const { meta, contentHtml } = await getArticle(slug)
-    return <ArticleLayout meta={meta} contentHtml={contentHtml} pathPrefix="/articles" />
+
+    return (
+      <ArticleLayout meta={meta} contentHtml={contentHtml} pathPrefix="/articles">
+        {slug === 'zcs-school-calendar' && <ZcsCalendar />}
+      </ArticleLayout>
+    )
   } catch {
     notFound()
   }
