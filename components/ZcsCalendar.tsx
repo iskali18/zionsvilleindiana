@@ -44,6 +44,54 @@ function getMonthYearKey(iso: string): string {
   return d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
 }
 
+// ─── Event Schema ───────────────────────────────────────────────────────────
+// Generate JSON-LD Event schema entries for district-wide milestone dates only.
+// Schema entries help search engines understand the structured dates on the page.
+
+const SCHEMA_EVENT_TITLES = [
+  'First Student School Day',
+  'Labor Day — No School',
+  'Fall Break — No School',
+  'Thanksgiving Break — No School',
+  'Winter Break — No School',
+  'Dr. MLK Holiday — No School',
+  'February Break — No School',
+  'Spring Break — No School',
+  'Last Student Day',
+  'Commencement',
+]
+
+function buildEventSchema(events: ZcsEvent[]) {
+  const milestoneEvents = events.filter((event) =>
+    SCHEMA_EVENT_TITLES.includes(event.title)
+  )
+
+  return milestoneEvents.map((event) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: event.title,
+    startDate: event.startDate,
+    ...(event.endDate && { endDate: event.endDate }),
+    eventStatus: 'https://schema.org/EventScheduled',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    location: {
+      '@type': 'Place',
+      name: 'Zionsville Community Schools',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Zionsville',
+        addressRegion: 'IN',
+        addressCountry: 'US',
+      },
+    },
+    organizer: {
+      '@type': 'Organization',
+      name: 'Zionsville Community Schools',
+      url: 'https://www.zcs.k12.in.us',
+    },
+  }))
+}
+
 interface EventRowProps {
   event: ZcsEvent
 }
@@ -192,6 +240,8 @@ export default function ZcsCalendar() {
     })
   }
 
+  const isAllActive = activeAudiences.size === ALL_AUDIENCES.length
+
   const showAll = () => {
     if (isAllActive) {
       setActiveAudiences(new Set())
@@ -199,8 +249,6 @@ export default function ZcsCalendar() {
       setActiveAudiences(new Set(ALL_AUDIENCES))
     }
   }
-
-  const isAllActive = activeAudiences.size === ALL_AUDIENCES.length
 
   const filteredEvents = useMemo(() => {
     return zcsEvents.filter((event) => {
@@ -229,8 +277,21 @@ export default function ZcsCalendar() {
     return Array.from(groups.entries())
   }
 
+  // Build Event schema for district-wide milestone dates.
+  // Generated from the full event list, not the filtered list, so schema is stable.
+  const eventSchemaList = useMemo(() => buildEventSchema(zcsEvents), [])
+
   return (
     <div className="mt-10">
+      {/* JSON-LD Event schema for milestone district-wide dates */}
+      {eventSchemaList.map((schema, idx) => (
+        <script
+          key={`event-schema-${idx}`}
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+        />
+      ))}
+
       {/* Filter controls */}
       <div className="mb-8 pb-6 border-b border-stone-200">
         <p className="text-sm text-stone-600 mb-3">

@@ -37,7 +37,8 @@ const resources = [
     heading: 'Schools',
     links: [
       { label: 'Zionsville Community Schools', href: 'https://www.zcs.k12.in.us' },
-      { label: 'ZCSC School Calendar & Breaks', href: 'https://www.zcs.k12.in.us/about-zcs/calendars' },
+      { label: 'Key ZCS Dates for Families', href: '/articles/zcs-school-calendar' },
+      { label: 'Official ZCS School Calendars', href: 'https://www.zcs.k12.in.us/about-zcs/calendars' },
       { label: 'Student Enrollment FAQs', href: 'https://www.zcs.k12.in.us/about-zcs/new-students1/enrollment-frequently-asked-questions' },
     ],
   },
