@@ -367,6 +367,24 @@ export default function DowntownPage() {
             </Link>
           </section>
 
+          {/* Downtown Map */}
+          <section className="mt-16">
+            <h2 className="font-display text-3xl text-stone-900 mb-4">See the downtown map</h2>
+            <p className="text-stone-700 leading-relaxed mb-6">
+              Looking for a quick way to find your way around the Village? The{' '}
+              <Link href="/articles/downtown-zionsville-map" className="text-brick-600 hover:text-brick-700 font-medium">
+                downtown Zionsville map
+              </Link>
+              {' '}shows Main Street and the surrounding side streets, with numbered markers for restaurants, retail shops, public parking lots, and key landmarks. Download the printable PDF before your visit or save the JPEG to your phone for a quick reference while walking downtown.
+            </p>
+            <Link href="/articles/downtown-zionsville-map" className="block">
+              <ContainedImage
+                src="/images/articles/downtown-zionsville-map-hero.webp"
+                alt="Downtown Zionsville map showing Main Street with numbered markers for restaurants, retail shops, public parking, and landmarks"
+              />
+            </Link>
+          </section>
+
           {/* Parking */}
           <div id="parking" className="mt-16 pt-10 scroll-mt-6">
             <h2 className="font-display text-3xl text-stone-900 mb-6">Parking in Downtown Zionsville</h2>

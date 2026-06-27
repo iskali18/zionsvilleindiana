@@ -174,12 +174,12 @@ export default function HomePage() {
                   >
                     Explore Downtown
                   </Link>
-                  <Link
+                  {/* <Link
                     href="/about"
                     className="border border-white/40 hover:border-white text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
                   >
                     New to Town?
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
 
@@ -189,7 +189,7 @@ export default function HomePage() {
                   <Link
                     key={event.slug}
                     href={`/events/${event.slug}`}
-                    className="group flex items-center gap-3 bg-white/10 hover:bg-white/20 border border-white/20 rounded-lg px-4 py-3 transition-colors"
+                    className="group flex items-center gap-3 bg-black/40 hover:bg-black/60 border border-white/20 rounded-lg px-4 py-3 transition-colors"
                   >
                     <div className="shrink-0 text-center w-10 flex flex-col justify-center">
                       {event.perennial ? (
