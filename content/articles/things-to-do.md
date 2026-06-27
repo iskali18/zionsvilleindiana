@@ -62,7 +62,7 @@ Downtown is especially helpful for:
 - Browsing locally owned shops and galleries
 - Seasonal events, markets, parades, and holiday gatherings
 
-[See the full Downtown Zionsville guide](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [dining](/articles/dining-in-downtown-zionsville) guides.
+[See five ways to spend time downtown](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [dining](/articles/dining-in-downtown-zionsville) guides.
 
 <div class="clear-both"></div>
 

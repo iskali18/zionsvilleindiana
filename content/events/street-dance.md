@@ -56,7 +56,7 @@ Main Street is closed to vehicles during the event. Pre-purchased tickets are sc
 **Admission:** Ticketed. Advance general admission is $25, gate admission is $30 for ages 11 and up, and children 10 and under are $10. VIP tickets are $75 and must be purchased in advance. Advance tickets go on sale June 1.  
 **Family:** Kids' area on-site  
 
-**Parking:** Main Street is closed for the event, so plan to park nearby and walk into the event area. The largest available public lot is at the northwest corner of Main Street and Sycamore Road, with additional parking at Lions Park and on side streets around the Village. Spaces near the event fill up before the 5:00 PM gate opening. See the [downtown parking map](/downtown#parking) for details.
+**Parking:** Main Street is closed for the event, so plan to park nearby and walk into the event area. The largest available public lot is at the northwest corner of Main Street and Sycamore Road, with additional parking at Lions Park and on side streets around the Village. Spaces near the event fill up before the 5:00 PM gate opening. See the [downtown parking section](/downtown#parking) for details, or check the [downtown Zionsville map](/articles/downtown-zionsville-map) for a printable layout you can save to your phone.
 
 **Food and drinks:** Local breweries, wineries, distilleries, and food trucks are on-site. Most vendors accept cards. ID is checked for alcohol purchases.
 

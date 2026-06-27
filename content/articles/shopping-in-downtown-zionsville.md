@@ -336,6 +336,12 @@ For parking locations, public lots, and street parking near the shops, see the [
 
 ---
 
+## See the downtown map
+
+For a printable map of downtown showing all of the shops, restaurants, and public parking lots, see the [downtown Zionsville map](/articles/downtown-zionsville-map).
+
+---
+
 For more on downtown Zionsville, see the full [**Downtown Guide**](/downtown) — including dining, coffee, and seasonal events along Main Street. 
 
 For activities beyond the Village, see our guide to [**Things to Do in Zionsville**](/things-to-do).

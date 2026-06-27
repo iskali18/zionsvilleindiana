@@ -39,8 +39,6 @@ This guide groups downtown Zionsville restaurants and cafés by meal type, inclu
 
 ---
 
-
-
 ## Breakfast & Brunch {#breakfast-brunch}
 
 <figure>
@@ -241,6 +239,12 @@ Downtown dessert stops include ice cream, pies, soft serve, and other classic tr
 ## Parking
 
 For public lots, street parking, and restaurant parking near Main Street, see the [downtown Zionsville parking guide](/downtown#parking).
+
+---
+
+## See the downtown map
+
+For a printable map of downtown showing all of the shops, restaurants, and public parking lots, see the [downtown Zionsville map](/articles/downtown-zionsville-map).
 
 ---
 

@@ -6,6 +6,7 @@ slug: downtown-zionsville-map
 hero_image: /images/articles/downtown-zionsville-map-hero.webp
 hero_position: "center 20%"
 hero_credit: "© ZionsvilleIndiana.com"
+hide_hero: true
 lastUpdated: "2026-06-25"
 category: discovery
 ctas:
