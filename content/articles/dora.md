@@ -151,6 +151,10 @@ Features include:
 
 The Town is also planning for the future development of a civic plaza in the Village, which would include permanent public restrooms.
 
+## See the Downtown Map
+
+For a printable map of downtown showing all of the shops, restaurants, and public parking lots, see the [downtown Zionsville map](/articles/downtown-zionsville-map).
+
 ## Frequently Asked Questions {#dora-faq}
 
 **Can you drink on Main Street Zionsville?**  
