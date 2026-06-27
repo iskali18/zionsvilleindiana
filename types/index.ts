@@ -144,6 +144,7 @@ export interface ArticleMeta {
   /** Vertical position for the hero image (CSS object-position value, e.g. "center 30%", "center 75%").
    *  Defaults to "center 55%" when omitted. */
   hero_position?: string
+  hide_hero?: boolean
   lastUpdated?: string
   category?: 'discovery' | 'relocation' | 'outdoors' | 'food' | 'family'
   ctas?: Array<{ label: string; href: string }>

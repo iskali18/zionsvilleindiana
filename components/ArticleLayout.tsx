@@ -11,9 +11,12 @@ interface ArticleLayoutProps {
   /** URL path prefix for the article. Empty string for root-level routes (e.g. /things-to-do).
    *  Use "/articles" for articles under the articles hub. Affects schema URLs and breadcrumbs. */
   pathPrefix?: string
+  /** Optional content rendered inside the main content area, AFTER the article body
+   *  and BEFORE the lastUpdated/CTAs section. Use for interactive components like calendars. */
+  children?: React.ReactNode
 }
 
-export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: ArticleLayoutProps) {
+export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', children }: ArticleLayoutProps) {
   const fullPath = `${pathPrefix}/${meta.slug}`
 
   const articleSchema = {
@@ -33,12 +36,9 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
     },
   }
 
-  // Breadcrumb items vary by path prefix.
-  // Root-level (e.g. /things-to-do): [Article]
-  // Articles hub (e.g. /articles/zionsville-coffee-shops): [Articles, Article]
   const breadcrumbItems = pathPrefix === '/articles'
     ? [
-        { label: 'Guides', href: '/articles' },
+        { label: 'Articles', href: '/articles' },
         { label: meta.title, href: fullPath },
       ]
     : [
@@ -60,7 +60,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
             {
               '@type': 'ListItem',
               position: 2,
-              name: 'Guides',
+              name: 'Articles',
               item: 'https://zionsvilleindiana.com/articles',
             },
             {
@@ -81,8 +81,6 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
     ],
   }
 
-  // FAQ schema emitted invisibly when meta.faqs is present.
-  // The visible FAQ section is intentionally NOT rendered on the page.
   const faqSchema = meta.faqs && meta.faqs.length > 0
     ? {
         '@context': 'https://schema.org',
@@ -92,37 +90,6 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
           name: q,
           acceptedAnswer: { '@type': 'Answer', text: a },
         })),
-      }
-    : null
-
-  // Park schema emitted when meta.park is present.
-  // Describes the real-world park entity that the article is about.
-  // Can coexist with Article schema (article describes the page; Park describes the subject).
-  const parkSchema = meta.park
-    ? {
-        '@context': 'https://schema.org',
-        '@type': 'Park',
-        name: meta.park.name,
-        description: meta.park.description,
-        url: `https://zionsvilleindiana.com${fullPath}`,
-        address: meta.park.address,
-        ...(meta.park.lat && meta.park.lng && {
-          geo: {
-            '@type': 'GeoCoordinates',
-            latitude: meta.park.lat,
-            longitude: meta.park.lng,
-          },
-        }),
-        ...(meta.park.amenities && meta.park.amenities.length > 0 && {
-          amenityFeature: meta.park.amenities.map((name) => ({
-            '@type': 'LocationFeatureSpecification',
-            name,
-            value: true,
-          })),
-        }),
-        ...(meta.park.freeToEnter !== undefined && {
-          isAccessibleForFree: meta.park.freeToEnter,
-        }),
       }
     : null
 
@@ -142,24 +109,16 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
-      {parkSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(parkSchema) }}
-        />
-      )}
 
       <Header />
       <main>
-        {/* Hero with overlaid H1 */}
-        {meta.hero_image && (
+        {meta.hero_image && !meta.hide_hero && (
           <div className="relative h-72 sm:h-96 bg-stone-900 overflow-hidden">
             <Image
               src={meta.hero_image}
               alt={meta.title}
               fill
-              style={{ objectPosition: meta.hero_position || 'center 55%' }}
-              className="object-cover opacity-90"
+              className="object-cover object-[center_75%] opacity-90"
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
@@ -188,8 +147,8 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
         )}
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          {/* Fallback breadcrumb + H1 if no hero */}
-          {!meta.hero_image && (
+          {/* Fallback breadcrumb + H1 if no hero, or if hero is hidden */}
+          {(!meta.hero_image || meta.hide_hero) && (
             <>
               <Breadcrumb
                 items={breadcrumbItems}
@@ -200,20 +159,20 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '' }: Ar
             </>
           )}
 
-          {/* Body content */}
           <div
             className="prose-village"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
 
-          {/* Last updated */}
+          {/* Optional children (e.g. interactive components like the ZCS calendar) */}
+          {children}
+
           {meta.lastUpdated && (
             <p className="text-sm text-stone-500 mt-10">
               Last updated: {formatDate(meta.lastUpdated)}
             </p>
           )}
 
-          {/* CTAs */}
           {meta.ctas && meta.ctas.length > 0 && (
             <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
               {meta.ctas.map((cta) => (
