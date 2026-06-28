@@ -248,11 +248,11 @@ Admission and parking are free, but simulator rides and some special experiences
 - **Best For:** A destination museum that fills a full day
 - **Age Range:** Infants through age 10
 
-The drive to Cincinnati is a bit longer, but the Children’s Museum at Union Terminal can easily fill an entire day. The Children’s Museum is housed inside **Union Terminal**, a 1933 Art Deco landmark and National Historic Landmark that feels impressive before you even reach the exhibits. Inside, kids can climb, crawl, pretend, build, experiment, and burn energy through themed play areas designed for hands-on learning. 
+The drive to Cincinnati is also a bit longer, but the Children’s Museum at Union Terminal can easily fill an entire day. The Children’s Museum is housed inside **Union Terminal**, a 1933 Art Deco landmark and National Historic Landmark that feels impressive before you even reach the exhibits. Inside, kids can climb, crawl, pretend, build, experiment, and burn energy through themed play areas designed for hands-on learning. 
 
 Families can buy a ticket just for The Children’s Museum or choose the Museum Admission ticket, which includes The Children’s Museum, the **Museum of Natural History & Science**, and the **Cincinnati History Museum** under one roof. Special exhibitions and **OMNIMAX** films may require separate tickets, so check current exhibits, events, and film schedules before planning your visit.
 
-For food, Cincinnati Museum Center has several on-site dining choices, including a coffee cart near The Children’s Museum and Cr(eat)e Cafe across from The Children’s Museum. Parking is available on site for a daily fee, so check current hours, dining hours, parking information, and ticket options before your visit.
+For food, Cincinnati Museum Center has several on-site dining choices, including the Cr(eat)e Cafe across from The Children’s Museum. Parking is available on site for a daily fee, so check current hours, dining hours, parking information, and ticket options before your visit.
 
 ### [WonderLab Science Museum](https://wonderlab.org) (Bloomington, IN)  
 
@@ -282,7 +282,7 @@ The museum is located along the B-Line Trail, a popular, 3-mile paved multi-use 
 - **Best For:** Active kids who like to climb, build, and move
 - **Age Range:** Toddlers through tweens
 
-kidscommons is a good match for children who like climbing, building, pretend play, and hands-on exhibits. The museum's **ExploraHouse** turns an ordinary house into a kid-sized science lesson, with displays that let children explore light, heat, plumbing, and everyday systems from the inside out. Its most famous feature is the **giant toilet**, where kids can climb through the tank, slide into the bowl, and see plumbing up close in a way they are not likely to forget. **Bubble-ology** turns bubbles into a full-body experiment, while other areas give children several ways to move, create, and play.
+kidscommons is a good option for children who like climbing, building, pretend play, and hands-on exhibits. The museum's **ExploraHouse** turns an ordinary house into a kid-sized science lesson, with displays that let children explore light, heat, plumbing, and everyday systems from the inside out. Its most famous feature is the **giant toilet**, where kids can climb through the tank, slide into the bowl, and see plumbing up close in a way they are not likely to forget. **Bubble-ology** turns bubbles into a full-body experiment, while other areas give children several ways to move, create, and play.
 
 Across the street, **The Commons** community center adds another indoor play area with the Luckey Climber, a large climbing structure inside the free downtown playground. Families will also find restaurants nearby, making it convenient to grab lunch or a snack before heading back out.
 

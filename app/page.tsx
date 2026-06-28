@@ -303,9 +303,6 @@ export default function HomePage() {
               <p className="text-stone-500 mb-8">
               Restaurants, shops, and outdoor drinks in the Village district.  
               </p>
-              <p className="text-stone-700 leading-relaxed mb-4">
-                Brick-paved Main Street is the heart of downtown Zionsville's Village district — a walkable stretch of locally owned restaurants, shops, and cafés.
-              </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               <Link
