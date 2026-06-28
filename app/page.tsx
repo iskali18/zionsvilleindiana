@@ -99,9 +99,35 @@ const quickLinks = [
   { label: 'Christmas in the Village', href: '/events/christmas-in-the-village-parade-and-tree-lighting' },
 ]
 
+const featuredGuides = [
+  {
+    title: 'Big-4 Rail Trail',
+    description:
+      'A paved rail-to-trail path connecting Zionsville to the surrounding area, popular for walking and biking.',
+    href: '/articles/big-4-rail-trail',
+    image: '/images/articles/zionsville-rail-trail-hero.webp',
+    imageAlt: 'Big-4 Rail Trail in Zionsville, Indiana',
+  },  
+  {
+    title: 'Downtown Zionsville Map',
+    description:
+      'A printable map of downtown Zionsville with shops, restaurants, parking, and the Village district.',
+    href: '/articles/downtown-zionsville-map',
+    image: '/images/articles/downtown-zionsville-map-hero.webp',
+    imageAlt: 'Map of downtown Zionsville, Indiana',
+  },  
+  {
+    title: 'Mulberry Fields Park',
+    description:
+      'Splash pad, playgrounds, picnic shelters, and prairie trails on the south end of Zionsville.',
+    href: '/articles/mulberry-fields-park',
+    image: '/images/parks/zionsville-mulberry-fields-park-hero.webp',
+    imageAlt: 'Mulberry Fields Park in Zionsville, Indiana',
+  },
+]
+
 export default function HomePage() {
   const events = getFeaturedEvents(6)
-  const heroEvents = events.slice(0, 3)
 
   return (
     <>
@@ -112,7 +138,7 @@ export default function HomePage() {
       <Header />
 
       <main>
-        {/* ── Hero — 2-column ──────────────────────────────────────────── */}
+        {/* ── Hero — single column ─────────────────────────────────────── */}
         <section
           className="relative bg-stone-900 text-white overflow-hidden"
           style={{ minHeight: '380px' }}
@@ -127,122 +153,50 @@ export default function HomePage() {
             />
           </div>
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-14">
-            <div className="grid lg:grid-cols-2 gap-10 items-start">
-              {/* Left — H1 + intro + buttons */}
-              <div>
-                <p className="text-brick-300 text-sm font-medium uppercase tracking-widest mb-3">
-                  Historic Charm, Modern Living
-                </p>
-                <h1 className="font-display text-4xl sm:text-5xl font-bold leading-tight mb-5">
-                  Your Guide to Zionsville, Indiana
-                </h1>
-                <p className="text-stone-300 text-base max-w-md mb-8 leading-relaxed">
-                  Explore{' '}
-                  <Link
-                    href="/events"
-                    className="underline hover:no-underline"
-                  >
-                  events
-                  </Link>
-                  ,{' '}
-                  <Link
-                    href="/downtown"
-                    className="underline hover:no-underline"
-                  >
-                  downtown
-                  </Link>
-                  ,{' '}
-                  <Link
-                    href="/things-to-do"
-                    className="underline hover:no-underline"
-                  >
-                  things to do
-                  </Link>
-                  , and what's happening in Zionsville —
-                  updated regularly.
-                </p>
-                <div className="flex flex-wrap gap-3">
-                  <Link
-                    href="/events"
-                    className="bg-brick-500 hover:bg-brick-600 text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
-                  >
-                    Upcoming Events
-                  </Link>
-                  <Link
-                    href="/downtown"
-                    className="border border-white/40 hover:border-white text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
-                  >
-                    Explore Downtown
-                  </Link>
-                  {/* <Link
-                    href="/about"
-                    className="border border-white/40 hover:border-white text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
-                  >
-                    New to Town?
-                  </Link> */}
-                </div>
-              </div>
-
-              {/* Right — upcoming event cards */}
-              <div className="flex flex-col gap-3 mt-6 lg:mt-0">
-                {heroEvents.map((event) => (
-                  <Link
-                    key={event.slug}
-                    href={`/events/${event.slug}`}
-                    className="group flex items-center gap-3 bg-black/40 hover:bg-black/60 border border-white/20 rounded-lg px-4 py-3 transition-colors"
-                  >
-                    <div className="shrink-0 text-center w-10 flex flex-col justify-center">
-                      {event.perennial ? (
-                        <p className="text-brick-300 text-xs uppercase tracking-wide leading-none">
-                          {event.perennialSeason}
-                        </p>
-                      ) : (
-                        <>
-                          <p className="text-brick-300 text-xs uppercase tracking-wide leading-none">
-                            {new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', {
-                              month: 'short',
-                              timeZone: 'UTC',
-                            })}
-                          </p>
-                          <p className="text-white font-display text-xl leading-none mt-0.5">
-                            {new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', {
-                              day: 'numeric',
-                              timeZone: 'UTC',
-                            })}
-                          </p>
-                          {!event.recurrenceLabel && (!event.endDate || event.endDate === event.startDate) && (
-                            <p className="text-brick-300 text-[10px] uppercase tracking-wide leading-none mt-1">
-                              {new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', {
-                                weekday: 'short',
-                                timeZone: 'UTC',
-                              })}
-                            </p>
-                          )}
-                        </>
-                      )}
-                    </div>
-                    <div className="flex-1 min-w-0">
-                      <p className="text-white font-medium text-sm group-hover:text-brick-200 transition-colors truncate">
-                        {event.title}
-                      </p>
-                      {event.perennial ? (
-                        <p className="text-stone-300 text-xs truncate mt-0.5">{event.perennialLabel}</p>
-                      ) : event.recurrenceLabel ? (
-                        <p className="text-stone-300 text-xs truncate mt-0.5">{event.recurrenceLabel}</p>
-                      ) : event.endDate && event.endDate !== event.startDate ? (
-                        <p className="text-stone-300 text-xs truncate mt-0.5">
-                          {`${new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })} – ${new Date(event.endDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`}
-                        </p>
-                      ) : null}
-                      <p className="text-stone-300 text-xs truncate mt-0.5">{event.location}</p>
-                    </div>
-                  </Link>
-                ))}
+            <div className="max-w-2xl">
+              <p className="text-brick-300 text-sm font-medium uppercase tracking-widest mb-3">
+                Historic Charm, Modern Living
+              </p>
+              <h1 className="font-display text-4xl sm:text-5xl font-bold leading-tight mb-5">
+                Your Guide to Zionsville, Indiana
+              </h1>
+              <p className="text-stone-300 text-base max-w-md mb-8 leading-relaxed">
+                Explore{' '}
                 <Link
                   href="/events"
-                  className="text-xs text-stone-300 hover:text-white transition-colors text-right"
+                  className="underline hover:no-underline"
                 >
-                  Full events calendar →
+                events
+                </Link>
+                ,{' '}
+                <Link
+                  href="/downtown"
+                  className="underline hover:no-underline"
+                >
+                downtown
+                </Link>
+                ,{' '}
+                <Link
+                  href="/things-to-do"
+                  className="underline hover:no-underline"
+                >
+                things to do
+                </Link>
+                , and what&apos;s happening in Zionsville —
+                updated regularly.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link
+                  href="/events"
+                  className="bg-brick-500 hover:bg-brick-600 text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
+                >
+                  Upcoming Events
+                </Link>
+                <Link
+                  href="/downtown"
+                  className="border border-white/40 hover:border-white text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
+                >
+                  Explore Downtown
                 </Link>
               </div>
             </div>
@@ -267,58 +221,19 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── Seasonal Spotlight ───────────────────────────────────────── */}
-        <section className="bg-white">
-          <div className="max-w-6xl mx-auto px-4 sm:px-6 py-4">
-            <div className="max-w-3xl bg-amber-100 rounded-lg p-5 sm:p-6">
-              <div className="flex items-center gap-2 mb-2">
-                <span aria-hidden="true">☀️</span>
-                <p className="text-xs uppercase tracking-widest text-amber-800 font-medium">
-                  SUMMER 2026
-                </p>
-              </div>
-              <h2 className="font-display text-2xl text-amber-950 mb-2">
-                Planning a{' '}
-                <Link
-                  href="/articles/summer-day-trips-from-zionsville"
-                  className="hover:text-amber-800"
-                >
-                  summer day trip
-                </Link>
-                ?
-              </h2>
-              <p className="text-amber-900 leading-relaxed mb-3">
-                From farms and water parks to state parks, museums, and animal encounters, 
-                Zionsville is within easy reach of dozens of family-friendly day trip destinations — 
-                most within a two-hour drive.
-              </p>
-              <Link
-                href="/articles/summer-day-trips-from-zionsville"
-                className="text-sm text-amber-800 hover:text-amber-900 font-medium"
-              >
-                See 17 Summer Day Trips for Families →
-              </Link>
-            </div>
-          </div>
-        </section>
-
         {/* ── Upcoming Events ──────────────────────────────────────────── */}
-        <section className="max-w-6xl mx-auto px-4 sm:px-6 py-16">
-          <div className="flex items-end justify-between mb-8">
-            <div>
-              <h2 className="font-display text-3xl text-stone-900">
-                Upcoming Events
-              </h2>
-              <p className="text-stone-500 mt-1">
-                What&apos;s happening in Zionsville
-              </p>
-            </div>
+        <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10">
+          <div className="mb-8">
             <Link
               href="/events"
-              className="text-sm text-brick-600 hover:text-brick-700 font-medium"
+              className="group inline-flex items-center gap-2 text-stone-900 hover:text-brick-600 transition-colors"
             >
-              View all events →
+              <h2 className="font-display text-3xl">Upcoming Events</h2>
+              <span className="text-2xl transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
             </Link>
+            <p className="text-stone-500 mt-1">
+              What&apos;s happening in Zionsville
+            </p>
           </div>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {events.map((event) => (
@@ -375,62 +290,84 @@ export default function HomePage() {
         </section>
 
         {/* ── Downtown Zionsville ───────────────────────────────────────── */}
-        <section className="bg-stone-100 py-16">
+        <section className="bg-stone-100 py-10">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
             <div className="max-w-3xl mb-8">
-              <h2 className="font-display text-3xl text-stone-900 mb-3">
-                Downtown Zionsville
-              </h2>
+              <Link
+                href="/downtown"
+                className="group inline-flex items-center gap-2 text-stone-900 hover:text-brick-600 transition-colors mb-3"
+              >
+                <h2 className="font-display text-3xl">Downtown Zionsville</h2>
+                <span className="text-2xl transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+              </Link>
               <p className="text-stone-500 mb-8">
-              Local dining, shopping, and cafés in the Village.  
+              Restaurants, shops, and outdoor drinks in the Village district.  
               </p>
               <p className="text-stone-700 leading-relaxed mb-4">
-                Brick-paved Main Street is the heart of downtown Zionsville’s
-                Village district. Along this walkable stretch, historic storefronts
-                house locally owned restaurants, cafés, boutiques, galleries, and
-                small businesses.</p>
-              <p className="text-stone-600 leading-relaxed">
-                Plan a visit around a meal, shopping, coffee with a friend, or one of the seasonal events that fill Main Street throughout the year.
+                Brick-paved Main Street is the heart of downtown Zionsville's Village district — a walkable stretch of locally owned restaurants, shops, and cafés.
               </p>
             </div>
-            <div className="grid sm:grid-cols-2 gap-5 mb-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               <Link
                 href="/articles/dining-in-downtown-zionsville"
-                className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
+                className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
               >
-                <div className="absolute inset-0">
+                <div className="relative aspect-[16/9] bg-stone-100">
                   <Image
                     src="/images/downtown/zionsville-downtown-dining.jpg"
                     alt="Dining in downtown Zionsville"
                     fill
-                    className="object-cover opacity-80 group-hover:opacity-95 transition-opacity"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="relative p-6">
-                  <h3 className="font-display text-2xl text-white">Dining</h3>
-                  <p className="text-stone-300 text-sm mt-1">
+                <div className="p-4">
+                  <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
+                    Dining
+                  </h3>
+                  <p className="text-sm text-stone-500 mt-1 line-clamp-2">
                     Restaurants, cafés, and casual meals in the Village
                   </p>
                 </div>
               </Link>
               <Link
                 href="/articles/shopping-in-downtown-zionsville"
-                className="group relative rounded-lg overflow-hidden aspect-[3/2] flex items-end bg-stone-800"
+                className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
               >
-                <div className="absolute inset-0">
+                <div className="relative aspect-[16/9] bg-stone-100">
                   <Image
                     src="/images/downtown/zionsville-downtown-shopping.jpg"
                     alt="Shopping in downtown Zionsville"
                     fill
-                    className="object-cover object-top opacity-80 group-hover:opacity-95 transition-opacity"
+                    className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
-                <div className="relative p-6">
-                  <h3 className="font-display text-2xl text-white">
+                <div className="p-4">
+                  <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
                     Shopping
                   </h3>
-                  <p className="text-stone-300 text-sm mt-1">
+                  <p className="text-sm text-stone-500 mt-1 line-clamp-2">
                     Boutiques, gifts, home décor, and local shops
+                  </p>
+                </div>
+              </Link>
+              <Link
+                href="/articles/dora-zionsville-guide"
+                className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
+              >
+                <div className="relative aspect-[16/9] bg-stone-100">
+                  <Image
+                    src="/images/zionsville-dora.webp"
+                    alt="DORA in downtown Zionsville"
+                    fill
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                </div>
+                <div className="p-4">
+                  <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
+                    Outdoor Drinks Downtown
+                  </h3>
+                  <p className="text-sm text-stone-500 mt-1 line-clamp-2">
+                    Carry approved drinks in the designated outdoor refreshment area (DORA)
                   </p>
                 </div>
               </Link>
@@ -444,62 +381,95 @@ export default function HomePage() {
           </div>
         </section>
 
-        {/* ── Things to Do ──────────────────────────────────────────────── */}
-        <section className="bg-white py-16">
+        {/* ── Featured Guides ──────────────────────────────────────────── */}
+        <section className="bg-stone-50 py-10">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <h2 className="font-display text-3xl text-stone-900 mb-2">
-              Things to Do in Zionsville
-            </h2>
-            <p className="text-stone-500 mb-8">
-              Beyond Main Street — trails, parks, farms, and dining
-              outside the Village.
-            </p>
-            <div className="grid lg:grid-cols-2 gap-8 items-start">
+            <div className="mb-8">
               <Link
-                href="/things-to-do"
-                className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
+                href="/articles"
+                className="group inline-flex items-center gap-2 text-stone-900 hover:text-brick-600 transition-colors"
+              >
+                <h2 className="font-display text-3xl">Featured Guides</h2>
+                <span className="text-2xl transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
+              </Link>
+              <p className="text-stone-500 mt-1">
+                Parks, trails, and downtown
+              </p>
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {featuredGuides.map((guide) => (
+                <Link
+                  key={guide.href}
+                  href={guide.href}
+                  className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
+                >
+                  <div className="relative aspect-[16/9] bg-stone-100">
+                    <Image
+                      src={guide.image}
+                      alt={guide.imageAlt}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
+                      {guide.title}
+                    </h3>
+                    <p className="text-sm text-stone-500 mt-1 line-clamp-2">
+                      {guide.description}
+                    </p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ── Featured Article ─────────────────────────────────────────── */}
+        <section className="bg-white py-10">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <p className="text-xs uppercase tracking-widest text-brick-600 font-medium mb-3">
+              Featured Article
+            </p>
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <Link
+                href="/articles/summer-day-trips-from-zionsville"
+                className="group relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200 block"
               >
                 <Image
-                  src="/images/things-to-do-hero.jpg"
-                  alt="Things to do in Zionsville, Indiana"
+                  src="/images/articles/summer-day-trips-from-zionsville-hero.webp"
+                  alt="Summer day trips from Zionsville, Indiana"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </Link>
               <div>
-                <p className="text-stone-700 leading-relaxed mb-4">
-                  A visit to Zionsville often starts in the historic Village
-                  district downtown, with its brick-paved Main Street, locally
-                  owned shops, and restaurants. But there is more to explore
-                  across town, including the Rail Trail, the Zionsville
-                  Nature Center, Traders Point Creamery, Boone Village
-                  dining, and seasonal farm experiences beyond the Village.
-                </p>
+                <Link
+                  href="/articles/summer-day-trips-from-zionsville"
+                  className="group inline-block"
+                >
+                  <h2 className="font-display text-3xl text-stone-900 group-hover:text-brick-600 transition-colors leading-tight mb-4">
+                    17 Summer Day Trips from Zionsville
+                  </h2>
+                </Link>
                 <p className="text-stone-700 leading-relaxed mb-6">
-                  The Things to Do guide covers downtown, outdoor recreation, dining 
-                  beyond Main Street, and other places to explore around Zionsville.
+                  From farms and water parks to state parks, museums, and animal encounters,
+                  Zionsville is within easy reach of dozens of family-friendly day trip destinations —
+                  most within a two-hour drive.
                 </p>
                 <Link
-                  href="/things-to-do"
-                  className="text-sm text-brick-600 hover:text-brick-700 font-medium"
+                  href="/articles/summer-day-trips-from-zionsville"
+                  className="inline-block bg-brick-500 hover:bg-brick-600 text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
                 >
-                  See things to do in Zionsville →
+                  Read the guide →
                 </Link>
-                <div className="mt-3">
-                  <Link
-                    href="/articles/summer-day-trips-from-zionsville"
-                    className="text-sm text-brick-600 hover:text-brick-700 font-medium"
-                  >
-                    Looking beyond town? See summer day trips from Zionsville →
-                  </Link>
-                </div>
               </div>
             </div>
           </div>
         </section>
 
         {/* ── FAQ ──────────────────────────────────────────────────────── */}
-        <section className="bg-white py-16">
+        <section className="bg-white py-10">
           <div className="max-w-3xl mx-auto px-4 sm:px-6">
             <h2 className="font-display text-3xl text-stone-900 mb-8">
               Common questions about Zionsville
