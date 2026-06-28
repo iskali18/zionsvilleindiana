@@ -180,7 +180,7 @@ Zoos and sanctuaries can give kids a closer look at animals they may only know f
 - **Best For:** Full-day zoo and botanical garden outing
 - **Age Range:** All ages
 
-Founded in 1875, the Cincinnati Zoo & Botanical Garden is the second-oldest zoo in the United States and The 75-acre zoo features animal exhibits and a working botanical garden — giraffes, gorillas, garden paths, and flowers all in one place. 
+Founded in 1875, the Cincinnati Zoo & Botanical Garden is the second-oldest zoo in the United States. The 75-acre location features animal exhibits and a working botanical garden — giraffes, gorillas, garden paths, and flowers all in one place. 
 
 For many kids, Fiona the hippo is still the star. Born prematurely in 2017, Fiona became famous after the zoo shared her survival story with people around the world. Families can also ride the **Safari Train**, a nostalgic zoo attraction that takes an 8-minute scenic loop past areas near Swan Lake, flamingos, Mexican wolves, and Galapagos tortoises. 
 
