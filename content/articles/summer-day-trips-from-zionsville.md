@@ -199,7 +199,7 @@ Check the daily events calendar for keeper talks, animal encounters, feeding opp
 - **Location:** [4012 E 800 N, Battle Ground, IN](https://maps.app.goo.gl/xd311WZfABahBEHLA)
 - **Drive:** ~1 hr · 60 miles NW
 - **Best For:** Guided wildlife tour with wolves, foxes, and bison
-- **Age Range:** All ages; free admission for children under 5
+- **Age Range:** All ages
 
 Wolf Park is a nonprofit education and research facility on more than 75 acres of rewilded farmland near Lafayette. The park provides a permanent home for wolves, foxes, bison, and other wildlife, with guided tours available almost everyday from May through November. One of its signature experiences is Howl Night: Decoding the Howl, where visitors can learn about wolf communication, listen for howls from the resident pack, and join in a group howl. Photography tours, feeding demonstrations, and other special programs are also offered throughout the season.
 
