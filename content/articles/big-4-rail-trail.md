@@ -391,8 +391,8 @@ To reach Heritage Trail Park, cross S 875 E at the marked trail crossing and con
 ## Section 5: Heritage Trail Park to Whitestown Border
 
 <figure>
-  <a href="/images/articles/rail-trail-section-5.webp" target="_blank" rel="noopener noreferrer">
-    <img src="/images/articles/rail-trail-section-5.webp" alt="An aerial satellite map overview of Section 5 of the Big-4 Rail Trail in Zionsville, Indiana, highlighting the 1.2-mile open corridor from Heritage Trail Park northwest to the Whitestown border." class="rounded-lg shadow-sm cursor-zoom-in" />
+  <a href="/images/articles/rail-trail-section-5a.webp" target="_blank" rel="noopener noreferrer">
+    <img src="/images/articles/rail-trail-section-5a.webp" alt="An aerial satellite map overview of Section 5 of the Big-4 Rail Trail in Zionsville, Indiana, highlighting the 1.2-mile open corridor from Heritage Trail Park northwest to the Whitestown border." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Section 5 follows the final Zionsville stretch from Heritage Trail Park to the Whitestown border, where the trail reaches 750 E. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
