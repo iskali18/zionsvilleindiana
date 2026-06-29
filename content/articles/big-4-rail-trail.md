@@ -405,8 +405,6 @@ After leaving the park, the path has limited shade and wider views, with farm fi
 
 At 750 E, the Zionsville portion ends at a signed road crossing beside open farmland. Across the road, the Big-4 Rail Trail continues into Whitestown, heading north before turning northeast toward Main Street in Downtown Whitestown. Main Street is about 1.5 miles beyond 750 E, with a crossing at Albert S. White Drive along the way.
 
-At 750 E, the Zionsville portion ends at a signed road crossing beside open farmland. Across the road, the Big-4 Rail Trail continues into Whitestown, heading north before turning northeast toward Main Street in Downtown Whitestown. Main Street is about 1.5 miles beyond 750 E, with a crossing at Albert S. White Drive along the way. 
-
 The Whitestown trail continues beyond downtown to 500 E; together, the Zionsville and Whitestown sections make up [nearly 9 miles](https://storymaps.arcgis.com/stories/2e63587c2eef4729bfbe85cae288bd89) of paved trail.
 
 
