@@ -53,10 +53,10 @@ The celebration runs from late afternoon through the fireworks finale:
 **When:** Saturday, July 4, 2026, 5:00 PM – approximately 10:30 PM  
 **Location:** Lions Park, 11053 Sycamore St, Zionsville  
 **Admission:** Free  
-**Seating:** Bring your own chairs or blankets. Prime viewing spots on the ball fields fill several hours before the 10 PM fireworks.
+**Seating:** Bring your own chairs or blankets and find your viewing spot in the ball fields or along the park perimeter . 
 
 **Parking:**  
-This is one of the most heavily attended events of the year. Many residents and visitors walk several blocks with lawn chairs, blankets, or wagons rather than driving close to the park.
+This is one of the most heavily attended events of the year. Many residents and visitors walk several blocks with lawn chairs, blankets, or wagons while others arrive early to park nearby.
 
 On-site parking at Lions Park is $8.00 per vehicle (cash only) and supports park maintenance — the lot opens at 4 PM. Overflow paid parking is available on the vacant lot at the southwest corner of Main Street and Sycamore Street ($8.00 cash).
 

@@ -152,7 +152,7 @@ export default function HomePage() {
               priority
             />
           </div>
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-14">
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20">
             <div className="max-w-2xl">
               <p className="text-brick-300 text-sm font-medium uppercase tracking-widest mb-3">
                 Historic Charm, Modern Living
@@ -431,7 +431,7 @@ export default function HomePage() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <Link
                 href="/articles/summer-day-trips-from-zionsville"
-                className="group relative aspect-[4/3] rounded-lg overflow-hidden bg-stone-200 block"
+                className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
               >
                 <Image
                   src="/images/articles/summer-day-trips-from-zionsville-hero.webp"
