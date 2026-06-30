@@ -299,13 +299,13 @@ export default function DowntownPage() {
             })}
           </div>
 
-          {/* Section nav cards — 2-up, clearly clickable */}
+          {/* Section nav cards — 3-up */}
           <section className="mt-16">
-            <h2 className="font-display text-3xl text-stone-900 mb-3">Dining and shopping guides</h2>
+            <h2 className="font-display text-3xl text-stone-900 mb-3">Dining, shopping, and outdoor drinks</h2>
             <p className="text-stone-700 leading-relaxed mb-6">
-              Use these guides to plan where to eat, shop, and spend time in the Village. The dining guide covers restaurants, cafés, coffee, and dessert, while the shopping guide highlights books, jewelry, home décor, and other local shops. These guides are growing, and more businesses will be added over time.
+              Use these guides to plan where to eat, shop, and spend time in the Village. The dining guide covers restaurants, cafés, coffee, and dessert. The shopping guide highlights books, jewelry, home décor, and other local shops. The DORA guide covers the designated outdoor refreshment area for carrying drinks outside on Main Street.
             </p>
-            <div className="grid sm:grid-cols-2 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
                 href="/articles/dining-in-downtown-zionsville"
                 className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
@@ -337,6 +337,23 @@ export default function DowntownPage() {
                   </p>
                   <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
                     Browse shopping <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
+                  </span>
+                </div>
+              </Link>
+              <Link
+                href="/articles/dora-zionsville-guide"
+                className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
+              >
+                <div className="relative aspect-[3/2] bg-stone-200">
+                  <Image src="/images/zionsville-dora.webp" alt="DORA in downtown Zionsville" fill className="object-cover" sizes="(max-width: 640px) 100vw, 436px" />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Outdoor Drinks Downtown</h3>
+                  <p className="text-stone-600 text-sm leading-relaxed mb-3">
+                    Carry approved drinks in Zionsville's designated outdoor refreshment area (DORA) along Main Street and through the Village.
+                  </p>
+                  <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
+                    See DORA details <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
                   </span>
                 </div>
               </Link>
