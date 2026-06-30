@@ -303,7 +303,7 @@ export default function DowntownPage() {
           <section className="mt-16">
             <h2 className="font-display text-3xl text-stone-900 mb-3">Dining, shopping, and outdoor drinks</h2>
             <p className="text-stone-700 leading-relaxed mb-6">
-              Use these guides to plan where to eat, shop, and spend time in the Village. The dining guide covers restaurants, cafés, coffee, and dessert. The shopping guide highlights books, jewelry, home décor, and other local shops. The DORA guide covers the designated outdoor refreshment area for carrying drinks outside on Main Street.
+              Use these guides to plan where to eat, shop, and spend time in the Village.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
@@ -316,7 +316,7 @@ export default function DowntownPage() {
                 <div className="p-5">
                   <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Dining</h3>
                   <p className="text-stone-600 text-sm leading-relaxed mb-3">
-                    Browse downtown restaurants, cafés, coffee shops, and dessert spots, with details on each business and where to find them in the Village.
+                    Browse downtown restaurants, coffee shops, and dessert spots.
                   </p>
                   <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
                     Explore dining <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
@@ -333,7 +333,7 @@ export default function DowntownPage() {
                 <div className="p-5">
                   <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Shopping</h3>
                   <p className="text-stone-600 text-sm leading-relaxed mb-3">
-                    Find locally owned shops along Main Street, including books, jewelry, home décor, and gifts, with details on each store in the Village.
+                    Find boutiques and shops for home décor, jewelry, books, gifts, and more.
                   </p>
                   <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
                     Browse shopping <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
@@ -348,9 +348,9 @@ export default function DowntownPage() {
                   <Image src="/images/zionsville-dora.webp" alt="DORA in downtown Zionsville" fill className="object-cover" sizes="(max-width: 640px) 100vw, 436px" />
                 </div>
                 <div className="p-5">
-                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Outdoor Drinks Downtown</h3>
+                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Outdoor Drinks</h3>
                   <p className="text-stone-600 text-sm leading-relaxed mb-3">
-                    Carry approved drinks in Zionsville's designated outdoor refreshment area (DORA) along Main Street and through the Village.
+                    Carry approved drinks within the designated refreshment area.
                   </p>
                   <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
                     See DORA details <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
