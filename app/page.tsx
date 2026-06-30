@@ -348,7 +348,7 @@ export default function HomePage() {
                 </div>
               </Link>
               <Link
-                href="/articles/dora-zionsville-guide"
+                href="/articles/dora"
                 className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
               >
                 <div className="relative aspect-[16/9] bg-stone-100">

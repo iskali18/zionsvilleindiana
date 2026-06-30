@@ -341,7 +341,7 @@ export default function DowntownPage() {
                 </div>
               </Link>
               <Link
-                href="/articles/dora-zionsville-guide"
+                href="/articles/dora"
                 className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
               >
                 <div className="relative aspect-[3/2] bg-stone-200">
