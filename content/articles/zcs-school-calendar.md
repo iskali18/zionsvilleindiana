@@ -8,6 +8,7 @@ hero_image: /images/articles/zcs-school-calendar.webp
 hero_position: "center 55%"
 hero_credit: ""
 hide_hero: true
+print_hide_body: true
 lastUpdated: "2026-06-26"
 draft: false
 faqs:

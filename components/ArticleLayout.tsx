@@ -161,7 +161,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           )}
 
           <div
-            className="prose-village"
+            className={meta.print_hide_body ? "prose-village print:hidden" : "prose-village"}
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
 

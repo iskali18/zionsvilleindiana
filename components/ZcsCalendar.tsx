@@ -133,7 +133,9 @@ function EventRow({ event }: EventRowProps) {
         )}
         {event.comment && (
           <div className="text-sm text-stone-600 mt-0.5">
-            <p>{displayComment}</p>
+            {/* Screen: show truncated or full based on toggle. Print: always show full. */}
+            <p className="print:hidden">{displayComment}</p>
+            <p className="hidden print:block">{event.comment}</p>
             {hasLongComment && (
               <button
                 type="button"

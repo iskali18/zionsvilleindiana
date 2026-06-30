@@ -145,6 +145,7 @@ export interface ArticleMeta {
    *  Defaults to "center 55%" when omitted. */
   hero_position?: string
   hide_hero?: boolean
+  print_hide_body?: boolean
   lastUpdated?: string
   category?: 'discovery' | 'relocation' | 'outdoors' | 'food' | 'family'
   ctas?: Array<{ label: string; href: string }>
