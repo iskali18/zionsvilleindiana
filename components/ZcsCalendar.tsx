@@ -116,8 +116,8 @@ function EventRow({ event }: EventRowProps) {
             key={idx}
             className={
               event.isDistrictwide
-                ? 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-brick-100 text-brick-800 whitespace-nowrap'
-                : 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-village-100 text-village-800 whitespace-nowrap'
+                ? 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-brick-100 text-brick-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900'
+                : 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-village-100 text-village-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900'
             }
           >
             {label}
@@ -138,7 +138,7 @@ function EventRow({ event }: EventRowProps) {
               <button
                 type="button"
                 onClick={() => setShowFull(!showFull)}
-                className="text-brick-600 hover:text-brick-700 font-medium mt-1"
+                className="text-brick-600 hover:text-brick-700 font-medium mt-1 print:hidden"
               >
                 {showFull ? 'Show less' : 'Details'}
               </button>
@@ -162,19 +162,19 @@ function DateBlock({ date, events }: DateBlockProps) {
     : formatCompactDate(date)
 
   return (
-    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6">
-      {/* Date label */}
-      <div className="sm:sticky sm:top-20 sm:self-start mb-2 sm:mb-0">
-        <div className="hidden sm:block">
-          <div className="text-xs font-semibold tracking-widest text-stone-500">
+    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:block print:mb-4 print:pt-4 print:border-t-2 print:border-stone-400 print:break-inside-avoid">
+      {/* Date label — sticky on screen, top-aligned for print */}
+      <div className="sm:sticky sm:top-20 sm:self-start mb-2 sm:mb-0 print:static print:mb-3">
+        <div className="hidden sm:block print:block">
+          <div className="text-xs font-semibold tracking-widest text-stone-500 print:text-stone-700">
             {dateLabel.weekday}
           </div>
-          <div className="text-lg font-semibold text-stone-900 leading-tight whitespace-nowrap">
+          <div className="text-lg font-semibold text-stone-900 leading-tight whitespace-nowrap print:text-xl">
             {dateLabel.monthDay}
           </div>
         </div>
-        {/* Mobile: compact sticky date bar */}
-        <div className="sm:hidden bg-stone-50 border-y border-stone-200 px-2 py-1.5 text-xs font-semibold tracking-widest text-stone-700 sticky top-16 z-10">
+        {/* Mobile: compact sticky date bar (hidden in print) */}
+        <div className="sm:hidden bg-stone-50 border-y border-stone-200 px-2 py-1.5 text-xs font-semibold tracking-widest text-stone-700 sticky top-16 z-10 print:hidden">
           {dateLabel.weekday} · {dateLabel.monthDay}
         </div>
       </div>
@@ -281,6 +281,10 @@ export default function ZcsCalendar() {
   // Generated from the full event list, not the filtered list, so schema is stable.
   const eventSchemaList = useMemo(() => buildEventSchema(zcsEvents), [])
 
+  const handlePrint = () => {
+    window.print()
+  }
+
   return (
     <div className="mt-10">
       {/* JSON-LD Event schema for milestone district-wide dates */}
@@ -293,10 +297,20 @@ export default function ZcsCalendar() {
       ))}
 
       {/* Filter controls */}
-      <div className="mb-8 pb-6 border-b border-stone-200">
-        <p className="text-sm text-stone-600 mb-3">
-          Filter by school. District-wide dates always appear.
-        </p>
+      <div className="mb-8 pb-6 border-b border-stone-200 print:hidden">
+        <div className="flex items-center justify-between gap-4 mb-3 flex-wrap">
+          <p className="text-sm text-stone-600">
+            Filter by school. District-wide dates always appear.
+          </p>
+          <button
+            type="button"
+            onClick={handlePrint}
+            className="inline-flex items-center gap-1.5 text-sm text-brick-600 hover:text-brick-700 font-medium"
+          >
+            <span aria-hidden="true">🖨</span>
+            Print calendar
+          </button>
+        </div>
         <div className="flex flex-wrap gap-2 items-center">
           <Toggle
             label="All schools"

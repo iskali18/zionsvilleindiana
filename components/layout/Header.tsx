@@ -32,7 +32,7 @@ export default function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null)
 
   return (
-    <header className="bg-white border-b border-stone-200 sticky top-0 z-50">
+    <header className="bg-white border-b border-stone-200 sticky top-0 z-50 print:hidden">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between h-16">
         <Link href="/" className="font-display text-xl text-stone-900 hover:text-brick-600 transition-colors">
           Zionsville <span className="text-stone-400 font-normal">Indiana</span>
