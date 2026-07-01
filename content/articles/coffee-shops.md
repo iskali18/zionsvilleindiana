@@ -36,16 +36,71 @@ While the local coffee scene is relatively new, Zionsville and nearby Whitestown
 
 Explore this guide to discover our local coffee shops, their unique specialties, stories, and ambiance, and find your next coffee destination.
 
-## Find a Coffee Shop
+## Coffee Shops at a Glance
 
-<div class="jump-pills">
-<a href="#roasted-in-the-village">Roasted in the Village</a>
-<a href="#our-place-coffee">Our Place Coffee</a>
-<a href="#rivet">RIVET Coffee Bar</a>
-<a href="#java-house">Java House</a>
-<a href="#mochaland">Mochaland</a>
-<a href="#hatties-coffee-house">Hattie's Coffee House</a>
-</div>
+<p class="text-sm text-stone-500 italic mb-4">Not ranked — listed by area.</p>
+
+<style>
+  .quick-answer-table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
+  .quick-answer-table th,
+  .quick-answer-table td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #e7e5e4;
+    text-align: left;
+    vertical-align: top;
+  }
+  .quick-answer-table th { font-weight: 600; color: #44403c; }
+  .quick-answer-table td:first-child { white-space: nowrap; font-weight: 500; }
+  @media (max-width: 640px) {
+    .quick-answer-table th:nth-child(3),
+    .quick-answer-table td:nth-child(3) { display: none; }
+    .quick-answer-table th,
+    .quick-answer-table td { padding: 0.5rem 0.5rem; }
+    .quick-answer-table td:first-child { white-space: normal; }
+  }
+</style>
+
+<table class="quick-answer-table">
+  <thead>
+    <tr>
+      <th>Shop</th>
+      <th>Known for</th>
+      <th>Best for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#roasted-in-the-village">Roasted in the Village</a></td>
+      <td>House-made syrups and featured local art</td>
+      <td>Quality coffee downtown and unique seasonal flavors</td>
+    </tr>
+    <tr>
+      <td><a href="#our-place-coffee">Our Place Coffee</a></td>
+      <td>Community-oriented café with a children's nook</td>
+      <td>Work meetings and group seating</td>
+    </tr>
+    <tr>
+      <td><a href="#rivet">RIVET Coffee Bar</a></td>
+      <td>Specialty-grade coffee in a performance-car setting</td>
+      <td>Breakfast, lunch, and meetings</td>
+    </tr>
+    <tr>
+      <td><a href="#java-house">Java House</a></td>
+      <td>Cold brew–based coffee drinks</td>
+      <td>Flavored cold brews, cold foams, and drive-thru service</td>
+    </tr>
+    <tr>
+      <td><a href="#mochaland">Mochaland</a></td>
+      <td>Middle Eastern coffee traditions and global coffee origins</td>
+      <td>Turkish coffee, Arabic qahwah, and everyday coffee drinks like lattes</td>
+    </tr>
+    <tr>
+      <td><a href="#hatties-coffee-house">Hattie's Coffee House</a></td>
+      <td>Coffee roasted on-site; locally sourced milk and baked goods</td>
+      <td>Renovated farmhouse setting and backyard children's play area</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -68,7 +123,7 @@ The casual, charming space is an apt setting for small groups, relaxed conversat
 
 Roasted is known for its house-made syrups, crafted from scratch with whole ingredients right in the café to flavor lattes and seasonal drinks. Maple brown sugar remains a best seller, while orange cardamom began as a kitchen-tested recipe and became one of the shop's signature flavors. Recent creations include Sunshine Syrup (orange and lemon citrus with golden honey), Strawberry Vanilla, Cookie Butter, and Lavender Rosemary.
 
-The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and baked goods. See the full [Roasted in the Village guide](/businesses/roasted-in-the-village) for photos and menu highlights.
+The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and baked goods. See the [Roasted in the Village local guide](/businesses/roasted-in-the-village) for photos and menu highlights.
 
 ## [Our Place Coffee](/businesses/our-place-coffee) {#our-place-coffee}
 
@@ -89,7 +144,7 @@ The café is warm and inviting with teal walls, hanging plants, high ceilings, a
 
 The menu includes espresso drinks such as lattes, cappuccinos, and flat whites; brewed and iced coffee; tea, Tea-freshers, and hot cocoa. Specialty latte flavors include Snickerdoodle with brown sugar and cinnamon, Berries and Cream with blackberry and raspberry, and Honey Lavender. Food is also available, including breakfast items, savory sides, soft tacos, and sandwiches.
 
-For more menu highlights and photos of the café, see the full [Our Place Coffee guide](/businesses/our-place-coffee).
+For more menu highlights and photos of the café, see the [Our Place Coffee local guide](/businesses/our-place-coffee).
 
 ---
 
@@ -146,11 +201,11 @@ The chain's Michigan Road location has an urban-industrial atmosphere with brick
 
 Visit the [Java House website](https://javahouse.com) to learn about their story and locations across the Indy Metro area and West Lafayette.
 
-## [Mochaland](https://www.mochaland.com/) {#mochaland}
+## [Mochaland](/businesses/mochaland) {#mochaland}
 
 - **Location:** [10895 N Michigan Rd Ste 120, Zionsville, IN 46077](https://maps.app.goo.gl/k9TzyHmb2cfrwp9w8)
 - **Known for:** Middle Eastern coffee traditions and global coffee origins
-- **Best for:** Turkish coffee, Arabic qahwah, Adeni tea, and specialty lattes
+- **Best for:** Turkish coffee, Arabic qahwah, and everyday coffee drinks like lattes
 
 <figure>
   <img src="/images/articles/zionsville-coffee-shops-mochaland.webp" alt="Mochaland coffee shop in Zionsville, showing a narrow modern café interior with dark walls, light wood seating, pendant lights, a long counter, and display shelves." class="rounded-lg shadow-sm" />
@@ -167,7 +222,7 @@ Mochaland partners with farms aligned with its values and roasts coffee in small
 
 The café also serves specialty teas, including Adeni Chai (a Yemeni drink made with black tea, condensed milk, and cardamom), iced Cascara Tea (made by steeping coffee cherry husks), and Mint Tea (fresh mint steeped in hot water with black tea).
 
-To learn more about Mochaland's coffee, story, and locations, visit the [Mochaland website](https://mochaland.com).
+See the [Mochaland local guide](/businesses/mochaland) for photos and menu highlights.
 
 ---
 

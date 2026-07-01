@@ -18,7 +18,6 @@ lastVerified: "2026-05-31"
 </figure>
 <br />
 
-
 Roasted in the Village is an independent coffee house located on East Pine Street, just steps from the brick Main Street. The shop has a cozy, relaxed interior and a focus on small-batch quality. They are well-known for their specialty seasonal lattes and a rotating selection of pastries baked fresh in-house.
 
 The shop often features work from local artists on the walls, adding to its connection to the community. Seating is available indoors, with a small outdoor area during warmer months. Roasted is a comfortable place to sit with coffee, pastries, or a seasonal latte while spending time downtown.
