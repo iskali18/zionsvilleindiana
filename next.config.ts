@@ -21,6 +21,11 @@ const nextConfig: NextConfig = {
         destination: '/things-to-do',
         permanent: true,
       },
+      {
+        source: '/articles/zionsville-coffee-shops',
+        destination: '/articles/coffee-shops',
+        permanent: true,
+      },
     ]
   },
 }

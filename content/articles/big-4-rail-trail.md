@@ -56,10 +56,10 @@ This guide divides the Rail Trail through Zionsville into shorter sections, with
 | Section                                                                                                    |   Distance | Parking near south end             | Parking near north end             |
 | ---------------------------------------------------------------------------------------------------------- | ---------: | ---------------------------------- | ---------------------------------- |
 | [Section 1: Zionsville Road to Town Hall](#section-1-zionsville-road-to-town-hall)                         | ~1.5 miles | Zionsville Road Trailhead lot      | Town Hall lot                      |
-| [Section 2: Town Hall to Bloor Lane](#section-2-town-hall-to-bloor-lane)                                   |  ~0.4 mile | Town Hall lot                      | Jennings Field lot on Bloor Lane |
-| [Section 3: Bloor Lane to Mulberry Street](#section-3-bloor-lane-to-mulberry-street)                       | ~0.6 mile | Jennings Field lot on Bloor Lane | Mulberry Fields Park lot           |
-| [Section 4: Mulberry Street to Heritage Trail Park](#section-4-mulberry-street-to-heritage-trail-park)     | ~1.6 miles | Mulberry Fields Park lot           | Heritage Trail Park lot            |
-| [Section 5: Heritage Trail Park to Whitestown border](#section-5-heritage-trail-park-to-whitestown-border) | ~1.2 miles | Heritage Trail Park lot            | None                                |
+| [Section 2: Town Hall to Bloor Lane](#section-2-town-hall-to-bloor-lane)                                   |  ~0.4 mile | Town Hall lot                      | Jennings Field lot on Bloor Lane  |
+| [Section 3: Bloor Lane to Mulberry Street](#section-3-bloor-lane-to-mulberry-street)                       | ~0.6 mile | [Jennings Field lot on Bloor Lane](https://maps.app.goo.gl/KK6VRfPbf1tUoiMu8) | [Mulberry Fields Park lot](https://maps.app.goo.gl/XToiwCx1f332A9R67)           |
+| [Section 4: Mulberry Street to Heritage Trail Park](#section-4-mulberry-street-to-heritage-trail-park)     | ~1.6 miles | [Mulberry Fields Park lot](https://maps.app.goo.gl/XToiwCx1f332A9R67)           | [Heritage Trail Park lot](https://maps.app.goo.gl/chb5u6Nc55bbF1NK9)            |
+| [Section 5: Heritage Trail Park to Whitestown border](#section-5-heritage-trail-park-to-whitestown-border) | ~1.2 miles | [Heritage Trail Park lot](https://maps.app.goo.gl/chb5u6Nc55bbF1NK9)            | None                                |
 
 ### Trail Features by Section
 
@@ -133,7 +133,7 @@ From there, the route continues to a Zionsville Train Depot historic landmark si
 | Detail                | Information                                                                                                                                                                                                                   |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Distance              | ~1.5 miles                                                                                                                                                                                                                    |
-| Parking       | South end: Zionsville Road Trailhead lot<br>North end: Town Hall lot                                                                                                                                                                                  |
+| Parking       | South end: [Zionsville Road Trailhead lot](https://maps.app.goo.gl/2H3Bf9zBj6rEC6i1A)<br>North end: [Town Hall lot](https://maps.app.goo.gl/vggjiEvuCCfcVm6t8)                                                                                                                                                                                  |
 | Street crossing | Lemberger Boulevard, a main entrance into the neighborhood                                                                                                                                                           |
 | Restrooms             | Zionsville Road Trailhead: restrooms with baby changing tables and a family restroom<br>Town Hall: indoor restrooms available Monday–Friday, 8 AM–4 PM<br>Starkey Avenue Trail Parking: portable restroom|
 | Drinking water        | Zionsville Road Trailhead: drinking fountain and bottle filler<br>Town Hall: indoor drinking fountains and bottle filler available Monday–Friday, 8 AM–4 PM                                                                          |
@@ -277,7 +277,7 @@ Just beyond the underpass, access paths leave the Rail Trail on both sides. The 
 | Detail              | Information                                                                                                |
 | ------------------- | ---------------------------------------------------------------------------------------------------------- |
 | Distance            | ~0.4 mile                                                                                                  |
-| Parking             | South end: Town Hall lot<br>North end: Jennings Field lot on Bloor Lane                                  |
+| Parking             | South end: [Town Hall lot](https://maps.app.goo.gl/vggjiEvuCCfcVm6t8)<br>North end: [Jennings Field lot on Bloor Lane](https://maps.app.goo.gl/KK6VRfPbf1tUoiMu8)                                  |
 | Street crossing     | No                                                                                                         |
 | Restrooms           | Town Hall: indoor restrooms available Monday–Friday, 8 AM–4 PM                                             |
 | Drinking water      | Town Hall: indoor drinking fountains and bottle filler available Monday–Friday, 8 AM–4 PM                  |
