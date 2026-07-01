@@ -49,9 +49,7 @@ Explore this guide to discover our local coffee shops, their unique specialties,
 
 ---
 
-## Downtown Zionsville {#downtown-village}
-
-### [Roasted in the Village](/businesses/roasted-in-the-village) {#roasted-in-the-village}
+## [Roasted in the Village](/businesses/roasted-in-the-village) {#roasted-in-the-village}
 
 - **Location:** [27 E Pine St, Zionsville, IN 46077](https://maps.app.goo.gl/K2cQ8s8TN7TCNhCG7)
 - **Known for:** House-made syrups and featured local art
@@ -72,7 +70,7 @@ Roasted is known for its house-made syrups, crafted from scratch with whole ingr
 
 The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and baked goods. See the full [Roasted in the Village guide](/businesses/roasted-in-the-village) for photos and menu highlights.
 
-### [Our Place Coffee](/businesses/our-place-coffee) {#our-place-coffee}
+## [Our Place Coffee](/businesses/our-place-coffee) {#our-place-coffee}
 
 - **Location:** [65 S 1st St, Zionsville, IN 46077](https://maps.app.goo.gl/F8tCgUfm15Bvg4gHA)
 - **Known for:** Community-oriented café with a children's nook
@@ -95,9 +93,7 @@ For more menu highlights and photos of the café, see the full [Our Place Coffee
 
 ---
 
-## Creekside Corporate Park {#rivet-coffee}
-
-### [RIVET Coffee Bar](https://www.rivetcoffee.com/) {#rivet}
+## [RIVET Coffee Bar](https://www.rivetcoffee.com/) {#rivet}
 
 - **Location:** [10850 Creek Wy, Zionsville, IN 46077](https://maps.app.goo.gl/wqEn3HHSoRxZ2nLAA)
 - **Known for:** Specialty-grade coffee in a performance-car setting
@@ -124,8 +120,6 @@ Visit [RIVET's website](https://rivetcoffee.com) to learn more about their coffe
 
 ---
 
-## Michigan Road Corridor {#michigan-road}
-
 <!--
 <figure>
   <img src="/images/articles/zionsville-coffee-shops-java-house.webp" alt="" class="rounded-lg shadow-sm" />
@@ -136,7 +130,7 @@ Visit [RIVET's website](https://rivetcoffee.com) to learn more about their coffe
 </figure>
 -->
 
-### [Java House](http://javahouse.com/) {#java-house}
+## [Java House](http://javahouse.com/) {#java-house}
 
 - **Location:** [11150 N Michigan Rd, Zionsville, IN 46077](https://maps.app.goo.gl/RchsQpvDHjomaXax8)
 - **Known for:** Cold brew–based coffee drinks
@@ -152,7 +146,7 @@ The chain's Michigan Road location has an urban-industrial atmosphere with brick
 
 Visit the [Java House website](https://javahouse.com) to learn about their story and locations across the Indy Metro area and West Lafayette.
 
-### [Mochaland](https://www.mochaland.com/) {#mochaland}
+## [Mochaland](https://www.mochaland.com/) {#mochaland}
 
 - **Location:** [10895 N Michigan Rd Ste 120, Zionsville, IN 46077](https://maps.app.goo.gl/k9TzyHmb2cfrwp9w8)
 - **Known for:** Middle Eastern coffee traditions and global coffee origins
@@ -177,9 +171,7 @@ To learn more about Mochaland's coffee, story, and locations, visit the [Mochala
 
 ---
 
-## Whitestown {#whitestown}
-
-### [Hattie's Coffee House](https://www.hattiescoffeehouse.com/) {#hatties-coffee-house}
+## [Hattie's Coffee House](https://www.hattiescoffeehouse.com/) {#hatties-coffee-house}
 
 - **Location:** [607 S Main St, Whitestown, IN 46075](https://maps.app.goo.gl/tr67mrTLuQL5A2Wd9)
 - **Known for:** Coffee roasted on-site; locally sourced milk and baked goods
