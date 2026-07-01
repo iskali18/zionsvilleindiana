@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import { getAllArticleSlugs, getArticle } from '@/lib/content'
 import ArticleLayout from '@/components/ArticleLayout'
 import ZcsCalendar from '@/components/ZcsCalendar'
+import ZcsMilestones from '@/components/ZcsMilestones'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -45,7 +46,12 @@ export default async function ArticlePage({ params }: Props) {
 
     return (
       <ArticleLayout meta={meta} contentHtml={contentHtml} pathPrefix="/articles">
-        {slug === 'zcs-school-calendar' && <ZcsCalendar />}
+        {slug === 'zcs-school-calendar' && (
+          <>
+            <ZcsMilestones />
+            <ZcsCalendar />
+          </>
+        )}
       </ArticleLayout>
     )
   } catch {

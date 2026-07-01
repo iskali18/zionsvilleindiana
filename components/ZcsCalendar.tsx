@@ -108,7 +108,7 @@ function EventRow({ event }: EventRowProps) {
     : event.audienceLabel.split(' · ')
 
   return (
-    <div className="grid grid-cols-[9rem_1fr] gap-x-4 py-3 border-b border-stone-100 last:border-b-0">
+    <div className="grid grid-cols-[9rem_1fr] gap-x-4 py-3 border-b border-stone-100 last:border-b-0 print:grid-cols-[11rem_1fr] print:gap-x-2 print:py-1 print:border-stone-200">
       {/* Tag column — fixed width so event text aligns across all rows */}
       <div className="flex flex-wrap gap-1 items-start">
         {tagLabels.map((label, idx) => (
@@ -116,8 +116,8 @@ function EventRow({ event }: EventRowProps) {
             key={idx}
             className={
               event.isDistrictwide
-                ? 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-brick-100 text-brick-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900'
-                : 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-village-100 text-village-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900'
+                ? 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-brick-100 text-brick-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900 print:px-1 print:py-0 print:text-[10px] print:leading-tight'
+                : 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-village-100 text-village-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900 print:px-1 print:py-0 print:text-[10px] print:leading-tight'
             }
           >
             {label}
@@ -127,15 +127,17 @@ function EventRow({ event }: EventRowProps) {
 
       {/* Content column */}
       <div className="min-w-0">
-        <p className="text-stone-900 font-medium leading-snug">{event.title}</p>
+        <p className="text-stone-900 font-medium leading-snug print:text-sm">{event.title}</p>
         {event.time && (
-          <p className="text-sm text-stone-600 mt-0.5">{event.time}</p>
+          <p className="text-sm text-stone-600 mt-0.5 print:text-xs print:mt-0">{event.time}</p>
         )}
         {event.comment && (
-          <div className="text-sm text-stone-600 mt-0.5">
-            {/* Screen: show truncated or full based on toggle. Print: always show full. */}
+          <div className="text-sm text-stone-600 mt-0.5 print:text-xs print:mt-0">
+            {/* Screen: show truncated or full based on toggle. Print: show only short comments to save paper. */}
             <p className="print:hidden">{displayComment}</p>
-            <p className="hidden print:block">{event.comment}</p>
+            {!hasLongComment && (
+              <p className="hidden print:block">{event.comment}</p>
+            )}
             {hasLongComment && (
               <button
                 type="button"
@@ -164,14 +166,14 @@ function DateBlock({ date, events }: DateBlockProps) {
     : formatCompactDate(date)
 
   return (
-    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:block print:mb-4 print:pt-4 print:border-t-2 print:border-stone-400 print:break-inside-avoid">
+    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:grid print:grid-cols-[8rem_1fr] print:gap-x-3 print:mb-1 print:pt-1 print:border-t print:border-stone-300 print:break-inside-avoid">
       {/* Date label — sticky on screen, top-aligned for print */}
-      <div className="sm:sticky sm:top-20 sm:self-start mb-2 sm:mb-0 print:static print:mb-3">
+      <div className="sm:sticky sm:top-20 sm:self-start mb-2 sm:mb-0 print:static print:mb-0">
         <div className="hidden sm:block print:block">
-          <div className="text-xs font-semibold tracking-widest text-stone-500 print:text-stone-700">
+          <div className="text-xs font-semibold tracking-widest text-stone-500 print:text-stone-700 print:text-[9px] print:leading-tight">
             {dateLabel.weekday}
           </div>
-          <div className="text-lg font-semibold text-stone-900 leading-tight whitespace-nowrap print:text-xl">
+          <div className="text-lg font-semibold text-stone-900 leading-tight whitespace-nowrap print:text-sm print:leading-tight">
             {dateLabel.monthDay}
           </div>
         </div>
@@ -288,7 +290,7 @@ export default function ZcsCalendar() {
   }
 
   return (
-    <div className="mt-10">
+    <div className="mt-10 print:mt-0">
       {/* JSON-LD Event schema for milestone district-wide dates */}
       {eventSchemaList.map((schema, idx) => (
         <script
@@ -337,7 +339,7 @@ export default function ZcsCalendar() {
       )}
 
       {monthGroups.map(([month, events]) => (
-        <section key={month} className="mb-6">
+        <section key={month} className="mb-6 print:mb-2">
           {groupByDate(events).map(([date, dateEvents]) => (
             <DateBlock key={date} date={date} events={dateEvents} />
           ))}

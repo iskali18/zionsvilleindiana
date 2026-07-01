@@ -124,7 +124,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
 
-            <div className="absolute top-4 left-4 sm:left-6">
+            <div className="absolute top-4 left-4 sm:left-6 print:hidden">
               <Breadcrumb
                 items={breadcrumbItems}
                 light
@@ -151,10 +151,12 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           {/* Fallback breadcrumb + H1 if no hero, or if hero is hidden */}
           {(!meta.hero_image || meta.hide_hero) && (
             <>
-              <Breadcrumb
-                items={breadcrumbItems}
-              />
-              <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8">
+              <div className="print:hidden">
+                <Breadcrumb
+                  items={breadcrumbItems}
+                />
+              </div>
+              <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8 print:text-xl print:mt-0 print:mb-4">
                 {meta.title}
               </h1>
             </>
@@ -175,7 +177,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           )}
 
           {meta.ctas && meta.ctas.length > 0 && (
-            <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
+            <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6 print:hidden">
               {meta.ctas.map((cta) => (
                 <Link
                   key={cta.href}
