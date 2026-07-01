@@ -1,7 +1,7 @@
 ---
 title: "Coffee Shops in Zionsville"
 seoTitle: "Coffee Shops in Zionsville, Indiana — A Local Guide"
-description: "A local guide to coffee shops in Zionsville, Indiana, including downtown cafés, Michigan Road coffee shops, RIVET Coffee Bar at Creekside, and Hattie's Coffee House in nearby Whitestown."
+description: "A local guide to downtown cafés, Michigan Road coffee shops, RIVET Coffee Bar at Creekside, and Hattie's Coffee House in nearby Whitestown."
 slug: "zionsville-coffee-shops"
 category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero.webp
