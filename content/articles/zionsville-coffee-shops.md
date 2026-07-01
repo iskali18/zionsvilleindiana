@@ -1,7 +1,7 @@
 ---
 title: "Coffee Shops in Zionsville"
 seoTitle: "Coffee Shops in Zionsville, Indiana — A Local Guide"
-description: "A local guide to downtown cafés, Michigan Road coffee shops, RIVET Coffee Bar at Creekside, and Hattie's Coffee House in nearby Whitestown."
+description: "A local guide to coffee shops in Zionsville, Indiana, including downtown cafés, Michigan Road coffee shops, RIVET Coffee Bar at Creekside, and Hattie's Coffee House in nearby Whitestown."
 slug: "zionsville-coffee-shops"
 category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero.webp
@@ -20,9 +20,21 @@ faqs:
     a: "Yes. Hattie's Coffee House is located in nearby Whitestown. The café is in a renovated farmhouse on South Main Street and is known for coffee roasted on-site, locally sourced milk and baked goods, and a backyard children's play area."
 ---
 
+<!--
+PHOTO PLACEHOLDERS — uncomment each block, move to where you want it, and update src/alt/caption/credit
+
+<figure>
+  <img src="/images/articles/coffee-shops-zionsville-1.jpg" alt="[YOUR ALT TEXT]" class="rounded-lg shadow-sm" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    [YOUR CAPTION]<br />
+    <span class="not-italic">© zionsvilleindiana.com</span>
+  </figcaption>
+</figure>
+-->
+
 While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.
 
-Explore this guide to discover our local cafés, their unique specialties, stories, and ambiance, and find your next coffee destination.
+Explore this guide to discover our local coffee shops, their unique specialties, stories, and ambiance, and find your next coffee destination.
 
 ## Find a Coffee Shop
 
@@ -58,7 +70,7 @@ The casual, charming space is an apt setting for small groups, relaxed conversat
 
 Roasted is known for its house-made syrups, crafted from scratch with whole ingredients right in the café to flavor lattes and seasonal drinks. Maple brown sugar remains a best seller, while orange cardamom began as a kitchen-tested recipe and became one of the shop's signature flavors. Recent creations include Sunshine Syrup (orange and lemon citrus with golden honey), Strawberry Vanilla, Cookie Butter, and Lavender Rosemary.
 
-The menu includes espresso drinks, brewed coffee, tea drinks, breakfast burritos, and baked goods. See the full [Roasted in the Village guide](/businesses/roasted-in-the-village) for photos and menu highlights.
+The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and baked goods. See the full [Roasted in the Village guide](/businesses/roasted-in-the-village) for photos and menu highlights.
 
 ### [Our Place Coffee](/businesses/our-place-coffee) {#our-place-coffee}
 
@@ -77,7 +89,7 @@ Our Place Coffee opened in 2022 with the intention of becoming a gathering space
 
 The café is warm and inviting with teal walls, hanging plants, high ceilings, and a large, playful chalkboard menu displaying food and drink offerings. Several tables offer space for conversation or work, while couches provide a more relaxed spot to sip a drink and pass the time. During pleasant weather, the café's charming, umbrella-shaded alleyway seating offers a glimpse of nearby Main Street.
 
-The menu includes espresso drinks such as [lattes](https://javahatch.com/drinks/latte), [cappuccinos](https://javahatch.com/drinks/cappuccino), and [flat whites](https://javahatch.com/drinks/flat-white); brewed and iced coffee; tea, Tea-freshers, and hot cocoa. Specialty latte flavors include Snickerdoodle with brown sugar and cinnamon, Berries and Cream with blackberry and raspberry, and Honey Lavender. Food is also available, including breakfast items, savory sides, soft tacos, and sandwiches.
+The menu includes espresso drinks such as lattes, cappuccinos, and flat whites; brewed and iced coffee; tea, Tea-freshers, and hot cocoa. Specialty latte flavors include Snickerdoodle with brown sugar and cinnamon, Berries and Cream with blackberry and raspberry, and Honey Lavender. Food is also available, including breakfast items, savory sides, soft tacos, and sandwiches.
 
 For more menu highlights and photos of the café, see the full [Our Place Coffee guide](/businesses/our-place-coffee).
 
@@ -100,7 +112,7 @@ For more menu highlights and photos of the café, see the full [Our Place Coffee
 
 Expanding from its original Westfield location, RIVET opened its Zionsville space in 2024 inside a racing company's headquarters on 106th Street.
 
-The spacious coffee bar inside Graham Rahal Performance is a blend of café, breakfast-and-lunch restaurant, meeting lounge, and laptop-friendly workspace, all adjacent to a showroom featuring exotic and high-performance vehicles. The expansive dining area has light-colored walls, high ceilings, and an open floor plan, reflecting the surrounding automotive environment with a refined industrial design.
+The spacious coffee bar inside Graham Rahal Performance is a blend of café, breakfast-and-lunch restaurant, meeting lounge, and laptop-friendly workspace, all adjacent to a showroom featuring exotic and high-performance vehicles. The expansive dining area has light-colored walls, high ceilings, and an open design, reflecting the surrounding automotive environment with a refined industrial aesthetic.
 
 During peak morning hours or at lunchtime, the space has a bustling, high-energy vibe, with people enjoying meals, having conversations, or working while sipping drinks. Come in at a less busy time if you need to plug in a laptop along the perimeter of the room, or if you prefer a more relaxed atmosphere.
 
@@ -108,7 +120,7 @@ RIVET only uses specialty-grade coffee — beans scoring 80 or higher on the 100
 
 The drink menu includes brewed coffee, espresso drinks, specialty lattes, mochas, cold brew, and tea. The food menu includes egg sandwiches, frittatas, liege waffles (a dense, chewy, and sweet Belgian waffle), salads, and open-faced sandwiches.
 
-Visit [RIVET's website](https://rivetcoffee.com) for more information about their coffee beans, café menu, and locations in Westfield.
+Visit [RIVET's website](https://rivetcoffee.com) to learn more about their coffee beans, café menu, and locations in Westfield.
 
 ---
 
@@ -130,15 +142,15 @@ Visit [RIVET's website](https://rivetcoffee.com) for more information about thei
 - **Known for:** Cold brew–based coffee drinks
 - **Best for:** Flavored cold brews, cold foams, and drive-thru service
 
-Java House was established in neighboring Carmel, Indiana, in 2019, with a vision of reimagining cold brew and the way it's served.
+Java House was established in neighboring Carmel, Indiana in 2019, with a vision of reimagining cold brew and the way it's served.
 
 Cold brew is coffee made by steeping grounds in cold water for 12 or more hours, making a smoother, sweeter, and less acidic cup than traditional hot coffee. While every other coffee shop in this guide relies on espresso — coffee extracted using heated, high-pressure water — Java House builds its entire coffee selection on cold brew.
 
-The menu includes a variety of hot and cold coffee drinks, including nitro, lattes, ice-blended frappes, and decaf, along with specialty tea drinks, smoothies, and energy drinks. The café also specializes in unique cold foam flavors and house-made whipped cream. The food menu features pastries, baked goods, and all-day breakfast wraps and sandwiches.
+The drink menu includes a variety of hot and cold coffees, including nitro, lattes, ice-blended frappes, and decaf options, along with specialty tea, smoothies, and energy drinks. The café also specializes in unique cold foam flavors and house-made whipped cream. The food menu features pastries, baked goods, and all-day breakfast wraps and sandwiches.
 
-The chain's Michigan Road location has an urban-industrial atmosphere with brick walls, wood tables, and black metal seating. Tall, expansive windows let in natural light, supplemented by warm pendant lights hanging from high ceilings. The atmosphere complements social gatherings, a break from the workday, or a coffee or tea drink after a meal. The location also has drive-thru service.
+The chain's Michigan Road location has an urban-industrial atmosphere with brick walls, wood tables, and black metal seating. Tall, expansive windows let in natural light, supplemented by warm pendant lights hanging from high ceilings. The atmosphere complements social gatherings, a break from the workday, or a coffee or tea after a meal. The location also has drive-thru service.
 
-Visit the [Java House website](https://javahouse.com) for more information about their cold brew products and locations across the Indy Metro area and West Lafayette.
+Visit the [Java House website](https://javahouse.com) to learn about their story and locations across the Indy Metro area and West Lafayette.
 
 ### [Mochaland](https://www.mochaland.com/) {#mochaland}
 
@@ -153,7 +165,7 @@ Visit the [Java House website](https://javahouse.com) for more information about
   </figcaption>
 </figure>
 
-Mochaland is the newest member of the coffee scene, with a soft opening in Zionsville in mid-2026, expanding from its West Lafayette location. The Michigan Road location has a warm, modern atmosphere, with dark walls, light wood seating, woven pendant lights, and cultural details that reflect its focus on Middle Eastern coffee.
+Mochaland is the newest member of the coffee scene, with a soft opening in Zionsville in mid-2026, expanding from its West Lafayette space. The Michigan Road location has a warm, modern atmosphere, with dark walls, light wood seating, woven pendant lights, and cultural details that reflect its focus on Middle Eastern coffee.
 
 A traditional Arabic coffee pot, or dallah, along with small finjan cups, decorates the light-colored wall behind the service area. On the counter, clear vials of coffee beans, matcha powder, and spice mixes are arranged in a "Lab Wheel" that lets customers see and smell ingredients used across the menu.
 
@@ -195,3 +207,11 @@ Visit [Hattie's website](https://www.hattiescoffeehouse.com) to learn more about
 ---
 
 The cafés of Zionsville and Whitestown represent a distinct community where you can find different ways to experience coffee every day. Whether you need a quiet corner for some downtime, a space to connect, or a chance to experience a new brewing method, explore the local coffee scene and get to know not just coffee, but the towns themselves.
+
+---
+
+## Want to learn more about café menus?
+
+JavaHatch offers straightforward guides to coffee drinks, brewing styles, and café terms, from lattes and cortados to Turkish coffee and cold brew.
+
+[Explore the JavaHatch drink guides →](https://javahatch.com/cafe-journey)
