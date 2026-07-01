@@ -1,6 +1,6 @@
 ---
 title: Big-4 Rail Trail Guide
-seoTitle: "Big-4 Rail Trail Guide: Sections, Parking & Amenities"
+seoTitle: "Zionsville Big-4 Rail Trail Guide: Sections, Parking & Amenities"
 description: Zionsville Rail Trail sections, distances, parking, restrooms, trail amenities, landmarks, and access points.
 hero_image: /images/articles/zionsville-rail-trail-hero.webp
 hero_position: "center 60%"
