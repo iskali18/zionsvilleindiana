@@ -8,6 +8,25 @@ hero_credit: "© ZionsvilleIndiana.com"
 lastUpdated: "2026-06-14"
 category: discovery
 draft: false
+faqs:
+  - q: "What is the Big-4 Rail Trail?"
+    a: "The Big-4 Rail Trail is Zionsville's main paved trail corridor, running about 5 miles from the Zionsville Road trailhead northwest to the Whitestown border. It connects parks, neighborhoods, and downtown Zionsville along the way."
+  - q: "How long is the Zionsville Rail Trail?"
+    a: "The Zionsville section of the Big-4 Rail Trail is about 5 miles long. Combined with the Whitestown section, the connected trail runs nearly 9 miles."
+  - q: "Where does the Big-4 Rail Trail start and end?"
+    a: "In Zionsville, the Big-4 Rail Trail starts at the Zionsville Road trailhead on the southeast side of town and ends at the Whitestown border near 750 E. The trail continues through Whitestown to 500 E, east of downtown Whitestown."
+  - q: "Where can I park to access the Zionsville Rail Trail?"
+    a: "The Big-4 Rail Trail has parking at several points along its route in Zionsville: the Zionsville Road trailhead lot, Town Hall, Jennings Field on Bloor Lane, Mulberry Fields Park, and Heritage Trail Park."
+  - q: "Are dogs allowed on the Big-4 Rail Trail?"
+    a: "Yes, leashed dogs are allowed on the Big-4 Rail Trail in Zionsville."
+  - q: "Is the Big-4 Rail Trail paved?"
+    a: "Yes, the Big-4 Rail Trail is paved with a 12-foot-wide asphalt surface throughout the Zionsville section, suitable for walking, running, biking, strollers, and mobility devices."
+  - q: "Are e-bikes allowed on the Big-4 Rail Trail?"
+    a: "Class 1 and Class 2 e-bikes are allowed on the Big-4 Rail Trail. Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, and gasoline-powered vehicles are not allowed."
+  - q: "Are there restrooms on the Big-4 Rail Trail?"
+    a: "The Big-4 Rail Trail has restrooms and drinking water at Town Hall, Mulberry Fields Park, and Heritage Trail Park."
+  - q: "Does the Zionsville Rail Trail connect to Whitestown?"
+    a: "Yes, the Big-4 Rail Trail continues from Zionsville into Whitestown across 750 E. The Whitestown portion continues to Main Street in downtown Whitestown and beyond to 500 E, making the combined trail nearly 9 miles long."
 ctas:
   - label: Explore things to do in Zionsville
     href: /things-to-do
@@ -17,7 +36,7 @@ ctas:
 
 ## Big-4 Rail Trail
 
-The Big-4 Rail Trail is Zionsville’s main paved trail corridor, beginning at the Zionsville Road trailhead on the southeast side of town and continuing northwest to the Whitestown border. Along the way, it links parks, neighborhoods, a Village-area access point, and several rest areas.
+The Big-4 Rail Trail — often called the Zionsville Rail Trail — is Zionsville’s main paved trail corridor, beginning at the Zionsville Road trailhead on the southeast side of town and continuing northwest to the Whitestown border. Along the way, it links parks, neighborhoods, a Village-area access point, and several rest areas.
 
 The Zionsville section is about 5 miles long, with a wide paved surface for walking, running, biking, strollers, mobility devices, and leashed dogs. The trail also continues into Whitestown, creating a nearly 9-mile paved route for longer walks and rides.
 
