@@ -57,9 +57,9 @@ This guide divides the Rail Trail through Zionsville into shorter sections, with
 | ---------------------------------------------------------------------------------------------------------- | ---------: | ---------------------------------- | ---------------------------------- |
 | [Section 1: Zionsville Road to Town Hall](#section-1-zionsville-road-to-town-hall)                         | ~1.5 miles | Zionsville Road Trailhead lot      | Town Hall lot                      |
 | [Section 2: Town Hall to Bloor Lane](#section-2-town-hall-to-bloor-lane)                                   |  ~0.4 mile | Town Hall lot                      | Jennings Field lot on Bloor Lane  |
-| [Section 3: Bloor Lane to Mulberry Street](#section-3-bloor-lane-to-mulberry-street)                       | ~0.6 mile | [Jennings Field lot on Bloor Lane](https://maps.app.goo.gl/KK6VRfPbf1tUoiMu8) | [Mulberry Fields Park lot](https://maps.app.goo.gl/XToiwCx1f332A9R67)           |
-| [Section 4: Mulberry Street to Heritage Trail Park](#section-4-mulberry-street-to-heritage-trail-park)     | ~1.6 miles | [Mulberry Fields Park lot](https://maps.app.goo.gl/XToiwCx1f332A9R67)           | [Heritage Trail Park lot](https://maps.app.goo.gl/chb5u6Nc55bbF1NK9)            |
-| [Section 5: Heritage Trail Park to Whitestown border](#section-5-heritage-trail-park-to-whitestown-border) | ~1.2 miles | [Heritage Trail Park lot](https://maps.app.goo.gl/chb5u6Nc55bbF1NK9)            | None                                |
+| [Section 3: Bloor Lane to Mulberry Street](#section-3-bloor-lane-to-mulberry-street)                       | ~0.6 mile | Jennings Field lot on Bloor Lane | Mulberry Fields Park lot           |
+| [Section 4: Mulberry Street to Heritage Trail Park](#section-4-mulberry-street-to-heritage-trail-park)     | ~1.6 miles | Mulberry Fields Park lot           | Heritage Trail Park lot            |
+| [Section 5: Heritage Trail Park to Whitestown border](#section-5-heritage-trail-park-to-whitestown-border) | ~1.2 miles | Heritage Trail Park lot           | None                                |
 
 ### Trail Features by Section
 
@@ -189,6 +189,20 @@ From there, the route continues to a Zionsville Train Depot historic landmark si
   .trail-toggle-table .rows-townhall { display: none; }
   #trail-s1-townhall:checked ~ .trail-toggle-table .rows-mile0 { display: none; }
   #trail-s1-townhall:checked ~ .trail-toggle-table .rows-townhall { display: table-row-group; }
+
+  @media (max-width: 640px) {
+    .trail-toggle-table th:first-child {
+      white-space: normal;
+    }
+    .trail-toggle-table th:first-child,
+    .trail-toggle-table td:first-child {
+      width: 6rem;
+    }
+    .trail-toggle-table th,
+    .trail-toggle-table td {
+      padding: 0.5rem 0.5rem;
+    }
+  }
 </style>
 
 <div class="trail-toggle">
@@ -326,7 +340,7 @@ After the tunnel, a path on the left climbs to Whitestown Road. Cross Whitestown
 | Detail              | Information                                                                                                                                                             |
 | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Distance            | ~0.6 mile                                                                                                                                                              |
-| Parking             | South end: Jennings Field lot on Bloor Lane<br>North end: Mulberry Fields Park lot; crossing Whitestown Road is required                             |
+| Parking             | South end: [Jennings Field lot on Bloor Lane](https://maps.app.goo.gl/KK6VRfPbf1tUoiMu8)<br>North end: [Mulberry Fields Park lot](https://maps.app.goo.gl/XToiwCx1f332A9R67); crossing Whitestown Road is required                             |
 | Street crossing     | No street crossing on the Rail Trail; Whitestown Road crossing required for Mulberry Fields Park access                                                                 |
 | Restrooms           | Nearby at Mulberry Fields Park                                                                                                                                          |
 | Drinking water      | Nearby at Mulberry Fields Park                                                                                                                                          |
@@ -376,7 +390,7 @@ To reach Heritage Trail Park, cross S 875 E at the marked trail crossing and con
 | Detail              | Information                                                                                                                |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Distance            | ~1.6 miles                                                                                                                 |
-| Parking             | South end: Mulberry Fields Park lot<br>North end: Heritage Trail Park lot                                                  |
+| Parking             | South end: [Mulberry Fields Park lot](https://maps.app.goo.gl/XToiwCx1f332A9R67)<br>North end: [Heritage Trail Park lot](https://maps.app.goo.gl/chb5u6Nc55bbF1NK9)                                                  |
 | Street crossing     | S 875 E crossing near Heritage Trail Park; traffic can be busy                                                             |
 | Restrooms           | Mulberry Fields Park; Heritage Trail Park                                                                                  |
 | Drinking water      | Mulberry Fields Park; Heritage Trail Park                                                                                  |
@@ -414,7 +428,7 @@ The Whitestown trail continues beyond downtown to 500 E; together, the Zionsvill
 | Detail                  | Information                                                                                                                    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
 | Distance                | ~1.2 miles                                                                                                                     |
-| Parking                 | Heritage Trail Park lot                                                                                                        |
+| Parking                 | [Heritage Trail Park lot](https://maps.app.goo.gl/chb5u6Nc55bbF1NK9)                                                                                                        |
 | Zionsville endpoint     | 750 E                                                                                                                          |
 | Street crossing         | None within the Zionsville portion; cross 750 E only to continue into Whitestown                                               |
 | Restrooms               | Heritage Trail Park                                                                                                            |
