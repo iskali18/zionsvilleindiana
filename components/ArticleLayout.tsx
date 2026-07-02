@@ -156,7 +156,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
                   items={breadcrumbItems}
                 />
               </div>
-              <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8 print:text-xl print:mt-0 print:mb-4">
+              <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8 print:!text-4xl print:mt-0 print:mb-4">
                 {meta.title}
               </h1>
             </>
@@ -171,7 +171,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           {children}
 
           {meta.lastUpdated && (
-            <p className="text-sm text-stone-500 mt-10">
+            <p className="text-sm text-stone-500 mt-10 print:hidden">
               Last updated: {formatDate(meta.lastUpdated)}
             </p>
           )}

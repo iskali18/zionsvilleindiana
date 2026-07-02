@@ -255,10 +255,12 @@ export default function ZcsCalendar() {
   }
 
   const filteredEvents = useMemo(() => {
-    return zcsEvents.filter((event) => {
-      if (event.isDistrictwide) return true
-      return event.audiences.some((a) => activeAudiences.has(a))
-    })
+    return zcsEvents
+      .filter((event) => {
+        if (event.isDistrictwide) return true
+        return event.audiences.some((a) => activeAudiences.has(a))
+      })
+      .sort((a, b) => a.startDate.localeCompare(b.startDate))
   }, [activeAudiences])
 
   const monthGroups = useMemo(() => {
@@ -299,6 +301,28 @@ export default function ZcsCalendar() {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
         />
       ))}
+
+      {/* Print-only header — date + filter info on one line, brand on second line */}
+      <div className="hidden print:block print:mb-4" style={{ fontFamily: 'inherit' }}>
+        <div className="print:text-xs print:text-stone-700" style={{ fontFamily: 'inherit' }}>
+          {new Date().toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
+          {' • '}
+          {isAllActive
+            ? 'Showing all schools'
+            : activeAudiences.size === 0
+              ? 'Showing All ZCS'
+              : `Showing: ${AUDIENCES.filter((a) => activeAudiences.has(a.key))
+                  .map((a) => a.label)
+                  .join(', ')}`}
+        </div>
+        <div className="print:text-xs print:text-stone-500 print:font-normal" style={{ fontFamily: 'inherit' }}>
+          ZionsvilleIndiana.com
+        </div>
+      </div>
 
       {/* Filter controls */}
       <div className="mb-8 pb-6 border-b border-stone-200 print:hidden">
@@ -345,6 +369,31 @@ export default function ZcsCalendar() {
           ))}
         </section>
       ))}
+
+      {/* Print-only end-of-calendar marker */}
+      <div className="hidden print:block print:mt-6 print:pt-4 print:border-t print:border-stone-400 print:text-center print:text-xs print:text-stone-600 print:tracking-widest">
+        — END OF CALENDAR —
+      </div>
+
+      {/* Page numbers via CSS Paged Media — Chrome and Edge only.
+          Silently ignored in Safari and Firefox. */}
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
+            @media print {
+              @page {
+                margin: 0.5in 0.5in 0.75in 0.5in;
+                @bottom-right {
+                  content: "Page " counter(page) " of " counter(pages);
+                  font-family: sans-serif;
+                  font-size: 9px;
+                  color: #78716c;
+                }
+              }
+            }
+          `,
+        }}
+      />
     </div>
   )
 }

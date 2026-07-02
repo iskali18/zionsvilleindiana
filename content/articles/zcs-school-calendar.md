@@ -1,5 +1,5 @@
 ---
-title: "Zionsville School Calendar 2026–2027"
+title: "Zionsville School Calendar 2026‑2027"
 seoTitle: "Zionsville School Calendar 2026–2027: Important Dates & Events"
 description: "Zionsville Community Schools (ZCS) 2026–2027 calendar with important dates, breaks, back-to-school events, and curriculum nights for elementary, ZMS, ZWMS, and ZCHS."
 slug: "zcs-school-calendar"
