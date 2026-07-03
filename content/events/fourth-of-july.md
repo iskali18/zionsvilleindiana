@@ -9,7 +9,7 @@ address: "11053 Sycamore St, Zionsville, IN 46077"
 image: /images/events/zionsville-fourth-of-july-fireworks.jpg
 imageAlt: Fireworks over Lions Park in Zionsville on the 4th of July
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: false
+photoCreditHeroOnly: true
 tags: [fireworks, family, annual, outdoor, summer, fourth-of-july]
 featured: true
 externalUrl: https://www.zionsvillelions.com
@@ -32,6 +32,14 @@ faqs:
     a: "The Zionsville Lions Club hosts the event in conjunction with the Town of Zionsville, with support from the Partners in the Park sponsors."
 ---
 
+<figure>
+  <a href="/images/events/zionsville-fourth-of-july-lions-park-map-2026.webp" target="_blank" rel="noopener noreferrer">
+    <img src="/images/events/zionsville-fourth-of-july-lions-park-map-2026.webp" alt="An aerial event layout map of Lions Park for the Zionsville 4th of July celebration. The graphic marks paid parking lots, public restrooms, food vendors, bounce houses, designated viewing areas, and the Elm Street road closure near Main Street and Sycamore Street." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">The Lions Park 4th of July celebration map shows the layout of event activities, amenities, and parking access. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
+  </figcaption>
+</figure>
+
 The Zionsville 4th of July Celebration is one of the town's largest annual gatherings, held every Independence Day at Lions Park and hosted by the Zionsville Lions Club. Families spread out on the park's ball fields and green spaces with chairs and blankets for an afternoon and evening of food, music, and a fireworks finale at 10 PM.
 
 **This year is bigger.** Coinciding with the road to America's 250th anniversary in 2026, the Lions Club has commissioned the Mad Bomber team to deliver the largest fireworks display in the event's history.
@@ -53,7 +61,7 @@ The celebration runs from late afternoon through the fireworks finale:
 **When:** Saturday, July 4, 2026, 5:00 PM – approximately 10:30 PM  
 **Location:** Lions Park, 11053 Sycamore St, Zionsville  
 **Admission:** Free  
-**Seating:** Bring your own chairs or blankets and find your viewing spot in the ball fields or along the park perimeter . 
+**Seating:** Bring your own chairs or blankets and find your viewing spot in the ball fields or along the park perimeter. 
 
 **Parking:**  
 This is one of the most heavily attended events of the year. Many residents and visitors walk several blocks with lawn chairs, blankets, or wagons while others arrive early to park nearby.

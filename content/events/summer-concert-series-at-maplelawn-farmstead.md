@@ -16,7 +16,7 @@ address:  9575 Whitestown Rd, Zionsville, IN 46077
 image: /images/events/maplelawn-farmstead.jpg
 imageAlt: Maplelawn Farmstead in Zionsville, Indiana at sunset
 photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: false
+photoCreditHeroOnly: true
 featured: true
 perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html

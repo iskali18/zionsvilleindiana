@@ -150,6 +150,7 @@ export default function HomePage() {
               fill
               className="object-cover object-[center_75%] opacity-45"
               priority
+              quality={60}
             />
           </div>
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6 py-20">
@@ -248,6 +249,7 @@ export default function HomePage() {
                     alt={event.imageAlt}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    quality={65}
                   />
                   {event.photoCredit && (
                     <p
@@ -315,6 +317,7 @@ export default function HomePage() {
                     alt="Dining in downtown Zionsville"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    quality={65}
                   />
                 </div>
                 <div className="p-4">
@@ -336,6 +339,7 @@ export default function HomePage() {
                     alt="Shopping in downtown Zionsville"
                     fill
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
+                    quality={65}
                   />
                 </div>
                 <div className="p-4">
@@ -357,6 +361,7 @@ export default function HomePage() {
                     alt="DORA in downtown Zionsville"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    quality={65}
                   />
                 </div>
                 <div className="p-4">
@@ -406,6 +411,7 @@ export default function HomePage() {
                       alt={guide.imageAlt}
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
+                      quality={65}
                     />
                   </div>
                   <div className="p-4">
@@ -438,6 +444,7 @@ export default function HomePage() {
                   alt="Summer day trips from Zionsville, Indiana"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  quality={65}
                 />
               </Link>
               <div>
