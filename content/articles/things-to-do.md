@@ -10,8 +10,8 @@ category: discovery
 ctas:
   - label: View upcoming events
     href: /events
-  - label: Visit downtown Zionsville
-    href: /downtown
+  - label: Explore Zionsville coffee shops
+    href: /articles/coffee-shops
 faqs:
   - q: "What is there to do in Zionsville, Indiana?"
     a: "Zionsville offers a mix of downtown shopping and dining along brick-paved Main Street, outdoor activities on the Big-4 Rail Trail and in local parks, farm visits, cultural sites like the SullivanMunce Cultural Center, and casual dining and coffee shops in areas outside the Village."
@@ -108,7 +108,7 @@ The Holliday Farms area in northern Zionsville has upscale dining, including **V
 **Michigan Road area — casual chains, Thai food, coffee, and dessert**  
 **Thai Eatery** along Michigan Road serves Thai street food including appetizers, noodles, fried rice, and curries. They also serve Thai iced tea, mango sticky rice, and custards to round out each meal.
 
-**Mochaland** is nearby in the same retail center as Thai Eatery, serving small-batch roasted coffee and bakery items near Bennett Parkway.
+[**Mochaland**](/businesses/mochaland) is nearby in the same retail center as Thai Eatery, serving small-batch roasted coffee and bakery items near Bennett Parkway.
 
 Nearby at Sylo Crossing and The Farm development, newer dining and quick-service choices include **Torchy’s Tacos**, **Shake Shack**, **CAVA**, **Bibibop Asian Grill**, **Piada Italian Street Food**, **West Coast Sourdough**, **sweetgreen**, and **Graeter’s Ice Cream**. This area can be convenient for casual meals, family outings, or dessert.
 
