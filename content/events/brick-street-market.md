@@ -55,7 +55,7 @@ Main Street is closed to vehicles during market hours. Street parking is availab
 
 The largest public parking lot is located at the northwest corner of **Main Street and Sycamore Road**, with access from First Street.  
 
-Additional parking is available on **nearby streets** and in **public lots throughout the Village**, including **Lions Park**, all within a short walk from the market.
+Additional parking is available on **nearby streets** and in **public lots throughout the Village**, including **Lions Park**, all within a short walk from the market. See the [downtown parking section](/downtown#parking) for details.
 
 ## What to expect
 
@@ -93,7 +93,7 @@ Live music plays throughout the day along the market route.
 
 ## Where to eat near the market
 
-Beyond the on-site food court, most Main Street restaurants are a short walk from the market — a useful frame for a long day of browsing.
+Beyond the on-site food court, most Main Street restaurants are a short walk from the market. 
 
 **Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) and [Our Place Coffee](/businesses/our-place-coffee) are both Main Street coffee stops, good for arrival or an afternoon break.
 
@@ -113,8 +113,12 @@ Beyond the on-site food court, most Main Street restaurants are a short walk fro
 
 After the market, Main Street shops begin opening around 10 AM, making it easy to extend your visit into [downtown Zionsville](/downtown).
 
-[Visit the Brick Street Market website →](https://www.zionsvillechamber.org/brick-street-market/)
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
 
 ## Looking for the Zionsville Farmers Market?
 
 The Brick Street Market and the [Zionsville Farmers Market](/events/farmers-market) are two different events. The Brick Street Market is a one-day annual artisan and craft market held on a Saturday in early May, featuring over 140 makers, food vendors, and live music. The Zionsville Farmers Market is a weekly Saturday market running mid-May through late September, focused on local produce, baked goods, and prepared foods.
+
+[Visit the Brick Street Market website →](https://www.zionsvillechamber.org/brick-street-market/)

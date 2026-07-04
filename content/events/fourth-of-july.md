@@ -72,6 +72,10 @@ Free public lots are located at the northwest corner of Main Street and Sycamore
 
 See the [**Downtown Zionsville parking guide**](/downtown#parking).
 
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+
 ## Hosts
 
 The event is hosted by the [Zionsville Lions Club](https://www.zionsvillelions.com) in conjunction with the Town of Zionsville and the support of the Partners in the Park sponsors.

@@ -96,7 +96,7 @@ The parade typically includes school marching bands, local businesses, community
 
 **Parking:** Lions Park parking is free year-round, but during the Fall Festival, on-site parking is $8.00 cash, which supports park maintenance. Overflow paid parking is available on the vacant lot at the southwest corner of **Main Street and Sycamore Road** for an $8.00 cash fee.
 
-Free public parking lots are located at the northwest corner of **Main Street and Sycamore Road** and the southwest corner of **Main Street and Pine Street**. Additional parking may be available along nearby streets and in public lots throughout the Village.
+Free public parking lots are located at the northwest corner of **Main Street and Sycamore Road** and the southwest corner of **Main Street and Pine Street**. Additional parking may be available along nearby streets and in public lots throughout the Village. See the [downtown parking section](/downtown#parking) for details.
 
 Parking near the parade route and Lions Park fills quickly during the Saturday parade, so plan to arrive early if you want to park nearby.
 
@@ -107,6 +107,11 @@ Parking near the parade route and Lions Park fills quickly during the Saturday p
 **Pets:** Pets are not allowed unless they are part of a festival exhibit or are service dogs.
 
 **Prohibited items:** Firearms, smoking in Lions Park, illegal substances, and fireworks are prohibited.
+
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+
 
 ## Hosts
 

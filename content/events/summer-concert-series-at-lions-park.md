@@ -67,6 +67,11 @@ Attendees typically bring lawn chairs or blankets for these relaxed, community-f
 
 Additional parking is available along nearby streets and in public lots throughout the Village. See the [**Downtown Zionsville parking guide**](/downtown#parking).
 
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+
+
 ## What to Bring
 
 Lawn chairs or blankets are encouraged for seating on the grass, and picnics are welcome.

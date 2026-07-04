@@ -27,3 +27,8 @@ The Pumpkins and Hayrides event is an annual autumn tradition held at Lions Park
 **Parking:** On-site parking at Lions Park is available but fills quickly. If you prefer to walk, a public parking lot is located at the northwest corner of **Main Street and Sycamore Road**, with access from both Main Street and First Street. A second lot is located at the southwest corner of **Main Street and Pine Street**. 
 
 Additional parking is available along nearby streets and public lots throughout the Village.
+
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+

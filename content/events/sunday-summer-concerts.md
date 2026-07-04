@@ -58,3 +58,7 @@ This Sunday series is separate from the Zionsville Cultural District’s Wednesd
 Bring a lawn chair or blanket for seating on the grass. Food and beverage are available for a donation.
 
 For more information, visit the [Zionsville Lions Club concert page](https://www.zionsvillelions.com/concerts-in-july-1).
+
+## Downtown map
+
+Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows the Main Street area, including nearby restaurants, shops, public parking, restrooms, and landmarks.

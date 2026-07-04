@@ -73,4 +73,9 @@ Parking is not available along the parade route, which follows Mulberry Street, 
 
 Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park. Many residents and visitors walk several blocks to the parade and tree lighting, so dress warmly and plan for the walk.
 
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+
+
 

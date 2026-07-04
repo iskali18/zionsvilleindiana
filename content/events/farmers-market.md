@@ -87,6 +87,10 @@ Several restaurants and coffee spots are a short walk from the market. A few way
 
 **Take home** — [Angelo's Italian Market](/businesses/angelos-italian-market) carries housemade pasta, sauces, and prepared foods if you want to take something home after the market.
 
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+
 ## Looking for the Brick Street Market?
 
 The Zionsville Farmers Market and the [Brick Street Market](/events/brick-street-market) are two different events. The Zionsville Farmers Market is a weekly Saturday market running mid-May through late September, focused on local produce, baked goods, and prepared foods. The Brick Street Market is a one-day annual artisan and craft market held on a Saturday in early May, featuring over 140 makers, food vendors, and live music.

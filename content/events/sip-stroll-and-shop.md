@@ -46,3 +46,8 @@ All three 2026 dates run from 4:00 to 8:00 PM.
 **Admission:** Free
 
 Participating shops and their specials may vary by date, so check Main Street Zionsville before heading downtown. Parking is available along Main Street and nearby side streets, with public lots at the northwest corner of Main Street and Sycamore Road and the southwest corner of Main Street and Pine Street.
+
+## Downtown map
+
+The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+

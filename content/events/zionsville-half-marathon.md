@@ -98,6 +98,11 @@ Use the [downtown parking map](/downtown#parking) to find public lots and street
 - **Bring your own gels.** Energy gels are not provided on-course.
 - **Carry your ID for the beer garden.** Required along with your bib tear-off tab.
 
+## Downtown map
+
+Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows the Main Street area, including nearby restaurants, shops, public parking, restrooms, and landmarks.
+
+
 ---
 
 ## Official Resources
