@@ -75,7 +75,8 @@ Additional parking is available on nearby side streets and in public lots throug
 
 ## Downtown map
 
-The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
+Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows the Main Street area, including nearby restaurants, shops, public parking, restrooms, and landmarks.
+
 
 
 

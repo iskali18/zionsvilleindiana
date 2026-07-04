@@ -67,13 +67,14 @@ Attendees typically bring lawn chairs or blankets for these relaxed, community-f
 
 Additional parking is available along nearby streets and in public lots throughout the Village. See the [**Downtown Zionsville parking guide**](/downtown#parking).
 
-## Downtown map
-
-The [downtown Zionsville map](/articles/downtown-zionsville-map) shows Main Street with nearby restaurants, shops, public parking, restrooms, and landmarks.
-
-
 ## What to Bring
 
 Lawn chairs or blankets are encouraged for seating on the grass, and picnics are welcome.
+
+## Downtown map
+
+Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows the Main Street area, including nearby restaurants, shops, public parking, restrooms, and landmarks.
+
+## Official site
 
 For more information, visit the [Zionsville Cultural District website](https://www.zvillecd.org/zcd-concert-series.html).
