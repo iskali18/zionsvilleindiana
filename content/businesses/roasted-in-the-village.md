@@ -14,7 +14,7 @@ lastVerified: "2026-05-31"
 ---
 
 <figure class="float-right ml-6 mb-4 w-1/3 max-w-md">
-  <img src="/images/businesses/zionsville-roasted-in-the-village-counter.webp" alt="" class="w-full rounded-lg shadow-sm" />
+  <img src="/images/businesses/zionsville-roasted-in-the-village-coffee-shop.webp" alt="" class="w-full rounded-lg shadow-sm" />
 </figure>
 <br />
 
