@@ -3,7 +3,7 @@ title: Zionsville 4th of July Celebration
 seoTitle: "Zionsville 4th of July (Fourth of July) Celebration 2026"
 description: Zionsville's annual Fourth of July fireworks and Independence Day celebration at Lions Park, with food vendors, bounce houses, live entertainment, and the largest fireworks display in the event's history in 2026.
 eventType: annual
-startDate: "2026-07-04"
+startDate: "2026-07-05"
 location: Lions Park, Zionsville
 address: "11053 Sycamore St, Zionsville, IN 46077"
 image: /images/events/zionsville-fourth-of-july-fireworks.jpg
@@ -14,10 +14,10 @@ tags: [fireworks, family, annual, outdoor, summer, fourth-of-july]
 featured: true
 externalUrl: https://www.zionsvillelions.com
 metaTitle: "Zionsville 4th of July (Fourth of July) 2026: Fireworks, Schedule & Parking"
-metaDescription: "Zionsville 4th of July Celebration 2026: Saturday, July 4 at Lions Park. Fireworks at 10 PM — the largest display in the event's history — plus food, music, and family activities."
+metaDescription: "Zionsville 4th of July Celebration 2026: Sunday, July 5 at Lions Park. Fireworks at 10 PM — the largest display in the event's history — plus food, music, and family activities."
 faqs:
   - q: "When is the Zionsville 4th of July Celebration 2026?"
-    a: "Saturday, July 4, 2026 at Lions Park (11053 Sycamore St, Zionsville). Festivities begin at 5 PM and run until the fireworks finish around 10:30 PM."
+    a: "Sunday, July 5, 2026 at Lions Park (11053 Sycamore St, Zionsville). Festivities begin at 5 PM and run until the fireworks finish around 10:30 PM."
   - q: "What time do the fireworks start?"
     a: "Fireworks begin at 10:00 PM. The Mad Bomber pyrotechnics team is providing the largest fireworks display in the celebration's history this year, marking the road to America's 250th anniversary."
   - q: "What is happening before the fireworks?"
@@ -31,6 +31,16 @@ faqs:
   - q: "Who hosts the Zionsville 4th of July Celebration?"
     a: "The Zionsville Lions Club hosts the event in conjunction with the Town of Zionsville, with support from the Partners in the Park sponsors."
 ---
+
+<div className="my-6 p-5 bg-amber-50 border-l-4 border-amber-400 rounded-r-lg">
+
+**Update:** Zionsville's Fourth of July celebration, including the fireworks show, has been rescheduled for **Sunday, July 5, 2026**, due to weather.
+
+For the latest announcement, see the Zionsville Lions Club post below.
+
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fzionsvillelionsclub%2Fposts%2Fpfbid06msQbn6LFpRsACVgS4zP1rsoNrJfwimm2icXeuybnLHedwdGmT8KCDBMYk4MNchGl&show_text=true&width=500" width="500" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+</div>
 
 <figure>
   <a href="/images/events/zionsville-fourth-of-july-lions-park-map-2026.webp" target="_blank" rel="noopener noreferrer">
