@@ -1,7 +1,7 @@
 ---
 title: "Coffee Shops in Zionsville"
 seoTitle: "Coffee Shops in Zionsville, Indiana — A Local Guide"
-description: "A local guide to downtown cafés, Michigan Road coffee shops, RIVET Coffee Bar at Creekside, and Hattie's Coffee House in nearby Whitestown."
+description: "Coffee shops in Zionsville, Indiana — a guide to independent cafés in downtown, Michigan Road coffee shops, RIVET Coffee Bar on 106th Street, and Hattie's Coffee House in nearby Whitestown."
 slug: "coffee-shops"
 category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero.webp
@@ -20,47 +20,20 @@ faqs:
     a: "Yes. Hattie's Coffee House is located in nearby Whitestown. The café is in a renovated farmhouse on South Main Street and is known for coffee roasted on-site, locally sourced milk and baked goods, and a backyard children's play area."
 ---
 
-<!--
-PHOTO PLACEHOLDERS — uncomment each block, move to where you want it, and update src/alt/caption/credit
+<p class="font-display text-lg text-stone-700 leading-relaxed mb-6">
+Zionsville and nearby Whitestown are home to six independent and regional coffee shops — from downtown cafés near Main Street to specialty roasters on Michigan Road and 106th Street. Explore this guide to discover their unique specialties, stories, and ambiance, and find your next coffee destination.
+</p>
 
-<figure>
-  <img src="/images/articles/coffee-shops-zionsville-1.jpg" alt="[YOUR ALT TEXT]" class="rounded-lg shadow-sm" />
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    [YOUR CAPTION]<br />
-    <span class="not-italic">© zionsvilleindiana.com</span>
-  </figcaption>
-</figure>
--->
-
-While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.
-
-Explore this guide to discover our local coffee shops, their unique specialties, stories, and ambiance, and find your next coffee destination.
+<div class="bg-stone-50 border-l-4 border-brick-600 pl-4 pr-4 py-3 my-6">
+<p class="text-xs uppercase tracking-widest text-brick-600 font-medium mb-2">Zionsville Area Cafés</p>
+<p class="mb-0">While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.</p>
+</div>
 
 ## Coffee Shops at a Glance
 
 <p class="text-sm text-stone-500 italic mb-4">Not ranked — listed by area.</p>
 
-<style>
-  .quick-answer-table { width: 100%; border-collapse: collapse; margin-bottom: 1.5rem; }
-  .quick-answer-table th,
-  .quick-answer-table td {
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #e7e5e4;
-    text-align: left;
-    vertical-align: top;
-  }
-  .quick-answer-table th { font-weight: 600; color: #44403c; }
-  .quick-answer-table td:first-child { white-space: nowrap; font-weight: 500; }
-  @media (max-width: 640px) {
-    .quick-answer-table th:nth-child(3),
-    .quick-answer-table td:nth-child(3) { display: none; }
-    .quick-answer-table th,
-    .quick-answer-table td { padding: 0.5rem 0.5rem; }
-    .quick-answer-table td:first-child { white-space: normal; }
-  }
-</style>
-
-<table class="quick-answer-table">
+<table>
   <thead>
     <tr>
       <th>Shop</th>
