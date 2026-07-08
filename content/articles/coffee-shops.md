@@ -5,7 +5,7 @@ description: "A guide to six coffee shops in Zionsville and nearby Whitestown, i
 slug: "coffee-shops"
 category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
-hero_position: "center 55%"
+hero_position: "center 45%"
 hero_credit: ""
 lastUpdated: "2026-07-01"
 draft: false
