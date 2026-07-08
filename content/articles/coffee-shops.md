@@ -1,7 +1,7 @@
 ---
 title: "Coffee Shops in Zionsville"
-seoTitle: "Coffee Shops in Zionsville, Indiana — A Local Guide"
-description: "Coffee shops in Zionsville, Indiana — a guide to independent cafés in downtown, Michigan Road coffee shops, RIVET Coffee Bar on 106th Street, and Hattie's Coffee House in nearby Whitestown."
+seoTitle: "Zionsville Coffee Shops: 6 Cafés in Zionsville & Whitestown"
+description: "A guide to six coffee shops in Zionsville and nearby Whitestown, including downtown cafés, Michigan Road shops, RIVET Coffee Bar on 106th Street, and Hattie’s Coffee House."
 slug: "coffee-shops"
 category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero.webp
@@ -26,7 +26,7 @@ Zionsville and nearby Whitestown are home to six independent and regional coffee
 
 <div class="bg-stone-50 border-l-4 border-brick-600 pl-4 pr-4 py-3 my-6">
 <p class="text-xs uppercase tracking-widest text-brick-600 font-medium mb-2">Zionsville Area Cafés</p>
-<p class="mb-0">While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.</p>
+<p class="mb-0">While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent and regional cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.</p>
 </div>
 
 ## Coffee Shops at a Glance
@@ -34,6 +34,48 @@ Zionsville and nearby Whitestown are home to six independent and regional coffee
 <p class="text-sm text-stone-500 italic mb-4">Not ranked — listed by area.</p>
 
 <table>
+  <thead>
+    <tr>
+      <th>Shop</th>
+      <th>Location</th>
+      <th>Known for</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="#roasted-in-the-village">Roasted in the Village</a></td>
+      <td>Downtown Zionsville</td>
+      <td>House-made syrups, seasonal drinks, and local art</td>
+    </tr>
+    <tr>
+      <td><a href="#our-place-coffee">Our Place Coffee</a></td>
+      <td>Downtown Zionsville</td>
+      <td>Large café space near Main Street</td>
+    </tr>
+    <tr>
+      <td><a href="#rivet">RIVET Coffee Bar</a></td>
+      <td>106th Street</td>
+      <td>Specialty coffee inside Graham Rahal Performance</td>
+    </tr>
+    <tr>
+      <td><a href="#java-house">Java House</a></td>
+      <td>Michigan Road</td>
+      <td>Cold brew–based drinks and drive-thru service</td>
+    </tr>
+    <tr>
+      <td><a href="#mochaland">Mochaland</a></td>
+      <td>Michigan Road</td>
+      <td>Middle Eastern coffee traditions and global coffee origins</td>
+    </tr>
+    <tr>
+      <td><a href="#hatties-coffee-house">Hattie's Coffee House</a></td>
+      <td>Whitestown</td>
+      <td>Renovated farmhouse café with coffee roasted on-site</td>
+    </tr>
+  </tbody>
+</table>
+
+<!--table>
   <thead>
     <tr>
       <th>Shop</th>
@@ -73,7 +115,7 @@ Zionsville and nearby Whitestown are home to six independent and regional coffee
       <td>Renovated farmhouse setting and backyard children's play area</td>
     </tr>
   </tbody>
-</table>
+</table-->
 
 ---
 
