@@ -1,7 +1,7 @@
 ---
 title: Big-4 Rail Trail Guide
-seoTitle: "Zionsville Big-4 Rail Trail Guide: Sections, Parking & Amenities"
-description: Zionsville Rail Trail sections, distances, parking, restrooms, trail amenities, landmarks, and access points.
+seoTitle: "Zionsville Rail Trail (Big-4) Guide: Section Maps, Parking & Amenities"
+description: Zionsville Rail Trail section maps, trailheads, distances, parking, restrooms, trail amenities, landmarks, and access points.
 hero_image: /images/articles/zionsville-rail-trail-hero.webp
 hero_position: "center 60%"
 hero_credit: "© ZionsvilleIndiana.com"
@@ -66,11 +66,11 @@ For the original town guidance, see the [public Facebook post](https://www.faceb
 
 <div class="clear-both"></div>
 
-## Plan Your Route by Segment
+## Route Maps and Segment Guides
 
 This guide divides the Rail Trail through Zionsville into shorter sections, with approximate distances and parking near each end. Use the first table to choose a starting point, plan a turnaround, or compare shorter and longer sections before reading additional notes below.
 
-### Trail Sections, Distances, and Parking
+### Trailheads, Parking, and Distances
 
 | Section                                                                                                    |   Distance | Parking near south end             | Parking near north end             |
 | ---------------------------------------------------------------------------------------------------------- | ---------: | ---------------------------------- | ---------------------------------- |
