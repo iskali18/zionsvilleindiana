@@ -8,6 +8,7 @@ hero_position: "center 55%"
 hero_credit: "© ZionsvilleIndiana.com"
 park:
   name: "Mulberry Fields Park"
+  alternateName: "Mulberry Park"
   description: "38-acre community park in Zionsville with a splash pad, pickleball courts, skate park, basketball court, paved trails, sledding hill, and Maplelawn Farmstead."
   address: "9645 Whitestown Road, Zionsville, IN 46077"
   lat: 39.9630
