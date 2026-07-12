@@ -5,7 +5,7 @@ description: Zionsville Rail Trail section maps, trailheads, distances, parking,
 hero_image: /images/articles/zionsville-rail-trail-hero.webp
 hero_position: "center 60%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-06-14"
+lastUpdated: "2026-07-12"
 category: discovery
 draft: false
 faqs:
@@ -34,7 +34,7 @@ ctas:
     href: /events
 ---
 
-## Big-4 Rail Trail
+## About the Zionsville Rail Trail
 
 The Big-4 Rail Trail — often called the Zionsville Rail Trail — is Zionsville’s main paved trail corridor, beginning at the Zionsville Road trailhead on the southeast side of town and continuing northwest to the Whitestown border. Along the way, it links parks, neighborhoods, a Village-area access point, and several rest areas.
 
@@ -48,10 +48,6 @@ The Zionsville section is about 5 miles long, with a wide paved surface for walk
 * **Uses:** Walking, running, biking, strollers, mobility devices, leashed dogs, and Class 1 or Class 2 e-bikes
 * **Not allowed:** Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, gasoline-powered vehicles, and other prohibited motorized vehicles
 
-<figure class="float-none sm:float-right max-w-full sm:max-w-[267px] mx-auto sm:ml-6 sm:mb-4 my-4">
-  <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F997997152575597%2F&show_text=true&width=267&t=0" width="267" height="591" style="border:none;overflow:hidden; display: block;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-</figure>
-
 ## Trail Safety Guidelines
 
 The Rail Trail is shared by walkers, runners, cyclists, families with strollers, and people using mobility devices. Keep right, pass on the left, announce yourself before passing, and slow down near curves, crossings, bridges, and busy trailheads.
@@ -59,12 +55,6 @@ The Rail Trail is shared by walkers, runners, cyclists, families with strollers,
 Town guidance allows Class 1 and Class 2 e-bikes on Zionsville trails. Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, gasoline-powered vehicles, and other prohibited motorized vehicles are not allowed.
 
 For the original town guidance, see the [public Facebook post](https://www.facebook.com/ZionsvilleIN/posts/1464273779074616) and related [trail safety video](https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F997997152575597%2F&show_text=true&width=267&t=0).
-
-<!--iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FZionsvilleIN%2Fposts%2Fpfbid02uLd8aRA5aQweN3yMJw5FJvnm9e8xX2Kt2P9L31kH6sG1S17z97cLTCBDvEL2XBSql&show_text=true&width=500" width="500" height="677" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe-->
-
-<!--iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F997997152575597%2F&show_text=true&width=267&t=0" width="267" height="591" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe-->
-
-<div class="clear-both"></div>
 
 ## Route Maps and Segment Guides
 
@@ -461,5 +451,3 @@ The Whitestown trail continues beyond downtown to 500 E; together, the Zionsvill
 ## Before you head out
 
 The Big-4 Rail Trail follows a continuous paved path from the Zionsville Road Trailhead past Town Hall, Mulberry Fields, and Heritage Trail Park. Along the way, the scenery shifts from creek crossings and wooded stretches to park access points, neighborhood edges, and open farmland near 750 E. Use the section tables to pick a starting point, check restroom and water access, and decide where to turn around — or continue into Whitestown.
-
-

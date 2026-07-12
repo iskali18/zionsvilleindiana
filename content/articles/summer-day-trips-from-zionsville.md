@@ -20,19 +20,6 @@ faqs:
     a: "Yes. Indoor museums covered in this guide — WonderLab, kidscommons, the Cincinnati Museum Center, and the National Museum of the U.S. Air Force — work as backups for rainy days or hot afternoons."
 ---
 
-<!--<!--
-PHOTO PLACEHOLDERS — uncomment each block, move to where you want it, and update src/alt/caption/credit
-
-<figure>
-  <img src="/images/articles/summer-day-trips-from-zionsville-1.jpg" alt="[YOUR ALT TEXT]" class="rounded-lg shadow-sm" />
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    [YOUR CAPTION]<br />
-    <span class="not-italic">© [YOUR PHOTO CREDIT]</span>
-  </figcaption>
-</figure>
--->
-
-
 Summer day trips can span different versions of fun. Some days can call for water slides and towels in the back seat. Others are better for berry picking, a hands-on museum, a river float, a state park hike, or a walkable town.  
 
 Most destinations in this guide are within about one to two hours of Zionsville, with a few slightly longer drives included for a full day trip. There are so many options within a two-hour drive that it can be hard to choose — but the nice thing about summer is that there's time to slow down and enjoy it with family.
@@ -164,14 +151,6 @@ Zoos and sanctuaries can give kids a closer look at animals they may only know f
     <span class="not-italic">Photo by Cincinnati Zoo and Botanical Garden</span>
   </figcaption>
 </figure>
-
-<!--figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
-  <img src="/images/articles/summer-day-trips-from-zionsville-cincinnati-zoo-elephants.jpg" alt="Two Asian elephants covered in light mud walk across their sandy habitat at the Cincinnati Zoo, with a large viewing pavilion and a water feature visible in the background" style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
-  <figcaption style="font-size: 0.75rem; color: #78716c; font-style: italic; margin-top: 0.5rem;">
-    Elephants are one of the large-animal exhibits families can see at the Cincinnati Zoo & Botanical Garden.<br />
-    <span style="font-style: normal;">Photo by Cincinnati Zoo</span>
-  </figcaption>
-</figure-->
 
 ### [Cincinnati Zoo & Botanical Garden](https://cincinnatizoo.org) (Cincinnati, OH)
 
@@ -364,4 +343,4 @@ Before you load everyone into the car, a little planning goes a long way. The mo
 
 ---
 
-If you're building out a fuller summer bucket list, this guide is one starting point. For more local options, see [things to do in Zionsville](/things-to-do) for nearby parks and family activities.
+If you're building out a fuller summer bucket list, this guide is one starting point. For nearby parks and family activities, see [things to do in Zionsville](/things-to-do), or check the [Big-4 Rail Trail guide](/articles/big-4-rail-trail) for Zionsville's main paved walking and biking route.
