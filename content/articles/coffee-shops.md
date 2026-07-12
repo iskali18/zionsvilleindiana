@@ -1,13 +1,13 @@
 ---
 title: "Coffee Shops in Zionsville"
-seoTitle: "Zionsville Coffee Shops: 6 Cafés in Zionsville & Whitestown"
+seoTitle: "Zionsville Coffee Shops: 6 Cafés in Zionsville & Whitestown - July 2026"
 description: "A guide to six coffee shops in Zionsville and nearby Whitestown, including downtown cafés, Michigan Road shops, RIVET Coffee Bar on 106th Street, and Hattie’s Coffee House."
 slug: "coffee-shops"
 category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
 hero_position: "center 45%"
 hero_credit: ""
-lastUpdated: "2026-07-01"
+lastUpdated: "2026-07-06"
 draft: false
 faqs:
   - q: "What coffee shops are in downtown Zionsville?"

@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import EventEndedBanner from '@/components/EventEndedBanner'
 import { getAllEventSlugs, getEvent } from '@/lib/content'
 
 interface Props {
@@ -171,6 +172,9 @@ export default async function EventPage({ params }: Props) {
         </div>
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+          {/* Event ended banner (renders only if end date has passed) */}
+          <EventEndedBanner startDate={meta.startDate} endDate={meta.endDate} />
+
           {/* Details — mono info strip */}
           <dl className="font-mono text-sm leading-7 mb-10 bg-stone-50 border border-stone-200 rounded-lg px-5 py-4 space-y-1">
             <div>
