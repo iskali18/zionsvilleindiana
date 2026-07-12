@@ -108,7 +108,7 @@ function EventRow({ event }: EventRowProps) {
     : event.audienceLabel.split(' · ')
 
   return (
-    <div className="grid grid-cols-[9rem_1fr] gap-x-4 py-3 border-b border-stone-100 last:border-b-0 print:grid-cols-[11rem_1fr] print:gap-x-2 print:py-1 print:border-stone-200">
+    <div className="grid grid-cols-[9rem_1fr] gap-x-4 py-3 border-b border-stone-100 last:border-b-0 print:py-1 print:grid-cols-[10rem_1fr] print:gap-x-3">
       {/* Tag column — fixed width so event text aligns across all rows */}
       <div className="flex flex-wrap gap-1 items-start">
         {tagLabels.map((label, idx) => (
@@ -116,8 +116,8 @@ function EventRow({ event }: EventRowProps) {
             key={idx}
             className={
               event.isDistrictwide
-                ? 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-brick-100 text-brick-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900 print:px-1 print:py-0 print:text-[10px] print:leading-tight'
-                : 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-village-100 text-village-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900 print:px-1 print:py-0 print:text-[10px] print:leading-tight'
+                ? 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-brick-100 text-brick-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900'
+                : 'inline-block text-xs font-medium px-2 py-0.5 rounded bg-village-100 text-village-800 whitespace-nowrap print:bg-transparent print:border print:border-stone-400 print:text-stone-900'
             }
           >
             {label}
@@ -127,17 +127,13 @@ function EventRow({ event }: EventRowProps) {
 
       {/* Content column */}
       <div className="min-w-0">
-        <p className="text-stone-900 font-medium leading-snug print:text-sm">{event.title}</p>
+        <p className="text-stone-900 font-medium leading-snug">{event.title}</p>
         {event.time && (
-          <p className="text-sm text-stone-600 mt-0.5 print:text-xs print:mt-0">{event.time}</p>
+          <p className="text-sm text-stone-600 mt-0.5">{event.time}</p>
         )}
         {event.comment && (
-          <div className="text-sm text-stone-600 mt-0.5 print:text-xs print:mt-0">
-            {/* Screen: show truncated or full based on toggle. Print: show only short comments to save paper. */}
-            <p className="print:hidden">{displayComment}</p>
-            {!hasLongComment && (
-              <p className="hidden print:block">{event.comment}</p>
-            )}
+          <div className="text-sm text-stone-600 mt-0.5">
+            <p>{displayComment}</p>
             {hasLongComment && (
               <button
                 type="button"
@@ -166,14 +162,14 @@ function DateBlock({ date, events }: DateBlockProps) {
     : formatCompactDate(date)
 
   return (
-    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:grid print:grid-cols-[8rem_1fr] print:gap-x-3 print:mb-1 print:pt-1 print:border-t print:border-stone-300 print:break-inside-avoid">
+    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:grid print:grid-cols-[7rem_1fr] print:gap-x-4 print:mb-2 print:pt-2 print:border-t print:border-stone-400 print:break-inside-avoid">
       {/* Date label — sticky on screen, top-aligned for print */}
       <div className="sm:sticky sm:top-20 sm:self-start mb-2 sm:mb-0 print:static print:mb-0">
         <div className="hidden sm:block print:block">
-          <div className="text-xs font-semibold tracking-widest text-stone-500 print:text-stone-700 print:text-[9px] print:leading-tight">
+          <div className="text-xs font-semibold tracking-widest text-stone-500 print:text-stone-700 print:text-[10px]">
             {dateLabel.weekday}
           </div>
-          <div className="text-lg font-semibold text-stone-900 leading-tight whitespace-nowrap print:text-sm print:leading-tight">
+          <div className="text-lg font-semibold text-stone-900 leading-tight whitespace-nowrap print:text-sm">
             {dateLabel.monthDay}
           </div>
         </div>
@@ -255,12 +251,10 @@ export default function ZcsCalendar() {
   }
 
   const filteredEvents = useMemo(() => {
-    return zcsEvents
-      .filter((event) => {
-        if (event.isDistrictwide) return true
-        return event.audiences.some((a) => activeAudiences.has(a))
-      })
-      .sort((a, b) => a.startDate.localeCompare(b.startDate))
+    return zcsEvents.filter((event) => {
+      if (event.isDistrictwide) return true
+      return event.audiences.some((a) => activeAudiences.has(a))
+    })
   }, [activeAudiences])
 
   const monthGroups = useMemo(() => {
@@ -293,6 +287,27 @@ export default function ZcsCalendar() {
 
   return (
     <div className="mt-10 print:mt-0">
+      {/* Print-only page footer that repeats on every page */}
+      <style>{`
+        @media print {
+          @page {
+            margin: 0.75in 0.5in 1in 0.5in;
+            @bottom-left {
+              content: "ZionsvilleIndiana.com";
+              font-family: 'Source Sans 3', Arial, sans-serif;
+              font-size: 10pt;
+              color: #78716c;
+            }
+            @bottom-right {
+              content: "Page " counter(page) " of " counter(pages);
+              font-family: 'Source Sans 3', Arial, sans-serif;
+              font-size: 9pt;
+              color: #a8a29e;
+            }
+          }
+        }
+      `}</style>
+
       {/* JSON-LD Event schema for milestone district-wide dates */}
       {eventSchemaList.map((schema, idx) => (
         <script
@@ -302,57 +317,40 @@ export default function ZcsCalendar() {
         />
       ))}
 
-      {/* Print-only header — date + filter info on one line, brand on second line */}
-      <div className="hidden print:block print:mb-4" style={{ fontFamily: 'inherit' }}>
-        <div className="print:text-xs print:text-stone-700" style={{ fontFamily: 'inherit' }}>
-          {new Date().toLocaleDateString('en-US', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
-          {' • '}
-          {isAllActive
-            ? 'Showing all schools'
-            : activeAudiences.size === 0
-              ? 'Showing All ZCS'
-              : `Showing: ${AUDIENCES.filter((a) => activeAudiences.has(a.key))
-                  .map((a) => a.label)
-                  .join(', ')}`}
-        </div>
-        <div className="print:text-xs print:text-stone-500 print:font-normal" style={{ fontFamily: 'inherit' }}>
-          ZionsvilleIndiana.com
-        </div>
-      </div>
+      {/* Print-only date printed line */}
+      <p className="hidden print:block text-sm text-stone-600 mb-4">
+        Printed on {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+      </p>
 
       {/* Filter controls */}
       <div className="mb-8 pb-6 border-b border-stone-200 print:hidden">
-        <div className="flex items-center justify-between gap-4 mb-3 flex-wrap">
-          <p className="text-sm text-stone-600">
-            Filter by school. District-wide dates always appear.
-          </p>
+        <p className="text-sm text-stone-600 mb-3">
+          Filter by school. District-wide dates always appear.
+        </p>
+        <div className="flex flex-wrap gap-2 items-center justify-between">
+          <div className="flex flex-wrap gap-2 items-center">
+            <Toggle
+              label="All schools"
+              active={isAllActive}
+              onClick={showAll}
+            />
+            {AUDIENCES.map((aud) => (
+              <Toggle
+                key={aud.key}
+                label={aud.label}
+                active={activeAudiences.has(aud.key)}
+                onClick={() => toggleAudience(aud.key)}
+              />
+            ))}
+          </div>
           <button
             type="button"
             onClick={handlePrint}
-            className="inline-flex items-center gap-1.5 text-sm text-brick-600 hover:text-brick-700 font-medium"
+            className="inline-flex items-center gap-1.5 bg-brick-500 hover:bg-brick-600 text-white px-4 py-2 rounded font-medium transition-colors text-sm"
           >
             <span aria-hidden="true">🖨</span>
             Print calendar
           </button>
-        </div>
-        <div className="flex flex-wrap gap-2 items-center">
-          <Toggle
-            label="All schools"
-            active={isAllActive}
-            onClick={showAll}
-          />
-          {AUDIENCES.map((aud) => (
-            <Toggle
-              key={aud.key}
-              label={aud.label}
-              active={activeAudiences.has(aud.key)}
-              onClick={() => toggleAudience(aud.key)}
-            />
-          ))}
         </div>
       </div>
 
@@ -363,37 +361,17 @@ export default function ZcsCalendar() {
       )}
 
       {monthGroups.map(([month, events]) => (
-        <section key={month} className="mb-6 print:mb-2">
+        <section key={month} className="mb-6">
           {groupByDate(events).map(([date, dateEvents]) => (
             <DateBlock key={date} date={date} events={dateEvents} />
           ))}
         </section>
       ))}
 
-      {/* Print-only end-of-calendar marker */}
-      <div className="hidden print:block print:mt-6 print:pt-4 print:border-t print:border-stone-400 print:text-center print:text-xs print:text-stone-600 print:tracking-widest">
-        — END OF CALENDAR —
+      {/* End of calendar marker */}
+      <div className="hidden print:block mt-8 pt-4 border-t border-stone-400 text-center">
+        <p className="text-sm text-stone-600 font-semibold">End of calendar</p>
       </div>
-
-      {/* Page numbers via CSS Paged Media — Chrome and Edge only.
-          Silently ignored in Safari and Firefox. */}
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-            @media print {
-              @page {
-                margin: 0.5in 0.5in 0.75in 0.5in;
-                @bottom-right {
-                  content: "Page " counter(page) " of " counter(pages);
-                  font-family: sans-serif;
-                  font-size: 9px;
-                  color: #78716c;
-                }
-              }
-            }
-          `,
-        }}
-      />
     </div>
   )
 }

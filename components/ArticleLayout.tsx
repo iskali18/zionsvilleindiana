@@ -147,7 +147,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           </div>
         )}
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10 print:py-0">
           {/* Fallback breadcrumb + H1 if no hero, or if hero is hidden */}
           {(!meta.hero_image || meta.hide_hero) && (
             <>
@@ -156,7 +156,7 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
                   items={breadcrumbItems}
                 />
               </div>
-              <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8 print:!text-4xl print:mt-0 print:mb-4">
+              <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mt-4 mb-8 print:!text-3xl print:mt-0 print:mb-2">
                 {meta.title}
               </h1>
             </>

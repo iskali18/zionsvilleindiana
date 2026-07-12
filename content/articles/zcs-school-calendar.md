@@ -35,4 +35,5 @@ ctas:
 
 Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation.
 
+## School Holidays & Key Dates 2026–2027
 
