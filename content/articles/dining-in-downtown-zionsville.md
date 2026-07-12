@@ -74,10 +74,9 @@ Downtown breakfast ranges from freshly baked bagels to full-service brunch. Gabl
 ## Coffee & Cafés {#coffee-cafes}
 
 <figure>
-  <img src="/images/articles/dining-downtown-zionsville-roasted-in-the-village-interior.webp" alt="The interior dining room of Roasted in the Village coffee shop in Zionsville, showing customers at wooden tables and animal artwork on the walls." class="rounded-lg shadow-sm" />
+  <img src="/images/articles/zionsville-coffee-shops-roasted-in-the-village.webp" alt="Roasted in the Village coffee counter in downtown Zionsville, with a wood service bar, espresso machine, bottled syrups, menu boards, and a spring drink menu." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Inside Roasted in the Village, a downtown coffee shop with café seating and local artwork. 
-    <span class="not-italic">© ZionsvilleIndiana.com.</span>
+    Roasted in the Village is Zionsville's longest-running independent coffee shop, known for its house-made syrups and rotating seasonal menu. <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -100,9 +99,9 @@ Downtown Zionsville has two independent coffee shops close to Main Street: Our P
 ## Restaurants & Bars {#restaurants-bars}
 
 <figure>
-  <img src="/images/articles/dining-downtown-zionsville-auberge-patio.webp" alt="An outdoor dining patio on a brick sidewalk in downtown Zionsville with red umbrellas and woven bistro chairs next to a historic building." class="rounded-lg shadow-sm" />
+  <img src="/images/articles/downtown-dining-noah-grants-main-street.webp" alt="alt="The brick exterior of the Carter Building housing Noah Grant’s restaurant on South Main Street in downtown Zionsville, with patio umbrellas and vehicles parked along the brick road." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Patio seating at Auberge, with bistro chairs, brick paving, and red umbrellas along Main Street. 
+     Noah Grant’s Grill House & Oyster Bar features outdoor patio seating along the brick-paved section of Main Street in the Village. <span class="not-italic">© ZionsvilleIndiana.com.</span>
     <span class="not-italic">© ZionsvilleIndiana.com.</span>
   </figcaption>
 </figure>
