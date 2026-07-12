@@ -29,7 +29,7 @@ Zionsville and nearby Whitestown are home to six independent and regional coffee
 <p class="mb-0">While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent and regional cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.</p>
 </div>
 
-## Coffee Shops at a Glance
+## Coffee Shop Locations & Specialties
 
 <p class="text-sm text-stone-500 italic mb-4">Not ranked — listed by area.</p>
 
