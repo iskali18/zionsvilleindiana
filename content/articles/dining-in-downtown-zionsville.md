@@ -235,15 +235,28 @@ Downtown dessert stops include ice cream, pies, soft serve, and other classic tr
 
 ---
 
-## Parking
+## See the Downtown Map
 
-For public lots, street parking, and restaurant parking near Main Street, see the [downtown Zionsville parking guide](/downtown#parking).
+For a printable map of downtown showing all of the shops, restaurants, and public parking lots, see the [downtown Zionsville map](/articles/downtown-zionsville-map).
 
 ---
 
-## See the downtown map
+## Parking in Downtown Zionsville
 
-For a printable map of downtown showing all of the shops, restaurants, and public parking lots, see the [downtown Zionsville map](/articles/downtown-zionsville-map).
+Street parking is available along Main Street and nearby side streets, but it can fill quickly during busy weekends and major events. Public lots around the Village give visitors additional parking within walking distance of downtown shops and restaurants.
+
+The largest public parking lot is located at the northwest corner of Main Street and Sycamore Road, with access from both Main Street and First Street. A second lot is located at the southwest corner of Main Street and Pine Street.
+
+Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park, within a short walk of downtown.
+
+<div class="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100 my-6">
+  <iframe
+    src="https://www.google.com/maps/d/u/3/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
+    title="Map of public parking in downtown Zionsville, Indiana"
+    loading="lazy"
+    class="w-full h-full">
+  </iframe>
+</div>
 
 ---
 

@@ -223,84 +223,8 @@ export default function DowntownPage() {
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
 
-          {/* Itineraries */}
-          <div className="mb-10">
-            <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
-            <p className="text-stone-500 mb-4">
-              Downtown Zionsville can fill a quick outing, a meal-centered plan, or
-              a fuller afternoon with coffee, shopping, dining, and events. These
-              sample itineraries give you a few ways to spend time in the Village.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <a href="#things-to-do-in-zionsville-with-kids" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
-                Family time near the Village
-              </a>
-              <a href="#places-to-get-breakfast-in-zionsville" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
-                A leisurely morning
-              </a>
-              <a href="#zionsville-date-night-itinerary" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
-                An elevated evening
-              </a>
-              <a href="#zionsville-bakeries-bagels-and-treats" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
-                Bakeries, bagels, and take-home treats
-              </a>
-              <a href="#zionsville-wine-and-italian-market" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
-                A European-inspired afternoon
-              </a>
-            </div>
-          </div>
-
-          <div className="space-y-8">
-            {itineraries.map((itin, idx) => {
-              const img = imageIfExists(itin.image)
-              return (
-                <section
-                  key={itin.id}
-                  id={itin.id}
-                  className="scroll-mt-6 bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm"
-                >
-                  {/* Fixed 3:2 image on top — renders only if the file exists in public/.
-                      First image loads with priority (near fold); rest lazy-load for
-                      cellular-friendly data use. */}
-                  {img && (
-                    <div className="relative aspect-[3/2] bg-stone-200">
-                      <Image
-                        src={img}
-                        alt={itin.imageAlt}
-                        fill
-                        priority={idx === 0}
-                        className="object-cover"
-                        sizes="(max-width: 896px) 100vw, 896px"
-                      />
-                    </div>
-                  )}
-
-                  <div className="p-6">
-                    <h3 className="font-display text-2xl text-stone-900 mb-2">{itin.title}</h3>
-                    <p className="text-stone-700 leading-relaxed mb-4">{itin.intro}</p>
-
-                    <ol className="space-y-3">
-                      {itin.stops.map((stop, i) => (
-                        <li key={i} className="flex gap-3 text-sm">
-                          <span className="shrink-0 w-5 h-5 rounded-full bg-brick-100 text-brick-700 flex items-center justify-center text-xs font-bold mt-0.5">
-                            {i + 1}
-                          </span>
-                          <span>
-                            <StopName stop={stop} />
-                            {' '}
-                            <span className="text-stone-500">— {stop.note}</span>
-                          </span>
-                        </li>
-                      ))}
-                    </ol>
-                  </div>
-                </section>
-              )
-            })}
-          </div>
-
-          {/* Section nav cards — 3-up */}
-          <section className="mt-16">
+          {/* ── Dining, shopping, and outdoor drinks cards — moved up ───────── */}
+          <section className="mb-12">
             <h2 className="font-display text-3xl text-stone-900 mb-3">Dining, shopping, and outdoor drinks</h2>
             <p className="text-stone-700 leading-relaxed mb-6">
               Use these guides to plan where to eat, shop, and spend time in the Village.
@@ -360,6 +284,88 @@ export default function DowntownPage() {
             </div>
           </section>
 
+          {/* Itineraries */}
+          <div className="mb-10">
+            <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
+            <p className="text-stone-500 mb-4">
+              Downtown Zionsville can fill a quick outing, a meal-centered plan, or a fuller afternoon
+              with coffee, shopping, dining, and events. The sample itineraries below give you a few
+              ways to spend time in the Village.
+            </p>
+            <div className="flex flex-wrap gap-2">
+              <a href="#things-to-do-in-zionsville-with-kids" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                Family time near the Village
+              </a>
+              <a href="#places-to-get-breakfast-in-zionsville" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                A leisurely morning
+              </a>
+              <a href="#zionsville-date-night-itinerary" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                An elevated evening
+              </a>
+              <a href="#zionsville-bakeries-bagels-and-treats" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                Bakeries, bagels, and take-home treats
+              </a>
+              <a href="#zionsville-wine-and-italian-market" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                A European-inspired afternoon
+              </a>
+              <a href="#downtown-map" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                Downtown map
+              </a>
+              <a href="#parking" className="text-sm border border-stone-200 hover:border-brick-300 text-stone-600 hover:text-brick-600 rounded-full py-1 px-3 transition-colors">
+                Parking
+              </a>
+            </div>
+          </div>
+
+          <div className="space-y-8">
+            {itineraries.map((itin, idx) => {
+              const img = imageIfExists(itin.image)
+              return (
+                <section
+                  key={itin.id}
+                  id={itin.id}
+                  className="scroll-mt-20 bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm"
+                >
+                  {/* Fixed 3:2 image on top — renders only if the file exists in public/.
+                      First image loads with priority (near fold); rest lazy-load for
+                      cellular-friendly data use. */}
+                  {img && (
+                    <div className="relative aspect-[3/2] bg-stone-200">
+                      <Image
+                        src={img}
+                        alt={itin.imageAlt}
+                        fill
+                        priority={idx === 0}
+                        className="object-cover"
+                        sizes="(max-width: 896px) 100vw, 896px"
+                      />
+                    </div>
+                  )}
+
+                  <div className="p-6">
+                    <h3 className="font-display text-2xl text-stone-900 mb-2">{itin.title}</h3>
+                    <p className="text-stone-700 leading-relaxed mb-4">{itin.intro}</p>
+
+                    <ol className="space-y-3">
+                      {itin.stops.map((stop, i) => (
+                        <li key={i} className="flex gap-3 text-sm">
+                          <span className="shrink-0 w-5 h-5 rounded-full bg-brick-100 text-brick-700 flex items-center justify-center text-xs font-bold mt-0.5">
+                            {i + 1}
+                          </span>
+                          <span>
+                            <StopName stop={stop} />
+                            {' '}
+                            <span className="text-stone-500">— {stop.note}</span>
+                          </span>
+                        </li>
+                      ))}
+                    </ol>
+                  </div>
+                </section>
+              )
+            })}
+          </div>
+
           {/* Events */}
           <section className="mt-16">
             <h2 className="font-display text-3xl text-stone-900 mb-4">Plan around downtown events</h2>
@@ -385,7 +391,7 @@ export default function DowntownPage() {
           </section>
 
           {/* Downtown Map */}
-          <section className="mt-16">
+          <section id="downtown-map" className="mt-16 scroll-mt-20">
             <h2 className="font-display text-3xl text-stone-900 mb-4">See the downtown map</h2>
             <p className="text-stone-700 leading-relaxed mb-6">
               Looking for a quick way to find your way around the Village? The{' '}
@@ -403,7 +409,7 @@ export default function DowntownPage() {
           </section>
 
           {/* Parking */}
-          <div id="parking" className="mt-16 pt-10 scroll-mt-6">
+          <div id="parking" className="mt-16 pt-10 scroll-mt-20">
             <h2 className="font-display text-3xl text-stone-900 mb-6">Parking in Downtown Zionsville</h2>
             <div className="space-y-4">
               <p className="text-stone-600 leading-relaxed">
@@ -431,6 +437,28 @@ export default function DowntownPage() {
               </p>
             </div>
           </div>
+
+          {/* ── FAQ ─────────────────────────────────────────────────── */}
+          <section className="mt-16 pt-10 border-t border-stone-200">
+            <h2 className="font-display text-3xl text-stone-900 mb-8">
+              Common questions about downtown Zionsville
+            </h2>
+            <dl className="space-y-4">
+              {faqs.map(({ q, a }) => (
+                <div
+                  key={q}
+                  className="bg-stone-50 rounded-lg p-5 border border-stone-200"
+                >
+                  <dt className="font-display text-base font-semibold text-stone-900 mb-2">
+                    {q}
+                  </dt>
+                  <dd className="text-stone-600 text-sm leading-relaxed">
+                    {a}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
 
           {/* ── Keep exploring ───────────────────────────────────── */}
           <section className="mt-16 pt-6 border-t border-stone-200">
