@@ -1,7 +1,7 @@
 ---
 title: "Zionsville School Calendar 2026‑2027"
-seoTitle: "Zionsville School Calendar 2026–2027: Important Dates & Events"
-description: "Zionsville Community Schools (ZCS) 2026–2027 calendar with important dates, breaks, back-to-school events, and curriculum nights for elementary, ZMS, ZWMS, and ZCHS."
+seoTitle: "Zionsville School Calendar 2026–2027: Print by School"
+description: "Printable Zionsville Community Schools (ZCS) 2026–2027 calendar. Choose one school or combine schools (elementary, ZMS, ZWMS, ZCHS) and print a personalized calendar."
 slug: "zcs-school-calendar"
 category: "discovery"
 hero_image: /images/articles/zcs-school-calendar.webp
@@ -9,7 +9,7 @@ hero_position: "center 55%"
 hero_credit: ""
 hide_hero: true
 print_hide_body: true
-lastUpdated: "2026-07-01"
+lastUpdated: "2026-07-12"
 draft: false
 faqs:
   - q: "When does Zionsville school start in 2026?"
@@ -26,14 +26,18 @@ faqs:
     a: "The last student day for Zionsville Community Schools (ZCS) is Wednesday, May 26, 2027."
   - q: "When is ZCHS Commencement?"
     a: "ZCHS Commencement is Wednesday, June 2, 2027. The rain date is June 3, 2027."
+  - q: "How do I print the Zionsville school calendar?"
+    a: "Choose one school or combine schools using the selector on this page, then use the Print button to save a personalized calendar. The printout shows only the schools you selected, along with district-wide dates."
+  - q: "Are the schedules the same for all Zionsville schools?"
+    a: "District-wide breaks like Fall Break, Winter Break, and Spring Break apply to all ZCS schools. School-specific events like open houses, curriculum nights, orientation, and e-learning days vary by school. Choose your child's school on this page to see the dates that apply."
   - q: "Where can I find the full ZCS calendar?"
-    a: "This page summarizes student-facing important dates and events. For the complete ZCS calendar including staff days, early release schedules, and any updates, visit the official Zionsville Community Schools calendar at zcs.k12.in.us."
+    a: "This page summarizes student-facing important dates and events. For the complete ZCS calendar including staff days and any updates, visit the official Zionsville Community Schools calendar at 
+    https://www.zcs.k12.in.us/about-zcs/calendars."
 ctas:
   - label: Visit the official ZCS calendar
     href: https://www.zcs.k12.in.us/about-zcs/calendars
 ---
 
-Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation.
+Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then print a personalized calendar.
 
 ## School Holidays & Key Dates 2026–2027
-
