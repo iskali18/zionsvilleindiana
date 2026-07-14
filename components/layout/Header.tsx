@@ -16,7 +16,7 @@ const nav: NavItem[] = [
     href: '/downtown',
     children: [
       { label: 'Itineraries', href: '/downtown' },
-      { label: 'Dining', href: '/articles/dining-in-downtown-zionsville' },
+      { label: 'Restaurants', href: '/articles/downtown-zionsville-restaurants' },
       { label: 'Shopping', href: '/articles/shopping-in-downtown-zionsville' },
       { label: 'Downtown Map', href: '/articles/downtown-zionsville-map' },
       { label: 'DORA (Outdoor Drinks)', href: '/articles/dora' },

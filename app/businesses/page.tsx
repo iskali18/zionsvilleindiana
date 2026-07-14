@@ -9,7 +9,7 @@ import type { BusinessCategory } from '@/types'
 export const metadata: Metadata = {
   title: 'Zionsville Business Directory',
   description:
-    'A directory of local businesses in Zionsville, Indiana — dining, coffee, boutiques, and more in the Village district.',
+    'A directory of local businesses in Zionsville, Indiana — restaurants, coffee, boutiques, and more in the Village district.',
   alternates: { canonical: 'https://zionsvilleindiana.com/businesses' },
 }
 

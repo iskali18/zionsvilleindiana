@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     template: '%s | Zionsville Indiana',
   },
   description:
-    'Your guide to Zionsville, Indiana. Browse the 2026 events calendar, explore downtown shops and dining, and find parks and trails in the village.',
+    'Your guide to Zionsville, Indiana. Browse the 2026 events calendar, explore downtown shops and restaurants, and find parks and trails in the village.',
   openGraph: {
     type: 'website',
     locale: 'en_US',

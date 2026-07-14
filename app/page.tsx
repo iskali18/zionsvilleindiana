@@ -8,7 +8,7 @@ import { getFeaturedEvents } from '@/lib/content'
 export const metadata: Metadata = {
   title: 'Zionsville Indiana — Events, Downtown & Community Guide',
   description:
-    'Your guide to the Town of Zionsville, Indiana (Boone County, 46077). Find upcoming events, explore downtown dining and shopping, and learn about parks, trails, and community life.',
+    'Your guide to the Town of Zionsville, Indiana (Boone County, 46077). Find upcoming events, explore downtown shopping and restaurants, and learn about parks, trails, and community life.',
   alternates: { canonical: 'https://zionsvilleindiana.com' },
 }
 
@@ -308,13 +308,13 @@ export default function HomePage() {
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
               <Link
-                href="/articles/dining-in-downtown-zionsville"
+                href="/articles/downtown-zionsville-restaurants"
                 className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
               >
                 <div className="relative aspect-[16/9] bg-stone-100">
                   <Image
                     src="/images/downtown/zionsville-downtown-dining.jpg"
-                    alt="Dining in downtown Zionsville"
+                    alt="Restaurants in downtown Zionsville"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     quality={65}
@@ -322,7 +322,7 @@ export default function HomePage() {
                 </div>
                 <div className="p-4">
                   <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
-                    Dining
+                    Restaurants
                   </h3>
                   <p className="text-sm text-stone-500 mt-1 line-clamp-2">
                     Restaurants, cafés, and casual meals in the Village

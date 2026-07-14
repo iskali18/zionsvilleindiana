@@ -13,7 +13,12 @@ const nextConfig: NextConfig = {
       },
       {
         source: '/downtown/dining',
-        destination: '/articles/dining-in-downtown-zionsville',
+        destination: '/articles/downtown-zionsville-restaurants',  // ← NEW
+        permanent: true,
+      },
+      {
+        source: '/articles/dining-in-downtown-zionsville',
+        destination: '/articles/downtown-zionsville-restaurants',
         permanent: true,
       },
       {

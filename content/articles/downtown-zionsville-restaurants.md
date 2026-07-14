@@ -1,13 +1,13 @@
 ---
-title: "Dining in Downtown Zionsville"
-seoTitle: "Dining in Downtown Zionsville: Restaurants & Cafés on Main Street"
+title: "Restaurants in Downtown Zionsville"
+seoTitle: "Restaurants in Downtown Zionsville: Where to Eat on Main Street"
 description: "Restaurants, coffee shops, cafés, and eateries in downtown Zionsville — from all-day breakfast and neighborhood bars to French bistros and oyster bars on Main Street."
-slug: "dining-in-downtown-zionsville"
+slug: "downtown-zionsville-restaurants"
 category: "discovery"
 hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
 hero_position: "center 65%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-06-20"
+lastUpdated: "2026-07-12"
 draft: false
 faqs:
   - q: "What are the best restaurants in downtown Zionsville?"
@@ -22,7 +22,7 @@ faqs:
     a: "Free street parking is available on Main Street and nearby side streets. Public lots are located near Main and Sycamore streets and near Main and Pine streets. See the downtown Zionsville parking guide for details."
 ---
 
-Downtown Zionsville’s dining scene is concentrated in the Village, where restaurants, cafés, and bars line Main Street and the nearby side streets between Oak and Sycamore. Most places are within an easy walk of the public lots and street parking around Main Street, so visitors can park once and choose from coffee, brunch, dinner, drinks, or dessert.
+Downtown Zionsville’s restaurant scene is concentrated in the Village, where restaurants, cafés, and bars line Main Street and the nearby side streets between Oak and Sycamore. Most places are within an easy walk of the public lots and street parking around Main Street, so visitors can park once and choose from coffee, brunch, dinner, drinks, or dessert.
 
 This guide groups downtown Zionsville restaurants and cafés by meal type, including coffee and cafés, breakfast and brunch, sit-down restaurants, pizza and burgers, sweets, and one option just outside the Village district.
 
@@ -99,10 +99,9 @@ Downtown Zionsville has two independent coffee shops close to Main Street: Our P
 ## Restaurants & Bars {#restaurants-bars}
 
 <figure>
-  <img src="/images/articles/downtown-dining-noah-grants-main-street.webp" alt="alt="The brick exterior of the Carter Building housing Noah Grant’s restaurant on South Main Street in downtown Zionsville, with patio umbrellas and vehicles parked along the brick road." class="rounded-lg shadow-sm" />
+  <img src="/images/articles/downtown-dining-noah-grants-main-street.webp" alt="The brick exterior of the Carter Building housing Noah Grant’s restaurant on South Main Street in downtown Zionsville, with patio umbrellas and vehicles parked along the brick road." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
      Noah Grant’s Grill House & Oyster Bar features outdoor patio seating along the brick-paved section of Main Street in the Village. <span class="not-italic">© ZionsvilleIndiana.com.</span>
-    <span class="not-italic">© ZionsvilleIndiana.com.</span>
   </figcaption>
 </figure>
 

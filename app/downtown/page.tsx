@@ -8,9 +8,9 @@ import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 
 export const metadata: Metadata = {
-  title: 'Downtown Zionsville, Indiana — Dining, Shopping, Coffee & Events',
+  title: 'Downtown Zionsville, Indiana — Restaurants, Shopping, Coffee & Events',
   description:
-    'A guide to downtown Zionsville, Indiana: Main Street dining, local shopping, coffee, seasonal events, parking, and sample itineraries for time in the Village.',
+    'A guide to downtown Zionsville, Indiana: Main Street restaurants, local shopping, coffee, seasonal events, parking, and sample itineraries for time in the Village.',
   alternates: { canonical: 'https://zionsvilleindiana.com/downtown' },
 }
 
@@ -127,7 +127,7 @@ const faqs = [
   },
   {
     q: 'What are some places to eat on Main Street in Zionsville?',
-    a: 'Downtown Zionsville has a range of locally owned restaurants and cafés, including Rosie\u2019s Place for breakfast and brunch, Greek\u2019s Pizzeria and Zionsville Pizzeria for casual meals, Cobblestone and Convivio for sit-down dining, Auberge for French cuisine with patio seating, and Gables Bagels for breakfast and lunch. For coffee, Our Place Coffee and Roasted in the Village are both near Main Street.',
+    a: 'Downtown Zionsville has a range of locally owned restaurants and cafés, including Rosie\u2019s Place for breakfast and brunch, Greek\u2019s Pizzeria and Zionsville Pizzeria for casual meals, Cobblestone and Convivio for sit-down restaurants, Auberge for French cuisine with patio seating, and Gables Bagels for breakfast and lunch. For coffee, Our Place Coffee and Roasted in the Village are both near Main Street.',
   },
   {
     q: 'Where is downtown Zionsville?',
@@ -139,7 +139,7 @@ const faqs = [
   },
   {
     q: 'What is there to do in downtown Zionsville?',
-    a: 'Downtown Zionsville is a walking destination for dining, coffee, shopping at locally owned boutiques, gift shops, and galleries, and attending seasonal events like the Farmers Market, Brick Street Market, Christmas in the Village, and the Fall Festival.',
+    a: 'Downtown Zionsville is a walking destination for restaurants, coffee, shopping at locally owned boutiques, gift shops, and galleries, and attending seasonal events like the Farmers Market, Brick Street Market, Christmas in the Village, and the Fall Festival.',
   },
   {
     q: 'When are downtown Zionsville shops open?',
@@ -223,27 +223,27 @@ export default function DowntownPage() {
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-12">
 
-          {/* ── Dining, shopping, and outdoor drinks cards — moved up ───────── */}
+          {/* ── Restaurants, shopping, and outdoor drinks cards — moved up ───────── */}
           <section className="mb-12">
-            <h2 className="font-display text-3xl text-stone-900 mb-3">Dining, shopping, and outdoor drinks</h2>
+            <h2 className="font-display text-3xl text-stone-900 mb-3">Restaurants, shopping, and outdoor drinks</h2>
             <p className="text-stone-700 leading-relaxed mb-6">
               Use these guides to plan where to eat, shop, and spend time in the Village.
             </p>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <Link
-                href="/articles/dining-in-downtown-zionsville"
+                href="/articles/downtown-zionsville-restaurants"
                 className="group block bg-white border border-stone-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md hover:border-brick-300 transition-all"
               >
                 <div className="relative aspect-[3/2] bg-stone-200">
-                  <Image src="/images/downtown/zionsville-downtown-dining.jpg" alt="Dining on Main Street in downtown Zionsville" fill className="object-cover" sizes="(max-width: 640px) 100vw, 436px" />
+                  <Image src="/images/downtown/zionsville-downtown-dining.jpg" alt="Restaurants on Main Street in downtown Zionsville" fill className="object-cover" sizes="(max-width: 640px) 100vw, 436px" />
                 </div>
                 <div className="p-5">
-                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Dining</h3>
+                  <h3 className="font-display text-xl text-stone-900 group-hover:text-brick-600 transition-colors mb-2">Restaurants</h3>
                   <p className="text-stone-600 text-sm leading-relaxed mb-3">
                     Browse downtown restaurants, coffee shops, and dessert spots.
                   </p>
                   <span className="text-sm text-brick-600 group-hover:text-brick-700 font-medium">
-                    Explore dining <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
+                    Explore restaurants <span className="inline-block transition-transform group-hover:translate-x-0.5">→</span>
                   </span>
                 </div>
               </Link>
@@ -289,7 +289,7 @@ export default function DowntownPage() {
             <h2 className="font-display text-3xl text-stone-900 mb-2">Five ways to spend time downtown</h2>
             <p className="text-stone-500 mb-4">
               Downtown Zionsville can fill a quick outing, a meal-centered plan, or a fuller afternoon
-              with coffee, shopping, dining, and events. The sample itineraries below give you a few
+              with coffee, shopping, restaurants, and events. The sample itineraries below give you a few
               ways to spend time in the Village.
             </p>
             <div className="flex flex-wrap gap-2">

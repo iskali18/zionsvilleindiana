@@ -14,11 +14,11 @@ ctas:
     href: /articles/coffee-shops
 faqs:
   - q: "What is there to do in Zionsville, Indiana?"
-    a: "Zionsville offers a mix of downtown shopping and dining along brick-paved Main Street, outdoor activities on the Big-4 Rail Trail and in local parks, farm visits, cultural sites like the SullivanMunce Cultural Center, and casual dining and coffee shops in areas outside the Village."
+    a: "Zionsville offers a mix of downtown shopping and restaurants along brick-paved Main Street, outdoor activities on the Big-4 Rail Trail and in local parks, farm visits, cultural sites like the SullivanMunce Cultural Center, and casual dining and coffee shops in areas outside the Village."
   - q: "What are family-friendly things to do in Zionsville?"
     a: "Families can visit Mulberry Fields Park for the splash pad and playground, walk or bike the Big-4 Rail Trail, explore the Zionsville Nature Center, attend seasonal events like the Farmers Market and Fall Festival, or stop for ice cream and coffee in the Village."
   - q: "Are there things to do in Zionsville besides Main Street?"
-    a: "Yes. Outside the Village, you can explore the Big-4 Rail Trail, visit Mulberry Fields Park, Lions Park, or Creekside Nature Park, tour Traders Point Creamery or WonderTree Farm, or find dining options along Michigan Road, US-421, and the Boone Village area."
+    a: "Yes. Outside the Village, you can explore the Big-4 Rail Trail, visit Mulberry Fields Park, Lions Park, or Creekside Nature Park, tour Traders Point Creamery or WonderTree Farm, or find restaurant options along Michigan Road, US-421, and the Boone Village area."
   - q: "Is Zionsville a good day-trip destination?"
     a: "Zionsville works well as a day trip from Indianapolis and surrounding communities. The walkable downtown, paved Rail Trail, parks, farms, and seasonal events offer enough to fill a half-day or full-day visit."
   - q: "What outdoor activities are available in Zionsville?"
@@ -62,7 +62,7 @@ Downtown is especially helpful for:
 - Browsing locally owned shops and galleries
 - Seasonal events, markets, parades, and holiday gatherings
 
-[See five ways to spend time downtown](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [dining](/articles/dining-in-downtown-zionsville) guides.
+[See five ways to spend time downtown](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [restaurant](/articles/downtown-zionsville-restaurants) guides.
 
 <div class="clear-both"></div>
 
@@ -110,7 +110,7 @@ The Holliday Farms area in northern Zionsville has upscale dining, including **V
 
 [**Mochaland**](/businesses/mochaland) is nearby in the same retail center as Thai Eatery, serving small-batch roasted coffee and bakery items near Bennett Parkway.
 
-Nearby at Sylo Crossing and The Farm development, newer dining and quick-service choices include **Torchy’s Tacos**, **Shake Shack**, **CAVA**, **Bibibop Asian Grill**, **Piada Italian Street Food**, **West Coast Sourdough**, **sweetgreen**, and **Graeter’s Ice Cream**. This area can be convenient for casual meals, family outings, or dessert.
+Nearby at Sylo Crossing and The Farm development, newer restaurants and quick-service choices include **Torchy’s Tacos**, **Shake Shack**, **CAVA**, **Bibibop Asian Grill**, **Piada Italian Street Food**, **West Coast Sourdough**, **sweetgreen**, and **Graeter’s Ice Cream**. This area can be convenient for casual meals, family outings, or dessert.
 
 ## Find coffee, sweets, and local treats
 

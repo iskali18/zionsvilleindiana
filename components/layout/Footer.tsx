@@ -12,7 +12,7 @@ const columns = [
   {
     heading: 'Downtown',
     links: [
-      { label: 'Dining', href: '/articles/dining-in-downtown-zionsville' },
+      { label: 'Restaurants', href: '/articles/downtown-zionsville-restaurants' },
       { label: 'Shopping', href: '/articles/shopping-in-downtown-zionsville' },
       { label: 'Parking', href: '/downtown#parking' },
     ],
@@ -36,7 +36,7 @@ export default function Footer() {
             <span className="text-white">Zionsville</span> <span className="text-stone-400">Indiana</span>
           </p>
           <p className="text-sm text-stone-400 leading-relaxed">
-            Your guide to events, dining, and community life in Zionsville, Indiana.
+            Your guide to events, restaurants, and community life in Zionsville, Indiana.
           </p>
           <p className="text-xs text-stone-400 mt-3">Zionsville, IN 46077 · Boone County</p>
         </div>

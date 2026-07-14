@@ -34,7 +34,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const categoryLabels: Record<BusinessCategory, string> = {
-  dining: 'Restaurant',
+  dining: 'Dining',
   coffee: 'Coffee & Café',
   shopping: 'Shop',
   boutique: 'Boutique',

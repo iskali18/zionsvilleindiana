@@ -96,7 +96,7 @@ export default async function EventsPage() {
             <Link href="/downtown" className="text-brick-600 hover:text-brick-700">
               downtown Zionsville
             </Link>{' '}
-            for dining and shopping in the Village.
+            for restaurants and shopping in the Village.
           </p>
         </div>
 

@@ -140,5 +140,5 @@ The PDF is best for printing. Use the JPEG when you want a phone copy for walkin
 
 - For full parking details and downtown logistics, see the [Downtown Zionsville guide](/downtown).
 - For shop-by-shop browsing, see the [downtown shopping guide](/articles/shopping-in-downtown-zionsville).
-- For restaurants, cafés, and coffee shops, see the [downtown dining guide](/articles/dining-in-downtown-zionsville).
+- For restaurants, cafés, and coffee shops, see the [downtown restaurant guide](/articles/downtown-zionsville-restaurants).
 - For things to do beyond Main Street, see [things to do in Zionsville](/things-to-do).
