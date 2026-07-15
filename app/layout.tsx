@@ -44,9 +44,11 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 }
 
-const GA_ID = 'G-25FXRPT58S' // ← replace with your GA4 measurement ID
+const GA_ID = 'G-25FXRPT58S'
 
 export default function RootLayout({ children }: { children: ReactNode }) {
+  const isProd = process.env.NODE_ENV === 'production'
+
   return (
     <html lang="en" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <head>
@@ -63,21 +65,28 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             }),
           }}
         />
-        {/* Google Analytics */}
-        <script
-          async
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', '${GA_ID}');
-            `,
-          }}
-        />
+        {/* Google Analytics — only loads in production, and only fires
+            for the primary hostname (skips localhost + Vercel preview URLs). */}
+        {isProd && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  if (window.location.hostname === 'zionsvilleindiana.com') {
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                    gtag('js', new Date());
+                    gtag('config', '${GA_ID}');
+                  }
+                `,
+              }}
+            />
+          </>
+        )}
       </head>
       <body className="bg-stone-50 text-stone-800 font-sans font-medium antialiased">
         {children}
