@@ -515,8 +515,8 @@ export default function ScheduleGenerator() {
       students: JSON.parse(JSON.stringify(students)) as Student[],
       activeStudentId,
     }
-    const label = deletedStudent?.name?.trim()
-      ? `Deleted ${deletedStudent.name.trim()}`
+    const label = deletedStudent?.studentName?.trim()
+      ? `Deleted ${deletedStudent.studentName.trim()}`
       : 'Deleted student'
     setUndoSnapshot({
       label,
