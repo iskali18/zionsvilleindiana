@@ -15,6 +15,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/articles`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/downtown`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/businesses`, lastModified: new Date(), changeFrequency: 'weekly', priority: 0.7 },
+    { url: `${BASE}/tools/zcs-k8-schedule`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
+    { url: `${BASE}/tools/zchs-schedule`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.7 },
     { url: `${BASE}/about`, lastModified: new Date(), changeFrequency: 'monthly', priority: 0.6 },
     { url: `${BASE}/disclaimer`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
     { url: `${BASE}/privacy`, lastModified: new Date(), changeFrequency: 'yearly', priority: 0.3 },
