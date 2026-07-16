@@ -1295,7 +1295,7 @@ export default function ZcsK8ScheduleGenerator() {
           Create a one-page weekly schedule for classes, lunch, recess, and
           activities.
         </p>
-        <ul className="text-stone-600 mb-6 max-w-[720px] text-sm list-disc pl-5 space-y-1">
+        <ul className="text-stone-600 mb-2 max-w-[720px] text-sm list-disc pl-5 space-y-1">
           <li>
             Enter classes or periods for the school year or by semester, and
             select the dates to print
@@ -1316,8 +1316,8 @@ export default function ZcsK8ScheduleGenerator() {
             .
           </li>
         </ul>
-        <p className="text-sm text-stone-500 mb-8 max-w-[720px]">
-          For ZCHS students, use the{' '}
+        <p className="text-sm text-stone-500 mb-6 max-w-[720px]">
+          For high school students, use the{' '}
           <a
             href="/tools/zchs-schedule"
             className="text-brick-600 hover:text-brick-700 hover:underline"
@@ -1326,6 +1326,7 @@ export default function ZcsK8ScheduleGenerator() {
           </a>
           .
         </p>
+        <hr className="mb-8 border-stone-200 max-w-[720px]" />
 
         {/* Student tabs */}
         <section className="mb-6 max-w-[720px]">

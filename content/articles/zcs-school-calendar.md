@@ -38,6 +38,10 @@ ctas:
     href: https://www.zcs.k12.in.us/about-zcs/calendars
 ---
 
-Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then print a personalized calendar.
+Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then **print a personalized calendar**.
+
+<div className="my-4 p-4 bg-white border-l-4 border-village-600 rounded-r-lg">
+<p className="!my-0"><strong>Need a printable weekly class schedule?</strong> Use the <a href="/tools/zchs-schedule" className="text-brick-600 hover:underline">ZCHS Schedule Maker</a> for high school students or the <a href="/tools/zcs-k8-schedule" className="text-brick-600 hover:underline">ZCS K–8 Weekly Schedule Maker</a> for elementary and middle school students.</p>
+</div>
 
 ## School Holidays & Key Dates 2026–2027

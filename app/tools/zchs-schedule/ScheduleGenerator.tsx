@@ -658,7 +658,7 @@ export default function ScheduleGenerator() {
           Create a printable ZCHS weekly schedule with classes, Green/Silver
           days, breaks, and activities.
         </p>
-        <ul className="text-stone-600 mb-8 max-w-[720px] text-sm list-disc pl-5 space-y-1">
+        <ul className="text-stone-600 mb-2 max-w-[720px] text-sm list-disc pl-5 space-y-1">
           <li>Enter classes for both semesters and select the dates to print</li>
           <li>Green/Silver days and school breaks are pre-loaded from the ZCS calendar</li>
           <li>Teacher and room are optional</li>
@@ -686,6 +686,17 @@ export default function ScheduleGenerator() {
             .
           </li>
         </ul>
+        <p className="text-sm text-stone-500 mb-6 max-w-[720px]">
+          For elementary and middle school students, use the{' '}
+          <a
+            href="/tools/zcs-k8-schedule"
+            className="text-brick-600 hover:text-brick-700 hover:underline"
+          >
+            ZCS K-8 Weekly Schedule Maker
+          </a>
+          .
+        </p>
+        <hr className="mb-8 border-stone-200 max-w-[720px]" />
 
         {/* Student tabs */}
         <section className="mb-6 max-w-[720px]">
