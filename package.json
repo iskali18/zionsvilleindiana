@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sentry/nextjs": "^10.65.0",
     "cheerio": "^1.2.0",
     "gray-matter": "^4.0.3",
     "lucide-react": "^1.17.0",
