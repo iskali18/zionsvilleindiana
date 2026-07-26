@@ -146,6 +146,11 @@ The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and b
 - **Known for:** Community-oriented café with a children's nook
 - **Best for:** Work meetings and group seating
 
+<div class="bg-amber-50 border-l-4 border-amber-400 pl-4 pr-4 py-3 my-6">
+<p class="text-xs uppercase tracking-widest text-amber-700 font-medium mb-2">Closing August 8, 2026</p>
+<p class="mb-0">Our Place Coffee has announced that August 8 will be its final day in Zionsville.</p>
+</div>
+
 <figure>
   <img src="/images/articles/zionsville-coffee-shops-our-place-coffee.webp" alt="Our Place Coffee in Zionsville, showing a spacious café interior with teal walls, white vaulted ceilings, café tables, a long counter, and a self-serve drink station." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
