@@ -2,9 +2,16 @@
 title: Sunday Summer Concerts
 seoTitle: "Sunday Summer Band Concerts at Lions Park 2026"
 description: Free Sunday evening band concerts at Lions Park in Zionsville, hosted by the Zionsville Lions Club, July through early August 2026.
-eventType: dated
+eventType: recurring
 startDate: "2026-07-05"
 endDate: "2026-08-02"
+recurrenceLabel: "Every Sunday, July 5 – August 2, 2026"
+recurrence:
+  pattern: weekly
+  dayOfWeek: sunday
+  startSeason: "2026-07-05"
+  endSeason: "2026-08-02"
+inSeasonMessage: "The 2026 Sunday Summer Concerts run Sundays at 7:00 p.m., through August 2."
 location: Lions Park, Zionsville
 address: 11053 Sycamore St, Zionsville, IN 46077
 image: /images/events/zionsville-sunday-summer-concerts.webp
@@ -32,7 +39,7 @@ faqs:
 
 The Sunday Summer Concerts are free evening concerts held at the Lions Park bandstand in Zionsville and hosted by the Zionsville Lions Club. The series runs on five Sundays from July 5 through August 2, 2026, with performances beginning at 7:00 PM.
 
-This Sunday series is separate from the Zionsville Cultural District’s Wednesday evening Summer Concert Series.
+This Sunday series is separate from the Zionsville Cultural District's Wednesday evening Summer Concert Series.
 
 ## 2026 Lineup
 

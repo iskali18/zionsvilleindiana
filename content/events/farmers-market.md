@@ -24,6 +24,7 @@ mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=18BtWWcIsHtC8hk8HPDtkO9oTk
 mapTitle: "Zionsville Farmers Market 2026 — Parking & Restaurants"
 metaTitle: "Zionsville Farmers Market 2026: Hours, Schedule & Parking"
 metaDescription: "Zionsville Farmers Market 2026 hours, weekly schedule, parking, and vendor info for Main Street, Zionsville. Saturdays 8-11:30 AM, May 16-Sep 26."
+inSeasonMessage: "The 2026 Zionsville Farmers Market runs Saturdays, 8:00–11:30 a.m., through September 26."
 faqs:
   - q: "When is the Zionsville Farmers Market in 2026?"
     a: "The Zionsville Farmers Market runs every Saturday from May 16 through September 26, 2026, from 8:00 AM to 11:30 AM."
@@ -79,15 +80,15 @@ Several restaurants and coffee spots are a short walk from the market. A few way
 
 **Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) and [Our Place Coffee](/businesses/our-place-coffee) are nearby coffee shops for espresso drinks, brewed coffee, and light breakfast items before or after the market.
 
-**Brunch** — [Rosie’s Place](/businesses/rosies-place) is a sit-down breakfast and brunch spot on Main Street, with pancakes, omelets, French toast, sandwiches, and lunch items.
+**Brunch** — [Rosie's Place](/businesses/rosies-place) is a sit-down breakfast and brunch spot on Main Street, with pancakes, omelets, French toast, sandwiches, and lunch items.
 
 **Sit-down lunch** — [The Friendly Tavern](/businesses/friendly-tavern) is a longtime Main Street gathering place known for pub food, tenderloins, wings, steaks, and a local atmosphere. [Cobblestone](/businesses/cobblestone) is an upscale-casual American restaurant and bar on Main Street with lunch, weekend brunch, patio seating, and cocktails.
 
-**Casual lunch** — [Greek’s Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are Main Street pizza spots for a casual lunch after the market.
+**Casual lunch** — [Greek's Pizzeria](/businesses/greeks-pizzeria) and [Zionsville Pizzeria](/businesses/zionsville-pizzeria) are Main Street pizza spots for a casual lunch after the market.
 
 **Sweets** — [The Scoop](/businesses/the-scoop) is across from the market on Main Street, serving ice cream and cold treats for later in the morning or after the market.
 
-**Take home** — [Angelo’s Italian Market](/businesses/angelos-italian-market) carries fresh pasta, sauces, prepared foods, and Italian market goods to take home after the market.
+**Take home** — [Angelo's Italian Market](/businesses/angelos-italian-market) carries fresh pasta, sauces, prepared foods, and Italian market goods to take home after the market.
 
 ## Downtown map
 

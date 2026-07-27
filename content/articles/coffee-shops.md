@@ -1,6 +1,6 @@
 ---
 title: "Coffee Shops in Zionsville"
-seoTitle: "Zionsville Coffee Shops: 6 Cafés in Zionsville & Whitestown - July 2026"
+seoTitle: "Zionsville Coffee Shops: 6 Cafés in Zionsville & Whitestown"
 description: "A guide to six coffee shops in Zionsville and nearby Whitestown, including downtown cafés, Michigan Road shops, RIVET Coffee Bar on 106th Street, and Hattie’s Coffee House."
 slug: "coffee-shops"
 category: "food"
@@ -29,93 +29,60 @@ Zionsville and nearby Whitestown are home to six independent and regional coffee
 <p class="mb-0">While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent and regional cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.</p>
 </div>
 
-## Coffee Shop Locations & Specialties
+## Choose a Coffee Shop
 
-<p class="text-sm text-stone-500 italic mb-4">Not ranked — listed by area.</p>
+Not sure where to go? Start with what you are looking for, from house-made latte flavors and drive-thru coffee to breakfast, global coffee traditions, or a downtown café.
 
 <table>
+  <colgroup>
+    <col style="width: 42%">
+    <col style="width: 18%">
+    <col style="width: 40%">
+  </colgroup>
   <thead>
     <tr>
-      <th>Shop</th>
-      <th>Location</th>
-      <th>Known for</th>
+      <th>If you are looking for...</th>
+      <th>Choose</th>
+      <th>Why</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><strong>House-made flavors near Main Street</strong></td>
       <td><a href="#roasted-in-the-village">Roasted in the Village</a></td>
-      <td>Downtown Zionsville</td>
-      <td>House-made syrups, seasonal drinks, and local art</td>
+      <td>Known for house-made syrups, seasonal drinks, and a relaxed downtown setting</td>
     </tr>
     <tr>
+      <td><strong>A spacious downtown café</strong></td>
       <td><a href="#our-place-coffee">Our Place Coffee</a></td>
-      <td>Downtown Zionsville</td>
-      <td>Large café space near Main Street</td>
+      <td>Offers plenty of seating for conversation, meetings, or laptop work</td>
     </tr>
     <tr>
+      <td><strong>Coffee with breakfast or lunch</strong></td>
       <td><a href="#rivet">RIVET Coffee Bar</a></td>
-      <td>106th Street</td>
-      <td>Specialty coffee inside Graham Rahal Performance</td>
+      <td>Serves specialty coffee, Liège waffles, egg sandwiches, salads, and other meals</td>
     </tr>
     <tr>
+      <td><strong>Drive-thru coffee and cold brew drinks</strong></td>
       <td><a href="#java-house">Java House</a></td>
-      <td>Michigan Road</td>
-      <td>Cold brew–based drinks and drive-thru service</td>
+      <td>Builds its coffee menu around cold brew, including lattes, nitro drinks, frappes, and flavored cold foams</td>
     </tr>
     <tr>
+      <td><strong>Turkish coffee and Arabic qahwah</strong></td>
       <td><a href="#mochaland">Mochaland</a></td>
-      <td>Michigan Road</td>
-      <td>Middle Eastern coffee traditions and global coffee origins</td>
+      <td>Focuses on Middle Eastern brewing traditions, global coffee origins, and specialty teas</td>
     </tr>
     <tr>
+      <td><strong>Coffee roasted on-site in a farmhouse café</strong></td>
       <td><a href="#hatties-coffee-house">Hattie's Coffee House</a></td>
-      <td>Whitestown</td>
-      <td>Renovated farmhouse café with coffee roasted on-site</td>
+      <td>Offers locally roasted coffee, baked goods, sandwiches, and indoor and outdoor seating in Whitestown</td>
     </tr>
   </tbody>
 </table>
 
-<!--table>
-  <thead>
-    <tr>
-      <th>Shop</th>
-      <th>Known for</th>
-      <th>Best for</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><a href="#roasted-in-the-village">Roasted in the Village</a></td>
-      <td>House-made syrups and featured local art</td>
-      <td>Quality coffee downtown and unique seasonal flavors</td>
-    </tr>
-    <tr>
-      <td><a href="#our-place-coffee">Our Place Coffee</a></td>
-      <td>Community-oriented café with a children's nook</td>
-      <td>Work meetings and group seating</td>
-    </tr>
-    <tr>
-      <td><a href="#rivet">RIVET Coffee Bar</a></td>
-      <td>Specialty-grade coffee in a performance-car setting</td>
-      <td>Breakfast, lunch, and meetings</td>
-    </tr>
-    <tr>
-      <td><a href="#java-house">Java House</a></td>
-      <td>Cold brew–based coffee drinks</td>
-      <td>Flavored cold brews, cold foams, and drive-thru service</td>
-    </tr>
-    <tr>
-      <td><a href="#mochaland">Mochaland</a></td>
-      <td>Middle Eastern coffee traditions and global coffee origins</td>
-      <td>Turkish coffee, Arabic qahwah, and everyday coffee drinks like lattes</td>
-    </tr>
-    <tr>
-      <td><a href="#hatties-coffee-house">Hattie's Coffee House</a></td>
-      <td>Coffee roasted on-site; locally sourced milk and baked goods</td>
-      <td>Renovated farmhouse setting and backyard children's play area</td>
-    </tr>
-  </tbody>
-</table-->
+<div class="bg-amber-50 border-l-4 border-amber-400 pl-4 pr-4 py-3 mt-5 mb-6">
+<p class="text-sm mb-0"><strong>Our Place Coffee is closing August 8, 2026.</strong> It remains open until its announced final day.</p>
+</div>
 
 ---
 

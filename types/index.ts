@@ -12,6 +12,9 @@ export interface EventMeta {
   endDate?: string
   /** e.g. "Every Saturday, May 16 – September 27" */
   recurrenceLabel?: string
+  /** Optional banner text shown at the top of the event page when today's date
+   *  falls between startDate and endDate. Rendered by EventInSeasonBanner. */
+  inSeasonMessage?: string
   location: string
   address: string
   image: string

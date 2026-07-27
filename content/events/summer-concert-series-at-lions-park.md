@@ -11,6 +11,7 @@ recurrence:
   dayOfWeek: wednesday
   startSeason: "2026-06-03"
   endSeason: "2026-08-12"
+inSeasonMessage: "The 2026 Summer Concert Series at Lions Park runs Wednesdays at 7:00 p.m., through August 12."
 location: Lions Park, Zionsville
 address: 11053 Sycamore St, Zionsville, IN 46077
 image: /images/events/zionsville-summer-concert-series.jpg
