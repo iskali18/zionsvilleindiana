@@ -7,7 +7,7 @@ category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
 hero_position: "center 45%"
 hero_credit: ""
-lastUpdated: "2026-07-06"
+lastUpdated: "2026-07-26"
 draft: false
 faqs:
   - q: "What coffee shops are in downtown Zionsville?"
