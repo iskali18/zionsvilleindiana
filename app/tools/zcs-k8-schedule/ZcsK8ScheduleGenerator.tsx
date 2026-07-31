@@ -1001,14 +1001,16 @@ export default function ZcsK8ScheduleGenerator() {
   /** Switch between school-year and semesters formats. When switching, either
    *  merge existing entries into new blocks (best effort) or reset. Only
    *  snapshots for Restore when the switch actually loses information — i.e.
-   *  Semesters → School Year, which merges two lists into one. */
+   *  Semesters → School Year with entries to merge. An empty semesters
+   *  schedule can switch to school year silently since nothing is lost. */
   const handleFormatChange = (format: ScheduleFormat) => {
     if (activeStudent.scheduleFormat === format) return
 
-    // Only snapshot when the switch merges data. Going School Year → Semesters
-    // just moves entries to Semester 1 with an empty Semester 2 — no data loss.
+    const allEntries = activeStudent.schedules.flatMap((b) => b.entries)
     const shouldSnapshot =
-      activeStudent.scheduleFormat === 'semesters' && format === 'school-year'
+      activeStudent.scheduleFormat === 'semesters' &&
+      format === 'school-year' &&
+      allEntries.length > 0
     if (shouldSnapshot) {
       const snapshot = {
         scheduleFormat: activeStudent.scheduleFormat,
