@@ -2,16 +2,16 @@ import type { Metadata } from 'next'
 import ScheduleGenerator from './ScheduleGenerator'
 
 export const metadata: Metadata = {
-  title: 'ZCHS Schedule Maker | Zionsville',
+  title: 'Printable ZCHS Schedule Maker 2026-2027: Custom Green/Silver Days',
   description:
-    'Make and print a personalized ZCHS Green/Silver block schedule for your student. Covers the 2026-2027 school year.',
+    "Make and print a personalized ZCHS block schedule. The 2026-2027 Green/Silver calendar is built in — just enter your student's classes.",
   alternates: {
     canonical: 'https://zionsvilleindiana.com/tools/zchs-schedule',
   },
   openGraph: {
-    title: 'ZCHS Schedule Maker',
+    title: 'ZCHS Schedule Maker 2026-2027',
     description:
-      'Make and print a personalized ZCHS Green/Silver block schedule for your student. Covers the 2026-2027 school year.',
+      "Make and print a personalized ZCHS block schedule. The 2026-2027 Green/Silver calendar is built in — just enter your student's classes.",
     url: 'https://zionsvilleindiana.com/tools/zchs-schedule',
     type: 'website',
   },

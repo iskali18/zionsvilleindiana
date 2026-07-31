@@ -38,10 +38,15 @@ ctas:
     href: https://www.zcs.k12.in.us/about-zcs/calendars
 ---
 
-Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then **print a personalized calendar**.
+Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then print a personalized calendar.
 
-<div className="my-4 p-4 bg-white border-l-4 border-village-600 rounded-r-lg">
-<p className="!my-0"><strong>Need a printable weekly class schedule?</strong> Use the <a href="/tools/zchs-schedule" className="text-brick-600 hover:underline">ZCHS Schedule Maker</a> for high school students or the <a href="/tools/zcs-k8-schedule" className="text-brick-600 hover:underline">ZCS K–8 Weekly Schedule Maker</a> for elementary and middle school students.</p>
+<div className="my-6 py-5 px-6 bg-village-600 rounded-lg text-white">
+<p className="!my-0 !mb-3 text-lg font-semibold">Need a printable weekly class schedule?</p>
+<div className="flex gap-3 flex-wrap">
+<a href="/tools/zcs-k8-schedule" className="inline-block py-2 px-4 bg-white text-village-700 rounded-md font-medium text-sm no-underline hover:bg-stone-100">ZCS K–8 Schedule Maker →</a>
+<a href="/tools/zchs-schedule" className="inline-block py-2 px-4 bg-white text-village-700 rounded-md font-medium text-sm no-underline hover:bg-stone-100">ZCHS Schedule Maker →</a>
+</div>
+<p className="!mt-3 !mb-0 text-sm text-white/80">Free tools for personalized weekly schedules.</p>
 </div>
 
 ## School Holidays & Key Dates 2026–2027

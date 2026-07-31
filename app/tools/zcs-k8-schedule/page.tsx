@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import ZcsK8ScheduleGenerator from './ZcsK8ScheduleGenerator'
 
 export const metadata: Metadata = {
-  title: 'ZCS K-8 Weekly Schedule Maker | Zionsville Indiana',
+  title: 'Printable ZCS K-8 Weekly Schedule Maker 2026-2027',
   description:
     'Create a one-page weekly schedule for classes, lunch, recess, and activities. For ZCS elementary and middle school students.',
 }

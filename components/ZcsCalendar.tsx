@@ -251,7 +251,15 @@ export default function ZcsCalendar() {
   }
 
   const filteredEvents = useMemo(() => {
+    // Today's date as YYYY-MM-DD in local time — matches event date string
+    // format so string comparison works. Past events are filtered out; a
+    // multi-day event stays visible until its endDate is in the past.
+    const now = new Date()
+    const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
+
     return zcsEvents.filter((event) => {
+      const eventEnd = event.endDate || event.startDate
+      if (eventEnd < today) return false
       if (event.isDistrictwide) return true
       return event.audiences.some((a) => activeAudiences.has(a))
     })
