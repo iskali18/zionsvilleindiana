@@ -1,6 +1,6 @@
 ---
-title: Zionsville Street Dance
-seoTitle: "Zionsville Street Dance 2026"
+title: Zionsville Street Dance (Canceled)
+seoTitle: "Zionsville Street Dance 2026 (Canceled)"
 description: "A ticketed outdoor concert and community gathering on Main Street with live music, local beverages, food trucks, and a kids' area, hosted by the Zionsville Chamber of Commerce. 2026: Saturday, August 1."
 eventType: annual
 startDate: "2026-08-01"
@@ -14,8 +14,8 @@ tags: [concert, ticketed, summer, outdoor, family, downtown]
 featured: true
 externalUrl: https://business.zionsvillechamber.org/calendar/Details/zionsville-street-dance-2026-1687242
 area: downtown
-metaTitle: "Zionsville Street Dance: 2026 Date, Tickets & Lineup"
-metaDescription: "Zionsville Street Dance 2026 - Saturday, August 1, 6–10 PM on Main Street. Outdoor concert and community event  with live music, local breweries, food trucks, and a kids' area. The Dundies headline; Pigeons of Market Square open. Ticketed."
+metaTitle: "Zionsville Street Dance 2026 (Canceled) — Zionsville, IN"
+metaDescription: "Canceled — The 2026 Zionsville Street Dance on Saturday, August 1 has been canceled due to inclement weather."
 faqs:
   - q: "When is the Zionsville Street Dance 2026?"
     a: "The Zionsville Street Dance is Saturday, August 1, 2026, from 6:00 PM to 10:00 PM on Main Street in downtown Zionsville. Gates open at 5:00 PM."
@@ -36,6 +36,12 @@ faqs:
 ---
 
 The Zionsville Street Dance is an annual outdoor concert and community gathering hosted by the Zionsville Chamber of Commerce on Main Street in downtown Zionsville. The ticketed event brings thousands of people to the Village for live music, local drinks, food trucks, and family-friendly activities on the historic brick street.
+
+<div className="my-6 p-5 bg-amber-50 border-l-4 border-amber-400 rounded-r-lg">
+
+**Update:** The 2026 Zionsville Street Dance has been canceled due to inclement weather. See the [full announcement on Facebook](https://www.facebook.com/share/p/1Boo7xhNii/).
+
+</div>
 
 The 2026 Street Dance takes place Saturday, August 1, from 6:00 to 10:00 PM, with gates opening at 5:00 PM.
 
