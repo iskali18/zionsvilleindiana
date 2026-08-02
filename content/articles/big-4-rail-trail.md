@@ -5,7 +5,7 @@ description: Zionsville Rail Trail section maps, trailheads, distances, parking,
 hero_image: /images/articles/zionsville-rail-trail-hero.webp
 hero_position: "center 60%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-07-12"
+lastUpdated: "2026-08-01"
 category: discovery
 draft: false
 faqs:
@@ -59,6 +59,17 @@ For the original town guidance, see the [public Facebook post](https://www.faceb
 ## Route Maps and Segment Guides
 
 This guide divides the Rail Trail through Zionsville into shorter sections, with approximate distances and parking near each end. Use the first table to choose a starting point, plan a turnaround, or compare shorter and longer sections before reading additional notes below.
+
+### Full Zionsville Rail Trail map
+
+<div className="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm my-6">
+  <iframe
+    src="https://www.google.com/maps/d/embed?mid=1RYfDfbD2UK_6VF8WGoEB3pcSDDcG06Y&ehbc=2E312F"
+    className="w-full h-full border-0"
+    loading="lazy"
+    title="Full Zionsville Rail Trail map"
+  ></iframe>
+</div>
 
 ### Trailheads, Parking, and Distances
 
