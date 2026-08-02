@@ -8,6 +8,7 @@ location: Main Street, Downtown Zionsville
 address: "340 S Main St, Zionsville, IN 46077"
 image: /images/events/zionsville-80s-night.webp
 imageAlt: Neon “80s Night” sign over the brick Main Street in downtown Zionsville, with illuminated storefronts and colorful reflections at night.
+hero_position: "center 40%"
 photoCredit:
 photoCreditHeroOnly: false
 featured: true
