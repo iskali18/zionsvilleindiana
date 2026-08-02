@@ -133,7 +133,8 @@ export default async function EventPage({ params }: Props) {
             src={meta.image}
             alt={meta.imageAlt}
             fill
-            className="object-cover object-[center_55%] opacity-90"
+            className="object-cover opacity-90"
+            style={{ objectPosition: meta.hero_position ?? 'center 55%' }}
             priority
           />
           {/* Dark gradient for text legibility */}

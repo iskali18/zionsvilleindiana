@@ -16,6 +16,7 @@ location: Lions Park, Zionsville
 address: 11053 Sycamore St, Zionsville, IN 46077
 image: /images/events/zionsville-sunday-summer-concerts.webp
 imageAlt: Band performing at the Lions Park bandstand during Sunday Summer Concerts in Zionsville, Indiana
+hero_position: "center 30%"
 photoCredit:
 photoCreditHeroOnly: false
 featured: true

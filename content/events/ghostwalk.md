@@ -9,6 +9,7 @@ location: SullivanMunce Cultural Center, Zionsville
 address: 225 W Hawthorne St, Zionsville, IN 46077
 image: /images/events/zionsville-ghostwalk.webp
 imageAlt: GhostWalk tour vignette on Main Street in the historic Village of Zionsville, Indiana
+hero_position: "center 30%"
 photoCredit:
 photoCreditHeroOnly: false
 featured: true
