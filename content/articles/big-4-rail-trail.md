@@ -24,7 +24,9 @@ faqs:
   - q: "Are e-bikes allowed on the Big-4 Rail Trail?"
     a: "Class 1 and Class 2 e-bikes are allowed on the Big-4 Rail Trail. Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, and gasoline-powered vehicles are not allowed."
   - q: "Are there restrooms on the Big-4 Rail Trail?"
-    a: "The Big-4 Rail Trail has restrooms and drinking water at Town Hall, Mulberry Fields Park, and Heritage Trail Park."
+    a: "Yes, at several points along the trail. Permanent restrooms are at the Zionsville Road Trailhead (south end) and Heritage Trail Park (north end). Town Hall has indoor restrooms available Monday–Friday, 8 AM–4 PM. A portable restroom is at the Starkey Avenue Trail Parking. Mulberry Fields Park, located near a Rail Trail access point, is another option. Availability is not continuous along the trail — plan around trailhead and park stops."
+  - q: "Where can I fill up on water along the Rail Trail?"
+    a: "Drinking fountains and bottle fillers are at the Zionsville Road Trailhead and Heritage Trail Park. Town Hall has indoor drinking fountains available Monday–Friday, 8 AM–4 PM. Mulberry Fields Park, located near a Rail Trail access point, also has drinking water."
   - q: "Does the Zionsville Rail Trail connect to Whitestown?"
     a: "Yes, the Big-4 Rail Trail continues from Zionsville into Whitestown across 750 E. The Whitestown portion continues to Main Street in downtown Whitestown and beyond to 500 E, making the combined trail nearly 9 miles long."
 ctas:
@@ -47,6 +49,7 @@ The Zionsville section is about 5 miles long, with a wide paved surface for walk
 * **Surface:** 12-ft-wide paved asphalt
 * **Uses:** Walking, running, biking, strollers, mobility devices, leashed dogs, and Class 1 or Class 2 e-bikes
 * **Not allowed:** Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, gasoline-powered vehicles, and other prohibited motorized vehicles
+* **Amenities:** Restrooms, drinking water, bike repair stations, and seating are concentrated at trailheads, rest areas, and park connections. Availability varies by section. See [Trail Amenities & Features by Section](#trail-amenities--features-by-section) below for details.
 
 ## Trail Safety Guidelines
 
@@ -81,7 +84,7 @@ This guide divides the Rail Trail through Zionsville into shorter sections, with
 | [Section 4: Mulberry Street to Heritage Trail Park](#section-4-mulberry-street-to-heritage-trail-park)     | ~1.6 miles | Mulberry Fields Park lot           | Heritage Trail Park lot            |
 | [Section 5: Heritage Trail Park to Whitestown border](#section-5-heritage-trail-park-to-whitestown-border) | ~1.2 miles | Heritage Trail Park lot           | None                                |
 
-### Trail Features by Section
+### Trail Amenities & Features by Section
 
 Use this table for a quick look at trail details that change from section to section, including street crossings, restrooms and drinking water, bike repair stations, and tunnels. The section notes below point out where those features appear along the trail.
 
