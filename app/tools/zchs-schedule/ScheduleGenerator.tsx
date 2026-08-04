@@ -655,37 +655,35 @@ export default function ScheduleGenerator() {
           ZCHS Weekly Schedule Maker
         </h1>
         <p className="text-stone-700 mb-4 max-w-[720px]">
-          Create a printable ZCHS weekly schedule with classes, Green/Silver
-          days, breaks, and activities.
+          Create a printable ZCHS weekly schedule with classes, school breaks,
+          and activities.
         </p>
         <ul className="text-stone-600 mb-2 max-w-[720px] text-sm list-disc pl-5 space-y-1">
-          <li>Enter classes for both semesters and select the dates to print</li>
-          <li>Green/Silver days and school breaks are pre-loaded from the ZCS calendar</li>
-          <li>Teacher and room are optional</li>
-          <li>Saved only in this browser. Nothing is sent to ZionsvilleIndiana.com.</li>
-          <li>
-            Dates are based on published ZCS and ZCHS calendars. Confirm with
-            the{' '}
-            <a
-              href="https://www.zcs.k12.in.us/about-zcs/calendars"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brick-600 hover:text-brick-700 hover:underline"
-            >
-              official ZCS calendar
-            </a>{' '}
-            or the{' '}
-            <a
-              href="https://zhs.zcs.k12.in.us/about-us/2026-2027-greensilver-calendar"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brick-600 hover:text-brick-700 hover:underline"
-            >
-              ZCHS Green/Silver Day calendar
-            </a>
-            .
-          </li>
+          <li>Green/Silver days and school breaks are pre-loaded from the school calendar.</li>
+          <li>Enter your student&apos;s classes for one or both semesters, then choose the dates you want to print.</li>
+          <li>Teacher and room details are optional, and the schedule is saved only in this browser.</li>
         </ul>
+        <p className="text-xs text-stone-500 mb-2 max-w-[720px]">
+          View the{' '}
+          <a
+            href="https://www.zcs.k12.in.us/about-zcs/calendars"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brick-600 hover:text-brick-700 hover:underline"
+          >
+            official ZCS calendar
+          </a>{' '}
+          or{' '}
+          <a
+            href="https://zhs.zcs.k12.in.us/about-us/2026-2027-greensilver-calendar"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brick-600 hover:text-brick-700 hover:underline"
+          >
+            ZCHS Green/Silver Day calendar
+          </a>{' '}
+          for the full district calendar.
+        </p>
         <p className="text-sm text-stone-500 mb-6 max-w-[720px]">
           For elementary and middle school students, use the{' '}
           <a
