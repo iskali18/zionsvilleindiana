@@ -1298,26 +1298,22 @@ export default function ZcsK8ScheduleGenerator() {
           activities.
         </p>
         <ul className="text-stone-600 mb-2 max-w-[720px] text-sm list-disc pl-5 space-y-1">
-          <li>
-            Enter classes or periods for the school year or by semester, and
-            select the dates to print
-          </li>
-          <li>School breaks and holidays are pre-loaded from the ZCS calendar</li>
-          <li>Teacher and room are optional</li>
-          <li>Saved only in this browser. Nothing is sent to ZionsvilleIndiana.com.</li>
-          <li>
-            Dates are based on published ZCS calendars. Confirm with the{' '}
-            <a
-              href="https://www.zcs.k12.in.us/about-zcs/calendars"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-brick-600 hover:text-brick-700 hover:underline"
-            >
-              official ZCS calendar
-            </a>
-            .
-          </li>
+          <li>School breaks and holidays are pre-loaded from the ZCS calendar.</li>
+          <li>Enter your student&apos;s classes for the school year or by semester, then choose the dates you want to print.</li>
+          <li>Teacher and room details are optional, and the schedule is saved only in this browser.</li>
         </ul>
+        <p className="text-sm text-stone-500 mt-4 mb-2 max-w-[720px]">
+          View the{' '}
+          <a
+            href="https://www.zcs.k12.in.us/about-zcs/calendars"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-brick-600 hover:text-brick-700 hover:underline"
+          >
+            official ZCS calendar
+          </a>{' '}
+          for the full district calendar.
+        </p>
         <p className="text-sm text-stone-500 mb-6 max-w-[720px]">
           For high school students, use the{' '}
           <a

@@ -663,7 +663,7 @@ export default function ScheduleGenerator() {
           <li>Enter your student&apos;s classes for one or both semesters, then choose the dates you want to print.</li>
           <li>Teacher and room details are optional, and the schedule is saved only in this browser.</li>
         </ul>
-        <p className="text-xs text-stone-500 mb-2 max-w-[720px]">
+        <p className="text-sm text-stone-500 mt-4 mb-2 max-w-[720px]">
           View the{' '}
           <a
             href="https://www.zcs.k12.in.us/about-zcs/calendars"
