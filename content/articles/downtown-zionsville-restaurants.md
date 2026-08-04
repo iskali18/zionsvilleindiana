@@ -1,13 +1,13 @@
 ---
 title: "Restaurants in Downtown Zionsville"
-seoTitle: "Restaurants in Downtown Zionsville: Where to Eat on Main Street"
-description: "Restaurants, coffee shops, cafés, and eateries in downtown Zionsville — from all-day breakfast and neighborhood bars to French bistros and oyster bars on Main Street."
+seoTitle: "Downtown Zionsville Restaurants: Main Street Dining Guide"
+description: "Explore restaurants in downtown Zionsville organized by meal type. Compare breakfast, coffee shops, sit-down dining, pizza, desserts, and DORA rules."
 slug: "downtown-zionsville-restaurants"
 category: "discovery"
 hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
 hero_position: "center 65%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-07-12"
+lastUpdated: "2026-08-04"
 draft: false
 faqs:
   - q: "What are the best restaurants in downtown Zionsville?"
@@ -22,9 +22,7 @@ faqs:
     a: "Free street parking is available on Main Street and nearby side streets. Public lots are located near Main and Sycamore streets and near Main and Pine streets. See the downtown Zionsville parking guide for details."
 ---
 
-Downtown Zionsville’s restaurant scene is concentrated in the Village, where restaurants, cafés, and bars line Main Street and the nearby side streets between Oak and Sycamore. Most places are within an easy walk of the public lots and street parking around Main Street, so visitors can park once and choose from coffee, brunch, dinner, drinks, or dessert.
-
-This guide groups downtown Zionsville restaurants and cafés by meal type, including coffee and cafés, breakfast and brunch, sit-down restaurants, pizza and burgers, sweets, and one option just outside the Village district.
+Downtown Zionsville's restaurant scene is concentrated in the Village along Main Street between Oak and Sycamore. From French bistros and handmade Italian to seafood and oysters, Tex-Mex, casual pub fare, pizza, coffee, and dessert, most places sit within an easy walk of Main Street's public lots and street parking — park once and choose.
 
 ## Find a place to eat
 
@@ -250,7 +248,7 @@ Additional parking is available on nearby side streets and in public lots throug
 
 <div class="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100 my-6">
   <iframe
-    src="https://www.google.com/maps/d/u/3/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
+    src="https://www.google.com/maps/d/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
     title="Map of public parking in downtown Zionsville, Indiana"
     loading="lazy"
     class="w-full h-full">
