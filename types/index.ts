@@ -56,27 +56,46 @@ export interface EventMeta {
 export type ParkDifficulty = 'easy' | 'moderate' | 'challenging'
 export type ParkType = 'park' | 'trail' | 'nature-preserve' | 'nature-center'
 
+import type { AmenityId } from '@/lib/parks'
+
 export interface ParkMeta {
   slug: string
   name: string
   parkType: ParkType
-  description: string
+  /** Number on the physical park sign (1-17). */
+  signNumber?: number
+  /** Optional 1-2 sentence description of what makes this park distinct. */
+  description?: string
+  /** Street address only (city/state/zip added by templates). */
   address: string
-  lat: number
-  lng: number
+  /** Vertical position for the hero image (CSS object-position value, e.g. "center 30%").
+   *  Defaults to "center 55%" when omitted. Same pattern as ArticleMeta.hero_position. */
+  hero_position?: string
+  lat?: number
+  lng?: number
   difficulty?: ParkDifficulty
   /** e.g. "2.1 miles" */
   trailLength?: string
   /** e.g. "Paved" | "Natural surface" */
   surface?: string
-  amenities: string[]
+  /** Amenity IDs from the shared taxonomy in lib/parks.ts. Template resolves
+   *  each ID to a display label via AMENITIES[id]. */
+  amenities: AmenityId[]
   /** Slug(s) of nearby businesses for internal linking */
   nearbyBusinesses?: string[]
   /** Slug(s) of nearby parks */
   nearbyParks?: string[]
+  /** Optional link to an internal article for parks with a full local guide
+   *  (e.g. /articles/mulberry-fields). */
+  internalUrl?: string
+  /** Official Town of Zionsville page URL. */
+  townUrl?: string
+  /** Optional URL for a park's separate dog park page (rules, membership). */
+  dogParkUrl?: string
+  /** Legacy field — kept for backwards compatibility. Prefer townUrl. */
   externalUrl?: string
-  image: string
-  imageAlt: string
+  image?: string
+  imageAlt?: string
   comingSoon?: boolean
   metaTitle: string
   metaDescription: string
