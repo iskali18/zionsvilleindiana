@@ -60,7 +60,7 @@ const itineraries: Itinerary[] = [
     image: '/images/downtown/downtown-zionsville-rosies-place-sign.webp',
     imageAlt: 'Downtown Zionsville, Indiana',
     stops: [
-      { name: 'Our Place Coffee', href: '/businesses/our-place-coffee', note: 'coffee to start the morning' },
+      { name: 'Roasted in the Village', href: '/businesses/roasted-in-the-village', note: 'coffee to start the morning' },
       { name: 'Main Street shops', note: 'browse boutiques, gifts, books, jewelry, and home décor' },
       { name: "Rosie's Place", href: '/businesses/rosies-place', note: 'sit-down brunch with French toast, omelets, or lunch options' },
       { name: "The Baker's House", href: 'https://bakershousebread.com/', external: true, note: 'organic sourdough or pastries to take home; weekend visits are best by early afternoon' },
@@ -127,7 +127,7 @@ const faqs = [
   },
   {
     q: 'What are some places to eat on Main Street in Zionsville?',
-    a: 'Downtown Zionsville has a range of locally owned restaurants and cafés, including Rosie\u2019s Place for breakfast and brunch, Greek\u2019s Pizzeria and Zionsville Pizzeria for casual meals, Cobblestone and Convivio for sit-down restaurants, Auberge for French cuisine with patio seating, and Gables Bagels for breakfast and lunch. For coffee, Our Place Coffee and Roasted in the Village are both near Main Street.',
+    a: 'Downtown Zionsville has a range of locally owned restaurants and cafés, including Rosie\u2019s Place for breakfast and brunch, Greek\u2019s Pizzeria and Zionsville Pizzeria for casual meals, Cobblestone and Convivio for sit-down restaurants, Auberge for French cuisine with patio seating, and Gables Bagels for breakfast and lunch. For coffee, Roasted in the Village is just off of Main Street.',
   },
   {
     q: 'Where is downtown Zionsville?',

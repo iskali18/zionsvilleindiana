@@ -652,7 +652,7 @@ export default function ScheduleGenerator() {
       {/* Title and intro — visible on screen only */}
       <div className="print:hidden">
         <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mb-2">
-          ZCHS Weekly Schedule Maker
+          Printable ZCHS Weekly Schedule
         </h1>
         <p className="text-stone-700 mb-4 max-w-[720px]">
           Create a printable ZCHS weekly schedule with classes, school breaks,
@@ -690,7 +690,7 @@ export default function ScheduleGenerator() {
             href="/tools/zcs-k8-schedule"
             className="text-brick-600 hover:text-brick-700 hover:underline"
           >
-            ZCS K-8 Weekly Schedule Maker
+            ZCS K-8 Weekly Schedule
           </a>
           .
         </p>

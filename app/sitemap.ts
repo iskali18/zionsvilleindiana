@@ -1,12 +1,16 @@
 import type { MetadataRoute } from 'next'
-import { getAllEventSlugs, getAllBusinessSlugs, getAllParkSlugs, getAllArticleSlugs } from '@/lib/content'
+import { getAllEventSlugs, getAllBusinessSlugs, getAllParkSlugs, getAllArticleSlugs, getAllParks } from '@/lib/content'
 
 const BASE = 'https://zionsvilleindiana.com'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const eventSlugs = getAllEventSlugs()
   const businessSlugs = getAllBusinessSlugs()
-  const parkSlugs = getAllParkSlugs()
+  // Parks whose canonical URL is an article (Mulberry Fields, Big-4 trailheads)
+  // are excluded — they'd otherwise duplicate the article entries.
+  const parkSlugs = getAllParks()
+    .filter((p) => !p.internalUrl)
+    .map((p) => p.slug)
   const articleSlugs = getAllArticleSlugs()
 
   const staticRoutes: MetadataRoute.Sitemap = [

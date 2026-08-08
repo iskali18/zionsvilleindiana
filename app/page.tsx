@@ -119,7 +119,7 @@ const featuredGuides = [
   {
     title: 'Mulberry Fields Park',
     description:
-      'Splash pad, playgrounds, picnic shelters, and prairie trails on the south end of Zionsville.',
+      'Splash pad, playgrounds, picnic shelters, and prairie trails in central Zionsville.',
     href: '/articles/mulberry-fields-park',
     image: '/images/parks/zionsville-mulberry-fields-park-hero.webp',
     imageAlt: 'Mulberry Fields Park in Zionsville, Indiana',

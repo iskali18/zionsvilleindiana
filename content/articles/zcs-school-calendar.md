@@ -9,7 +9,7 @@ hero_position: "center 55%"
 hero_credit: ""
 hide_hero: true
 print_hide_body: true
-lastUpdated: "2026-07-12"
+lastUpdated: "2026-08-08"
 draft: false
 faqs:
   - q: "When does Zionsville school start in 2026?"
@@ -40,13 +40,13 @@ ctas:
 
 Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then print a personalized calendar.
 
-<div className="my-6 py-5 px-6 bg-village-600 rounded-lg text-white">
-<p className="!my-0 !mb-3 text-lg font-semibold">Need a printable weekly class schedule?</p>
+<div className="my-6 max-w-2xl py-4 px-5 bg-village-50 rounded-lg">
+<p className="!my-0 !mb-3 text-lg font-semibold text-stone-800">Printable Schedule Tools</p>
 <div className="flex gap-3 flex-wrap">
-<a href="/tools/zcs-k8-schedule" className="inline-block py-2 px-4 bg-white text-village-700 rounded-md font-medium text-sm no-underline hover:bg-stone-100">ZCS K–8 Schedule Maker →</a>
-<a href="/tools/zchs-schedule" className="inline-block py-2 px-4 bg-white text-village-700 rounded-md font-medium text-sm no-underline hover:bg-stone-100">ZCHS Schedule Maker →</a>
+<a href="/tools/zcs-k8-schedule" className="inline-block py-2 px-4 border border-village-600 text-village-700 bg-white rounded-md font-medium text-sm no-underline hover:bg-village-100">Create a Printable K–8 Schedule →</a>
+<a href="/tools/zchs-schedule" className="inline-block py-2 px-4 border border-village-600 text-village-700 bg-white rounded-md font-medium text-sm no-underline hover:bg-village-100">Create a Printable ZCHS Schedule →</a>
 </div>
-<p className="!mt-3 !mb-0 text-sm text-white/80">Free tools for personalized weekly schedules.</p>
+<p className="!mt-3 !mb-0 text-sm text-stone-600">Input your child's classes, times, and teachers to generate a printable weekly schedule.</p>
 </div>
 
 ## School Holidays & Key Dates 2026–2027

@@ -1291,7 +1291,7 @@ export default function ZcsK8ScheduleGenerator() {
       {/* Title + intro — screen only */}
       <div className="print:hidden">
         <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mb-2">
-          ZCS K-8 Weekly Schedule Maker
+          Printable ZCS K-8 Weekly Schedule
         </h1>
         <p className="text-stone-700 mb-2 max-w-[720px]">
           Create a one-page weekly schedule for classes, lunch, recess, and
@@ -1320,7 +1320,7 @@ export default function ZcsK8ScheduleGenerator() {
             href="/tools/zchs-schedule"
             className="text-brick-600 hover:text-brick-700 hover:underline"
           >
-            ZCHS Weekly Schedule Maker
+            ZCHS Weekly Schedule
           </a>
           .
         </p>
