@@ -70,10 +70,6 @@ Rather than a single "best" option, Zionsville's café scene offers distinct spo
   </tbody>
 </table>
 
-<div class="bg-amber-50 border-l-4 border-amber-400 pl-4 pr-4 py-3 mt-5 mb-6">
-<p class="text-sm mb-0"><strong>Our Place Coffee is closing August 8, 2026.</strong> It remains open until its announced final day.</p>
-</div>
-
 <div class="bg-stone-50 border-l-4 border-brick-600 pl-4 pr-4 py-3 my-6">
 <p class="text-xs uppercase tracking-widest text-brick-600 font-medium mb-2">Zionsville Area Cafés</p>
 <p class="mb-0">While the local coffee scene is relatively new, Zionsville and nearby Whitestown have quietly grown into a vibrant café destination for those who live, work, or visit nearby. Thanks to the rise of third-wave coffee shops — those that treat coffee as an artisanal craft, not just a commodity — the Zionsville area is now home to several independent and regional cafés that highlight the craft of coffee-making and the distinct flavor profiles of the bean.</p>
@@ -101,15 +97,6 @@ The casual, charming space is an apt setting for small groups, relaxed conversat
 Roasted is known for its house-made syrups, crafted from scratch with whole ingredients right in the café to flavor lattes and seasonal drinks. Maple brown sugar remains a best seller, while orange cardamom began as a kitchen-tested recipe and became one of the shop's signature flavors. Recent creations include Sunshine Syrup (orange and lemon citrus with golden honey), Strawberry Vanilla, Cookie Butter, and Lavender Rosemary.
 
 The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and baked goods. See the [Roasted in the Village local guide](/businesses/roasted-in-the-village) for photos and menu highlights.
-
-## Our Place Coffee (Closed) {#our-place-coffee}
-
-<div class="bg-stone-100 border-l-4 border-stone-400 pl-4 pr-4 py-3 my-6">
-<p class="text-xs uppercase tracking-widest text-stone-600 font-medium mb-2">Closed August 8, 2026</p>
-<p class="mb-0">Our Place Coffee, formerly located at 65 S 1st St in downtown Zionsville, closed on August 8, 2026.</p>
-</div>
-
----
 
 ## [RIVET Coffee Bar](https://www.rivetcoffee.com/) {#rivet}
 
@@ -217,6 +204,15 @@ Visit [Hattie's website](https://www.hattiescoffeehouse.com) to learn more about
 ---
 
 The Zionsville area cafés represent a distinct community where you can find different ways to experience coffee every day. Whether you need a quiet corner for some downtime, a space to connect, or a chance to experience a new brewing method, explore the local coffee scene and get to know not just coffee, but the town itself.
+
+---
+
+## Our Place Coffee (Closed) {#our-place-coffee}
+
+<div class="bg-stone-100 border-l-4 border-stone-400 pl-4 pr-4 py-3 my-6">
+<p class="text-xs uppercase tracking-widest text-stone-600 font-medium mb-2">Closed August 8, 2026</p>
+<p class="mb-0">Our Place Coffee, formerly located at 65 S 1st St in downtown Zionsville, closed on August 8, 2026.</p>
+</div>
 
 ---
 
