@@ -7,7 +7,7 @@ hero_image: /images/articles/downtown-zionsville-map-hero.webp
 hero_position: "center 20%"
 hero_credit: "© ZionsvilleIndiana.com"
 hide_hero: true
-lastUpdated: "2026-07-12"
+lastUpdated: "2026-08-08"
 category: discovery
 ctas:
   - label: Visit downtown Zionsville
@@ -32,8 +32,8 @@ The map covers the brick-paved section of Main Street from Poplar Street to Syca
 Businesses are numbered and color-coded by category, making it easy to find places to eat, browse local shops, or locate parking during your visit.
 
 <figure>
-  <a href="/images/maps/downtown-zionsville-map.jpg" target="_blank" rel="noopener">
-    <img src="/images/maps/downtown-zionsville-map.jpg" alt="Illustrated map of downtown Zionsville, Indiana, showing Main Street and nearby side streets with color-coded numbered markers for restaurants, retail shops, public parking lots, public restrooms, SullivanMunce Cultural Center, and Lions Park. A compass rose is in the lower right corner." class="rounded-lg shadow-sm cursor-zoom-in" loading="lazy" />
+  <a href="/images/maps/downtown-zionsville-map-v2.jpg" target="_blank" rel="noopener">
+    <img src="/images/maps/downtown-zionsville-map-v2.jpg" alt="Illustrated map of downtown Zionsville, Indiana, showing Main Street and nearby side streets with color-coded numbered markers for restaurants, retail shops, public parking lots, public restrooms, SullivanMunce Cultural Center, and Lions Park. A compass rose is in the lower right corner." class="rounded-lg shadow-sm cursor-zoom-in" loading="lazy" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     The downtown Zionsville map shows businesses, public parking, and key landmarks in the Village district. Tap or click the map for a larger view. · <span class="not-italic">© ZionsvilleIndiana.com</span>
@@ -49,10 +49,10 @@ For the full parking map, see the [parking section on the Downtown Zionsville pa
 ## Download the map
 
 <div class="flex flex-col sm:flex-row gap-3 my-6">
-  <a href="/files/downtown-zionsville-map.pdf" target="_blank" rel="noopener" class="inline-block bg-brick-600 hover:bg-brick-700 text-white font-medium px-5 py-3 rounded-lg transition-colors text-center">
+  <a href="/files/downtown-zionsville-map-v2.pdf" target="_blank" rel="noopener" class="inline-block bg-brick-600 hover:bg-brick-700 text-white font-medium px-5 py-3 rounded-lg transition-colors text-center">
     Download printable PDF
   </a>
-  <a href="/images/maps/downtown-zionsville-map.jpg" download class="inline-block bg-stone-100 hover:bg-stone-200 text-stone-900 font-medium px-5 py-3 rounded-lg border border-stone-300 transition-colors text-center">
+  <a href="/images/maps/downtown-zionsville-map-v2.jpg" download class="inline-block bg-stone-100 hover:bg-stone-200 text-stone-900 font-medium px-5 py-3 rounded-lg border border-stone-300 transition-colors text-center">
     Save JPEG to phone
   </a>
 </div>
