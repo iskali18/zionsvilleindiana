@@ -43,3 +43,13 @@ CLAUDE.md
 # WIP tools not yet ready
 lib/zcs-sports/
 app/tools/zcs-sports-calendar/
+
+# Parks work in progress — local only until ready to ship
+/app/parks/
+/app/tools/park-finder/tools-park-finder-page.tsx
+/content/parks/future/
+/content/parks/elm-street-green.md
+/content/parks/heritage-trail-park.md
+/content/parks/overley-worman-park.md
+/content/parks/turkey-foot-nature-park.md
+/public/images/parks/lions-park.webp
