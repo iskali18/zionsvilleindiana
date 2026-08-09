@@ -7,13 +7,13 @@ category: "discovery"
 hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
 hero_position: "center 65%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-08-04"
+lastUpdated: "2026-08-08"
 draft: false
 faqs:
   - q: "What are the best restaurants in downtown Zionsville?"
     a: "Downtown Zionsville has restaurants across a range of styles — French cuisine at Auberge, New American with live music at Cobblestone, an oyster bar at Noah Grant's, Italian at Convivio, and casual options like Rush on Main and The Friendly Tavern. The right choice depends on what you're in the mood for."
   - q: "Are downtown Zionsville restaurants open for lunch?"
-    a: "Several downtown restaurants serve lunch, including Rosie's Place, Cafe Patachou on Pine, Gables Bagels, and Our Place Coffee. Check individual business hours on Google before visiting, as hours vary by day."
+    a: "Several downtown restaurants serve lunch, including Rosie's Place, Cafe Patachou on Pine, and Gables Bagels. Check individual business hours on Google before visiting, as hours vary by day."
   - q: "Can I carry a drink between restaurants in downtown Zionsville?"
     a: "Downtown Zionsville is part of a Designated Outdoor Refreshment Area (DORA), so adults 21+ may carry an alcoholic beverage purchased from a participating restaurant within the district. Restaurants and shops each decide whether DORA beverages are permitted inside — look for the official window decal. See our [DORA guide](/articles/dora) for hours, rules, and participating locations."
   - q: "Is there outdoor seating in downtown Zionsville?"
@@ -78,13 +78,7 @@ Downtown breakfast ranges from freshly baked bagels to full-service brunch. Gabl
   </figcaption>
 </figure>
 
-Downtown Zionsville has two independent coffee shops close to Main Street: Our Place Coffee on First Street and Roasted in the Village on Pine Street. Both serve coffee, tea, and light food for mornings, work sessions, or a slower break during a downtown visit.
-
-### Our Place Coffee
-
-* **Address:** 65 S. First St
-* **Local guide:** [Our Place Coffee](/businesses/our-place-coffee)
-* Our Place Coffee serves coffee, tea, breakfast, and lunch from its First Street location, with space for working, meeting, or taking a quiet break.
+Downtown Zionsville has one independent coffee shop close to Main Street: Roasted in the Village on Pine Street. It serves coffee, tea, and light food for mornings, work sessions, or a slower break during a downtown visit.
 
 ### Roasted in the Village
 

@@ -78,7 +78,7 @@ After the market, Main Street shops begin opening later in the morning, making i
 
 Several restaurants and coffee spots are a short walk from the market. A few ways to combine your visit with a meal:
 
-**Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) and [Our Place Coffee](/businesses/our-place-coffee) are nearby coffee shops for espresso drinks, brewed coffee, and light breakfast items before or after the market.
+**Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) is a nearby coffee shop for espresso drinks, brewed coffee, and light breakfast items before or after the market.
 
 **Brunch** — [Rosie's Place](/businesses/rosies-place) is a sit-down breakfast and brunch spot on Main Street, with pancakes, omelets, French toast, sandwiches, and lunch items.
 

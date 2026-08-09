@@ -76,7 +76,6 @@ The PDF is best for printing. Use the JPEG when you want a phone copy for walkin
 - 11 • Rush on Main — Chicagoland-style food and family-friendly bar
 - 12 • Salty Cowboy — Tex-Mex with tequila and beer
 - 13 • [Noah Grant's](/businesses/noah-grants) — seafood, sushi, oysters, and filets
-- 14 • [Our Place Coffee](/businesses/our-place-coffee) — coffee, tea, breakfast, and lunch
 - 15 • [Convivio](/businesses/convivio) — handmade pastas, pizzas, and Italian dishes
 - 16 • [Rosie's Place](/businesses/rosies-place) — all-day breakfast, lunch, and baked goods
 - 17 • [Greek's Pizzeria](/businesses/greeks-pizzeria) — pizza, pasta, sandwiches, and taproom drinks

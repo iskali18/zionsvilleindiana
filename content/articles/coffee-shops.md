@@ -7,11 +7,11 @@ category: "food"
 hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
 hero_position: "center 45%"
 hero_credit: ""
-lastUpdated: "2026-08-03"
+lastUpdated: "2026-08-08"
 draft: false
 faqs:
   - q: "What coffee shops are in downtown Zionsville?"
-    a: "Downtown Zionsville has two independent coffee shops on and near the brick Main Street area: Roasted in the Village on East Pine Street, and Our Place Coffee one block west on South 1st Street."
+    a: "Roasted in the Village on East Pine Street is downtown Zionsville's independent coffee shop, located near the brick Main Street area."
   - q: "What coffee shops are on Michigan Road in Zionsville?"
     a: "Michigan Road has Java House and Mochaland. Java House is known for cold brew–based drinks and drive-thru service, while Mochaland focuses on Middle Eastern coffee traditions, global coffee origins, and specialty lattes."
   - q: "What is RIVET Coffee Bar in Zionsville?"
@@ -21,7 +21,7 @@ faqs:
 ---
 
 <p class="font-display text-lg text-stone-700 leading-relaxed mb-6">
-Zionsville and nearby Whitestown are home to six independent and regional coffee shops — from downtown cafés near Main Street to specialty roasters on Michigan Road and 106th Street. Explore this guide to discover their unique specialties, stories, and ambiance, and find your next coffee destination.
+Zionsville and nearby Whitestown are home to independent and regional coffee shops — from downtown cafés near Main Street to specialty roasters on Michigan Road and 106th Street. Explore this guide to discover their unique specialties, stories, and ambiance, and find your next coffee destination.
 </p>
 
 ## Finding the Right Coffee Shop in Zionsville
@@ -46,11 +46,6 @@ Rather than a single "best" option, Zionsville's café scene offers distinct spo
       <td><strong>House-made flavors near Main Street</strong></td>
       <td><a href="#roasted-in-the-village">Roasted in the Village</a></td>
       <td>Known for house-made syrups, seasonal drinks, and a relaxed downtown setting</td>
-    </tr>
-    <tr>
-      <td><strong>A spacious downtown café</strong></td>
-      <td><a href="#our-place-coffee">Our Place Coffee</a></td>
-      <td>Offers plenty of seating for conversation, meetings, or laptop work</td>
     </tr>
     <tr>
       <td><strong>Coffee with breakfast or lunch</strong></td>
@@ -107,31 +102,12 @@ Roasted is known for its house-made syrups, crafted from scratch with whole ingr
 
 The menu includes espresso drinks, brewed coffee, tea, breakfast burritos, and baked goods. See the [Roasted in the Village local guide](/businesses/roasted-in-the-village) for photos and menu highlights.
 
-## [Our Place Coffee](/businesses/our-place-coffee) {#our-place-coffee}
+## Our Place Coffee (Closed) {#our-place-coffee}
 
-- **Location:** [65 S 1st St, Zionsville, IN 46077](https://maps.app.goo.gl/F8tCgUfm15Bvg4gHA)
-- **Known for:** Community-oriented café with a children's nook
-- **Best for:** Work meetings and group seating
-
-<div class="bg-amber-50 border-l-4 border-amber-400 pl-4 pr-4 py-3 my-6">
-<p class="text-xs uppercase tracking-widest text-amber-700 font-medium mb-2">Closing August 8, 2026</p>
-<p class="mb-0">Our Place Coffee has announced that August 8 will be its final day in Zionsville.</p>
+<div class="bg-stone-100 border-l-4 border-stone-400 pl-4 pr-4 py-3 my-6">
+<p class="text-xs uppercase tracking-widest text-stone-600 font-medium mb-2">Closed August 8, 2026</p>
+<p class="mb-0">Our Place Coffee, formerly located at 65 S 1st St in downtown Zionsville, closed on August 8, 2026.</p>
 </div>
-
-<figure>
-  <img src="/images/articles/zionsville-coffee-shops-our-place-coffee.webp" alt="Our Place Coffee in Zionsville, showing a spacious café interior with teal walls, white vaulted ceilings, café tables, a long counter, and a self-serve drink station." class="rounded-lg shadow-sm" />
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    The dining room at Our Place Coffee on South 1st Street features teal walls, high ceilings, and hanging plants throughout the space. <span class="not-italic">© ZionsvilleIndiana.com</span>
-  </figcaption>
-</figure>
-
-Our Place Coffee opened in 2022 with the intention of becoming a gathering space for the community. Meetings and group gatherings are frequently held here, encouraged by the spacious setting and comfortable atmosphere.
-
-The café is warm and inviting with teal walls, hanging plants, high ceilings, and a large, playful chalkboard menu displaying food and drink offerings. Several tables offer space for conversation or work, while couches provide a more relaxed spot to sip a drink and pass the time. During pleasant weather, the café's charming, umbrella-shaded alleyway seating offers a glimpse of nearby Main Street.
-
-The menu includes espresso drinks such as lattes, cappuccinos, and flat whites; brewed and iced coffee; tea, Tea-freshers, and hot cocoa. Specialty latte flavors include Snickerdoodle with brown sugar and cinnamon, Berries and Cream with blackberry and raspberry, and Honey Lavender. Food is also available, including breakfast items, savory sides, soft tacos, and sandwiches.
-
-For more menu highlights and photos of the café, see the [Our Place Coffee local guide](/businesses/our-place-coffee).
 
 ---
 

@@ -95,7 +95,7 @@ Live music plays throughout the day along the market route.
 
 Beyond the on-site food court, most Main Street restaurants are a short walk from the market. 
 
-**Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) and [Our Place Coffee](/businesses/our-place-coffee) are both Main Street coffee stops, good for arrival or an afternoon break.
+**Coffee & breakfast** — [Roasted in the Village](/businesses/roasted-in-the-village) is a Main Street coffee stop, good for arrival or an afternoon break.
 
 **Brunch** — [Rosie's Place](/businesses/rosies-place) is a long-standing brunch favorite, a natural choice if you arrive at 10 AM and want to start with a meal.
 
