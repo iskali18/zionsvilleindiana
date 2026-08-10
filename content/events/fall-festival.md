@@ -7,7 +7,7 @@ startDate: "2026-09-11"
 endDate: "2026-09-13"
 location: Lions Park, Zionsville
 address: "11053 Sycamore St, Zionsville, IN 46077"
-externalUrl: https://www.zionsvillelions.com/fall-festival-parade-2
+externalUrl: https://www.zionsvillelions.com/fallfestival
 image: /images/events/zionsville-fall-festival.jpg
 imageAlt: Carnival ride at Lions Park during the Zionsville Fall Festival
 photoCredit: "© ZionsvilleIndiana.com"
@@ -25,7 +25,7 @@ faqs:
   - q: "Where is the Zionsville Fall Festival held?"
     a: "The festival is held at Lions Park, 11053 Sycamore St, Zionsville, IN 46077. The Saturday morning parade runs through the Village along Main Street."
   - q: "What address should I use for Lions Park — Sycamore or Elm Street?"
-    a: "Lions Park has two entrances. For Fall Festival weekend, use 11053 Sycamore Street for driving directions; this is the main entrance with the large parking lot and the large Lions Club billboard. 115 South Elm Street is a separate pedestrian-only entrance with street parking nearby."
+    a: "Lions Park has two entrances. For Fall Festival weekend, use 11053 Sycamore Street for driving directions; this is the main entrance with the large parking lot and the large Lions Club billboard. 115 South Elm Street is a separate pedestrian-only entrance with ramp access descending from the street into the park. This entrance may be useful for people walking from nearby street parking or downtown, but the main driving entrance and large parking lot are on Sycamore Street."
   - q: "How much does the Zionsville Fall Festival cost?"
     a: "Admission to the festival at Lions Park is free. Carnival rides require single-ride tickets, available all carnival days. Carnival games are paid in cash at each booth — bring cash, as card acceptance isn't guaranteed. Unlimited-ride wristbands are offered on Sunday (Wristband Day); current-year pricing is announced closer to the event."
   - q: "Where do I park for the Zionsville Fall Festival?"
@@ -44,23 +44,34 @@ The Zionsville Fall Festival is a long-running community tradition held the week
 
 The 73rd annual festival takes place September 11–13, 2026, with the theme "Out of this World." Admission to the festival at Lions Park is free; carnival rides require tickets, and games are paid separately.
 
+<figure>
+  <a href="/images/events/zionsville-fall-festival-lions-park-map.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size festival map in new tab">
+    <img src="/images/events/zionsville-fall-festival-lions-park-map.webp" alt="Aerial view of the Zionsville Fall Festival at Lions Park showing carnival area, food vendors, Kid's Corner, parking, and pedestrian entrance." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Aerial layout of the Zionsville Fall Festival at Lions Park showing carnival area, food vendors, Kid's Corner, parking, and pedestrian entrance. Click the image to view full size.
+    <span class="not-italic">© ZionsvilleIndiana.com.</span>
+  </figcaption>
+</figure>
+
 ## What to expect in 2026
 
 The festival runs across three days, with different highlights each day:
 
-**Friday, September 11**
-- VIP Carnival for families with children with special needs
+**Friday, September 11 · 5:00 PM – 11:00 PM**
+- 5:00 PM: VIP Carnival for families with children with special needs
 - Poor Jack's Carnival opens
 - Food vendors and community booths
 
-**Saturday, September 12**
+**Saturday, September 12 · 10:00 AM – 11:00 PM**
 - 10:00 AM: Fall Festival Parade from Zionsville Community High School through the Village along Main Street
 - Poor Jack's Carnival rides, food vendors, and community booths
 - Kid's Corner bounce houses, Safety Zone activities, and live entertainment
-- Evening Lion's Lounge for adults 21+
+- 5:00 PM: Lion's Lounge opens (21+, $10 cover)
+- 7:00 – 11:00 PM: The Impalas play at the Lion's Lounge
 
-**Sunday, September 13**
-- American Dream Car Show
+**Sunday, September 13 · 12:00 PM – 5:00 PM**
+- 9:00 AM – 3:00 PM: American Dream Car Show
 - Wristband Day at Poor Jack's Carnival
 - Community bingo
 - Food vendors and vendor areas
@@ -73,13 +84,20 @@ The general carnival is also open to the public Friday evening, alongside the VI
 
 Families are asked to **RSVP** at [zionsvillelions.com](https://www.zionsvillelions.com/fall-festival-vip-carnival) so the hosts can plan food and supplies, but last-minute attendees are welcome.
 
-Confirmed 2026 schedule and programming details will be added once they are announced.
-
 ## The parade route
 
 The parade begins Saturday, September 12 at 10:00 AM at Zionsville Community High School. From there, the route travels south through the Village along Main Street, ending at Old National Bank near Main Street and Sycamore Road. Main Street is closed to vehicles during the parade.
 
-Spectators are welcome to bring portable lawn chairs or stand along the parade route. Front-row spots along Main Street fill up early, so arrive well before the 10:00 AM start if you want to set up lawn chairs near the curb.
+<div class="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm my-6">
+  <iframe
+    src="https://www.google.com/maps/d/embed?mid=1dQHpPIcY67cHGGp4yELXL6H60E6q_r8&ehbc=2E312F"
+    class="w-full h-full border-0"
+    loading="lazy"
+    title="Zionsville Fall Festival parade route from Zionsville Community High School through the Village along Main Street"
+  ></iframe>
+</div>
+
+Many spectators stand along the parade route. Lawn chairs can work if you arrive early, but space is limited and carrying chairs from distant parking can be inconvenient once nearby spots fill.
 
 The parade typically includes school marching bands, local businesses, community organizations, and themed entries. Many entries hand out candy while supplies last, so families with children may want to bring a small bag.
 
@@ -100,7 +118,9 @@ Free public parking lots are located at the northwest corner of **Main Street an
 
 Parking near the parade route and Lions Park fills quickly during the Saturday parade, so plan to arrive early if you want to park nearby.
 
-**Food and vendor payments:** Most vendors take cash only. An ATM is typically located near the Zionsville Little League concession stand.
+A pedestrian-only entrance with ramp access is also available from South Elm Street, useful for stroller access or a shorter walk from downtown.
+
+**Food and vendor payments:** Most vendors take cash only. An ATM is located near the Zionsville Little League Concession Stand.
 
 **First Aid and Lost & Found:** First Aid is located north of the Gazebo in the Public Safety Area. Lost & Found is located at the Zionsville Lions Clubhouse during the festival.
 
