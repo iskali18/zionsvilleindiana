@@ -54,6 +54,18 @@ The 73rd annual festival takes place September 11–13, 2026, with the theme "Ou
   </figcaption>
 </figure>
 
+<div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
+
+## Good to Know Before You Go
+
+- **Bring cash.** Carnival games are paid in cash at each booth, most vendors take cash only, and paid parking is $8 cash.
+- **VIP Carnival starts Friday at 5:00 PM.** This free event is for families with children with special needs; RSVP is encouraged.
+- **The parade starts Saturday at 10:00 AM.** Main Street closes during the parade. Arrive early for nearby parking; closer to parade time, expect to park farther away and walk.
+- **Sunday is Wristband Day.** Unlimited-ride wristbands are offered Sunday; 2026 pricing will be announced closer to the event.
+- **Leave pets at home.** Pets are not allowed at the festival unless they are service dogs or part of a festival exhibit.
+
+</div>
+
 ## What to expect in 2026
 
 The festival runs across three days, with different highlights each day:
