@@ -84,6 +84,10 @@ The general carnival is also open to the public Friday evening, alongside the VI
 
 Families are asked to **RSVP** at [zionsvillelions.com](https://www.zionsvillelions.com/fall-festival-vip-carnival) so the hosts can plan food and supplies, but last-minute attendees are welcome.
 
+## Lion's Lounge
+
+Lion's Lounge opens Saturday at 5:00 PM for adults 21+. The Impalas, an Indianapolis-based dance band, perform from 7:00 – 11:00 PM. Cover is $10 at the door.
+
 ## The parade route
 
 The parade begins Saturday, September 12 at 10:00 AM at Zionsville Community High School. From there, the route travels south through the Village along Main Street, ending at Old National Bank near Main Street and Sycamore Road. Main Street is closed to vehicles during the parade.
