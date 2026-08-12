@@ -181,7 +181,7 @@ House favorites include the Classic Bagel with Lox and the Big Bob, a brisket-an
 - **Address:** [10850 Creek Way](https://maps.app.goo.gl/Wo9uJUa5xa38eaTH7)
 - **Website:** [rivetcoffee.com](https://rivetcoffee.com/)
 
-RIVET Coffee Bar is a specialty coffee shop and roastery in Creekside Corporate Park on 106th Street in Zionsville. The spacious café offers counter service with tables, lounge seating, and counter seats, with space for remote work or casual meetings. The menu features coffee roasted on site alongside baked-egg dishes, avocado toast, house-made pastries, and Liège waffles—yeast-risen Belgian waffles made with pearl sugar.
+RIVET Coffee Bar is a specialty coffee shop and restaurant in Creekside Corporate Park on 106th Street in Zionsville. The spacious café offers counter service with tables, lounge seating, and counter seats, with space for remote work or casual meetings. The menu features coffee roasted nearby in Westfield, alongside baked-egg dishes, avocado toast, house-made pastries, and Liège waffles—yeast-risen Belgian waffles made with pearl sugar.
 
 Menu specialties include the Sarah Lee Special, brioche topped with avocado, eggs, and chamoy, and Sausage Strata, a baked egg dish with pork sausage, cubed brioche, and white cheddar. Beverage selections range from brewed coffee and espresso drinks to nitro cold brew and rotating seasonal drinks.
 
