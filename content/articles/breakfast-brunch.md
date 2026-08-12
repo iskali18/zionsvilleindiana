@@ -84,7 +84,7 @@ Menu specialties include the Farm Style Eggs Benedict, served on a biscuit with 
 
 Lincoln Square Pancake House is a casual breakfast and lunch restaurant along the Michigan Road corridor on the east side of Zionsville. The restaurant offers table service in a spacious, relaxed dining room, along with seasonal outdoor seating on a dog-friendly patio. The menu covers classic breakfast choices such as pancakes and French toast, omelets and skillets, and eggs Benedict, with burgers, sandwiches, and other lunch options also available.
 
-Menu specialties include Banana Bread French Toast, Blueberry Stuffed Pancakes, and The Alex Skillet, made with eggs, mixed breakfast meats, and spicy queso. Lincoln Square is known for generous portions and a family-friendly atmosphere and serves breakfast and lunch daily.
+Menu specialties include Banana Bread French Toast, Blueberry Stuffed Pancakes, and The Alex Skillet, made with eggs, breakfast meats, and spicy queso. Lincoln Square is known for generous portions and a family-friendly atmosphere and serves breakfast and lunch daily.
 
 <figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
   <img src="/images/articles/breakfast-brunch-auberge.webp" alt="Outdoor brick patio seating and entrance sign for Auberge Restaurant and Brick Street Inn on Main Street in Zionsville, Indiana." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
@@ -98,7 +98,7 @@ Menu specialties include Banana Bread French Toast, Blueberry Stuffed Pancakes, 
 - **Address:** [175 S Main St](https://maps.app.goo.gl/81Rqiw8xqLgnxnbX9)
 - **Local guide:** [Auberge](/businesses/auberge)
 
-Auberge is a French-inspired restaurant inside the Brick Street Inn on Main Street in downtown Zionsville. The intimate, elegant restaurant offers table service, along with a full bar and weather-permitting patio. The breakfast menu puts a French spin on familiar morning favorites, with omelettes filled with combinations such as ham and Comté cheese or spinach, mushroom, and leek. Savory crêpes feature fillings such as roasted chicken, wild mushrooms, or smoked salmon, while sweet versions come with combinations like banana and Nutella or strawberries and cream.
+Auberge is a French-inspired restaurant inside the Brick Street Inn on Main Street in downtown Zionsville. The intimate, elegant restaurant offers table service, along with a full bar and seasonal patio seating. The breakfast menu puts a French spin on familiar morning favorites, with omelettes filled with combinations such as ham and Comté cheese or spinach, mushroom, and leek. Savory crêpes feature fillings such as roasted chicken, wild mushrooms, or smoked salmon, while sweet versions come with combinations like banana and Nutella or strawberries and cream.
 
 Menu specialties include Croissant French Toast Bread Pudding with berry compote; Eggs Florentine with poached eggs, smoked salmon, spinach, and hollandaise; and a toasted ham-and-cheese croissant with creamy Mornay sauce.
 
@@ -194,7 +194,7 @@ Menu specialties include the Sarah Lee Special, brioche topped with avocado, egg
 
 Zionsville Nutrition Hub is a casual counter-service nutrition shop along the Michigan Road corridor in Zionsville. The contemporary lounge offers free Wi-Fi and seating for studying, remote work, or socializing. The menu features organic açaí bowls, dozens of protein shake flavors, smoothies, and an extensive selection of hydration and energy drinks, along with grab-and-go items such as overnight oats, parfaits, and protein bites.
 
-Popular items include the Hoosier Açaí Bowl, Pink Starburst hydrating drink, and freshly made Protein Bites with peanut butter, oats, and honey. The drink menu ranges from caffeine-free refreshers to fruit-flavored energy blends, while protein shakes come in flavors ranging from Banana Cream Pie and Strawberry Cheesecake to PB Pancake and Brown Sugar Pop-Tart.
+Popular items include the Hoosier Bowl, an organic açaí bowl topped with strawberries, banana, and granola; the Pink Starburst hydrating drink; and freshly made Protein Bites with peanut butter, oats, and honey. The drink menu spans caffeine-free refreshers and fruit-flavored energy blends, while protein shakes come in flavors such as Banana Cream Pie, Strawberry Cheesecake, PB Pancake, and Brown Sugar Pop-Tart.
 
 ## Breakfast Tacos {#breakfast-tacos}
 
