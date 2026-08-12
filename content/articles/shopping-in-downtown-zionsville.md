@@ -8,6 +8,7 @@ hero_image: /images/articles/shopping-hero.webp
 hero_position: "center 65%"
 hero_credit: ""
 lastUpdated: "2026-06-16"
+hubOrder: 60
 draft: false
 faqs:
   - q: "Are downtown Zionsville shops open on Sundays?"

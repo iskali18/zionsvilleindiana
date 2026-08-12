@@ -237,11 +237,25 @@ export function getAllArticleSlugs(): string[] {
   return getSlugs('articles')
 }
 
+/**
+ * Articles are ordered manually via the `hubOrder` frontmatter field, not by date.
+ * `lastUpdated` changes on copy edits, so it isn't a meaningful hub order.
+ * Number hubOrder in tens (10, 20, 30…) so a new article can be slotted between
+ * two existing ones without renumbering. Articles without hubOrder sort last,
+ * most recently updated first.
+ */
 export function getAllArticles(): ArticleMeta[] {
-  return getSlugs('articles').map((slug) => {
-    const { data } = readFile('articles', slug)
-    return { slug, ...data } as ArticleMeta
-  })
+  return getSlugs('articles')
+    .map((slug) => {
+      const { data } = readFile('articles', slug)
+      return { slug, ...data } as ArticleMeta
+    })
+    .sort((a, b) => {
+      const orderA = a.hubOrder ?? Number.MAX_SAFE_INTEGER
+      const orderB = b.hubOrder ?? Number.MAX_SAFE_INTEGER
+      if (orderA !== orderB) return orderA - orderB
+      return (b.lastUpdated ?? '').localeCompare(a.lastUpdated ?? '')
+    })
 }
 
 export async function getArticle(

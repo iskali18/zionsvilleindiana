@@ -8,6 +8,7 @@ hero_position: "center 20%"
 hero_credit: "© ZionsvilleIndiana.com"
 hide_hero: true
 lastUpdated: "2026-08-08"
+hubOrder: 70
 category: discovery
 ctas:
   - label: Visit downtown Zionsville

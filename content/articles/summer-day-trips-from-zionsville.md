@@ -8,6 +8,7 @@ hero_image: /images/articles/summer-day-trips-from-zionsville-hero.webp
 hero_position: "center 55%"
 hero_credit: ""
 lastUpdated: "2026-06-04"
+hubOrder: 90
 draft: false
 faqs:
   - q: "What are some summer day trips from Zionsville for families?"

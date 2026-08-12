@@ -6,6 +6,8 @@ slug: mulberry-fields-park
 hero_image: /images/parks/zionsville-mulberry-fields-park-hero.webp
 hero_position: "center 55%"
 hero_credit: "© ZionsvilleIndiana.com"
+lastUpdated: "2026-06-26"
+hubOrder: 30
 park:
   name: "Mulberry Fields Park"
   alternateName: "Mulberry Park"

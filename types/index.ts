@@ -173,6 +173,10 @@ export interface ArticleMeta {
   print_hide_body?: boolean
   lastUpdated?: string
   category?: 'discovery' | 'relocation' | 'outdoors' | 'food' | 'family'
+  /** Manual display order on the /articles hub. Number in tens (10, 20, 30…) so a
+   *  new article can be slotted between two existing ones without renumbering.
+   *  Articles without this field sort last, most recently updated first. */
+  hubOrder?: number
   ctas?: Array<{ label: string; href: string }>
   /** When true, the article is hidden from the /articles hub page and any listings.
    *  The direct URL /articles/{slug} still resolves so the page can be previewed. */

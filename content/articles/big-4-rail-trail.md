@@ -6,6 +6,7 @@ hero_image: /images/articles/zionsville-rail-trail-hero.webp
 hero_position: "center 60%"
 hero_credit: "© ZionsvilleIndiana.com"
 lastUpdated: "2026-08-01"
+hubOrder: 50
 category: discovery
 draft: false
 faqs:

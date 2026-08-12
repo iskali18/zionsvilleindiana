@@ -6,6 +6,7 @@ hero_image: /images/zionsville-dora.webp
 hero_position: "center 55%"
 hero_credit: ""
 lastUpdated: "2026-06-08"
+hubOrder: 100
 category: discovery
 draft: false
 ctas:

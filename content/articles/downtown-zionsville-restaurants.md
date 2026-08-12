@@ -8,6 +8,7 @@ hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
 hero_position: "center 65%"
 hero_credit: "© ZionsvilleIndiana.com"
 lastUpdated: "2026-08-08"
+hubOrder: 20
 draft: false
 faqs:
   - q: "What are the best restaurants in downtown Zionsville?"
