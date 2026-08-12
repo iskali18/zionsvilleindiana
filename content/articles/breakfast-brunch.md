@@ -10,19 +10,24 @@ hero_credit: ""
 lastUpdated: "2026-08-12"
 hubOrder: 40
 draft: false
+ctas:
+  - label: "Downtown Zionsville restaurants"
+    href: "/articles/downtown-zionsville-restaurants"
+  - label: "Zionsville coffee shops"
+    href: "/articles/coffee-shops"
 faqs:
   - q: "Where can I get breakfast in Zionsville?"
-    a: "For a full sit-down breakfast or brunch, try Rosie's Place, Lincoln Square Pancake House, Café Patachou on Pine, or Auberge."
+    a: "For a full sit-down breakfast or brunch, try Rosie’s Place, Lincoln Square Pancake House, Auberge, or Café Patachou on Pine."
   - q: "Where can I get a quick breakfast in Zionsville?"
     a: "Gables Bagels serves bagels and breakfast sandwiches. RIVET Coffee Bar offers coffee, Liège waffles, and baked-egg dishes, while Zionsville Nutrition Hub has açaí bowls, protein shakes, and grab-and-go items."
   - q: "Where can I get weekend brunch in Zionsville?"
-    a: "Rosie's Place, Lincoln Square Pancake House, Café Patachou on Pine, and Auberge all serve weekend brunch, along with Cobblestone, The Loft at Traders Point Creamery, and Bowdie's Chophouse."
+    a: "Rosie’s Place, Lincoln Square Pancake House, Auberge, and Café Patachou on Pine all serve weekend brunch, along with Cobblestone, The Loft at Traders Point Creamery, and Bowdie’s Chophouse."
   - q: "Where can I get breakfast tacos in Zionsville?"
-    a: "Torchy's Tacos serves breakfast tacos all day. Rosie's Place also has breakfast tacos on its menu."
+    a: "Torchy’s Tacos serves breakfast tacos all day. Rosie’s Place also has breakfast tacos on its menu."
   - q: "Where can I get açaí bowls in Zionsville?"
     a: "Zionsville Nutrition Hub serves organic açaí bowls, along with protein shakes and other breakfast options."
   - q: "Where can I get breakfast all day in Zionsville?"
-    a: "Rosie's Place serves all-day breakfast, and Torchy's Tacos serves its breakfast tacos and breakfast burrito all day."
+    a: "Rosie’s Place serves all-day breakfast, and Torchy’s Tacos serves its breakfast tacos and breakfast burrito all day."
 ---
 
 Breakfast and brunch in Zionsville range from full sit-down meals and fresh bagels to specialty coffee, açaí bowls, breakfast tacos, and weekend brunch menus. Whether you’re planning a leisurely breakfast or looking for something quick, there are plenty of different ways to start the day.
@@ -45,25 +50,25 @@ Menus and hours can vary, particularly around holidays and, for downtown restaur
 
 | Looking for…                 | Try                                                                          |
 | ---------------------------- | ---------------------------------------------------------------------------- |
-| Sit-down breakfast/brunch    | Rosie's Place, Lincoln Square Pancake House, Café Patachou on Pine, Auberge  |
-| Weekend brunch               | Sit-down spots above, plus Cobblestone, The Loft at Traders Point Creamery, and Bowdie's Chophouse |
+| Sit-down breakfast/brunch    | Rosie’s Place, Lincoln Square Pancake House, Auberge, Café Patachou on Pine  |
+| Weekend brunch               | Sit-down spots above, plus Cobblestone, The Loft at Traders Point Creamery, and Bowdie’s Chophouse |
 | Bagels                       | Gables Bagels                                                                |
 | Coffee + light hot breakfast | RIVET Coffee Bar                                                             |
 | Açaí bowls + protein shakes  | Zionsville Nutrition Hub                                                     |
-| Breakfast tacos all day      | Torchy's Tacos                                                               |
+| Breakfast tacos all day      | Torchy’s Tacos                                                               |
 
 ## Sit-Down Breakfast and Brunch {#sit-down-breakfast}
 
 These spots offer a full breakfast or brunch meal, with seating, broader menus, and more traditional morning dishes.
 
 <figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
-  <img src="/images/businesses/zionsville-rosies-place-1.jpg" alt="The hanging oval exterior business sign for Rosie's Place restaurant along the sidewalk in downtown Zionsville." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+  <img src="/images/businesses/zionsville-rosies-place-1.jpg" alt="The hanging oval exterior business sign for Rosie’s Place restaurant along the sidewalk in downtown Zionsville." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Rosie’s Place on Main Street, one of downtown Zionsville’s breakfast and brunch spots. 
+    Rosie’s Place on Main Street, one of downtown Zionsville’s breakfast and brunch spots.
   </figcaption>
 </figure>
 
-### Rosie's Place
+### Rosie’s Place
 
 - **Address:** [10 S Main St](https://maps.app.goo.gl/95GRnn3tk7CviKgk7)
 - **Local guide:** [Rosie’s Place](/businesses/rosies-place)
@@ -79,7 +84,7 @@ Menu specialties include the Farm Style Eggs Benedict, served on a biscuit with 
 
 Lincoln Square Pancake House is a casual breakfast and lunch restaurant along the Michigan Road corridor on the east side of Zionsville. The restaurant offers table service in a spacious, relaxed dining room, along with seasonal outdoor seating on a dog-friendly patio. The menu covers classic breakfast choices such as pancakes and French toast, omelets and skillets, and eggs Benedict, with burgers, sandwiches, and other lunch options also available.
 
-Menu specialties include Banana Bread French Toast, Blueberry Stuffed Pancakes, and The Alex Skillet, made with eggs, mixed breakfast meats, and spicy queso. Lincoln Square is known for generous portions and a family-friendly atmosphere and serves breakfast and lunch daily..
+Menu specialties include Banana Bread French Toast, Blueberry Stuffed Pancakes, and The Alex Skillet, made with eggs, mixed breakfast meats, and spicy queso. Lincoln Square is known for generous portions and a family-friendly atmosphere and serves breakfast and lunch daily.
 
 <figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
   <img src="/images/articles/breakfast-brunch-auberge.webp" alt="Outdoor brick patio seating and entrance sign for Auberge Restaurant and Brick Street Inn on Main Street in Zionsville, Indiana." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
@@ -93,7 +98,7 @@ Menu specialties include Banana Bread French Toast, Blueberry Stuffed Pancakes, 
 - **Address:** [175 S Main St](https://maps.app.goo.gl/81Rqiw8xqLgnxnbX9)
 - **Local guide:** [Auberge](/businesses/auberge)
 
-Auberge is a French-inspired restaurant inside the Brick Street Inn on Main Street in downtown Zionsville. The intimate, elegant restaurant offers table service, along with a full bar and weather-permitting patio. The breakfast menu puts a French spin on familiar morning favorites, with omelettes filled with combinations such as ham and Comté cheese or spinach, mushroom, and leek. Savory crêpes feature fillings such as roasted chicken, wild mushrooms, or smoked salmon, while sweet versions come with combinations like banana and Nutella or strawberries and cream
+Auberge is a French-inspired restaurant inside the Brick Street Inn on Main Street in downtown Zionsville. The intimate, elegant restaurant offers table service, along with a full bar and weather-permitting patio. The breakfast menu puts a French spin on familiar morning favorites, with omelettes filled with combinations such as ham and Comté cheese or spinach, mushroom, and leek. Savory crêpes feature fillings such as roasted chicken, wild mushrooms, or smoked salmon, while sweet versions come with combinations like banana and Nutella or strawberries and cream.
 
 Menu specialties include Croissant French Toast Bread Pudding with berry compote; Eggs Florentine with poached eggs, smoked salmon, spinach, and hollandaise; and a toasted ham-and-cheese croissant with creamy Mornay sauce.
 
@@ -113,8 +118,7 @@ The sit-down restaurants above also offer weekend brunch. Additional options inc
 <figure>
   <img src="/images/articles/breakfast-brunch-cobblestone.webp" alt="Exterior storefront and sidewalk sign for Cobblestone restaurant on Main Street in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Storefront and sidewalk entrance for Cobblestone along Main Street in downtown Zionsville.<br />
-    <span class="not-italic">© ZionsvilleIndiana.com.</span>
+    Storefront and sidewalk entrance for Cobblestone along Main Street in downtown Zionsville.
   </figcaption>
 </figure>
 
@@ -132,11 +136,11 @@ Menu specialties include the Farm Breakfast—a biscuit-and-eggs plate with baco
 - **Address:** [9101 Moore Rd](https://maps.app.goo.gl/xHcBYcRF1eZR4im67)
 - **Website:** [traderspointcreamery.com](https://www.traderspointcreamery.com/restaurant/)
 
-The Loft Restaurant at Traders Point Creamery is a farm-to-table restaurant inside a historic 1860s barn on an active organic dairy farm in Zionsville. The restaurant offers table service in a rustic timber-framed dining room, with additional outdoor seating overlooking the farm. The weekend brunch menu incorporates Traders Point Creamery’s own dairy products into dishes ranging from omelettes and biscuits and gravy to huevos rancheros and chicken and waffles.
+The Loft at Traders Point Creamery is a farm-to-table restaurant inside a historic 1860s barn on an active organic dairy farm in Zionsville. The restaurant offers table service in a rustic timber-framed dining room, with additional outdoor seating overlooking the farm. The weekend brunch menu incorporates Traders Point Creamery’s own dairy products into dishes ranging from omelettes and biscuits and gravy to huevos rancheros and chicken and waffles.
 
 Menu specialties include French Toast with lemon-lavender cream and berries; Sourdough Lox Bruschetta with smoked salmon, avocado, and pickled fennel; and Braised Pork Shoulder Hash with salsa verde and pickled vegetables. The cheese board features Traders Point Creamery cheeses, butter, local honey, and housemade accompaniments, and visitors can also stop at the on-site dairy bar and farm store.
 
-### Bowdie's Chophouse
+### Bowdie’s Chophouse
 
 - **Address:** [10814 Creek Way, Suite 2](https://maps.app.goo.gl/2GWYbiaciWYeaPZx7)
 - **Website:** [bowdieschophouse.com](https://bowdieschophouse.com/)
@@ -150,8 +154,7 @@ House favorites include Caviar Tacos, Crab Cake Benedict, Truffle Mushroom Fritt
 <figure>
   <img src="/images/articles/breakfast-brunch-gables-bagels.webp" alt="Exterior of Gables Bagels showing the front entrance, wooden porch deck, and storefront sign in Zionsville, Indiana." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Front entrance and wooden porch deck at Gables Bagels in Zionsville.<br />
-    <span class="not-italic">© ZionsvilleIndiana.com.</span>
+    Front entrance and wooden porch deck at Gables Bagels in Zionsville.
   </figcaption>
 </figure>
 
@@ -169,8 +172,7 @@ House favorites include the Classic Bagel with Lox and the Big Bob, a brisket-an
 <figure>
   <img src="/images/articles/breakfast-brunch-rivet.webp" alt="Interior seating area and dining room with guests at RIVET Coffee Bar in Creekside Corporate Park in Zionsville, Indiana." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    The spacious interior of RIVET Coffee Bar, with a mix of tables, lounge seating, and counter seating for coffee, breakfast, or laptop work.<br />
-    <span class="not-italic">© ZionsvilleIndiana.com.</span>
+    The spacious interior of RIVET Coffee Bar, with a mix of tables, lounge seating, and counter seating for coffee, breakfast, or laptop work.
   </figcaption>
 </figure>
 
@@ -182,7 +184,6 @@ House favorites include the Classic Bagel with Lox and the Big Bob, a brisket-an
 RIVET Coffee Bar is a specialty coffee shop and roastery in Creekside Corporate Park on 106th Street in Zionsville. The spacious café offers counter service with tables, lounge seating, and counter seats, with space for remote work or casual meetings. The menu features coffee roasted on site alongside baked-egg dishes, avocado toast, house-made pastries, and Liège waffles—yeast-risen Belgian waffles made with pearl sugar.
 
 Menu specialties include the Sarah Lee Special, brioche topped with avocado, eggs, and chamoy, and Sausage Strata, a baked egg dish with pork sausage, cubed brioche, and white cheddar. Beverage selections range from brewed coffee and espresso drinks to nitro cold brew and rotating seasonal drinks.
-
 
 ## Açaí & Protein {#acai-protein}
 
@@ -197,7 +198,7 @@ Popular items include the Hoosier Açaí Bowl, Pink Starburst hydrating drink, a
 
 ## Breakfast Tacos {#breakfast-tacos}
 
-### Torchy's Tacos
+### Torchy’s Tacos
 
 - **Address:** [11826 Sylo Crossing, Suite 602](https://maps.app.goo.gl/iJdpyoZLrCcrPpZz5)
 - **Website:** [torchystacos.com](https://torchystacos.com/)
@@ -252,10 +253,10 @@ Among the breakfast choices are the Migas, with tortilla strips, green chiles, a
       "position": 3,
       "item": {
         "@type": "Restaurant",
-        "name": "Café Patachou on Pine",
+        "name": "Auberge",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "95 E Pine St",
+          "streetAddress": "175 S Main St",
           "addressLocality": "Zionsville",
           "addressRegion": "IN",
           "postalCode": "46077",
@@ -268,10 +269,10 @@ Among the breakfast choices are the Migas, with tortilla strips, green chiles, a
       "position": 4,
       "item": {
         "@type": "Restaurant",
-        "name": "Auberge",
+        "name": "Café Patachou on Pine",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "175 S Main St",
+          "streetAddress": "95 E Pine St",
           "addressLocality": "Zionsville",
           "addressRegion": "IN",
           "postalCode": "46077",
