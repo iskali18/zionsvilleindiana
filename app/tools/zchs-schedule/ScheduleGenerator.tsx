@@ -1,6 +1,6 @@
 'use client'
 
-import { Fragment, useEffect, useMemo, useState } from 'react'
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import {
   type CourseSlot,
   type DaySchedule,
@@ -36,19 +36,21 @@ function computePresetDates(preset: Preset): { start: string; end: string } | nu
   const now = new Date()
 
   if (preset === 'this-week') {
-    // Sun–Sat week containing today
+    // Mon–Sun week containing today (matches the Monday-anchored display).
     const day = now.getDay() // 0 = Sun ... 6 = Sat
-    const sunday = addDays(now, -day)
-    const saturday = addDays(sunday, 6)
-    return { start: toDateKey(sunday), end: toDateKey(saturday) }
+    // Move back to Monday. If today is Sunday (0), Monday is 6 days back.
+    const monday = addDays(now, day === 0 ? -6 : 1 - day)
+    const sunday = addDays(monday, 6)
+    return { start: toDateKey(monday), end: toDateKey(sunday) }
   }
 
   if (preset === 'next-week') {
-    // Sun–Sat week starting the Sunday after this week's Saturday
+    // Mon–Sun week after the current Mon–Sun week.
     const day = now.getDay()
-    const nextSunday = addDays(now, 7 - day)
-    const nextSaturday = addDays(nextSunday, 6)
-    return { start: toDateKey(nextSunday), end: toDateKey(nextSaturday) }
+    // If today is Sunday (0), tomorrow is the "next" Monday.
+    const nextMonday = addDays(now, day === 0 ? 1 : 8 - day)
+    const nextSunday = addDays(nextMonday, 6)
+    return { start: toDateKey(nextMonday), end: toDateKey(nextSunday) }
   }
 
   return null // 'custom' — caller uses manually entered dates
@@ -68,8 +70,8 @@ function getPresetTooltip(preset: Preset): string | undefined {
   const dates = computePresetDates(preset)
   if (!dates) return undefined
   if (dates.end < SCHOOL_YEAR_START) {
-    if (preset === 'this-week') return 'Available starting Sunday, August 2, 2026'
-    if (preset === 'next-week') return 'Available starting Sunday, July 26, 2026'
+    if (preset === 'this-week') return 'Available starting Monday, August 3, 2026'
+    if (preset === 'next-week') return 'Available starting Monday, July 27, 2026'
   }
   if (dates.start > SCHOOL_YEAR_END) {
     return 'The 2026–2027 school year has ended'
@@ -108,6 +110,9 @@ interface Student {
   semester1: SemesterSchedule
   semester2: SemesterSchedule
   activities: Activity[]
+  /** When true, show Teacher & Room fields in the schedule editor. Auto-detected
+   *  on load from saved data; users can toggle via disclosure control. */
+  showTeacherRoom?: boolean
 }
 
 function generateStudentId(): string {
@@ -129,7 +134,21 @@ function createEmptyStudent(): Student {
     id: generateStudentId(),
     ...emptyCourses(),
     activities: [],
+    showTeacherRoom: false,
   }
+}
+
+/** Returns true if any period in either semester has teacher or room data. */
+function hasStudentTeacherOrRoomData(s: Student): boolean {
+  for (const semKey of ['semester1', 'semester2'] as const) {
+    for (const dayKey of ['G', 'S'] as const) {
+      for (const p of ['p1', 'p2', 'p3', 'p4'] as const) {
+        const slot = s[semKey][dayKey][p]
+        if (slot.teacher || slot.room) return true
+      }
+    }
+  }
+  return false
 }
 
 function createEmptyActivity(): Activity {
@@ -170,6 +189,15 @@ export default function ScheduleGenerator() {
   const [collapsedS2, setCollapsedS2] = useState(true)
   // Activities section collapse — default true (starts closed to save space)
   const [collapsedActivities, setCollapsedActivities] = useState(true)
+  // Intro "How this works" disclosure — starts closed so returning users see
+  // the tool immediately without re-reading instructions.
+  const [howThisWorksOpen, setHowThisWorksOpen] = useState(false)
+
+  // Auto-scroll to the generated schedule after Preview schedule is clicked.
+  // Ref approach lets us trigger scroll only on explicit clicks, not on
+  // background updates to `generated`.
+  const scheduleHeadingRef = useRef<HTMLHeadingElement>(null)
+  const scrollPendingRef = useRef(false)
   // Undo snapshot for destructive actions (Clear semester, Copy, Clear saved data).
   // Each snapshot captures its own restore closure so different actions can
   // restore different pieces of state.
@@ -219,10 +247,21 @@ export default function ScheduleGenerator() {
         const parsed = JSON.parse(savedCourses)
         if (Array.isArray(parsed?.students) && parsed.students.length > 0) {
           // New multi-student format — backfill activities:[] for older schemas.
-          const migrated: Student[] = parsed.students.map((s: Student) => ({
-            ...s,
-            activities: Array.isArray(s.activities) ? s.activities : [],
-          }))
+          // Auto-detect showTeacherRoom: default to true if student has any saved
+          // teacher/room data (so nothing appears to have disappeared).
+          const migrated: Student[] = parsed.students.map((s: Student) => {
+            const withActivities: Student = {
+              ...s,
+              activities: Array.isArray(s.activities) ? s.activities : [],
+            }
+            return {
+              ...withActivities,
+              showTeacherRoom:
+                typeof s.showTeacherRoom === 'boolean'
+                  ? s.showTeacherRoom
+                  : hasStudentTeacherOrRoomData(withActivities),
+            }
+          })
           setStudents(migrated)
           setActiveStudentId(parsed.activeStudentId || migrated[0].id)
         } else if (parsed?.studentName !== undefined || parsed?.semester1 !== undefined) {
@@ -233,6 +272,10 @@ export default function ScheduleGenerator() {
             ...parsed,
             id: generateStudentId(),
           }
+          migrated.showTeacherRoom =
+            typeof parsed.showTeacherRoom === 'boolean'
+              ? parsed.showTeacherRoom
+              : hasStudentTeacherOrRoomData(migrated)
           setStudents([migrated])
           setActiveStudentId(migrated.id)
         }
@@ -557,8 +600,26 @@ export default function ScheduleGenerator() {
     const clampedStart = startDate < SCHOOL_YEAR_START ? SCHOOL_YEAR_START : startDate
     const clampedEnd = endDate > SCHOOL_YEAR_END ? SCHOOL_YEAR_END : endDate
 
+    scrollPendingRef.current = true
     setGenerated(generateScheduleRange(clampedStart, clampedEnd, activeStudent, gsMap))
   }
+
+  // After Preview schedule finishes rendering, smooth-scroll to the heading
+  // and move keyboard focus to it. Only runs when the flag was just set by
+  // an explicit Preview click — not when the preview auto-updates from
+  // background changes.
+  useEffect(() => {
+    if (!scrollPendingRef.current || !generated) return
+    scrollPendingRef.current = false
+    // requestAnimationFrame gives the browser one paint to attach the ref
+    // and lay out the new schedule content before we scroll to it.
+    requestAnimationFrame(() => {
+      const el = scheduleHeadingRef.current
+      if (!el) return
+      el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      el.focus({ preventScroll: true })
+    })
+  }, [generated])
 
   const handlePrint = () => {
     window.print()
@@ -654,22 +715,41 @@ export default function ScheduleGenerator() {
         <h1 className="font-display text-3xl sm:text-4xl text-stone-900 font-bold mb-2">
           Printable ZCHS Weekly Schedule
         </h1>
-        <p className="text-stone-700 mb-4 max-w-[720px]">
-          Create a printable ZCHS weekly schedule with classes, school breaks,
-          and activities.
+        <p className="text-stone-700 mb-2 max-w-[720px]">
+          Enter a student&apos;s schedule once, then preview or print any week.
         </p>
-        <ul className="text-stone-600 mb-2 max-w-[720px] text-sm list-disc pl-5 space-y-1">
-          <li>Green/Silver days and school breaks are pre-loaded from the school calendar.</li>
-          <li>Enter your student&apos;s classes for one or both semesters, then choose the dates you want to print.</li>
-          <li>Teacher and room details are optional, and the schedule is saved only in this browser.</li>
-        </ul>
-        <p className="text-sm text-stone-500 mt-4 mb-2 max-w-[720px]">
+        <p className="text-stone-700 mb-4 max-w-[720px]">
+          Green/Silver days and school breaks are pre-loaded.
+        </p>
+
+        {/* How this works disclosure — keeps instructions available without
+            forcing returning users to re-read them every visit. */}
+        <div className="mb-4 max-w-[720px]">
+          <button
+            type="button"
+            onClick={() => setHowThisWorksOpen((v) => !v)}
+            className="text-sm text-brick-600 hover:text-brick-700 hover:underline font-medium flex items-center gap-1"
+            aria-expanded={howThisWorksOpen}
+          >
+            <span>How this works</span>
+            <span aria-hidden="true">{howThisWorksOpen ? '▾' : '›'}</span>
+          </button>
+          {howThisWorksOpen && (
+            <ul className="text-sm text-stone-600 mt-2 list-disc pl-5 space-y-1">
+              <li>Enter classes for one or both semesters, then choose the dates to preview or print.</li>
+              <li>Teacher and room details are optional.</li>
+              <li>Your schedule is saved only in this browser.</li>
+            </ul>
+          )}
+        </div>
+
+        <p className="text-sm text-stone-500 mb-2 max-w-[720px]">
           View the{' '}
           <a
             href="https://www.zcs.k12.in.us/about-zcs/calendars"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-brick-600 hover:text-brick-700 hover:underline"
+            className="text-stone-600 underline hover:text-brick-700"
           >
             official ZCS calendar
           </a>{' '}
@@ -678,28 +758,30 @@ export default function ScheduleGenerator() {
             href="https://zhs.zcs.k12.in.us/about-us/2026-2027-greensilver-calendar"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-brick-600 hover:text-brick-700 hover:underline"
+            className="text-stone-600 underline hover:text-brick-700"
           >
             ZCHS Green/Silver Day calendar
-          </a>{' '}
-          for the full district calendar.
+          </a>
+          .
         </p>
         <p className="text-sm text-stone-500 mb-6 max-w-[720px]">
-          For elementary and middle school students, use the{' '}
+          For grades K&ndash;8, use the{' '}
           <a
             href="/tools/zcs-k8-schedule"
-            className="text-brick-600 hover:text-brick-700 hover:underline"
+            className="text-stone-600 underline hover:text-brick-700"
           >
-            ZCS K-8 Weekly Schedule
+            ZCS K&ndash;8 Weekly Schedule
           </a>
           .
         </p>
         <hr className="mb-8 border-stone-200 max-w-[720px]" />
 
         {/* Student tabs */}
-        <section className="mb-6 max-w-[720px]">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="text-sm font-medium text-stone-700 mr-1">Students:</span>
+        <section className="mb-5 max-w-[720px]">
+          <h2 className="font-display text-2xl font-semibold text-stone-900 mb-3">
+            Student
+          </h2>
+          <div className="flex flex-wrap items-center gap-2.5">
             {students.map((student, idx) => {
               const isActive = student.id === activeStudentId
               const name = getStudentDisplayName(student, idx)
@@ -726,36 +808,57 @@ export default function ScheduleGenerator() {
             >
               + Add student
             </button>
+          </div>
+        </section>
+
+        {/* Student name + Remove student (only when 2+ students) */}
+        <div className="mb-3">
+          <label htmlFor="student-name-input" className="block text-sm font-medium text-stone-700 mb-2">
+            Student name
+          </label>
+          <div className="flex items-center gap-4 flex-wrap">
+            <input
+              id="student-name-input"
+              type="text"
+              value={activeStudent.studentName}
+              onChange={(e) => handleStudentNameChange(e.target.value)}
+              className="w-80 max-w-full px-3 py-2 text-sm border border-stone-300 rounded-md focus:border-village-600 focus:ring-1 focus:ring-village-600 outline-none"
+              placeholder="e.g. Sam"
+            />
             {students.length > 1 && (
               <button
                 type="button"
                 onClick={handleDeleteStudent}
                 className={
                   confirmingDeleteStudent
-                    ? 'ml-auto px-3 py-1.5 text-sm rounded-full bg-brick-600 text-white font-medium transition-colors'
-                    : 'ml-auto px-3 py-1.5 text-sm rounded-full border border-stone-300 text-stone-600 font-medium hover:border-brick-400 hover:text-brick-700 transition-colors'
+                    ? 'text-sm text-brick-700 font-medium underline'
+                    : 'text-sm text-stone-600 hover:text-brick-700 hover:underline'
                 }
               >
-                {confirmingDeleteStudent ? 'Click again to confirm' : 'Delete this student'}
+                {confirmingDeleteStudent ? 'Click again to confirm' : 'Remove student'}
               </button>
             )}
           </div>
-        </section>
+        </div>
 
-        {/* Student name */}
-        <div className="mb-6">
-          <label className="block">
-            <span className="text-sm font-medium text-stone-700 block mb-2">
-              Student name
-            </span>
-            <input
-              type="text"
-              value={activeStudent.studentName}
-              onChange={(e) => handleStudentNameChange(e.target.value)}
-              className="w-64 px-3 py-2 text-sm border border-stone-300 rounded-md focus:border-village-600 focus:ring-1 focus:ring-village-600 outline-none"
-              placeholder="e.g. Sam"
-            />
-          </label>
+        {/* Teacher & Room disclosure — one control for the entire student's schedule.
+            Hidden values are preserved and still appear in the printed schedule. */}
+        <div className="mb-5">
+          <button
+            type="button"
+            onClick={() =>
+              updateActiveStudent((s) => ({
+                ...s,
+                showTeacherRoom: !s.showTeacherRoom,
+              }))
+            }
+            className="text-sm text-brick-600 hover:text-brick-700 hover:underline font-medium"
+            aria-expanded={!!activeStudent.showTeacherRoom}
+          >
+            {activeStudent.showTeacherRoom
+              ? '− Hide teacher & room details'
+              : '+ Add teacher & room details'}
+          </button>
         </div>
 
         {/* Semester 1 */}
@@ -772,6 +875,7 @@ export default function ScheduleGenerator() {
             otherSemesterLabel="Semester 2"
             collapsed={collapsedS1}
             onToggleCollapsed={() => setCollapsedS1((v) => !v)}
+            showTeacherRoom={!!activeStudent.showTeacherRoom}
           />
         </div>
 
@@ -787,6 +891,7 @@ export default function ScheduleGenerator() {
             onClear={() => handleClearSemester('semester2')}
             collapsed={collapsedS2}
             onToggleCollapsed={() => setCollapsedS2((v) => !v)}
+            showTeacherRoom={!!activeStudent.showTeacherRoom}
           />
         </div>
 
@@ -804,12 +909,13 @@ export default function ScheduleGenerator() {
 
         {/* Print — moved date range picker + action buttons */}
         <section className="mb-6 max-w-[720px]">
-          <h2 className="font-display text-xl font-semibold text-stone-900 mb-4">
-            Print
+          <h2 className="font-display text-2xl font-semibold text-stone-900 mb-1">
+            Print schedule
           </h2>
+          <p className="text-sm text-stone-500 mb-4">Choose the dates to include.</p>
 
           <div className="mb-4">
-            <div className="flex flex-wrap gap-2 mb-3">
+            <div className="inline-flex mb-4 border border-stone-300 rounded-md overflow-hidden divide-x divide-stone-300">
               {(Object.keys(PRESET_LABELS) as Preset[]).map((p) => {
                 const available = isPresetAvailable(p)
                 const tooltip = getPresetTooltip(p)
@@ -824,10 +930,10 @@ export default function ScheduleGenerator() {
                     title={tooltip}
                     className={
                       isActive
-                        ? 'px-3 py-1.5 text-sm rounded-full border border-village-600 bg-village-600 text-white font-medium transition-colors'
+                        ? 'px-4 py-2 text-sm bg-village-600 text-white font-medium'
                         : !available
-                          ? 'px-3 py-1.5 text-sm rounded-full border border-stone-200 bg-stone-100 text-stone-400 font-medium cursor-not-allowed'
-                          : 'px-3 py-1.5 text-sm rounded-full border border-stone-300 bg-white text-stone-700 font-medium hover:border-stone-400 hover:text-stone-900 transition-colors'
+                          ? 'px-4 py-2 text-sm bg-stone-100 text-stone-400 font-medium cursor-not-allowed'
+                          : 'px-4 py-2 text-sm bg-white text-stone-700 font-medium hover:bg-stone-50 transition-colors'
                     }
                   >
                     {PRESET_LABELS[p]}
@@ -836,7 +942,7 @@ export default function ScheduleGenerator() {
               })}
             </div>
 
-            {preset === 'custom' ? (
+            {preset === 'custom' && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md">
                 <label className="block">
                   <span className="text-sm font-medium text-stone-700 block mb-1">
@@ -865,14 +971,6 @@ export default function ScheduleGenerator() {
                   />
                 </label>
               </div>
-            ) : (
-              <p className="text-sm text-stone-600">
-                {startDate && endDate
-                  ? startDate === endDate
-                    ? formatFullDate(startDate)
-                    : `${formatFullDate(startDate)} through ${formatFullDate(endDate)}`
-                  : 'Choose a preset to set the print dates.'}
-              </p>
             )}
           </div>
 
@@ -882,38 +980,41 @@ export default function ScheduleGenerator() {
             </div>
           )}
 
-          <div className="flex flex-wrap gap-3 mb-3">
+          <div className="flex flex-wrap gap-3 mb-4">
             <button
               type="button"
               onClick={handleGenerate}
               className="px-5 py-2.5 bg-village-600 text-white font-medium rounded-md hover:bg-village-700 transition-colors"
             >
-              Generate schedule
+              Preview schedule
             </button>
             <button
               type="button"
               onClick={handlePrint}
               disabled={!generated}
-              className="px-5 py-2.5 bg-brick-600 text-white font-medium rounded-md hover:bg-brick-700 disabled:bg-stone-300 disabled:cursor-not-allowed transition-colors"
+              className="px-5 py-2.5 bg-white text-stone-700 font-medium rounded-md border border-stone-300 hover:bg-stone-50 disabled:text-stone-400 disabled:bg-stone-50 disabled:cursor-not-allowed transition-colors"
             >
               Print schedule
             </button>
+          </div>
+
+          <p className="text-sm text-stone-500 mb-4 print:hidden">
+            Print is condensed. Screen preview shows all details.
+          </p>
+
+          <div>
             <button
               type="button"
               onClick={handleClear}
               className={
                 confirmingClear
-                  ? 'px-5 py-2.5 bg-brick-600 text-white font-medium rounded-md hover:bg-brick-700 transition-colors'
-                  : 'px-5 py-2.5 bg-white text-stone-700 font-medium rounded-md border border-stone-300 hover:bg-stone-50 transition-colors'
+                  ? 'text-sm text-brick-700 font-medium underline'
+                  : 'text-sm text-stone-600 hover:text-brick-700 hover:underline'
               }
             >
               {confirmingClear ? 'Click again to confirm' : 'Clear saved data'}
             </button>
           </div>
-
-          <p className="text-sm text-stone-500 print:hidden">
-            Print is condensed. Screen preview shows all details.
-          </p>
         </section>
       </div>
 
@@ -925,9 +1026,13 @@ export default function ScheduleGenerator() {
       )}
 
       {generated && generated.length > 0 && (
-        <div className="print:block">
+        <div className="print:block mt-9 md:mt-12 pt-6 md:pt-8 border-t border-stone-400 print:mt-0 print:pt-0 print:border-0">
           {/* Screen-only preview heading. */}
-          <h2 className="font-display text-xl font-semibold text-stone-900 mb-4 print:hidden">
+          <h2
+            ref={scheduleHeadingRef}
+            tabIndex={-1}
+            className="font-display text-2xl font-semibold text-stone-900 mb-4 print:hidden scroll-mt-8 focus:outline-none"
+          >
             {activeStudent.studentName.trim()
               ? `${activeStudent.studentName.trim()}'s Schedule`
               : 'Schedule'}
@@ -1032,6 +1137,8 @@ interface SemesterFormProps {
   /** Collapse state — hides Green/Silver cards + action links */
   collapsed?: boolean
   onToggleCollapsed?: () => void
+  /** When true, render Teacher and Room columns/inputs in each period row */
+  showTeacherRoom?: boolean
 }
 
 function SemesterForm({
@@ -1044,21 +1151,29 @@ function SemesterForm({
   otherSemesterLabel,
   collapsed = false,
   onToggleCollapsed,
+  showTeacherRoom = false,
 }: SemesterFormProps) {
   return (
     <section className="mb-8 max-w-[720px] print:hidden">
-      <div className="mb-4 flex items-baseline gap-3 flex-wrap">
+      <div
+        className={`mb-4 flex items-baseline gap-3 flex-wrap ${onToggleCollapsed ? 'cursor-pointer group select-none' : ''}`}
+        onClick={onToggleCollapsed}
+      >
         <h2 className="font-display text-2xl font-semibold text-stone-900">
           {title}
         </h2>
         {onToggleCollapsed && (
           <button
             type="button"
-            onClick={onToggleCollapsed}
-            className="text-sm text-brick-600 hover:text-brick-700 hover:underline font-medium"
             aria-expanded={!collapsed}
+            className="text-sm text-brick-600 group-hover:text-brick-700 font-medium"
           >
-            {collapsed ? 'Show' : 'Hide'}
+            <span className="group-hover:underline">
+              {collapsed ? 'Show' : 'Hide'}
+            </span>
+            <span className="ml-1 text-base" aria-hidden="true">
+              {collapsed ? '▾' : '▴'}
+            </span>
           </button>
         )}
       </div>
@@ -1075,6 +1190,7 @@ function SemesterForm({
               slots={value.G}
               onChange={(period, field, v) => onChange('G', period, field, v)}
               accessiblePrefix={`${title} Green Day`}
+              showTeacherRoom={showTeacherRoom}
             />
             <DayColumn
               title="Silver Day"
@@ -1085,6 +1201,7 @@ function SemesterForm({
               slots={value.S}
               onChange={(period, field, v) => onChange('S', period, field, v)}
               accessiblePrefix={`${title} Silver Day`}
+              showTeacherRoom={showTeacherRoom}
             />
           </div>
 
@@ -1123,6 +1240,17 @@ function SemesterForm({
 
 // ─── Activities section ────────────────────────────────────────────────────
 
+/** Compact summary of the activities list, shown when the section is collapsed. */
+function formatActivitiesSummary(activities: Activity[]): string {
+  if (activities.length === 0) return 'No activities'
+  const names = activities.map((a) => a.name.trim() || 'Untitled activity')
+  if (activities.length <= 3) {
+    const noun = activities.length === 1 ? 'activity' : 'activities'
+    return `${activities.length} ${noun} · ${names.join(', ')}`
+  }
+  return `${activities.length} activities`
+}
+
 interface ActivitiesSectionProps {
   activities: Activity[]
   collapsed: boolean
@@ -1143,6 +1271,10 @@ function ActivitiesSection({
   // Which activity's editor is currently expanded (only one at a time).
   const [editingId, setEditingId] = useState<string | null>(null)
 
+  // Activity limits disclosure — starts closed so the rules stay out of the way
+  // until a user actually needs them.
+  const [limitsOpen, setLimitsOpen] = useState(false)
+
   // Activities that get dropped from the printed calendar on at least one date.
   // Used to mark summary rows with an amber warning icon.
   const wontFitSet = useMemo(
@@ -1157,77 +1289,99 @@ function ActivitiesSection({
 
   return (
     <section className="mb-8 max-w-[720px] print:hidden">
-      <div className="mb-2 flex items-baseline gap-3 flex-wrap">
-        <h2 className="font-display text-xl font-semibold text-stone-900">
+      <div
+        className="mb-2 flex items-baseline gap-3 flex-wrap cursor-pointer group select-none"
+        onClick={onToggleCollapsed}
+      >
+        <h2 className="font-display text-2xl font-semibold text-stone-900">
           Activities
         </h2>
         <button
           type="button"
-          onClick={onToggleCollapsed}
-          className="text-sm text-brick-600 hover:text-brick-700 hover:underline font-medium"
           aria-expanded={!collapsed}
+          className="text-sm text-brick-600 group-hover:text-brick-700 font-medium"
         >
-          {collapsed ? 'Show' : 'Hide'}
+          <span className="group-hover:underline">
+            {collapsed ? 'Show' : 'Hide'}
+          </span>
+          <span className="ml-1 text-base" aria-hidden="true">
+            {collapsed ? '▾' : '▴'}
+          </span>
         </button>
-        <span className="text-sm text-stone-500">
-          Optional. Add clubs, sports, private lessons, etc.
-        </span>
       </div>
 
-      <div className="text-sm text-stone-500 mb-4">
-        <p>You can add the following number of activities per day:</p>
-        <ul className="list-disc pl-5 mt-1">
-          <li>Up to {CAP_BEFORE} before school</li>
-          <li>{CAP_INLINE} per period during school</li>
-          <li>Up to {CAP_AFTER} after school</li>
-          <li>Up to {CAP_WEEKEND} on each Saturday or Sunday</li>
-        </ul>
-      </div>
-
-      {!collapsed && (
-        <div className="space-y-2">
+      {collapsed ? (
+        <div className="text-sm text-stone-500">
+          {formatActivitiesSummary(activities)}
+        </div>
+      ) : (
+        <>
           {activities.length === 0 && (
-            <p className="text-sm text-stone-600 mb-2">
-              No activities yet. Add one to include it on the printed schedule.
+            <p className="text-sm text-stone-500 mb-4">
+              Add clubs, sports, lessons, and other recurring activities.
             </p>
           )}
-          {(editingId
-            ? activities
-            : [...activities].sort((a, b) =>
-                a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+
+          <div className="space-y-2">
+            {(editingId
+              ? activities
+              : [...activities].sort((a, b) =>
+                  a.name.toLowerCase().localeCompare(b.name.toLowerCase())
+                )
+            ).map((activity) => {
+              const isEditing = editingId === activity.id
+              return isEditing ? (
+                <ActivityEditor
+                  key={activity.id}
+                  activity={activity}
+                  otherActivities={activities.filter((a) => a.id !== activity.id)}
+                  onChange={(patch) => onUpdate(activity.id, patch)}
+                  onClose={() => setEditingId(null)}
+                  onDelete={() => {
+                    onDelete(activity.id)
+                    setEditingId(null)
+                  }}
+                />
+              ) : (
+                <ActivitySummary
+                  key={activity.id}
+                  activity={activity}
+                  hasWarning={wontFitSet.has(activity.id)}
+                  onEdit={() => setEditingId(activity.id)}
+                  onDelete={() => onDelete(activity.id)}
+                />
               )
-          ).map((activity) => {
-            const isEditing = editingId === activity.id
-            return isEditing ? (
-              <ActivityEditor
-                key={activity.id}
-                activity={activity}
-                otherActivities={activities.filter((a) => a.id !== activity.id)}
-                onChange={(patch) => onUpdate(activity.id, patch)}
-                onClose={() => setEditingId(null)}
-                onDelete={() => {
-                  onDelete(activity.id)
-                  setEditingId(null)
-                }}
-              />
-            ) : (
-              <ActivitySummary
-                key={activity.id}
-                activity={activity}
-                hasWarning={wontFitSet.has(activity.id)}
-                onEdit={() => setEditingId(activity.id)}
-                onDelete={() => onDelete(activity.id)}
-              />
-            )
-          })}
-          <button
-            type="button"
-            onClick={handleAdd}
-            className="mt-2 text-sm text-brick-600 hover:text-brick-700 hover:underline font-medium"
-          >
-            + Add activity
-          </button>
-        </div>
+            })}
+            <button
+              type="button"
+              onClick={handleAdd}
+              className="mt-2 text-sm text-brick-600 hover:text-brick-700 hover:underline font-medium"
+            >
+              + Add activity
+            </button>
+          </div>
+
+          {/* Activity limits — collapsed disclosure so the rules stay out of the way. */}
+          <div className="mt-6">
+            <button
+              type="button"
+              onClick={() => setLimitsOpen((v) => !v)}
+              className="text-xs text-stone-500 hover:text-stone-700 flex items-center gap-1"
+              aria-expanded={limitsOpen}
+            >
+              <span>Activity limits</span>
+              <span aria-hidden="true">{limitsOpen ? '▾' : '▸'}</span>
+            </button>
+            {limitsOpen && (
+              <ul className="text-xs text-stone-500 mt-2 space-y-1 pl-3">
+                <li>Up to {CAP_BEFORE} before school</li>
+                <li>{CAP_INLINE} per period during school</li>
+                <li>Up to {CAP_AFTER} after school</li>
+                <li>Up to {CAP_WEEKEND} on each Saturday or Sunday</li>
+              </ul>
+            )}
+          </div>
+        </>
       )}
     </section>
   )
@@ -1248,6 +1402,48 @@ function ActivitySummary({
   const name = activity.name.trim() || 'Untitled activity'
   const days = formatDaysOfWeek(activity.daysOfWeek)
   const time = activity.startTime ? formatTime12h(activity.startTime) : 'No time set'
+
+  const [menuOpen, setMenuOpen] = useState(false)
+  const triggerRef = useRef<HTMLButtonElement>(null)
+  const menuRef = useRef<HTMLDivElement>(null)
+
+  // Close on outside click and Escape; return focus to trigger on Escape.
+  useEffect(() => {
+    if (!menuOpen) return
+
+    const handleClickOutside = (e: MouseEvent) => {
+      const target = e.target as Node
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(target) &&
+        triggerRef.current &&
+        !triggerRef.current.contains(target)
+      ) {
+        setMenuOpen(false)
+      }
+    }
+
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') {
+        setMenuOpen(false)
+        triggerRef.current?.focus()
+      }
+    }
+
+    document.addEventListener('mousedown', handleClickOutside)
+    document.addEventListener('keydown', handleEscape)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('keydown', handleEscape)
+    }
+  }, [menuOpen])
+
+  const handleMenuAction = (action: () => void) => {
+    setMenuOpen(false)
+    triggerRef.current?.focus()
+    action()
+  }
+
   return (
     <div className="flex items-center justify-between gap-3 px-3 py-2 border border-stone-200 rounded-md bg-white">
       <div className="min-w-0 flex-1">
@@ -1259,7 +1455,7 @@ function ActivitySummary({
           {activity.location.trim() && ` · ${activity.location.trim()}`}
         </div>
       </div>
-      <div className="flex items-center gap-2 shrink-0">
+      <div className="flex items-center gap-3 shrink-0">
         {hasWarning && (
           <span
             className="text-amber-600 text-base leading-none"
@@ -1269,22 +1465,43 @@ function ActivitySummary({
             ⚠
           </span>
         )}
-        <button
-          type="button"
-          onClick={onEdit}
-          className="text-sm text-brick-600 hover:text-brick-700 hover:underline"
-        >
-          Edit
-        </button>
-        <button
-          type="button"
-          onClick={onDelete}
-          className="text-sm text-stone-500 hover:text-stone-900"
-          aria-label={`Remove ${name}`}
-          title={`Remove ${name}`}
-        >
-          ✕
-        </button>
+        <div className="relative">
+          <button
+            ref={triggerRef}
+            type="button"
+            onClick={() => setMenuOpen((v) => !v)}
+            className="text-sm text-brick-600 hover:text-brick-700 hover:underline flex items-center gap-1"
+            aria-expanded={menuOpen}
+            aria-haspopup="menu"
+          >
+            <span>Edit</span>
+            <span aria-hidden="true">▾</span>
+          </button>
+          {menuOpen && (
+            <div
+              ref={menuRef}
+              role="menu"
+              className="absolute right-0 top-full mt-1 w-40 py-1 bg-white border border-stone-200 rounded-md shadow-lg z-10"
+            >
+              <button
+                type="button"
+                role="menuitem"
+                onClick={() => handleMenuAction(onEdit)}
+                className="block w-full text-left px-3 py-1.5 text-sm text-stone-700 hover:bg-stone-100 hover:text-stone-900 focus:bg-stone-100 focus:text-stone-900 focus:outline-none"
+              >
+                Edit activity
+              </button>
+              <button
+                type="button"
+                role="menuitem"
+                onClick={() => handleMenuAction(onDelete)}
+                className="block w-full text-left px-3 py-1.5 text-sm text-stone-500 hover:bg-brick-50 hover:text-brick-700 focus:bg-brick-50 focus:text-brick-700 focus:outline-none"
+              >
+                Remove activity
+              </button>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   )
@@ -1304,11 +1521,11 @@ function ActivityEditor({
   onClose: () => void
   onDelete: () => void
 }) {
-  // UI state: whether weekend pills are revealed. Auto-open if Sat/Sun are
-  // already selected (e.g. reopening an existing weekend activity).
-  const [includeWeekends, setIncludeWeekends] = useState(
-    activity.daysOfWeek.includes(0) || activity.daysOfWeek.includes(6)
-  )
+  // Track whether we auto-flipped schoolDaysOnly to false because a weekend
+  // day was selected. Used to restore true if all weekend days are removed.
+  // Only set when we make an automatic change — never when the user manually
+  // chooses "Hide activity" or "Keep activity".
+  const [autoSchoolDaysOff, setAutoSchoolDaysOff] = useState(false)
 
   // Live-validate against the 3-activity-per-day limit. Recomputes when the
   // activity or peer activities change.
@@ -1319,32 +1536,47 @@ function ActivityEditor({
 
   const inputClass =
     'w-full min-w-0 px-2.5 py-1.5 border border-stone-300 rounded-md text-sm focus:border-village-600 focus:ring-1 focus:ring-village-600 outline-none'
-  const labelClass =
-    'text-xs uppercase tracking-widest font-medium text-stone-700 mb-1 block'
+  const labelClass = 'text-sm font-medium text-stone-700 mb-1 block'
 
   const toggleDay = (dayNum: number) => {
-    const next = activity.daysOfWeek.includes(dayNum)
+    const isWeekend = dayNum === 0 || dayNum === 6
+    const wasSelected = activity.daysOfWeek.includes(dayNum)
+    const next = wasSelected
       ? activity.daysOfWeek.filter((d) => d !== dayNum)
       : [...activity.daysOfWeek, dayNum]
-    onChange({ daysOfWeek: next.sort((a, b) => a - b) })
+    const sorted = next.sort((a, b) => a - b)
+
+    // Adding a weekend day while "Hide activity" is set → auto-flip to
+    // "Keep activity" so the weekend selection actually shows up.
+    if (isWeekend && !wasSelected && activity.schoolDaysOnly) {
+      setAutoSchoolDaysOff(true)
+      onChange({ daysOfWeek: sorted, schoolDaysOnly: false })
+      return
+    }
+
+    // Removing the last weekend day after we auto-flipped → restore the
+    // pre-existing "Hide activity" setting.
+    if (isWeekend && wasSelected) {
+      const stillHasWeekend = sorted.includes(0) || sorted.includes(6)
+      if (!stillHasWeekend && autoSchoolDaysOff) {
+        setAutoSchoolDaysOff(false)
+        onChange({ daysOfWeek: sorted, schoolDaysOnly: true })
+        return
+      }
+    }
+
+    onChange({ daysOfWeek: sorted })
   }
 
-  const weekdayPills: Array<{ num: number; label: string }> = [
+  const dayPills: Array<{ num: number; label: string }> = [
     { num: 1, label: 'Mon' },
     { num: 2, label: 'Tue' },
     { num: 3, label: 'Wed' },
     { num: 4, label: 'Thu' },
     { num: 5, label: 'Fri' },
-  ]
-  const weekendPills: Array<{ num: number; label: string }> = [
     { num: 6, label: 'Sat' },
     { num: 0, label: 'Sun' },
   ]
-
-  const hasWeekendSelected =
-    activity.daysOfWeek.includes(0) || activity.daysOfWeek.includes(6)
-  const showWeekendConflictNote =
-    hasWeekendSelected && activity.schoolDaysOnly
 
   return (
     <div className="p-4 border border-stone-300 rounded-md bg-stone-50">
@@ -1362,7 +1594,7 @@ function ActivityEditor({
       <div className="mb-3">
         <label className={labelClass}>Days of week</label>
         <div className="flex flex-wrap gap-2">
-          {weekdayPills.map((d) => {
+          {dayPills.map((d) => {
             const selected = activity.daysOfWeek.includes(d.num)
             return (
               <button
@@ -1380,44 +1612,7 @@ function ActivityEditor({
               </button>
             )
           })}
-          {includeWeekends &&
-            weekendPills.map((d) => {
-              const selected = activity.daysOfWeek.includes(d.num)
-              return (
-                <button
-                  key={d.num}
-                  type="button"
-                  onClick={() => toggleDay(d.num)}
-                  aria-pressed={selected}
-                  className={
-                    selected
-                      ? 'px-3 py-1.5 text-sm rounded-full border border-village-600 bg-village-600 text-white font-medium'
-                      : 'px-3 py-1.5 text-sm rounded-full border border-stone-300 bg-white text-stone-700 font-medium hover:border-stone-400'
-                  }
-                >
-                  {d.label}
-                </button>
-              )
-            })}
         </div>
-        <button
-          type="button"
-          onClick={() => {
-            const next = !includeWeekends
-            setIncludeWeekends(next)
-            // When hiding, strip Sat/Sun from selected days
-            if (!next) {
-              onChange({
-                daysOfWeek: activity.daysOfWeek.filter(
-                  (d) => d !== 0 && d !== 6
-                ),
-              })
-            }
-          }}
-          className="mt-2 text-xs text-brick-600 hover:text-brick-700 hover:underline font-medium"
-        >
-          {includeWeekends ? 'Hide weekends' : 'Show weekends'}
-        </button>
       </div>
 
       <div className="mb-3 grid grid-cols-2 gap-3">
@@ -1478,22 +1673,19 @@ function ActivityEditor({
       </div>
 
       <div className="mb-3">
-        <label className={labelClass}>
-          When should this activity appear on the calendar?
-        </label>
+        <label className={labelClass}>During school breaks</label>
         <div className="flex flex-wrap gap-2">
           {(
             [
               {
                 value: true,
-                label: 'School days only',
-                example: 'e.g., school clubs',
+                label: 'Hide activity',
+                example: 'School clubs',
               },
               {
                 value: false,
-                label: 'School days and no-school days',
-                example:
-                  'e.g., private lessons, community programs, practice sessions',
+                label: 'Keep activity',
+                example: 'Lessons, practices, etc.',
               },
             ] as const
           ).map((opt) => {
@@ -1502,7 +1694,12 @@ function ActivityEditor({
               <div key={String(opt.value)}>
                 <button
                   type="button"
-                  onClick={() => onChange({ schoolDaysOnly: opt.value })}
+                  onClick={() => {
+                    // User is making an explicit choice — clear the auto-flip
+                    // memory so future weekend removals don't undo it.
+                    setAutoSchoolDaysOff(false)
+                    onChange({ schoolDaysOnly: opt.value })
+                  }}
                   aria-pressed={selected}
                   className={
                     selected
@@ -1519,13 +1716,6 @@ function ActivityEditor({
             )
           })}
         </div>
-        {showWeekendConflictNote && (
-          <p className="mt-2 text-xs text-brick-700">
-            Saturday/Sunday activities won't appear while "School days only"
-            is selected. Switch to "School days and no-school days" to include
-            weekend dates.
-          </p>
-        )}
       </div>
 
       {validation.message && (
@@ -1538,7 +1728,7 @@ function ActivityEditor({
         <button
           type="button"
           onClick={onDelete}
-          className="text-sm text-stone-600 hover:text-stone-900 hover:underline"
+          className="text-sm text-stone-600 hover:text-brick-700 hover:underline"
         >
           Remove activity
         </button>
@@ -1571,6 +1761,9 @@ interface DayColumnProps {
   ) => void
   /** For screen readers — prefix like "Semester 1 Green Day" */
   accessiblePrefix: string
+  /** When true, render Teacher and Room columns and inputs. When false,
+   *  Class expands to fill the freed space. Hidden data is preserved. */
+  showTeacherRoom?: boolean
 }
 
 function DayColumn({
@@ -1582,18 +1775,19 @@ function DayColumn({
   slots,
   onChange,
   accessiblePrefix,
+  showTeacherRoom = false,
 }: DayColumnProps) {
   const periods: Array<'p1' | 'p2' | 'p3' | 'p4'> = ['p1', 'p2', 'p3', 'p4']
 
   const inputClass =
     'w-full min-w-0 px-2.5 py-1.5 border border-stone-300 rounded-md text-sm focus:border-village-600 focus:ring-1 focus:ring-village-600 outline-none'
 
-  // Grid template: Period | Class (widest) | Teacher (medium) | Room
-  // Period 64px (fits centered "PERIOD" header and 1/2/3/4 numbers).
-  // Class 3fr : Teacher 2fr gives Class ~44% and Teacher ~30% of card width.
-  // Room 120px is comfortable for values like E123, W602, C124.
-  const rowGrid =
-    'grid-cols-[4rem_minmax(0,3fr)_minmax(0,2fr)_7.5rem]'
+  // Grid template varies with showTeacherRoom:
+  //   Full:    Period | Class | Teacher | Room
+  //   Compact: Period | Class (fills freed space)
+  const rowGrid = showTeacherRoom
+    ? 'grid-cols-[4rem_minmax(0,3fr)_minmax(0,2fr)_7.5rem]'
+    : 'grid-cols-[4rem_minmax(0,1fr)]'
 
   return (
     <div className="border border-stone-200 bg-white rounded-md">
@@ -1616,8 +1810,8 @@ function DayColumn({
         >
           <div className="text-center">Period</div>
           <div>Class</div>
-          <div>Teacher</div>
-          <div>Room</div>
+          {showTeacherRoom && <div>Teacher</div>}
+          {showTeacherRoom && <div>Room</div>}
         </div>
 
         {/* Rows */}
@@ -1642,22 +1836,26 @@ function DayColumn({
                     placeholder="Class"
                     className={inputClass}
                   />
-                  <input
-                    type="text"
-                    aria-label={`${accessiblePrefix} Period ${periodNum} teacher`}
-                    value={slots[p].teacher || ''}
-                    onChange={(e) => onChange(p, 'teacher', e.target.value)}
-                    placeholder="Teacher"
-                    className={inputClass}
-                  />
-                  <input
-                    type="text"
-                    aria-label={`${accessiblePrefix} Period ${periodNum} room`}
-                    value={slots[p].room || ''}
-                    onChange={(e) => onChange(p, 'room', e.target.value)}
-                    placeholder="Room"
-                    className={inputClass}
-                  />
+                  {showTeacherRoom && (
+                    <input
+                      type="text"
+                      aria-label={`${accessiblePrefix} Period ${periodNum} teacher`}
+                      value={slots[p].teacher || ''}
+                      onChange={(e) => onChange(p, 'teacher', e.target.value)}
+                      placeholder="Teacher"
+                      className={inputClass}
+                    />
+                  )}
+                  {showTeacherRoom && (
+                    <input
+                      type="text"
+                      aria-label={`${accessiblePrefix} Period ${periodNum} room`}
+                      value={slots[p].room || ''}
+                      onChange={(e) => onChange(p, 'room', e.target.value)}
+                      placeholder="Room"
+                      className={inputClass}
+                    />
+                  )}
                 </div>
 
                 {/* Mobile row — stack fields but keep period label attached */}
@@ -1674,24 +1872,26 @@ function DayColumn({
                       placeholder="Class"
                       className={inputClass}
                     />
-                    <div className="grid grid-cols-[1fr_5rem] gap-1.5">
-                      <input
-                        type="text"
-                        aria-label={`${accessiblePrefix} Period ${periodNum} teacher`}
-                        value={slots[p].teacher || ''}
-                        onChange={(e) => onChange(p, 'teacher', e.target.value)}
-                        placeholder="Teacher"
-                        className={inputClass}
-                      />
-                      <input
-                        type="text"
-                        aria-label={`${accessiblePrefix} Period ${periodNum} room`}
-                        value={slots[p].room || ''}
-                        onChange={(e) => onChange(p, 'room', e.target.value)}
-                        placeholder="Room"
-                        className={inputClass}
-                      />
-                    </div>
+                    {showTeacherRoom && (
+                      <div className="grid grid-cols-[1fr_5rem] gap-1.5">
+                        <input
+                          type="text"
+                          aria-label={`${accessiblePrefix} Period ${periodNum} teacher`}
+                          value={slots[p].teacher || ''}
+                          onChange={(e) => onChange(p, 'teacher', e.target.value)}
+                          placeholder="Teacher"
+                          className={inputClass}
+                        />
+                        <input
+                          type="text"
+                          aria-label={`${accessiblePrefix} Period ${periodNum} room`}
+                          value={slots[p].room || ''}
+                          onChange={(e) => onChange(p, 'room', e.target.value)}
+                          placeholder="Room"
+                          className={inputClass}
+                        />
+                      </div>
+                    )}
                   </div>
                 </div>
 
