@@ -390,6 +390,54 @@ export default function DowntownPage() {
             </Link>
           </section>
 
+          {/* Downtown Map */}
+          <section id="downtown-map" className="mt-16 scroll-mt-20">
+            <h2 className="font-display text-3xl text-stone-900 mb-4">See the downtown map</h2>
+            <p className="text-stone-700 leading-relaxed mb-6">
+              Looking for a quick way to find your way around the Village? The{' '}
+              <Link href="/articles/downtown-zionsville-map" className="text-brick-600 hover:text-brick-700 font-medium">
+                downtown Zionsville map
+              </Link>
+              {' '}shows Main Street and the surrounding side streets, with numbered markers for restaurants, retail shops, public parking lots, and key landmarks. Download the printable PDF before your visit or save the JPEG to your phone for a quick reference while walking downtown.
+            </p>
+            <Link href="/articles/downtown-zionsville-map" className="block">
+              <ContainedImage
+                src="/images/articles/downtown-zionsville-map-hero.webp"
+                alt="Downtown Zionsville map showing Main Street with numbered markers for restaurants, retail shops, public parking, and landmarks"
+              />
+            </Link>
+          </section>
+
+          {/* Parking */}
+          <div id="parking" className="mt-16 pt-10 scroll-mt-20">
+            <h2 className="font-display text-3xl text-stone-900 mb-6">Parking in Downtown Zionsville</h2>
+            <div className="space-y-4">
+              <p className="text-stone-600 leading-relaxed">
+                Street parking is available along Main Street and nearby side streets, but it can fill quickly during busy weekends and major events. Public lots around the Village give visitors additional parking within walking distance of downtown shops and restaurants.
+              </p>
+              <p className="text-stone-600 leading-relaxed">
+                The largest public parking lot is located at the northwest corner of Main Street and Sycamore Road, with access from both Main Street and First Street. A second lot is located at the southwest corner of Main Street and Pine Street.
+              </p>
+              <p className="text-stone-600 leading-relaxed">
+                Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park, within a short walk of downtown.
+              </p>
+            </div>
+
+            <div className="mt-8">
+              <div className="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
+                <iframe
+                  src="https://www.google.com/maps/d/u/3/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
+                  title="Map of public parking in downtown Zionsville, Indiana"
+                  loading="lazy"
+                  className="w-full h-full"
+                />
+              </div>
+              <p className="text-xs text-stone-500 mt-2">
+                Parking lots and street parking near downtown Zionsville. Pinch or scroll to zoom.
+              </p>
+            </div>
+          </div>
+
           {/* ── The Village Through the Years — historical context for the district ────── */}
           <section id="village-through-the-years" className="mt-16 scroll-mt-20">
             <h2 className="font-display text-3xl text-stone-900 mb-4">The Village Through the Years</h2>
@@ -486,54 +534,6 @@ export default function DowntownPage() {
               Former banks, homes, offices, and hardware stores continue to find new uses. The Village has changed considerably since its railroad days, but much of its history is still part of everyday downtown life&mdash;in the brick street, in the buildings, and in the businesses people walk into today.
             </p>
           </section>
-
-          {/* Downtown Map */}
-          <section id="downtown-map" className="mt-16 scroll-mt-20">
-            <h2 className="font-display text-3xl text-stone-900 mb-4">See the downtown map</h2>
-            <p className="text-stone-700 leading-relaxed mb-6">
-              Looking for a quick way to find your way around the Village? The{' '}
-              <Link href="/articles/downtown-zionsville-map" className="text-brick-600 hover:text-brick-700 font-medium">
-                downtown Zionsville map
-              </Link>
-              {' '}shows Main Street and the surrounding side streets, with numbered markers for restaurants, retail shops, public parking lots, and key landmarks. Download the printable PDF before your visit or save the JPEG to your phone for a quick reference while walking downtown.
-            </p>
-            <Link href="/articles/downtown-zionsville-map" className="block">
-              <ContainedImage
-                src="/images/articles/downtown-zionsville-map-hero.webp"
-                alt="Downtown Zionsville map showing Main Street with numbered markers for restaurants, retail shops, public parking, and landmarks"
-              />
-            </Link>
-          </section>
-
-          {/* Parking */}
-          <div id="parking" className="mt-16 pt-10 scroll-mt-20">
-            <h2 className="font-display text-3xl text-stone-900 mb-6">Parking in Downtown Zionsville</h2>
-            <div className="space-y-4">
-              <p className="text-stone-600 leading-relaxed">
-                Street parking is available along Main Street and nearby side streets, but it can fill quickly during busy weekends and major events. Public lots around the Village give visitors additional parking within walking distance of downtown shops and restaurants.
-              </p>
-              <p className="text-stone-600 leading-relaxed">
-                The largest public parking lot is located at the northwest corner of Main Street and Sycamore Road, with access from both Main Street and First Street. A second lot is located at the southwest corner of Main Street and Pine Street.
-              </p>
-              <p className="text-stone-600 leading-relaxed">
-                Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park, within a short walk of downtown.
-              </p>
-            </div>
-
-            <div className="mt-8">
-              <div className="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100">
-                <iframe
-                  src="https://www.google.com/maps/d/u/3/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
-                  title="Map of public parking in downtown Zionsville, Indiana"
-                  loading="lazy"
-                  className="w-full h-full"
-                />
-              </div>
-              <p className="text-xs text-stone-500 mt-2">
-                Parking lots and street parking near downtown Zionsville. Pinch or scroll to zoom.
-              </p>
-            </div>
-          </div>
 
           {/* ── FAQ ─────────────────────────────────────────────────── */}
           <section className="mt-16 pt-10 border-t border-stone-200">
