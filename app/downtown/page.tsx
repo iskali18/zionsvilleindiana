@@ -390,6 +390,103 @@ export default function DowntownPage() {
             </Link>
           </section>
 
+          {/* ── The Village Through the Years — historical context for the district ────── */}
+          <section id="village-through-the-years" className="mt-16 scroll-mt-20">
+            <h2 className="font-display text-3xl text-stone-900 mb-4">The Village Through the Years</h2>
+
+            <p className="text-stone-700 leading-relaxed mb-6">
+              Downtown Zionsville, commonly known as &ldquo;The Village,&rdquo; began as a railroad town in the early 1850s. William Zion and landowner Elijah Cross established the town beside the new railroad, and the original plat was filed in 1852. The rail line ran roughly where First Street is today, with the depot near the present-day site of Lincoln Park.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed mb-6">
+              Businesses followed quickly: Vaughan &amp; Wiley opened the first store in 1853, and John Miller built the first house, which was later used as a hotel. By 1885, Zionsville had two banks, a weekly newspaper, flour and saw mills, a carriage and wagon manufacturer, four churches, and a dairy.
+            </p>
+
+            {/* Photo 1 */}
+            <figure className="my-8 max-w-[500px] mx-auto">
+              <Image
+                src="/images/downtown/main-street-1875.webp"
+                alt="Main Street in Zionsville around 1875"
+                width={560}
+                height={587}
+                className="w-full h-auto rounded"
+              />
+              <figcaption className="text-sm text-stone-600 italic mt-2">
+                Main Street in Zionsville around 1875, showing the town’s early business district with storefronts lining the dirt street. Photo: Indiana Historical Society.</figcaption>
+            </figure>
+
+            <p className="text-stone-700 leading-relaxed mb-6">
+              Main Street&rsquo;s brick paving came later. An electric trolley line began running along the street in 1903, and the dirt-and-gravel roadway was paved with brick alongside the tracks by 1911. Trolley service ended in 1930, and the tracks were removed, leaving a center strip that eventually deteriorated. 
+            </p>  
+              
+            <p className="text-stone-700 leading-relaxed mb-6">
+              In 1969, resident John Parks organized the &ldquo;Save the Bricks&rdquo; Committee, and when asphalt was considered as a replacement a few years later, residents proposed rebuilding the street instead. Volunteers completed a test section in 1974 and went on to rebrick portions of Main Street by hand, beginning a preservation effort that continued through several major reconstruction projects until the final section was completed in 2003.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Much of the Village&rsquo;s personality comes from the changing uses of its older buildings. The building now home to{' '}
+              <Link
+                href="/businesses/rosies-place"
+                className="text-brick-600 hover:text-brick-700 hover:underline"
+              >
+                Rosie&rsquo;s Place
+              </Link>
+              {' '}operated as a drugstore in various forms for almost a century.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed mb-4">
+              The Friendly Tavern occupies a former carriage factory that once had a dirt-floor forge and a second-story ramp for rolling finished carriages toward a railroad loading dock. The building later served as wagon works, a tin shop, a harness shop, and even a church.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed mb-6">
+              The buildings that include{' '}
+              <Link
+                href="/businesses/cobblestone"
+                className="text-brick-600 hover:text-brick-700 hover:underline"
+              >
+                Cobblestone
+              </Link>
+              {' '}originally housed the Cropper Company, a furniture and dry-goods business. Other Main Street storefronts have served as banks, lumber stores, hardware stores, grocers, saloons, professional offices, and auto-related businesses.
+            </p>
+
+            {/* Photo 2 */}
+            <figure className="my-8">
+              <Image
+                src="/images/downtown/main-street-1960s.webp"
+                alt="Main Street in downtown Zionsville, circa 1960s"
+                width={1500}
+                height={1159}
+                className="w-full h-auto rounded"
+              />
+              <figcaption className="text-sm text-stone-600 italic mt-2">
+                Main Street in downtown Zionsville, circa 1960s, with the Zionsville Department Store and other local businesses lining the brick street. Photo: Indiana Connection
+              </figcaption>
+            </figure>
+
+            <p className="text-stone-700 leading-relaxed mb-4">
+              Those earlier uses have not completely disappeared. A former bank at 98 S. Main still contains two original vaults. The town&rsquo;s old lumber-store property retains the public water pump that once stood outside with a shared tin drinking cup.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed mb-6">
+              Another Main Street building is believed to have begun as an opera house, later hosted early suffrage meetings, became a carriage repair shop, and eventually housed the longtime Akard&rsquo;s Village Hardware. Castle Hall, built in 1902, has served as Zionsville&rsquo;s town hall, a fraternal lodge, and a movie theater and remains in commercial use today.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed mb-4">
+              That continual reuse is part of what makes the Village feel different from a newly built shopping district. The drugstore became a breakfast café, the carriage factory became a tavern, and the furniture and dry-goods buildings became{' '}
+              <Link
+                href="/articles/downtown-zionsville-restaurants"
+                className="text-brick-600 hover:text-brick-700 hover:underline"
+              >
+                restaurants
+              </Link>
+              {' '}and shops.
+            </p>
+
+            <p className="text-stone-700 leading-relaxed">
+              Former banks, homes, offices, and hardware stores continue to find new uses. The Village has changed considerably since its railroad days, but much of its history is still part of everyday downtown life&mdash;in the brick street, in the buildings, and in the businesses people walk into today.
+            </p>
+          </section>
+
           {/* Downtown Map */}
           <section id="downtown-map" className="mt-16 scroll-mt-20">
             <h2 className="font-display text-3xl text-stone-900 mb-4">See the downtown map</h2>
