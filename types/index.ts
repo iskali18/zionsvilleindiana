@@ -49,6 +49,7 @@ export interface EventMeta {
   }
   metaTitle: string
   metaDescription: string
+  alternateName?: string[]
 }
 
 // ─── Park ────────────────────────────────────────────────────────────────────
