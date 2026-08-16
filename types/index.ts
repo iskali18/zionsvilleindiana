@@ -49,6 +49,21 @@ export interface EventMeta {
   }
   metaTitle: string
   metaDescription: string
+  /** Full ISO datetime with timezone (e.g. "2026-08-28T17:00:00-04:00").
+   *  When set, used in Event schema in place of startDate. */
+  startDateTime?: string
+  /** Full ISO datetime with timezone. When set, used in Event schema in place of endDate. */
+  endDateTime?: string
+  /** Short schema.org enum name (e.g. "EventScheduled", "EventCancelled", "EventPostponed").
+   *  Defaults to "EventScheduled" in schema when omitted. */
+  eventStatus?: string
+  /** Optional ticket offer. Emit only when tickets have a purchasable price + URL. */
+  offer?: {
+    price: string
+    priceCurrency: string
+    url: string
+    availability?: string
+  }
   alternateName?: string[]
 }
 
