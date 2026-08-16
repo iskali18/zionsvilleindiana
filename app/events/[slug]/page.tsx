@@ -36,14 +36,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
+/** Accepts a short schema.org enum name ("EventScheduled", "InStock") or a
+ *  full URL. Returns a full https://schema.org/... URL either way. */
+function schemaUrl(value: string): string {
+  return value.startsWith('http') ? value : `https://schema.org/${value}`
+}
+
 function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
-  return {
+  const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': meta.eventType === 'recurring' ? 'EventSeries' : 'Event',
     name: meta.title,
+    ...(meta.alternateName && { alternateName: meta.alternateName }),
     description: meta.description,
-    startDate: meta.startDate,
-    ...(meta.endDate && { endDate: meta.endDate }),
+    // Prefer full datetime if frontmatter provides it; else date-only.
+    startDate: meta.startDateTime ?? meta.startDate,
+    ...((meta.endDateTime || meta.endDate) && {
+      endDate: meta.endDateTime ?? meta.endDate,
+    }),
+    // Google assumes EventScheduled when omitted, but explicit is clearer
+    // and lets frontmatter override for cancelled/postponed events.
+    eventStatus: schemaUrl(meta.eventStatus ?? 'EventScheduled'),
     location: {
       '@type': 'Place',
       name: meta.location,
@@ -64,6 +77,21 @@ function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
       url: 'https://zionsvilleindiana.com',
     },
   }
+
+  // Ticket offer — optional. Emit only when frontmatter provides an `offer`
+  // block. Use a single Offer (not AggregateOffer) — the price and URL should
+  // point to a ticket a user can actually purchase at that price.
+  if (meta.offer) {
+    schema.offers = {
+      '@type': 'Offer',
+      price: meta.offer.price,
+      priceCurrency: meta.offer.priceCurrency,
+      url: meta.offer.url,
+      availability: schemaUrl(meta.offer.availability ?? 'InStock'),
+    }
+  }
+
+  return schema
 }
 
 function formatEventDate(meta: Awaited<ReturnType<typeof getEvent>>['meta']): string {
