@@ -7,7 +7,7 @@ category: "discovery"
 hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
 hero_position: "center 65%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-08-08"
+lastUpdated: "2026-08-16"
 hubOrder: 20
 draft: false
 faqs:
@@ -217,7 +217,7 @@ Downtown dessert stops include ice cream, pies, soft serve, and other classic tr
 
 * **Address:** 10850 Creek Way
 * **Website:** [rivetcoffee.com](https://rivetcoffee.com/)
-* RIVET Coffee Bar is located at GR Brands Plaza in Creekside Corporate Park on 106th Street. The Zionsville café serves specialty coffee, espresso drinks, cold brew, tea, smoothies, Liege waffles, pastries, sandwiches, and café bowls.
+* RIVET Coffee Bar is located inside the Graham Rahal Performance building in Creekside Corporate Park on 106th Street. The Zionsville café serves specialty coffee, espresso drinks, cold brew, tea, smoothies, Liege waffles, pastries, sandwiches, and café bowls.
 
 ### Zionsville Public House
 
