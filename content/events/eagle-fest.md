@@ -99,7 +99,7 @@ Eagle Fest admission includes entry to Jennings Field and unlimited use of the b
 
 - **In-Person Presale — $9:** Advance tickets are available at [Kern Bros. Shoes](https://maps.app.goo.gl/Xwx6uyspcJ9BctHK7) in Boone Village, [Fundae’s](https://maps.app.goo.gl/bmPVw4CbScibPDkBA), Zionsville Middle School, Zionsville West Middle School, and the ZCHS Athletic Department.
 - **[Online Presale — $9.90](https://public.eventlink.com/tickets?t=196393&p=299710):** Eventlink currently lists online presale tickets for $9.90. Presale ends Thursday, August 27.
-- **Gate Admission — $10:** Tickets can be purchased at Jennings Field on the night of Eagle Fest with cash or credit card.
+- **Gate Admission — $10:** Tickets can be purchased at Jennings Field on the day of Eagle Fest with cash or credit card.
 - **Football Admission:** Eagle Fest tickets do not include the ZCHS football game. Football admission is separate, with tickets available at the stadium ticket window.
 - **Refund Policy:** Eagle Fest ticket sales are final and nonrefundable. Refunds are not issued for rain, inclement weather, or event cancellation.
 
@@ -120,13 +120,13 @@ Eagle Fest admission includes entry to Jennings Field and unlimited use of the b
   </figcaption>
 </figure>
 
-Eagle Fest fills Jennings Field with activities from 5:00 to 7:00 PM. Families can enjoy games, school and community booths, food trucks, and entertainment throughout the evening.
+Eagle Fest fills Jennings Field with activities from 5:00 to 7:00 PM. Families can enjoy games, school and community booths, food trucks, and entertainment throughout the event.
 
 - **Bounce Houses:** Admission includes unlimited access to the bounce houses.
 - **Dunk Tanks:** Students can take a shot at dunking ZCS teachers and school administrators.
 - **Games & Athletic Activities:** Families can participate in games and sports-related activities around the field.
 - **Community & Sponsor Booths:** Local organizations and businesses offer games, activities, and prize giveaways.
-- **DJ & Music:** Music plays throughout the evening as activities take place around Jennings Field.
+- **DJ & Music:** Music plays throughout the event as activities take place around Jennings Field.
 - **School Performances:** Cheerleaders, dance teams, and the marching band make appearances and perform during Eagle Fest.
 - **Food Trucks:** Scheduled vendors include Backroads BBQ, Fillers, Fundae’s, Grace Truck, Taco Loco, The Savory Stagecoach, and Tropical Sno.
 
