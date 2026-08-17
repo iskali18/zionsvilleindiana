@@ -93,6 +93,15 @@ Organized by the Zionsville Athletic Booster Club, Eagle Fest also serves as a f
   </figcaption>
 </figure>
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/eagle-fest-2026.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/eagle-fest-2026.webp" alt="Official event flyer for the 42nd Annual Eagle Fest on August 28, 2026, at Jennings Field in Zionsville, detailing ticket prices, activity highlights, and the schedule."  class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Official event flyer for the 42nd Annual Eagle Fest at Jennings Field, outlining activity schedules, presale ticket locations, and event highlights.
+  </figcaption>
+</figure>
+
 ## Ticket pricing & admission
 
 Eagle Fest admission includes entry to Jennings Field and unlimited use of the bounce houses during the event.
@@ -148,15 +157,6 @@ Eagle Fest fills Jennings Field with activities from 5:00 to 7:00 PM. Families c
 Eagle Fest wraps up at 7:00 PM, giving attendees time to make the short walk from Jennings Field to ZCHS football stadium. The Zionsville Eagles host Lawrence Central at **7:30 PM**.
 
 Eagle Fest and the football game require separate tickets. Football tickets can be purchased at the stadium ticket window.
-
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <a href="/images/events/eagle-fest-2026.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/events/eagle-fest-2026.webp" alt="Official event flyer for the 42nd Annual Eagle Fest on August 28, 2026, at Jennings Field in Zionsville, detailing ticket prices, activity highlights, and the schedule."  class="rounded-lg shadow-sm cursor-zoom-in" />
-  </a>
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    Official event flyer for the 42nd Annual Eagle Fest at Jennings Field, outlining activity schedules, presale ticket locations, and event highlights.
-  </figcaption>
-</figure>
 
 ## Supporting Zionsville school athletics
 
