@@ -1,10 +1,13 @@
 ---
 title: Zionsville Fall Festival
+alternateName: ["Zionsville Lions Fall Festival", "Lions Park Fall Festival"]
 seoTitle: "Zionsville Fall Festival 2026"
 description: An annual three-day community festival at Lions Park featuring Poor Jack's Carnival, food vendors, community booths, the Saturday morning parade through the Village, and family-friendly activities.
 eventType: annual
 startDate: "2026-09-11"
 endDate: "2026-09-13"
+startDateTime: "2026-09-11T17:00:00-04:00"
+endDateTime: "2026-09-13T17:00:00-04:00"
 location: Lions Park, Zionsville
 address: "11053 Sycamore St, Zionsville, IN 46077"
 externalUrl: https://www.zionsvillelions.com/fallfestival
@@ -66,6 +69,19 @@ The 73rd annual festival takes place September 11–13, 2026, with the theme "Ou
 
 </div>
 
+<figure className="my-8">
+  <Image
+    src="/images/events/zionsville-fall-festival-parade.webp"
+    alt="Veterans carrying American flags while riding on a vintage red fire truck during the Zionsville Fall Festival parade down Main Street."
+    width={1400}
+    height={933}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    A vintage fire truck carrying local veterans leads the community parade along brick-paved Main Street in downtown Zionsville. </br> <span class="not-italic">© ZionsvilleIndiana.com</span>
+  </figcaption>
+</figure>
+
 ## What to expect in 2026
 
 The festival runs across three days, with different highlights each day:
@@ -88,6 +104,21 @@ The festival runs across three days, with different highlights each day:
 - Community bingo
 - Food vendors and vendor areas
 
+
+<figure className="my-8">
+  <Image
+    src="/images/events/zionsville-fall-festival-ride-1.webp"
+    alt="Children riding colorful spinning carnival swings against a backdrop of festive funhouse facades."
+    width={1400}
+    height={933}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    Kids enjoy one of the midway rides during the Zionsville Fall Festival.
+    <span class="not-italic">© ZionsvilleIndiana.com</span>
+  </figcaption>
+</figure>
+
 ## VIP Carnival
 
 The Zionsville Lions Club and the HAWK Foundation co-host the VIP Carnival on Friday evening of Fall Festival weekend. This free event is designed for families with children with special needs.
@@ -95,6 +126,20 @@ The Zionsville Lions Club and the HAWK Foundation co-host the VIP Carnival on Fr
 The general carnival is also open to the public Friday evening, alongside the VIP event.
 
 Families are asked to **RSVP** at [zionsvillelions.com](https://www.zionsvillelions.com/fall-festival-vip-carnival) so the hosts can plan food and supplies, but last-minute attendees are welcome.
+
+<figure className="my-8">
+  <Image
+    src="/images/events/zionsville-fall-festival-ride-2.webp"
+    alt="Attendees walking past the Starship 8000 ride entrance at the Zionsville Fall Festival."
+    width={1400}
+    height={933}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    Festival-goers line up for the Starship 8000 thrill ride as evening approaches at the Zionsville Fall Festival.
+    </br> <span class="not-italic">© ZionsvilleIndiana.com</span>
+  </figcaption>
+</figure>
 
 ## Lion's Lounge
 
@@ -143,6 +188,20 @@ A pedestrian-only entrance with ramp access is also available from South Elm Str
 **Pets:** Pets are not allowed unless they are part of a festival exhibit or are service dogs.
 
 **Prohibited items:** Firearms, smoking in Lions Park, illegal substances, and fireworks are prohibited.
+
+<figure className="my-8">
+  <Image
+    src="/images/events/zionsville-fall-festival-ride-3.webp"
+    alt="Visitors enjoying carnival rides, including a Ferris wheel and game booths, at the Zionsville Fall Festival."
+    width={1400}
+    height={933}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    Crowds gather near the Ferris wheel and midway games during the annual Zionsville Fall Festival.
+    <span class="not-italic">© ZionsvilleIndiana.com</span>
+  </figcaption>
+</figure>
 
 ## Downtown map
 
