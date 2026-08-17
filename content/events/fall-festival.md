@@ -2,7 +2,7 @@
 title: Zionsville Fall Festival
 alternateName: ["Zionsville Lions Fall Festival", "Lions Park Fall Festival"]
 seoTitle: "Zionsville Fall Festival 2026"
-description: An annual three-day community festival at Lions Park featuring Poor Jack's Carnival, food vendors, community booths, the Saturday morning parade through the Village, and family-friendly activities.
+description: An annual three-day community festival at Lions Park featuring Poor Jack’s Carnival, food vendors, community booths, the Saturday morning parade through the Village, and family-friendly activities.
 eventType: annual
 startDate: "2026-09-11"
 endDate: "2026-09-13"
@@ -30,34 +30,34 @@ faqs:
   - q: "What address should I use for Lions Park — Sycamore or Elm Street?"
     a: "Lions Park has two entrances. For Fall Festival weekend, use 11053 Sycamore Street for driving directions; this is the main entrance with the large parking lot and the large Lions Club billboard. 115 South Elm Street is a separate pedestrian-only entrance with ramp access descending from the street into the park. This entrance may be useful for people walking from nearby street parking or downtown, but the main driving entrance and large parking lot are on Sycamore Street."
   - q: "How much does the Zionsville Fall Festival cost?"
-    a: "Admission to the festival at Lions Park is free. Carnival rides require single-ride tickets, available all carnival days. Carnival games are paid in cash at each booth — bring cash, as card acceptance isn't guaranteed. Unlimited-ride wristbands are offered on Sunday (Wristband Day); current-year pricing is announced closer to the event."
+    a: "Admission to the festival at Lions Park is free. Carnival rides require single-ride tickets, available all carnival days. Carnival games are paid in cash at each booth — bring cash, as card acceptance isn’t guaranteed. Unlimited-ride wristbands are offered on Sunday (Wristband Day); current-year pricing is announced closer to the event."
   - q: "Where do I park for the Zionsville Fall Festival?"
     a: "Lions Park parking is free year-round, but during the Fall Festival, on-site parking is $8.00 cash, which supports park maintenance. Overflow paid parking is available on the vacant lot at the southwest corner of Main and Sycamore Road for $8.00 cash. Free public lots are at the northwest corner of Main and Sycamore Road and the southwest corner of Main and Pine Street. Parking near the parade route and Lions Park fills quickly during the Saturday parade."
   - q: "What are the Zionsville Fall Festival hours?"
     a: "The 2026 festival hours are listed as Friday 5:00 PM – 11:00 PM, Saturday 10:00 AM – 11:00 PM, and Sunday 12:00 PM – 5:00 PM. Activity times may vary by day."
   - q: "What activities are at the Zionsville Fall Festival?"
-    a: "The festival includes Poor Jack's Carnival rides and games, food vendors, community booths, the Saturday morning parade through the Village, the VIP Carnival, Kid's Corner bounce houses, Safety Zone activities, Lion's Lounge, the American Dream Car Show, and community bingo."
+    a: "The festival includes Poor Jack’s Carnival rides and games, food vendors, community booths, the Saturday morning parade through the Village, the VIP Carnival, Kid’s Corner bounce houses, Safety Zone activities, Lion’s Lounge, the American Dream Car Show, and community bingo."
   - q: "Is the Zionsville Fall Festival family-friendly?"
     a: "Yes. The festival includes carnival rides and games, food vendors, the Saturday parade, and family-focused activities. Friday evening also includes the VIP Carnival, a free event designed for families with children with special needs."
   - q: "What is the VIP Carnival at Fall Festival?"
     a: "The VIP Carnival is a free Friday-evening event for families with children with special needs, co-hosted by the Zionsville Lions Club and the HAWK Foundation. Families are encouraged to RSVP at zionsvillelions.com so the hosts can plan food and supplies, but last-minute attendees are welcome."
 ---
 
-The Zionsville Fall Festival is a long-running community tradition held the weekend after Labor Day at Lions Park. It's the Zionsville Lions Club's largest annual fundraiser, drawing visitors from across central Indiana for three days of carnival rides, food, the Saturday morning parade through the Village, and family-friendly activities.
+The Zionsville Fall Festival is a long-running community tradition held the weekend after Labor Day at Lions Park. It’s the Zionsville Lions Club’s largest annual fundraiser, drawing visitors from across central Indiana for three days of carnival rides, food, the Saturday morning parade through the Village, and family-friendly activities.
 
-The 73rd annual festival takes place September 11–13, 2026, with the theme "Out of this World." Admission to the festival at Lions Park is free; carnival rides require tickets, and games are paid separately.
+The 73rd annual festival takes place September 11–13, 2026, with the theme “Out of this World.” Admission to the festival at Lions Park is free; carnival rides require tickets, and games are paid separately.
 
 <figure>
   <a href="/images/events/zionsville-fall-festival-lions-park-map.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size festival map in new tab">
-    <img src="/images/events/zionsville-fall-festival-lions-park-map.webp" alt="Aerial view of the Zionsville Fall Festival at Lions Park showing carnival area, food vendors, Kid's Corner, parking, and pedestrian entrance." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/events/zionsville-fall-festival-lions-park-map.webp" alt="Aerial view of the Zionsville Fall Festival at Lions Park showing carnival area, food vendors, Kid’s Corner, parking, and pedestrian entrance." className="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    Aerial layout of the Zionsville Fall Festival at Lions Park showing carnival area, food vendors, Kid's Corner, parking, and pedestrian entrance. Click the image to view full size.
-    <span class="not-italic">© ZionsvilleIndiana.com.</span>
+  <figcaption className="text-xs text-stone-500 italic mt-2">
+    Aerial layout of the Zionsville Fall Festival at Lions Park showing carnival area, food vendors, Kid’s Corner, parking, and pedestrian entrance. Click the image to view full size.
+    <span className="not-italic">© ZionsvilleIndiana.com.</span>
   </figcaption>
 </figure>
 
-<div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
+<div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
 ## Good to Know Before You Go
 
@@ -78,7 +78,7 @@ The 73rd annual festival takes place September 11–13, 2026, with the theme "Ou
     className="w-full h-auto rounded"
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
-    A vintage fire truck carrying local veterans leads the community parade along brick-paved Main Street in downtown Zionsville. </br> <span class="not-italic">© ZionsvilleIndiana.com</span>
+    A vintage fire truck carrying local veterans leads the community parade along brick-paved Main Street in downtown Zionsville. <br /> <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -88,19 +88,19 @@ The festival runs across three days, with different highlights each day:
 
 **Friday, September 11 · 5:00 PM – 11:00 PM**
 - 5:00 PM: VIP Carnival for families with children with special needs
-- Poor Jack's Carnival opens
+- Poor Jack’s Carnival opens
 - Food vendors and community booths
 
 **Saturday, September 12 · 10:00 AM – 11:00 PM**
 - 10:00 AM: Fall Festival Parade from Zionsville Community High School through the Village along Main Street
-- Poor Jack's Carnival rides, food vendors, and community booths
-- Kid's Corner bounce houses, Safety Zone activities, and live entertainment
-- 5:00 PM: Lion's Lounge opens (21+, $10 cover)
-- 7:00 – 11:00 PM: The Impalas play at the Lion's Lounge
+- Poor Jack’s Carnival rides, food vendors, and community booths
+- Kid’s Corner bounce houses, Safety Zone activities, and live entertainment
+- 5:00 PM: Lion’s Lounge opens (21+, $10 cover)
+- 7:00 – 11:00 PM: The Impalas play at the Lion’s Lounge
 
 **Sunday, September 13 · 12:00 PM – 5:00 PM**
 - 9:00 AM – 3:00 PM: American Dream Car Show
-- Wristband Day at Poor Jack's Carnival
+- Wristband Day at Poor Jack’s Carnival
 - Community bingo
 - Food vendors and vendor areas
 
@@ -115,7 +115,7 @@ The festival runs across three days, with different highlights each day:
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
     Kids enjoy one of the midway rides during the Zionsville Fall Festival.
-    <span class="not-italic">© ZionsvilleIndiana.com</span>
+    <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -137,22 +137,22 @@ Families are asked to **RSVP** at [zionsvillelions.com](https://www.zionsvilleli
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
     Festival-goers line up for the Starship 8000 thrill ride as evening approaches at the Zionsville Fall Festival.
-    </br> <span class="not-italic">© ZionsvilleIndiana.com</span>
+    <br /> <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
-## Lion's Lounge
+## Lion’s Lounge
 
-Lion's Lounge opens Saturday at 5:00 PM for adults 21+. The Impalas, an Indianapolis-based dance band, perform from 7:00 – 11:00 PM. Cover is $10 at the door.
+Lion’s Lounge opens Saturday at 5:00 PM for adults 21+. The Impalas, an Indianapolis-based dance band, perform from 7:00 – 11:00 PM. Cover is $10 at the door.
 
 ## The parade route
 
 The parade begins Saturday, September 12 at 10:00 AM at Zionsville Community High School. From there, the route travels south through the Village along Main Street, ending at Old National Bank near Main Street and Sycamore Road. Main Street is closed to vehicles during the parade.
 
-<div class="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm my-6">
+<div className="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm my-6">
   <iframe
     src="https://www.google.com/maps/d/embed?mid=1dQHpPIcY67cHGGp4yELXL6H60E6q_r8&ehbc=2E312F"
-    class="w-full h-full border-0"
+    className="w-full h-full border-0"
     loading="lazy"
     title="Zionsville Fall Festival parade route from Zionsville Community High School through the Village along Main Street"
   ></iframe>
@@ -199,7 +199,7 @@ A pedestrian-only entrance with ramp access is also available from South Elm Str
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
     Crowds gather near the Ferris wheel and midway games during the annual Zionsville Fall Festival.
-    <span class="not-italic">© ZionsvilleIndiana.com</span>
+    <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -210,6 +210,6 @@ Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your ph
 
 ## Hosts
 
-The Zionsville Fall Festival is hosted by the [Zionsville Lions Club](https://www.zionsvillelions.com), the festival's founders and primary organizers. The festival is the Lions Club's largest annual fundraiser, with proceeds supporting community work in Zionsville and the maintenance of Lions Park.
+The Zionsville Fall Festival is hosted by the [Zionsville Lions Club](https://www.zionsvillelions.com), the festival’s founders and primary organizers. The festival is the Lions Club’s largest annual fundraiser, with proceeds supporting community work in Zionsville and the maintenance of Lions Park.
 
 The Friday evening VIP Carnival is co-hosted by the Lions Club and the [HAWK Foundation](https://www.thehawkfoundation.org), which supports individuals and families affected by autism and other special needs.
