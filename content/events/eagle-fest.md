@@ -149,6 +149,15 @@ Eagle Fest wraps up at 7:00 PM, giving attendees time to make the short walk fro
 
 Eagle Fest and the football game require separate tickets. Football tickets can be purchased at the stadium ticket window.
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/eagle-fest-2026.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/eagle-fest-2026.webp" alt="Official event flyer for the 42nd Annual Eagle Fest on August 28, 2026, at Jennings Field in Zionsville, detailing ticket prices, activity highlights, and the schedule."  class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Official event flyer for the 42nd Annual Eagle Fest at Jennings Field, outlining activity schedules, presale ticket locations, and event highlights.
+  </figcaption>
+</figure>
+
 ## Supporting Zionsville school athletics
 
 Eagle Fest is organized by the Zionsville Athletic Booster Club, with Church Church Hittle + Antrim serving as the 2026 title sponsor. Money raised through the event supports athletic programs at Zionsville Community High School, Zionsville Middle School, and Zionsville West Middle School.
