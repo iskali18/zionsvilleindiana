@@ -5,6 +5,8 @@ description: Free weekly outdoor Lions Park concerts every Wednesday evening, Ju
 eventType: recurring
 startDate: "2026-06-03"
 endDate: "2026-08-12"
+startDateTime: "2026-06-03T19:00:00-04:00"
+endDateTime: "2026-08-12T20:30:00-04:00"
 recurrenceLabel: "Wednesdays, June 3 – August 12, 2026"
 recurrence:
   pattern: weekly

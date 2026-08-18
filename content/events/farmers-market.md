@@ -1,10 +1,13 @@
 ---
 title: Zionsville Farmers Market
+alternateName: ["Zionsville Farmers’ Market"]
 seoTitle: "Zionsville Farmers Market 2026 — Zionsville, Indiana"
 description: Fresh produce, baked goods, live music, and local vendors every Saturday morning on Main Street.
 eventType: recurring
 startDate: "2026-05-16"
 endDate: "2026-09-26"
+startDateTime: "2026-05-16T08:00:00-04:00"
+endDateTime: "2026-09-26T11:30:00-04:00"
 recurrenceLabel: "Every Saturday, May 16 – Sep 26, 2026"
 recurrence:
   pattern: weekly

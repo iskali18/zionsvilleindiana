@@ -5,6 +5,8 @@ description: Free outdoor concerts at the historic Maplelawn Farmstead on the fi
 eventType: recurring
 startDate: "2026-08-19"
 endDate: "2026-08-26"
+startDateTime: "2026-08-19T19:00:00-04:00"
+endDateTime: "2026-08-26T20:30:00-04:00"
 recurrenceLabel: "Wednesdays, August 19 & 26, 2026"
 recurrence:
   pattern: weekly
