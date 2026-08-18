@@ -3,7 +3,7 @@ title: "Mulberry Fields Park"
 seoTitle: "Mulberry Fields Park in Zionsville: Splash Pad, Trails & Courts"
 description: "Mulberry Fields Park in Zionsville, Indiana: splash pad hours, pickleball court rules, shelter rentals, sledding hill, trails, and parking info."
 slug: mulberry-fields-park
-hero_image: /images/parks/zionsville-mulberry-fields-park-hero.webp
+hero_image: /images/parks/mulberry-fields-park.webp
 hero_position: "center 55%"
 hero_credit: "© ZionsvilleIndiana.com"
 lastUpdated: "2026-06-26"
