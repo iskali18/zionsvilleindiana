@@ -1,11 +1,11 @@
 ---
-title: Things to Do in Zionsville
+title: Things to Do in Zionsville, Indiana
 seoTitle: "Things to Do in Zionsville, Indiana"
-description: Things to do beyond Main Street, including trails, nature stops, cultural sites, farm experiences, local dining, sweets, and weekend activities.
+description: Things to do in Zionsville, Indiana — Main Street shops, Big-4 Rail Trail, parks and nature areas, Traders Point Creamery, local dining, and upcoming community events.
 hero_image: /images/things-to-do-hero.jpg
 hero_position: "center 55%"
 hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-07-14"
+lastUpdated: "2026-08-17"
 category: discovery
 ctas:
   - label: View upcoming events
@@ -21,13 +21,27 @@ faqs:
     a: "Yes. Outside the Village, you can explore the Big-4 Rail Trail, visit Mulberry Fields Park, Lions Park, or Creekside Nature Park, tour Traders Point Creamery or WonderTree Farm, or find restaurant options along Michigan Road, US-421, and the Boone Village area."
   - q: "Is Zionsville a good day-trip destination?"
     a: "Zionsville makes an easy day trip from Indianapolis and surrounding communities. The walkable downtown, paved Rail Trail, parks, farms, and seasonal events offer enough to fill a half-day or full-day visit."
+  - q: "What's happening in Zionsville this weekend?"
+    a: "The events calendar section near the top of this page shows upcoming events from the Zionsville community calendar. Weekend options typically include the Zionsville Farmers Market on Saturday mornings (May through September), seasonal downtown events, or major annual festivals like the Fall Festival and Christmas in the Village."
   - q: "What outdoor activities are available in Zionsville?"
     a: "Zionsville has the paved Big-4 Rail Trail for walking and biking, several parks including Lions Park, Creekside Nature Park, Zion Nature Sanctuary, and Mulberry Fields Park, plus disc golf and mountain biking at Overley-Worman Park, and the Zionsville Golf Course."
 ---
 
-Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, casual dining, farm experiences, sports facilities, and more. This guide covers things to do across Zionsville, from the historic Village district to areas outside Main Street.
+Zionsville is known for its brick-paved Main Street, but the town extends well beyond the Village. Across Zionsville, you’ll find paved trails, nature areas, casual dining, farm experiences, sports facilities, and more. This guide covers fun things to do across Zionsville, from the historic Village district to areas outside Main Street.
 
 Hours, reservations, and public access can change, especially for farms, cultural sites, sports facilities, and seasonal programs. Check each business or organization’s website before making plans.
+
+<div data-inject="upcoming-events"></div>
+
+## Things to Do at a Glance
+
+Zionsville offers a mix of downtown activities, outdoor recreation, dining, and seasonal events. Depending on how much time you have, you can: 
+
+- **Explore the Village** for Main Street shops, restaurants, coffee, galleries, and historic surroundings.
+- **Get outdoors** on the Big-4 Rail Trail, at parks like Lions Park or Mulberry Fields, or with golf, disc golf, mountain biking, and fishing.
+- **Visit a farm or historic site** at Traders Point Creamery, WonderTree Farm, SullivanMunce Cultural Center, or Maplelawn Farmstead.
+- **Find restaurants, coffee, and local treats** throughout downtown and other parts of Zionsville.
+- **Plan around a local event**, from weekly markets to major annual festivals and holiday celebrations.
 
 ## Browse by area and interest
 
@@ -39,14 +53,15 @@ Hours, reservations, and public access can change, especially for farms, cultura
   <a href="#visit-farms-and-rural-zionsville-destinations">Farms & rural</a>
   <a href="#explore-local-history-and-community-programs">History & community</a>
   <a href="#sports-and-outdoor-recreation">Sports</a>
-  <a href="#browse-vintage-finds-and-local-shops">Vintage & shops</a>
-  <a href="#catch-a-seasonal-event">Seasonal events</a>
+  <a href="#annual-events-in-zionsville">Annual events</a>
 </div>
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/articles/zionsville-things-to-do-downtown.jpg" alt="Brick buildings and the sidewalk along Main Street in downtown Zionsville, Indiana, featuring local storefronts, the Southern Fancy Boutique sign, and parked cars under an overcast sky." class="rounded-lg shadow-sm" />
+  <a href="/images/articles/zionsville-things-to-do-downtown.jpg" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-things-to-do-downtown.jpg" alt="Brick buildings and the sidewalk along Main Street in downtown Zionsville, Indiana, featuring local storefronts, the Southern Fancy Boutique sign, and parked cars under an overcast sky." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Sidewalk and boutique storefronts along Main Street in downtown Zionsville
+    Sidewalk and boutique storefronts along Main Street in downtown Zionsville.
   </figcaption>
 </figure>
 
@@ -54,30 +69,33 @@ Hours, reservations, and public access can change, especially for farms, cultura
 
 The brick-paved Village district is the part of Zionsville many people picture first. Main Street is lined with historic storefronts, locally owned restaurants, boutiques, coffee shops, galleries, and small businesses.
 
-For a short outing, the Village is usually the easiest place to begin because you can park once and walk between restaurants, shops, and nearby public spaces.
+The compact downtown makes it possible to park once and walk between restaurants, shops, galleries, and nearby public spaces. It can also serve as a starting point before heading to the Rail Trail, parks, or other parts of town.
 
-Downtown is especially helpful for:
+Downtown activities include:
 
-- Coffee, brunch, lunch, or dinner before heading elsewhere
+- Coffee, brunch, lunch, or dinner
 - Browsing locally owned shops and galleries
-- Seasonal events, markets, parades, and holiday gatherings
+- Walking along Main Street and nearby side streets
+- Seasonal markets, parades, festivals, and holiday events
 
-[See five ways to spend time downtown](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [restaurant](/articles/downtown-zionsville-restaurants) guides.
+[See five ways to spend time in downtown Zionsville](/downtown), or browse the [shopping](/articles/shopping-in-downtown-zionsville) and [restaurant](/articles/downtown-zionsville-restaurants) guides.
 
 <div class="clear-both"></div>
 
 ## Get outside on the Big-4 Rail Trail and in local parks
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/articles/zionsville-things-to-do-rail-trail.jpg" alt="A straight, paved section of the Big-4 Rail Trail in Zionsville, Indiana, lined with mature green trees forming a lush canopy over the path on a sunny day." class="rounded-lg shadow-sm" />
+  <a href="/images/articles/zionsville-things-to-do-rail-trail.jpg" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-things-to-do-rail-trail.jpg" alt="A straight, paved section of the Big-4 Rail Trail in Zionsville, Indiana, lined with mature green trees forming a lush canopy over the path on a sunny day." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Paved Big-4 Rail Trail through a wooded section of Zionsville
+    Paved Big-4 Rail Trail through a wooded section of Zionsville.
   </figcaption>
 </figure>
 
 For time outdoors, start with the Big-4 Rail Trail, then add one of Zionsville’s parks or nature areas nearby.
 
-The **[Big-4 Rail Trail](/articles/big-4-rail-trail)** is a paved trail that runs through Zionsville and connects to nearby Boone County communities. It is used for walking, biking, jogging, and stroller walks, making it easy to add fresh air to a day in town. The trail can also shape a longer plan: start with a walk or bike ride, then head toward coffee, lunch, Main Street, or one of the nearby parks.
+The **[Big-4 Rail Trail](/articles/big-4-rail-trail)** (also known as the Zionsville Rail Trail) is a paved trail that runs through Zionsville and connects to nearby Boone County communities. It is used for walking, biking, jogging, and stroller walks. For a longer outing, start with a walk or bike ride on the trail, then head to coffee, lunch, Main Street, or one of the nearby parks.
 
 **[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park)** is one of Zionsville's largest parks, with more than 70 wooded acres along Eagle Creek about a quarter mile southwest of the Village. Its trails are rugged and better suited to hiking than a casual walk, and the park connects to the Big-4 Rail Trail.
 
@@ -91,44 +109,45 @@ The **[Zionsville Nature Center](https://www.zionsville-in.gov/270/Zionsville-Na
 
 **[Mulberry Fields Park](/articles/mulberry-fields-park)** is a 38-acre community park with a splash pad, playground, pickleball courts, skate park, paved trails, sledding hill, and the historic Maplelawn Farmstead.
 
-## Restaurants Outside the Village
+<div class="clear-both"></div>
 
-Downtown Main Street isn't the only place to find a memorable meal. Outside the Village, several locally owned restaurants and a handful of regional concepts offer everything from Northern Italian cuisine and Indian specialties to Thai street food and steakhouse dining.
+## Restaurants outside the Village
 
-### Boone Village and West Oak Street
-
-Just west of downtown, Boone Village and nearby West Oak Street have one of Zionsville's largest collections of locally owned restaurants. **Good Omen** serves seasonal Northern Italian cuisine with an extensive wine program, while **Saffron** specializes in North Indian dishes including curries, biryanis, and tandoori dishes. You'll also find **Amore Pizzeria**, **Toro Z Mexican Restaurant**, and **Happy Kitchen & Sushi Bar** within a few minutes of one another.
-
-### Michigan Road
-
-Michigan Road has the widest variety of restaurants outside downtown. **Thai Eatery** and [**Mochaland**](/businesses/mochaland) are among the options here, alongside chain restaurants and quick-service spots added by nearby developments such as The Farm and Sylo Crossing.
-
-### Graham Rahal Campus
-
-**Bowdie's Chophouse** offers an upscale steakhouse experience on the Graham Rahal Campus, where visitors can also view exotic and high-performance vehicles on display.
-
-### Holliday Farms
-
-For a quieter evening out, Holliday Farms is home to **Verde Flavors of Mexico** and **Apicio Ristorante & Enoteca**, two restaurants that have expanded Zionsville's fine-dining options beyond Main Street.
-
-For more places to eat across Zionsville, see the [downtown restaurant guide](/articles/downtown-zionsville-restaurants) and [Zionsville coffee shop guide](/articles/coffee-shops).
-
-## Find coffee, sweets, and local treats
-
-When you want dessert or something to take home, Zionsville has several places for coffee, chocolates, baked goods, and casual treats.
+Dining in Zionsville extends well beyond downtown, with locally owned restaurants spread across Boone Village, West Oak Street, Michigan Road, the Graham Rahal campus, and Holliday Farms.
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/articles/zionsville-things-to-do-exotic-cars.jpg" alt="Rivet Coffee Bar seating area inside the Graham Rahal Performance building." class="rounded-lg shadow-sm" />
+  <a href="/images/articles/zionsville-amore-pizzeria.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-amore-pizzeria.webp" alt="Exterior storefront of Amore New York Style Pizzeria in Boone Village, Zionsville, Indiana, featuring red neon signage and grey shingled facade." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    RIVET Coffee Bar is located inside the Graham Rahal Performance building, with exotic and high-performance cars and motorcycles displayed nearby.
+    Amore Pizzeria storefront in Boone Village shopping center, Zionsville, Indiana.
   </figcaption>
 </figure>
 
-**RIVET Coffee Bar** is located inside the Graham Rahal Performance building on 106th Street. It serves coffee, tea, breakfast, and lunch, with exotic and high-performance cars and motorcycles displayed nearby.
+Boone Village and nearby West Oak Street make up one of Zionsville’s larger clusters, including **Good Omen** for seasonal Northern Italian cuisine, **Saffron** for North Indian dishes, along with **Amore Pizzeria**, **Toro Z Mexican Restaurant**, and **Happy Kitchen & Sushi Bar**.
 
-**Schakolad Chocolate Factory** in Boone Village on Oak Street offers European-style chocolates and truffles made fresh on-site using a three-generation family recipe. Because items are prepared and dipped in the store, it’s a convenient place to look for boxed chocolates, custom treats, gifts, or a quick sweet break.
+Along Michigan Road, options include **Thai Eatery**, [**Mochaland**](/businesses/mochaland), and restaurants in newer developments such as The Farm and Sylo Crossing. Farther south, **Bowdie’s Chophouse** is located on the Graham Rahal campus, while Holliday Farms is home to **Verde Flavors of Mexico** and **Apicio Ristorante & Enoteca**.
 
-**Confectioneiress** is a local bakery near Oak Street and Zionsville Road, specializing in custom cakes, cupcakes, French macarons, cake pops, cookies, cream pies, and other celebration desserts. Visitors can pick up a cupcake or order made-to-order sweets for birthdays, weddings, holidays, and special events.
+For more dining ideas, see the [downtown restaurant guide](/articles/downtown-zionsville-restaurants) and [Zionsville coffee shop guide](/articles/coffee-shops).
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/articles/zionsville-things-to-do-exotic-cars.jpg" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-things-to-do-exotic-cars.jpg" alt="Classic Porsches and sports cars on display inside the Graham Rahal Performance showroom in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    High-performance sports cars and classic models on display near RIVET Coffee Bar at Graham Rahal Performance in Zionsville.
+  </figcaption>
+</figure>
+
+## Find coffee, sweets, and local treats
+
+Coffee, chocolates, baked goods, and other treats can also be found outside the Village.
+
+**RIVET Coffee Bar** is inside the Graham Rahal Performance campus on 106th Street and serves coffee, tea, breakfast, and lunch. **Schakolad Chocolate Factory** in Boone Village makes chocolates and truffles on-site, while **Confectioneiress** specializes in cupcakes, French macarons, cookies, cakes, and other baked goods.
+
+For more places around town, see the [Zionsville coffee shop guide](/articles/coffee-shops).
+
+<div class="clear-both"></div>
 
 ## Visit farms and rural Zionsville destinations
 
@@ -140,16 +159,31 @@ To see a quieter side of Zionsville, head beyond the Village toward farms, pastu
 
 ## Explore local history and community programs
 
-For time indoors, Zionsville has a few cultural and community spaces to explore.
+Zionsville has a few historic, cultural, and community spaces to explore.
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/articles/zionsville-maplelawn-farmstead.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-maplelawn-farmstead.webp" alt="Orange daylilies blooming in front of historic white wooden barns at Maplelawn Farmstead in Zionsville, Indiana under a dusk sky." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Orange daylilies in bloom frame the historic white barns at Maplelawn Farmstead during dusk in Zionsville.
+  </figcaption>
+</figure>
+
+**[Maplelawn Farmstead](https://maplelawnfarmstead.org/)** is a preserved historic farm and museum on Whitestown Road, within Mulberry Fields Park. The original farmhouse was built around 1860, and the site remained a working Scott family farm from 1900 through 2000. Listed on the National Register of Historic Places in 2011, Maplelawn now preserves 1930s Depression-era Indiana farm life through farmhouse and barn tours, educational programs, and community events such as outdoor movie nights in September and Fright Nights in late October.
 
 The **[SullivanMunce Cultural Center](https://www.sullivanmunce.org/)** is a local history and culture destination with art, genealogy resources, and the Zionsville Welcome Center. Admission is free. It’s close to the Village, but it has a quieter feel than the Main Street shopping area.
 
 The **[Hussey-Mayfield Memorial Public Library](https://www.hmmpl.org/)** is also worth checking before a weekend in town. Its calendar often includes story times, workshops, author events, family programs, and seasonal activities. Library events can be an enjoyable option for families, rainy days, or low-key time indoors.
 
+<div class="clear-both"></div>
+
 ## Sports and outdoor recreation
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/articles/zionsville-things-to-do-d-bat.jpg" alt="Indoor batting cages at D-BAT Zionsville." class="rounded-lg shadow-sm" />
+  <a href="/images/articles/zionsville-things-to-do-d-bat.jpg" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-things-to-do-d-bat.jpg" alt="Indoor batting cages at D-BAT Zionsville." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     D-BAT Zionsville offers indoor batting cages and baseball/softball training space, making it a weather-friendly place for kids, teens, and athletes.
   </figcaption>
@@ -165,16 +199,16 @@ Beyond the trail, Zionsville has places for golf, baseball and softball practice
 
 **[Overley-Worman Park](https://www.zionsville-in.gov/712/Overley-Worman-Park)** has a disc golf course, mountain bike trails, a fishing pier, a playground, and picnic shelters along Eagle Creek. A pedestrian bridge connects the park directly to the Big-4 Rail Trail.
 
-## Browse vintage finds and local shops
+<div class="clear-both"></div>
 
-**[Brown’s Antiques and Lampshades](https://www.brownsantiquesandlampshades.com/)** has been part of Zionsville since 1945. Known for its large lampshade collection, it carries vintage items, home décor, and one-of-a-kind finds.
+## Annual Events in Zionsville
 
-## Catch a seasonal event
+Zionsville’s annual calendar includes events throughout the year. The [Zionsville Farmers Market](/events/farmers-market) runs on Saturday mornings from May through September on Main Street, while the [Brick Street Market](/events/brick-street-market) brings an artisan and craft market downtown each spring.
 
-Many of the best times to visit line up with Zionsville's recurring seasonal events. The [Zionsville Farmers Market](/events/farmers-market) runs every Saturday morning from May through September on Main Street. The [Brick Street Market](/events/brick-street-market) is a one-day annual artisan and craft market each spring. The [Zionsville Fall Festival](/events/fall-festival) brings community activities to Lions Park each fall, and [Christmas in the Village](/events/christmas-in-the-village-parade-and-tree-lighting) fills Main Street with holiday events each December. Check the [events calendar](/events) for exact dates each year.
+In the fall, the [Zionsville Fall Festival](/events/fall-festival) takes place at Lions Park, followed later in the year by [Christmas in the Village](/events/christmas-in-the-village-parade-and-tree-lighting) and its holiday activities along Main Street.
 
-## Explore beyond Zionsville
+For current dates and additional events, check the [Zionsville events calendar](/events).
+
+## Looking for a longer outing?
 
 For summer destinations within a two-hour drive, see our guide to [summer day trips from Zionsville](/articles/summer-day-trips-from-zionsville).
-
-Deciding when to visit? [Check the events calendar](/events) for what's happening that week.

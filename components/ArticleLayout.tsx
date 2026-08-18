@@ -14,9 +14,15 @@ interface ArticleLayoutProps {
   /** Optional content rendered inside the main content area, AFTER the article body
    *  and BEFORE the lastUpdated/CTAs section. Use for interactive components like calendars. */
   children?: React.ReactNode
+  /** Optional marker string in contentHtml. When present AND children are supplied,
+   *  splits the body at this marker and renders `children` between the two halves.
+   *  If marker is absent from contentHtml, children fall back to end-of-body position.
+   *  Marker should be a distinctive HTML snippet (e.g. `<div data-inject="events"></div>`)
+   *  that survives the markdown pipeline unchanged. */
+  injectAt?: string
 }
 
-export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', children }: ArticleLayoutProps) {
+export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', children, injectAt }: ArticleLayoutProps) {
   const fullPath = `${pathPrefix}/${meta.slug}`
 
   const articleSchema = {
@@ -162,13 +168,29 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
             </>
           )}
 
-          <div
-            className={meta.print_hide_body ? "prose-village print:hidden" : "prose-village"}
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
-
-          {/* Optional children (e.g. interactive components like the ZCS calendar) */}
-          {children}
+          {/* Article body. If `injectAt` marker is present in the HTML, split the body
+              at the marker and render `children` between the two halves. Otherwise render
+              body then children below (original behavior). */}
+          {(() => {
+            const proseClass = meta.print_hide_body ? 'prose-village print:hidden' : 'prose-village'
+            if (injectAt && children && contentHtml.includes(injectAt)) {
+              const [before, ...rest] = contentHtml.split(injectAt)
+              const after = rest.join(injectAt)
+              return (
+                <>
+                  <div className={proseClass} dangerouslySetInnerHTML={{ __html: before }} />
+                  {children}
+                  <div className={proseClass} dangerouslySetInnerHTML={{ __html: after }} />
+                </>
+              )
+            }
+            return (
+              <>
+                <div className={proseClass} dangerouslySetInnerHTML={{ __html: contentHtml }} />
+                {children}
+              </>
+            )
+          })()}
 
           {meta.lastUpdated && (
             <p className="text-sm text-stone-500 mt-10 print:hidden">
