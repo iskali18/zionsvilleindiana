@@ -21,7 +21,7 @@ faqs:
     a: "Yes. Outside the Village, you can explore the Big-4 Rail Trail, visit Mulberry Fields Park, Lions Park, or Creekside Nature Park, tour Traders Point Creamery or WonderTree Farm, or find restaurant options along Michigan Road, US-421, and the Boone Village area."
   - q: "Is Zionsville a good day-trip destination?"
     a: "Zionsville makes an easy day trip from Indianapolis and surrounding communities. The walkable downtown, paved Rail Trail, parks, farms, and seasonal events offer enough to fill a half-day or full-day visit."
-  - q: "What's happening in Zionsville this weekend?"
+  - q: "What’s happening in Zionsville this weekend?"
     a: "The events calendar section near the top of this page shows upcoming events from the Zionsville community calendar. Weekend options typically include the Zionsville Farmers Market on Saturday mornings (May through September), seasonal downtown events, or major annual festivals like the Fall Festival and Christmas in the Village."
   - q: "What outdoor activities are available in Zionsville?"
     a: "Zionsville has the paved Big-4 Rail Trail for walking and biking, several parks including Lions Park, Creekside Nature Park, Zion Nature Sanctuary, and Mulberry Fields Park, plus disc golf and mountain biking at Overley-Worman Park, and the Zionsville Golf Course."
@@ -97,7 +97,7 @@ For time outdoors, start with the Big-4 Rail Trail, then add one of Zionsville�
 
 The **[Big-4 Rail Trail](/articles/big-4-rail-trail)** (also known as the Zionsville Rail Trail) is a paved trail that runs through Zionsville and connects to nearby Boone County communities. It is used for walking, biking, jogging, and stroller walks. For a longer outing, start with a walk or bike ride on the trail, then head to coffee, lunch, Main Street, or one of the nearby parks.
 
-**[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park)** is one of Zionsville's largest parks, with more than 70 wooded acres along Eagle Creek about a quarter mile southwest of the Village. Its trails are rugged and better suited to hiking than a casual walk, and the park connects to the Big-4 Rail Trail.
+**[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park)** is one of Zionsville’s largest parks, with more than 70 wooded acres along Eagle Creek about a quarter mile southwest of the Village. Its trails are rugged and better suited to hiking than a casual walk, and the park connects to the Big-4 Rail Trail.
 
 The **[Zionsville Nature Center](https://www.zionsville-in.gov/270/Zionsville-Nature-Center)** is designed for families, nature lovers, and anyone interested in local wildlife and habitats. It offers nature exhibits, educational programming, and a closer look at Zionsville’s parks and natural areas.
 
@@ -170,7 +170,7 @@ Zionsville has a few historic, cultural, and community spaces to explore.
   </figcaption>
 </figure>
 
-**[Maplelawn Farmstead](https://maplelawnfarmstead.org/)** is a preserved historic farm and museum on Whitestown Road, within Mulberry Fields Park. The original farmhouse was built around 1860, and the site remained a working Scott family farm from 1900 through 2000. Listed on the National Register of Historic Places in 2011, Maplelawn now preserves 1930s Depression-era Indiana farm life through farmhouse and barn tours, educational programs, and community events such as outdoor movie nights in September and Fright Nights in late October.
+**[Maplelawn Farmstead](https://maplelawnfarmstead.org/)** is a preserved historic farm and museum on Whitestown Road, next to Mulberry Fields Park. The original farmhouse was built around 1860, and the site remained a working Scott family farm from 1900 through 2000. Listed on the National Register of Historic Places in 2011, Maplelawn now preserves 1930s Depression-era Indiana farm life through farmhouse and barn tours, educational programs, and community events like Barns and Brews and outdoor movie nights.
 
 The **[SullivanMunce Cultural Center](https://www.sullivanmunce.org/)** is a local history and culture destination with art, genealogy resources, and the Zionsville Welcome Center. Admission is free. It’s close to the Village, but it has a quieter feel than the Main Street shopping area.
 
