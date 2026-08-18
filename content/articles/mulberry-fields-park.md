@@ -91,7 +91,7 @@ The main entrance leads into a large parking lot within a short walk of the play
 <figure>
   <img src="/images/parks/zionsville-mulberry-fields-park-concession-stand-shelter-a.webp" alt="A wide view across a marked pedestrian crosswalk at Mulberry Fields Park in Zionsville, showing the brick concession stand and restroom building on the left and the open-air wooden picnic pavilion of Shelter A on the right." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Shelter A and the concession/restroom building are located near the main park entrance, with a marked crosswalk between the two areas.
+    Shelter A and the concession/restroom building are located near the main park entrance.
     <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
