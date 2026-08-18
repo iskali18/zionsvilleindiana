@@ -1,9 +1,12 @@
 ---
 title: Zionsville Half-Marathon & 5K
+alternateName: ["Zionsville Half Marathon", "Zionsville Half Marathon 5K"]
 seoTitle: "Zionsville Half-Marathon & 5K 2026: November 21, Race Info & Parking"
 description: The 10th annual Zionsville Half-Marathon & 5K, presented by OrthoIndy, returns to downtown Zionsville on Saturday, November 21, 2026, with both races starting and finishing at Lions Park.
 eventType: annual
 startDate: "2026-11-21"
+startDateTime: "2026-11-21T08:00:00-05:00"
+endDateTime: "2026-11-21T11:00:00-05:00"
 location: Lions Park, Zionsville
 address: "115 S. Elm Street, Zionsville, IN 46077"
 image: /images/events/zionsville-half-marathon.webp

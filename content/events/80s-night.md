@@ -1,9 +1,11 @@
 ---
 title: 80s Night
+alternateName: ["80's Night"]
 seoTitle: "80s Night in Downtown Zionsville 2026"
 description: 80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville, with themed activities at Main Street shops and restaurants and visitors encouraged to dress for the decade.
 eventType: annual
 startDate: "2026-09-17"
+startDateTime: "2026-09-17T17:00:00-04:00"
 location: Main Street, Downtown Zionsville
 address: "340 S Main St, Zionsville, IN 46077"
 image: /images/events/zionsville-80s-night-main-street.webp

@@ -1,10 +1,13 @@
 ---
 title: Sip, Stroll & Shop
+alternateName: ["Sip, Stroll and Shop", "Sip & Stroll", "Sip and Shop"]
 seoTitle: "Sip, Stroll & Shop 2026 — Zionsville, Indiana"
 description: An evening shopping event in downtown Zionsville, with shop specials, treats, and seasonal activities on three dates in 2026.
 eventType: dated
 startDate: "2026-09-10"
 endDate: "2026-09-10"
+startDateTime: "2026-09-10T16:00:00-04:00"
+endDateTime: "2026-09-10T20:00:00-04:00"
 location: Main Street, Downtown Zionsville
 address: "Main Street, Zionsville, IN 46077"
 image: /images/events/zionsville-sip-stroll-and-shop.webp
