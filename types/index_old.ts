@@ -54,14 +54,6 @@ export interface EventMeta {
   startDateTime?: string
   /** Full ISO datetime with timezone. When set, used in Event schema in place of endDate. */
   endDateTime?: string
-  /** ISO date (YYYY-MM-DD) — last time this page's details were verified.
-   *  Emitted as dateModified when schemaType is "WebPage". */
-  lastUpdated?: string
-  /** Overrides the JSON-LD @type for this page. Use "WebPage" for season hubs
-   *  that list several separate events rather than being one event themselves,
-   *  so they don't compete with the individual event pages for the same
-   *  rich result. Defaults to Event / EventSeries based on eventType. */
-  schemaType?: 'WebPage'
   /** Short schema.org enum name (e.g. "EventScheduled", "EventCancelled", "EventPostponed").
    *  Defaults to "EventScheduled" in schema when omitted. */
   eventStatus?: string

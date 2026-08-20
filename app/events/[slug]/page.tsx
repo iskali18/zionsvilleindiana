@@ -43,6 +43,28 @@ function schemaUrl(value: string): string {
 }
 
 function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
+  // Season hubs (e.g. Christmas in Zionsville) list several separate events
+  // rather than being a single event. Emitting one Event for the whole season
+  // would be inaccurate and would compete with the individual event pages,
+  // so those pages opt out via `schemaType: WebPage` in frontmatter.
+  if (meta.schemaType === 'WebPage') {
+    return {
+      '@context': 'https://schema.org',
+      '@type': 'WebPage',
+      name: meta.title,
+      ...(meta.alternateName && { alternateName: meta.alternateName }),
+      description: meta.description,
+      url: `https://zionsvilleindiana.com/events/${meta.slug}`,
+      // dateModified is a CreativeWork property — valid on WebPage, not on Event.
+      ...(meta.lastUpdated && { dateModified: meta.lastUpdated }),
+      publisher: {
+        '@type': 'Organization',
+        name: 'Zionsville Indiana',
+        url: 'https://zionsvilleindiana.com',
+      },
+    }
+  }
+
   const schema: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': meta.eventType === 'recurring' ? 'EventSeries' : 'Event',
