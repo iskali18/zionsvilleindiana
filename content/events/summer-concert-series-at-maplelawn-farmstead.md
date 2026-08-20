@@ -1,19 +1,19 @@
 ---
 title: Summer Concert Series at Maplelawn Farmstead
 seoTitle: "Summer Concert Series at Maplelawn Farmstead 2026 — Zionsville, Indiana"
-description: Free outdoor concerts at the historic Maplelawn Farmstead on the final two Wednesdays of August, wrapping up the Zionsville Cultural District's 2026 summer concert season.
+description: Free outdoor concerts at the historic Maplelawn Farmstead wrapping up the Zionsville Cultural District's 2026 summer concert season.
 eventType: recurring
-startDate: "2026-08-19"
-endDate: "2026-08-26"
-startDateTime: "2026-08-19T19:00:00-04:00"
-endDateTime: "2026-08-26T20:30:00-04:00"
-recurrenceLabel: "Wednesdays, August 19 & 26, 2026"
+startDate: "2026-08-26"
+endDate: "2026-09-09"
+startDateTime: "2026-08-26T19:00:00-04:00"
+endDateTime: "2026-09-09T20:30:00-04:00"
+recurrenceLabel: "Wednesdays, August 26 & September 9, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: wednesday
-  startSeason: "2026-08-19"
-  endSeason: "2026-08-26"
-inSeasonMessage: "The 2026 Summer Concert Series wraps up at Maplelawn Farmstead on August 19 and 26 at 7:00 p.m."
+  startSeason: "2026-08-26"
+  endSeason: "2026-09-09"
+inSeasonMessage: "The 2026 Summer Concert Series wraps up at Maplelawn Farmstead on August 26 and September 9 at 7:00 p.m."
 location: Maplelawn Farmstead, Zionsville
 address:  9575 Whitestown Rd, Zionsville, IN 46077
 image: /images/events/maplelawn-farmstead.jpg
@@ -25,10 +25,10 @@ perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]
 metaTitle: "Summer Concert Series at Maplelawn Farmstead: 2026 Schedule | Zionsville"
-metaDescription: "2026 Free Summer Concert Series - Wednesdays, August 19 & 26, 7PM at Maplelawn Farmstead — bluegrass and a local-talent showcase."
+metaDescription: "2026 Free Summer Concert Series - Wednesdays, August 26 & September 9, 7PM at Maplelawn Farmstead — bluegrass and a local-talent showcase."
 faqs:
   - q: When are the Maplelawn Farmstead concerts in 2026?
-    a: The 2026 concerts at Maplelawn Farmstead are on August 19 and August 26, starting at 7:00 PM.
+    a: The 2026 concerts at Maplelawn Farmstead are on August 26 and September 9, starting at 7:00 PM. The August 19 concert was canceled for weather and rescheduled to September 9.
   - q: Why is the concert series at Maplelawn Farmstead instead of Lincoln Park?
     a: Lincoln Park is undergoing reconstruction in 2026, so the final two concerts of the season have moved to the historic Maplelawn Farmstead.
   - q: Is admission free?
@@ -36,6 +36,12 @@ faqs:
   - q: Where is Maplelawn Farmstead in Zionsville?
     a: Maplelawn Farmstead is a historic property in Zionsville, Indiana. Check the Zionsville Cultural District website for specific directions and parking details.
 ---
+
+<div className="my-6 p-5 bg-amber-50 border-l-4 border-amber-400 rounded-r-lg">
+
+**Update:** The August 19 concert with The Punkin Holler Boys was canceled due to forecasted weather. It has been rescheduled for Wednesday, September 9 at 7:00 PM at Maplelawn Farmstead.
+
+</div>
 
 The Zionsville Cultural District Summer Concert Series moves to Maplelawn Farmstead in August, bringing a change of setting to the weekly Wednesday evening performances. Concerts are held outdoors on the grounds, with the historic farmstead as the setting. Each week features a different regional act across a mix of genres, with performances typically running from 7:00 PM to 8:30 PM. 
 
@@ -45,12 +51,12 @@ Concerts are usually held at Lincoln Park in August, but in 2026 the series is h
 
 | Date | Artist | Genre |
 |------|--------|--------|
-| August 19 | The Punkin Holler Boys | Bluegrass |
 | August 26 | School of Rock Zionsville — Zionsville's Got Talent | Local Showcase |
+| September 9 | The Punkin Holler Boys | Bluegrass |
 
 ## Plan your visit
 
-**When:** August 19 and 26, 2026  
+**When:** August 26 and September 9, 2026  
 **Concerts:** 7:00 – 8:30 PM  
 **Admission:** Free  
 **Parking:** Park at Mulberry Fields (9645 Whitestown Rd, Zionsville, IN 46077), then follow the paved path to Maplelawn Farmstead.
