@@ -13,7 +13,7 @@ address: "Main Street, Zionsville, IN 46077"
 externalUrl: https://www.zionsvillechamber.org/christmas-in-the-village/
 image: /images/events/brick-street-hotel-christmas-lights.webp
 imageAlt: "Exterior of the Brick Street Inn at night in Zionsville, Indiana, decorated with holiday string lights, Christmas wreaths, and snow-covered outdoor patio seating."
-hero_position: "center 65%"
+hero_position: "center 70%"
 photoCredit: 
 photoCreditHeroOnly: false
 featured: true
@@ -42,7 +42,7 @@ Christmas in Zionsville begins Thanksgiving weekend and continues through Christ
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-## Good to Know Before You Go
+## Quick Facts
 
 - **The 2026 dates are confirmed.** Details on hours, ticket prices, and participating businesses will be added closer to the event.
 - **The parade runs from 5:00–6:30 p.m. on Saturday, November 28.** Main Street closes for the parade, so allow extra time for parking and walking.

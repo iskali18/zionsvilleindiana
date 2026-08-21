@@ -61,7 +61,7 @@ Organized by the Zionsville Athletic Booster Club, Eagle Fest also serves as a f
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-## Good to Know Before You Go
+## Quick Facts
 
 - **Presale ends Thursday, August 27.** Tickets are $9 in person or $9.90 online; admission is $10 at the gate (cash or credit card).
 - **Unlimited bounce house access** is included with admission.

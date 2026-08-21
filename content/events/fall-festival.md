@@ -59,7 +59,7 @@ The 73rd annual festival takes place September 11–13, 2026, with the theme “
 
 <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-## Good to Know Before You Go
+## Quick Facts
 
 - **Bring cash.** Carnival games are paid in cash at each booth, most vendors take cash only, and paid parking is $8 cash.
 - **VIP Carnival starts Friday at 5:00 PM.** This free event is for families with children with special needs; RSVP is encouraged.

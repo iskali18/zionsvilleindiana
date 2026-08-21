@@ -39,8 +39,7 @@ faqs:
 
 <div className="my-6 p-5 bg-amber-50 border-l-4 border-amber-400 rounded-r-lg">
 
-**Update:** The August 19 concert with The Punkin Holler Boys was canceled due to forecasted weather. It has been rescheduled for Wednesday, September 9 at 7:00 PM at Maplelawn Farmstead.
-
+**Update:** The August 19 concert featuring The Punkin Holler Boys was postponed due to forecasted weather. It will now take place Wednesday, September 9, at 7:00 p.m. at Maplelawn Farmstead.
 </div>
 
 The Zionsville Cultural District Summer Concert Series moves to Maplelawn Farmstead in August, bringing a change of setting to the weekly Wednesday evening performances. Concerts are held outdoors on the grounds, with the historic farmstead as the setting. Each week features a different regional act across a mix of genres, with performances typically running from 7:00 PM to 8:30 PM. 
