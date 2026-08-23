@@ -21,7 +21,7 @@ addressLocality: Zionsville
 postalCode: "46077"
 externalUrl: https://maplelawnfarmstead.org/events2/
 image: /images/events/movies-at-maplelawn.webp
-imageAlt: "..."
+imageAlt: "Orange daylilies blooming in the foreground with two historic white wooden barns behind them under a dusk sky at Maplelawn Farmstead in Zionsville, Indiana."
 hero_position: "center 50%"
 featured: true
 tags: [community, fall, outdoor, movies, family, farmstead, history]
