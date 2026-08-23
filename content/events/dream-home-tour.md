@@ -52,6 +52,15 @@ faqs:
 
 The **Indianapolis Monthly Dream Home Tour** gives visitors a chance to step inside a newly built custom residence in Zionsville and explore the latest ideas in home design, architecture, interiors, and landscaping.
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-64 mb-4">
+  <a href="/images/events/dream-home-graphic.jpg" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/dream-home-graphic.jpg" alt="Promotional flyer for the Indianapolis Monthly Dream Home Fall 2026 event at Holliday Farms in Zionsville, Indiana, featuring an illuminated modern luxury home at dusk." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Promotional graphic for the 2026 Indianapolis Monthly Dream Home event in the Holliday Farms community in Zionsville, Indiana.
+  </figcaption>
+</figure>
+
 The 2026 Dream Home, called The Reverie, is a three-story residence of roughly 11,000 square feet in the Holliday Farms community, overlooking the seventh fairway of the Club at Holliday Farms championship golf course. It was designed by Goldberg Design Group and built by Scott Bates Custom Homes, with interior design by Dare 2 Design and landscaping by PJE Lawn Care. Indianapolis Monthly expects more than 4,000 people from around Central Indiana to attend the tour over its three August weekends.
 
 It is also the first Dream Home in the series offered for sale since the 1990s.
