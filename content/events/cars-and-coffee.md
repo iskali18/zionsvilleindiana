@@ -20,7 +20,7 @@ address: "10850 Creek Way"
 addressLocality: Zionsville
 postalCode: "46077"
 externalUrl: https://www.grahamrahalperformance.com/events-calendar-cars-dealership--xlistevents
-image: /images/events/cars.jpg
+image: /images/events/cars-and-coffee.webp
 imageAlt: "Cars from different eras displayed outside Graham Rahal Performance during Cars & Coffee in Zionsville."
 hero_position: "center 35%"
 featured: true
