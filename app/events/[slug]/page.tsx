@@ -42,7 +42,52 @@ function schemaUrl(value: string): string {
   return value.startsWith('http') ? value : `https://schema.org/${value}`
 }
 
-function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
+/** For an event with an `occurrences` list, returns the first listed date
+ *  (YYYY-MM-DD) on or after today, or null once they have all passed. */
+function nextOccurrence(occurrences: Array<string | Date>): string | null {
+  const toIso = (v: string | Date): string =>
+    v instanceof Date
+      ? `${v.getFullYear()}-${String(v.getMonth() + 1).padStart(2, '0')}-${String(v.getDate()).padStart(2, '0')}`
+      : v
+
+  const now = new Date()
+  const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+
+  return (
+    occurrences
+      .map(toIso)
+      .sort()
+      .find((d) => new Date(d + 'T23:59:59') >= midnight) ?? null
+  )
+}
+
+/** getEvent() returns raw frontmatter, so an event with an `occurrences` list
+ *  still carries the first date of the season in startDate/startDateTime. Roll
+ *  those forward to the next upcoming date, keeping the time of day, so the
+ *  schema never advertises a date that has already passed. Leaves endDate alone
+ *  — that marks the end of the season and drives EventEndedBanner. */
+function resolveOccurrenceDates(
+  meta: Awaited<ReturnType<typeof getEvent>>['meta']
+): Awaited<ReturnType<typeof getEvent>>['meta'] {
+  if (!meta.occurrences?.length) return meta
+
+  const next = nextOccurrence(meta.occurrences)
+  if (!next) return meta
+
+  // "2026-08-29T09:00:00-04:00" -> "2026-09-26T09:00:00-04:00"
+  const withDate = (dt?: string) => (dt ? next + dt.slice(10) : dt)
+
+  return {
+    ...meta,
+    startDate: next,
+    startDateTime: withDate(meta.startDateTime),
+    endDateTime: withDate(meta.endDateTime),
+  }
+}
+
+function buildEventSchema(rawMeta: Awaited<ReturnType<typeof getEvent>>['meta']) {
+  const meta = resolveOccurrenceDates(rawMeta)
+
   // Season hubs (e.g. Christmas in Zionsville) list several separate events
   // rather than being a single event. Emitting one Event for the whole season
   // would be inaccurate and would compete with the individual event pages,
@@ -85,9 +130,9 @@ function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
       address: {
         '@type': 'PostalAddress',
         streetAddress: meta.address,
-        addressLocality: 'Zionsville',
+        addressLocality: meta.addressLocality ?? 'Zionsville',
         addressRegion: 'IN',
-        postalCode: '46077',
+        postalCode: meta.postalCode ?? '46077',
         addressCountry: 'US',
       },
     },
@@ -109,7 +154,12 @@ function buildEventSchema(meta: Awaited<ReturnType<typeof getEvent>>['meta']) {
       price: meta.offer.price,
       priceCurrency: meta.offer.priceCurrency,
       url: meta.offer.url,
-      availability: schemaUrl(meta.offer.availability ?? 'InStock'),
+      // Only emit availability when the frontmatter states it. Defaulting to
+      // InStock would tell Google a ticket is purchasable on pages where the
+      // field was simply left off.
+      ...(meta.offer.availability && {
+        availability: schemaUrl(meta.offer.availability),
+      }),
     }
   }
 
