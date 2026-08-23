@@ -7,7 +7,7 @@ startDate: "2026-08-26"
 endDate: "2026-09-09"
 startDateTime: "2026-08-26T19:00:00-04:00"
 endDateTime: "2026-09-09T20:30:00-04:00"
-recurrenceLabel: "Wednesdays, August 26 & September 9, 2026"
+recurrenceLabel: "Wednesdays, Aug 26 & Sep 9, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: wednesday

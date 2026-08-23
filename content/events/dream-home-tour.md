@@ -6,7 +6,7 @@ description: "A ticketed public tour of a newly built custom residence in Hollid
 eventType: recurring
 startDate: "2026-08-14"
 endDate: "2026-08-30"
-recurrenceLabel: "Fridays–Sundays, August 14–30, 2026"
+recurrenceLabel: "Fridays–Sundays, Aug 14–30, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: sunday
