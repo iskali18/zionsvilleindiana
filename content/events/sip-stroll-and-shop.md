@@ -3,9 +3,14 @@ title: Sip, Stroll & Shop
 alternateName: ["Sip, Stroll and Shop", "Sip & Stroll", "Sip and Shop"]
 seoTitle: "Sip, Stroll & Shop 2026 — Zionsville, Indiana"
 description: An evening shopping event in downtown Zionsville, with shop specials, treats, and seasonal activities on three dates in 2026.
-eventType: dated
-startDate: "2026-09-10"
+eventType: recurring
+startDate: "2026-04-09"
 endDate: "2026-09-10"
+occurrences:
+  - "2026-04-09"
+  - "2026-06-11"
+  - "2026-09-10"
+recurrenceLabel: "Thursdays, April 9, June 11 & September 10, 2026"
 startDateTime: "2026-09-10T16:00:00-04:00"
 endDateTime: "2026-09-10T20:00:00-04:00"
 location: Main Street, Downtown Zionsville
@@ -24,7 +29,7 @@ faqs:
   - q: "When is Sip, Stroll & Shop in Zionsville?"
     a: "It takes place on three evenings in 2026: April 9, June 11, and September 10. Each event runs from 4:00 to 8:00 PM."
   - q: "Where is Sip, Stroll & Shop held?"
-    a: "In downtown Zionsville's Village, with shops along Main Street and the nearby blocks taking part."
+    a: "In downtown Zionsville’s Village, with shops along Main Street and the nearby blocks taking part."
   - q: "What happens at Sip, Stroll & Shop?"
     a: "Shops stay open late and offer treats, specials, and seasonal items. Visitors walk at their own pace, stopping in wherever looks interesting."
   - q: "Is Sip, Stroll & Shop free?"
