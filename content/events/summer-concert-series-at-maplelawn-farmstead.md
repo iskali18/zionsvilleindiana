@@ -16,7 +16,7 @@ recurrence:
 inSeasonMessage: "The 2026 Summer Concert Series wraps up at Maplelawn Farmstead on August 26 and September 9 at 7:00 p.m."
 location: Maplelawn Farmstead, Zionsville
 address:  9575 Whitestown Rd, Zionsville, IN 46077
-image: /images/events/maplelawn-farmstead.jpg
+image: /images/events/maplelawn-farmstead.webp
 imageAlt: Maplelawn Farmstead in Zionsville, Indiana at sunset
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: true
