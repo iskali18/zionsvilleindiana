@@ -39,6 +39,12 @@ export interface EventMeta {
   mapEmbedUrl?: string
   /** Optional title for the embedded map (used for iframe accessibility) */
   mapTitle?: string
+  /** Explicit list of dates this event happens (YYYY-MM-DD). Use for patterns
+   *  the weekly `recurrence` field can't express — monthly, a few scattered
+   *  dates, or a run across several weekdays. When set, getAllEvents() resolves
+   *  startDate to the next date on or after today, and drops the event once
+   *  every listed date has passed. Takes precedence over `recurrence`. */
+  occurrences?: string[]
   /** Optional weekly recurrence definition. When set, getAllEvents() resolves
    *  startDate to the next upcoming occurrence within the season window. */
   recurrence?: {
@@ -57,6 +63,12 @@ export interface EventMeta {
   /** ISO date (YYYY-MM-DD) — last time this page's details were verified.
    *  Emitted as dateModified when schemaType is "WebPage". */
   lastUpdated?: string
+  /** City for the venue in Event schema. Defaults to "Zionsville".
+   *  Set this for events held outside town (e.g. "Lebanon"). */
+  addressLocality?: string
+  /** ZIP for the venue in Event schema. Defaults to "46077".
+   *  Set this alongside addressLocality for out-of-town venues. */
+  postalCode?: string
   /** Overrides the JSON-LD @type for this page. Use "WebPage" for season hubs
    *  that list several separate events rather than being one event themselves,
    *  so they don't compete with the individual event pages for the same

@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import { getFeaturedEvents } from '@/lib/content'
+import { getFeaturedEvents, formatOccurrenceList } from '@/lib/content'
 
 export const metadata: Metadata = {
   title: 'Zionsville Indiana — Events, Downtown & Community Guide',
@@ -261,10 +261,13 @@ export default function HomePage() {
                   )}
                 </div>
                 <div className="p-4">
-                  <p className="text-xs text-brick-600 font-medium mb-1">
+                  <p className="text-xs text-brick-600 font-medium mb-1 line-clamp-2">
                     {event.perennial
                       ? event.perennialLabel
-                      : event.recurrenceLabel ?? (
+                      : (event.occurrences?.length
+                          ? formatOccurrenceList(event.occurrences)
+                          : null) ??
+                        event.recurrenceLabel ?? (
                           event.endDate && event.endDate !== event.startDate
                             ? `${new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })} – ${new Date(event.endDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`
                             : new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })

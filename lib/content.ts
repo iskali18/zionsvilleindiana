@@ -103,17 +103,83 @@ function nextWeeklyOccurrence(
 }
 
 /**
- * If event has a `recurrence` field, returns the event with `startDate`
- * overwritten by the next upcoming occurrence. Otherwise returns the event unchanged.
- * If recurrence has ended for the season, returns null (caller filters out).
+ * For an event with an explicit `occurrences` list, returns the first listed
+ * date (YYYY-MM-DD) on or after today. Returns null once every date has passed.
+ * Handles monthly, scattered, and multi-weekday patterns that the weekly
+ * `recurrence` field can't express.
+ */
+function nextListedOccurrence(occurrences: Array<string | Date>, today: Date): string | null {
+  // YAML may parse unquoted YYYY-MM-DD as Date objects. Coerce to YYYY-MM-DD string.
+  const toIso = (v: string | Date): string =>
+    v instanceof Date
+      ? `${v.getFullYear()}-${String(v.getMonth() + 1).padStart(2, '0')}-${String(v.getDate()).padStart(2, '0')}`
+      : v
+
+  const upcoming = occurrences
+    .map(toIso)
+    .sort()
+    .filter((d) => new Date(d + 'T23:59:59') >= today)
+
+  return upcoming[0] ?? null
+}
+
+/**
+ * If event has an `occurrences` list or a `recurrence` field, returns the event
+ * with `startDate` overwritten by the next upcoming date. Otherwise returns the
+ * event unchanged. If every date has passed, returns null (caller filters out).
+ * `occurrences` takes precedence over `recurrence`.
  */
 function applyRecurrence(event: EventMeta, today: Date): EventMeta | null {
+  if (event.occurrences?.length) {
+    const nextDate = nextListedOccurrence(event.occurrences, today)
+    if (!nextDate) return null
+
+    return { ...event, startDate: nextDate }
+  }
+
   if (!event.recurrence) return event
 
   const nextDate = nextWeeklyOccurrence(event.recurrence, today)
   if (!nextDate) return null
 
   return { ...event, startDate: nextDate }
+}
+
+/**
+ * Card-friendly summary of an `occurrences` list: the next few upcoming dates,
+ * short month names, ellipsis when more remain. Past dates drop off on their own.
+ *   4+ upcoming -> "Sat, Mar 28, Apr 25, May 23…"
+ *   1-3 upcoming -> "Sat, Sep 26, Oct 24, 2026"
+ * Returns null when every listed date has passed, so callers can fall back.
+ */
+export function formatOccurrenceList(
+  occurrences: Array<string | Date>,
+  today: Date = new Date(),
+  max = 3
+): string | null {
+  const toIso = (v: string | Date): string =>
+    v instanceof Date
+      ? `${v.getFullYear()}-${String(v.getMonth() + 1).padStart(2, '0')}-${String(v.getDate()).padStart(2, '0')}`
+      : v
+
+  const midnight = new Date(today.getFullYear(), today.getMonth(), today.getDate())
+  const upcoming = occurrences
+    .map(toIso)
+    .sort()
+    .filter((d) => new Date(d + 'T23:59:59') >= midnight)
+
+  if (upcoming.length === 0) return null
+
+  const at = (d: string) => new Date(d + 'T00:00:00Z')
+  const weekday = at(upcoming[0]).toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' })
+  const shown = upcoming
+    .slice(0, max)
+    .map((d) => at(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }))
+
+  if (upcoming.length > max) return `${weekday}, ${shown.join(', ')}…`
+
+  const year = at(upcoming[upcoming.length - 1]).getUTCFullYear()
+  return `${weekday}, ${shown.join(', ')}, ${year}`
 }
 
 // ─── Events ──────────────────────────────────────────────────────────────────

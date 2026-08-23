@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import { getFeaturedEvents, getAllEvents } from '@/lib/content'
+import { getFeaturedEvents, getAllEvents, formatOccurrenceList } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
 
 export const metadata: Metadata = {
@@ -46,7 +46,7 @@ function matchEventToSlug(eventTitle: string, slugs: string[]): string | undefin
 }
 
 export default async function EventsPage() {
-  const featuredEvents = getFeaturedEvents(18)
+  const featuredEvents = getFeaturedEvents(30)
   const allEvents = getAllEvents()
   const calendarEvents = await getUpcomingEvents(24)
   const allSlugs = allEvents.map((e) => e.slug)
@@ -130,8 +130,11 @@ export default async function EventsPage() {
                     )}
                   </div>
                   <div className="p-4">
-                    <p className="text-xs text-brick-600 font-medium mb-1">
-                      {event.recurrenceLabel ?? (
+                    <p className="text-xs text-brick-600 font-medium mb-1 line-clamp-2">
+                      {(event.occurrences?.length
+                        ? formatOccurrenceList(event.occurrences)
+                        : null) ??
+                        event.recurrenceLabel ?? (
                         event.endDate && event.endDate !== event.startDate
                           ? `${new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })} – ${new Date(event.endDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}`
                           : new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })
