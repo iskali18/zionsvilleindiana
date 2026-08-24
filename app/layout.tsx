@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import type { ReactNode } from 'react'
-import { Lora, Plus_Jakarta_Sans, JetBrains_Mono } from 'next/font/google'
+import { Lora, Plus_Jakarta_Sans, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
 
 const display = Lora({
@@ -16,9 +16,9 @@ const sans = Plus_Jakarta_Sans({
   display: 'swap',
 })
 
-const mono = JetBrains_Mono({
+const mono = IBM_Plex_Mono({
   subsets: ['latin'],
-  weight: ['500', '600'],
+  weight: ['400', '500', '600'],
   variable: '--font-mono',
   display: 'swap',
 })
