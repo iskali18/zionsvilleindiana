@@ -71,7 +71,7 @@ The 2026 event is Saturday, October 24, from 9:00 AM to 12:00 PM, with timed ent
 | **Organizer** | Zionsville Parks and Recreation |
 
 <figure>
-  <img src="/images/events/trick-or-trees-pumpkins-fall-leaves.webp" alt="Pumpkins and pinecones nestled among colorful autumn leaves." class="rounded-lg shadow-sm cursor-zoom-in" />
+  <img src="/images/events/trick-or-trees-pumpkins-fall-leaves.webp" alt="Pumpkins and pinecones nestled among colorful autumn leaves." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
     The Pumpkin Path features seasonal pumpkin displays set up along the park trails.
   </figcaption>
@@ -89,7 +89,7 @@ The activities are spread throughout Elm Street Green, combining the wooded trai
 - **Science experiments:** Interactive science activities among the children’s activity stations.
 
 <figure>
-  <img src="/images/events/trick-or-trees-roasting-marshmallows.webp" alt="Marshmallows roasting on wooden sticks over an open campfire flame." class="rounded-lg shadow-sm cursor-zoom-in" />
+  <img src="/images/events/trick-or-trees-roasting-marshmallows.webp" alt="Marshmallows roasting on wooden sticks over an open campfire flame." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Marshmallow roasting around the fire pit is one of the featured family activities at Trick or Trees.
   </figcaption>
