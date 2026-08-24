@@ -41,6 +41,7 @@ faqs:
 <div className="my-6 p-5 bg-amber-50 border-l-4 border-amber-400 rounded-r-lg">
 
 **Update:** Two concerts were postponed due to weather and rescheduled at Maplelawn Farmstead. Hot Rod Mik and the Fenders, originally scheduled for August 12 at Zionsville Lions Club Park, will now play Wednesday, September 2, at 7:00 p.m. The Punkin Holler Boys, originally scheduled for August 19, will now play Wednesday, September 9, at 7:00 p.m.
+
 </div>
 
 The Zionsville Cultural District Summer Concert Series moves to Maplelawn Farmstead in August, bringing a change to the weekly Wednesday evening performances. Concerts are held outdoors on the grounds, with the historic farmstead as the setting. Each week features a different regional act across a mix of genres, with performances typically running from 7:00 PM to 8:30 PM. 
