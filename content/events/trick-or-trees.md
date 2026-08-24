@@ -2,7 +2,7 @@
 title: Trick or Trees 2026
 alternateName: ["Zionsville Trick or Trees", "Trick or Trees at Elm Street Green"]
 seoTitle: "Trick or Trees 2026 | Zionsville, Indiana"
-description: A ticketed Halloween morning for children 12 and under at Elm Street Green, with a Trick-or-Treat Trail, Pumpkin Path, marshmallow roasting, and timed entry.
+description: A ticketed Halloween morning for children ages 2 to 12 at Elm Street Green, with a Trick-or-Treat Trail, Pumpkin Path, marshmallow roasting, and timed entry.
 eventType: annual
 startDate: "2026-10-24"
 endDate: "2026-10-24"
@@ -14,7 +14,7 @@ location: Elm Street Green, Zionsville
 address: "165 N Elm Street"
 image: /images/events/trick-or-trees-zionsville.webp
 hero_position: "center 55%"
-imageAlt: PLACEHOLDER ALT TEXT
+imageAlt: "Watercolor illustration of a parent and child in costume walking along a wooded trail framed by yellow autumn leaves and hanging jack-o’-lanterns at Elm Street Green in Zionsville, Indiana."
 photoCredit: ""
 photoCreditHeroOnly: false
 featured: true
@@ -71,7 +71,9 @@ The 2026 event is Saturday, October 24, from 9:00 AM to 12:00 PM, with timed ent
 | **Organizer** | Zionsville Parks and Recreation |
 
 <figure>
-  <img src="/images/events/trick-or-trees-pumpkins-fall-leaves.webp" alt="Pumpkins and pinecones nestled among colorful autumn leaves." class="rounded-lg shadow-sm cursor-zoom-in" />
+  <a href="/images/events/trick-or-trees-pumpkins-fall-leaves.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size photo in new tab">
+    <img src="/images/events/trick-or-trees-pumpkins-fall-leaves.webp" alt="Pumpkins and pinecones nestled among colorful autumn leaves." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     The Pumpkin Path features seasonal pumpkin displays set up along the park trails.
   </figcaption>
@@ -89,7 +91,9 @@ The activities are spread throughout Elm Street Green, combining the wooded trai
 - **Science experiments:** Interactive science activities among the children’s activity stations.
 
 <figure>
-  <img src="/images/events/trick-or-trees-roasting-marshmallows.webp" alt="Marshmallows roasting on wooden sticks over an open campfire flame." class="rounded-lg shadow-sm cursor-zoom-in" />
+  <a href="/images/events/trick-or-trees-roasting-marshmallows.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size photo in new tab">
+    <img src="/images/events/trick-or-trees-roasting-marshmallows.webp" alt="Marshmallows roasting on wooden sticks over an open campfire flame." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Marshmallow roasting around the fire pit is one of the featured family activities at Trick or Trees.
   </figcaption>
