@@ -16,7 +16,7 @@ recurrence:
   endSeason: "2026-09-26"
 location: Main Street, Downtown Zionsville
 address: "340 S Main St, Zionsville, IN 46077"
-image: /images/events/zionsville-farmers-market.jpg
+image: /images/events/zionsville-farmers-market.webp
 imageAlt: Fresh produce at Zionsville Farmers Market on Main Street
 photoCredit: "Photo by Zionsville Farmers Market"
 photoCreditHeroOnly: false

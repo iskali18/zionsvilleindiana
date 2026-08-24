@@ -1,5 +1,5 @@
 ---
-title: "Movies at Maplelawn 2026"
+title: "Movies at Maplelawn"
 alternateName: ["Movies at Maplelawn Farmstead", "Maplelawn Outdoor Movies"]
 seoTitle: "Movies at Maplelawn 2026 | Outdoor Barn Movie Schedule"
 description: An outdoor fall movie series at Maplelawn Farmstead in Zionsville featuring screenings of 1776 and Hamilton projected onto the barn.

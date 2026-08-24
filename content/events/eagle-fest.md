@@ -1,5 +1,5 @@
 ---
-title: Eagle Fest 2026
+title: Eagle Fest
 alternateName: ["EagleFest 2026", "EagleFest"]
 seoTitle: "Eagle Fest 2026 in Zionsville: Tickets, Activities & Football"
 description: "Eagle Fest 2026 takes place Friday, August 28 at Jennings Field in Zionsville. Includes presale ticket prices, food trucks, activities, and game info."
@@ -8,6 +8,7 @@ startDate: "2026-08-28"
 endDate: "2026-08-28"
 startDateTime: "2026-08-28T17:00:00-04:00"
 endDateTime: "2026-08-28T19:00:00-04:00"
+lastUpdated: "2026-08-23"
 location: Jennings Field, Zionsville
 address: "1130 Bloor Ln, Zionsville, IN 46077"
 externalUrl: https://public.eventlink.com/tickets?t=196393&p=299710
@@ -23,8 +24,8 @@ photoCredit: ""
 photoCreditHeroOnly: false
 featured: true
 tags: [festival, family, annual, sports, school, football]
-metaTitle: "Eagle Fest 2026 in Zionsville: Tickets, Activities & Football"
-metaDescription: "Eagle Fest 2026: Friday, August 28 at Jennings Field. Bounce houses, food trucks, dunk tanks, school performances, and the ZCHS vs. Lawrence Central football game."
+metaTitle: "Eagle Fest 2026 Zionsville: Tickets, Activities & Football"
+metaDescription: "Eagle Fest 2026: Friday, August 28 at Jennings Field. Bounce houses, food trucks, dunk tanks, and the ZCHS vs. Lawrence Central football game."
 faqs:
   - q: "When is Eagle Fest 2026?"
     a: "Eagle Fest 2026 is on Friday, August 28, 2026, from 5:00 to 7:00 PM at Jennings Field."

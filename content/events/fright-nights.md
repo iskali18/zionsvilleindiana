@@ -1,5 +1,5 @@
 ---
-title: "Fright Nights 2026"
+title: "Fright Nights"
 alternateName: ["Zionsville Fright Nights", "Maplelawn Fright Nights"]
 seoTitle: "Fright Nights 2026 | Zionsville Haunted Barn & Hayride"
 description: An annual Halloween event in Zionsville featuring a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead.
@@ -14,8 +14,8 @@ address: "9645 Whitestown Road"
 addressLocality: Zionsville
 postalCode: "46077"
 externalUrl: https://www.zionsville-in.gov/740/Fright-Nights
-image: /images/events/fright-nights.webp
-imageAlt: "Large illuminated jack-o'-lantern and wooden Fright Nights sign outside the white barn at Maplelawn Farmstead under a full moon in Zionsville, Indiana."
+image: /images/events/fright-nights-zionsville.webp
+imageAlt: "Large illuminated jack-o’-lantern and wooden Fright Nights sign outside the white barn at Maplelawn Farmstead under a full moon in Zionsville, Indiana."
 hero_position: "center 80%"
 featured: true
 tags: [community, fall, outdoor, halloween, ticketed, annual, parks]
@@ -81,6 +81,10 @@ The Fright Barn is a fully immersive haunted attraction at Maplelawn Farmstead. 
 - Live actors and intense sound effects
 
 The attraction is designed to scare. Parental discretion is advised, and participants under age 12 must be accompanied by an adult.
+
+## The Spooky Story Barn
+
+The Spooky Story Barn features Halloween storytelling in a spooky setting at Maplelawn Farmstead. It offers a less intense alternative to the Fright Barn’s jump scares, strobe effects, and other haunted-house elements.
 
 ## Haunted Hayride & Other Activities
 

@@ -1,5 +1,5 @@
 ---
-title: Zionsville Christmas Parade & Tree Lighting 2026
+title: Zionsville Christmas Parade & Tree Lighting
 alternateName: ["Zionsville Holiday Parade", "Christmas in the Village Parade & Tree Lighting", "Zionsville Christmas Tree Lighting"]
 seoTitle: "Zionsville Christmas Parade & Tree Lighting 2026 | Nov. 28"
 description: Zionsville’s annual Christmas kickoff on the Saturday after Thanksgiving, with the 5:00 PM parade from Eagle Elementary and the town tree lighting at the corner of Pine and Main Streets.
@@ -12,7 +12,7 @@ lastUpdated: "2026-08-17"
 location: Main Street, Zionsville
 address: "100 W Pine St, Zionsville, IN 46077"
 externalUrl: https://www.zionsvillechamber.org/christmas-in-the-village/
-image: /images/events/zionsville-christmas-in-the-village-parade.jpg
+image: /images/events/zionsville-christmas-in-the-village-parade.webp
 imageAlt: "Crowds lining Main Street in Zionsville during the Christmas in the Village parade"
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
@@ -20,7 +20,7 @@ featured: true
 tags: [christmas, holiday, family, parade, downtown, annual]
 area: downtown
 metaTitle: "Zionsville Christmas Parade & Tree Lighting 2026 | Nov. 28"
-metaDescription: "The Zionsville Christmas Parade runs 5:00–6:30 PM on November 28, 2026, with the town tree lighting at Pine and Main immediately after. Street closures, Santa photos, and parking."
+metaDescription: "The Zionsville Christmas Parade runs 5:00–6:30 PM on November 28, 2026, with the town tree lighting at Pine and Main immediately after."
 faqs:
   - q: "When is the Zionsville Christmas Parade?"
     a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026, from 5:00 to 6:30 PM. The parade begins at 5:00 PM and the town tree is lit immediately afterward. This is the opening event of the Christmas in the Village season, which continues through Christmas Eve."

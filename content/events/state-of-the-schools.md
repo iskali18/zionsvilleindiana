@@ -1,5 +1,5 @@
 ---
-title: Zionsville State of the Schools 2026
+title: Zionsville State of the Schools
 alternateName: ["ZCS State of the Schools", "State of the Schools"]
 seoTitle: "Zionsville State of the Schools 2026 | Date & Registration"
 description: A free morning presentation and community Q&A with Zionsville Community Schools leadership, held at The Cardinal Room at Golf Club of Indiana on September 30, 2026.

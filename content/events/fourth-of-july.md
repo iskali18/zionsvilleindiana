@@ -6,7 +6,7 @@ eventType: annual
 startDate: "2026-07-05"
 location: Lions Park, Zionsville
 address: "11053 Sycamore St, Zionsville, IN 46077"
-image: /images/events/zionsville-fourth-of-july-fireworks.jpg
+image: /images/events/zionsville-fourth-of-july-fireworks.webp
 imageAlt: Fireworks over Lions Park in Zionsville on the 4th of July
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: true

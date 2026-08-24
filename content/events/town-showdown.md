@@ -1,5 +1,5 @@
 ---
-title: "Town Showdown: Zionsville vs. Whitestown 2026"
+title: "Town Showdown: Zionsville vs. Whitestown"
 alternateName: ["Zionsville Town Showdown", "Golden Bike Wheel"]
 seoTitle: "Town Showdown 2026 | Zionsville vs. Whitestown, Sept. 19"
 description: A free community competition between Zionsville and Whitestown at Mulberry Fields Park, with an optional family ride on the Rail Trail, food trucks, and a 1:00 PM headcount for the Golden Bike Wheel.

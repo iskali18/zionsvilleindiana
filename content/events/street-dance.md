@@ -10,7 +10,7 @@ endDateTime: "2026-09-26T22:00:00-04:00"
 lastUpdated: "2026-08-17"
 location: Main Street, Downtown Zionsville
 address: "Main Street, Zionsville, IN 46077"
-image: /images/events/zionsville-street-dance.jpg
+image: /images/events/zionsville-street-dance.webp
 imageAlt: Crowd gathered on Main Street in downtown Zionsville during the Zionsville Street Dance
 photoCredit: "Photo by Indiana State Festivals Association"
 photoCreditHeroOnly: false

@@ -1,12 +1,13 @@
 ---
 title: Summer Concert Series at Maplelawn Farmstead
 seoTitle: "Summer Concert Series at Maplelawn Farmstead 2026 — Zionsville, Indiana"
-description: Free outdoor concerts at the historic Maplelawn Farmstead wrapping up the Zionsville Cultural District's 2026 summer concert season.
+description: Free outdoor concerts at the historic Maplelawn Farmstead wrapping up the Zionsville Cultural District’s 2026 summer concert season.
 eventType: recurring
 startDate: "2026-08-26"
 endDate: "2026-09-09"
 startDateTime: "2026-08-26T19:00:00-04:00"
 endDateTime: "2026-09-09T20:30:00-04:00"
+lastUpdated: "2026-08-23"
 recurrenceLabel: "Wednesdays, Aug 26 & Sep 9, 2026"
 recurrence:
   pattern: weekly
@@ -24,7 +25,7 @@ featured: true
 perennial: false
 externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]
-metaTitle: "Summer Concert Series at Maplelawn Farmstead: 2026 Schedule | Zionsville"
+metaTitle: "Summer Concerts at Maplelawn Farmstead 2026 | Zionsville"
 metaDescription: "2026 Free Summer Concert Series - Wednesdays, August 26 & September 9, 7PM at Maplelawn Farmstead — bluegrass and a local-talent showcase."
 faqs:
   - q: When are the Maplelawn Farmstead concerts in 2026?
@@ -50,7 +51,7 @@ Concerts are usually held at Lincoln Park in August, but in 2026 the series is h
 
 | Date | Artist | Genre |
 |------|--------|--------|
-| August 26 | School of Rock Zionsville — Zionsville's Got Talent | Local Showcase |
+| August 26 | School of Rock Zionsville — Zionsville’s Got Talent | Local Showcase |
 | September 9 | The Punkin Holler Boys | Bluegrass |
 
 ## Plan your visit

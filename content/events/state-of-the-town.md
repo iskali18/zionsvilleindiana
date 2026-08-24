@@ -1,5 +1,5 @@
 ---
-title: Zionsville State of the Town 2026
+title: Zionsville State of the Town
 alternateName: ["Zionsville State of the Town", "State of the Town"]
 seoTitle: "Zionsville State of the Town 2026 | Date, Venue & Registration"
 description: An annual morning address from the Mayor of Zionsville, held at The Club at Holliday Farms on October 28, 2026, with a continental breakfast and networking beforehand.
@@ -24,7 +24,7 @@ offer:
   priceCurrency: "USD"
   url: "https://business.zionsvillechamber.org/ap/Events/Register/kgFJ6NXIzCVC1"
   availability: "InStock"
-metaTitle: "Zionsville State of the Town 2026 | Date, Venue & Registration"
+metaTitle: "Zionsville State of the Town 2026 | Date & Registration"
 metaDescription: "Details for the 2026 Zionsville State of the Town address on October 28 at The Club at Holliday Farms, featuring Mayor John Stehr."
 faqs:
   - q: "When is the 2026 Zionsville State of the Town?"

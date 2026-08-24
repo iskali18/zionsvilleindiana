@@ -8,10 +8,11 @@ startDate: "2026-09-11"
 endDate: "2026-09-13"
 startDateTime: "2026-09-11T17:00:00-04:00"
 endDateTime: "2026-09-13T17:00:00-04:00"
+lastUpdated: "2026-08-23"
 location: Lions Park, Zionsville
 address: "11053 Sycamore St, Zionsville, IN 46077"
 externalUrl: https://www.zionsvillelions.com/fallfestival
-image: /images/events/zionsville-fall-festival.jpg
+image: /images/events/zionsville-fall-festival.webp
 imageAlt: Carnival ride at Lions Park during the Zionsville Fall Festival
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
@@ -59,7 +60,7 @@ The 73rd annual festival takes place September 11–13, 2026, with the theme “
 
 <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-## Quick Facts
+## Good to Know Before You Go
 
 - **Bring cash.** Carnival games are paid in cash at each booth, most vendors take cash only, and paid parking is $8 cash.
 - **VIP Carnival starts Friday at 5:00 PM.** This free event is for families with children with special needs; RSVP is encouraged.

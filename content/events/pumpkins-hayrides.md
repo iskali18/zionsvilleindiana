@@ -11,7 +11,7 @@ endDateTime: "2026-10-25T17:00:00-04:00"
 lastUpdated: "2026-08-20"
 location: Lions Park, Zionsville
 address: "11053 Sycamore St, Zionsville, IN 46077"
-image: /images/events/zionsville-pumpkins-hayrides.jpg
+image: /images/events/zionsville-pumpkins-hayrides.webp
 imageAlt: Families enjoying a hayride and pumpkins at Lions Park in Zionsville in fall
 photoCredit: "Photo by Lions Club Zionsville"
 photoCreditHeroOnly: false

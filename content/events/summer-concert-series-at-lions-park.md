@@ -16,7 +16,7 @@ recurrence:
 inSeasonMessage: "The 2026 Summer Concert Series at Lions Park runs Wednesdays at 7:00 p.m., through August 12."
 location: Lions Park, Zionsville
 address: 11053 Sycamore St, Zionsville, IN 46077
-image: /images/events/zionsville-summer-concert-series.jpg
+image: /images/events/zionsville-summer-concert-series.webp
 imageAlt: Live outdoor concert at Lions Park in Zionsville, Indiana
 photoCredit: "Photo by Zionsville Cultural District"
 photoCreditHeroOnly: false

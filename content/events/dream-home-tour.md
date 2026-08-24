@@ -1,5 +1,5 @@
 ---
-title: Indianapolis Monthly Dream Home Tour 2026
+title: Indianapolis Monthly Dream Home Tour
 alternateName: ["Indy Monthly Dream Home", "Indianapolis Dream Home", "Dream Home Tour", "The Reverie"]
 seoTitle: "Indianapolis Monthly Dream Home Tour 2026 in Zionsville"
 description: "A ticketed public tour of a newly built custom residence in Holliday Farms, open Friday through Sunday over three weekends in August 2026."
@@ -76,7 +76,7 @@ The 2026 Dream Home Tour is open to visitors across three weekends in August.
 **Hours:** Noon–6:00 PM each Friday, Saturday, and Sunday  
 **Admission:** $25 per person for single-day entry  
 **Location:** Zionsville  
-**Parking:** 3675 Marketplace Ct., Zionsville, IN 46077  
+**Parking:** [3675 Marketplace Ct., Zionsville, IN 46077](https://maps.app.goo.gl/avyGeLdVpawrDVGx7)  
 
 Tickets are available through the official Indianapolis Monthly Dream Home ticket page.
 

@@ -1,5 +1,5 @@
 ---
-title: Trick or Trees 2026
+title: Trick or Trees
 alternateName: ["Zionsville Trick or Trees", "Trick or Trees at Elm Street Green"]
 seoTitle: "Trick or Trees 2026 | Zionsville, Indiana"
 description: A ticketed Halloween morning for children ages 2 to 12 at Elm Street Green, with a Trick-or-Treat Trail, Pumpkin Path, marshmallow roasting, and timed entry.
