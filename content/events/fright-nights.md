@@ -46,11 +46,11 @@ The 2026 event takes place **Friday, October 23, and Saturday, October 24, from 
 
 ## Quick Facts
 
+- **Fright Nights is recommended for ages 8 and older.** Participants younger than 12 must be accompanied by an adult.
+- **Tickets go on sale September 15.** Tickets are $12 in advance or $15 the night of the event.
+- **Entry is by timed ticket.**
+- **On-site ticket sales end at 9:30 p.m.**
 - **Parking and event entry are at Mulberry Fields Park**, 9645 Whitestown Road.
-- **Entry is by timed ticket.** Tickets go on sale September 15.
-- **Fright Nights is recommended for ages 8 and older.** Participants under age 12 must be accompanied by an adult.
-- **Tickets are $12 in advance or $15 the night of the event.**
-- **The last on-site ticket is sold at 9:30 PM.**
 
 </div>
 
