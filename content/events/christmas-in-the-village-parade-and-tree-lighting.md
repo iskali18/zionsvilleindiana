@@ -8,7 +8,7 @@ startDate: "2026-11-28"
 endDate: "2026-11-28"
 startDateTime: "2026-11-28T17:00:00-05:00"
 endDateTime: "2026-11-28T18:30:00-05:00"
-lastUpdated: "2026-08-17"
+lastUpdated: "2026-08-24"
 location: Main Street, Zionsville
 address: "100 W Pine St, Zionsville, IN 46077"
 externalUrl: https://www.zionsvillechamber.org/christmas-in-the-village/
@@ -54,7 +54,7 @@ The kickoff Saturday includes:
 - **5:00 PM** — Christmas parade begins at Eagle Elementary
 - **~6:00 PM** — Parade ends at Old National Bank on Main Street
 - **Immediately following parade** — Christmas tree lighting at the corner of Pine and Main Streets with Santa and Mrs. Claus
-- **After the tree lighting** — Santa photos, downtown shopping, and dining
+- **After the tree lighting** — Photos with Santa and Mrs Claus
 
 Additional kickoff-day activities are added each year by Main Street merchants and the Chamber of Commerce. Confirmed 2026 details will be added as they are announced.
 

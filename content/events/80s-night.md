@@ -6,11 +6,12 @@ description: 80s Night brings the music, fashion, and pop culture of the 1980s t
 eventType: annual
 startDate: "2026-09-17"
 startDateTime: "2026-09-17T17:00:00-04:00"
+lastUpdated: "2026-08-24"
 location: Main Street, Downtown Zionsville
 address: "340 S Main St, Zionsville, IN 46077"
-image: /images/events/zionsville-80s-night-main-street.webp
-imageAlt: Neon “80s Night” sign over the brick Main Street in downtown Zionsville, with illuminated storefronts and colorful reflections at night.
-hero_position: "center 45%"
+image: /images/events/80s-night-zionsville.webp
+imageAlt: Glowing pink and blue neon sign reading "80s Night Main Street, Zionsville" on a dark brick wall.
+hero_position: "center 50%"
 photoCredit:
 photoCreditHeroOnly: false
 featured: true
@@ -31,23 +32,47 @@ faqs:
     a: "No, costumes are not required, but visitors are encouraged to dress for the decade. Neon colors, denim, leg warmers, tracksuits, oversized jackets, and other 1980s-inspired styles all fit the occasion."
   - q: "Who hosts 80s Night?"
     a: "80s Night is hosted by Main Street Zionsville."
-  - q: "Where can I find the full list of participating businesses and activities?"
-    a: "Specific entertainment, specials, and participating businesses will be added when Main Street Zionsville releases the full 2026 event details."
+  - q: "What activities are planned for 80s Night 2026?"
+    a: "The Janeways will perform live at Zionsville Public House at 8:00 p.m. Participating Main Street shops and restaurants will also offer 1980s-themed activities and promotions. Additional activities may be announced closer to the event."
 ---
 
 80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville. Main Street shops and restaurants participate in the themed evening, and visitors are encouraged to dress for the decade while exploring the downtown district.
+
+<figure className="my-8">
+  <Image
+    src="/images/events/80s-night-zionsville-retro-items.webp"
+    alt="Overhead view of 1980s items including a turntable, yellow rotary telephone, VHS tape, audio cassette, and white canvas sneakers on a wooden surface."
+    width={1800}
+    height={1200}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    Vintage 1980s media and everyday items, from vinyl records to analog cassette tapes.
+  </figcaption>
+</figure>
 
 ## 2026 Date and Time
 
 **Thursday, September 17, 2026**  
 Beginning at 5:00 p.m.  
-Downtown Zionsville
+[Downtown Zionsville](https://maps.app.goo.gl/ggBesqBFhXFkTTrR6), 340 S Main St, Zionsville, IN 46077
 
 ## What to expect
 
-Participating shops and restaurants will offer 1980s-themed activities and promotions throughout the evening. Visitors can walk through the Main Street area, explore local businesses, have dinner or drinks, and take part in activities offered at individual locations.
+Participating shops and restaurants will offer 1980s-themed activities and promotions throughout the evening. Visitors can explore the Main Street district, stop into local businesses, have dinner or drinks, and take part in activities offered at individual locations.
 
-Specific entertainment, specials, and participating businesses will be added when Main Street Zionsville releases the full 2026 event details.
+For 2026, The Janeways will perform at Zionsville Public House at 8:00 PM. The Zionsville-based band plays ’80s and ’90s rock and pop.
+
+Past activities have included a cassette tape scavenger hunt through Main Street shops, with prizes awarded to the winners. Additional 2026 activities may be announced closer to the event.
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-64 mb-4">
+  <a href="/images/events/80s-night-zionsville-attire.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/80s-night-zionsville-attire.webp" alt="Three people posing in colorful 1980s outfits featuring neon windbreakers, leg warmers, headbands, and retro sneakers." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Example 1980s attire, featuring bright windbreakers, athletic shorts, leg warmers, and accessories.
+  </figcaption>
+</figure>
 
 ## Dress for the decade
 
