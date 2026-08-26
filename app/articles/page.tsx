@@ -78,7 +78,7 @@ export default function ArticlesPage() {
                     {article.title}
                   </h2>
                   <p className="text-sm text-stone-500 mt-1 line-clamp-2">
-                    {article.description}
+                    {article.description ?? article.metaDescription}
                   </p>
                 </div>
               </Link>
