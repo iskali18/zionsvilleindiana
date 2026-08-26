@@ -1,32 +1,30 @@
 ---
-title: Summer Concert Series at Maplelawn Farmstead
-seoTitle: "Summer Concert Series at Maplelawn Farmstead 2026 — Zionsville, Indiana"
-description: Free outdoor concerts at the historic Maplelawn Farmstead wrapping up the Zionsville Cultural District’s 2026 summer concert season.
+title: "Summer Concert Series at Maplelawn Farmstead"
+description: "Free outdoor concerts at the historic Maplelawn Farmstead wrapping up the Zionsville Cultural District’s 2026 summer concert season."
+metaTitle: "Summer Concerts at Maplelawn Farmstead 2026 | Zionsville"
+metaDescription: "2026 Free Summer Concert Series – Wednesdays, August 26, September 2, and September 9 at 7PM at Maplelawn Farmstead."
 eventType: recurring
 startDate: "2026-08-26"
 endDate: "2026-09-09"
 startDateTime: "2026-08-26T19:00:00-04:00"
 endDateTime: "2026-09-09T20:30:00-04:00"
-lastUpdated: "2026-08-23"
-recurrenceLabel: "Wednesdays, Aug 26 – Sep 9, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: wednesday
   startSeason: "2026-08-26"
   endSeason: "2026-09-09"
+recurrenceLabel: "Wednesdays, Aug 26 – Sep 9, 2026"
 inSeasonMessage: "The 2026 Summer Concert Series wraps up at Maplelawn Farmstead on August 26, September 2, and September 9 at 7:00 p.m."
-location: Maplelawn Farmstead, Zionsville
-address:  9575 Whitestown Rd, Zionsville, IN 46077
+location: "Maplelawn Farmstead, Zionsville"
+address: "9575 Whitestown Rd"
+externalUrl: "https://www.zvillecd.org/zcd-concert-series.html"
 image: /images/events/maplelawn-farmstead.webp
-imageAlt: Maplelawn Farmstead in Zionsville, Indiana at sunset
+imageAlt: "Maplelawn Farmstead in Zionsville, Indiana at sunset"
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: true
 featured: true
-perennial: false
-externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]
-metaTitle: "Summer Concerts at Maplelawn Farmstead 2026 | Zionsville"
-metaDescription: "2026 Free Summer Concert Series – Wednesdays, August 26, September 2, and September 9 at 7PM at Maplelawn Farmstead."
+lastUpdated: "2026-08-23"
 faqs:
   - q: When are the Maplelawn Farmstead concerts in 2026?
     a: The 2026 concerts at Maplelawn Farmstead are on August 26, September 2, and September 9, starting at 7:00 PM. The August 12 concert was postponed for weather and rescheduled to September 2, and the August 19 concert was postponed and rescheduled to September 9.

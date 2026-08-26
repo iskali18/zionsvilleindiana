@@ -1,24 +1,21 @@
 ---
-title: GhostWalk
-seoTitle: "GhostWalk 2026 — Zionsville, Indiana"
-description: The annual GhostWalk in Zionsville features 45-minute guided walking tours of the historic Village with reenacted ghost stories, presented by SullivanMunce Cultural Center on two nights in early October.
+title: "GhostWalk"
+description: "The annual GhostWalk in Zionsville features 45-minute guided walking tours of the historic Village with reenacted ghost stories, presented by SullivanMunce Cultural Center on two nights in early October."
+metaTitle: "GhostWalk 2026: Guided Ghost Tours in Zionsville, Indiana"
+metaDescription: "GhostWalk returns to Zionsville October 2–3, 2026. 45-minute guided walking tours of the historic Village with reenacted ghost stories, 6–9 PM both nights."
 eventType: annual
 startDate: "2026-10-02"
 endDate: "2026-10-03"
-location: SullivanMunce Cultural Center, Zionsville
-address: 225 W Hawthorne St, Zionsville, IN 46077
-image: /images/events/zionsville-ghostwalk.webp
-imageAlt: GhostWalk tour vignette on Main Street in the historic Village of Zionsville, Indiana
-hero_position: "center 30%"
-photoCredit:
-photoCreditHeroOnly: false
-featured: true
-perennial: false
-externalUrl: https://www.sullivanmunce.org/ghostwalk-reservations.html
-tags: [halloween, historic, family, october, fall, walking-tour]
-metaTitle: "GhostWalk 2026: Guided Ghost Tours in Zionsville, Indiana"
-metaDescription: "The annual GhostWalk returns to Zionsville October 2–3, 2026. 45-minute guided walking tours of the historic Village with reenacted ghost stories, 6–9 PM both nights."
 inSeasonMessage: "GhostWalk takes place October 2 and 3, with tours departing every 15 minutes from 6:00 to 9:00 p.m."
+location: "SullivanMunce Cultural Center, Zionsville"
+address: "225 W Hawthorne St"
+externalUrl: "https://www.sullivanmunce.org/ghostwalk-reservations.html"
+image: /images/events/zionsville-ghostwalk.webp
+imageAlt: "GhostWalk tour vignette on Main Street in the historic Village of Zionsville, Indiana"
+hero_position: "center 30%"
+featured: true
+tags: [holiday, history, family, fall, tour, ticketed]
+lastUpdated: "2026-08-02"
 faqs:
   - q: "When is GhostWalk 2026?"
     a: "GhostWalk 2026 is Friday, October 2 and Saturday, October 3, 2026. Tours run every 15 minutes from 6:00 to 9:00 p.m. both nights."

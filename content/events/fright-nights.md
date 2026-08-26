@@ -1,26 +1,23 @@
 ---
 title: "Fright Nights"
 alternateName: ["Zionsville Fright Nights", "Maplelawn Fright Nights"]
-seoTitle: "Fright Nights 2026 | Zionsville Haunted Barn & Hayride"
-description: An annual Halloween event in Zionsville featuring a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead.
+description: "An annual Halloween event in Zionsville featuring a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead."
+metaTitle: "Fright Nights 2026 | Zionsville Haunted Barn & Hayride"
+metaDescription: "Details for Fright Nights on October 23–24, 2026. Features a haunted hayride from Mulberry Fields Park to the historic Maplelawn Farmstead Fright Barn."
 eventType: annual
 startDate: "2026-10-23"
 endDate: "2026-10-24"
 startDateTime: "2026-10-23T19:00:00-04:00"
 endDateTime: "2026-10-24T22:00:00-04:00"
-lastUpdated: "2026-08-22"
-location: Mulberry Fields Park & Maplelawn Farmstead
+location: "Mulberry Fields Park & Maplelawn Farmstead"
 address: "9645 Whitestown Road"
-addressLocality: Zionsville
-postalCode: "46077"
-externalUrl: https://www.zionsville-in.gov/740/Fright-Nights
+externalUrl: "https://www.zionsville-in.gov/740/Fright-Nights"
 image: /images/events/fright-nights-zionsville.webp
 imageAlt: "Large illuminated jack-o’-lantern and wooden Fright Nights sign outside the white barn at Maplelawn Farmstead under a full moon in Zionsville, Indiana."
 hero_position: "center 80%"
 featured: true
-tags: [community, fall, outdoor, halloween, ticketed, annual, parks]
-metaTitle: "Fright Nights 2026 | Zionsville Haunted Barn & Hayride"
-metaDescription: "Details for Fright Nights on October 23–24, 2026. Features a haunted hayride from Mulberry Fields Park to the historic Maplelawn Farmstead Fright Barn."
+tags: [holiday, fall, outdoor, ticketed]
+lastUpdated: "2026-08-22"
 faqs:
   - q: "When is Fright Nights 2026?"
     a: "Fright Nights takes place Friday, October 23, and Saturday, October 24, 2026, from 7:00 PM to 10:00 PM each night. The last on-site ticket sale is at 9:30 PM."

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import FaqSection from '@/components/FaqSection'
 import type { ArticleMeta } from '@/types'
 
 interface ArticleLayoutProps {
@@ -191,6 +192,12 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
               </>
             )
           })()}
+
+          {/* FAQs — the visible counterpart to the FAQPage JSON-LD above.
+              Renders nothing when frontmatter has no `faqs`. */}
+          <div className="print:hidden">
+            <FaqSection faqs={meta.faqs} />
+          </div>
 
           {meta.lastUpdated && (
             <p className="text-sm text-stone-500 mt-10 print:hidden">

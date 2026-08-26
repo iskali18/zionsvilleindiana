@@ -1,20 +1,18 @@
 ---
-title: Party in the Park
-seoTitle: "Party in the Park 2026 — Zionsville, Indiana"
+title: "Party in the Park"
 description: "Zionsville's free annual end-of-school-year celebration at Mulberry Fields Park, 2026: Thursday, May 28. Games, splash pad, food trucks, live DJ, the nature center, and Touch-a-Truck with Zionsville Fire and Police."
-eventType: annual
-startDate: "2026-05-28"
-location: Mulberry Fields Park, Zionsville
-address: "9645 Whitestown Rd, Zionsville, IN 46077"
-image: /images/events/zionsville-party-in-the-park.jpg
-imageAlt: Children playing at Mulberry Fields Park splash pad during Zionsville's Party in the Park
-photoCredit:
-photoCreditHeroOnly:
-tags: [family, kids, outdoor, free, summer, end-of-school]
-featured: false
-externalUrl: https://www.zionsville-in.gov/746/Party-in-the-Park
 metaTitle: "Party in the Park: Zionsville's End-of-School Celebration at Mulberry Fields"
 metaDescription: "Party in the Park is Zionsville's free annual end-of-school celebration at Mulberry Fields Park. 2026: Thursday, May 28, 3–6 PM. Splash pad, live DJ, food trucks, Touch-a-Truck, Nature Center."
+eventType: annual
+startDate: "2026-05-28"
+location: "Mulberry Fields Park, Zionsville"
+address: "9645 Whitestown Rd"
+externalUrl: "https://www.zionsville-in.gov/746/Party-in-the-Park"
+image: /images/events/zionsville-party-in-the-park.jpg
+imageAlt: "Children playing at Mulberry Fields Park splash pad during Zionsville's Party in the Park"
+featured: false
+tags: [family, kids, outdoor, free, summer]
+lastUpdated: "2026-06-02"
 faqs:
   - q: "When is Party in the Park 2026?"
     a: "Thursday, May 28, 2026 from 3:00 PM to 6:00 PM at Mulberry Fields Park."

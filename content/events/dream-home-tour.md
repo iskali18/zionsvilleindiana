@@ -1,38 +1,40 @@
 ---
-title: Indianapolis Monthly Dream Home Tour
+title: "Indianapolis Monthly Dream Home Tour"
 alternateName: ["Indy Monthly Dream Home", "Indianapolis Dream Home", "Dream Home Tour", "The Reverie"]
-seoTitle: "Indianapolis Monthly Dream Home Tour 2026 in Zionsville"
 description: "A ticketed public tour of a newly built custom residence in Holliday Farms, open Friday through Sunday over three weekends in August 2026."
+metaTitle: "Indianapolis Monthly Dream Home Tour 2026 in Zionsville"
+metaDescription: "Tour the 2026 Indianapolis Monthly Dream Home in Zionsville. Weekends run August 14–16, 21–23, and 28–30, Friday to Sunday, noon–6 PM. Tickets $25."
 eventType: recurring
 startDate: "2026-08-14"
 endDate: "2026-08-30"
-recurrenceLabel: "Fridays–Sundays, Aug 14–30, 2026"
-recurrence:
-  pattern: weekly
-  dayOfWeek: sunday
-  startSeason: "2026-08-14"
-  endSeason: "2026-08-30"
-inSeasonMessage: "The 2026 Dream Home Tour runs Friday through Sunday, noon–6:00 p.m., through August 30."
 startDateTime: "2026-08-14T12:00:00-04:00"
 endDateTime: "2026-08-30T18:00:00-04:00"
-lastUpdated: "2026-08-18"
-location: Holliday Farms, Zionsville
-address: "Holliday Farms, Zionsville, IN 46077"
-externalUrl: https://www.indianapolismonthly.com/dreamhome/
-image: /images/events/dream-home-tour-1.webp
-imageAlt: Indianapolis Monthly Dream Home tour 2026 in Holliday Farms, Zionsville
-hero_position: "center 50%"
-photoCredit: ""
-photoCreditHeroOnly: false
-featured: true
-tags: [tour, ticketed, design, home, annual]
+occurrences:
+  - "2026-08-14"
+  - "2026-08-15"
+  - "2026-08-16"
+  - "2026-08-21"
+  - "2026-08-22"
+  - "2026-08-23"
+  - "2026-08-28"
+  - "2026-08-29"
+  - "2026-08-30"
+recurrenceLabel: "Fridays–Sundays, Aug 14–30, 2026"
+inSeasonMessage: "The 2026 Dream Home Tour runs Friday through Sunday, noon–6:00 p.m., through August 30."
+location: "Holliday Farms, Zionsville"
+address: "Holliday Farms"
+externalUrl: "https://www.indianapolismonthly.com/dreamhome/"
 offer:
   price: "25.00"
   priceCurrency: "USD"
   url: "https://events.humanitix.com/dream-home-tour"
   availability: "InStock"
-metaTitle: "Indianapolis Monthly Dream Home Tour 2026 in Zionsville"
-metaDescription: "Tour the 2026 Indianapolis Monthly Dream Home in Zionsville. Weekends run August 14–16, 21–23, and 28–30, Friday to Sunday, noon–6 PM. Tickets $25."
+image: /images/events/dream-home-tour-1.webp
+imageAlt: "Indianapolis Monthly Dream Home tour 2026 in Holliday Farms, Zionsville"
+hero_position: "center 50%"
+featured: true
+tags: [tour, ticketed, arts, summer]
+lastUpdated: "2026-08-18"
 faqs:
   - q: "When is the 2026 Indianapolis Monthly Dream Home Tour?"
     a: "Tours run on three weekends in August 2026: August 14–16, August 21–23, and August 28–30. Hours are noon to 6:00 PM on Friday, Saturday, and Sunday of each weekend."

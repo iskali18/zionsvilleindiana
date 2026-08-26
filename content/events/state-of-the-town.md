@@ -1,31 +1,28 @@
 ---
-title: Zionsville State of the Town
-alternateName: ["Zionsville State of the Town", "State of the Town"]
-seoTitle: "Zionsville State of the Town 2026 | Date, Venue & Registration"
-description: An annual morning address from the Mayor of Zionsville, held at The Club at Holliday Farms on October 28, 2026, with a continental breakfast and networking beforehand.
+title: "Zionsville State of the Town"
+alternateName: ["State of the Town"]
+description: "An annual morning address from the Mayor of Zionsville, held at The Club at Holliday Farms on October 28, 2026, with a continental breakfast and networking beforehand."
+metaTitle: "Zionsville State of the Town 2026 | Date & Registration"
+metaDescription: "Details for the 2026 Zionsville State of the Town address on October 28 at The Club at Holliday Farms, featuring Mayor John Stehr."
 eventType: annual
 startDate: "2026-10-28"
 endDate: "2026-10-28"
 startDateTime: "2026-10-28T08:00:00-04:00"
 endDateTime: "2026-10-28T09:30:00-04:00"
-lastUpdated: "2026-08-20"
-location: The Club at Holliday Farms
+location: "The Club at Holliday Farms"
 address: "3950 Club Ridge Estates Drive #185"
-externalUrl: https://business.zionsvillechamber.org/calendar/Details/2026-state-of-the-town-1844263
-image: /images/events/zionsville-state-of-the-town.webp
-imageAlt: "Indiana state flag, American flag, and Zionsville town flag flying on a lamppost outside storefronts on Main Street in downtown Zionsville, Indiana."
-hero_position: "center 30%"
-photoCredit: ""
-photoCreditHeroOnly: false
-featured: true
-tags: [community, town, business, breakfast, ticketed, annual]
+externalUrl: "https://business.zionsvillechamber.org/calendar/Details/2026-state-of-the-town-1844263"
 offer:
   price: "15.00"
   priceCurrency: "USD"
   url: "https://business.zionsvillechamber.org/ap/Events/Register/kgFJ6NXIzCVC1"
   availability: "InStock"
-metaTitle: "Zionsville State of the Town 2026 | Date & Registration"
-metaDescription: "Details for the 2026 Zionsville State of the Town address on October 28 at The Club at Holliday Farms, featuring Mayor John Stehr."
+image: /images/events/zionsville-state-of-the-town.webp
+imageAlt: "Indiana state flag, American flag, and Zionsville town flag flying on a lamppost outside storefronts on Main Street in downtown Zionsville, Indiana."
+hero_position: "center 30%"
+featured: true
+tags: [civic, ticketed, indoor, food]
+lastUpdated: "2026-08-20"
 faqs:
   - q: "When is the 2026 Zionsville State of the Town?"
     a: "The 2026 Zionsville State of the Town is Wednesday, October 28, 2026, from 8:00 AM to 9:30 AM. Breakfast and networking run from 8:00 to 8:30 AM, and the program begins at 8:30 AM."

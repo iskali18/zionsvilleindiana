@@ -1,27 +1,22 @@
 ---
-title: Trick or Trees
+title: "Trick or Trees"
 alternateName: ["Zionsville Trick or Trees", "Trick or Trees at Elm Street Green"]
-seoTitle: "Trick or Trees 2026 | Zionsville, Indiana"
-description: A ticketed Halloween morning for children ages 2 to 12 at Elm Street Green, with a Trick-or-Treat Trail, Pumpkin Path, marshmallow roasting, and timed entry.
+description: "A ticketed Halloween morning for children ages 2 to 12 at Elm Street Green, with a Trick-or-Treat Trail, Pumpkin Path, marshmallow roasting, and timed entry."
+metaTitle: "Trick or Trees 2026 in Zionsville | Dates & Registration"
+metaDescription: "Trick or Trees is Oct 24, 2026, at Elm Street Green in Zionsville. Features a trick-or-treat trail, timed entry, games, and scarecrow voting."
 eventType: annual
 startDate: "2026-10-24"
 endDate: "2026-10-24"
 startDateTime: "2026-10-24T09:00:00-04:00"
 endDateTime: "2026-10-24T12:00:00-04:00"
-lastUpdated: "2026-08-20"
-externalUrl: https://www.zionsville-in.gov/739/Trick-or-Trees
-location: Elm Street Green, Zionsville
+location: "Elm Street Green, Zionsville"
 address: "165 N Elm Street"
+externalUrl: "https://www.zionsville-in.gov/739/Trick-or-Trees"
 image: /images/events/trick-or-trees-zionsville.webp
-hero_position: "center 55%"
 imageAlt: "Watercolor illustration of a parent and child in costume walking along a wooded trail framed by yellow autumn leaves and hanging jack-o’-lanterns at Elm Street Green in Zionsville, Indiana."
-photoCredit: ""
-photoCreditHeroOnly: false
 featured: true
-tags: [family, kids, fall, halloween, outdoor, ticketed, parks, annual]
-area: downtown
-metaTitle: "Trick or Trees 2026 | Date, Location & Registration"
-metaDescription: "Trick or Trees is Oct 24, 2026, at Elm Street Green in Zionsville. Features a trick-or-treat trail, timed entry, games, and scarecrow voting."
+tags: [family, kids, fall, holiday, outdoor, ticketed]
+lastUpdated: "2026-08-20"
 faqs:
   - q: "When is Trick or Trees 2026?"
     a: "Trick or Trees 2026 is Saturday, October 24, from 9:00 AM to 12:00 PM at Elm Street Green in Zionsville. Entry is by timed slot, and the final check-in is at 11:30 AM."

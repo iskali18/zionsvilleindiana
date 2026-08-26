@@ -1,18 +1,18 @@
 ---
-title: Stories in the Park
-seoTitle: "Stories in the Park 2026 — Zionsville, Indiana"
-description: A family-friendly outdoor storytime event at Lions Park hosted by the Zionsville Lions Club. A fun early-summer outing for kids and families.
-eventType: annual
-startDate: "2026-06-05"
-location: Lions Park, Zionsville
-address: "11053 Sycamore St, Zionsville, IN 46077"
-image: /images/events/zionsville-stories-in-the-park.jpg
-imageAlt: Families gathered on the grass at Lions Park in Zionsville for an outdoor storytime event
-tags: [family, kids, outdoor, free, summer, literacy]
-featured: true
-externalUrl: https://www.zionsvillelions.com
+title: "Stories in the Park"
+description: "A family-friendly outdoor storytime event at Lions Park hosted by the Zionsville Lions Club. A fun early-summer outing for kids and families."
 metaTitle: "Stories in the Park 2026 — Free Kids Reading Event at Lions Park, Jun 5"
 metaDescription: "Stories in the Park returns Friday, June 5, 2026, 10 AM–noon at Lions Park in Zionsville. A free outdoor reading event for preschool through grade 4. Hosted by the Zionsville Lions Club."
+eventType: annual
+startDate: "2026-06-05"
+location: "Lions Park, Zionsville"
+address: "11053 Sycamore St"
+externalUrl: "https://www.zionsvillelions.com"
+image: /images/events/zionsville-stories-in-the-park.jpg
+imageAlt: "Families gathered on the grass at Lions Park in Zionsville for an outdoor storytime event"
+featured: true
+tags: [family, kids, outdoor, free, summer]
+lastUpdated: "2026-07-04"
 faqs:
   - q: "When is Stories in the Park 2026?"
     a: "Friday, June 5, 2026 from 10:00 AM to noon at Lions Park in Zionsville."

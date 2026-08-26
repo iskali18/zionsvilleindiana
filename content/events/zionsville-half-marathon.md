@@ -1,23 +1,21 @@
 ---
-title: Zionsville Half-Marathon & 5K
+title: "Zionsville Half-Marathon & 5K"
 alternateName: ["Zionsville Half Marathon", "Zionsville Half Marathon 5K"]
-seoTitle: "Zionsville Half-Marathon & 5K 2026: November 21, Race Info & Parking"
-description: The 10th annual Zionsville Half-Marathon & 5K, presented by OrthoIndy, returns to downtown Zionsville on Saturday, November 21, 2026, with both races starting and finishing at Lions Park.
+description: "The 10th annual Zionsville Half-Marathon & 5K, presented by OrthoIndy, returns to downtown Zionsville on Saturday, November 21, 2026, with both races starting and finishing at Lions Park."
+metaTitle: "Zionsville Half-Marathon & 5K 2026 | Nov. 21 Race Info"
+metaDescription: "Zionsville Half-Marathon & 5K 2026: Saturday, November 21 at Lions Park. Half-marathon starts at 8 AM, 5K at 8:20 AM. Packet pickup and parking info."
 eventType: annual
 startDate: "2026-11-21"
 startDateTime: "2026-11-21T08:00:00-05:00"
 endDateTime: "2026-11-21T11:00:00-05:00"
-location: Lions Park, Zionsville
-address: "115 S. Elm Street, Zionsville, IN 46077"
+location: "Lions Park, Zionsville"
+address: "115 S. Elm Street"
+externalUrl: "https://runsignup.com/Race/IN/Zionsville/ZionsvilleHalf"
 image: /images/events/zionsville-half-marathon.webp
-imageAlt: Runners in a marthon
-photoCredit: ""
-photoCreditHeroOnly: false
-tags: [race, half-marathon, 5k, running, fall, annual]
+imageAlt: "Low-angle view of runners' legs and running shoes striding along pavement during a road race."
 featured: true
-externalUrl: https://runsignup.com/Race/IN/Zionsville/ZionsvilleHalf
-metaTitle: "Zionsville Half-Marathon & 5K 2026: November 21, Race Info & Parking"
-metaDescription: "Zionsville Half-Marathon & 5K 2026: Saturday, November 21 at Lions Park. Half-marathon starts at 8 AM, 5K at 8:20 AM. Packet pickup, course details, and parking info."
+tags: [race, ticketed, outdoor, fall]
+lastUpdated: "2026-08-18"
 faqs:
   - q: "When is the Zionsville Half-Marathon & 5K in 2026?"
     a: "The 10th annual Zionsville Half-Marathon & 5K is Saturday, November 21, 2026. The half-marathon starts at 8:00 AM and the 5K starts at 8:20 AM."

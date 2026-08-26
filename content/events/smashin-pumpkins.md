@@ -1,26 +1,23 @@
 ---
 title: "Smashin’ Pumpkins"
 alternateName: ["Smashing Pumpkins", "Smashin’ Pumpkins", "Zionsville Pumpkin Smash", "Pumpkin Smash & Composting Bash"]
-seoTitle: "Smashin’ Pumpkins 2026 | Zionsville Pumpkin Smash & Composting Bash"
-description: An annual post-Halloween event at Mulberry Fields Park in Zionsville featuring pumpkin smashing, the Epic Pumpkin Drop, composting education, games, and food trucks.
+description: "An annual post-Halloween event at Mulberry Fields Park in Zionsville featuring pumpkin smashing, the Epic Pumpkin Drop, composting education, games, and food trucks."
+metaTitle: "Smashin’ Pumpkins 2026 | Zionsville Pumpkin Smash"
+metaDescription: "Smashin’ Pumpkins is Nov 7, 2026, at Mulberry Fields Park in Zionsville. Features pumpkin smashing, a fire truck pumpkin drop, food trucks, and composting."
 eventType: annual
 startDate: "2026-11-07"
 endDate: "2026-11-07"
 startDateTime: "2026-11-07T11:00:00-05:00"
 endDateTime: "2026-11-07T13:00:00-05:00"
-lastUpdated: "2026-08-22"
-location: Mulberry Fields Park
+location: "Mulberry Fields Park"
 address: "9645 Whitestown Road"
-addressLocality: Zionsville
-postalCode: "46077"
-externalUrl: https://www.zionsville-in.gov/767/Smashin-Pumpkins
+externalUrl: "https://www.zionsville-in.gov/767/Smashin-Pumpkins"
 image: /images/events/smashin-pumpkins-zionsville.webp
 imageAlt: "Large pumpkin falling mid-air from an extended fire truck ladder toward hay bales, representing the annual Smashin' Pumpkins event in Zionsville, Indiana."
 hero_position: "center 50%"
 featured: true
-tags: [community, fall, outdoor, family, kids, eco-friendly, parks]
-metaTitle: "Smashin’ Pumpkins 2026 | Zionsville Pumpkin Smash"
-metaDescription: "Smashin’ Pumpkins is Nov 7, 2026, at Mulberry Fields Park in Zionsville. Features pumpkin smashing, a fire truck pumpkin drop, food trucks, and composting."
+tags: [family, kids, fall, outdoor, free]
+lastUpdated: "2026-08-22"
 faqs:
   - q: "When is Smashin’ Pumpkins 2026?"
     a: "Smashin’ Pumpkins takes place Saturday, November 7, 2026, from 11:00 AM to 1:00 PM."

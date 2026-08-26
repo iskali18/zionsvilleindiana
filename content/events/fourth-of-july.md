@@ -1,20 +1,20 @@
 ---
-title: Zionsville 4th of July Celebration
-seoTitle: "Zionsville 4th of July (Fourth of July) Celebration 2026"
-description: Zionsville's annual Fourth of July fireworks and Independence Day celebration at Lions Park, with food vendors, bounce houses, live entertainment, and the largest fireworks display in the event's history in 2026.
-eventType: annual
-startDate: "2026-07-05"
-location: Lions Park, Zionsville
-address: "11053 Sycamore St, Zionsville, IN 46077"
-image: /images/events/zionsville-fourth-of-july-fireworks.webp
-imageAlt: Fireworks over Lions Park in Zionsville on the 4th of July
-photoCredit: "© ZionsvilleIndiana.com"
-photoCreditHeroOnly: true
-tags: [fireworks, family, annual, outdoor, summer, fourth-of-july]
-featured: true
-externalUrl: https://www.zionsvillelions.com
+title: "Zionsville 4th of July Celebration"
+description: "Zionsville's annual Fourth of July fireworks and Independence Day celebration at Lions Park, with food vendors, bounce houses, live entertainment, and the largest fireworks display in the event's history in 2026."
 metaTitle: "Zionsville 4th of July (Fourth of July) 2026: Fireworks, Schedule & Parking"
 metaDescription: "Zionsville 4th of July Celebration 2026: Sunday, July 5 at Lions Park. Fireworks at 10 PM — the largest display in the event's history — plus food, music, and family activities."
+eventType: annual
+startDate: "2026-07-05"
+location: "Lions Park, Zionsville"
+address: "11053 Sycamore St"
+externalUrl: "https://www.zionsvillelions.com"
+image: /images/events/zionsville-fourth-of-july-fireworks.webp
+imageAlt: "Fireworks over Lions Park in Zionsville on the 4th of July"
+photoCredit: "© ZionsvilleIndiana.com"
+photoCreditHeroOnly: true
+featured: true
+tags: [family, free, outdoor, summer, music]
+lastUpdated: "2026-08-24"
 faqs:
   - q: "When is the Zionsville 4th of July Celebration 2026?"
     a: "Sunday, July 5, 2026 at Lions Park (11053 Sycamore St, Zionsville). Festivities begin at 5 PM and run until the fireworks finish around 10:30 PM."

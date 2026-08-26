@@ -4,6 +4,9 @@ import type { NextConfig } from 'next'
 const nextConfig: NextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
+    // Next 16 only serves quality values declared here. 75 is Next's own
+    // default and covers every <Image> that doesn't set `quality` explicitly.
+    qualities: [60, 65, 75],
   },
   async redirects() {
     return [

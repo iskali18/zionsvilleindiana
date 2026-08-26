@@ -66,7 +66,7 @@ const dayNameToIndex: Record<string, number> = {
  * (YYYY-MM-DD) on or after today, within the season window.
  * Returns null if the season has ended or hasn't started yet within the window.
  */
-function nextWeeklyOccurrence(
+export function nextWeeklyOccurrence(
   recurrence: { pattern: string; dayOfWeek: string; startSeason: string | Date; endSeason: string | Date },
   today: Date
 ): string | null {

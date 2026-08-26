@@ -7,7 +7,8 @@ import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import EventEndedBanner from '@/components/EventEndedBanner'
 import EventInSeasonBanner from '@/components/EventInSeasonBanner'
-import { getAllEventSlugs, getEvent } from '@/lib/content'
+import FaqSection from '@/components/FaqSection'
+import { getAllEventSlugs, getEvent, nextWeeklyOccurrence } from '@/lib/content'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -61,17 +62,27 @@ function nextOccurrence(occurrences: Array<string | Date>): string | null {
   )
 }
 
-/** getEvent() returns raw frontmatter, so an event with an `occurrences` list
- *  still carries the first date of the season in startDate/startDateTime. Roll
- *  those forward to the next upcoming date, keeping the time of day, so the
- *  schema never advertises a date that has already passed. Leaves endDate alone
- *  — that marks the end of the season and drives EventEndedBanner. */
-function resolveOccurrenceDates(
+/** getEvent() returns raw frontmatter, so a season event still carries the
+ *  first date of the season in startDate/startDateTime. Roll those forward to
+ *  the next upcoming date, keeping the time of day, so the schema never
+ *  advertises a date that has already passed. Handles both an explicit
+ *  `occurrences` list and a weekly `recurrence`, mirroring what getAllEvents()
+ *  does for the hub — the two must agree or the card and the schema disagree.
+ *  Leaves endDate alone: that marks the end of the season and drives
+ *  EventEndedBanner. */
+function resolveNextDates(
   meta: Awaited<ReturnType<typeof getEvent>>['meta']
 ): Awaited<ReturnType<typeof getEvent>>['meta'] {
-  if (!meta.occurrences?.length) return meta
+  const now = new Date()
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
 
-  const next = nextOccurrence(meta.occurrences)
+  // `occurrences` takes precedence over `recurrence`, same as getAllEvents().
+  const next = meta.occurrences?.length
+    ? nextOccurrence(meta.occurrences)
+    : meta.recurrence
+    ? nextWeeklyOccurrence(meta.recurrence, today)
+    : null
+
   if (!next) return meta
 
   // "2026-08-29T09:00:00-04:00" -> "2026-09-26T09:00:00-04:00"
@@ -86,7 +97,7 @@ function resolveOccurrenceDates(
 }
 
 function buildEventSchema(rawMeta: Awaited<ReturnType<typeof getEvent>>['meta']) {
-  const meta = resolveOccurrenceDates(rawMeta)
+  const meta = resolveNextDates(rawMeta)
 
   // Season hubs (e.g. Christmas in Zionsville) list several separate events
   // rather than being a single event. Emitting one Event for the whole season
@@ -336,19 +347,12 @@ export default async function EventPage({ params }: Props) {
             </section>
           )}
 
-          {/* Tags */}
-          {meta.tags.length > 0 && (
-            <div className="flex flex-wrap gap-2 mt-10 pt-6 border-t border-stone-200">
-              {meta.tags.map((tag) => (
-                <span
-                  key={tag}
-                  className="text-xs bg-stone-100 text-stone-500 px-3 py-1 rounded-full capitalize"
-                >
-                  {tag}
-                </span>
-              ))}
-            </div>
-          )}
+          {/* FAQs — the visible counterpart to the FAQPage JSON-LD above.
+              Renders nothing when frontmatter has no `faqs`. */}
+          <FaqSection
+            faqs={meta.faqs}
+            title={`Common questions about ${meta.title}`}
+          />
 
           {/* ── CTA ──────────────────────────────────────────────────── */}
           <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6">

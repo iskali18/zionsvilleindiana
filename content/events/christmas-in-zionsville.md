@@ -1,26 +1,22 @@
 ---
-title: Christmas in Zionsville
+title: "Christmas in Zionsville"
 alternateName: ["Christmas in the Village", "Christmas in the Village Zionsville"]
-seoTitle: "Christmas in Zionsville 2026: Holiday Events & Activities"
-description: A season of holiday events in downtown Zionsville from Thanksgiving weekend through Christmas Eve, including shopping events, Santa visits, the Holiday Parade and Tree Lighting, and ticketed December events.
+description: "A season of holiday events in downtown Zionsville from Thanksgiving weekend through Christmas Eve, including shopping events, Santa visits, the Holiday Parade and Tree Lighting, and ticketed December events."
+metaTitle: "Christmas in Zionsville 2026: Holiday Events & Activities"
+metaDescription: "Christmas in Zionsville runs November 27 through December 24, 2026. Find the Holiday Parade, Santa visits, Small Business Weekend, and shopping nights."
 eventType: annual
+schemaType: WebPage
 startDate: "2026-11-27"
 endDate: "2026-12-24"
-lastUpdated: "2026-08-19"
-schemaType: WebPage
-location: Downtown Zionsville
-address: "Main Street, Zionsville, IN 46077"
-externalUrl: https://www.zionsvillechamber.org/christmas-in-the-village/
+location: "Downtown Zionsville"
+address: "Main Street"
+externalUrl: "https://www.zionsvillechamber.org/christmas-in-the-village/"
 image: /images/events/brick-street-hotel-christmas-lights.webp
 imageAlt: "Exterior of the Brick Street Inn at night in Zionsville, Indiana, decorated with holiday string lights, Christmas wreaths, and snow-covered outdoor patio seating."
 hero_position: "center 70%"
-photoCredit: 
-photoCreditHeroOnly: false
 featured: true
-tags: [christmas, holiday, family, downtown, village, shopping, annual]
-area: downtown
-metaTitle: "Christmas in Zionsville 2026: Holiday Events & Activities"
-metaDescription: "Christmas in Zionsville runs November 27 through December 24, 2026. Find the Holiday Parade, Santa visits, Small Business Weekend, and holiday shopping nights."
+tags: [holiday, family, shopping, free]
+lastUpdated: "2026-08-19"
 faqs:
   - q: "When is Christmas in the Village in Zionsville?"
     a: "Christmas in the Village runs from Friday, November 27 through Thursday, December 24, 2026. The season begins with Small Business Weekend the day after Thanksgiving and continues through Christmas Eve."
@@ -49,13 +45,6 @@ Christmas in Zionsville begins Thanksgiving weekend and continues through Christ
 - **Last updated August 19, 2026.** This guide will be updated as new event details are announced.
 
 </div>
-
-<figure class="mx-auto max-w-sm">
-  <img src="/images/events/christmas-in-zionsville-flower-shop.webp" alt="" class="rounded-lg shadow-sm" />
-  <figcaption class="text-xs text-stone-500 italic mt-2 text-center">
-    
-  </figcaption>
-</figure>
 
 ## Christmas in Zionsville 2026 at a Glance
 

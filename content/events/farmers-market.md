@@ -1,33 +1,33 @@
 ---
-title: Zionsville Farmers Market
+title: "Zionsville Farmers Market"
 alternateName: ["Zionsville Farmers’ Market"]
-seoTitle: "Zionsville Farmers Market 2026 — Zionsville, Indiana"
-description: Fresh produce, baked goods, live music, and local vendors every Saturday morning on Main Street.
+description: "Fresh produce, baked goods, live music, and local vendors every Saturday morning on Main Street."
+metaTitle: "Zionsville Farmers Market 2026: Hours, Schedule & Parking"
+metaDescription: "Zionsville Farmers Market 2026 hours, weekly schedule, parking, and vendor info for Main Street, Zionsville. Saturdays 8-11:30 AM, May 16-Sep 26."
 eventType: recurring
 startDate: "2026-05-16"
 endDate: "2026-09-26"
 startDateTime: "2026-05-16T08:00:00-04:00"
 endDateTime: "2026-09-26T11:30:00-04:00"
-recurrenceLabel: "Every Saturday, May 16 – Sep 26, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: saturday
   startSeason: "2026-05-16"
   endSeason: "2026-09-26"
-location: Main Street, Downtown Zionsville
-address: "340 S Main St, Zionsville, IN 46077"
-image: /images/events/zionsville-farmers-market.webp
-imageAlt: Fresh produce at Zionsville Farmers Market on Main Street
-photoCredit: "Photo by Zionsville Farmers Market"
-photoCreditHeroOnly: false
-tags: [market, family, outdoor, weekly]
-featured: true
-externalUrl: https://www.zionsvillefarmersmarket.org/
+recurrenceLabel: "Every Saturday, May 16 – Sep 26, 2026"
+inSeasonMessage: "The 2026 Zionsville Farmers Market runs Saturdays, 8:00–11:30 a.m., through September 26."
+location: "Main Street, Downtown Zionsville"
+address: "340 S Main St"
+externalUrl: "https://www.zionsvillefarmersmarket.org/"
 mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=18BtWWcIsHtC8hk8HPDtkO9oTk9clVAM&ehbc=2E312F"
 mapTitle: "Zionsville Farmers Market 2026 — Parking & Restaurants"
-metaTitle: "Zionsville Farmers Market 2026: Hours, Schedule & Parking"
-metaDescription: "Zionsville Farmers Market 2026 hours, weekly schedule, parking, and vendor info for Main Street, Zionsville. Saturdays 8-11:30 AM, May 16-Sep 26."
-inSeasonMessage: "The 2026 Zionsville Farmers Market runs Saturdays, 8:00–11:30 a.m., through September 26."
+image: /images/events/zionsville-farmers-market.webp
+imageAlt: "Fresh produce at Zionsville Farmers Market on Main Street"
+photoCredit: "Photo by Zionsville Farmers Market"
+photoCreditHeroOnly: false
+featured: true
+tags: [market, shopping, family, outdoor, free, summer]
+lastUpdated: "2026-08-24"
 faqs:
   - q: "When is the Zionsville Farmers Market in 2026?"
     a: "The Zionsville Farmers Market runs every Saturday from May 16 through September 26, 2026, from 8:00 AM to 11:30 AM."

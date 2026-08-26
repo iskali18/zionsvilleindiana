@@ -1,32 +1,29 @@
 ---
 title: "Movies at Maplelawn"
 alternateName: ["Movies at Maplelawn Farmstead", "Maplelawn Outdoor Movies"]
-seoTitle: "Movies at Maplelawn 2026 | Outdoor Barn Movie Schedule"
-description: An outdoor fall movie series at Maplelawn Farmstead in Zionsville featuring screenings of 1776 and Hamilton projected onto the barn.
+description: "An outdoor fall movie series at Maplelawn Farmstead in Zionsville featuring screenings of 1776 and Hamilton projected onto the barn."
+metaTitle: "Movies at Maplelawn 2026 | Outdoor Barn Movies"
+metaDescription: "Movies at Maplelawn features 1776 and Hamilton projected onto the barn Sept. 19 & 26, 2026. Gates open at 7 PM; donations welcomed."
 eventType: recurring
 startDate: "2026-09-19"
 endDate: "2026-09-26"
 startDateTime: "2026-09-19T19:00:00-04:00"
-recurrenceLabel: "Saturdays, Sep 19 & 26, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: saturday
   startSeason: "2026-09-19"
   endSeason: "2026-09-26"
+recurrenceLabel: "Saturdays, Sep 19 & 26, 2026"
 inSeasonMessage: "Movies at Maplelawn runs Saturdays, September 19 and 26, with gates at 7:00 p.m. and movies at dusk."
-lastUpdated: "2026-08-22"
-location: Maplelawn Farmstead
+location: "Maplelawn Farmstead"
 address: "9575 Whitestown Road"
-addressLocality: Zionsville
-postalCode: "46077"
-externalUrl: https://maplelawnfarmstead.org/events2/
+externalUrl: "https://maplelawnfarmstead.org/events2/"
 image: /images/events/movies-at-maplelawn.webp
 imageAlt: "Orange daylilies blooming in the foreground with two historic white wooden barns behind them under a dusk sky at Maplelawn Farmstead in Zionsville, Indiana."
 hero_position: "center 50%"
 featured: true
-tags: [community, fall, outdoor, movies, family, farmstead, history]
-metaTitle: "Movies at Maplelawn 2026 | Outdoor Barn Movies"
-metaDescription: "Movies at Maplelawn features 1776 and Hamilton projected onto the barn Sept. 19 & 26, 2026. Gates open at 7 PM; donations welcomed."
+tags: [movies, family, outdoor, fall, free]
+lastUpdated: "2026-08-22"
 faqs:
   - q: "When are the Movies at Maplelawn screenings in 2026?"
     a: "Screenings take place on Saturday, September 19, and Saturday, September 26, 2026. Gates open at 7:00 PM, and movies start at dusk."

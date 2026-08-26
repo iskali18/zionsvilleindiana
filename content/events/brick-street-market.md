@@ -1,19 +1,22 @@
 ---
-title: Brick Street Market 2026
-seoTitle: "Brick Street Market 2026 — Zionsville, Indiana"
-description: An annual outdoor market on Main Street featuring over 140 local makers, artisans, food vendors, and small businesses in the heart of the Village.
+title: "Brick Street Market"
+description: "An annual outdoor market on Main Street featuring over 140 local makers, artisans, food vendors, and small businesses in the heart of the Village."
+metaTitle: "Brick Street Market 2026 | Zionsville, IN — May 2"
+metaDescription: "The Brick Street Market returns to Main Street in Zionsville on Saturday, May 2, 2026, 10 AM–4 PM. Over 140 artisan vendors, food trucks, and live music."
 eventType: annual
 startDate: "2026-05-02"
-location: Main Street, Downtown Zionsville
-address: "S Main St, Zionsville, IN 46077"
-image: /images/events/zionsville-brick-street-market.jpg
-imageAlt: Vendors and shoppers at the Brick Street Market along Main Street in Zionsville
-photoCredit: "Photo by Town of Zionsville"
-photoCreditHeroOnly: false
-tags: [market, artisan, outdoor, annual]
-featured: true
+location: "Main Street, Downtown Zionsville"
+address: "S Main St"
+externalUrl: "https://www.zionsvillechamber.org/brick-street-market/"
 mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=1oPINFddvaZW7YbNwGHytCoQpQVjN0no&ehbc=2E312F"
 mapTitle: "Brick Street Market 2026 — Map of Downtown Zionsville with Parking & Restaurants"
+image: /images/events/zionsville-brick-street-market.jpg
+imageAlt: "Vendors and shoppers at the Brick Street Market along Main Street in Zionsville"
+photoCredit: "Photo by Town of Zionsville"
+photoCreditHeroOnly: false
+featured: true
+tags: [market, shopping, outdoor, free, family, spring]
+lastUpdated: "2026-08-08"
 faqs:
   - q: "When is the Brick Street Market 2026?"
     a: "Saturday, May 2, 2026 from 10 AM to 4 PM."
@@ -31,9 +34,6 @@ faqs:
     a: "The Brick Street Market runs rain or shine. Booths are covered."
   - q: "How many years has the Brick Street Market been running?"
     a: "2026 marks the 41st annual Brick Street Market."
-externalUrl: https://www.zionsvillechamber.org/brick-street-market/
-metaTitle: "Brick Street Market 2026 — Zionsville, Indiana | May 2, Main Street"
-metaDescription: The Brick Street Market returns to Main Street in Zionsville on Saturday May 2, 2026, 10 AM–4 PM. Over 140 artisan vendors, food trucks, live music, and kids activities. Free admission.
 ---
 
 The 2026 Brick Street Market takes place on Saturday, May 2, from 10:00 AM to 4:00 PM along Main Street in downtown Zionsville. This year’s event features more than 140 artisan and craft vendors showcasing handmade goods, fine art, and specialty items. Food booths are located within the market area, and the Brick Street Smoke Off—a barbecue competition—takes place as part of the event.

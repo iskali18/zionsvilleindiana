@@ -1,26 +1,22 @@
 ---
-title: 80s Night
+title: "80s Night"
 alternateName: ["80's Night"]
-seoTitle: "80s Night in Downtown Zionsville 2026"
-description: 80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville, with themed activities at Main Street shops and restaurants and visitors encouraged to dress for the decade.
+description: "80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville, with themed activities at Main Street shops and restaurants and visitors encouraged to dress for the decade."
+metaTitle: "80s Night in Downtown Zionsville 2026 — September 17"
+metaDescription: "80s Night returns to downtown Zionsville on Thursday, Sept. 17, 2026, at 5:00 p.m. Main Street shops and restaurants host 1980s-themed activities."
 eventType: annual
 startDate: "2026-09-17"
 startDateTime: "2026-09-17T17:00:00-04:00"
-lastUpdated: "2026-08-24"
-location: Main Street, Downtown Zionsville
-address: "340 S Main St, Zionsville, IN 46077"
-image: /images/events/80s-night-zionsville.webp
-imageAlt: Glowing pink and blue neon sign reading "80s Night Main Street, Zionsville" on a dark brick wall.
-hero_position: "center 50%"
-photoCredit:
-photoCreditHeroOnly: false
-featured: true
-perennial: false
-externalUrl: https://mainstreetzionsville.org/events
-tags: [downtown, themed, family, evening, fashion, music]
-metaTitle: "80s Night in Downtown Zionsville 2026 — September 17"
-metaDescription: "80s Night returns to downtown Zionsville on Thursday, September 17, 2026, beginning at 5:00 p.m. Main Street shops and restaurants host 1980s-themed activities."
 inSeasonMessage: "80s Night takes place today in downtown Zionsville, beginning at 5:00 p.m."
+location: "Main Street, Downtown Zionsville"
+address: "340 S Main St"
+externalUrl: "https://mainstreetzionsville.org/events"
+image: /images/events/80s-night-zionsville.webp
+imageAlt: "Glowing pink and blue neon sign reading \"80s Night Main Street, Zionsville\" on a dark brick wall."
+hero_position: "center 50%"
+featured: true
+tags: [family, free, music, arts, outdoor]
+lastUpdated: "2026-08-24"
 faqs:
   - q: "When is 80s Night 2026?"
     a: "80s Night is Thursday, September 17, 2026, beginning at 5:00 p.m. in downtown Zionsville. The ending time has not yet been announced."

@@ -51,10 +51,19 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
     orderBy: 'startTime',
   })
 
-  const res = await fetch(
-    `${BASE}/calendars/${encodeURIComponent(CALENDAR_ID)}/events?${params}`,
-    { next: { revalidate: 3600 } }
-  )
+  // A network failure (no connection, DNS, proxy) makes fetch throw rather
+  // than return a response, so it needs catching separately from an error
+  // status. Both cases degrade to an empty list so the page still renders.
+  let res: Response
+  try {
+    res = await fetch(
+      `${BASE}/calendars/${encodeURIComponent(CALENDAR_ID)}/events?${params}`,
+      { next: { revalidate: 3600 } }
+    )
+  } catch (err) {
+    console.error('Google Calendar fetch failed:', err)
+    return []
+  }
 
   if (!res.ok) {
     console.error('Google Calendar API error:', res.status, await res.text())

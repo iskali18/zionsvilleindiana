@@ -1,22 +1,19 @@
 ---
-title: Gardens of Zionsville
-seoTitle: "Gardens of Zionsville 2026 — Garden Tour, Zionsville, Indiana"
-description: The SullivanMunce Cultural Center presents the 2026 Gardens of Zionsville, an annual garden tour featuring six historic homes and gardens, plus a Friday Kick-Off Party.
-eventType: dated
+title: "Gardens of Zionsville"
+description: "The SullivanMunce Cultural Center presents the 2026 Gardens of Zionsville, an annual garden tour featuring six historic homes and gardens, plus a Friday Kick-Off Party."
+metaTitle: "Gardens of Zionsville 2026 | Garden Tour & Tickets"
+metaDescription: "The 2026 Gardens of Zionsville garden tour runs June 26–27 with a Friday Kick-Off Party and a Saturday tour of six historic homes and gardens."
+eventType: annual
 startDate: "2026-06-26"
 endDate: "2026-06-27"
-location: SullivanMunce Cultural Center, Zionsville
-address: 225 West Hawthorne Street, Zionsville, IN 46077
+location: "SullivanMunce Cultural Center, Zionsville"
+address: "225 W Hawthorne St"
+externalUrl: "https://www.sullivanmunce.org/garden-tour.html"
 image: /images/events/gardens-of-zionsville.webp
-imageAlt: Garden tour visitors browsing a historic private garden in Zionsville
-photoCredit:
-photoCreditHeroOnly:
+imageAlt: "Garden tour visitors browsing a historic private garden in Zionsville"
 featured: true
-perennial: false
-externalUrl: https://www.sullivanmunce.org/garden-tour.html
-tags: [garden, tour, art, history, family, summer, fundraiser]
-metaTitle: "Gardens of Zionsville 2026 — Garden Tour & Kick-Off Party | Zionsville, Indiana"
-metaDescription: "The 2026 Gardens of Zionsville garden tour runs June 26–27 with a Friday Kick-Off Party and a Saturday tour of six historic homes and gardens. Hosted by the SullivanMunce Cultural Center."
+tags: [tour, arts, history, family, summer, ticketed]
+lastUpdated: "2026-06-02"
 faqs:
   - q: When is the Gardens of Zionsville Tour?
     a: The 2026 Gardens of Zionsville Tour takes place Saturday, June 27, 2026, from 10:00 AM to 4:00 PM. The Kick-Off Party is held the evening before on Friday, June 26, from 6:00 PM to 8:00 PM.

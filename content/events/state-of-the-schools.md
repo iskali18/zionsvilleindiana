@@ -1,27 +1,24 @@
 ---
-title: Zionsville State of the Schools
+title: "Zionsville State of the Schools"
 alternateName: ["ZCS State of the Schools", "State of the Schools"]
-seoTitle: "Zionsville State of the Schools 2026 | Date & Registration"
-description: A free morning presentation and community Q&A with Zionsville Community Schools leadership, held at The Cardinal Room at Golf Club of Indiana on September 30, 2026.
+description: "A free morning presentation and community Q&A with Zionsville Community Schools leadership, held at The Cardinal Room at Golf Club of Indiana on September 30, 2026."
+metaTitle: "Zionsville State of the Schools 2026 | Date & Registration"
+metaDescription: "The 2026 ZCS State of the Schools is September 30 at The Cardinal Room. Free with advance registration. Superintendent update and community Q&A."
 eventType: annual
 startDate: "2026-09-30"
 endDate: "2026-09-30"
 startDateTime: "2026-09-30T08:00:00-04:00"
 endDateTime: "2026-09-30T09:30:00-04:00"
-lastUpdated: "2026-08-20"
-location: The Cardinal Room at Golf Club of Indiana
+location: "The Cardinal Room at Golf Club of Indiana"
 address: "6905 South 525 East"
-addressLocality: Whitestown
+addressLocality: "Whitestown"
 postalCode: "46075"
-externalUrl: https://business.zionsvillechamber.org/calendar/Details/zcs-state-of-the-schools-with-zef-and-the-zionsville-chamber-of-commerce-1771115
+externalUrl: "https://business.zionsvillechamber.org/calendar/Details/zcs-state-of-the-schools-with-zef-and-the-zionsville-chamber-of-commerce-1771115"
 image: /images/events/zcs-state-of-the-schools-2026.webp
 imageAlt: "Interior lobby and central staircase at a Zionsville Community Schools facility featuring multilingual welcome greetings printed on the stair risers."
-photoCredit: ""
-photoCreditHeroOnly: false
 featured: true
-tags: [schools, community, free, annual, morning]
-metaTitle: "Zionsville State of the Schools 2026 | Date & Registration"
-metaDescription: "The 2026 ZCS State of the Schools is September 30 at The Cardinal Room. Free with advance registration. Superintendent update and community Q&A."
+tags: [civic, free, indoor]
+lastUpdated: "2026-08-20"
 faqs:
   - q: "When is the 2026 ZCS State of the Schools?"
     a: "The 2026 ZCS State of the Schools is Wednesday, September 30, 2026. Doors open at 8:00 AM and the program begins at 8:30 AM, running until about 9:30 AM."

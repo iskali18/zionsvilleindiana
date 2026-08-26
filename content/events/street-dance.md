@@ -1,30 +1,28 @@
 ---
-title: Zionsville Street Dance
-seoTitle: "Zionsville Street Dance 2026"
+title: "Zionsville Street Dance"
 description: "Rescheduled to Saturday, September 26. A ticketed outdoor concert on Main Street with live music, local drinks, food trucks, and a kids’ area."
+metaTitle: "Zionsville Street Dance 2026 | Main Street, Sept. 26"
+metaDescription: "Rescheduled — The 2026 Zionsville Street Dance is Saturday, September 26, 5:00 to 10:00 PM on Main Street. New date and new performer lineup."
 eventType: annual
 startDate: "2026-09-26"
 endDate: "2026-09-26"
 startDateTime: "2026-09-26T17:00:00-04:00"
 endDateTime: "2026-09-26T22:00:00-04:00"
-lastUpdated: "2026-08-24"
-location: Main Street, Downtown Zionsville
-address: "Main Street, Zionsville, IN 46077"
-image: /images/events/zionsville-street-dance.webp
-imageAlt: Crowd gathered on Main Street in downtown Zionsville during the Zionsville Street Dance
-photoCredit: "Photo by Indiana State Festivals Association"
-photoCreditHeroOnly: false
-tags: [concert, ticketed, outdoor, family, downtown]
-featured: true
-externalUrl: https://business.zionsvillechamber.org/calendar/Details/zionsville-street-dance-2026-1893390
-area: downtown
+location: "Main Street, Downtown Zionsville"
+address: "Main Street"
+externalUrl: "https://business.zionsvillechamber.org/calendar/Details/zionsville-street-dance-2026-1893390"
 offer:
   price: "20.00"
   priceCurrency: "USD"
   url: "https://business.zionsvillechamber.org/ap/Events/Register/G9FAoYzsNCxCK"
   availability: "InStock"
-metaTitle: "Zionsville Street Dance 2026 — Zionsville, IN"
-metaDescription: "Rescheduled — The 2026 Zionsville Street Dance is Saturday, September 26, 5:00 to 10:00 PM on Main Street. New date and new performer lineup."
+image: /images/events/zionsville-street-dance.webp
+imageAlt: "Crowd gathered on Main Street in downtown Zionsville during the Zionsville Street Dance"
+photoCredit: "Photo by Indiana State Festivals Association"
+photoCreditHeroOnly: false
+featured: true
+tags: [music, ticketed, outdoor, family, summer]
+lastUpdated: "2026-08-24"
 faqs:
   - q: "When is the Zionsville Street Dance 2026?"
     a: "The rescheduled Zionsville Street Dance is Saturday, September 26, 2026, from 5:00 PM to 10:00 PM on Main Street in downtown Zionsville. The event was originally scheduled for August 1."

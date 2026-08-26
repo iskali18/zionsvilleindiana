@@ -1,26 +1,23 @@
 ---
 title: "Town Showdown: Zionsville vs. Whitestown"
 alternateName: ["Zionsville Town Showdown", "Golden Bike Wheel"]
-seoTitle: "Town Showdown 2026 | Zionsville vs. Whitestown, Sept. 19"
-description: A free community competition between Zionsville and Whitestown at Mulberry Fields Park, with an optional family ride on the Rail Trail, food trucks, and a 1:00 PM headcount for the Golden Bike Wheel.
+description: "A free community competition between Zionsville and Whitestown at Mulberry Fields Park, with an optional family ride on the Rail Trail, food trucks, and a 1:00 PM headcount for the Golden Bike Wheel."
+metaTitle: "Town Showdown 2026 | Zionsville vs. Whitestown, Sept. 19"
+metaDescription: "Town Showdown 2026 is Saturday, September 19, noon to 2 PM at Mulberry Fields Park. Family ride, food trucks, and a 1 PM count for the Golden Bike Wheel."
 eventType: annual
 startDate: "2026-09-19"
 endDate: "2026-09-19"
 startDateTime: "2026-09-19T12:00:00-04:00"
 endDateTime: "2026-09-19T14:00:00-04:00"
-lastUpdated: "2026-08-21"
-location: Mulberry Fields Park, Zionsville
+location: "Mulberry Fields Park, Zionsville"
 address: "9645 Whitestown Road"
-externalUrl: https://www.zionsville-in.gov/753/Town-Showdown
+externalUrl: "https://www.zionsville-in.gov/753/Town-Showdown"
 image: /images/events/town-showdown-hero.webp
 imageAlt: "Illustration of two cyclists riding along the tree-lined Big-4 Rail Trail beneath green Zionsville and blue Whitestown flags for the Town Showdown competition."
 hero_position: "center 45%"
-photoCredit: ""
-photoCreditHeroOnly: false
 featured: true
-tags: [community, family, free, outdoor, biking, trail, annual]
-metaTitle: "Town Showdown 2026 | Zionsville vs. Whitestown, Sept. 19"
-metaDescription: "Town Showdown 2026 is Saturday, September 19, noon to 2 PM at Mulberry Fields Park. Free. Family ride, food trucks, and a 1 PM count for the Golden Bike Wheel."
+tags: [family, free, outdoor]
+lastUpdated: "2026-08-21"
 faqs:
   - q: "When is the 2026 Town Showdown?"
     a: "Town Showdown 2026 is Saturday, September 19, from 12:00 to 2:00 PM at Mulberry Fields Park in Zionsville. The headcount that decides the winner takes place at 1:00 PM."

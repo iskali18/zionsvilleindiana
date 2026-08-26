@@ -1,31 +1,30 @@
 ---
-title: Summer Concert Series at Lions Park
-seoTitle: "Summer Concert Series at Lions Park 2026 — Zionsville, Indiana"
-description: Free weekly outdoor Lions Park concerts every Wednesday evening, June through mid-August 2026. The Zionsville Cultural District concert series features jazz, country, rock, and bluegrass on the lawn.
+title: "Summer Concert Series at Lions Park"
+description: "Free weekly outdoor Lions Park concerts every Wednesday evening, June through mid-August 2026. The Zionsville Cultural District concert series features jazz, country, rock, and bluegrass on the lawn."
+metaTitle: "Summer Concert Series at Lions Park: 2026 Lineup & Schedule"
+metaDescription: "2026 Free Summer Concert Series - Wednesdays, June 3 to August 12, 7PM at Lions Park — jazz, country, rock, and bluegrass."
 eventType: recurring
 startDate: "2026-06-03"
 endDate: "2026-08-12"
 startDateTime: "2026-06-03T19:00:00-04:00"
 endDateTime: "2026-08-12T20:30:00-04:00"
-recurrenceLabel: "Wednesdays, Jun 3 – Aug 12, 2026"
 recurrence:
   pattern: weekly
   dayOfWeek: wednesday
   startSeason: "2026-06-03"
   endSeason: "2026-08-12"
+recurrenceLabel: "Wednesdays, Jun 3 – Aug 12, 2026"
 inSeasonMessage: "The 2026 Summer Concert Series at Lions Park runs Wednesdays at 7:00 p.m., through August 12."
-location: Lions Park, Zionsville
-address: 11053 Sycamore St, Zionsville, IN 46077
+location: "Lions Park, Zionsville"
+address: "11053 Sycamore St"
+externalUrl: "https://www.zvillecd.org/zcd-concert-series.html"
 image: /images/events/zionsville-summer-concert-series.webp
-imageAlt: Live outdoor concert at Lions Park in Zionsville, Indiana
+imageAlt: "Live outdoor concert at Lions Park in Zionsville, Indiana"
 photoCredit: "Photo by Zionsville Cultural District"
 photoCreditHeroOnly: false
 featured: true
-perennial: false
-externalUrl: https://www.zvillecd.org/zcd-concert-series.html
 tags: [music, free, outdoor, family, summer]
-metaTitle: "Summer Concert Series at Lions Park: 2026 Lineup & Schedule"
-metaDescription: "2026 Free Summer Concert Series - Wednesdays, June 3 to August 12, 7PM at Lions Park — jazz, country, rock, and bluegrass."
+lastUpdated: "2026-08-24"
 faqs:
   - q: When is the Summer Concert Series at Lions Park?
     a: The 2026 Summer Concert Series at Lions Park runs every Wednesday from June 3 through August 12, with concerts starting at 7:00 PM. The series is held annually each summer.

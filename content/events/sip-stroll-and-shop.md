@@ -1,30 +1,29 @@
 ---
-title: Sip, Stroll & Shop
+title: "Sip, Stroll & Shop"
 alternateName: ["Sip, Stroll and Shop", "Sip & Stroll", "Sip and Shop"]
-seoTitle: "Sip, Stroll & Shop 2026 — Zionsville, Indiana"
-description: An evening shopping event in downtown Zionsville, with shop specials, treats, and seasonal activities on three dates in 2026.
+description: "An evening shopping event in downtown Zionsville, with shop specials, treats, and seasonal activities on three dates in 2026."
+metaTitle: "Sip, Stroll & Shop 2026 — Zionsville Village Shopping Nights"
+metaDescription: "Sip, Stroll & Shop is an evening shopping event in downtown Zionsville. 2026 dates: April 9, June 11, and September 10."
 eventType: recurring
 startDate: "2026-04-09"
 endDate: "2026-09-10"
+startDateTime: "2026-04-09T16:00:00-04:00"
+endDateTime: "2026-04-09T20:00:00-04:00"
 occurrences:
   - "2026-04-09"
   - "2026-06-11"
   - "2026-09-10"
 recurrenceLabel: "Thursdays, April 9, June 11 & September 10, 2026"
-startDateTime: "2026-09-10T16:00:00-04:00"
-endDateTime: "2026-09-10T20:00:00-04:00"
-location: Main Street, Downtown Zionsville
-address: "Main Street, Zionsville, IN 46077"
+location: "Main Street, Downtown Zionsville"
+address: "Main Street"
+externalUrl: "https://www.facebook.com/events/2692243017827505"
 image: /images/events/zionsville-sip-stroll-and-shop.webp
-imageAlt: Evening shopping along Main Street in downtown Zionsville
+imageAlt: "Evening shopping along Main Street in downtown Zionsville"
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
-tags: [shopping, evening, downtown, village, seasonal]
-area: downtown
-externalUrl: https://www.facebook.com/events/2692243017827505
-metaTitle: "Sip, Stroll & Shop 2026 — Zionsville Village Shopping Nights"
-metaDescription: "Sip, Stroll & Shop is an evening shopping event in downtown Zionsville. 2026 dates: April 9, June 11, and September 10."
+tags: [shopping, free, food]
+lastUpdated: "2026-08-22"
 faqs:
   - q: "When is Sip, Stroll & Shop in Zionsville?"
     a: "It takes place on three evenings in 2026: April 9, June 11, and September 10. Each event runs from 4:00 to 8:00 PM."
