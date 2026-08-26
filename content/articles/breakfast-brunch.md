@@ -196,6 +196,13 @@ Popular items include the Hoosier Bowl, an organic açaí bowl topped with straw
 
 ## Breakfast Tacos {#breakfast-tacos}
 
+<figure>
+  <img src="/images/articles/breakfast-brunch-torchys-tacos-taco.webp" alt="Breakfast taco on a flour tortilla filled with scrambled eggs, chorizo, shredded cheese, and salsa at Torchy's Tacos in Zionsville, Indiana." class="rounded-lg shadow-sm" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    A breakfast taco with scrambled eggs, chorizo, shredded cheese, and salsa at Torchy's Tacos in Zionsville.
+  </figcaption>
+</figure>
+
 ### Torchy’s Tacos
 
 - **Address:** [11826 Sylo Crossing, Suite 602](https://maps.app.goo.gl/iJdpyoZLrCcrPpZz5)
