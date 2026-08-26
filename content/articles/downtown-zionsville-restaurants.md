@@ -1,15 +1,14 @@
 ---
 title: "Restaurants in Downtown Zionsville"
-seoTitle: "Downtown Zionsville Restaurants: Main Street Dining Guide"
-description: "Explore restaurants in downtown Zionsville organized by meal type. Compare breakfast, coffee shops, sit-down dining, pizza, desserts, and DORA rules."
-slug: "downtown-zionsville-restaurants"
+metaTitle: "Downtown Zionsville Restaurants: Main Street Dining Guide"
+metaDescription: "Explore restaurants in downtown Zionsville organized by meal type. Compare breakfast, coffee shops, sit-down dining, pizza, desserts, and DORA rules."
 category: "discovery"
-hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
-hero_position: "center 65%"
-hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-08-16"
 hubOrder: 20
 draft: false
+hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
+hero_credit: "© ZionsvilleIndiana.com"
+hero_position: "center 65%"
+lastUpdated: "2026-08-16"
 faqs:
   - q: "What are the best restaurants in downtown Zionsville?"
     a: "Downtown Zionsville has restaurants across a range of styles — French cuisine at Auberge, New American with live music at Cobblestone, an oyster bar at Noah Grant's, Italian at Convivio, and casual options like Rush on Main and The Friendly Tavern. The right choice depends on what you're in the mood for."

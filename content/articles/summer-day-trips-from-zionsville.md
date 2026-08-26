@@ -1,15 +1,12 @@
 ---
 title: "17 Summer Day Trips for Families"
-seoTitle: "17 Summer Day Trips from Zionsville, Indiana for Families"
-description: "Water days, farms, interactive museums, zoos, animal sanctuaries, and state parks within reasonable driving distance for families."
-slug: "summer-day-trips-from-zionsville"
+metaTitle: "17 Summer Day Trips from Zionsville, Indiana for Families"
+metaDescription: "Water days, farms, interactive museums, zoos, animal sanctuaries, and state parks within reasonable driving distance for families."
 category: "family"
-hero_image: /images/articles/summer-day-trips-from-zionsville-hero.webp
-hero_position: "center 55%"
-hero_credit: ""
-lastUpdated: "2026-06-04"
 hubOrder: 90
 draft: false
+hero_image: /images/articles/summer-day-trips-from-zionsville-hero.webp
+lastUpdated: "2026-06-04"
 faqs:
   - q: "What are some summer day trips from Zionsville for families?"
     a: "Family day trips within a 1-to-2 hour drive of Zionsville include Fair Oaks Farms for agricultural exhibits, WonderLab in Bloomington for hands-on science, and Prophetstown Aquatic Center for a state-park-based water park experience."

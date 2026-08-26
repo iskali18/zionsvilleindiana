@@ -1,17 +1,17 @@
 ---
 title: "Zionsville School Calendar 2026‑2027"
-seoTitle: "Zionsville School Calendar 2026–2027: Print by School"
-description: "Printable Zionsville Community Schools (ZCS) 2026–2027 calendar. Choose one school or combine schools (elementary, ZMS, ZWMS, ZCHS) and print a personalized calendar."
-slug: "zcs-school-calendar"
+metaTitle: "Zionsville School Calendar 2026–2027: Print by School"
+metaDescription: "Printable Zionsville Community Schools 2026–2027 calendar. Choose or combine schools (elementary, ZMS, ZWMS, ZCHS) and print a personalized copy."
 category: "discovery"
-hero_image: /images/articles/zcs-school-calendar.webp
-hero_position: "center 55%"
-hero_credit: ""
-hide_hero: true
-print_hide_body: true
-lastUpdated: "2026-08-08"
 hubOrder: 10
 draft: false
+hero_image: /images/articles/zcs-school-calendar.webp
+hide_hero: true
+print_hide_body: true
+ctas:
+  - label: Visit the official ZCS calendar
+    href: https://www.zcs.k12.in.us/about-zcs/calendars
+lastUpdated: "2026-08-08"
 faqs:
   - q: "When does Zionsville school start in 2026?"
     a: "The first student day for Zionsville Community Schools (ZCS) is Tuesday, August 4, 2026."
@@ -34,9 +34,6 @@ faqs:
   - q: "Where can I find the full ZCS calendar?"
     a: "This page summarizes student-facing important dates and events. For the complete ZCS calendar including staff days and any updates, visit the official Zionsville Community Schools calendar at 
     https://www.zcs.k12.in.us/about-zcs/calendars."
-ctas:
-  - label: Visit the official ZCS calendar
-    href: https://www.zcs.k12.in.us/about-zcs/calendars
 ---
 
 Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then print a personalized calendar.

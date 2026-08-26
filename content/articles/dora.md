@@ -1,19 +1,17 @@
 ---
 title: Downtown DORA Guide
-seoTitle: "Downtown Zionsville DORA Rules, Hours & Boundaries"
-description: Designated Outdoor Refreshment Area (DORA) - hours, rules, beverage size limits, district boundaries, and participating establishments in downtown Zionsville.
-hero_image: /images/zionsville-dora.webp
-hero_position: "center 55%"
-hero_credit: ""
-lastUpdated: "2026-06-08"
-hubOrder: 100
+metaTitle: "Downtown Zionsville DORA Rules, Hours & Boundaries"
+metaDescription: Downtown Zionsville DORA hours, rules, beverage size limits, district boundaries, and participating establishments.
 category: discovery
+hubOrder: 100
 draft: false
+hero_image: /images/zionsville-dora.webp
 ctas:
   - label: Visit downtown Zionsville
     href: /downtown
   - label: View upcoming events
     href: /events
+lastUpdated: "2026-06-08"
 faqs:
   - q: "Can you drink on Main Street Zionsville?"
     a: "Yes. During DORA hours, adults 21 and older may carry an alcoholic beverage purchased from an approved DORA establishment within the district. That includes the brick-paved Main Street area."
@@ -155,26 +153,6 @@ The Town is also planning for the future development of a civic plaza in the Vil
 ## See the Downtown Map
 
 For a printable map of downtown showing all of the shops, restaurants, and public parking lots, see the [downtown Zionsville map](/articles/downtown-zionsville-map).
-
-## Frequently Asked Questions {#dora-faq}
-
-**Can you drink on Main Street Zionsville?**  
-Yes. During DORA hours, adults 21 and older may carry an alcoholic beverage purchased from an approved DORA establishment within the district. That includes the brick-paved Main Street area.
-
-**Can I bring my own drink from home or from a bar outside the DORA?**  
-No. DORA drinks must be purchased from an approved participating business inside the district. Alcohol from home, from another town, or from a business outside the DORA is not allowed.
-
-**Can I take a DORA drink into a store?**  
-Sometimes. Each business decides whether open containers are allowed inside. Check the official window decal before entering with a drink.
-
-**Can I take a DORA drink from one restaurant into another restaurant?**  
-No. A DORA drink may be carried through public areas of the district, but you should not take an open alcoholic beverage into another bar or restaurant. Finish or dispose of your drink before entering a different establishment that serves alcohol.
-
-**Are families and strollers allowed in the DORA?**  
-Yes. The DORA does not make downtown an adults-only area. Families, children, and strollers are allowed on public sidewalks and walkways within the district. The age restriction applies only to purchasing, carrying, or drinking alcohol.
-
-**Is the DORA only active during special events?**  
-No. The Zionsville DORA operates year-round during its standard hours. It is not limited to festivals, concerts, or downtown events.
 
 ## Plan your visit
 

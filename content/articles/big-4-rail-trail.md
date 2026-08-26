@@ -1,14 +1,19 @@
 ---
 title: Big-4 Rail Trail Guide
-seoTitle: "Zionsville Rail Trail (Big-4) Guide: Section Maps, Parking & Amenities"
-description: Zionsville Rail Trail section maps, trailheads, distances, parking, restrooms, trail amenities, landmarks, and access points.
-hero_image: /images/articles/zionsville-rail-trail-hero.webp
-hero_position: "center 60%"
-hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-08-01"
-hubOrder: 50
+metaTitle: "Big-4 Rail Trail Zionsville: Maps, Parking & Amenities"
+metaDescription: Zionsville Rail Trail section maps, trailheads, distances, parking, restrooms, trail amenities, landmarks, and access points.
 category: discovery
+hubOrder: 50
 draft: false
+hero_image: /images/articles/zionsville-rail-trail-hero.webp
+hero_credit: "© ZionsvilleIndiana.com"
+hero_position: "center 60%"
+ctas:
+  - label: Explore things to do in Zionsville
+    href: /things-to-do
+  - label: View upcoming events
+    href: /events
+lastUpdated: "2026-08-01"
 faqs:
   - q: "What is the Big-4 Rail Trail?"
     a: "The Big-4 Rail Trail is Zionsville's main paved trail corridor, running about 5 miles from the Zionsville Road trailhead northwest to the Whitestown border. It connects parks, neighborhoods, and downtown Zionsville along the way."
@@ -30,11 +35,6 @@ faqs:
     a: "Drinking fountains and bottle fillers are at the Zionsville Road Trailhead and Heritage Trail Park. Town Hall has indoor drinking fountains available Monday–Friday, 8 AM–4 PM. Mulberry Fields Park, located near a Rail Trail access point, also has drinking water."
   - q: "Does the Zionsville Rail Trail connect to Whitestown?"
     a: "Yes, the Big-4 Rail Trail continues from Zionsville into Whitestown across 750 E. The Whitestown portion continues to Main Street in downtown Whitestown and beyond to 500 E, making the combined trail nearly 9 miles long."
-ctas:
-  - label: Explore things to do in Zionsville
-    href: /things-to-do
-  - label: View upcoming events
-    href: /events
 ---
 
 ## About the Zionsville Rail Trail

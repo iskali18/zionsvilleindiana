@@ -1,20 +1,18 @@
 ---
 title: "Breakfast and Brunch in Zionsville"
-seoTitle: "Breakfast & Brunch in Zionsville: Where to Eat in the Morning"
-description: "Breakfast and brunch in Zionsville, Indiana — sit-down restaurants, bagels, coffee with a light bite, açaí bowls, breakfast tacos, and weekend brunch."
-slug: "breakfast-brunch"
+metaTitle: "Breakfast & Brunch in Zionsville: Where to Eat"
+metaDescription: "Breakfast and brunch in Zionsville, Indiana — sit-down restaurants, bagels, coffee with a light bite, açaí bowls, breakfast tacos, and weekend brunch."
 category: "discovery"
-hero_image: /images/articles/breakfast-brunch.webp
-hero_position: "center 35%"
-hero_credit: ""
-lastUpdated: "2026-08-12"
 hubOrder: 40
 draft: false
+hero_image: /images/articles/breakfast-brunch.webp
+hero_position: "center 35%"
 ctas:
   - label: "Downtown Zionsville restaurants"
     href: "/articles/downtown-zionsville-restaurants"
   - label: "Zionsville coffee shops"
     href: "/articles/coffee-shops"
+lastUpdated: "2026-08-12"
 faqs:
   - q: "Where can I get breakfast in Zionsville?"
     a: "For a full sit-down breakfast or brunch, try Rosie’s Place, Lincoln Square Pancake House, Auberge, or Café Patachou on Pine."

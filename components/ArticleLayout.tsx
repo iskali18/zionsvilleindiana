@@ -29,8 +29,10 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    headline: meta.seoTitle,
-    description: meta.description,
+    // headline is the article's own title — the H1 the reader sees — not the
+    // SEO title, which carries keyword tails that appear nowhere on the page.
+    headline: meta.title,
+    description: meta.description ?? meta.metaDescription,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': `https://zionsvilleindiana.com${fullPath}`,

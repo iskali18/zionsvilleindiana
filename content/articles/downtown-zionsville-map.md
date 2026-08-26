@@ -1,20 +1,19 @@
 ---
 title: "Downtown Zionsville Map"
-seoTitle: "Downtown Zionsville Map: Printable PDF & Phone Download"
-description: "Printable map of downtown Zionsville, Indiana, showing Main Street businesses, public parking lots, restrooms, and key landmarks. Download as PDF or save to your phone."
-slug: downtown-zionsville-map
-hero_image: /images/articles/downtown-zionsville-map-hero.webp
-hero_position: "center 20%"
-hero_credit: "© ZionsvilleIndiana.com"
-hide_hero: true
-lastUpdated: "2026-08-08"
-hubOrder: 70
+metaTitle: "Downtown Zionsville Map: Printable PDF & Phone Download"
+metaDescription: "Printable map of downtown Zionsville showing Main Street businesses, public parking, restrooms, and landmarks. Download the PDF or save to your phone."
 category: discovery
+hubOrder: 70
+hero_image: /images/articles/downtown-zionsville-map-hero.webp
+hero_credit: "© ZionsvilleIndiana.com"
+hero_position: "center 20%"
+hide_hero: true
 ctas:
   - label: Visit downtown Zionsville
     href: /downtown
   - label: See upcoming events
     href: /events
+lastUpdated: "2026-08-08"
 faqs:
   - q: "What does this downtown Zionsville map show?"
     a: "The map covers the brick-paved Village district along Main Street and nearby side streets. It includes numbered markers for restaurants, cafés, retail shops, and galleries, plus locations for public parking lots, public restrooms, the SullivanMunce Cultural Center, and Lions Park."

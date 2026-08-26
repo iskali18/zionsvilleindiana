@@ -26,8 +26,6 @@ export interface EventMeta {
   externalUrl?: string
   photoCredit?: string
   photoCreditHeroOnly?: boolean
-  seo_title?: string
-  area?: string
   faqs?: Array<{ q: string; a: string }>
   featured?: boolean
   perennial?: boolean
@@ -198,8 +196,13 @@ export interface ArticleParkData {
 export interface ArticleMeta {
   slug: string
   title: string
-  seoTitle: string
-  description: string
+  /** The <title> tag. */
+  metaTitle: string
+  /** The <meta name="description"> tag. */
+  metaDescription: string
+  /** Schema description. Optional — ArticleLayout falls back to
+   *  metaDescription when this is absent. */
+  description?: string
   hero_image?: string
   hero_credit?: string
   /** Vertical position for the hero image (CSS object-position value, e.g. "center 30%", "center 75%").

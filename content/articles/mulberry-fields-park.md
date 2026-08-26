@@ -1,13 +1,10 @@
 ---
 title: "Mulberry Fields Park"
-seoTitle: "Mulberry Fields Park in Zionsville: Splash Pad, Trails & Courts"
-description: "Mulberry Fields Park in Zionsville, Indiana: splash pad hours, pickleball court rules, shelter rentals, sledding hill, trails, and parking info."
-slug: mulberry-fields-park
-hero_image: /images/parks/mulberry-fields-park.webp
-hero_position: "center 55%"
-hero_credit: "© ZionsvilleIndiana.com"
-lastUpdated: "2026-06-26"
+metaTitle: "Mulberry Fields Park Zionsville: Splash Pad & Trails"
+metaDescription: "Mulberry Fields Park in Zionsville, Indiana: splash pad hours, pickleball court rules, shelter rentals, sledding hill, trails, and parking info."
 hubOrder: 30
+hero_image: /images/parks/mulberry-fields-park.webp
+hero_credit: "© ZionsvilleIndiana.com"
 park:
   name: "Mulberry Fields Park"
   alternateName: "Mulberry Park"
@@ -27,6 +24,7 @@ park:
     - "Sledding Hill"
     - "Restrooms"
   freeToEnter: true
+lastUpdated: "2026-06-26"
 faqs:
   - q: "What are the splash pad hours at Mulberry Fields?"
     a: "The splash pad typically runs from Memorial Day weekend through Labor Day. The park is open dawn to dusk. For questions, contact the Zionsville Parks Department at 317-733-2273."
@@ -436,24 +434,6 @@ Mulberry Fields Park remains open year-round from dawn to dusk. Individual ameni
 
 ---
 
-## Frequently Asked Questions
-
-**What are the splash pad hours at Mulberry Fields?**
-The splash pad typically runs from Memorial Day weekend through Labor Day. The park is open dawn to dusk. For questions, contact the Zionsville Parks Department at [317-733-2273](tel:3177332273).
-
-**How do I arrange a Mulberry Fields shelter rental for an event?**
-Shelter rentals are booked through the [Mulberry Fields reservation page](https://zionsvillein.myrec.com/info/facilities/details.aspx?FacilityID=14709). The park has four shelters, and fees depend on residency status, date, and whether you're booking a half-day or full-day slot.
-
-**Is Mulberry Fields connected to the Rail Trail?**
-Not directly from within the park grounds. Accessing the Rail Trail requires exiting the park and crossing Whitestown Road. However, because it sits just across the street, the park remains a convenient stop for trail users to take a break, use the restrooms, or access the playground.
-
-**Are the pickleball courts reservable?**
-The four pickleball courts are open to the public daily until 11:00 PM. Private individuals cannot reserve a court and must use the shared paddle system at the gate. Only registered businesses, nonprofits, and leagues can formalize reservations through the town.
-
-**Is there a sledding hill at Mulberry Fields?**
-Yes. The large hill at the west end of the park is open for sledding whenever snow conditions allow. No registration or fee is required.
-
----
 
 ## Official Resources
 

@@ -12,14 +12,14 @@ const EVENTS_MARKER = '<div data-inject="upcoming-events"></div>'
 export async function generateMetadata(): Promise<Metadata> {
   const { meta } = await getArticle(SLUG)
   return {
-    title: meta.seoTitle,
-    description: meta.description,
+    title: meta.metaTitle,
+    description: meta.metaDescription,
     alternates: {
       canonical: `/${SLUG}`,
     },
     openGraph: {
-      title: meta.seoTitle,
-      description: meta.description,
+      title: meta.metaTitle,
+      description: meta.metaDescription,
       url: `https://zionsvilleindiana.com/${SLUG}`,
       type: 'article',
       ...(meta.hero_image && {

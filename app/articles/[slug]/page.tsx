@@ -20,12 +20,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   try {
     const { meta } = await getArticle(slug)
     return {
-      title: meta.seoTitle,
-      description: meta.description,
+      title: meta.metaTitle,
+      description: meta.metaDescription,
       alternates: { canonical: `https://zionsvilleindiana.com/articles/${slug}` },
       openGraph: {
-        title: meta.seoTitle,
-        description: meta.description,
+        title: meta.metaTitle,
+        description: meta.metaDescription,
         url: `https://zionsvilleindiana.com/articles/${slug}`,
         type: 'article',
         ...(meta.hero_image && {

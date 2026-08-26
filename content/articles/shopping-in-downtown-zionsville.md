@@ -1,15 +1,13 @@
 ---
 title: "Shopping in Downtown Zionsville"
-seoTitle: "Downtown Zionsville Shopping Guide: Boutiques & Gifts"
-description: "Shopping in downtown Zionsville — boutiques, home goods, jewelry, books, antiques, and specialty food shops along the brick-paved Main Street Village."
-slug: "shopping-in-downtown-zionsville"
+metaTitle: "Downtown Zionsville Shopping Guide: Boutiques & Gifts"
+metaDescription: "Shopping in downtown Zionsville — boutiques, home goods, jewelry, books, antiques, and specialty food shops along the brick-paved Main Street Village."
 category: "discovery"
-hero_image: /images/articles/shopping-hero.webp
-hero_position: "center 65%"
-hero_credit: ""
-lastUpdated: "2026-06-16"
 hubOrder: 60
 draft: false
+hero_image: /images/articles/shopping-hero.webp
+hero_position: "center 65%"
+lastUpdated: "2026-06-16"
 faqs:
   - q: "Are downtown Zionsville shops open on Sundays?"
     a: "Some downtown shops are open on Sundays, but many independent boutiques are closed on Sundays and Mondays. Check individual business hours or Google listings before making a special trip."

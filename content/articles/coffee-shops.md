@@ -1,15 +1,13 @@
 ---
 title: "Coffee Shops in Zionsville"
-seoTitle: "Zionsville Coffee Shops: Local Cafés, Roasters & Drive-Thrus"
-description: "Compare local coffee shops in Zionsville and Whitestown. Find downtown Village cafés, local roasters, drive-thrus, and comfortable spots for laptop work or breakfast."
-slug: "coffee-shops"
+metaTitle: "Zionsville Coffee Shops: Local Cafés, Roasters & Drive-Thrus"
+metaDescription: "Compare local coffee shops in Zionsville and Whitestown — downtown Village cafés, roasters, drive-thrus, and spots for laptop work or breakfast."
 category: "food"
-hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
-hero_position: "center 45%"
-hero_credit: ""
-lastUpdated: "2026-08-08"
 hubOrder: 80
 draft: false
+hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
+hero_position: "center 45%"
+lastUpdated: "2026-08-08"
 faqs:
   - q: "What coffee shops are in downtown Zionsville?"
     a: "Roasted in the Village on East Pine Street is downtown Zionsville's independent coffee shop, located near the brick Main Street area."
