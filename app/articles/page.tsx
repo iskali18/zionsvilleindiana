@@ -69,6 +69,7 @@ export default function ArticlesPage() {
                       src={article.hero_image}
                       alt={article.title}
                       fill
+                      sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                   </div>

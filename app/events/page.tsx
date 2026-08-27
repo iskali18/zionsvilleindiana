@@ -118,6 +118,7 @@ export default async function EventsPage() {
                       src={event.image}
                       alt={event.imageAlt}
                       fill
+                      sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
                     {event.photoCredit && !event.photoCreditHeroOnly && (
