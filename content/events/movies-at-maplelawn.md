@@ -21,6 +21,7 @@ externalUrl: "https://maplelawnfarmstead.org/events2/"
 image: /images/events/movies-at-maplelawn.webp
 imageAlt: "Orange daylilies blooming in the foreground with two historic white wooden barns behind them under a dusk sky at Maplelawn Farmstead in Zionsville, Indiana."
 hero_position: "center 50%"
+photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [movies, family, outdoor, fall, free]
 lastUpdated: "2026-08-22"

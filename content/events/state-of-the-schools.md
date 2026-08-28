@@ -16,6 +16,7 @@ postalCode: "46075"
 externalUrl: "https://business.zionsvillechamber.org/calendar/Details/zcs-state-of-the-schools-with-zef-and-the-zionsville-chamber-of-commerce-1771115"
 image: /images/events/zcs-state-of-the-schools-2026.webp
 imageAlt: "Interior lobby and central staircase at a Zionsville Community Schools facility featuring multilingual welcome greetings printed on the stair risers."
+photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [civic, free, indoor]
 lastUpdated: "2026-08-20"

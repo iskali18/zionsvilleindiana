@@ -14,6 +14,7 @@ externalUrl: "https://www.zionsvillechamber.org/christmas-in-the-village/"
 image: /images/events/brick-street-hotel-christmas-lights.webp
 imageAlt: "Exterior of the Brick Street Inn at night in Zionsville, Indiana, decorated with holiday string lights, Christmas wreaths, and snow-covered outdoor patio seating."
 hero_position: "center 70%"
+photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, free]
 lastUpdated: "2026-08-19"

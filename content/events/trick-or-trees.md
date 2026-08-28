@@ -12,8 +12,10 @@ endDateTime: "2026-10-24T12:00:00-04:00"
 location: "Elm Street Green, Zionsville"
 address: "165 N Elm Street"
 externalUrl: "https://www.zionsville-in.gov/739/Trick-or-Trees"
-image: /images/events/trick-or-trees-zionsville.webp
+image: /images/events/trick-or-trees-zionsville-fall-leaves.webp
 imageAlt: "Watercolor illustration of a parent and child in costume walking along a wooded trail framed by yellow autumn leaves and hanging jack-o’-lanterns at Elm Street Green in Zionsville, Indiana."
+hero_position: "center 45%"
+photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [family, kids, fall, holiday, outdoor, ticketed]
 lastUpdated: "2026-08-20"

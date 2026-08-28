@@ -20,6 +20,7 @@ offer:
 image: /images/events/zionsville-state-of-the-town.webp
 imageAlt: "Indiana state flag, American flag, and Zionsville town flag flying on a lamppost outside storefronts on Main Street in downtown Zionsville, Indiana."
 hero_position: "center 30%"
+photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [civic, ticketed, indoor, food]
 lastUpdated: "2026-08-20"

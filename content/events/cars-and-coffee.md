@@ -21,6 +21,7 @@ externalUrl: "https://www.grahamrahalperformance.com/events-calendar-cars-dealer
 image: /images/events/cars-and-coffee.webp
 imageAlt: "Cars from different eras displayed outside Graham Rahal Performance during Cars & Coffee in Zionsville."
 hero_position: "center 35%"
+photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [cars, family, free, outdoor]
 lastUpdated: "2026-08-22"
