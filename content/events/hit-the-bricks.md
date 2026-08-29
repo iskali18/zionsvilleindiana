@@ -17,7 +17,7 @@ offer:
   priceCurrency: "USD"
   url: "https://runsignup.com/Race/IN/Zionsville/HitTheBricks"
   availability: "InStock"
-image: /images/events/hit-the-bricks.webp
+image: /images/events/hit-the-bricks-zionsville.webp
 imageAlt: "Close-up view of runners' legs and running shoes on the historic brick-paved street during the Hit the Bricks 5K in Zionsville, Indiana."
 hero_position: "center 40%"
 featured: true
