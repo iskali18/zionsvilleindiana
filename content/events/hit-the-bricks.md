@@ -124,6 +124,15 @@ Participants may walk either distance. Runners seeking an officially timed resul
 
 Routes were traced from the [official 2026 course map](https://runsignup.com/Race/HitTheBricks/Page/Course-Map-Large). Visit the [official Hit the Bricks registration page](https://runsignup.com/Race/IN/Zionsville/HitTheBricks) for race-day information and course updates.
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/hit-the-bricks-2026-graphic.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/hit-the-bricks-2026-graphic.webp" alt="Official promotional image for the 44th Annual Hit the Bricks event on October 3, 2026, at Zionsville Town Hall."  class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Official promotional image for the 44th Annual Hit the Bricks event on October 3, 2026, at Zionsville Town Hall.
+  </figcaption>
+</figure>
+
 ## Registration and Event Shirts
 
 Registration for either distance is:
