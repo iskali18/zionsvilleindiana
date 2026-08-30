@@ -252,9 +252,9 @@ Gates open at 7:00 PM and the movies begin at dusk. Pizza, popcorn, desserts and
 
 ## Spend a Fall Evening at Salem Methodist Church
 
-Salem Methodist Church’s [Night Out with Christ Fall Cookout](https://www.salemchurchzionsville.org/events/night-out-w-christ-fall-cookout-2026) is scheduled for **September 25** and includes several traditional fall activities in one evening.
+Salem Methodist Church’s [Night Out with Christ Fall Cookout](https://www.salemchurchzionsville.org/events/night-out-w-christ-fall-cookout-2026) is scheduled for **October 2**, beginning at 6:00 p.m., and includes several traditional fall activities in one evening.
 
-Visitors can take a hayride, paint pumpkins, gather around a campfire, participate in a candy dig, and enjoy dinner and s’mores. All ages are welcome, and the church describes it as a community event.
+Visitors can take a hayride, paint pumpkins, gather around a campfire, participate in a candy dig, and enjoy dinner and s’mores. Stones Crossing will provide live music. All ages are welcome, and the church describes it as a community event. Guests can bring lawn chairs or blankets.
 
 Salem Methodist Church has been part of the Zionsville community since the 1830s, with its first church built in 1849. The historic church sits in a wooded area off 550 South, adding to the setting for an outdoor fall evening.
 

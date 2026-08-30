@@ -248,6 +248,7 @@ export default function HomePage() {
                     src={event.image}
                     alt={event.imageAlt}
                     fill
+                    sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     quality={65}
                   />
@@ -319,6 +320,7 @@ export default function HomePage() {
                     src="/images/downtown/zionsville-downtown-dining.jpg"
                     alt="Restaurants in downtown Zionsville"
                     fill
+                    sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     quality={65}
                   />
@@ -341,6 +343,7 @@ export default function HomePage() {
                     src="/images/downtown/zionsville-downtown-shopping.jpg"
                     alt="Shopping in downtown Zionsville"
                     fill
+                    sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                     className="object-cover object-top group-hover:scale-105 transition-transform duration-300"
                     quality={65}
                   />
@@ -363,6 +366,7 @@ export default function HomePage() {
                     src="/images/zionsville-dora.webp"
                     alt="DORA in downtown Zionsville"
                     fill
+                    sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     quality={65}
                   />
@@ -413,6 +417,7 @@ export default function HomePage() {
                       src={guide.image}
                       alt={guide.imageAlt}
                       fill
+                      sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                       quality={65}
                     />
@@ -439,33 +444,33 @@ export default function HomePage() {
             </p>
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <Link
-                href="/articles/summer-day-trips-from-zionsville"
+                href="/articles/fall-activities-zionsville"
                 className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
               >
                 <Image
-                  src="/images/articles/summer-day-trips-from-zionsville-hero.webp"
-                  alt="Summer day trips from Zionsville, Indiana"
+                  src="/images/articles/fall-activities-zionsville.webp"
+                  alt="Fall activities in Zionsville, Indiana"
                   fill
+                  sizes="(min-width: 1024px) 536px, 100vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
                   quality={65}
                 />
               </Link>
               <div>
                 <Link
-                  href="/articles/summer-day-trips-from-zionsville"
+                  href="/articles/fall-activities-zionsville"
                   className="group inline-block"
                 >
                   <h2 className="font-display text-3xl text-stone-900 group-hover:text-brick-600 transition-colors leading-tight mb-4">
-                    17 Summer Day Trips from Zionsville
+                    Fall Activities in Zionsville 2026
                   </h2>
                 </Link>
                 <p className="text-stone-700 leading-relaxed mb-6">
-                  From farms and water parks to state parks, museums, and animal encounters,
-                  Zionsville is within easy reach of dozens of family-friendly day trip destinations —
-                  most within a two-hour drive.
+                  Fall is one of the best times to get out around Zionsville. Use this guide 
+                  to find seasonal activities and events happening through November.
                 </p>
                 <Link
-                  href="/articles/summer-day-trips-from-zionsville"
+                  href="/articles/fall-activities-zionsville"
                   className="inline-block bg-brick-500 hover:bg-brick-600 text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
                 >
                   Read the guide →
