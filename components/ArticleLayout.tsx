@@ -171,6 +171,14 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
             </>
           )}
 
+          {/* Freshness date, directly under the H1 in reading order whether or not
+              there is a hero image. */}
+          {meta.lastUpdated && (
+            <p className="text-xs text-stone-500 mb-6 print:hidden">
+              Updated {formatDate(meta.lastUpdated)}
+            </p>
+          )}
+
           {/* Article body. If `injectAt` marker is present in the HTML, split the body
               at the marker and render `children` between the two halves. Otherwise render
               body then children below (original behavior). */}
@@ -200,12 +208,6 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           <div className="print:hidden">
             <FaqSection faqs={meta.faqs} />
           </div>
-
-          {meta.lastUpdated && (
-            <p className="text-sm text-stone-500 mt-10 print:hidden">
-              Last updated: {formatDate(meta.lastUpdated)}
-            </p>
-          )}
 
           {meta.ctas && meta.ctas.length > 0 && (
             <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6 print:hidden">

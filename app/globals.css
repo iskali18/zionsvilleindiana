@@ -61,6 +61,17 @@
     margin-top: 0;
   }
 
+  /* Callout boxes (amber Quick Facts, update banners): the first element
+     inside should not stack its own top margin on the box padding, and the
+     last should not add a bottom margin. Lets the box padding control it. */
+  .prose-village > div > :first-child {
+    margin-top: 0;
+  }
+
+  .prose-village > div > :last-child {
+    margin-bottom: 0;
+  }
+
   /* Tighten the gap between figure images and their captions */
   .prose-village figure {
     margin-top: 1.5rem;
@@ -68,7 +79,18 @@
   }
 
   .prose-village figure img {
+    margin-top: 0;
     margin-bottom: 0;
+  }
+
+  /* Floated figures: the 1.5rem top margin above pushes the image below the
+     first line of the text wrapping beside it. Only zero it at the breakpoint
+     where the float actually applies — below md: these are block images in
+     normal flow and still need the spacing. */
+  @media (min-width: 768px) {
+    .prose-village figure[class*="float-"] {
+      margin-top: 0;
+    }
   }
 
   .prose-village figcaption {

@@ -33,12 +33,20 @@ Pumpkins & Hayrides is an annual autumn tradition held at Lions Park, hosted by 
 
 </div>
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/pumpkins-hayrides-2026-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/pumpkins-hayrides-2026-flyer.webp" alt="Event flyer for the Pumpkins & Hayrides community event at Zionsville Lions Park featuring illustrated jack-o'-lanterns, event details for Sunday, October 25, 2026, and a list of family activities."  class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Promotional flyer for the Pumpkins & Hayrides event at Zionsville Lions Park.
+  </figcaption>
+</figure>
+
 ## Details
 
 **When:** Sunday, October 25, 2026 · 2:00 to 5:00 PM  
 **Location:** Lions Park, 11053 Sycamore St, Zionsville  
 **Admission:** Free  
-**Contact:** Zionsville Lions Club · (317) 873-5540 · outreach@zionsvillelions.com  
 
 ## Activities
 

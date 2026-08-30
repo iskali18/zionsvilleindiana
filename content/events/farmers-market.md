@@ -27,7 +27,7 @@ photoCredit: "Photo by Zionsville Farmers Market"
 photoCreditHeroOnly: false
 featured: true
 tags: [market, shopping, family, outdoor, free, summer]
-lastUpdated: "2026-08-24"
+lastUpdated: "2026-08-29"
 faqs:
   - q: "When is the Zionsville Farmers Market in 2026?"
     a: "The Zionsville Farmers Market runs every Saturday from May 16 through September 26, 2026, from 8:00 AM to 11:30 AM."
@@ -60,6 +60,8 @@ The Zionsville Farmers Market is a weekly Saturday market in downtown Zionsville
 ## What to expect
 
 Vendors rotate throughout the season but typically include fresh produce from local farms, baked goods, prepared foods, honey, flowers, specialty meats, and handmade goods. Live music is often part of the morning, so the market feels as much like a community gathering as a place to shop.
+
+The final market of the 2026 season on September 26 includes Pumpkin Painting with MyArt in the Activity Zone. MyArt is a Zionsville art studio offering classes, camps, and creative programs for children and adults.
 
 ## Market Hours, Location, and 2026 Schedule
 

@@ -194,6 +194,15 @@ function formatEventDate(meta: Awaited<ReturnType<typeof getEvent>>['meta']): st
   })
 }
 
+function formatDate(iso: string | Date): string {
+  const d = typeof iso === 'string' ? new Date(iso + 'T00:00:00') : iso
+  return d.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  })
+}
+
 const getLinkText = (url: string) => {
   const clean = url
     .replace(/^https?:\/\//, '')
@@ -285,6 +294,13 @@ export default async function EventPage({ params }: Props) {
         </div>
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
+          {/* Freshness date — first thing under the hero, matching ArticleLayout. */}
+          {meta.lastUpdated && (
+            <p className="text-xs text-stone-500 mb-6">
+              Updated {formatDate(meta.lastUpdated)}
+            </p>
+          )}
+
           {/* Event ended banner (renders only if end date has passed) */}
           <EventEndedBanner startDate={meta.startDate} endDate={meta.endDate} />
 
