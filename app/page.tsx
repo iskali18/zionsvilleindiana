@@ -443,19 +443,25 @@ export default function HomePage() {
               Featured Article
             </p>
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              <Link
-                href="/articles/fall-activities-zionsville"
-                className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
-              >
-                <Image
-                  src="/images/articles/fall-activities-zionsville.webp"
-                  alt="Fall activities in Zionsville, Indiana"
-                  fill
-                  sizes="(min-width: 1024px) 536px, 100vw"
-                  className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  quality={65}
-                />
-              </Link>
+              <figure className="m-0">
+                <Link
+                  href="/articles/fall-activities-zionsville"
+                  className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
+                >
+                  <Image
+                    src="/images/articles/fall-activities-zionsville.webp"
+                    alt="Vibrant red and orange autumn foliage lining the paved Big-4 Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
+                    fill
+                    sizes="(min-width: 1024px) 536px, 100vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    quality={65}
+                  />
+                </Link>
+                <figcaption className="text-xs text-stone-500 italic mt-2">
+                  Peak fall colors framing the paved Big-4 Rail Trail in Zionsville.{' '}
+                  <span className="not-italic">© ZionsvilleIndiana.com</span>
+                </figcaption>
+              </figure>
               <div>
                 <Link
                   href="/articles/fall-activities-zionsville"
@@ -466,8 +472,9 @@ export default function HomePage() {
                   </h2>
                 </Link>
                 <p className="text-stone-700 leading-relaxed mb-6">
-                  Fall is one of the best times to get out around Zionsville. Use this guide 
-                  to find seasonal activities and events happening through November.
+                  Fall in Zionsville brings concerts and live performances, outdoor and nature
+                  activities, community races, art events, farm visits, and traditional fall
+                  activities throughout September, October, and November.
                 </p>
                 <Link
                   href="/articles/fall-activities-zionsville"
