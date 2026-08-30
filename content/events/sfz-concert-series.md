@@ -18,9 +18,9 @@ recurrenceLabel: "Select Sundays, Sep 2026 – Apr 2027"
 location: "St. Francis In-The-Fields Episcopal Church"
 address: "1525 Mulberry Street"
 externalUrl: "https://stfranciszionsville.org/sfz-concert-series"
-image: /images/events/sfz-concert-series-st-francis-zionsville.webp
+image: /images/events/sfz-concert-series-zionsville.webp
 imageAlt: "Close-up of a wooden violin and a polished brass alto saxophone resting together on an ornate black piano music desk."
-hero_position: "center 70%"
+hero_position: "center 42%"
 featured: true
 tags: [music, indoor]
 lastUpdated: "2026-08-27"
