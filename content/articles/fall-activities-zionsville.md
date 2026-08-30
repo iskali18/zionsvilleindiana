@@ -8,7 +8,7 @@ hubOrder: 15
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-08-27"
+lastUpdated: "2026-08-30"
 ctas:
   - label: See all Zionsville events
     href: /events
