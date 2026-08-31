@@ -332,7 +332,7 @@ The event includes **hayrides, free pumpkins for painting while supplies last, B
     <img src="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" alt="A large orange pumpkin falling mid-air from an extended fire truck ladder toward straw bales on the ground."  class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    A pumpkin drop from a fire truck ladder onto straw bales.
+    A pumpkin dropping from an extended fire truck ladder.
   </figcaption>
 </figure>
 
