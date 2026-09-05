@@ -48,7 +48,7 @@ This guide focuses on things to do in Zionsville throughout the fall season, inc
 | [SFZ Concert Series](#enjoy-the-sfz-concert-series)                                 | Sept. 13, Oct. 11 & Nov. 1         | Sunday afternoon concerts at St. Francis In-The-Fields   |
 | [Zionsville Parks & Recreation](#experience-fall-with-zionsville-parks--recreation) | Sept. 17–Nov. 21                   | Birding, campfire concerts, night hikes and owl walks    |
 | [Movies at Maplelawn](#watch-a-movie-at-maplelawn-farmstead)                        | Sept. 19 & 26                      | Outdoor movies projected onto the barn                   |
-| [Salem Fall Cookout](#spend-a-fall-evening-at-salem-methodist-church)               | Sept. 25                           | Hayrides, pumpkin painting, campfire and s’mores         |
+| [Salem Fall Cookout](#spend-a-fall-evening-at-salem-methodist-church)               | Oct. 2                           | Hayrides, pumpkin painting, campfire and s’mores         |
 | [GhostWalk](#experience-zionsvilles-ghostwalk)                                      | Oct. 2–3                           | Guided walking tour with reenacted local ghost stories   |
 | [Pumpkinfest](#celebrate-fall-at-pumpkinfest)                                       | Oct. 3                             | Pumpkins, children’s activities and hayrides             |
 | [Fall Races](#race-through-zionsville-this-fall)                                    | Oct. 3–Nov. 26                     | Hit the Bricks, Zionsville Half Marathon and Gravy Chase |
