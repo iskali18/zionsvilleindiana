@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import { zcsEvents, type Audience, type ZcsEvent } from '@/lib/zcs-calendar'
+import Toggle from '@/components/ui/Toggle'
 
 const AUDIENCES: { key: Audience; label: string }[] = [
   { key: 'elementary', label: 'All Elementary Schools' },
@@ -186,40 +187,6 @@ function DateBlock({ date, events }: DateBlockProps) {
         ))}
       </div>
     </div>
-  )
-}
-
-interface ToggleProps {
-  label: string
-  active: boolean
-  onClick: () => void
-}
-
-function Toggle({ label, active, onClick }: ToggleProps) {
-  return (
-    <button
-      type="button"
-      role="switch"
-      aria-checked={active}
-      onClick={onClick}
-      className={
-        active
-          ? 'inline-flex items-center gap-1.5 px-3 py-1.5 text-sm rounded-full border border-village-600 bg-village-600 text-white font-medium transition-colors'
-          : 'inline-flex items-center gap-1.5 px-3 py-1.5 text-sm rounded-full border border-stone-300 bg-white text-stone-600 font-medium hover:border-stone-400 hover:text-stone-900 transition-colors'
-      }
-    >
-      <span
-        className={
-          active
-            ? 'inline-flex items-center justify-center w-4 h-4 rounded-full bg-white text-village-600 text-[10px] font-bold'
-            : 'inline-flex items-center justify-center w-4 h-4 rounded-full border border-stone-300 text-transparent text-[10px]'
-        }
-        aria-hidden="true"
-      >
-        ✓
-      </span>
-      {label}
-    </button>
   )
 }
 

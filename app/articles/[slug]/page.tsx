@@ -4,6 +4,7 @@ import { getAllArticleSlugs, getArticle } from '@/lib/content'
 import ArticleLayout from '@/components/ArticleLayout'
 import ZcsCalendar from '@/components/ZcsCalendar'
 import ZcsMilestones from '@/components/ZcsMilestones'
+import FallFarmComparison from '@/components/FallFarmComparison'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -45,13 +46,23 @@ export default async function ArticlePage({ params }: Props) {
     const { meta, contentHtml } = await getArticle(slug)
 
     return (
-      <ArticleLayout meta={meta} contentHtml={contentHtml} pathPrefix="/articles">
+      <ArticleLayout
+        meta={meta}
+        contentHtml={contentHtml}
+        pathPrefix="/articles"
+        injectAt={
+          slug === 'pumpkin-patches-corn-mazes-near-indianapolis'
+            ? '<!-- FALL_FARM_COMPARISON -->'
+            : undefined
+        }
+      >
         {slug === 'zcs-school-calendar' && (
           <>
             <ZcsMilestones />
             <ZcsCalendar />
           </>
         )}
+        {slug === 'pumpkin-patches-corn-mazes-near-indianapolis' && <FallFarmComparison />}
       </ArticleLayout>
     )
   } catch {
