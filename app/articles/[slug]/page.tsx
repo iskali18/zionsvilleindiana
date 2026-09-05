@@ -5,6 +5,7 @@ import ArticleLayout from '@/components/ArticleLayout'
 import ZcsCalendar from '@/components/ZcsCalendar'
 import ZcsMilestones from '@/components/ZcsMilestones'
 import FallFarmComparison from '@/components/FallFarmComparison'
+import { DESTINATIONS } from '@/lib/fall-farms'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -50,6 +51,18 @@ export default async function ArticlePage({ params }: Props) {
         meta={meta}
         contentHtml={contentHtml}
         pathPrefix="/articles"
+        {...(slug === 'pumpkin-patches-corn-mazes-near-indianapolis'
+          ? {
+              // Built from the same data the comparison table reads, so the
+              // schema cannot drift from what is on the page.
+              itemListName: 'Fall farms and orchards near Zionsville and Indianapolis',
+              itemList: DESTINATIONS.map((d) => ({
+                name: d.name,
+                href: `#${d.anchor}`,
+                description: d.highlights,
+              })),
+            }
+          : {})}
         injectAt={
           slug === 'pumpkin-patches-corn-mazes-near-indianapolis'
             ? '<!-- FALL_FARM_COMPARISON -->'

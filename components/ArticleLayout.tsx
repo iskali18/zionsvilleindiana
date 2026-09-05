@@ -4,7 +4,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import FaqSection from '@/components/FaqSection'
-import type { ArticleMeta } from '@/types'
+import type { ArticleMeta, ItemListEntry } from '@/types'
 
 interface ArticleLayoutProps {
   meta: ArticleMeta
@@ -15,6 +15,13 @@ interface ArticleLayoutProps {
   /** Optional content rendered inside the main content area, AFTER the article body
    *  and BEFORE the lastUpdated/CTAs section. Use for interactive components like calendars. */
   children?: React.ReactNode
+  /** Optional ordered list of the things a roundup article covers, emitted as
+   *  ItemList JSON-LD. Pass it here when the data already lives somewhere (a
+   *  lib module, a content collection); otherwise put it in frontmatter as
+   *  `meta.itemList` and leave this undefined. */
+  itemList?: ItemListEntry[]
+  /** Optional name for that list, e.g. 'Fall farms near Zionsville'. */
+  itemListName?: string
   /** Optional marker string in contentHtml. When present AND children are supplied,
    *  splits the body at this marker and renders `children` between the two halves.
    *  If marker is absent from contentHtml, children fall back to end-of-body position.
@@ -23,7 +30,7 @@ interface ArticleLayoutProps {
   injectAt?: string
 }
 
-export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', children, injectAt }: ArticleLayoutProps) {
+export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', children, injectAt, itemList, itemListName }: ArticleLayoutProps) {
   const fullPath = `${pathPrefix}/${meta.slug}`
 
   const articleSchema = {
@@ -90,6 +97,30 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
     ],
   }
 
+  // Roundup articles list what they cover. The prop wins over frontmatter, so
+  // an article whose data lives in a lib module does not keep a second copy.
+  const listEntries = itemList ?? meta.itemList
+  const itemListSchema = listEntries && listEntries.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        ...(itemListName || meta.itemListName
+          ? { name: itemListName ?? meta.itemListName }
+          : {}),
+        itemListElement: listEntries.map((entry, i) => ({
+          '@type': 'ListItem',
+          position: i + 1,
+          name: entry.name,
+          ...(entry.description && { description: entry.description }),
+          ...(entry.href && {
+            url: entry.href.startsWith('http')
+              ? entry.href
+              : `https://zionsvilleindiana.com${entry.href.startsWith('#') ? fullPath : ''}${entry.href}`,
+          }),
+        })),
+      }
+    : null
+
   const faqSchema = meta.faqs && meta.faqs.length > 0
     ? {
         '@context': 'https://schema.org',
@@ -112,6 +143,12 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
+      {itemListSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListSchema) }}
+        />
+      )}
       {faqSchema && (
         <script
           type="application/ld+json"

@@ -227,6 +227,22 @@ export interface ArticleMeta {
   /** Optional park data. When present, ArticleLayout emits a Park schema in addition
    *  to the standard Article schema. Used for park-subject articles before /parks/[slug] ships. */
   park?: ArticleParkData
+  /** Ordered list of what a roundup article covers, emitted as ItemList schema.
+   *  Use this for roundups written entirely in markdown. When the list already
+   *  exists in a lib module, pass ArticleLayout's `itemList` prop instead so
+   *  there is only one copy of the data. */
+  itemList?: ItemListEntry[]
+  /** Optional name for that list, e.g. "Fall farms near Zionsville". */
+  itemListName?: string
+}
+
+/** One entry in a roundup's ItemList. `href` may be an on-page anchor
+ *  ("#dulls-tree-farm"), a site path ("/events/pumpkinfest") or an absolute
+ *  URL; ArticleLayout resolves the first two against the article's own URL. */
+export interface ItemListEntry {
+  name: string
+  href?: string
+  description?: string
 }
 
 // ─── Shared ──────────────────────────────────────────────────────────────────
