@@ -56,8 +56,8 @@ Cars are displayed throughout the outdoor areas around the Graham Rahal Performa
 
 | Feature | Detail |
 | :--- | :--- |
-| **Cars & Coffee Dates** | Saturday, August 29 & Saturday, September 26, 2026 |
-| **Cars & Coffee Time** | 9:00 AM – 11:00 AM EDT |
+| **Dates** | Saturday, August 29 & Saturday, September 26, 2026 |
+| **Time** | 9:00 AM – 11:00 AM EDT |
 | **Season Finale** | Saturday, October 24, 2026 — Trunk or Treat |
 | **Finale Time** | 4:00 PM – 6:00 PM EDT |
 | **Location** | [Graham Rahal Performance](https://maps.app.goo.gl/mczHw7vpnDz8dhUU7), 10850 Creek Way, Zionsville, IN 46077 |

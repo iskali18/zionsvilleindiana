@@ -197,7 +197,7 @@ Leashed pets are welcome on the grounds, though not in the edible crop areas or 
 - **Drive from Zionsville:** ~30 min (18 miles NE)
 - **Highlights:** Headless Horseman hayride, dry tubing hill, shows; barrel train (48 in. max height)
 
-Conner Prairie’s Headless Horseman Festival in Fishers runs **Thursday through Sunday, October 1–25, from 5–10 p.m.**
+Conner Prairie is an outdoor history museum in Fishers rather than a traditional farm, but its annual Headless Horseman Festival has become one of the Indianapolis area’s major fall attractions. The festival runs **Thursday through Sunday, October 1–25, from 5–10 p.m.**
 
 Festival admission is **$26 for nonmembers**. The Headless Horseman hayride costs an additional **$10** for both members and nonmembers. Members receive free festival admission but must reserve tickets. Festival admission is **$10** with an Access Pass, a discount program for Indiana residents receiving state assistance; a valid card and Indiana photo ID are required at the gate. Parking is free. Because festival capacity is limited, advance tickets are recommended.
 
