@@ -1,6 +1,6 @@
 ---
 title: "Cars & Coffee"
-alternateName: ["GR Brands Cars & Coffee", "Cars and Coffee", "Graham Rahal Cars & Coffee", "Graham Rahal Cars and Coffee"]
+alternateName: ["GR Brands Cars & Coffee", "Cars and Coffee", "Graham Rahal Cars & Coffee", "Graham Rahal Cars and Coffee", "Graham Rahal Performance Cars & Coffee", "Rahal Cars & Coffee"]
 description: "A recurring automotive gathering at Graham Rahal Performance in Zionsville featuring rare exotics, vintage classics, race cars, motorcycles, and other enthusiast vehicles."
 metaTitle: "Cars & Coffee 2026 | Zionsville Dates"
 metaDescription: "Cars & Coffee returns to Graham Rahal Performance in Zionsville Aug. 29 and Sept. 26, with a Trunk or Treat season finale Oct. 24."

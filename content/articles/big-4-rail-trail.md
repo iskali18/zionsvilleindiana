@@ -1,6 +1,6 @@
 ---
-title: Big-4 Rail Trail Guide
-metaTitle: "Big-4 Rail Trail Zionsville: Maps, Parking & Amenities"
+title: Zionsville Rail Trail Guide
+metaTitle: "Zionsville Rail Trail: Maps, Parking & Amenities"
 metaDescription: Zionsville Rail Trail section maps, trailheads, distances, parking, restrooms, trail amenities, landmarks, and access points.
 category: discovery
 hubOrder: 50
@@ -13,23 +13,23 @@ ctas:
     href: /things-to-do
   - label: View upcoming events
     href: /events
-lastUpdated: "2026-08-01"
+lastUpdated: "2026-09-06"
 faqs:
-  - q: "What is the Big-4 Rail Trail?"
-    a: "The Big-4 Rail Trail is Zionsville's main paved trail corridor, running about 5 miles from the Zionsville Road trailhead northwest to the Whitestown border. It connects parks, neighborhoods, and downtown Zionsville along the way."
+  - q: "What is the Zionsville Rail Trail?"
+    a: "The Zionsville Rail Trail is the Zionsville section of the Big-4 Rail Trail and the town’s main paved trail corridor, running about 5 miles from the Zionsville Road trailhead northwest to the Whitestown border. It connects parks, neighborhoods, and downtown Zionsville along the way."
   - q: "How long is the Zionsville Rail Trail?"
     a: "The Zionsville section of the Big-4 Rail Trail is about 5 miles long. Combined with the Whitestown section, the connected trail runs nearly 9 miles."
-  - q: "Where does the Big-4 Rail Trail start and end?"
-    a: "In Zionsville, the Big-4 Rail Trail starts at the Zionsville Road trailhead on the southeast side of town and ends at the Whitestown border near 750 E. The trail continues through Whitestown to 500 E, east of downtown Whitestown."
+  - q: "Where does the Zionsville Rail Trail start and end?"
+    a: "The Zionsville Rail Trail starts at the Zionsville Road trailhead on the southeast side of town and ends at the Whitestown border near 750 E. The trail continues through Whitestown to 500 E, east of downtown Whitestown."
   - q: "Where can I park to access the Zionsville Rail Trail?"
-    a: "The Big-4 Rail Trail has parking at several points along its route in Zionsville: the Zionsville Road trailhead lot, Town Hall, Jennings Field on Bloor Lane, Mulberry Fields Park, and Heritage Trail Park."
-  - q: "Are dogs allowed on the Big-4 Rail Trail?"
-    a: "Yes, leashed dogs are allowed on the Big-4 Rail Trail in Zionsville."
-  - q: "Is the Big-4 Rail Trail paved?"
-    a: "Yes, the Big-4 Rail Trail is paved with a 12-foot-wide asphalt surface throughout the Zionsville section, suitable for walking, running, biking, strollers, and mobility devices."
-  - q: "Are e-bikes allowed on the Big-4 Rail Trail?"
-    a: "Class 1 and Class 2 e-bikes are allowed on the Big-4 Rail Trail. Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, and gasoline-powered vehicles are not allowed."
-  - q: "Are there restrooms on the Big-4 Rail Trail?"
+    a: "The Zionsville Rail Trail has parking at several points along its route: the Zionsville Road trailhead lot, Town Hall, Jennings Field on Bloor Lane, Mulberry Fields Park, and Heritage Trail Park."
+  - q: "Are dogs allowed on the Zionsville Rail Trail?"
+    a: "Yes, leashed dogs are allowed on the Zionsville Rail Trail."
+  - q: "Is the Zionsville Rail Trail paved?"
+    a: "Yes, the Zionsville Rail Trail is paved with a 12-foot-wide asphalt surface throughout, suitable for walking, running, biking, strollers, and mobility devices."
+  - q: "Are e-bikes allowed on the Zionsville Rail Trail?"
+    a: "Class 1 and Class 2 e-bikes are allowed on the Zionsville Rail Trail. Class 3 e-bikes, electric scooters, mini-bikes, one-wheels, and gasoline-powered vehicles are not allowed."
+  - q: "Are there restrooms on the Zionsville Rail Trail?"
     a: "Yes, at several points along the trail. Permanent restrooms are at the Zionsville Road Trailhead (south end) and Heritage Trail Park (north end). Town Hall has indoor restrooms available Monday–Friday, 8 AM–4 PM. A portable restroom is at the Starkey Avenue Trail Parking. Mulberry Fields Park, located near a Rail Trail access point, is another option. Availability is not continuous along the trail — plan around trailhead and park stops."
   - q: "Where can I fill up on water along the Rail Trail?"
     a: "Drinking fountains and bottle fillers are at the Zionsville Road Trailhead and Heritage Trail Park. Town Hall has indoor drinking fountains available Monday–Friday, 8 AM–4 PM. Mulberry Fields Park, located near a Rail Trail access point, also has drinking water."
@@ -39,9 +39,9 @@ faqs:
 
 ## About the Zionsville Rail Trail
 
-The Big-4 Rail Trail — often called the Zionsville Rail Trail — is Zionsville’s main paved trail corridor, beginning at the Zionsville Road trailhead on the southeast side of town and continuing northwest to the Whitestown border. Along the way, it links parks, neighborhoods, a Village-area access point, and several rest areas.
+The Zionsville Rail Trail is the southernmost section of the Big-4 Rail Trail, a former railroad corridor with trail segments extending north through Whitestown, Lebanon, Thorntown, and Colfax. While the entire Big-4 route is not yet continuously connected, the Zionsville and Whitestown sections join to form a nearly 9-mile paved route.
 
-The Zionsville section is about 5 miles long, with a wide paved surface for walking, running, biking, strollers, mobility devices, and leashed dogs. The trail also continues into Whitestown, creating a nearly 9-mile paved route for longer walks and rides.
+In Zionsville, the trail runs about 5 miles from the Zionsville Road trailhead on the southeast side of town northwest to the Whitestown border. The wide, paved path connects parks, neighborhoods, a Village-area access point, and several rest areas along the way. It is used for walking, running, biking, and outings with strollers, mobility devices, and leashed dogs.
 
 ## Quick Facts
 
@@ -104,7 +104,7 @@ The detailed guide below follows the trail from the Zionsville Road Trailhead to
 
 <figure>
   <a href="/images/articles/rail-trail-section-1.webp" target="_blank" rel="noopener noreferrer">
-    <img src="/images/articles/rail-trail-section-1.webp" alt="An aerial satellite map overview of Section 1 of the Big-4 Rail Trail in Zionsville, Indiana, showing the 1.5-mile route from the Zionsville Road trailhead parking lot northwest to Town Hall, with labels for Starkey Park and Overley-Worman Park." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/articles/rail-trail-section-1.webp" alt="An aerial satellite map overview of Section 1 of the Zionsville Rail Trail in Indiana, showing the 1.5-mile route from the Zionsville Road trailhead parking lot northwest to Town Hall, with labels for Starkey Park and Overley-Worman Park." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Section 1 follows the Rail Trail from the Zionsville Road Trailhead to Town Hall, passing Overley-Worman Park, Starkey Park, and the Eagle Creek crossing. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
@@ -131,7 +131,7 @@ From there, the route continues to a Zionsville Train Depot historic landmark si
     </figcaption>
   </figure>
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-1-2-oak-street-tunnel.webp" alt="Silhouetted cyclists riding through the illuminated concrete Oak Street tunnel on the Big-4 Rail Trail, featuring a light blue mural painted with vibrant yellow and pink dahlias and the text &quot;The Dahlia City Zionsville&quot;." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-1-2-oak-street-tunnel.webp" alt="Silhouetted cyclists riding through the illuminated concrete Oak Street tunnel on the Zionsville Rail Trail, featuring a light blue mural painted with vibrant yellow and pink dahlias and the text &quot;The Dahlia City Zionsville&quot;." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       Cyclists passing through the Oak Street tunnel and Dahlia City mural. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
@@ -264,7 +264,7 @@ From there, the route continues to a Zionsville Train Depot historic landmark si
 
 <figure>
   <a href="/images/articles/rail-trail-section-2.webp" target="_blank" rel="noopener noreferrer">
-    <img src="/images/articles/rail-trail-section-2.webp" alt="An aerial satellite map overview of Section 2 of the Big-4 Rail Trail in Zionsville, Indiana, tracing the 0.4-mile route from Town Hall to Bloor Lane past local residential complexes and dense tree cover." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/articles/rail-trail-section-2.webp" alt="An aerial satellite map overview of Section 2 of the Zionsville Rail Trail in Indiana, tracing the 0.4-mile route from Town Hall to Bloor Lane past local residential complexes and dense tree cover." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Section 2 covers the short wooded stretch between Town Hall and Bloor Lane, ending near Jennings Field and the Bloor Lane access point. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
@@ -281,13 +281,13 @@ Just beyond the underpass, access paths leave the Rail Trail on both sides. The 
 
 <div class="my-6 flex flex-col sm:flex-row gap-4">
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-2-1-town-hall.webp" alt="The paved asphalt path of the Big-4 Rail Trail passing directly alongside the brick building of Zionsville Town Hall in Zionsville, Indiana." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-2-1-town-hall.webp" alt="The paved asphalt path of the Zionsville Rail Trail passing directly alongside the brick building of Zionsville Town Hall in Zionsville, Indiana." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       The Rail Trail passing Town Hall, with the rest area and bike repair station nearby. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
   </figure>
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-2-2-wooded-curve.webp" alt="A winding paved curve with a painted white centerline on the Big-4 Rail Trail, surrounded by dense green trees and a wooden bridge structure in Zionsville, Indiana." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-2-2-wooded-curve.webp" alt="A winding paved curve with a painted white centerline on the Zionsville Rail Trail, surrounded by dense green trees and a wooden bridge structure in Zionsville, Indiana." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       Marked curve through the wooded stretch north of Town Hall. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
@@ -295,13 +295,13 @@ Just beyond the underpass, access paths leave the Rail Trail on both sides. The 
 </div>
 <div class="my-6 flex flex-col sm:flex-row gap-4">
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-2-3-pedestrian-bridge.webp" alt="A straight paved section of the Big-4 Rail Trail in Zionsville, Indiana, featuring a white centerline, a wooden pedestrian bridge on the right, and a park bench alongside the wooded path." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-2-3-pedestrian-bridge.webp" alt="A straight paved section of the Zionsville Rail Trail in Indiana, featuring a white centerline, a wooden pedestrian bridge on the right, and a park bench alongside the wooded path." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       Wooded Rail Trail stretch near Bloor Lane with a small pedestrian bridge. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
   </figure>
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-2-4-bloor-lane-underpass.webp" alt="The paved Big-4 Rail Trail path continuing underneath the concrete Bloor Lane underpass bridge, surrounded by lush green trees in Zionsville, Indiana." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-2-4-bloor-lane-underpass.webp" alt="The paved Zionsville Rail Trail path continuing underneath the concrete Bloor Lane underpass bridge, surrounded by lush green trees in Zionsville, Indiana." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       The Rail Trail passing under Bloor Lane near Jennings Field. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
@@ -331,14 +331,14 @@ Just beyond the underpass, access paths leave the Rail Trail on both sides. The 
 
 <figure>
   <a href="/images/articles/rail-trail-section-3.webp" target="_blank" rel="noopener noreferrer">
-    <img src="/images/articles/rail-trail-section-3.webp" alt="An aerial satellite map overview of Section 3 of the Big-4 Rail Trail in Zionsville, Indiana, outlining the 0.6-mile segment from Bloor Lane to Mulberry Street with Mulberry Fields Park labeled to the south." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/articles/rail-trail-section-3.webp" alt="An aerial satellite map overview of Section 3 of the Zionsville Rail Trail in Indiana, outlining the 0.6-mile segment from Bloor Lane to Mulberry Street with Mulberry Fields Park labeled to the south." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Section 3 traces the route from Bloor Lane to Mulberry Street, with nearby access to Mulberry Fields Park from Whitestown Road. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
   </figcaption>
 </figure>
 
-From the Jennings Field area near Bloor Lane, the Big-4 Rail Trail heads northwest toward Mulberry Street. This segment is about 0.6 mile and stays mostly wooded, with a long paved straightaway bordered by trees and tall grasses.
+From the Jennings Field area near Bloor Lane, the Zionsville Rail Trail heads northwest toward Mulberry Street. This segment is about 0.6 mile and stays mostly wooded, with a long paved straightaway bordered by trees and tall grasses.
 
 The Mile 2 post appears along this stretch before the route approaches the Mulberry Street tunnel. Just before the tunnel, a path on the right leads up to Mulberry Street, with nearby connections to neighborhood streets and local organizations.
 
@@ -346,13 +346,13 @@ After the tunnel, a path on the left climbs to Whitestown Road. Cross Whitestown
 
 <div class="my-6 flex flex-col sm:flex-row gap-4">
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-3-1-mile-2-marker.webp" alt="A green and white metal sign reading &quot;B4 TRAIL MILE 2&quot; mounted on a black post along the edge of the paved Big-4 Rail Trail, surrounded by dense green bushes and trees." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-3-1-mile-2-marker.webp" alt="A green and white metal sign reading &quot;B4 TRAIL MILE 2&quot; mounted on a black post along the edge of the paved Zionsville Rail Trail, surrounded by dense green bushes and trees." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       Mile 2 marker along the wooded stretch between Bloor Lane and Mulberry Street. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
   </figure>
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-3-2-mulberry-street-tunnel.webp" alt="A concrete underpass tunnel on the Big-4 Rail Trail beneath Mulberry Street, featuring a detailed outdoor mural painted to look like a large hollow log with a raccoon and wild mushrooms. Overhead lights illuminate the paved path leading through the tunnel." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-3-2-mulberry-street-tunnel.webp" alt="A concrete underpass tunnel on the Zionsville Rail Trail beneath Mulberry Street, featuring a detailed outdoor mural painted to look like a large hollow log with a raccoon and wild mushrooms. Overhead lights illuminate the paved path leading through the tunnel." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       Mulberry Street tunnel near the north end of Section 3. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
@@ -379,14 +379,14 @@ After the tunnel, a path on the left climbs to Whitestown Road. Cross Whitestown
 
 <figure>
   <a href="/images/articles/rail-trail-section-4.webp" target="_blank" rel="noopener noreferrer">
-    <img src="/images/articles/rail-trail-section-4.webp" alt="An aerial satellite map overview of Section 4 of the Big-4 Rail Trail in Zionsville, Indiana, illustrating the 1.6-mile path from Mulberry Street to Heritage Trail Park through surrounding neighborhoods." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/articles/rail-trail-section-4.webp" alt="An aerial satellite map overview of Section 4 of the Zionsville Rail Trail in Indiana, illustrating the 1.6-mile path from Mulberry Street to Heritage Trail Park through surrounding neighborhoods." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Section 4 is the longest Zionsville segment, continuing from Mulberry Street toward Heritage Trail Park through wooded areas, neighborhoods, and the S 875 E crossing. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
   </figcaption>
 </figure>
 
-From Mulberry Street, the Big-4 Rail Trail continues northwest toward Heritage Trail Park. This is one of the longer Zionsville sections, about 1.6 miles, starting near the Mulberry Street tunnel and ending inside Heritage Trail Park.
+From Mulberry Street, the Zionsville Rail Trail continues northwest toward Heritage Trail Park. This is one of the longer Zionsville sections, about 1.6 miles, starting near the Mulberry Street tunnel and ending inside Heritage Trail Park.
 
 The first portion stays wooded as the route moves away from Mulberry Street. About 0.8 mile in, an access path on the left leads to Carter Station park, a 20-acre wetland area next to the Rail Trail. The park has a short trail loop around a small pond, with a bench near the water among grasses, wetland plants, and trees. It is a quiet, tucked-away place to pause before returning to the Rail Trail.
 
@@ -396,7 +396,7 @@ To reach Heritage Trail Park, cross S 875 E at the marked trail crossing and con
 
 <div class="my-6 flex flex-col sm:flex-row gap-4">
   <figure class="flex-1 m-0">
-    <img src="/images/articles/rail-trail-section-4-1-neighborhood-path.webp" alt="A wide, paved section of the Big-4 Rail Trail running parallel to a grassy area with a blue fire hydrant, a sidewalk, and a quiet residential neighborhood street lined with mature trees." class="w-full rounded-lg shadow-sm" />
+    <img src="/images/articles/rail-trail-section-4-1-neighborhood-path.webp" alt="A wide, paved section of the Zionsville Rail Trail running parallel to a grassy area with a blue fire hydrant, a sidewalk, and a quiet residential neighborhood street lined with mature trees." class="w-full rounded-lg shadow-sm" />
     <figcaption class="text-xs text-stone-500 italic mt-2">
       Neighborhood stretch between Carter Station and Heritage Trail Park. · <span class="not-italic">© ZionsvilleIndiana.com</span>
     </figcaption>
@@ -430,14 +430,14 @@ To reach Heritage Trail Park, cross S 875 E at the marked trail crossing and con
 
 <figure>
   <a href="/images/articles/rail-trail-section-5a.webp" target="_blank" rel="noopener noreferrer">
-    <img src="/images/articles/rail-trail-section-5a.webp" alt="An aerial satellite map overview of Section 5 of the Big-4 Rail Trail in Zionsville, Indiana, highlighting the 1.2-mile open corridor from Heritage Trail Park northwest to the Whitestown border." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/articles/rail-trail-section-5a.webp" alt="An aerial satellite map overview of Section 5 of the Zionsville Rail Trail in Indiana, highlighting the 1.2-mile open corridor from Heritage Trail Park northwest to the Whitestown border." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Section 5 follows the final Zionsville stretch from Heritage Trail Park to the Whitestown border, where the trail reaches 750 E. · <span class="not-italic">© TomTom, © OpenStreetMap, and © Vexcel Imaging.</span>
   </figcaption>
 </figure>
 
-From Heritage Trail Park, the Big-4 Rail Trail heads northwest for about 1.2 miles to the Whitestown border. This final Zionsville stretch shifts away from the wooded sections farther south and into a broader edge-of-town corridor.
+From Heritage Trail Park, the Zionsville Rail Trail heads northwest for about 1.2 miles to the Whitestown border. This final Zionsville stretch shifts away from the wooded sections farther south and into a broader edge-of-town corridor.
 
 After leaving the park, the path has limited shade and wider views, with farm fields, utility infrastructure, and newer development nearby. There is more sky overhead here, with fewer trees close to the pavement as the route approaches 750 E.
 
@@ -465,4 +465,4 @@ The Whitestown trail continues beyond downtown to 500 E; together, the Zionsvill
 
 ## Before you head out
 
-The Big-4 Rail Trail follows a continuous paved path from the Zionsville Road Trailhead past Town Hall, Mulberry Fields, and Heritage Trail Park. Along the way, the scenery shifts from creek crossings and wooded stretches to park access points, neighborhood edges, and open farmland near 750 E. Use the section tables to pick a starting point, check restroom and water access, and decide where to turn around — or continue into Whitestown.
+The Zionsville Rail Trail follows a continuous paved path from the Zionsville Road Trailhead past Town Hall, Mulberry Fields, and Heritage Trail Park. Along the way, the scenery shifts from creek crossings and wooded stretches to park access points, neighborhood edges, and open farmland near 750 E. Use the section tables to pick a starting point, check restroom and water access, and decide where to turn around — or continue into Whitestown.
