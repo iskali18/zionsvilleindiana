@@ -6,6 +6,7 @@ import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import { getFeaturedEvents, getAllEvents, formatOccurrenceList } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
+import { activeGuides } from '@/lib/seasonal-guides'
 
 export const metadata: Metadata = {
   title: 'Zionsville Indiana Events 2026 Calendar',
@@ -51,6 +52,16 @@ export default async function EventsPage() {
   const calendarEvents = await getUpcomingEvents(24)
   const allSlugs = allEvents.map((e) => e.slug)
   const calendarSchemas = calendarEvents.map(buildEventSchema)
+
+  // Guides live today. Indianapolis time so the strip turns over locally.
+  const guides = activeGuides(
+    new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Indiana/Indianapolis' }))
+  )
+
+  // The strip sits after the first desktop row, so people see the events they
+  // came for before the guides.
+  const firstRow = featuredEvents.slice(0, 3)
+  const restRow = featuredEvents.slice(3)
 
   const featuredSchema = {
     '@context': 'https://schema.org',
@@ -107,7 +118,75 @@ export default async function EventsPage() {
             <p className="text-stone-400 text-sm">No featured events found. Check back soon.</p>
           ) : (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {featuredEvents.map((event) => (
+              {firstRow.map((event) => (
+                <Link
+                  key={event.slug}
+                  href={`/events/${event.slug}`}
+                  className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
+                >
+                  <div className="relative aspect-[16/9] bg-stone-100">
+                    <Image
+                      src={event.image}
+                      alt={event.imageAlt}
+                      fill
+                      sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                    {event.photoCredit && !event.photoCreditHeroOnly && (
+                      <p
+                        className="absolute bottom-1.5 right-2 text-white/70 text-[10px] leading-none"
+                        style={{ textShadow: '0 1px 2px rgba(0,0,0,0.8)' }}
+                      >
+                        {event.photoCredit}
+                      </p>
+                    )}
+                  </div>
+                  <div className="p-4">
+                    <p className="text-xs text-brick-600 font-medium mb-1 line-clamp-2">
+                      {(event.occurrences?.length
+                        ? formatOccurrenceList(event.occurrences)
+                        : null) ??
+                        event.recurrenceLabel ?? (
+                        event.endDate && event.endDate !== event.startDate
+                          ? `${new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })} – ${new Date(event.endDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}`
+                          : new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })
+                      )}
+                    </p>
+                    <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
+                      {event.title}
+                    </h3>
+                    <p className="text-sm text-stone-500 mt-1 line-clamp-2">{event.description}</p>
+                    <p className="text-xs text-stone-400 mt-2">{event.location}</p>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          )}
+
+          {guides.length > 0 && (
+            <div className="my-6 rounded-lg bg-amber-50/70 border border-amber-100 px-6 py-4">
+              <div className="flex flex-col gap-x-10 gap-y-2.5 sm:flex-row sm:items-baseline">
+                <p className="m-0 shrink-0 text-sm font-semibold text-stone-800">
+                  Planning the season?
+                </p>
+                <p className="m-0 flex flex-wrap gap-x-10 gap-y-2.5 text-sm">
+                  {guides.map((g) => (
+                    <Link
+                      key={g.href}
+                      href={g.href}
+                      className="font-medium text-brick-600 hover:text-brick-700 whitespace-nowrap"
+                    >
+                      {g.title} →
+                    </Link>
+                  ))}
+                </p>
+              </div>
+            </div>
+          )}
+
+          {restRow.length > 0 && (
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              {restRow.map((event) => (
                 <Link
                   key={event.slug}
                   href={`/events/${event.slug}`}

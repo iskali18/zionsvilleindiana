@@ -4,7 +4,7 @@ metaTitle: "Fall Activities in Zionsville 2026 | Things to Do"
 metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and trails, September through November."
 description: "A guide to fall activities in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and traditional fall activities from September through November 2026."
 category: "discovery"
-hubOrder: 15
+hubOrder: 8
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
@@ -35,7 +35,7 @@ faqs:
 
 Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits, and traditional fall activities throughout September, October, and November.
 
-This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own.
+This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For pumpkin patches, apple orchards and corn mazes, see our guide to [fall farms and orchards near Zionsville and Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
 ## Fall Activities at a Glance
 
@@ -307,13 +307,13 @@ The **Zionsville Half Marathon & 5K** returns **November 21**, offering both a 1
 
 ### Gravy Chase
 
-On **Thanksgiving morning, November 26**, the [Gravy Chase](https://www.bgcboone.org/events-news/gravy-chase/) offers 2.2-mile and 4-mile run/walk routes through historic downtown Zionsville.
+On **Thanksgiving morning, November 26**, the [Gravy Chase](https://www.bgcboone.org/events-news/gravy-chase/) offers 2.2-mile and 4-mile run/walk routes through [historic downtown Zionsville](/downtown).
 
 The event is the **Boys & Girls Club of Boone County’s largest annual fundraiser**, with 100% of proceeds supporting programs, camps and sports for local youth. The Zionsville Gravy Chase enters its ninth year in 2026.
 
 ## Explore Gallery On & Off Main
 
-[Gallery On & Off Main](https://mainstreetzionsville.org/art-walk) brings local artists and artisans into shops throughout the Village on **October 24**.
+[Gallery On & Off Main](https://mainstreetzionsville.org/art-walk) brings local artists and artisans into shops throughout [the Village](/downtown) on **October 24**.
 
 Main Street merchants open their businesses to participating artists, creating an art walk along Main Street and in nearby shops. Visitors can browse artwork, meet artists, and explore businesses throughout the district from **noon to 8:00 PM**.
 
