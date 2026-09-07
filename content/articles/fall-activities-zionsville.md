@@ -4,7 +4,7 @@ metaTitle: "Fall Activities in Zionsville 2026 | Things to Do"
 metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and trails, September through November."
 description: "A guide to fall activities in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and traditional fall activities from September through November 2026."
 category: "discovery"
-hubOrder: 8
+hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"

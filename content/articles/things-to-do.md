@@ -10,7 +10,7 @@ ctas:
     href: /events
   - label: Explore Zionsville coffee shops
     href: /articles/coffee-shops
-lastUpdated: "2026-08-17"
+lastUpdated: "2026-09-07"
 faqs:
   - q: "What is there to do in Zionsville, Indiana?"
     a: "Zionsville offers a mix of downtown shopping and restaurants along brick-paved Main Street, outdoor activities on the Big-4 Rail Trail and in local parks, farm visits, cultural sites like the SullivanMunce Cultural Center, and casual dining and coffee shops in areas outside the Village."
@@ -210,4 +210,4 @@ For current dates and additional events, check the [Zionsville events calendar](
 
 ## Looking for a longer outing?
 
-For summer destinations within a two-hour drive, see our guide to [summer day trips from Zionsville](/articles/summer-day-trips-from-zionsville).
+For fall destinations near Zionsville and Indianapolis, see our guide to [pumpkin patches, corn mazes and fall farms](/articles/pumpkin-patches-corn-mazes-near-indianapolis).

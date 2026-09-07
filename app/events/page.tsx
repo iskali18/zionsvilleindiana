@@ -265,6 +265,13 @@ export default async function EventsPage() {
                           timeZone: 'America/Indiana/Indianapolis',
                         })}
                       </p>
+                      {/* Weekday — the thing people actually plan around. */}
+                      <p className="text-xs text-stone-500 leading-none mt-0.5">
+                        {displayDate.toLocaleDateString('en-US', {
+                          weekday: 'short',
+                          timeZone: 'America/Indiana/Indianapolis',
+                        })}
+                      </p>
                       {event.lastOccurrenceDate && (
                         <p className="text-xs text-stone-400 leading-none mt-0.5">
                           – {new Date(event.lastOccurrenceDate).toLocaleDateString('en-US', {

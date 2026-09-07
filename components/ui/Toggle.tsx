@@ -47,8 +47,8 @@ export default function Toggle({ label, active, onClick, accent = 'village' }: T
       <span
         className={
           active
-            ? `inline-flex items-center justify-center w-4 h-4 rounded-full bg-white ${colour.check} text-[10px] font-bold`
-            : 'inline-flex items-center justify-center w-4 h-4 rounded-full border border-stone-300 text-transparent text-[10px]'
+            ? `inline-flex items-center justify-center w-4 h-4 rounded-sm bg-white ${colour.check} text-[10px] font-bold`
+            : 'inline-flex items-center justify-center w-4 h-4 rounded-sm border border-stone-300 text-transparent text-[10px]'
         }
         aria-hidden="true"
       >
