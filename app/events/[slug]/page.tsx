@@ -8,7 +8,8 @@ import Breadcrumb from '@/components/ui/Breadcrumb'
 import EventEndedBanner from '@/components/EventEndedBanner'
 import EventInSeasonBanner from '@/components/EventInSeasonBanner'
 import FaqSection from '@/components/FaqSection'
-import { getAllEventSlugs, getEvent, nextWeeklyOccurrence } from '@/lib/content'
+import { getAllEventSlugs, getEvent } from '@/lib/content'
+import ChristmasEventTable from '@/components/ChristmasEventTable'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -62,27 +63,17 @@ function nextOccurrence(occurrences: Array<string | Date>): string | null {
   )
 }
 
-/** getEvent() returns raw frontmatter, so a season event still carries the
- *  first date of the season in startDate/startDateTime. Roll those forward to
- *  the next upcoming date, keeping the time of day, so the schema never
- *  advertises a date that has already passed. Handles both an explicit
- *  `occurrences` list and a weekly `recurrence`, mirroring what getAllEvents()
- *  does for the hub — the two must agree or the card and the schema disagree.
- *  Leaves endDate alone: that marks the end of the season and drives
- *  EventEndedBanner. */
-function resolveNextDates(
+/** getEvent() returns raw frontmatter, so an event with an `occurrences` list
+ *  still carries the first date of the season in startDate/startDateTime. Roll
+ *  those forward to the next upcoming date, keeping the time of day, so the
+ *  schema never advertises a date that has already passed. Leaves endDate alone
+ *  — that marks the end of the season and drives EventEndedBanner. */
+function resolveOccurrenceDates(
   meta: Awaited<ReturnType<typeof getEvent>>['meta']
 ): Awaited<ReturnType<typeof getEvent>>['meta'] {
-  const now = new Date()
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  if (!meta.occurrences?.length) return meta
 
-  // `occurrences` takes precedence over `recurrence`, same as getAllEvents().
-  const next = meta.occurrences?.length
-    ? nextOccurrence(meta.occurrences)
-    : meta.recurrence
-    ? nextWeeklyOccurrence(meta.recurrence, today)
-    : null
-
+  const next = nextOccurrence(meta.occurrences)
   if (!next) return meta
 
   // "2026-08-29T09:00:00-04:00" -> "2026-09-26T09:00:00-04:00"
@@ -97,7 +88,7 @@ function resolveNextDates(
 }
 
 function buildEventSchema(rawMeta: Awaited<ReturnType<typeof getEvent>>['meta']) {
-  const meta = resolveNextDates(rawMeta)
+  const meta = resolveOccurrenceDates(rawMeta)
 
   // Season hubs (e.g. Christmas in Zionsville) list several separate events
   // rather than being a single event. Emitting one Event for the whole season
@@ -194,15 +185,6 @@ function formatEventDate(meta: Awaited<ReturnType<typeof getEvent>>['meta']): st
   })
 }
 
-function formatDate(iso: string | Date): string {
-  const d = typeof iso === 'string' ? new Date(iso + 'T00:00:00') : iso
-  return d.toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  })
-}
-
 const getLinkText = (url: string) => {
   const clean = url
     .replace(/^https?:\/\//, '')
@@ -294,13 +276,6 @@ export default async function EventPage({ params }: Props) {
         </div>
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          {/* Freshness date — first thing under the hero, matching ArticleLayout. */}
-          {meta.lastUpdated && (
-            <p className="text-xs text-stone-500 mb-6">
-              Updated {formatDate(meta.lastUpdated)}
-            </p>
-          )}
-
           {/* Event ended banner (renders only if end date has passed) */}
           <EventEndedBanner startDate={meta.startDate} endDate={meta.endDate} />
 
@@ -337,11 +312,28 @@ export default async function EventPage({ params }: Props) {
             )}
           </dl>
 
-          {/* Body content */}
-          <div
-            className="prose-village"
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
-          />
+          {/* Body content. A page that embeds an interactive component puts a
+              marker in its markdown; the body splits there and the component
+              renders between the two halves. */}
+          {(() => {
+            const MARKER = '<!-- CHRISTMAS_EVENT_TABLE -->'
+            if (slug === 'christmas-in-zionsville' && contentHtml.includes(MARKER)) {
+              const [before, ...rest] = contentHtml.split(MARKER)
+              return (
+                <>
+                  <div className="prose-village" dangerouslySetInnerHTML={{ __html: before }} />
+                  <ChristmasEventTable />
+                  <div
+                    className="prose-village"
+                    dangerouslySetInnerHTML={{ __html: rest.join(MARKER) }}
+                  />
+                </>
+              )
+            }
+            return (
+              <div className="prose-village" dangerouslySetInnerHTML={{ __html: contentHtml }} />
+            )
+          })()}
 
           {/* Map (optional, set via mapEmbedUrl in frontmatter) */}
           {meta.mapEmbedUrl && (
@@ -365,10 +357,7 @@ export default async function EventPage({ params }: Props) {
 
           {/* FAQs — the visible counterpart to the FAQPage JSON-LD above.
               Renders nothing when frontmatter has no `faqs`. */}
-          <FaqSection
-            faqs={meta.faqs}
-            title={`Common questions about ${meta.title}`}
-          />
+          <FaqSection faqs={meta.faqs} />
 
           {/* ── CTA ──────────────────────────────────────────────────── */}
           <div className="mt-10 pt-6 border-t border-stone-200 flex flex-wrap gap-6">
