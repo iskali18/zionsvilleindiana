@@ -42,12 +42,14 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   // Add as each guide goes live. Windows may overlap; priority decides which
   // three show.
   //
-  // {
-  //   href: '/articles/halloween-zionsville',
-  //   title: 'Halloween in Zionsville',
-  //   blurb: 'Trick-or-treat times, trunk-or-treats and neighbourhood events.',
-  //   from: '2026-10-01', to: '2026-11-01', priority: 10,
-  // },
+  {
+    href: '/articles/halloween-zionsville',
+    title: 'Trick-or-Treat & Trunk-or-Treat Events',
+    blurb: 'Dates, times, ages and costs for the 2026 events around Zionsville.',
+    from: '2026-09-07',
+    to: '2026-11-01',
+    priority: 40,
+  },
   // {
   //   href: '/articles/christmas-zionsville',
   //   title: 'Christmas in Zionsville',

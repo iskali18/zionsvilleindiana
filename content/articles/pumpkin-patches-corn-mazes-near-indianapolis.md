@@ -4,11 +4,11 @@ metaTitle: "Pumpkin Patches & Corn Mazes Near Indianapolis 2026"
 metaDescription: "Compare pumpkin patches, apple orchards and fall farms near Indianapolis for 2026 — admission prices, extra costs, activities and fall festivals."
 description: "A comparison of pumpkin patches, apple orchards and fall destinations near Zionsville and Indianapolis for the 2026 season, covering admission, pumpkin pricing, activities, height requirements and published sensory or accessibility information."
 category: "discovery"
-hubOrder: 7
+hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-zionsville-indianapolis-scarecrow.webp
 hero_position: "center 45%"
-lastUpdated: "2026-09-05"
+lastUpdated: "2026-09-07"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -24,11 +24,13 @@ faqs:
   - q: "Which destinations publish sensory or accessibility information?"
     a: "Conner Prairie publishes detailed sensory and accessibility information for its Headless Horseman Festival. Piney Acres Farm hosts the Autism Society of Indiana’s Ausome Fall Fest on September 12 and has handicap-accessible indoor restrooms, though its train cars are not wheelchair accessible. Tuttle Orchards, Lark Ranch, Stuckey Farm and Beasley’s Orchard have published accessibility details."
   - q: "When do the 2026 fall farm seasons start?"
-    a: "Tuttle Orchards begins U-pick apples August 28 and pumpkins September 18. Lark Ranch and Piney Acres Farm open September 19. Dull’s Tree Farm, Russell Farms and Waterman’s Family Farm open September 26. Conner Prairie’s Headless Horseman Festival runs October 1 through 25."
+    a: "Tuttle Orchards begins U-pick apples August 28 and pumpkins September 18. Lark Ranch and Piney Acres Farm open September 19. Dull’s Tree Farm, Russell Farms and Waterman’s Family Farm open September 26. Conner Prairie’s Headless Horseman Festival runs October 1 through 25. Anderson Orchard and Spencer Farm are working farms open year round, with Spencer’s pumpkin patch opening September 19 and Anderson’s in late September."
   - q: "Are pumpkins included with admission?"
     a: "Usually not. Pumpkins are typically purchased separately even at destinations that charge general admission. Tuttle Orchards charges $10 for a carving pumpkin whatever its size, $5 for a pie pumpkin and $2 for a mini. Waterman’s Family Farm lists pumpkins from $5 and Russell Farms lists an average carving pumpkin at about $5 to $12. Nehemiah Ranch includes a child’s pumpkin with its free Fall Harvest Days."
   - q: "Which fall destinations are closest to Zionsville?"
     a: "Driving Wind Berry Farms in Indianapolis and Hogan Farms in Brownsburg are both about 17 minutes from Zionsville, and Stuckey Farm in Sheridan is about 20 minutes. They are the closest destinations in this guide."
+  - q: "Are there evening or after-dark fall events?"
+    a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 3, 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23 and runs Scream Farm as a separate ticketed haunted attraction, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m."
   - q: "What is the Ausome Fall Fest at Piney Acres Farm?"
     a: "Ausome Fall Fest is the Autism Society of Indiana’s event at Piney Acres Farm on September 12 from noon to 3 p.m., before the farm’s regular fall season begins. Admission includes a train or tractor ride, gem mining, a giant slide, play area and one sweet treat."
 ---
@@ -37,7 +39,7 @@ Fall farms near Zionsville and across the Indianapolis area offer apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 4, 2026.** Crop availability and weather-related closures may vary throughout the season. Check social media or contact the farm directly for the latest information before you visit.
+**Updated September 7, 2026.** Crop availability and weather-related closures may vary throughout the season. Check social media or contact the farm directly for the latest information before you visit.
 
 </div>
 
@@ -134,13 +136,17 @@ Hamilton County Tourism’s accessibility notes for **Stuckey Farm** mention han
 - **Drive from Zionsville:** ~35 min (26 miles NW)
 - **Highlights:** Tire mountain, ropes course, giant slides; fireworks Oct. 24
 
-**Dull’s Tree Farm in Thorntown** opens its 2026 fall season on **September 26** and runs through **November 1**, open **Saturdays 10 a.m.–7 p.m. and Sundays 1–7 p.m.**, plus **October 12, 15–16, 22–23 and 29–30 from 1–7 p.m.** Admission covers more than **45 activities**, including the corn maze, hayrides to the pumpkin patch, farm animals, giant slides, a barrel train, a tire mountain built from tractor tires, a ropes and obstacle course, a corn pit and other play areas. **Fireworks** are scheduled for October 24.
+**Dull’s Tree Farm in Thorntown** opens its 2026 fall season on **September 26** and runs through **November 1**. The farm is open **Saturdays from 10 a.m.–7 p.m. and Sundays from 1–7 p.m.**, with additional hours **October 12, 15–16, 22–23 and 29–30 from 1–7 p.m.** Admission includes more than **45 activities**, such as the corn maze, hayrides to the pumpkin patch, farm animals, giant slides, a barrel train, tractor-tire mountain, ropes and obstacle course, corn pit and other play areas.
 
-Gate admission is **$21.95 plus tax**, with ages 2 and under free. Each admission ticket also includes one **Activity Pass**, which can be used for air cannons, carnival-style paintball target shooting, face painting or a glitter tattoo, pumpkin decorating, or the new Feed a Butterfly Experience while weather permits. Additional Activity Passes are **$4.75 each**. Pumpkins, pony rides and some other activities cost extra.
+Several special events are scheduled during the season. **Antique Tractor and Touch a Tractor Day** is September 26 from 10 a.m.–3 p.m., **Worship Night** is October 16 from 6–7:30 p.m., and **fireworks** are scheduled for October 24 at 7:30 p.m. Parking fees apply beginning at 6:15 p.m. on fireworks night.
+
+Gate admission is **$21.95 plus tax**, with ages 2 and under free. Each admission ticket includes one **Activity Pass**, which can be used for air cannons, carnival-style paintball target shooting, face painting or a glitter tattoo, pumpkin decorating, or the new Feed a Butterfly Experience while weather permits.
+
+Additional Activity Passes are **$4.75 each**. Pumpkins, pony rides and some other activities cost extra.
 
 As of early September, the farm has not posted a 2026 pumpkin price.
 
-Indy with Kids reports the farm has no stairs, mostly flat terrain and ramps in and out of the buildings.
+For visitors considering accessibility, Indy with Kids reports that the farm has no stairs, mostly flat terrain and ramps at building entrances.
 
 [↑ Back to comparison](#compare)
 
@@ -281,7 +287,7 @@ The activity list includes **two scavenger-hunt corn mazes at 5 and 10 acres, a 
 
 - **Location:** [5717 N. 300 W., Greenfield, IN 46140](https://maps.app.goo.gl/VqDa2iYoY5zURWJ89) · Hancock County
 - **Drive from Zionsville:** ~45 min (27 miles SE)
-- **Highlights:** Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table café
+- **Highlights:** Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table dining
 
 **Tuttle Orchards in Greenfield** has U-pick apples, pumpkins and flowers, with its FarmYard available as a separate activity ticket. The 2026 U-pick apple season begins **August 28**, the 20-acre pumpkin patch opens **September 18**, the U-cut flower garden runs from August 28 until frost, and fall U-pick continues through **October 31**. The farm is open **Monday through Saturday and closed Sundays**, 9 a.m.–6 p.m. through September 30 and 9 a.m.–7 p.m. in October. The **Caramel Apple Festival** runs **September 12 and 19, 10 a.m. to 5 p.m.**
 
@@ -328,7 +334,7 @@ Leashed dogs are welcome and parking is free. Outside food and drink are not per
 - **Drive from Zionsville:** ~50 min (36 miles E)
 - **Highlights:** Train, 150-ft slide (42 in. min height); sensory-friendly Ausome Fall Fest Sept. 12
 
-**Piney Acres Farm in Fortville** is **open daily from September 19 through October 25** for its 2026 fall season, **1–7 p.m. Monday through Friday, 10 a.m.–7 p.m. Saturdays and noon–7 p.m. Sundays**. Activities include corn mazes, hayrides, barnyard animals, a train, jump pad, 150-foot tube slide, gem mining, fossil digging, pig races and play areas. **The tube slide has a 42-inch minimum-height requirement.**
+**Piney Acres Farm in Fortville** is **open daily from September 19 through October 25** for its 2026 fall season, **1–7 p.m. Monday through Friday, 10 a.m.–7 p.m. Saturdays and noon–7 p.m. Sundays**. Activities include corn mazes, hayrides, barnyard animals, a train, jump pad, 150-foot tube slide, gem mining, fossil digging, pig races and play areas. **The tube slide has a 42-inch minimum-height requirement.** The farm also runs a ticketed **Fall Decorating Wreath Workshop** on September 22. **Spooky Saturday Outdoor Movie Nights** run from 6–10 p.m., with *Halloweentown* on October 9 and a double feature of *It’s the Great Pumpkin, Charlie Brown* and *Hocus Pocus* on October 23.
 
 Adult admission is **$10 for general admission or $18 for All Access**. General admission is basic entry with the play area, backyard games and a tractor ride, and does not include the train. Kids ages 3-13 pay **$20 for All Access**, walking children up to age 3 pay $5, and infants in a carrier or stroller are free. A train and slide upgrade is $8 with general admission, and the tube slide can be ridden all day for $6. The calendar also lists half-price admission on select Monday through Thursday dates, when some attractions may be closed.
 
@@ -418,7 +424,7 @@ The farm market occupies a Civil War-era barn and sells homegrown produce, baked
 - **Drive from Zionsville:** ~17 min (7 miles SE)
 - **Highlights:** Year-round café and espresso bar; urban farm minutes from downtown
 
-Driving Wind Berry Farms is an urban farm inside the Indianapolis city limits, a few minutes from downtown. Its year-round café serves espresso, smoothies, soups, breakfast and lunch along with house-made fruit popsicles, and the farm has a small pumpkin patch, flower fields, a picnic area, a gift shop and animals including a pony, a donkey and chickens. The café moved to **Wednesday through Saturday, 8 a.m. to 3 p.m.** in late August and is closed Monday and Tuesday. The farm has not posted separate hours for the rest of the property. It will hold its 2026 Pumpkin Palooza on **Saturday, October 3, and Saturday, October 10, from 8 a.m. to 3 p.m.** Past Pumpkin Palooza events have included pumpkin picking, wagon rides, apple cider and cider donuts, fall mums, farm animals, market vendors and bounce houses. Additional 2026 event details will be added as they are announced.
+Driving Wind Berry Farms is an urban farm on the northwest side of Indianapolis. Its year-round café serves espresso, smoothies, soups, breakfast and lunch along with house-made fruit popsicles, and the farm has a small pumpkin patch, flower fields, a picnic area, a gift shop and animals including a pony, a donkey and chickens. The café moved to **Wednesday through Saturday, 8 a.m. to 3 p.m.** in late August and is closed Monday and Tuesday. The farm has not posted separate hours for the rest of the property. It will hold its 2026 Pumpkin Palooza on **Saturday, October 3, and Saturday, October 10, from 8 a.m. to 3 p.m.** Past Pumpkin Palooza events have included pumpkin picking, wagon rides, apple cider and cider donuts, fall mums, farm animals, market vendors and bounce houses. Additional 2026 event details will be added as they are announced.
 
 [↑ Back to comparison](#compare)
 
@@ -455,11 +461,15 @@ Admission starts at **$12.95** on weekdays and **$17.95** on weekends, with ages
 - **Drive from Zionsville:** ~40 min (30 miles SW)
 - **Highlights:** Open 7 days a week; free Apple Festival & Craft Fair with 80+ vendors, Sept. 26–27
 
-**Anderson Orchard in Mooresville** grows nearly **30 apple varieties** across the growing year, from July into mid-November, on more than 100 acres, with U-pick apples available daily. Raspberries, sunflowers and chestnuts run on their own schedules, and the **U-pick pumpkin patch opens the last week of September**, listed as open for the Apple Festival on September 26. Through September and October the orchard is open **8 a.m. to 8 p.m. or dark, seven days a week**, and apples can be picked or bought from the Apple Barn.
+**Anderson Orchard in Mooresville** grows nearly **30 apple varieties** across more than 100 acres, with harvests running from July into mid-November and U-pick apples available daily during the season. The orchard also offers U-pick sunflowers, while raspberries and chestnuts follow separate harvest schedules. The **U-pick pumpkin patch opens in late September** and is listed as open for the Apple Festival on September 26. During September and October, the orchard is open daily from **8 a.m.–8 p.m. or dark**, with U-pick closing at 7 p.m. Apples can also be purchased from the Apple Barn.
 
-The **Apple Festival & Craft Fair is September 26–27, 2026**, rain or shine, with free admission. The crafter tent is open **10 a.m. to 6 p.m.** with live music from noon to 4 p.m. The festival brings 80 or more crafters, food trucks, the concession stand, a straw pile, picnic areas and homemade apple cobbler with ice cream. Apples, pumpkins and other produce are purchased separately.
+The **Apple Festival & Craft Fair is September 26–27, 2026**, rain or shine, with free admission. The crafter tent is open **10 a.m.–6 p.m.**, with live music from noon–4 p.m. The festival includes 80 or more crafters, food trucks, the concession stand, a straw pile, picnic areas and homemade apple cobbler with ice cream. Apples, pumpkins and other produce are purchased separately.
 
-A **Kid Craft Fair** runs September 12 from 1 to 4 p.m. Children’s activities are free and include a straw pile, swings, a playground and an education center. Indy with Kids reports the U-pick rows vary in terrain but are generally manageable with a wheelchair or walker. The concession stand is open **Saturdays and Sundays in September and October**, serving elephant ears, fried apple pies, fried biscuits with the orchard’s apple butter and soft serve. Cider slush and caramel apples are sold daily.
+A **Kid Craft Fair** is scheduled for September 12 from 1–4 p.m. Free children’s activities include a straw pile, swings, a playground and an education center. The concession stand is open **Saturdays and Sundays in September and October**, serving elephant ears, fried apple pies, fried biscuits with the orchard’s apple butter and soft serve. Cider slushes and caramel apples are sold daily.
+
+For visitors considering accessibility, Indy with Kids reports that the U-pick rows vary in terrain but are generally manageable with a wheelchair or walker.
+
+A **petting zoo** runs October 3–25, and **Trunk or Treat** is scheduled for October 30 from 6–9 p.m.
 
 [↑ Back to comparison](#compare)
 

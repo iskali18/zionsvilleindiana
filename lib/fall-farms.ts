@@ -163,7 +163,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Tuttle Orchards',
     anchor: 'tuttle-orchards',
     city: 'Greenfield',
-    highlights: 'Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table café',
+    highlights: 'Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table dining',
     cost: 'Free entry; FarmYard $10 age 2+; carving pumpkins $10, pie $5, mini $2',
     features: ['Free / No General Admission', 'Apple Picking', 'Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
