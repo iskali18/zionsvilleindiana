@@ -32,7 +32,7 @@ faqs:
   - q: "Which fall farms are best for toddlers and young children?"
     a: "Russell Farms has two low-wall scavenger-hunt mazes built so adults can see over the corn, alongside its two full-size mazes. Lark Ranch runs a mile-long train ride and keeps Highland cows, Stuckey Farm holds weekend pig races, and Waterman’s Family Farm has a pumpkin-eating dinosaur. Nehemiah Ranch Fall Harvest Days is free and includes a child’s pumpkin. Height minimums apply at Russell Farms, which lists 44 inches on three rides, and Piney Acres Farm, which requires 42 inches for its tube slide."
   - q: "Are there evening or after-dark fall events?"
-    a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 3, 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23 and runs Scream Farm as a separate ticketed haunted attraction, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m."
+    a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 3, 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m."
   - q: "What is the Ausome Fall Fest at Piney Acres Farm?"
     a: "Ausome Fall Fest is the Autism Society of Indiana’s event at Piney Acres Farm on September 12 from noon to 3 p.m., before the farm’s regular fall season begins. Admission includes a train or tractor ride, gem mining, a giant slide, play area and one sweet treat."
 ---
@@ -354,8 +354,6 @@ Adult admission is **$10 for general admission or $18 for All Access**. General 
 Season passes are **$45 per person** for all five weeks, or **$200 for a family of five** through October 11 and **$120** from October 12. A family of five day pass is **$90**. Extra air cannon shots cost $5 or $7, additional fossil and gem digging is $3, and animal feed is $1 a bag.
 
 Piney Acres markets pick-your-own pumpkins, but says its patch is **off-site this season** because fields are rotated yearly. Staff harvest the crop and bring it to the farm, so visitors choose from a selection rather than picking in a field.
-
-Piney Acres also runs **Scream Farm**, a separate ticketed haunted attraction with a haunted loft, a 6-acre haunted trail and a haunted hayride.
 
 Before the regular fall season begins, Piney Acres hosts the Autism Society of Indiana’s **Ausome Fall Fest on September 12 from noon to 3 p.m.** Admission includes a train or tractor ride, gem mining, giant slide, play area and one sweet treat. Piney Acres also has handicap-accessible indoor restrooms.
 
