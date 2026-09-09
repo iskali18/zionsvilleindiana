@@ -41,7 +41,10 @@ Fall farms near Zionsville and across the Indianapolis area offer apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 8, 2026.** Crop availability and weather-related closures may vary throughout the season. Check social media or contact the farm directly for the latest information before you visit.
+**Updated September 8, 2026.**
+- Crop availability and weather-related closures may vary throughout the season.
+- Check the farm's website or social media before visiting for the latest hours and availability.
+- **More farms are coming soon** as we continue expanding this guide with additional 2026 fall destinations south of Indianapolis.
 
 </div>
 
