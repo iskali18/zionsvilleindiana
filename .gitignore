@@ -53,3 +53,6 @@ app/tools/zcs-sports-calendar/
 /content/parks/overley-worman-park.md
 /content/parks/turkey-foot-nature-park.md
 /public/images/parks/lions-park.webp
+
+# generated PDF intermediate — rebuilt by scripts/build-farms-pdf.mjs
+scripts/comparison.html

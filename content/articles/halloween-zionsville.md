@@ -60,7 +60,7 @@ Zionsville families have several places to trick-or-treat before Halloween in 20
 
 ## Trick or Trees at Elm Street Green
 
-**Saturday, October 24 | 9 AM–12 PM**  
+**Saturday, October 24 · 9 AM–12 PM**  
 **Elm Street Green Park · [165 N. Elm St., Zionsville](https://maps.app.goo.gl/kvSwwKSMmJELEhFS8)**  
 **Ages:** 2–12 · children under 2 attend free  
 **Admission:** $5 resident / $7 nonresident  
@@ -82,7 +82,7 @@ See the [full Trick or Trees event guide](/events/trick-or-trees) for registrati
 
 ## Graham Rahal Performance Trunk or Treat
 
-**Saturday, October 24 | 4–6 PM**  
+**Saturday, October 24 · 4–6 PM**  
 **Graham Rahal Performance · [10850 Creek Way, Zionsville](https://maps.app.goo.gl/DAYFF2ifYFcndoxz5)**
 
 Graham Rahal Performance is an automotive performance shop and dealership founded by IndyCar driver Graham Rahal. Its [Cars & Coffee](/events/cars-and-coffee) gatherings draw enthusiasts and families to see performance, exotic, classic and other enthusiast vehicles.
@@ -95,7 +95,7 @@ See [Graham Rahal Performance on Instagram](https://www.instagram.com/grahamraha
 
 ## Eagle Church Trunk or Treat
 
-**Saturday, October 24 | 4–6 PM**  
+**Saturday, October 24 · 4–6 PM**  
 **Eagle Church · [5801 S. Main St., Whitestown](https://maps.app.goo.gl/TzcwduqjRQBSZ4rR7)**
 
 Eagle Church’s annual Trunk or Treat includes **pumpkin decorating, hayrides, donut holes and cider** along with trunk-or-treating.
@@ -106,7 +106,7 @@ See the [Eagle Church Trunk or Treat event page](https://www.eaglechurch.com/eve
 
 ## Zionsville Presbyterian Church Trunk or Treat
 
-**Sunday, October 25 | 12:15–2 PM**  
+**Sunday, October 25 · 12:15–2 PM**  
 **Zionsville Presbyterian Church · [4775 W. 116th St., Zionsville](https://maps.app.goo.gl/nz69YLWyWg15mavq7)**
 
 Families can come in costume, enjoy brunch in the Gym and then head outside for trunk-or-treating in the church parking lot. The event also includes **face painting, bounce houses and other activities**.

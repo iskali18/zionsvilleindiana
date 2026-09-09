@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-zionsville-indianapolis-scarecrow.webp
 hero_position: "center 45%"
-lastUpdated: "2026-09-07"
+lastUpdated: "2026-09-08"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -29,6 +29,8 @@ faqs:
     a: "Usually not. Pumpkins are typically purchased separately even at destinations that charge general admission. Tuttle Orchards charges $10 for a carving pumpkin whatever its size, $5 for a pie pumpkin and $2 for a mini. Waterman’s Family Farm lists pumpkins from $5 and Russell Farms lists an average carving pumpkin at about $5 to $12. Nehemiah Ranch includes a child’s pumpkin with its free Fall Harvest Days."
   - q: "Which fall destinations are closest to Zionsville?"
     a: "Driving Wind Berry Farms in Indianapolis and Hogan Farms in Brownsburg are both about 17 minutes from Zionsville, and Stuckey Farm in Sheridan is about 20 minutes. They are the closest destinations in this guide."
+  - q: "Which fall farms are best for toddlers and young children?"
+    a: "Russell Farms has two low-wall scavenger-hunt mazes built so adults can see over the corn, alongside its two full-size mazes. Lark Ranch runs a mile-long train ride and keeps Highland cows, Stuckey Farm holds weekend pig races, and Waterman’s Family Farm has a pumpkin-eating dinosaur. Nehemiah Ranch Fall Harvest Days is free and includes a child’s pumpkin. Height minimums apply at Russell Farms, which lists 44 inches on three rides, and Piney Acres Farm, which requires 42 inches for its tube slide."
   - q: "Are there evening or after-dark fall events?"
     a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 3, 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23 and runs Scream Farm as a separate ticketed haunted attraction, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m."
   - q: "What is the Ausome Fall Fest at Piney Acres Farm?"
@@ -39,7 +41,7 @@ Fall farms near Zionsville and across the Indianapolis area offer apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 7, 2026.** Crop availability and weather-related closures may vary throughout the season. Check social media or contact the farm directly for the latest information before you visit.
+**Updated September 8, 2026.** Crop availability and weather-related closures may vary throughout the season. Check social media or contact the farm directly for the latest information before you visit.
 
 </div>
 
@@ -111,6 +113,14 @@ Stuckey lists **37 apple varieties** across its growing year and has a working c
 ### For a Traditional Farm or Orchard Visit
 
 Anderson Orchard, Spencer Farm and Hogan Farms keep more of the visit centered on seasonal crops and farm activities. Anderson offers U-pick apples and pumpkins, Spencer has pumpkins, mums and weekend hayrides, and Hogan has pumpkin picking, a corn maze and hayrides. These destinations have less emphasis on large ride and play areas.
+
+### For Young Children
+
+Height minimums rule out some attractions for small children. Russell Farms lists a 44-inch minimum on three rides, and Piney Acres Farm requires 42 inches for its tube slide. Conner Prairie’s barrel train runs the other way, with a 48-inch maximum.
+
+Russell Farms has two low-wall scavenger-hunt mazes built so adults can see over the corn. Lark Ranch’s mile-long train ride and Highland cows, Stuckey Farm’s weekend pig races and Waterman’s pumpkin-eating dinosaur are aimed at younger visitors.
+
+Nehemiah Ranch Fall Harvest Days is free and includes a child’s pumpkin. Piney Acres hosts the Autism Society of Indiana’s sensory-friendly Ausome Fall Fest on September 12.
 
 ### For Free or Lower-Cost Options
 
@@ -305,7 +315,7 @@ For groups with special needs, Tuttle says tour guides can adapt the program and
 - **Drive from Zionsville:** ~45 min (34 miles SE)
 - **Highlights:** Mile-long train ride, carnival rides included with admission, Highland cows
 
-**Lark Ranch in Greenfield** is open from **September 19 through November 1, 2026** on **Saturdays 11 a.m.–8 p.m., Sundays 11 a.m.–6 p.m. and October Fridays noon–8 p.m.**, plus **Monday, October 12**. Rides and food stands open an hour after the gates. The property has a pumpkin patch, corn maze, **mile-long train ride**, Highland cows and other animals, hayride, playsets and a corn pit. Its country-fair carnival rides — a carousel, the Cornado, Lark Swing, Reckless, the Hampton car ride and the Corn Twister — are all included with admission and can be ridden as often as you like.
+**Lark Ranch in Greenfield** is open from **September 19 through November 1, 2026**, on **Saturdays 11 a.m.–8 p.m., Sundays 11 a.m.–6 p.m. and October Fridays noon–8 p.m.**, plus **Monday, October 12**. Rides and food stands open one hour after the gates. Attractions include a pumpkin patch, corn maze, **mile-long train ride**, Highland cows and other animals, hayride, playsets and a corn pit. Country-fair rides — including a carousel, Cornado, Lark Swing, Reckless, Hampton car ride and Corn Twister — are included with admission. **Colts Fall Fest** is Saturday, October 24, from 11 a.m.–8 p.m.
 
 <figure className="my-8">
   <Image
@@ -320,11 +330,11 @@ For groups with special needs, Tuttle says tour guides can adapt the program and
   </figcaption>
 </figure>
 
-Admission is **$17 or $22** depending on the date, and everyone age 3 and older needs a ticket. A season pass is **$40** and is valid at all three Lark Ranch locations; groups of 12 or more get **$2 off** each. Most rides and attractions are included. U-pick pumpkins, sold by the pound, along with gem mining, pony rides and the apple cannon, cost extra.
+Admission is **$17 or $22** depending on the date, and everyone age 3 and older needs a ticket. A season pass is **$40** and is valid at all three Lark Ranch locations; groups of 12 or more receive **$2 off** per person. Active military receive free daily admission and veterans receive half-price daily admission with verification at the gate. Most rides and attractions are included, while U-pick pumpkins, gem mining, pony rides and the apple cannon cost extra.
 
-Lark Ranch has paved sidewalks, handicap-accessible restrooms and accommodations for select activities, including the train ride. Strollers and wagons are welcome. The farm notes that some areas have uneven terrain or limited accessibility.
+Lark Ranch has paved sidewalks, handicap-accessible restrooms and accommodations for select activities, including the train ride. Strollers and wagons are welcome, though some areas have uneven terrain or limited accessibility.
 
-Leashed dogs are welcome and parking is free. Outside food and drink are not permitted apart from birthday celebrations, and alcohol is available on select dates. The farm says September weekends are quieter and cheaper, and mid-October weekends are its busiest.
+Leashed dogs are welcome and parking is free. Outside food and drink are not permitted except for birthday celebrations, and alcohol is available on select dates. The farm notes that September weekends are typically quieter and less expensive, while mid-October weekends are the busiest.
 
 [↑ Back to comparison](#compare)
 

@@ -36,6 +36,15 @@ faqs:
     a: "RIVET Coffee Bar is located at the Graham Rahal Performance campus along 106th Street in Zionsville."
 ---
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-64 mb-4">
+  <a href="/images/events/cars-and-coffee-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/cars-and-coffee-flyer.webp" alt="Rear view of a red Ferrari F40 with an Indiana license plate surrounded by spectators taking photos outside Graham Rahal Performance in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Promotional flyer for GR Brands Cars & Coffee at Graham Rahal Performance, featuring a featured red Ferrari F40 on display outside the facility.
+  </figcaption>
+</figure>
+
 Cars & Coffee is a recurring automotive gathering at Graham Rahal Performance in Zionsville. The event features a wide range of vehicles, from rare exotics and vintage classics to race cars, motorcycles, and other enthusiast vehicles.
 
 Cars are displayed throughout the outdoor areas around the Graham Rahal Performance campus, with additional vehicles inside the facility. Visitors can walk among the vehicles, stop at RIVET Coffee Bar, and spend time talking with owners and other automotive enthusiasts.
@@ -44,11 +53,9 @@ Cars are displayed throughout the outdoor areas around the Graham Rahal Performa
 
 ## Quick Facts
 
-- **The remaining regular Cars & Coffee dates are August 29 and September 26.**
-- **Both Cars & Coffee events run from 9:00 to 11:00 AM.**
-- **The season concludes October 24 with Trunk or Treat from 4:00 to 6:00 PM.**
 - **Expect a mix of rare exotics, vintage classics, race cars, motorcycles, and other enthusiast vehicles.**
-- **RIVET Coffee Bar is located on the Graham Rahal Performance campus.**
+- **The remaining regular Cars & Coffee date is September 26 from 9:00 to 11:00 AM.**
+- **The season concludes October 24 with Trunk or Treat from 4:00 to 6:00 PM.**
 
 </div>
 
@@ -72,15 +79,6 @@ Cars are displayed throughout the outdoor areas around the Graham Rahal Performa
 | **Saturday, October 24** | 4:00–6:00 PM | Trunk or Treat season finale |
 
 The August and September Cars & Coffee dates were moved from their previously announced dates of August 22 and September 12. The October 24 finale remains on its original date.
-
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-64 mb-4">
-  <a href="/images/events/cars-and-coffee-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/events/cars-and-coffee-flyer.webp" alt="Rear view of a red Ferrari F40 with an Indiana license plate surrounded by spectators taking photos outside Graham Rahal Performance in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in" />
-  </a>
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    Promotional flyer for GR Brands Cars & Coffee at Graham Rahal Performance, featuring a featured red Ferrari F40 on display outside the facility.
-  </figcaption>
-</figure>
 
 ## What to Expect
 

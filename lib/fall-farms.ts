@@ -178,7 +178,7 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'lark-ranch',
     city: 'Greenfield',
     highlights: 'Mile-long train ride, carnival rides included with admission, Highland cows',
-    cost: '$17 or $22 by date; ages 3+ ticketed; pumpkins by the pound extra',
+    cost: '$17\u2013$22 by date; active military free, veterans half-price; ages 3+ ticketed',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
       { label: 'Saturdays', dates: ['2026-09-19', '2026-09-26', '2026-10-03', '2026-10-10', '2026-10-17', '2026-10-24', '2026-10-31'], hours: '11:00 AM\u20138:00 PM', status: 'confirmed', planner: true, note: 'Oct. 24 is Colt\u2019s Fall Fest.' },
