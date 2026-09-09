@@ -121,7 +121,7 @@ Anderson Orchard, Spencer Farm and Hogan Farms keep more of the visit centered o
 
 Height minimums rule out some attractions for small children. Russell Farms lists a 44-inch minimum on three rides, and Piney Acres Farm requires 42 inches for its tube slide. Conner Prairie’s barrel train runs the other way, with a 48-inch maximum.
 
-Russell Farms has two low-wall scavenger-hunt mazes built so adults can see over the corn. Lark Ranch’s mile-long train ride and Highland cows, Stuckey Farm’s weekend pig races and Waterman’s pumpkin-eating dinosaur are aimed at younger visitors.
+Russell Farms has two low-wall mazes for easier visibility for children. Lark Ranch’s mile-long train ride and Highland cows, Stuckey Farm’s weekend pig races and Waterman’s pumpkin-eating dinosaur are also aimed at younger visitors.
 
 Nehemiah Ranch Fall Harvest Days is free and includes a child’s pumpkin. Piney Acres hosts the Autism Society of Indiana’s sensory-friendly Ausome Fall Fest on September 12.
 
