@@ -16,7 +16,7 @@ occurrences:
 recurrenceLabel: "Thursdays, April 9, June 11 & September 10, 2026"
 location: "Main Street, Downtown Zionsville"
 address: "Main Street"
-externalUrl: "https://www.facebook.com/events/2692243017827505"
+externalUrl: "https://www.facebook.com/events/1279238824316045/"
 image: /images/events/zionsville-sip-stroll-and-shop.webp
 imageAlt: "Evening shopping along Main Street in downtown Zionsville"
 photoCredit: "© ZionsvilleIndiana.com"
