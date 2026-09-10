@@ -201,7 +201,23 @@ export function getAllEvents(): EventMeta[] {
     // Drop recurring events that have ended for the season.
     .map((e) => applyRecurrence(e, today))
     .filter((e): e is EventMeta => e !== null)
-    .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime())
+    .sort((a, b) => {
+      const byDate = new Date(a.startDate).getTime() - new Date(b.startDate).getTime()
+      if (byDate !== 0) return byDate
+      return timeOfDay(a).localeCompare(timeOfDay(b))
+    })
+}
+
+/** Clock time from `startDateTime`, for ordering two events on the same day.
+ *
+ *  Only the time is used, never the whole value — applyRecurrence() rewrites
+ *  `startDate` to the next occurrence but leaves `startDateTime` on the first
+ *  date of the season, so comparing the full datetime would sort by a date the
+ *  event is no longer on.
+ *
+ *  Events with no time sort last within their day. */
+function timeOfDay(event: EventMeta): string {
+  return event.startDateTime?.slice(11, 16) ?? '99:99'
 }
 
 export function getFeaturedEvents(limit = 3): EventMeta[] {

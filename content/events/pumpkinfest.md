@@ -1,9 +1,9 @@
 ---
 title: "Pumpkinfest"
 alternateName: ["Zionsville Pumpkinfest", "St. Al Pumpkinfest", "St Al Pumpkinfest"]
-description: "A public, all-ages fall afternoon with hayrides to the pumpkin patch, pumpkin decorating, face painting, games and bounce houses."
+description: "A public, all-ages fall afternoon with hayrides to the pumpkin patch, pumpkin decorating, face painting, a petting zoo, games and bounce houses."
 metaTitle: "Pumpkinfest 2026 | Hayrides & Pumpkin Patch, Zionsville"
-metaDescription: "Pumpkinfest is October 3, 2026, from noon to 4 p.m. in Zionsville, with free hayrides, pumpkin decorating, face painting, games and bounce houses."
+metaDescription: "Pumpkinfest is October 3, 2026, from noon to 4 p.m. in Zionsville, with free hayrides, pumpkin decorating, a petting zoo, games and bounce houses."
 eventType: annual
 startDate: "2026-10-03"
 endDate: "2026-10-03"
@@ -19,7 +19,7 @@ photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
 tags: [family, kids, fall, outdoor, free]
-lastUpdated: "2026-08-26"
+lastUpdated: "2026-09-10"
 faqs:
   - q: "When is Pumpkinfest 2026?"
     a: "Pumpkinfest is Saturday, October 3, 2026, from noon to 4:00 p.m."
@@ -28,13 +28,13 @@ faqs:
   - q: "What ages is Pumpkinfest for?"
     a: "Pumpkinfest is open to the public for all ages."
   - q: "What activities are at Pumpkinfest?"
-    a: "Activities include hayrides to the pumpkin patch, pumpkin decorating, face painting, games and bounce houses."
+    a: "Activities include hayrides to the pumpkin patch, pumpkin decorating, face painting, a petting zoo, games and bounce houses."
   - q: "Can children choose and decorate a pumpkin?"
     a: "Children can choose a pumpkin during the hayride and return to the activity area to paint and decorate it. Pumpkins are available while supplies last."
   - q: "Is there an admission charge for Pumpkinfest?"
-    a: "Hayrides, pumpkin decorating, face painting, games and bounce houses are free. Food is sold separately."
+    a: "Hayrides, pumpkin decorating, face painting, the petting zoo, games and bounce houses are free. Food is sold separately."
   - q: "Is food available at Pumpkinfest?"
-    a: "Yes. Food from the Oktoberfest menu is available for purchase in Parish Hall from noon to 4:00 p.m."
+    a: "Yes. German food is available for purchase in Parish Hall from noon to 4:00 p.m., served from the same menu as the evening Oktoberfest. The Biergarten is open during those hours too."
   - q: "Who organizes Pumpkinfest?"
     a: "Pumpkinfest is hosted by St. Alphonsus Liguori Catholic Church and the Knights of Columbus."
 ---
@@ -47,10 +47,12 @@ St. Alphonsus Liguori Catholic Church hosts Pumpkinfest on Saturday, October 3, 
 
 - **Pumpkinfest runs from noon to 4:00 p.m. and is open to the public for all ages.**
 - **Hayrides travel to the pumpkin patch.** Pumpkins are available while supplies last.
-- **Pumpkin decorating, face painting, games and bounce houses are free.**
-- **Food is available for purchase in Parish Hall from noon to 4:00 p.m.**
+- **Pumpkin decorating, face painting, the petting zoo, games and bounce houses are free.**
+- **Food is available for purchase in Parish Hall from noon to 4:00 p.m.**, and the Biergarten is open during those hours.
 
 </div>
+
+<!-- SEASONAL_STRIP -->
 
 ## Event Overview
 
@@ -58,7 +60,7 @@ St. Alphonsus Liguori Catholic Church hosts Pumpkinfest on Saturday, October 3, 
 | :--- | :--- |
 | **Date & Time** | Saturday, October 3, 2026 · 12:00–4:00 PM |
 | **Location** | [St. Alphonsus Liguori Catholic Church](https://maps.app.goo.gl/pvW5Km9DFrxsUYcQA) · 1870 W. Oak Street, Zionsville, IN 46077 |
-| **Admission** | Free hayrides and activities · Food available for purchase |
+| **Admission** | Free hayrides and activities · Food and drinks available for purchase |
 | **Ages** | Open to the public · All ages |
 | **Organizer** | St. Alphonsus Liguori Catholic Church and the Knights of Columbus |
 
@@ -77,7 +79,7 @@ St. Alphonsus Liguori Catholic Church hosts Pumpkinfest on Saturday, October 3, 
 
 ## Hayrides and Family Activities
 
-Hayrides take families to the pumpkin patch, where children can choose a pumpkin while supplies last. After the ride, they can paint and decorate their pumpkins at the activity area. Face painting, games and bounce houses are also part of the event.
+Hayrides take families to the pumpkin patch, where children can choose a pumpkin while supplies last. After the ride, they can paint and decorate their pumpkins at the activity area. Face painting, a petting zoo, games and bounce houses are also part of the event.
 
 <figure className="my-8">
   <Image
@@ -94,10 +96,10 @@ Hayrides take families to the pumpkin patch, where children can choose a pumpkin
 
 ## Food in Parish Hall
 
-Food from the Oktoberfest menu is available for purchase in Parish Hall from noon to 4:00 p.m. Selections include giant pretzels, bratwurst, jagerschnitzel, currywurst, hot dog meals, German chocolate cake and apple strudel. Apple cider, bottled water and soft drinks are also available.
+German food is available for purchase in Parish Hall from noon to 4:00 p.m., served from the same menu as **Oktoberfest**, the adults-only evening event that follows. The Biergarten is open during those hours too. Selections include currywurst, bratwurst, sauerbraten, frankfurters, German potato salad, potato pancakes, sauerkraut, spaetzle, Bavarian pretzels, German chocolate cake and apple strudel. Apple cider, bottled water and soft drinks are also available.
 
 ## Related Event
 
-**Oktoberfest** takes place at the same location from 5:00 to 11:00 p.m. and is open to adults ages 21 and older.
+[**Oktoberfest**](/events/oktoberfest) takes place at the same location from 4:00 to 11:00 p.m. and is open to adults ages 21 and older, with German food, a Biergarten, live polka and a raffle drawing.
 
 Visit the [official Pumpkinfest and Oktoberfest page](https://zionsvillecatholic.com/oktoberfest) for event information.
