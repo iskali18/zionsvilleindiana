@@ -283,8 +283,11 @@ const COUNTY = {
   'Stuckey Farm Orchard & Cider Mill': 'HAMILTON COUNTY',
   'Tuttle Orchards': 'HANCOCK COUNTY',
   'Hogan Farms Pumpkin Patch & Corn Maze': 'HENDRICKS COUNTY',
+  'Kelsay Farms': 'JOHNSON COUNTY',
   'Driving Wind Berry Farms': 'MARION COUNTY',
   'Anderson Orchard': 'MORGAN COUNTY',
+  'Chandler’s Farm & Country Market': 'PUTNAM COUNTY',
+  'Pleasant View Orchard': 'SHELBY COUNTY',
 }
 
 const COLS = `<colgroup><col style="width:25%"><col style="width:34%">
@@ -297,7 +300,7 @@ const HEAD = `<table class="grp">${COLS}<tr><th>Destination</th><th>2026 Dates &
  *  table. So each destination is its own table, and the page break is placed by
  *  hand with the column header repeated after it. Change this name if the
  *  content grows and the break lands somewhere else. */
-const BREAK_BEFORE = new Set(['Piney Acres Farm'])
+const BREAK_BEFORE = new Set(['Piney Acres Farm', 'Anderson Orchard'])
 
 let county = null
 const rows = dests
@@ -348,14 +351,20 @@ tr.county td { background:#78350f; color:#fff; font-weight:bold; font-size:9pt;
 .soon { color:#78716c; }
 em { color:#9a3412; font-style:normal; }
 .foot { margin-top:10px; font-size:9pt; color:#57534e; }
+.foot ul { margin:4px 0 0; padding-left:16px; }
+.foot li { margin-bottom:2px; }
 </style>
 <h1>2026 Fall Farms &amp; Orchards Guide</h1>
 <p class="sub">Near Zionsville and Indianapolis &middot; ZionsvilleIndiana.com &middot; Updated ${today}</p>
 ${HEAD}
 ${rows}
-<p class="foot">Schedules reflect information published as of ${today}. &ldquo;Not yet posted&rdquo; means the
-destination had not published 2026 details; it does not mean closed. Confirm prices and hours with the
-destination before visiting.</p>`
+<div class="foot">Schedules reflect information published as of ${today}.
+<ul>
+<li><b>&ldquo;Not yet posted&rdquo;</b> means the destination had not published 2026 details. It does not mean closed.</li>
+<li><b>A feature marked with a &ldquo;from&rdquo; date</b> becomes available on that date.</li>
+<li>Confirm prices and hours with the destination before visiting.</li>
+</ul>
+</div>`
 )
 
 console.log(`comparison.html written \u2014 ${dests.length} destinations`)

@@ -194,6 +194,7 @@ export const DESTINATIONS: Destination[] = [
     highlights: 'Train, 150-ft slide (42 in. min height); sensory-friendly Ausome Fall Fest Sept. 12',
     cost: 'Adults $10\u2013$18; kids 3\u201313 $20; tots $5; pumpkins extra',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
+    comingSoon: { 'Pumpkin Picking': 'from Sept. 19' },
     schedules: [
       { label: 'Ausome Fall Fest', dates: ['2026-09-12'], hours: 'noon\u20133 p.m.', status: 'confirmed', planner: true },
       { label: 'Fall season', start: '2026-09-19', end: '2026-10-25', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon.\u2013Fri. 1\u20137 p.m.; Sat. 10 a.m.\u20137 p.m.; Sun. noon\u20137 p.m.', status: 'confirmed', planner: true, note: 'Open daily.' },
@@ -233,10 +234,24 @@ export const DESTINATIONS: Destination[] = [
     ],
   },
   {
+    name: 'Kelsay Farms',
+    anchor: 'kelsay-farms',
+    city: 'Whiteland',
+    highlights: '7-acre corn maze, flashlight maze nights, Moo Choo train, farm animals',
+    cost: '$14 age 2+; $12 groups 20+; under 2 free',
+    features: ['Pumpkin Picking', 'Corn Maze', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
+    comingSoon: { 'Pumpkin Picking': 'from Sept. 25' },
+    schedules: [
+      { label: 'Fall season', start: '2026-09-25', end: '2026-10-25', days: ['fri', 'sat', 'sun'], hours: 'Fri. 6\u20139 p.m.; Sat. noon\u20139 p.m.; Sun. noon\u20136 p.m.', status: 'confirmed', planner: true },
+      { label: 'Fall break weekdays', start: '2026-10-05', end: '2026-10-16', days: ['mon', 'tue', 'wed', 'thu', 'fri'], hours: 'noon\u20136 p.m.', status: 'confirmed', planner: true },
+      { label: 'Trick or Treat', dates: ['2026-10-24'], hours: '4\u20136 p.m.', status: 'confirmed', planner: true },
+    ],
+  },
+  {
     name: 'Driving Wind Berry Farms',
     anchor: 'driving-wind-berry-farms',
     city: 'Indianapolis',
-    highlights: 'Year-round café and espresso bar; urban farm minutes from downtown',
+    highlights: 'Year-round café and espresso bar; urban farm with pumpkin patch and farm animals',
     cost: '2026 Pumpkin Palooza pricing not yet posted',
     features: ['Pumpkin Picking', 'Farm Animals'],
     schedules: [
@@ -272,6 +287,34 @@ export const DESTINATIONS: Destination[] = [
       { label: 'Apple Festival & Craft Fair', dates: ['2026-09-26', '2026-09-27'], hours: 'Crafters 10 a.m.\u20136 p.m.', status: 'confirmed', planner: true },
       { label: 'Kid Craft Fair', dates: ['2026-09-12'], hours: '1\u20134 p.m.', status: 'confirmed', planner: true },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: true, note: 'Listed as an open attraction for the Sept. 26\u201327 Apple Festival; may open earlier if the crop is ready.' },
+    ],
+  },
+  {
+    name: 'Chandler\u2019s Orchard & Country Market',
+    anchor: 'chandlers-orchard-country-market',
+    city: 'Fillmore',
+    highlights: 'Percheron horse-drawn wagon rides, country store',
+    cost: 'No general admission; pay for what you pick',
+    features: ['Pumpkin Picking', 'Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
+    schedules: [
+      { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Sat. 10 a.m.\u20136 p.m.; Sun. 1\u20135 p.m.', status: 'confirmed', planner: true },
+      { label: 'U-pick apples', start: '2026-09-01', end: '2026-10-31', status: 'confirmed', planner: false },
+      { label: 'U-pick pumpkins', status: 'not_posted', planner: false, note: 'From around the second week of September; 2026 dates not posted.' },
+      { label: 'Horse-drawn wagon rides', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends from September; times not posted.' },
+    ],
+  },
+  {
+    name: 'Pleasant View Orchard',
+    anchor: 'pleasant-view-orchard',
+    city: 'Fairland',
+    highlights: 'Free Saturday live music, weekend wagon rides to the pumpkin patch; Silly Safaris animal show Oct. 24',
+    cost: 'No admission or parking fee; pay for what you pick',
+    features: ['Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
+    comingSoon: { 'Pumpkin Picking': 'late Sept.' },
+    schedules: [
+      { label: 'Orchard season', start: '2026-07-01', end: '2026-11-30', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: '9 a.m.\u20136 p.m.', status: 'confirmed', planner: true },
+      { label: 'Pumpkin patch', status: 'not_posted', planner: false, note: 'Opens around the last weekend in September; 2026 date not announced.' },
+      { label: 'Silly Safaris show', dates: ['2026-10-24'], hours: '3 p.m.', status: 'confirmed', planner: false },
     ],
   },
 ]
