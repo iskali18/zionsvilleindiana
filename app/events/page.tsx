@@ -6,7 +6,7 @@ import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import { getFeaturedEvents, getAllEvents, formatOccurrenceList } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
-import { activeGuides } from '@/lib/seasonal-guides'
+import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 export const metadata: Metadata = {
   title: 'Zionsville Indiana Events 2026 Calendar',
@@ -52,11 +52,6 @@ export default async function EventsPage() {
   const calendarEvents = await getUpcomingEvents(24)
   const allSlugs = allEvents.map((e) => e.slug)
   const calendarSchemas = calendarEvents.map(buildEventSchema)
-
-  // Guides live today. Indianapolis time so the strip turns over locally.
-  const guides = activeGuides(
-    new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Indiana/Indianapolis' }))
-  )
 
   // The strip sits after the first desktop row, so people see the events they
   // came for before the guides.
@@ -163,26 +158,7 @@ export default async function EventsPage() {
             </div>
           )}
 
-          {guides.length > 0 && (
-            <div className="my-6 rounded-lg bg-amber-50/70 border border-amber-100 px-6 py-4">
-              <div className="flex flex-col gap-x-10 gap-y-2.5 sm:flex-row sm:items-baseline">
-                <p className="m-0 shrink-0 text-sm font-semibold text-stone-800">
-                  Planning the season?
-                </p>
-                <p className="m-0 flex flex-wrap gap-x-10 gap-y-2.5 text-sm">
-                  {guides.map((g) => (
-                    <Link
-                      key={g.href}
-                      href={g.href}
-                      className="font-medium text-brick-600 hover:text-brick-700 whitespace-nowrap"
-                    >
-                      {g.title} →
-                    </Link>
-                  ))}
-                </p>
-              </div>
-            </div>
-          )}
+          <SeasonalGuidesStrip />
 
           {restRow.length > 0 && (
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">

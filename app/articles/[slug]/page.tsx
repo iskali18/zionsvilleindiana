@@ -6,6 +6,7 @@ import ZcsCalendar from '@/components/ZcsCalendar'
 import ZcsMilestones from '@/components/ZcsMilestones'
 import FallFarmComparison from '@/components/FallFarmComparison'
 import { DESTINATIONS } from '@/lib/fall-farms'
+import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 interface Props {
   params: Promise<{ slug: string }>
@@ -72,6 +73,9 @@ export default async function ArticlePage({ params }: Props) {
         {slug === 'zcs-school-calendar' && (
           <>
             <ZcsMilestones />
+            {/* Between the milestone dates and the calendar — people have the
+                date they came for, and it stays above the fold. */}
+            <SeasonalGuidesStrip kind="schoolBreak" className="mb-8" />
             <ZcsCalendar />
           </>
         )}

@@ -5,9 +5,10 @@ import Link from 'next/link'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import EventEndedBanner from '@/components/EventEndedBanner'
+import EventEndedBanner, { hasEnded } from '@/components/EventEndedBanner'
 import EventInSeasonBanner from '@/components/EventInSeasonBanner'
 import FaqSection from '@/components/FaqSection'
+import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 import { getAllEventSlugs, getEvent } from '@/lib/content'
 import ChristmasEventTable from '@/components/ChristmasEventTable'
 
@@ -316,20 +317,42 @@ export default async function EventPage({ params }: Props) {
               marker in its markdown; the body splits there and the component
               renders between the two halves. */}
           {(() => {
-            const MARKER = '<!-- CHRISTMAS_EVENT_TABLE -->'
-            if (slug === 'christmas-in-zionsville' && contentHtml.includes(MARKER)) {
-              const [before, ...rest] = contentHtml.split(MARKER)
+            const TABLE = '<!-- CHRISTMAS_EVENT_TABLE -->'
+            if (slug === 'christmas-in-zionsville' && contentHtml.includes(TABLE)) {
+              const [before, ...rest] = contentHtml.split(TABLE)
               return (
                 <>
                   <div className="prose-village" dangerouslySetInnerHTML={{ __html: before }} />
                   <ChristmasEventTable />
                   <div
                     className="prose-village"
-                    dangerouslySetInnerHTML={{ __html: rest.join(MARKER) }}
+                    dangerouslySetInnerHTML={{ __html: rest.join(TABLE) }}
                   />
                 </>
               )
             }
+
+            /* A page opts into the seasonal strip by putting the marker in its
+               markdown, usually just after Quick Facts. Once the event has
+               ended the links move up into EventEndedBanner instead, so the
+               page never shows two seasonal callouts. */
+            const STRIP = '<!-- SEASONAL_STRIP -->'
+            if (contentHtml.includes(STRIP)) {
+              const [before, ...rest] = contentHtml.split(STRIP)
+              return (
+                <>
+                  <div className="prose-village" dangerouslySetInnerHTML={{ __html: before }} />
+                  {!hasEnded(meta.startDate, meta.endDate) && (
+                    <SeasonalGuidesStrip kind="event" tone="plain" />
+                  )}
+                  <div
+                    className="prose-village"
+                    dangerouslySetInnerHTML={{ __html: rest.join(STRIP) }}
+                  />
+                </>
+              )
+            }
+
             return (
               <div className="prose-village" dangerouslySetInnerHTML={{ __html: contentHtml }} />
             )

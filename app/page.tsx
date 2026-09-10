@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import { getFeaturedEvents, formatOccurrenceList } from '@/lib/content'
+import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 export const metadata: Metadata = {
   title: 'Zionsville Indiana — Events, Downtown & Community Guide',
@@ -293,6 +294,11 @@ export default function HomePage() {
             View all events →
             </Link>
           </div>
+
+          {/* Seasonal guides as secondary navigation, inside the events
+              section so the whole area reads as one block. Renders
+              nothing out of season. */}
+          <SeasonalGuidesStrip tone="bare" className="mt-6" />
         </section>
 
         {/* ── Downtown Zionsville ───────────────────────────────────────── */}

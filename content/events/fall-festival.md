@@ -69,6 +69,8 @@ The 73rd annual festival takes place September 11–13, 2026, with the theme "Ou
 
 </div>
 
+<!-- SEASONAL_STRIP -->
+
 <figure className="my-8">
   <Image
     src="/images/events/zionsville-fall-festival-parade.webp"
