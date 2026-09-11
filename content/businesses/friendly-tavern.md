@@ -4,7 +4,7 @@ slug: friendly-tavern
 category: dining
 area: "downtown"
 shortDescription: "Longtime neighborhood tavern on Main Street, known for hand-breaded tenderloin sandwiches and chicken wings."
-seo_title: "The Friendly Tavern | American Tavern in Zionsville, IN"
+metaTitle: "The Friendly Tavern | American Tavern in Zionsville, IN"
 metaDescription: "The Friendly Tavern is a longtime Zionsville gathering place on Main Street, serving American tavern fare, hand-breaded tenderloins, wings, and steaks."
 address: "290 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-5772"

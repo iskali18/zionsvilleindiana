@@ -4,7 +4,7 @@ slug: our-place-coffee
 category: coffee
 area: "downtown"
 shortDescription: "Locally owned coffee shop and café that operated on First Street in downtown Zionsville from 2022 to 2026."
-seo_title: "Our Place Coffee (Closed August 8, 2026) — Zionsville, IN"
+metaTitle: "Our Place Coffee (Closed August 8, 2026) — Zionsville, IN"
 metaDescription: "Our Place Coffee, a locally owned café on First Street in downtown Zionsville, closed on August 8, 2026 after operating since October 2022."
 address: "65 S 1st St, Zionsville, IN 46077"
 phone: "(317) 372-0846"

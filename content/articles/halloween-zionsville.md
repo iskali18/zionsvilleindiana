@@ -1,7 +1,7 @@
 ---
 title: "Zionsville Trick-or-Treat & Trunk-or-Treat Events 2026"
 metaTitle: "Zionsville Trick or Treat 2026: Hours & Halloween Events"
-metaDescription: "2026 Zionsville trick-or-treat and trunk-or-treat events — Trick or Trees, Graham Rahal Performance, Zionsville Presbyterian and Eagle Church, with dates, times and costs."
+metaDescription: "2026 Zionsville trick-or-treat and trunk-or-treat events, including Trick or Trees, Graham Rahal Performance, Zionsville Presbyterian and Eagle Church."
 description: "A guide to 2026 trick-or-treat and trunk-or-treat events for Zionsville families, with dates, times, ages and admission."
 category: "discovery"
 hubOrder: 10

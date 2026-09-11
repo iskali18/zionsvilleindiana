@@ -4,7 +4,7 @@ slug: jewel-box-jewelers
 category: shopping
 area: "downtown"
 shortDescription: "Zionsville's oldest jewelry store, specializing in service and repair."
-seo_title: "Jewel Box Jewelers | Jewelry Repair & Sales in Zionsville, IN"
+metaTitle: "Jewel Box Jewelers | Jewelry Repair & Sales in Zionsville, IN"
 metaDescription: "Zionsville's oldest jeweler, located in the Village since 1973. Specializing in jewelry and watch repair, custom designs, and estate jewelry buying."
 address: "100 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-5076"

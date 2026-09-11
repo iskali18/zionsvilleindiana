@@ -2,7 +2,7 @@
 title: "St. Francis In-The-Fields SFZ Concert Series"
 alternateName: ["SFORZANDO Concert Series", "SFZ Concert Series", "St. Francis Concert Series", "SFZ Concert", "St. Francis Concert"]
 description: "Concerts at St. Francis In-The-Fields featuring saxophone, tango, guitar, brass, piano and early music from September 2026 through April 2027."
-metaTitle: "St. Francis In-The-Fields SFZ Concert Series | Zionsville"
+metaTitle: "St. Francis In-The-Fields SFZ Concert Series | Zionsville, Indiana"
 metaDescription: "See the 2026–2027 SFORZANDO Concert Series schedule at St. Francis In-The-Fields in Zionsville, with six programs from September through April."
 eventType: recurring
 startDate: "2026-09-13"

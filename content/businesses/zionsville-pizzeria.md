@@ -4,7 +4,7 @@ slug: zionsville-pizzeria
 category: dining
 area: "downtown"
 shortDescription: "A family-friendly Main Street pizzeria with house-made dough, daily lunch specials, and a salad bar."
-seo_title: "Zionsville Pizzeria | Pizza, Subs & Daily Specials in Zionsville, IN"
+metaTitle: "Zionsville Pizzeria | Pizza, Subs & Daily Specials in Zionsville, IN"
 metaDescription: "Visit Zionsville Pizzeria on Main Street for house-made dough, classic and specialty pies, subs, calzones, salads, and daily lunch specials. Dine-in, carry-out, and delivery."
 address: "255 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-2878"

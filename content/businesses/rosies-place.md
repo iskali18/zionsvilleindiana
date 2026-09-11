@@ -4,7 +4,7 @@ slug: rosies-place
 category: dining
 area: "downtown"
 shortDescription: "Breakfast, brunch & lunch café known for Gooey Butter Cookies."
-seo_title: "Rosie's Place | Breakfast & Brunch in Zionsville, IN"
+metaTitle: "Rosie's Place | Breakfast & Brunch in Zionsville, IN"
 metaDescription: "Rosie's Place serves breakfast, brunch, and lunch in downtown Zionsville, with Gooey Butter Cookies, omelets, sandwiches, salads, and brunch cocktails."
 address: "10 S Main St, Zionsville, IN 46077"
 phone: "(317) 344-6500"

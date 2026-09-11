@@ -4,7 +4,7 @@ slug: fivethirty-home
 category: shopping
 area: "downtown"
 shortDescription: "Curated home décor, gifts, and repurposed furniture."
-seo_title: "Fivethirty Home | Home Decor & Repurposed Furniture in Zionsville, Indiana"
+metaTitle: "Fivethirty Home | Home Decor & Repurposed Furniture in Zionsville, Indiana"
 metaDescription: "Visit Fivethirty Home in Zionsville for a unique mix of repurposed furniture, home decor, and gifts. Authorized Miss Mustard Seed's Milk Paint retailer."
 address: "205 S Main St, Zionsville, IN 46077"
 phone: "(317) 567-7781"

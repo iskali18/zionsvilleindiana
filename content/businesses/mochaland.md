@@ -4,7 +4,7 @@ slug: mochaland
 category: coffee
 area: "michigan-road"
 shortDescription: "Small-batch specialty roaster with Middle Eastern coffee, signature lattes, and sweets."
-seo_title: "Mochaland | Middle Eastern Coffee Shop in Zionsville, IN"
+metaTitle: "Mochaland | Middle Eastern Coffee Shop in Zionsville, IN"
 metaDescription: "Turkish coffee, Arabic qahwah, signature lattes, and small-batch roasted beans at Mochaland on Michigan Road in Zionsville, Indiana."
 address: "10895 N Michigan Rd Ste 120, Zionsville, IN 46077"
 phone: ""

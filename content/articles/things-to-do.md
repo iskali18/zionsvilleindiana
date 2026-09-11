@@ -1,6 +1,6 @@
 ---
 title: Things to Do in Zionsville, Indiana
-metaTitle: "Things to Do in Zionsville, Indiana"
+metaTitle: "Things to Do in Zionsville, Indiana | Parks, Shops & Events"
 metaDescription: Things to do in Zionsville, Indiana — Main Street shops, the Big-4 Rail Trail, parks, Traders Point Creamery, local dining, and community events.
 category: discovery
 hero_image: /images/things-to-do-hero.jpg

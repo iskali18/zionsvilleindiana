@@ -4,7 +4,7 @@ slug: angelos-italian-market
 category: shopping
 area: "downtown"
 shortDescription: "Fresh housemade pasta and authentic specialty goods."
-seo_title: "Angelo's Italian Market | Fresh Pasta & Italian Goods in Zionsville"
+metaTitle: "Angelo's Italian Market | Fresh Pasta & Italian Goods in Zionsville"
 metaDescription: "Find fresh housemade pasta, authentic sauces, and Italian specialty goods at Angelo's Italian Market in Zionsville, IN. Private cooking classes available."
 address: "95 S 1st St, Zionsville, IN 46077"
 website: "https://eatangelospasta.com"

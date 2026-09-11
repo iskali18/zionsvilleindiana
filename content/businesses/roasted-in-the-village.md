@@ -4,7 +4,7 @@ slug: roasted-in-the-village
 category: coffee
 area: "downtown"
 shortDescription: "Specialty coffee and house-baked goods in a cozy setting."
-seo_title: "Roasted in the Village | Local Coffee Shop in Zionsville, IN"
+metaTitle: "Roasted in the Village | Local Coffee Shop in Zionsville, IN"
 metaDescription: "Enjoy specialty lattes and house-baked goods at Roasted in the Village. A cozy, art-filled coffee shop located in the heart of Zionsville."
 address: "27 E Pine St, Zionsville, IN 46077"
 phone: "(317) 344-2181"

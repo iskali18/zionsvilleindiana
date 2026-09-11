@@ -4,7 +4,7 @@ slug: cobblestone
 category: dining
 area: "downtown"
 shortDescription: "American restaurant and bar on the historic brick street."
-seo_title: "Cobblestone | American Restaurant & Bar in Zionsville, Indiana"
+metaTitle: "Cobblestone | American Restaurant & Bar in Zionsville, Indiana"
 metaDescription: "Enjoy casual American dining and a full bar at Cobblestone on Zionsville's Main Street. Featuring outdoor patio seating on the historic brick road."
 address: "160 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-4745"

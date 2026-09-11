@@ -4,7 +4,7 @@ slug: convivio
 category: dining
 area: "downtown"
 shortDescription: "Artisan Italian cuisine featuring fresh handmade pasta."
-seo_title: "Convivio | Artisan Italian Pasta & Pizza in Zionsville, Indiana"
+metaTitle: "Convivio | Artisan Italian Pasta & Pizza in Zionsville, Indiana"
 metaDescription: "Experience authentic Italian dining at Convivio in Zionsville, IN. Featuring fresh housemade pasta, wood-fired pizza, and a seasonally changing menu."
 address: "40 S Main St, Zionsville, IN 46077"
 phone: "(317) 733-3600"

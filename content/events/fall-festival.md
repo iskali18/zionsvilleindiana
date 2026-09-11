@@ -3,7 +3,7 @@ title: "Zionsville Fall Festival"
 alternateName: ["Zionsville Lions Fall Festival", "Lions Park Fall Festival"]
 description: "An annual three-day community festival at Lions Park featuring Poor Jack's Carnival, food vendors, community booths, the Saturday morning parade through the Village, and family-friendly activities."
 metaTitle: "Zionsville Fall Festival: 2026 Dates, Parade Route & Parking"
-metaDescription: "Zionsville Fall Festival 2026: Sept. 11–13 at Lions Park. Carnival rides, Saturday 10AM parade, food vendors, live entertainment, and a Sunday car show."
+metaDescription: "Zionsville Fall Festival 2026: Sept. 11–13 at Lions Park. Carnival rides, the Saturday 10 AM parade, food vendors, live music and a Sunday car show."
 eventType: annual
 startDate: "2026-09-11"
 endDate: "2026-09-13"
@@ -18,7 +18,7 @@ photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
 tags: [festival, family, parade, free, outdoor, fall]
-lastUpdated: "2026-09-07"
+lastUpdated: "2026-09-10"
 faqs:
   - q: "When is the Zionsville Fall Festival in 2026?"
     a: "The Zionsville Fall Festival runs Friday, September 11 through Sunday, September 13, 2026, at Lions Park. The festival is held annually on the weekend after Labor Day."

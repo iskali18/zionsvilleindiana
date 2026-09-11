@@ -4,7 +4,7 @@ slug: gables-bagels
 category: dining
 area: "downtown"
 shortDescription: "New York–style bagel shop on Main Street with bagels, schmears, and breakfast sandwiches."
-seo_title: "Gables Bagels | New York–Style Bagels in Zionsville, IN"
+metaTitle: "Gables Bagels | New York–Style Bagels in Zionsville, IN"
 metaDescription: "Gables Bagels in downtown Zionsville serves New York–style bagels, schmears, breakfast and lunch sandwiches, with gluten-free options."
 address: "270 S Main St, Zionsville, IN 46077"
 phone: "(317) 727-5048"

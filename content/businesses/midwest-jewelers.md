@@ -4,7 +4,7 @@ slug: midwest-jewelers
 category: shopping
 area: "downtown"
 shortDescription: "Custom jewelry design and professional estate buying services."
-seo_title: "Midwest Jewelers & Estate Buyers | Custom Jewelry in Zionsville"
+metaTitle: "Midwest Jewelers & Estate Buyers | Custom Jewelry in Zionsville"
 metaDescription: "Find fine and estate jewelry at Midwest Jewelers in Zionsville. Offering custom design, professional appraisals, and expert jewelry and watch repair."
 address: "190 S Main St, Zionsville, IN 46077"
 phone: "(317) 733-0099"

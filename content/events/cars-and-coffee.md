@@ -2,8 +2,8 @@
 title: "Cars & Coffee"
 alternateName: ["GR Brands Cars & Coffee", "Cars and Coffee", "Graham Rahal Cars & Coffee", "Graham Rahal Cars and Coffee", "Graham Rahal Performance Cars & Coffee", "Rahal Cars & Coffee"]
 description: "A recurring automotive gathering at Graham Rahal Performance in Zionsville featuring rare exotics, vintage classics, race cars, motorcycles, and other enthusiast vehicles."
-metaTitle: "Cars & Coffee 2026 | Zionsville Dates"
-metaDescription: "Cars & Coffee returns to Graham Rahal Performance in Zionsville Aug. 29 and Sept. 26, with a Trunk or Treat season finale Oct. 24."
+metaTitle: "Cars & Coffee Zionsville 2026: Dates, Times & Location"
+metaDescription: "Cars & Coffee at Graham Rahal Performance in Zionsville is September 26, with a Trunk or Treat season finale on October 24. Free and open to the public."
 eventType: recurring
 startDate: "2026-08-29"
 endDate: "2026-10-24"
@@ -14,7 +14,7 @@ occurrences:
   - "2026-09-26"
   - "2026-10-24"
 recurrenceLabel: "Saturdays, Aug 29, Sep 26 & Oct 24, 2026"
-inSeasonMessage: "Cars & Coffee runs 9:00–11:00 a.m. on August 29 and September 26, with the Trunk or Treat finale October 24 from 4:00 to 6:00 p.m."
+inSeasonMessage: "Cars & Coffee runs 9:00–11:00 a.m. on September 26, with the Trunk or Treat finale October 24 from 4:00 to 6:00 p.m."
 location: "Graham Rahal Performance"
 address: "10850 Creek Way"
 externalUrl: "https://www.grahamrahalperformance.com/events-calendar-cars-dealership--xlistevents"
@@ -24,10 +24,10 @@ hero_position: "center 35%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [cars, family, free, outdoor]
-lastUpdated: "2026-08-22"
+lastUpdated: "2026-09-10"
 faqs:
   - q: "When are the 2026 Cars & Coffee events?"
-    a: "Cars & Coffee takes place Saturday, August 29 and Saturday, September 26 from 9:00 to 11:00 AM. The season concludes with the Trunk or Treat event on Saturday, October 24 from 4:00 to 6:00 PM."
+    a: "The remaining Cars & Coffee is Saturday, September 26 from 9:00 to 11:00 AM. The season concludes with the Trunk or Treat event on Saturday, October 24 from 4:00 to 6:00 PM."
   - q: "Where is Cars & Coffee held?"
     a: "The event takes place at Graham Rahal Performance, 10850 Creek Way, in Zionsville’s Creekside Corporate Park."
   - q: "What types of vehicles can I see at Cars & Coffee?"
@@ -63,7 +63,7 @@ Cars are displayed throughout the outdoor areas around the Graham Rahal Performa
 
 | Feature | Detail |
 | :--- | :--- |
-| **Dates** | Saturday, August 29 & Saturday, September 26, 2026 |
+| **Dates** | Saturday, September 26, 2026 |
 | **Time** | 9:00 AM – 11:00 AM EDT |
 | **Season Finale** | Saturday, October 24, 2026 — Trunk or Treat |
 | **Finale Time** | 4:00 PM – 6:00 PM EDT |
@@ -77,8 +77,6 @@ Cars are displayed throughout the outdoor areas around the Graham Rahal Performa
 | **Saturday, August 29** | 9:00–11:00 AM | Cars & Coffee |
 | **Saturday, September 26** | 9:00–11:00 AM | Cars & Coffee |
 | **Saturday, October 24** | 4:00–6:00 PM | Trunk or Treat season finale |
-
-The August and September Cars & Coffee dates were moved from their previously announced dates of August 22 and September 12. The October 24 finale remains on its original date.
 
 ## What to Expect
 

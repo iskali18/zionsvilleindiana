@@ -4,7 +4,7 @@ slug: gifted
 category: shopping
 area: "downtown"
 shortDescription: "Specialty boutique on Cedar Street with curated items sourced from Europe and the United States, plus candles, jewelry, and baskets."
-seo_title: "Gifted | Specialty Boutique in Zionsville, IN"
+metaTitle: "Gifted | Specialty Boutique in Zionsville, IN"
 metaDescription: "Gifted is a specialty boutique just off Main Street in downtown Zionsville, with curated items sourced from Europe and the U.S., plus candles and jewelry."
 address: "12 E Cedar St, Zionsville, IN 46077"
 phone: "(317) 875-2003"

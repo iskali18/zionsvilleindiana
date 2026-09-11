@@ -4,7 +4,7 @@ slug: noah-grants
 category: dining
 area: "downtown"
 shortDescription: "Upscale seafood, sushi, and steaks in the heart of the Village."
-seo_title: "Noah Grant's | Seafood & Oyster Bar in Zionsville, IN"
+metaTitle: "Noah Grant's | Seafood & Oyster Bar in Zionsville, IN"
 metaDescription: "Dine at Noah Grant's in downtown Zionsville for fresh oysters, sushi, and Certified Angus Beef. A premier destination for seafood and steaks."
 address: "91 S Main St, Zionsville, IN 46077"
 phone: "(317) 732-2233"

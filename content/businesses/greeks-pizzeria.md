@@ -4,7 +4,7 @@ slug: greeks-pizzeria
 category: dining
 area: "downtown"
 shortDescription: "A Village staple for specialty pizzas and fresh-baked breadsticks."
-seo_title: "Greek's Pizzeria | Specialty Pizza & Dining in Zionsville, Indiana"
+metaTitle: "Greek's Pizzeria | Specialty Pizza & Dining in Zionsville, Indiana"
 metaDescription: "Visit Greek's Pizzeria in downtown Zionsville for fresh-baked breadsticks, specialty pizzas, and Italian sandwiches. Indoor and patio seating available."
 address: "30 N Main St, Zionsville, IN 46077"
 phone: "(317) 344-2999"

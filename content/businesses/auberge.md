@@ -4,7 +4,7 @@ slug: auberge
 category: dining
 area: "downtown"
 shortDescription: "French restaurant and bar at the Brick Street Inn on Main Street."
-seo_title: "Auberge | French Restaurant in Zionsville, Indiana"
+metaTitle: "Auberge | French Restaurant in Zionsville, Indiana"
 metaDescription: "Auberge is a French-inspired restaurant and bar at the Brick Street Inn on Main Street in Zionsville, with brunch, lunch, dinner, and craft cocktails."
 address: "175 S Main St, Zionsville, IN 46077"
 phone: "(317) 733-8755"

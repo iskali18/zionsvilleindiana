@@ -25,10 +25,11 @@ const mono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://zionsvilleindiana.com'),
-  title: {
-    default: 'Zionsville Indiana — Events, Parks & Village Guide',
-    template: '%s | Zionsville Indiana',
-  },
+  // No `template` here. Almost every page's metaTitle already contains
+  // "Zionsville", so appending the site name pushed most rendered titles past
+  // 60 characters and repeated the word twice in one line. Pages set their own
+  // full title; this default covers the homepage only.
+  title: 'Zionsville Indiana — Events, Parks & Village Guide',
   description:
     'Your guide to Zionsville, Indiana. Browse the 2026 events calendar, explore downtown shops and restaurants, and find parks and trails in the village.',
   openGraph: {

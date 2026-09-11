@@ -4,7 +4,7 @@ slug: my-sugar-pie
 category: dining
 area: "downtown"
 shortDescription: "Gourmet homemade pies on Pine Street, just off Main, with slices, whole pies, and nationwide shipping."
-seo_title: "My Sugar Pie | Gourmet Homemade Pies in Zionsville, IN"
+metaTitle: "My Sugar Pie | Gourmet Homemade Pies in Zionsville, IN"
 metaDescription: "My Sugar Pie in downtown Zionsville bakes gourmet homemade pies — fruit, cream, classic, and seasonal — sold by the slice or whole, with shipping available."
 address: "40 E Pine St, Zionsville, IN 46077"
 phone: "(317) 733-8717"

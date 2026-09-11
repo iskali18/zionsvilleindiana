@@ -37,8 +37,8 @@ How to write each one:
   reads it with no page around it.
 
 **There is no `seoTitle`.** HTML has one title tag and `metaTitle` is it.
-`seoTitle` names a goal; `metaTitle` names the output. Delete `seoTitle` and
-`seo_title` wherever they appear.
+`seoTitle` names a goal; `metaTitle` names the output. All four content types
+use `metaTitle` as of September 2026.
 
 ### Length targets
 
@@ -48,10 +48,33 @@ How to write each one:
 | `metaDescription` | 140–155 characters | 155 |
 | `description` | one sentence | — |
 
-Google truncates past those limits. Under-length is fine; over-length loses the
-tail.
+Google truncates past those limits. Over-length loses the tail; well under
+wastes the space.
 
 Every `metaTitle` should contain "Zionsville" unless the page name already does.
+
+**There is no title template.** `app/layout.tsx` used to append
+" | Zionsville Indiana" to every page, which pushed most rendered titles past
+60 characters and said "Zionsville" twice in one line. That was removed in
+September 2026, so a `metaTitle` now renders exactly as written. Do not add the
+template back without shortening 45 titles first.
+
+### Checking them
+
+`scripts/audit-meta.mjs` reads every file under `content/` and reports the ones
+outside the targets.
+
+```powershell
+node scripts/audit-meta.mjs            # only files with problems
+node scripts/audit-meta.mjs --all      # every file
+node scripts/audit-meta.mjs --future   # skip events whose date has passed
+```
+
+Output is tab-separated, so it pastes into a spreadsheet. `--future` is usually
+what you want — a past event's long title can wait until its season comes round.
+
+The script also catches a missing `metaTitle` or `metaDescription`, which is how
+the business pages' `seo_title` field was found in September 2026.
 
 ### Quoting
 
@@ -565,25 +588,21 @@ this name; every other type uses `lastUpdated`.
 
 Open items, roughly by size.
 
-**`seoTitle`, `seo_title`.** Being consolidated to `metaTitle`. Grep confirmed
-the real state:
+**`seo_title` — DONE, September 2026.** All four content types now use
+`metaTitle`. The 24 business files were renamed, `BusinessMeta.seo_title` was
+removed from `types/index.ts`, and `app/businesses/[slug]/page.tsx` no longer
+falls back.
 
-| Type | Title tag today | Meta description today |
+| Type | Title tag | Meta description |
 | --- | --- | --- |
 | Event | `metaTitle` | `metaDescription` |
 | Park | `metaTitle` | `metaDescription` |
-| Article | `seoTitle` | `description` |
-| Business | `seo_title`, falling back to `metaTitle` | `metaDescription` |
+| Article | `metaTitle` | `metaDescription` |
+| Business | `metaTitle` | `metaDescription` |
 
-Events and parks are already correct. Articles and businesses both need the
-rename. `EventMeta` also carries an unread `seo_title?` that can go.
-
-Article consumers are `app/articles/[slug]/page.tsx` and
-`app/things-to-do/page.tsx`, plus `components/ArticleLayout.tsx`.
-
-All 24 business files use `seo_title` and none define `metaTitle`, so the
-fallback in `app/businesses/[slug]/page.tsx` never fires and the rename has no
-conflicting values to reconcile.
+**Business title lengths.** 11 of the 24 run past 60 characters, all following
+the same "Name | Description in Zionsville, Indiana" shape. Worth one pass with
+a shorter pattern rather than fixing them individually.
 
 **Article descriptions.** `ArticleMeta.description` feeds both the meta tag and
 the schema. Splitting it into `metaDescription` plus an optional `description`

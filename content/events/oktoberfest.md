@@ -2,7 +2,7 @@
 title: "Oktoberfest"
 alternateName: ["Zionsville Oktoberfest", "St. Alphonsus Oktoberfest", "St. Al Oktoberfest"]
 description: "An evening Oktoberfest for adults at St. Alphonsus Liguori Catholic Church, with German food, a Biergarten, live polka music and dancing, contests and a raffle drawing benefiting local charities."
-metaTitle: "Oktoberfest 2026 | Zionsville, IN"
+metaTitle: "St. Alphonsus Oktoberfest 2026 | Zionsville, IN"
 metaDescription: "Oktoberfest at St. Alphonsus is October 3, 2026, 4–11 PM. Open to the public, ages 21+. German food, a Biergarten, live polka, contests and a raffle."
 eventType: annual
 startDate: "2026-10-03"

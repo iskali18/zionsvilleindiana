@@ -4,7 +4,7 @@ slug: brick-street-inn
 category: lodging
 area: "downtown"
 shortDescription: "Boutique hotel and French-inspired dining in the Village."
-seo_title: "Brick Street Inn & Auberge | Boutique Hotel in Zionsville, Indiana"
+metaTitle: "Brick Street Inn & Auberge | Boutique Hotel in Zionsville, Indiana"
 metaDescription: "Stay at the historic Brick Street Inn on Main Street in Zionsville. Featuring 8 luxury guest rooms, private event spaces, and French-inspired dining at Auberge."
 address: "175 S Main St, Zionsville, IN 46077"
 phone: "(317) 873-1900"

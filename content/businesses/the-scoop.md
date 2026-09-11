@@ -4,7 +4,7 @@ slug: the-scoop
 category: dining
 area: "downtown"
 shortDescription: "Ice cream shop in a restored Victorian building on Main Street."
-seo_title: "The Scoop Zionsville | Menu, Hours & Main Street Ice Cream"
+metaTitle: "The Scoop Zionsville | Menu, Hours & Main Street Ice Cream"
 metaDescription: "Plan a visit to The Scoop in downtown Zionsville. Find hours, menu highlights, dairy-free and vegan options, patio seating, and location info on Main Street."
 address: "305 S Main St, Zionsville, IN 46077"
 website: "https://thescoopmainstreet.com"

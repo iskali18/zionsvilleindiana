@@ -4,7 +4,7 @@ slug: black-dog-books
 category: shopping
 area: "downtown"
 shortDescription: "Independent shop for rare, used, and collectible books."
-seo_title: "Black Dog Books | Rare & Collectible Books in Zionsville, Indiana"
+metaTitle: "Black Dog Books | Rare & Collectible Books in Zionsville, Indiana"
 metaDescription: "Explore a curated collection of rare, used, and antiquarian books at Black Dog Books in Zionsville. Specializing in history, poetry, and professional book repair."
 address: "115 S Main St, Zionsville, IN 46077"
 phone: "(317) 733-1747"
