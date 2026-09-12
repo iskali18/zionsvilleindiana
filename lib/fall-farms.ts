@@ -196,7 +196,7 @@ export const DESTINATIONS: Destination[] = [
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     comingSoon: { 'Pumpkin Picking': 'from Sept. 19' },
     schedules: [
-      { label: 'Ausome Fall Fest', dates: ['2026-09-12'], hours: 'noon\u20133 PM', status: 'confirmed', planner: true },
+      { label: 'Ausome Fall Fest', dates: ['2026-09-12'], hours: 'noon\u20133 PM', status: 'confirmed', planner: false, note: 'Autism Society of Indiana event, not general admission. The farm opens to the public Sept. 19.' },
       { label: 'Fall season', start: '2026-09-19', end: '2026-10-25', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon.\u2013Fri. 1\u20137 PM; Sat. 10 AM\u20137 PM; Sun. noon\u20137 PM', status: 'confirmed', planner: true, note: 'Open daily.' },
     ],
   },
