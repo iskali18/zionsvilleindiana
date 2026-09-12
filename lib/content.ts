@@ -227,9 +227,16 @@ export function getFeaturedEvents(limit = 3): EventMeta[] {
   // getAllEvents() already resolves recurrence and sorts by resolved startDate
   const all = getAllEvents()
 
-  // 1. Upcoming dated featured events (not perennials, on or after today)
+  // 1. Featured events that have not finished yet (not perennials).
+  //    Compare against endDate, not startDate — a multi-day event is still
+  //    happening on its second day and should stay listed until it is over.
   const upcoming = all
-    .filter((e) => e.featured && !e.perennial && new Date(e.startDate + 'T00:00:00') >= today)
+    .filter(
+      (e) =>
+        e.featured &&
+        !e.perennial &&
+        new Date((e.endDate ?? e.startDate) + 'T23:59:59') >= today
+    )
     .slice(0, limit)
 
   if (upcoming.length >= limit) return upcoming
