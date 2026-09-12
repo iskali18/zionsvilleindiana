@@ -20,6 +20,8 @@ const src = fs.readFileSync(path.join(ROOT, 'lib/fall-farms.ts'), 'utf8')
 const OUT = path.join(ROOT, 'scripts/comparison.html')
 
 /** The lib stores non-ASCII as \uXXXX escapes; decode them all. */
+const TODAY_ISO = new Date().toISOString().slice(0, 10)
+
 const un = (x) => x.replace(/\\u([0-9a-fA-F]{4})/g, (_, c) => String.fromCharCode(parseInt(c, 16)))
 
 const body = src.slice(src.indexOf('export const DESTINATIONS'))
@@ -126,15 +128,53 @@ for (const m of body.matchAll(/    name: '(.+?)',([\s\S]*?)(?=\n  \},)/g)) {
     .split(',')
     .map((x) => x.trim().replace(/'/g, ''))
     .filter(Boolean)
+  // A feature that opens later than the destination carries its own schedule,
+  // tagged `appliesTo`. The PDF is printed once and read over weeks, so it
+  // labels the start date rather than resolving against a single day.
+  const MONTH_SHORT = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
   const soon = {}
-  const cs = /comingSoon: \{(.*?)\}/s.exec(blk)
-  if (cs) for (const s of cs[1].matchAll(/'(.+?)': '(.+?)'/g)) soon[s[1]] = s[2]
+  for (const sc of blk.matchAll(/\{ label:[^{}]*?\}/gs)) {
+    const t = sc[0]
+    const at = /appliesTo: '(.*?)'/.exec(t)
+    if (!at) continue
+    const start = /start: '(.*?)'/.exec(t)
+    const status = /status: '(.*?)'/.exec(t)
+    if (status && status[1] !== 'confirmed') {
+      soon[un(at[1])] = 'dates not yet posted'
+    } else if (start && start[1] > TODAY_ISO) {
+      const [, m, d] = start[1].split('-').map(Number)
+      soon[un(at[1])] = `from ${MONTH_SHORT[m - 1]} ${d}`
+    } else {
+      // Running, but perhaps not every day the destination is open — Stuckey's
+      // festival is weekends while the farm itself opens Thursday. A printed
+      // guide cannot resolve a date, so it states the restriction.
+      const days = [...t.matchAll(/'(sun|mon|tue|wed|thu|fri|sat)'/g)].map((x) => x[1])
+      const seasonDays = [
+        ...new Set(
+          [...blk.matchAll(/\{ label:[^{}]*?planner: true[^{}]*?\}/gs)]
+            .filter((x) => !/appliesTo:/.test(x[0]))
+            .flatMap((x) => [...x[0].matchAll(/'(sun|mon|tue|wed|thu|fri|sat)'/g)].map((y) => y[1]))
+        ),
+      ]
+      if (days.length && seasonDays.length && days.length < seasonDays.length) {
+        const DAY = { sun: 'Sun', mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri', sat: 'Sat' }
+        const ORDER = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat']
+        soon[un(at[1])] =
+          days.length === 2 && days.includes('sat') && days.includes('sun')
+            ? 'weekends only'
+            : `${ORDER.filter((d) => days.includes(d)).map((d) => DAY[d]).join(', ')} only`
+      }
+    }
+  }
 
   const scheds = []
   for (const sc of blk.matchAll(/\{ label:[^{}]*?\}/gs)) {
     const t = sc[0]
     // Members-only preview days do not belong in a public handout.
     if (/planner: false/.test(t) && /Season Pass/.test(t)) continue
+    // A feature-only schedule is already represented by its grayed icon label,
+    // so repeating it in the date column just makes the row longer.
+    if (/appliesTo:/.test(t) && /planner: false/.test(t)) continue
     const g = (k) => {
       const r = new RegExp(`${k}: '(.*?)'`).exec(t)
       return r ? un(r[1]) : null
@@ -236,16 +276,13 @@ const scheduleCell = (d) =>
     .join('')
 
 const featureCell = (d) => {
-  const on = ICONS.filter((i) => d.features.includes(i.filter)).map((i) => `${i.icon} ${i.label}`)
+  // A feature with a pending label is listed once, grayed, not in both rows.
+  const on = ICONS.filter((i) => d.features.includes(i.filter) && !d.soon[i.filter]).map(
+    (i) => `${i.icon} ${i.label}`
+  )
   const later = Object.entries(d.soon).map(([f, when]) => {
     const ic = ICONS.find((i) => i.filter === f)
-    // The label may be a date ('Sept. 19') or a bare word ('soon').
-    const w = /\d/.test(when)
-      ? /^(from|late|early|mid)\b/i.test(when)
-        ? when
-        : `from ${when}`
-      : 'dates not yet posted'
-    return ic ? `<span class="soon">${ic.icon} ${ic.label} \u2014 ${w}</span>` : ''
+    return ic ? `<span class="soon">${ic.icon} ${ic.label} \u2014 ${when}</span>` : ''
   })
   const words = [
     'Hayride / Wagon Ride',

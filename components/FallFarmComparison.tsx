@@ -53,6 +53,14 @@ export default function FallFarmComparison() {
       : 'closed'
   }
 
+  /** Icons resolve against the chosen date, or today when none is picked, so
+   *  the default view still reflects what is actually available now. */
+  const todayIso = useMemo(() => {
+    const n = new Date()
+    return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`
+  }, [])
+  const refDate = date || todayIso
+
   const openPicker = () => {
     const el = dateRef.current
     if (!el) return
@@ -68,41 +76,117 @@ export default function FallFarmComparison() {
   const toggle = (f: Filter) =>
     setActive((prev) => (prev.includes(f) ? prev.filter((x) => x !== f) : [...prev, f]))
 
-  // A destination matches only when it has EVERY selected filter.
+  /** Whether one feature is available on a date.
+   *
+   *  A feature is only date-checked when a schedule is tagged `appliesTo` it —
+   *  a pumpkin patch that opens after the farm does, say. With no such
+   *  schedule the feature runs whenever the destination is open, so the date
+   *  filter on the destination already answers it and the icon stays lit.
+   *
+   *  Returns the label to show beside a grayed icon, or null when available. */
+  const featureState = (d: Destination, f: Filter, iso: string): string | null => {
+    const own = d.schedules.filter((sc) => sc.appliesTo === f)
+    if (own.length === 0) return null
+
+    // When the destination is shut that day, graying each feature repeats what
+    // the schedule column already says. Let the destination's own state answer.
+    if (stateOn(d, iso) !== 'open') return null
+
+    const wd = WEEKDAY[parse(iso).getDay()]
+    const covers = (sc: Destination['schedules'][number]) =>
+      sc.status === 'confirmed' &&
+      ((sc.dates?.includes(iso) ?? false) ||
+        (!!sc.start &&
+          iso >= sc.start &&
+          (!sc.end || iso <= sc.end) &&
+          (!sc.days || sc.days.includes(wd))))
+
+    if (own.some(covers)) return null
+
+    // Not available. Say why, preferring the most useful answer.
+    const starts = own
+      .filter((sc) => sc.status === 'confirmed' && sc.start && sc.start > iso)
+      .map((sc) => sc.start!)
+      .sort()
+    if (starts.length) return `from ${fmtShort(starts[0])}`
+
+    if (own.some((sc) => sc.status !== 'confirmed')) return 'dates not posted'
+
+    const ends = own.filter((sc) => sc.end && sc.end < iso).map((sc) => sc.end!).sort()
+    if (ends.length) return `ended ${fmtShort(ends[ends.length - 1])}`
+
+    // The window covers this date but not this weekday — Stuckey's festival
+    // runs weekends while the farm itself opens Thursday. Say which days.
+    const days = [...new Set(own.flatMap((sc) => sc.days ?? []))]
+    if (days.length) {
+      if (days.length === 2 && days.includes('sat') && days.includes('sun')) return 'weekends only'
+      const SHORT_DAY: Record<string, string> = {
+        sun: 'Sun', mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu', fri: 'Fri', sat: 'Sat',
+      }
+      return `${WEEKDAY.filter((d) => days.includes(d)).map((d) => SHORT_DAY[d]).join(', ')} only`
+    }
+
+    return 'not available'
+  }
+
+  /** 'Sept. 19' — short enough to sit beside an icon. */
+  const fmtShort = (iso: string) => {
+    const MONTH = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
+    const d = parse(iso)
+    return `${MONTH[d.getMonth()]} ${d.getDate()}`
+  }
+
+  /** A destination matches only when it has EVERY selected filter, and — once a
+   *  date is chosen — when each of those features is actually available that
+   *  day. Ticking Pumpkins for October 12 should not return a patch that opens
+   *  on the 26th. */
   const shown = useMemo(
     () =>
       DESTINATIONS.filter(
         (d) =>
-          active.every((f) => d.features.includes(f)) && (!date || stateOn(d, date) === 'open')
+          active.every(
+            (f) => d.features.includes(f) && (!date || featureState(d, f, date) === null)
+          ) && (!date || stateOn(d, date) === 'open')
       ),
     [active, date]
   )
 
   /** Destinations the date filter cannot answer for. Listed rather than hidden,
    *  so an unposted schedule never reads as "closed". */
+  /** Destinations that might suit but cannot be confirmed: either the place
+   *  itself has not posted that day, or it is open but has not posted dates for
+   *  a feature the reader asked for. Dropping the second group silently would
+   *  hide a farm that probably does have pumpkins, just without a published
+   *  start date. */
   const unknown = useMemo(
     () =>
       !date
         ? []
-        : DESTINATIONS.filter(
-            (d) => active.every((f) => d.features.includes(f)) && stateOn(d, date) === 'unknown'
-          ),
-    [active, date]
+        : DESTINATIONS.filter((d) => {
+            if (!active.every((f) => d.features.includes(f))) return false
+            if (shown.includes(d)) return false
+            if (stateOn(d, date) === 'closed') return false
+            // A feature with a definite answer — starts later, already ended —
+            // is not a maybe. Only an unposted one leaves the question open.
+            const states = active.map((f) => featureState(d, f, date))
+            if (states.some((st) => st !== null && st !== 'dates not posted')) return false
+            return stateOn(d, date) === 'unknown' || states.includes('dates not posted')
+          }),
+    [active, date, shown]
   )
 
   // Badges explain a match the four permanent icons don't already show.
   const badgeFilters = active.filter((f) => !ICON_FILTERS.has(f))
 
   const iconsFor = (d: Destination) =>
-    ICONS.filter((i) => d.features.includes(i.filter))
+    ICONS.filter((i) => d.features.includes(i.filter) && featureState(d, i.filter, refDate) === null)
 
-  /** Features not open yet but expected this season. Rendered grayed with the
-   *  destination's own label, and deliberately left out of the filter results. */
+  /** Features flagged as not yet available on the date in view, with the label
+   *  to render beside the grayed icon. */
   const soonFor = (d: Destination) =>
-    ICONS.filter((i) => d.comingSoon?.[i.filter]).map((i) => ({
-      ...i,
-      when: d.comingSoon![i.filter]!,
-    }))
+    ICONS.map((i) => ({ ...i, when: featureState(d, i.filter, refDate) }))
+      .filter((i) => d.features.includes(i.filter) && i.when !== null)
+      .map((i) => ({ ...i, when: i.when as string }))
 
   /** Shared icon key. Rendered under the Highlights heading on desktop and
    *  inline above the cards on mobile. A grayed icon carries its own date
