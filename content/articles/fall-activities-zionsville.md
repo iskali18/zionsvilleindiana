@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-08-30"
+lastUpdated: "2026-09-10"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -37,142 +37,171 @@ Fall in Zionsville brings concerts and live performances, outdoor and nature act
 
 This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For pumpkin patches, apple orchards and corn mazes, see our guide to [fall farms and orchards near Zionsville and Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
-## Fall Activities at a Glance
+<!-- FALL_ACTIVITIES_TABLE -->
 
-| Activity                                                                            | When                               | What to Expect                                           |
-| --- | --- | --- |
-| [Fall Walks & Trails](#take-a-fall-walk-or-bike-ride)                               | Throughout fall                    | Parks, wooded trails and the Big-4 Rail Trail    |
-| [Visit Traders Point Creamery](#visit-traders-point-creamery)                       | Throughout fall                    | Farm walks, dairy cows, farm store and dining            |
-| [ZCHS Performances & Sports](#enjoy-fall-performances--sports-at-zchs)              | Throughout fall                    | Fall musical, concerts, football and other Eagles sports |
-| [Zionsville Farmers Market](#visit-the-zionsville-farmers-market)                   | Saturday mornings through Sept. 26 | Local produce, food, vendors and music                   |
-| [SFZ Concert Series](#enjoy-the-sfz-concert-series)                                 | Sept. 13, Oct. 11 & Nov. 1         | Sunday afternoon concerts at St. Francis In-The-Fields   |
-| [Zionsville Parks & Recreation](#experience-fall-with-zionsville-parks--recreation) | Sept. 17–Nov. 21                   | Birding, campfire concerts, night hikes and owl walks    |
-| [Movies at Maplelawn](#watch-a-movie-at-maplelawn-farmstead)                        | Sept. 19 & 26                      | Outdoor movies projected onto the barn                   |
-| [Salem Fall Cookout](#spend-a-fall-evening-at-salem-methodist-church)               | Oct. 2                           | Hayrides, pumpkin painting, campfire and s’mores         |
-| [GhostWalk](#experience-zionsvilles-ghostwalk)                                      | Oct. 2–3                           | Guided walking tour with reenacted local ghost stories   |
-| [Pumpkinfest](#celebrate-fall-at-pumpkinfest)                                       | Oct. 3                             | Pumpkins, children’s activities and hayrides             |
-| [Fall Races](#race-through-zionsville-this-fall)                                    | Oct. 3–Nov. 26                     | Hit the Bricks, Zionsville Half Marathon and Gravy Chase |
-| [Gallery On & Off Main](#explore-gallery-on--off-main)                              | Oct. 24                            | Artists and artisans throughout the Main Street district |
-| [Pumpkins & Hayrides](#enjoy-pumpkins--hayrides-at-lions-park)                      | Oct. 25                            | Pumpkins, hayrides and traditional fall activities       |
-| [Smashin’ Pumpkins](#smash-your-pumpkins-at-mulberry-fields)                        | Nov. 7                             | Pumpkin smashing, composting and the Epic Pumpkin Drop   |
-| [Teeny Tiny Art Market](#browse-the-teeny-tiny-art-market)                          | Nov. 20–Dec. 19                    | Small-scale art at SullivanMunce Cultural Center         |
+## Experience Zionsville’s GhostWalk
 
-## Take a Fall Walk or Bike Ride
+**GhostWalk** is an evening walking tour through Zionsville’s historic Village, with actors reenacting stories connected to local people, places and legends.
 
-Not every fall outing needs a scheduled start time. Zionsville’s parks and trails provide several places to get outside as temperatures cool and leaves begin changing.
+The approximately 45-minute experience returns **October 2–3, 2026**, with stories and stops that can change from year to year.
 
-[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park) has wooded trails through approximately 80 acres along Eagle Creek. [Overley-Worman Park](https://www.zionsville-in.gov/712/Overley-Worman-Park) adds trails, mountain biking and disc golf, while the Big-4 Rail Trail provides a paved multi-use route for walking, running and cycling through Zionsville.
+[See the full GhostWalk event guide.](/events/ghostwalk)
 
-[See the Big-4 Rail Trail guide.](/articles/big-4-rail-trail)
+## Experience Fright Nights
+
+**Friday and Saturday, October 23–24, 2026 — 7:00–10:00 p.m.**
+
+Zionsville Parks & Recreation runs a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. The ride crosses the fields after dark before reaching the barn.
+
+See the [Fright Nights event guide](/events/fright-nights) for tickets and parking.
+
+## Celebrate Fall at Pumpkinfest
+
+**Pumpkinfest** at St. Alphonsus Liguori Catholic Church returns on **October 3** with an afternoon of family fall activities. **The event is open to the public.**
+
+Children can paint pumpkins, take a hayride to the church’s pumpkin patch, and enjoy other seasonal activities. Pumpkins are available while supplies last.
+
+[See the complete Pumpkinfest guide.](/events/pumpkinfest)
 
 <figure className="my-8">
   <Image
-    src="/images/articles/fall-activities-zionsville-rail-trail.webp"
-    alt="Vibrant red and orange autumn foliage lining the paved Big-4 Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
+    src="/images/articles/fall-activities-zionsville-pumpkinfest.webp"
+    alt="Large orange pumpkins in a grass field with a hayride trailer in the background at St. Alphonsus Liguori Catholic Church in Zionsville."
     width={1400}
     height={933}
     className="w-full h-auto rounded"
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
-    Peak fall colors framing the paved Big-4 Rail Trail in Zionsville. <span className="not-italic">© ZionsvilleIndiana.com</span>
+    Pumpkins lined up on the grass for picking during Pumpkinfest at St. Alphonsus Liguori Catholic Church. <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
-## Visit Traders Point Creamery
+## Raise a Stein at Oktoberfest
 
-Fall is a good time to explore the farm at **Traders Point Creamery**, where visitors can see the working dairy farm and walk through the property along Eagle Creek.
+**Saturday, October 3, 2026 — 4:00–11:00 p.m.**
+
+St. Alphonsus Liguori Catholic Church holds its annual Oktoberfest in Parish Hall and the Biergarten. The evening is open to the public for adults 21 and older, with German food, live polka from Polkamotion, a stein-holding contest and a raffle drawing. There is no cover charge.
+
+Pumpkinfest runs at the same location earlier in the day, so the two can be combined into one visit.
+
+See the [Oktoberfest event guide](/events/oktoberfest) for the menu and schedule.
+
+## Enjoy Pumpkins & Hayrides at Lions Park
+
+**Pumpkins & Hayrides** returns to Lions Park on **October 25 from 2:00–5:00 PM** for a free afternoon of fall activities.
+
+The event includes **hayrides, free pumpkins for painting while supplies last, Bach to Rock, Mr. Daniel’s Music, Master Yoo’s Taekwondo, bounce houses, games and food**. A kids costume contest begins at **4:00 PM**, and parking in Lions Park is free for the event.
+
+[See the full Pumpkins & Hayrides event guide.](/events/pumpkins-hayrides)
+
+## Dance on Main Street
+
+**Saturday, September 26, 2026 — 6:00–10:00 p.m., gates at 5:00 p.m.**
+
+The Zionsville Street Dance returns to Main Street with The Janeways followed by The Flying Toasters. Normally a summer event, the 2026 dance was rescheduled to September after the August date was cancelled.
+
+This is a scaled-down makeup event and does not include a children’s area. Tickets are required.
+
+See the [Street Dance event guide](/events/street-dance) for tickets and details.
+
+## Take the Kids to Trick or Trees
+
+**Saturday, October 24, 2026 — 9:00 a.m.–12:00 p.m.**
+
+Zionsville Parks & Recreation runs a Trick-or-Treat Trail through Elm Street Green Park for children ages 2 to 12, with the Pumpkin Path, marshmallow roasting, science activities and games alongside the trail.
+
+Admission is $5 for residents and $7 for nonresidents. Registration opens October 1 and the event sells out each year.
+
+See the [Trick or Trees event guide](/events/trick-or-trees) for registration and parking.
+
+## Step Back to 80s Night
+
+**Thursday, September 17, 2026 — from 5:00 p.m.**
+
+Downtown Zionsville turns to the 1980s for an evening of music, fashion and pop culture along Main Street, with themed activities at participating businesses.
+
+See the [80s Night event guide](/events/80s-night) for details.
+
+## Smash Your Pumpkins at Mulberry Fields
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <a href="/images/articles/traders-point-creamery-zionsville-tour-map.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/articles/traders-point-creamery-zionsville-tour-map.webp" alt="Illustrated map of Traders Point Creamery showing the 1.5-mile farm walk trail, red barn, milking parlor, and pastures along Eagle Creek in Zionsville, Indiana."  class="rounded-lg shadow-sm cursor-zoom-in" />
+  <a href="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" alt="A large orange pumpkin falling mid-air from an extended fire truck ladder toward straw bales on the ground."  class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Illustrated map of the self-guided farm walk paths and grounds at Traders Point Creamery by Laura Winslow.
+    A pumpkin dropping from an extended fire truck ladder.
   </figcaption>
 </figure>
 
-The self-guided farm walk follows approximately 1.5 miles of paths through the pastures and farm grounds. A walking pass costs $5 per person and can be purchased from the Farm Store. Guided farm tours are offered April through October.
+**Smashin’ Pumpkins** returns to Mulberry Fields Park on **November 7**, giving families a fun way to dispose of leftover pumpkins after Halloween.
 
-Visitors can also watch the cows being milked at 6:30 PM Tuesday through Saturday.
+Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations before the pieces are collected for composting. The **Epic Pumpkin Drop** is one of the main attractions, with Zionsville firefighters raising pumpkins on a ladder truck and dropping them from above for a dramatic smash.
 
-The farm can be combined with a stop at the Farm Store or a meal at The Loft, making it an outing that can last anywhere from an hour to much of an afternoon.
+[See the complete Smashin’ Pumpkins event guide.](/events/smashin-pumpkins)
 
-[See Traders Point Creamery farm tour details and hours.](https://www.traderspointcreamery.com/events/tours/)
+## Watch a Movie at Maplelawn Farmstead
 
-## Enjoy Fall Performances & Sports at ZCHS
+**Movies at Maplelawn** brings outdoor movie nights to the historic Maplelawn Farmstead, with films projected directly onto the barn. Visitors can bring blankets or lawn chairs for seating on the lawn.
 
-Fall brings both performing arts and athletics to Zionsville Community High School, with concerts, theater productions and Eagles sporting events throughout the season.
+The 2026 schedule includes:
 
-### See a ZCHS Performance
+* **September 19** — *1776*
+* **September 26** — *Hamilton*
 
-Zionsville Community High School has several performances scheduled at the STAR Bank Performing Arts Center this fall.
+Gates open at 7:00 PM and the movies begin at dusk. Pizza, popcorn, desserts and beverages are available for purchase.
 
-* **September 29** — Fall Choral Concert
-* **October 5** — Fall Band Concert
-* **October 8** — Fall Orchestra Concert
-* **November 12–15** — *A Chorus Line: Teen Edition*
-
-*A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences.
-
-Check the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php) for performance times and ticket availability as each event approaches.
+[See the full Movies at Maplelawn event guide.](/events/movies-at-maplelawn)
 
 <figure className="my-8">
   <Image
-    src="/images/articles/fall-activities-zionsville-zchs-pac-performance.webp"
-    alt="Zionsville Community High School students performing a musical on stage at the STAR Bank Performing Arts Center."
+    src="/images/articles/fall-activities-zionsville-movies-at-maplelawn.webp"
+    alt="White wooden historic barns at Maplelawn Farmstead framed by orange daylilies under an evening sky in Zionsville, Indiana."
     width={1400}
     height={933}
     className="w-full h-auto rounded"
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
-    Student performers on stage at the STAR Bank Performing Arts Center during a Zionsville Community High School show. <span className="not-italic">Photo by STAR Bank Performing Arts Center</span>
+    The white barns and historic grounds at Maplelawn Farmstead. <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
-### Catch a Zionsville Eagles Game
+## Explore Gallery On & Off Main
 
-Friday night football is one of the most recognizable fall sports at Zionsville Community High School, with varsity games continuing into October.
+[Gallery On & Off Main](/events/gallery-on-and-off-main) brings local artists and artisans into shops throughout [the Village](/downtown) on **October 24**.
 
-[See upcoming ZCHS football games.](https://www.zchsathletics.org/Events?for=c51f1ea9-cdbb-4cdd-86dc-d1370bba775f&academicYear=0)
+Main Street merchants open their businesses to participating artists, creating an art walk along Main Street and in nearby shops. Visitors can browse artwork, meet artists, and explore businesses throughout the district from **noon to 8:00 PM**.
 
-The ZCHS athletics calendar also includes **soccer, volleyball, cross country, tennis, golf, and Unified Flag Football**. As fall moves into November, **basketball and wrestling** also begin their seasons.
+## Spend a Fall Evening at Salem Methodist Church
 
-[See all upcoming ZCHS sporting events.](https://www.zchsathletics.org/Events?for=&academicYear=0)
+Salem Methodist Church’s [Night Out with Christ Fall Cookout](https://www.salemchurchzionsville.org/events/night-out-w-christ-fall-cookout-2026) is scheduled for **October 2**, beginning at 6:00 p.m., and includes several traditional fall activities in one evening.
 
-## Visit the Zionsville Farmers Market
+Visitors can take a hayride, paint pumpkins, gather around a campfire, participate in a candy dig, and enjoy dinner and s’mores. Stones Crossing will provide live music. All ages are welcome, and the church describes it as a community event. Guests can bring lawn chairs or blankets.
 
-The **Zionsville Farmers Market** continues on Saturday mornings through September 26, giving visitors a few more chances to shop the market as the season shifts into fall.
+Salem Methodist Church has been part of the Zionsville community since the 1830s, with its first church built in 1849. The historic church sits in a wooded area off 550 South, adding to the setting for an outdoor fall evening.
 
-Vendors offer produce, baked goods, prepared foods, flowers and other locally made items, with live music and activities throughout the morning. The final market on **September 26** includes **Pumpkin Painting with MyArt**, a Zionsville art studio that offers classes, camps and creative programs for children and adults.
+## Race Through Zionsville This Fall
 
-[See the full Zionsville Farmers Market schedule and details.](/events/farmers-market)
+Three community running events take place from October through Thanksgiving, ranging from a 3K walk to a half marathon.
 
-## Enjoy the SFZ Concert Series
+### Hit the Bricks
 
-The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with three Sunday afternoon performances:
+The **Hit the Bricks 5K Run & 3K Walk** on **October 3** includes a timed 5K and untimed 3K. The routes use the Big-4 Rail Trail, neighborhood streets and Zionsville’s historic brick Main Street.
 
-| Date | Artist | Program |
-| --- | --- | --- |
-| **September 13 · 4:00 PM** | **Phil Pierick, saxophone** | ***Chicago Bagatelles Project***<br>Music for solo saxophone from Bach to today. |
-| **October 11 · 4:00 PM** | **Becky Archibald and Friends** | ***Wango Tzango Sfortzango!***<br>Original violin-and-piano tangos with Indianapolis Symphony Orchestra violinist Bryson Karrer, plus jazz trios with a small combo, celebrating Archibald’s new album *Tango for Disobedient Beasts*. |
-| **November 1 · 4:00 PM** | **Alec Holcomb** | ***A Panorama of Classical Guitar Music***<br>Familiar favorites, overlooked gems and rarely heard works that show the range of the classical guitar, including music adapted from other instruments. |
+The 2026 race highlights the **Boys & Girls Club of Boone County** as its local charity, with a large portion of race fundraising benefiting programs for area youth.
 
-The concerts take place inside the church and provide an indoor arts option alongside Zionsville’s outdoor fall activities.
+[See the Hit the Bricks 5K & 3K guide.](/events/hit-the-bricks)
 
-[See the complete SFZ Concert Series schedule.](/events/sfz-concert-series)
+### Zionsville Half Marathon & 5K
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-st-francis-fall.webp"
-    alt="Bright red, orange, and yellow autumn leaves on trees outside St. Francis In-The-Fields Episcopal Church in Zionsville, Indiana."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    Fall foliage surrounding St. Francis In-The-Fields Episcopal Church, host location for the SFZ Concert Series. <br /> <span className="not-italic">© ZionsvilleIndiana.com</span>
-  </figcaption>
-</figure>
+The **Zionsville Half Marathon & 5K** returns **November 21**, offering both a 13.1-mile race and a 5K.
+
+[See the Zionsville Half-Marathon & 5K guide.](/events/zionsville-half-marathon)
+
+### Gravy Chase
+
+On **Thanksgiving morning, November 26**, the [Gravy Chase](/events/gravy-chase) offers 2.2-mile and 4-mile run/walk routes through [historic downtown Zionsville](/downtown).
+
+The event is the **Boys & Girls Club of Boone County’s largest annual fundraiser**, with 100% of proceeds supporting programs, camps and sports for local youth. The Zionsville Gravy Chase enters its 10th year in 2026.
 
 ## Experience Fall with Zionsville Parks & Recreation
 
@@ -224,123 +253,122 @@ The [Fall Campfire](https://zionsvillein.myrec.com/info/activities/program_detai
   </figcaption>
 </figure>
 
-## Watch a Movie at Maplelawn Farmstead
+## Visit the Zionsville Farmers Market
 
-**Movies at Maplelawn** brings outdoor movie nights to the historic Maplelawn Farmstead, with films projected directly onto the barn. Visitors can bring blankets or lawn chairs for seating on the lawn.
+The **Zionsville Farmers Market** continues on Saturday mornings through September 26, giving visitors a few more chances to shop the market as the season shifts into fall.
 
-The 2026 schedule includes:
+Vendors offer produce, baked goods, prepared foods, flowers and other locally made items, with live music and activities throughout the morning. The final market on **September 26** includes **Pumpkin Painting with MyArt**, a Zionsville art studio that offers classes, camps and creative programs for children and adults.
 
-* **September 19** — *1776*
-* **September 26** — *Hamilton*
+[See the full Zionsville Farmers Market schedule and details.](/events/farmers-market)
 
-Gates open at 7:00 PM and the movies begin at dusk. Pizza, popcorn, desserts and beverages are available for purchase.
+## Enjoy the SFZ Concert Series
 
-[See the full Movies at Maplelawn event guide.](/events/movies-at-maplelawn)
+The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with three Sunday afternoon performances:
+
+| Date | Artist | Program |
+| --- | --- | --- |
+| **September 13 · 4:00 PM** | **Phil Pierick, saxophone** | ***Chicago Bagatelles Project***<br>Music for solo saxophone from Bach to today. |
+| **October 11 · 4:00 PM** | **Becky Archibald and Friends** | ***Wango Tzango Sfortzango!***<br>Original violin-and-piano tangos with Indianapolis Symphony Orchestra violinist Bryson Karrer, plus jazz trios with a small combo, celebrating Archibald’s new album *Tango for Disobedient Beasts*. |
+| **November 1 · 4:00 PM** | **Alec Holcomb** | ***A Panorama of Classical Guitar Music***<br>Familiar favorites, overlooked gems and rarely heard works that show the range of the classical guitar, including music adapted from other instruments. |
+
+The concerts take place inside the church and provide an indoor arts option alongside Zionsville’s outdoor fall activities.
+
+[See the complete SFZ Concert Series schedule.](/events/sfz-concert-series)
 
 <figure className="my-8">
   <Image
-    src="/images/articles/fall-activities-zionsville-movies-at-maplelawn.webp"
-    alt="White wooden historic barns at Maplelawn Farmstead framed by orange daylilies under an evening sky in Zionsville, Indiana."
+    src="/images/articles/fall-activities-zionsville-st-francis-fall.webp"
+    alt="Bright red, orange, and yellow autumn leaves on trees outside St. Francis In-The-Fields Episcopal Church in Zionsville, Indiana."
     width={1400}
     height={933}
     className="w-full h-auto rounded"
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
-    The white barns and historic grounds at Maplelawn Farmstead. <span className="not-italic">© ZionsvilleIndiana.com</span>
+    Fall foliage surrounding St. Francis In-The-Fields Episcopal Church, host location for the SFZ Concert Series. <br /> <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
-## Spend a Fall Evening at Salem Methodist Church
+## Enjoy Fall Performances & Sports at ZCHS
 
-Salem Methodist Church’s [Night Out with Christ Fall Cookout](https://www.salemchurchzionsville.org/events/night-out-w-christ-fall-cookout-2026) is scheduled for **October 2**, beginning at 6:00 p.m., and includes several traditional fall activities in one evening.
+Fall brings both performing arts and athletics to Zionsville Community High School, with concerts, theater productions and Eagles sporting events throughout the season.
 
-Visitors can take a hayride, paint pumpkins, gather around a campfire, participate in a candy dig, and enjoy dinner and s’mores. Stones Crossing will provide live music. All ages are welcome, and the church describes it as a community event. Guests can bring lawn chairs or blankets.
+### See a ZCHS Performance
 
-Salem Methodist Church has been part of the Zionsville community since the 1830s, with its first church built in 1849. The historic church sits in a wooded area off 550 South, adding to the setting for an outdoor fall evening.
+Zionsville Community High School has several performances scheduled at the STAR Bank Performing Arts Center this fall.
 
-## Experience Zionsville’s GhostWalk
+* **September 29** — Fall Choral Concert
+* **October 5** — Fall Band Concert
+* **October 8** — Fall Orchestra Concert
+* **November 12–15** — *A Chorus Line: Teen Edition*
 
-**GhostWalk** is an evening walking tour through Zionsville’s historic Village, with actors reenacting stories connected to local people, places and legends.
+*A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences.
 
-The approximately 45-minute experience returns **October 2–3, 2026**, with stories and stops that can change from year to year.
-
-[See the full GhostWalk event guide.](/events/ghostwalk)
-
-## Celebrate Fall at Pumpkinfest
-
-**Pumpkinfest** at St. Alphonsus Liguori Catholic Church returns on **October 3** with an afternoon of family fall activities. **The event is open to the public.**
-
-Children can paint pumpkins, take a hayride to the church’s pumpkin patch, and enjoy other seasonal activities. Pumpkins are available while supplies last.
-
-[See the complete Pumpkinfest guide.](/events/pumpkinfest)
+Check the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php) for performance times and ticket availability as each event approaches.
 
 <figure className="my-8">
   <Image
-    src="/images/articles/fall-activities-zionsville-pumpkinfest.webp"
-    alt="Large orange pumpkins in a grass field with a hayride trailer in the background at St. Alphonsus Liguori Catholic Church in Zionsville."
+    src="/images/articles/fall-activities-zionsville-zchs-pac-performance.webp"
+    alt="Zionsville Community High School students performing a musical on stage at the STAR Bank Performing Arts Center."
     width={1400}
     height={933}
     className="w-full h-auto rounded"
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
-    Pumpkins lined up on the grass for picking during Pumpkinfest at St. Alphonsus Liguori Catholic Church. <span className="not-italic">© ZionsvilleIndiana.com</span>
+    Student performers on stage at the STAR Bank Performing Arts Center during a Zionsville Community High School show. <span className="not-italic">Photo by STAR Bank Performing Arts Center</span>
   </figcaption>
 </figure>
 
-## Race Through Zionsville This Fall
+### Catch a Zionsville Eagles Game
 
-Three community running events take place from October through Thanksgiving, ranging from a 3K walk to a half marathon.
+Friday night football is one of the most recognizable fall sports at Zionsville Community High School, with varsity games continuing into October.
 
-### Hit the Bricks
+[See upcoming ZCHS football games.](https://www.zchsathletics.org/Events?for=c51f1ea9-cdbb-4cdd-86dc-d1370bba775f&academicYear=0)
 
-The **Hit the Bricks 5K Run & 3K Walk** on **October 3** includes a timed 5K and untimed 3K. The routes use the Big-4 Rail Trail, neighborhood streets and Zionsville’s historic brick Main Street.
+The ZCHS athletics calendar also includes **soccer, volleyball, cross country, tennis, golf, and Unified Flag Football**. As fall moves into November, **basketball and wrestling** also begin their seasons.
 
-The 2026 race highlights the **Boys & Girls Club of Boone County** as its local charity, with a large portion of race fundraising benefiting programs for area youth.
+[See all upcoming ZCHS sporting events.](https://www.zchsathletics.org/Events?for=&academicYear=0)
 
-[See the Hit the Bricks 5K & 3K guide.](/events/hit-the-bricks)
+## Visit Traders Point Creamery
 
-### Zionsville Half Marathon & 5K
-
-The **Zionsville Half Marathon & 5K** returns **November 21**, offering both a 13.1-mile race and a 5K.
-
-[See the Zionsville Half-Marathon & 5K guide.](/events/zionsville-half-marathon)
-
-### Gravy Chase
-
-On **Thanksgiving morning, November 26**, the [Gravy Chase](https://www.bgcboone.org/events-news/gravy-chase/) offers 2.2-mile and 4-mile run/walk routes through [historic downtown Zionsville](/downtown).
-
-The event is the **Boys & Girls Club of Boone County’s largest annual fundraiser**, with 100% of proceeds supporting programs, camps and sports for local youth. The Zionsville Gravy Chase enters its ninth year in 2026.
-
-## Explore Gallery On & Off Main
-
-[Gallery On & Off Main](https://mainstreetzionsville.org/art-walk) brings local artists and artisans into shops throughout [the Village](/downtown) on **October 24**.
-
-Main Street merchants open their businesses to participating artists, creating an art walk along Main Street and in nearby shops. Visitors can browse artwork, meet artists, and explore businesses throughout the district from **noon to 8:00 PM**.
-
-## Enjoy Pumpkins & Hayrides at Lions Park
-
-**Pumpkins & Hayrides** returns to Lions Park on **October 25 from 2:00–5:00 PM** for a free afternoon of fall activities.
-
-The event includes **hayrides, free pumpkins for painting while supplies last, Bach to Rock, Mr. Daniel’s Music, Master Yoo’s Taekwondo, bounce houses, games and food**. A kids costume contest begins at **4:00 PM**, and parking in Lions Park is free for the event.
-
-[See the full Pumpkins & Hayrides event guide.](/events/pumpkins-hayrides)
-
-## Smash Your Pumpkins at Mulberry Fields
+Fall is a good time to explore the farm at **Traders Point Creamery**, where visitors can see the working dairy farm and walk through the property along Eagle Creek.
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <a href="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" alt="A large orange pumpkin falling mid-air from an extended fire truck ladder toward straw bales on the ground."  class="rounded-lg shadow-sm cursor-zoom-in" />
+  <a href="/images/articles/traders-point-creamery-zionsville-tour-map.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/articles/traders-point-creamery-zionsville-tour-map.webp" alt="Illustrated map of Traders Point Creamery showing the 1.5-mile farm walk trail, red barn, milking parlor, and pastures along Eagle Creek in Zionsville, Indiana."  class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    A pumpkin dropping from an extended fire truck ladder.
+    Illustrated map of the self-guided farm walk paths and grounds at Traders Point Creamery by Laura Winslow.
   </figcaption>
 </figure>
 
-**Smashin’ Pumpkins** returns to Mulberry Fields Park on **November 7**, giving families a fun way to dispose of leftover pumpkins after Halloween.
+The self-guided farm walk follows approximately 1.5 miles of paths through the pastures and farm grounds. A walking pass costs $5 per person and can be purchased from the Farm Store. Guided farm tours are offered April through October.
 
-Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations before the pieces are collected for composting. The **Epic Pumpkin Drop** is one of the main attractions, with Zionsville firefighters raising pumpkins on a ladder truck and dropping them from above for a dramatic smash.
+Visitors can also watch the cows being milked at 6:30 PM Tuesday through Saturday.
 
-[See the complete Smashin’ Pumpkins event guide.](/events/smashin-pumpkins)
+The farm can be combined with a stop at the Farm Store or a meal at The Loft, making it an outing that can last anywhere from an hour to much of an afternoon.
+
+[See Traders Point Creamery farm tour details and hours.](https://www.traderspointcreamery.com/events/tours/)
+
+## Take a Fall Walk or Bike Ride
+
+Not every fall outing needs a scheduled start time. Zionsville’s parks and trails provide several places to get outside as temperatures cool and leaves begin changing.
+
+[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park) has wooded trails through approximately 80 acres along Eagle Creek. [Overley-Worman Park](https://www.zionsville-in.gov/712/Overley-Worman-Park) adds trails, mountain biking and disc golf, while the Big-4 Rail Trail provides a paved multi-use route for walking, running and cycling through Zionsville.
+
+[See the Big-4 Rail Trail guide.](/articles/big-4-rail-trail)
+
+<figure className="my-8">
+  <Image
+    src="/images/articles/fall-activities-zionsville-rail-trail.webp"
+    alt="Vibrant red and orange autumn foliage lining the paved Big-4 Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
+    width={1400}
+    height={933}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    Peak fall colors framing the paved Big-4 Rail Trail in Zionsville. <span className="not-italic">© ZionsvilleIndiana.com</span>
+  </figcaption>
+</figure>
 
 ## Browse the Teeny Tiny Art Market
 
@@ -352,6 +380,4 @@ The juried market features miniature works by local and regional artists, with e
 
 ## Looking for Halloween Events?
 
-For trick-or-treating, trunk-or-treats and other Halloween activities, see the **Zionsville Halloween & Trick-or-Treat Guide 2026**.
-
--->
+For trick-or-treating, trunk-or-treats and other Halloween activities around town, see the [Zionsville Trick-or-Treat & Trunk-or-Treat Guide](/articles/halloween-zionsville).

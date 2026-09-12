@@ -5,6 +5,7 @@ import ArticleLayout from '@/components/ArticleLayout'
 import ZcsCalendar from '@/components/ZcsCalendar'
 import ZcsMilestones from '@/components/ZcsMilestones'
 import FallFarmComparison from '@/components/FallFarmComparison'
+import FallActivitiesTable from '@/components/FallActivitiesTable'
 import { DESTINATIONS } from '@/lib/fall-farms'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
@@ -67,7 +68,9 @@ export default async function ArticlePage({ params }: Props) {
         injectAt={
           slug === 'pumpkin-patches-corn-mazes-near-indianapolis'
             ? '<!-- FALL_FARM_COMPARISON -->'
-            : undefined
+            : slug === 'fall-activities-zionsville'
+              ? '<!-- FALL_ACTIVITIES_TABLE -->'
+              : undefined
         }
       >
         {slug === 'zcs-school-calendar' && (
@@ -80,6 +83,7 @@ export default async function ArticlePage({ params }: Props) {
           </>
         )}
         {slug === 'pumpkin-patches-corn-mazes-near-indianapolis' && <FallFarmComparison />}
+        {slug === 'fall-activities-zionsville' && <FallActivitiesTable />}
       </ArticleLayout>
     )
   } catch {
