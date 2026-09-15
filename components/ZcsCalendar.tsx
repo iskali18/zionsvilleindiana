@@ -300,7 +300,7 @@ export default function ZcsCalendar() {
       {/* Filter controls */}
       <div className="mb-8 pb-6 border-b border-stone-200 print:hidden">
         <p className="text-sm text-stone-600 mb-3">
-          Filter by school. District-wide dates always appear.
+          Filter by school. District-wide dates always appear. Print the result or save it as a PDF.
         </p>
         <div className="flex flex-wrap gap-2 items-center justify-between">
           <div className="flex flex-wrap gap-2 items-center">
