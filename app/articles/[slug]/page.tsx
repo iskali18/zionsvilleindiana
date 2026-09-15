@@ -13,6 +13,10 @@ interface Props {
   params: Promise<{ slug: string }>
 }
 
+/** SeasonalGuidesStrip resolves against today's date on the server, so without
+ *  this it would be frozen at build time on the pages that carry it. */
+export const revalidate = 3600
+
 export async function generateStaticParams() {
   return getAllArticleSlugs()
     .filter((slug) => slug !== 'things-to-do')

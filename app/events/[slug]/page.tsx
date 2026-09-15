@@ -16,6 +16,11 @@ interface Props {
   params: Promise<{ slug: string }>
 }
 
+/** Event pages are built once, so anything that depends on today's date — the
+ *  ended banner, the in-season banner, the seasonal guides strip — would be
+ *  frozen at build time without this. An hour matches /events. */
+export const revalidate = 3600
+
 export async function generateStaticParams() {
   return getAllEventSlugs().map((slug) => ({ slug }))
 }
