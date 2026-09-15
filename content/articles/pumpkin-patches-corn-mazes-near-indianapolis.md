@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-zionsville-indianapolis-scarecrow.webp
 hero_position: "center 45%"
-lastUpdated: "2026-09-12"
+lastUpdated: "2026-09-15"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -41,7 +41,7 @@ Fall farms near Zionsville and across the Indianapolis area offer apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 12, 2026.**
+**Updated September 15, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -512,7 +512,7 @@ A **petting zoo** runs October 3–25, and **Trunk or Treat** is scheduled for O
 - **Drive from Zionsville:** ~1 hr 5 min (~45 miles SW)
 - **Highlights:** Percheron horse-drawn wagon rides, country store
 
-**Chandler’s Orchard & Country Market in Fillmore** grows **50 apple varieties** across its growing year, though fewer are ready to pick at any one time. The farm lists apple picking from **September 1 through the end of October** and pumpkin picking from around the **second week of September**. As of early September, no specific 2026 U-pick dates have been posted.
+**Chandler’s Orchard & Country Market in Fillmore** grows **50 apple varieties** across its growing year, though fewer are ready to pick at any one time. The farm’s website lists apple picking from **September 1 through the end of October** and pumpkin picking from around the **second week of September**. In mid-September the farm said on Facebook that it had not yet decided when U-pick apples or pumpkins would begin, and that pumpkins were close but still needed time. Mums are available.
 
 Seasonal hours from May to November are **Tuesday through Saturday 10 a.m.–6 p.m. and Sunday 1–5 p.m.**, closed Mondays. There is no general admission; visitors pay for what they pick.
 
@@ -532,7 +532,7 @@ The country store sells jams, jellies, take-and-bake pies, cheeses, sauces and f
 
 **Pleasant View Orchard in Fairland** is a 40-acre orchard growing **over 30 apple varieties**, though fewer are ready to pick at any one time. The orchard is open **daily 9 a.m.–6 p.m.** from July 1 through November. There is **no admission or parking fee**; visitors pay for what they pick or buy.
 
-The **U-pick pumpkin patch** opens daily around the last weekend in September, with the exact 2026 date still to be announced. Tractor-pulled wagon rides run continuously to the patch on weekends. A playground is open for children.
+The **U-pick pumpkin patch opens September 26** and is open every day after that. Tractor-pulled wagon rides run to the patch on Saturdays and Sundays. A playground is open for children.
 
 The concession stand runs **daily July through October**, serving homemade apple cobbler à la mode, fried biscuits with apple butter, apple cider donuts, elephant ears, cider slushies and hot food. The retail store sells pre-picked apples, preserves, apple butter, fresh produce and caramel apples.
 

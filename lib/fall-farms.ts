@@ -313,8 +313,8 @@ export const DESTINATIONS: Destination[] = [
     features: ['Pumpkin Picking', 'Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
     schedules: [
       { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Sat. 10 AM\u20136 PM; Sun. 1\u20135 PM', status: 'confirmed', planner: true },
-      { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-09-01', end: '2026-10-31', status: 'confirmed', planner: false },
-      { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'From around the second week of September; 2026 dates not posted.' },
+      { label: 'U-pick apples', appliesTo: 'Apple Picking', status: 'not_posted', planner: false, note: 'Farm said in September 2026 that U-pick apple dates have not been decided.' },
+      { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'Farm said in September 2026 that U-pick pumpkin dates have not been decided; pumpkins are close but not ready.' },
       { label: 'Horse-drawn wagon rides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends from September; times not posted. Tractor-drawn rides on weekdays by advance arrangement.' },
     ],
   },
@@ -327,10 +327,10 @@ export const DESTINATIONS: Destination[] = [
     features: ['Pumpkin Picking', 'Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
     schedules: [
       { label: 'Orchard season', start: '2026-07-01', end: '2026-11-30', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: '9 AM\u20136 PM', status: 'confirmed', planner: true },
-      { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'Opens around the last weekend in September; 2026 date not announced.' },
+      { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Open every day from Sept. 26. No closing date posted.' },
       { label: 'Silly Safaris show', dates: ['2026-10-24'], hours: '3 PM', status: 'confirmed', planner: false },
       { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-07-01', end: '2026-11-30', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
-      { label: 'Wagon rides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends only, running continuously to the pumpkin patch. No start or end date posted for 2026.' },
+      { label: 'Wagon rides', appliesTo: 'Hayride / Wagon Ride', start: '2026-09-26', days: ['sat', 'sun'], status: 'confirmed', planner: false, note: 'Saturdays and Sundays to the pumpkin patch from Sept. 26. No closing date posted.' },
     ],
   },
 ]
