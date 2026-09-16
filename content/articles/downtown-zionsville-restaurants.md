@@ -157,7 +157,7 @@ For casual meals, downtown Zionsville has pizza shops, burger spots, and taproom
 
 * **Address:** 620 S. Main St
 * **Website:** [bubsburgers.com](https://bubsburgers.com/)
-* Bub’s Burgers and Ice Cream serves burgers, cheeseburgers, and hand-dipped milkshakes at the south end of Main Street.
+* Just south of the Main Street Bridge over Eagle Creek, Bub’s Burgers and Ice Cream is about a five-minute walk or a quick drive from the brick Main Street area and serves burgers, cheeseburgers, and hand-dipped milkshakes.
 
 ### Greek's Pizzeria & Taproom
 
