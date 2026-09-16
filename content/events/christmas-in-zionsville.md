@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-09-07"
+lastUpdated: "2026-09-16"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -201,6 +201,22 @@ See [Central Indiana Dance Ensemble](https://www.cidedance.org/current-season) a
 
 [↑ Back to schedule](#schedule)
 
+## More Christmas Events Around Zionsville
+
+Christmas events elsewhere in Zionsville include those hosted by local businesses, nonprofits and attractions outside the downtown program.
+
+### An Afternoon with Santa
+
+**Sunday, December 13, 2026 · Noon–4:00 p.m. · The Red Barn at Traders Point Creamery, 9101 Moore Road**
+
+Morning Dove Therapeutic Riding Center, a local nonprofit that provides equine-assisted therapies and activities for children and adults with physical, cognitive, and emotional challenges, hosts An Afternoon with Santa at Traders Point Creamery. Morning Dove has served the Central Indiana community since 1998.
+
+The afternoon includes visits with Santa, cookie and ornament decorating, face painting, a hot chocolate bar, hors d’oeuvres, and a cash bar.
+
+Tickets are **$20 through October 31, $25 after October 31, and $30 at the door**. Children ages 3 and younger are free. Entry is offered in hourly time slots, and tickets are limited. All ticket sales support the care and work of Morning Dove Therapeutic Riding Center.
+
+[↑ Back to schedule](#schedule)
+
 ## Church Christmas Events
 
 Several Zionsville churches host Christmas programs open to visitors beyond their own congregations. Christmas Eve and Christmas Day service times are tracked separately.
@@ -215,7 +231,17 @@ See [Zionsville Fellowship Church’s women’s ministry page](https://www.zions
 
 [↑ Back to schedule](#schedule)
 
-### Back to Bethlehem
+### The Bethlehem Beat (Children’s Musical)
+
+**Sunday, December 13, 2026 · Time to be announced · Zionsville United Methodist Church, 9644 Whitestown Road**
+
+Children in kindergarten through sixth grade at Zionsville United Methodist Church present The Bethlehem Beat, a lively musical retelling of the Nativity story. The production features a spunky young Mary and her lovable donkey, Yipyip, mamboing through Bethlehem, along with rapping shepherds and other characters who bring a playful twist to the familiar Christmas story.
+
+The performance is **free and open to the public**.
+
+[↑ Back to schedule](#schedule)
+
+### Back to Bethlehem (Walk-Through Christmas Story)
 
 **Sunday, December 13, 2026 · 5:30–8:30 p.m. · Zionsville Presbyterian Church, 4775 W. 116th St.**
 
