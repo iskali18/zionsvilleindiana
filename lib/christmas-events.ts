@@ -282,6 +282,33 @@ export interface DateRow {
   events: ChristmasEvent[]
 }
 
+/** Minutes past midnight for the start of a `time` string, for ordering events
+ *  within a day. Returns Infinity when there is no usable time, so an event
+ *  whose time is unpublished sorts last rather than to the top of the morning.
+ *
+ *  Handles the shapes this file actually uses: '7:00 p.m.', '11:00 a.m.\u20133:00 p.m.',
+ *  'noon\u20134:00 p.m.', and '5:30\u20138:30 p.m.' where the opening time carries no
+ *  meridiem of its own and takes it from the closing time. */
+export function startMinutes(time?: string): number {
+  if (!time) return Infinity
+  const t = time.toLowerCase()
+  if (t.startsWith('noon')) return 12 * 60
+  if (t.startsWith('midnight')) return 0
+
+  const m = /^(\d{1,2})(?::(\d{2}))?\s*(a\.m\.|p\.m\.)?/.exec(t)
+  if (!m) return Infinity
+
+  let hour = Number(m[1])
+  const mins = Number(m[2] ?? 0)
+  // '5:30\u20138:30 p.m.' \u2014 the opening time borrows the meridiem that follows it.
+  const meridiem = m[3] ?? /(a\.m\.|p\.m\.)/.exec(t)?.[1]
+  if (!meridiem) return Infinity
+
+  if (meridiem === 'p.m.' && hour !== 12) hour += 12
+  if (meridiem === 'a.m.' && hour === 12) hour = 0
+  return hour * 60 + mins
+}
+
 /** Group events into rows. Discrete dates collapse into one row per day; a
  *  continuous run keeps its own row and is not repeated into the days it
  *  spans. Rows sort by first day. */
@@ -303,7 +330,7 @@ export function buildRows(events: ChristmasEvent[] = EVENTS): DateRow[] {
   const dayRows: DateRow[] = [...byDay.entries()].map(([iso, evs]) => ({
     key: iso,
     label: formatDay(iso),
-    events: evs,
+    events: [...evs].sort((a, b) => startMinutes(a.time) - startMinutes(b.time)),
   }))
 
   return [...dayRows, ...runs].sort((a, b) => a.key.localeCompare(b.key))
@@ -356,7 +383,10 @@ export function buildFilteredRows(events: ChristmasEvent[]): DateRow[] {
   for (const r of rows) {
     if (r.label.endsWith('dates') || r.events[0].start) { out.push(r); continue }
     const hit = merged.get(r.key)
-    if (hit) hit.events.push(...r.events)
+    if (hit) {
+      hit.events.push(...r.events)
+      hit.events.sort((a, b) => startMinutes(a.time) - startMinutes(b.time))
+    }
     else { merged.set(r.key, r); out.push(r) }
   }
   return out.sort((a, b) => a.key.localeCompare(b.key))
