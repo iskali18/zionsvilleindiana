@@ -191,6 +191,14 @@ function formatEventDate(meta: Awaited<ReturnType<typeof getEvent>>['meta']): st
   })
 }
 
+/** Matches ArticleLayout's formatter so the freshness date reads the same on
+ *  both page types. Parsed as local time — new Date('2026-09-16') is UTC
+ *  midnight, which lands on the previous day west of Greenwich. */
+function formatDate(iso: string | Date): string {
+  const d = typeof iso === 'string' ? new Date(iso + 'T00:00:00') : iso
+  return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+}
+
 const getLinkText = (url: string) => {
   const clean = url
     .replace(/^https?:\/\//, '')
@@ -317,6 +325,13 @@ export default async function EventPage({ params }: Props) {
               </div>
             )}
           </dl>
+
+          {/* Freshness date, in the same position and style as ArticleLayout. */}
+          {meta.lastUpdated && (
+            <p className="text-xs text-stone-500 mb-6 print:hidden">
+              Updated {formatDate(meta.lastUpdated)}
+            </p>
+          )}
 
           {/* Body content. A page that embeds an interactive component puts a
               marker in its markdown; the body splits there and the component

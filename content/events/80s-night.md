@@ -1,9 +1,9 @@
 ---
 title: "80s Night"
 alternateName: ["80's Night"]
-description: "80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville, with themed activities at Main Street shops and restaurants and visitors encouraged to dress for the decade."
+description: "80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville, with live music and themed activities at Main Street shops and restaurants."
 metaTitle: "80s Night in Downtown Zionsville 2026 — September 17"
-metaDescription: "80s Night returns to downtown Zionsville on Thursday, Sept. 17, 2026, at 5:00 p.m. Main Street shops and restaurants host 1980s-themed activities."
+metaDescription: "80s Night returns to downtown Zionsville Sept. 17, 2026, with live music from The Pigeons of Market Square and The Janeways and themed activities."
 eventType: annual
 startDate: "2026-09-17"
 startDateTime: "2026-09-17T17:00:00-04:00"
@@ -16,7 +16,7 @@ imageAlt: "Glowing pink and blue neon sign reading \"80s Night Main Street, Zion
 hero_position: "center 50%"
 featured: true
 tags: [family, free, music, arts, outdoor]
-lastUpdated: "2026-08-24"
+lastUpdated: "2026-09-16"
 faqs:
   - q: "When is 80s Night 2026?"
     a: "80s Night is Thursday, September 17, 2026, beginning at 5:00 p.m. in downtown Zionsville. The ending time has not yet been announced."
@@ -29,7 +29,7 @@ faqs:
   - q: "Who hosts 80s Night?"
     a: "80s Night is hosted by Main Street Zionsville."
   - q: "What activities are planned for 80s Night 2026?"
-    a: "The Janeways will perform live at Zionsville Public House at 8:00 p.m. Participating Main Street shops and restaurants will also offer 1980s-themed activities and promotions. Additional activities may be announced closer to the event."
+    a: "The Pigeons of Market Square will perform on the COhatch porch from 6:00–8:00 p.m., and The Janeways will perform at Zionsville Public House at 8:00 p.m. Participating Main Street shops and restaurants will also offer 1980s-themed activities and promotions."
 ---
 
 80s Night brings the music, fashion, and pop culture of the 1980s to downtown Zionsville. Main Street shops and restaurants participate in the themed evening, and visitors are encouraged to dress for the decade while exploring the downtown district.
@@ -57,7 +57,9 @@ Beginning at 5:00 p.m.
 
 Participating shops and restaurants will offer 1980s-themed activities and promotions throughout the evening. Visitors can explore the Main Street district, stop into local businesses, have dinner or drinks, and take part in activities offered at individual locations.
 
-For 2026, The Janeways will perform at Zionsville Public House at 8:00 PM. The Zionsville-based band plays ’80s and ’90s rock and pop.
+**The Pigeons of Market Square** will perform from **6:00–8:00 PM** on the COhatch porch at **75 N Main St**, with an ’80s-themed set for the event. The local cover band plays music from artists including the Rolling Stones, Beatles, Motown acts, and Tom Petty.
+
+At **8:00 PM**, The Janeways will perform at Zionsville Public House. The Zionsville-based band plays ’80s and ’90s rock and pop.
 
 Past activities have included a cassette tape scavenger hunt through Main Street shops, with prizes awarded to the winners. Additional 2026 activities may be announced closer to the event.
 

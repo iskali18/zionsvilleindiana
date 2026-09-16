@@ -12,7 +12,7 @@ location: "Main Street, Zionsville"
 address: "Main & Cedar Street"
 draft: false
 externalUrl: "https://runsignup.com/gravychase"
-image: /images/events/gravy-chase-zionsville.webp
+image: /images/events/gravy-chase-zionsville-race.webp
 imageAlt: "Gravy Chase Thanksgiving Day race graphic featuring a running turkey on a brick street in downtown Zionsville, Indiana."
 hero_position: "center 27%"
 featured: true
