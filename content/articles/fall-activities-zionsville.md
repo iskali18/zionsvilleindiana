@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-09-10"
+lastUpdated: "2026-09-17"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -16,7 +16,7 @@ ctas:
     href: /downtown
 faqs:
   - q: "What is there to do in Zionsville in the fall?"
-    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities throughout September, October and November. Scheduled events include the SFZ Concert Series, Movies at Maplelawn, GhostWalk, Pumpkinfest, Pumpkins & Hayrides and Smashin’ Pumpkins."
+    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities throughout September, October and November. Scheduled events include 80s Night, the Zionsville Street Dance, GhostWalk, Pumpkinfest, Oktoberfest, Gallery On & Off Main, Fright Nights, Pumpkins & Hayrides and Smashin’ Pumpkins."
   - q: "When does the Zionsville Farmers Market end for the season?"
     a: "The Zionsville Farmers Market continues on Saturday mornings through September 26, 2026. The final market of the season also includes pumpkin painting."
   - q: "What fall races take place in Zionsville?"
@@ -24,13 +24,15 @@ faqs:
   - q: "Where can I see fall colors in Zionsville?"
     a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Big-4 Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
   - q: "Are there fall activities in Zionsville for families with young children?"
-    a: "Yes. Pumpkinfest on October 3 includes children’s activities, pumpkin painting and hayrides to the pumpkin patch. Pumpkins & Hayrides returns to Lions Park on October 25, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
+    a: "Yes. Pumpkinfest on October 3 includes children’s activities, pumpkin painting and hayrides to the pumpkin patch. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Pumpkins & Hayrides returns to Lions Park on October 25, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
     a: "Zionsville Parks & Recreation runs a three-part Fall Birding Series, a Campfire Concert Series at Carpenter Nature Preserve, a Night Hike on October 16, an Owl Prowl on November 13 and a Fall Campfire on November 21."
   - q: "Are there indoor fall activities in Zionsville?"
     a: "Yes. The SFORZANDO (SFZ) Concert Series presents Sunday afternoon concerts at St. Francis In-The-Fields, the STAR Bank Performing Arts Center hosts the ZCHS Fall Musical and fall choral, band and orchestra concerts, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
   - q: "When is GhostWalk in Zionsville?"
     a: "GhostWalk returns October 2–3, 2026. The approximately 45-minute guided walking tour moves through the historic Village while actors reenact stories associated with local people, places and legends."
+  - q: "What Halloween events take place in Zionsville?"
+    a: "GhostWalk runs October 2–3 with guided walking tours of the historic Village. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Fright Nights on October 23–24 is a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead."
 ---
 
 Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits, and traditional fall activities throughout September, October, and November.
@@ -47,6 +49,8 @@ The approximately 45-minute experience returns **October 2–3, 2026**, with sto
 
 [See the full GhostWalk event guide.](/events/ghostwalk)
 
+[↑ Back to activities](#at-a-glance)
+
 ## Experience Fright Nights
 
 **Friday and Saturday, October 23–24, 2026 — 7:00–10:00 p.m.**
@@ -54,6 +58,8 @@ The approximately 45-minute experience returns **October 2–3, 2026**, with sto
 Zionsville Parks & Recreation runs a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. The ride crosses the fields after dark before reaching the barn.
 
 See the [Fright Nights event guide](/events/fright-nights) for tickets and parking.
+
+[↑ Back to activities](#at-a-glance)
 
 ## Celebrate Fall at Pumpkinfest
 
@@ -76,6 +82,8 @@ Children can paint pumpkins, take a hayride to the church’s pumpkin patch, and
   </figcaption>
 </figure>
 
+[↑ Back to activities](#at-a-glance)
+
 ## Raise a Stein at Oktoberfest
 
 **Saturday, October 3, 2026 — 4:00–11:00 p.m.**
@@ -86,6 +94,8 @@ Pumpkinfest runs at the same location earlier in the day, so the two can be comb
 
 See the [Oktoberfest event guide](/events/oktoberfest) for the menu and schedule.
 
+[↑ Back to activities](#at-a-glance)
+
 ## Enjoy Pumpkins & Hayrides at Lions Park
 
 **Pumpkins & Hayrides** returns to Lions Park on **October 25 from 2:00–5:00 PM** for a free afternoon of fall activities.
@@ -93,6 +103,8 @@ See the [Oktoberfest event guide](/events/oktoberfest) for the menu and schedule
 The event includes **hayrides, free pumpkins for painting while supplies last, Bach to Rock, Mr. Daniel’s Music, Master Yoo’s Taekwondo, bounce houses, games and food**. A kids costume contest begins at **4:00 PM**, and parking in Lions Park is free for the event.
 
 [See the full Pumpkins & Hayrides event guide.](/events/pumpkins-hayrides)
+
+[↑ Back to activities](#at-a-glance)
 
 ## Dance on Main Street
 
@@ -104,6 +116,8 @@ This is a scaled-down makeup event and does not include a children’s area. Tic
 
 See the [Street Dance event guide](/events/street-dance) for tickets and details.
 
+[↑ Back to activities](#at-a-glance)
+
 ## Take the Kids to Trick or Trees
 
 **Saturday, October 24, 2026 — 9:00 a.m.–12:00 p.m.**
@@ -114,6 +128,8 @@ Admission is $5 for residents and $7 for nonresidents. Registration opens Octobe
 
 See the [Trick or Trees event guide](/events/trick-or-trees) for registration and parking.
 
+[↑ Back to activities](#at-a-glance)
+
 ## Step Back to 80s Night
 
 **Thursday, September 17, 2026 — from 5:00 p.m.**
@@ -121,6 +137,8 @@ See the [Trick or Trees event guide](/events/trick-or-trees) for registration an
 Downtown Zionsville turns to the 1980s for an evening of music, fashion and pop culture along Main Street, with themed activities at participating businesses.
 
 See the [80s Night event guide](/events/80s-night) for details.
+
+[↑ Back to activities](#at-a-glance)
 
 ## Smash Your Pumpkins at Mulberry Fields
 
@@ -138,6 +156,8 @@ See the [80s Night event guide](/events/80s-night) for details.
 Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations before the pieces are collected for composting. The **Epic Pumpkin Drop** is one of the main attractions, with Zionsville firefighters raising pumpkins on a ladder truck and dropping them from above for a dramatic smash.
 
 [See the complete Smashin’ Pumpkins event guide.](/events/smashin-pumpkins)
+
+[↑ Back to activities](#at-a-glance)
 
 ## Watch a Movie at Maplelawn Farmstead
 
@@ -165,11 +185,15 @@ Gates open at 7:00 PM and the movies begin at dusk. Pizza, popcorn, desserts and
   </figcaption>
 </figure>
 
+[↑ Back to activities](#at-a-glance)
+
 ## Explore Gallery On & Off Main
 
 [Gallery On & Off Main](/events/gallery-on-and-off-main) brings local artists and artisans into shops throughout [the Village](/downtown) on **October 24**.
 
 Main Street merchants open their businesses to participating artists, creating an art walk along Main Street and in nearby shops. Visitors can browse artwork, meet artists, and explore businesses throughout the district from **noon to 8:00 PM**.
+
+[↑ Back to activities](#at-a-glance)
 
 ## Spend a Fall Evening at Salem Methodist Church
 
@@ -178,6 +202,8 @@ Salem Methodist Church’s [Night Out with Christ Fall Cookout](https://www.sale
 Visitors can take a hayride, paint pumpkins, gather around a campfire, participate in a candy dig, and enjoy dinner and s’mores. Stones Crossing will provide live music. All ages are welcome, and the church describes it as a community event. Guests can bring lawn chairs or blankets.
 
 Salem Methodist Church has been part of the Zionsville community since the 1830s, with its first church built in 1849. The historic church sits in a wooded area off 550 South, adding to the setting for an outdoor fall evening.
+
+[↑ Back to activities](#at-a-glance)
 
 ## Race Through Zionsville This Fall
 
@@ -202,6 +228,8 @@ The **Zionsville Half Marathon & 5K** returns **November 21**, offering both a 1
 On **Thanksgiving morning, November 26**, the [Gravy Chase](/events/gravy-chase) offers 2.2-mile and 4-mile run/walk routes through [historic downtown Zionsville](/downtown).
 
 The event is the **Boys & Girls Club of Boone County’s largest annual fundraiser**, with 100% of proceeds supporting programs, camps and sports for local youth. The Zionsville Gravy Chase enters its 10th year in 2026.
+
+[↑ Back to activities](#at-a-glance)
 
 ## Experience Fall with Zionsville Parks & Recreation
 
@@ -253,6 +281,8 @@ The [Fall Campfire](https://zionsvillein.myrec.com/info/activities/program_detai
   </figcaption>
 </figure>
 
+[↑ Back to activities](#at-a-glance)
+
 ## Visit the Zionsville Farmers Market
 
 The **Zionsville Farmers Market** continues on Saturday mornings through September 26, giving visitors a few more chances to shop the market as the season shifts into fall.
@@ -260,6 +290,8 @@ The **Zionsville Farmers Market** continues on Saturday mornings through Septemb
 Vendors offer produce, baked goods, prepared foods, flowers and other locally made items, with live music and activities throughout the morning. The final market on **September 26** includes **Pumpkin Painting with MyArt**, a Zionsville art studio that offers classes, camps and creative programs for children and adults.
 
 [See the full Zionsville Farmers Market schedule and details.](/events/farmers-market)
+
+[↑ Back to activities](#at-a-glance)
 
 ## Enjoy the SFZ Concert Series
 
@@ -287,6 +319,8 @@ The concerts take place inside the church and provide an indoor arts option alon
     Fall foliage surrounding St. Francis In-The-Fields Episcopal Church, host location for the SFZ Concert Series. <br /> <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
+
+[↑ Back to activities](#at-a-glance)
 
 ## Enjoy Fall Performances & Sports at ZCHS
 
@@ -328,6 +362,8 @@ The ZCHS athletics calendar also includes **soccer, volleyball, cross country, t
 
 [See all upcoming ZCHS sporting events.](https://www.zchsathletics.org/Events?for=&academicYear=0)
 
+[↑ Back to activities](#at-a-glance)
+
 ## Visit Traders Point Creamery
 
 Fall is a good time to explore the farm at **Traders Point Creamery**, where visitors can see the working dairy farm and walk through the property along Eagle Creek.
@@ -348,6 +384,8 @@ Visitors can also watch the cows being milked at 6:30 PM Tuesday through Saturda
 The farm can be combined with a stop at the Farm Store or a meal at The Loft, making it an outing that can last anywhere from an hour to much of an afternoon.
 
 [See Traders Point Creamery farm tour details and hours.](https://www.traderspointcreamery.com/events/tours/)
+
+[↑ Back to activities](#at-a-glance)
 
 ## Take a Fall Walk or Bike Ride
 
@@ -370,13 +408,15 @@ Not every fall outing needs a scheduled start time. Zionsville’s parks and tra
   </figcaption>
 </figure>
 
+[↑ Back to activities](#at-a-glance)
+
 ## Browse the Teeny Tiny Art Market
 
 The [Teeny Tiny Art Market](https://discoverboonecounty.com/events/event/teeny-tiny-art-market/) opens at SullivanMunce Cultural Center on **November 20** and continues through December 19.
 
 The juried market features miniature works by local and regional artists, with each piece measuring **6 x 6 inches or smaller**. The small-scale format makes the exhibit easy to browse and especially suited to collecting and holiday gift-giving.
 
-<!-- Uncomment once the Halloween page is built.
+[↑ Back to activities](#at-a-glance)
 
 ## Looking for Halloween Events?
 

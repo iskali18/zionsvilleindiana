@@ -6,6 +6,17 @@
  *  heading slug in the markdown.
  */
 
+/** Filter chips, in the order they appear above the table. */
+export const FILTERS = [
+  'Family',
+  'Outdoors',
+  'Arts, Music & Culture',
+  'Downtown',
+  'Halloween',
+] as const
+
+export type Filter = (typeof FILTERS)[number]
+
 export interface FallActivity {
   /** Label shown in the table. Shorter than the section heading. */
   name: string
@@ -18,6 +29,12 @@ export interface FallActivity {
   sortDate: string | null
   /** One line on what happens. */
   what: string
+  /** Categories this activity belongs to. An activity can sit in several, and
+   *  some sit in none — not everything needs a category. */
+  types: Filter[]
+  /** True when the activity itself is free to attend. Food, rides or optional
+   *  extras may still cost. */
+  free: boolean
   /** Editorial rank, lower first. Numbered in tens so a new activity can slot
    *  between two without renumbering the rest. */
   featured: number
@@ -30,6 +47,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 2\u20133',
     sortDate: '2026-10-02',
     what: 'Guided walking tour with reenacted local ghost stories',
+    types: ['Outdoors', 'Downtown', 'Halloween'],
+    free: false,
     featured: 10,
   },
   {
@@ -38,6 +57,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 23\u201324',
     sortDate: '2026-10-23',
     what: 'Haunted hayride to the Fright Barn at Maplelawn',
+    types: ['Outdoors', 'Halloween'],
+    free: false,
     featured: 20,
   },
   {
@@ -46,6 +67,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 3',
     sortDate: '2026-10-03',
     what: 'Pumpkins, children\u2019s activities and hayrides',
+    types: ['Family', 'Outdoors'],
+    free: true,
     featured: 30,
   },
   {
@@ -54,15 +77,19 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 3',
     sortDate: '2026-10-03',
     what: 'German food, a Biergarten and live polka, ages 21+',
+    types: ['Arts, Music & Culture'],
+    free: true,
     featured: 40,
   },
   {
     name: 'Pumpkins & Hayrides',
-    anchor: 'enjoy-pumpkins-hayrides-at-lions-park',
+    anchor: 'enjoy-pumpkins--hayrides-at-lions-park',
     when: 'Oct. 25',
     sortDate: '2026-10-25',
     what: 'Pumpkins, hayrides and traditional fall activities',
-    featured: 60,
+    types: ['Family', 'Outdoors'],
+    free: true,
+    featured: 50,
   },
   {
     name: 'Zionsville Street Dance',
@@ -70,7 +97,9 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Sept. 26',
     sortDate: '2026-09-26',
     what: 'Live music on Main Street with two bands',
-    featured: 50,
+    types: ['Outdoors', 'Arts, Music & Culture', 'Downtown'],
+    free: false,
+    featured: 60,
   },
   {
     name: 'Trick or Trees',
@@ -78,6 +107,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 24',
     sortDate: '2026-10-24',
     what: 'Trick-or-Treat Trail at Elm Street Green Park, ages 2\u201312',
+    types: ['Family', 'Outdoors', 'Halloween'],
+    free: false,
     featured: 70,
   },
   {
@@ -86,6 +117,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Sept. 17',
     sortDate: '2026-09-17',
     what: 'Eighties music, fashion and pop culture downtown',
+    types: ['Downtown'],
+    free: true,
     featured: 80,
   },
   {
@@ -94,6 +127,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Nov. 7',
     sortDate: '2026-11-07',
     what: 'Pumpkin smashing, composting and the Epic Pumpkin Drop',
+    types: ['Family', 'Outdoors'],
+    free: true,
     featured: 90,
   },
   {
@@ -102,14 +137,18 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Sept. 19 & 26',
     sortDate: '2026-09-19',
     what: 'Outdoor movies projected onto the barn',
-    featured: 45,
+    types: ['Family', 'Outdoors', 'Arts, Music & Culture'],
+    free: true,
+    featured: 100,
   },
   {
     name: 'Gallery On & Off Main',
-    anchor: 'explore-gallery-on-off-main',
+    anchor: 'explore-gallery-on--off-main',
     when: 'Oct. 24',
     sortDate: '2026-10-24',
     what: 'Artists and artisans throughout the Main Street district',
+    types: ['Arts, Music & Culture', 'Downtown'],
+    free: true,
     featured: 110,
   },
   {
@@ -118,6 +157,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 2',
     sortDate: '2026-10-02',
     what: 'Hayrides, pumpkin painting, campfire and s\u2019mores',
+    types: ['Family', 'Outdoors'],
+    free: true,
     featured: 120,
   },
   {
@@ -126,14 +167,18 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Oct. 3\u2013Nov. 26',
     sortDate: '2026-10-03',
     what: 'Hit the Bricks, Zionsville Half-Marathon and Gravy Chase',
+    types: ['Family', 'Outdoors', 'Downtown'],
+    free: false,
     featured: 130,
   },
   {
     name: 'Zionsville Parks & Recreation',
-    anchor: 'experience-fall-with-zionsville-parks-recreation',
+    anchor: 'experience-fall-with-zionsville-parks--recreation',
     when: 'Sept. 17\u2013Nov. 21',
     sortDate: '2026-09-17',
     what: 'Birding, campfire concerts, night hikes, a luminary walk and owl walks',
+    types: ['Family', 'Outdoors'],
+    free: false,
     featured: 140,
   },
   {
@@ -142,6 +187,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Saturday mornings through Sept. 26',
     sortDate: '2026-09-12',
     what: 'Local produce, food, vendors and music',
+    types: ['Family', 'Outdoors', 'Downtown'],
+    free: true,
     featured: 150,
   },
   {
@@ -150,14 +197,18 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Sept. 13, Oct. 11 & Nov. 1',
     sortDate: '2026-09-13',
     what: 'Sunday afternoon concerts at St. Francis In-The-Fields',
+    types: ['Arts, Music & Culture'],
+    free: true,
     featured: 160,
   },
   {
     name: 'ZCHS Performances & Sports',
-    anchor: 'enjoy-fall-performances-sports-at-zchs',
+    anchor: 'enjoy-fall-performances--sports-at-zchs',
     when: 'Throughout fall',
     sortDate: null,
     what: 'Fall musical, concerts, football and other Eagles sports',
+    types: ['Family', 'Arts, Music & Culture'],
+    free: false,
     featured: 170,
   },
   {
@@ -166,6 +217,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Throughout fall',
     sortDate: null,
     what: 'Farm walks, dairy cows, farm store and dining',
+    types: ['Family', 'Outdoors'],
+    free: false,
     featured: 180,
   },
   {
@@ -174,6 +227,8 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Throughout fall',
     sortDate: null,
     what: 'Parks, wooded trails and the Zionsville Rail Trail',
+    types: ['Family', 'Outdoors'],
+    free: true,
     featured: 190,
   },
   {
@@ -182,11 +237,26 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     when: 'Nov. 20\u2013Dec. 19',
     sortDate: '2026-11-20',
     what: 'Small-scale art at SullivanMunce Cultural Center',
+    types: ['Arts, Music & Culture', 'Downtown'],
+    free: true,
     featured: 200,
   },
 ]
 
 export type SortKey = 'featured' | 'date'
+
+/** Activities matching every selected filter, and the free-only attribute when
+ *  it is on. AND logic: ticking Family and Halloween shows only activities that
+ *  are both. */
+export function filterActivities(
+  list: FallActivity[],
+  active: Filter[],
+  freeOnly: boolean
+): FallActivity[] {
+  return list.filter(
+    (a) => active.every((f) => a.types.includes(f)) && (!freeOnly || a.free)
+  )
+}
 
 /** Sorted copy. Under 'date', anything without a `sortDate` goes last, in
  *  editorial order, rather than being dropped or floated to the top. */
