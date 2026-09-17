@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-zionsville-indianapolis-scarecrow.webp
 hero_position: "center 45%"
-lastUpdated: "2026-09-15"
+lastUpdated: "2026-09-16"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -41,7 +41,7 @@ Fall farms near Zionsville and across the Indianapolis area offer apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 15, 2026.**
+**Updated September 16, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -175,7 +175,7 @@ For visitors considering accessibility, Indy with Kids reports that the farm has
 
 **Stuckey Farm Orchard & Cider Mill in Sheridan** grows **37 varieties of U-pick apples** across its growing year, along with a corn maze and a large play area. The fall season runs **Thursday through Sunday, ending October 25**. Admission is **$16.25 online / $18.95 at the gate** on weekends, and **$12.50 / $14.75** on Thursdays and Fridays; ages 2 and under are free.
 
-Admission includes an **$8 apple voucher**, three U-pick zinnia stems while in season, and **Adventure Acres**, with a 60-foot tube slide, combine slides, jumping pillows, pedal cars and a barrel train. The pumpkin patch and hayrides open later in the season.
+Admission includes an **$8 apple voucher**, three U-pick zinnia stems while in season, and **Adventure Acres**, with a 60-foot tube slide, combine slides, jumping pillows, pedal cars and a barrel train. The pumpkin patch and hayrides open later in the season. As of mid-September the farm had not set a date, saying the patch opens once the pumpkins turn orange.
 
 The festival splits into three themed stretches. **Apple Pluckin’ Days** runs **September 12–13, 19–20 and 26–27**, with U-pick apples at their peak. **Cider Pressin’ Days** follows **October 3–4 and 10–11**, centered on fresh-pressed cider and demonstrations. **Pumpkin Pluckin’ Days** closes the season **October 17–18 and 24–25**, with a Nightmare Before Christmas market. Rides, food and general farm access stay the same throughout.
 
