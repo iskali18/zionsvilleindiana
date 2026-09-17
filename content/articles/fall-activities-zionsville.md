@@ -1,8 +1,8 @@
 ---
 title: "Fall Activities in Zionsville 2026"
-metaTitle: "Fall Activities in Zionsville 2026 | Things to Do"
-metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and trails, September through November."
-description: "A guide to fall activities in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and traditional fall activities from September through November 2026."
+metaTitle: "Fall Activities & Things to Do in Zionsville 2026"
+metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and fall walks, September through November."
+description: "A guide to fall in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and seasonal traditions from September through November 2026."
 category: "discovery"
 hubOrder: 6
 draft: false
@@ -22,7 +22,7 @@ faqs:
   - q: "What fall races take place in Zionsville?"
     a: "Three community running events take place from October through Thanksgiving: Hit the Bricks on October 3 with a timed 5K and untimed 3K, the Zionsville Half Marathon & 5K on November 21, and the Gravy Chase on Thanksgiving morning, November 26."
   - q: "Where can I see fall colors in Zionsville?"
-    a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Big-4 Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
+    a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Zionsville Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
   - q: "Are there fall activities in Zionsville for families with young children?"
     a: "Yes. Pumpkinfest on October 3 includes children’s activities, pumpkin painting and hayrides to the pumpkin patch. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Pumpkins & Hayrides returns to Lions Park on October 25, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
@@ -32,7 +32,7 @@ faqs:
   - q: "When is GhostWalk in Zionsville?"
     a: "GhostWalk returns October 2–3, 2026. The approximately 45-minute guided walking tour moves through the historic Village while actors reenact stories associated with local people, places and legends."
   - q: "What Halloween events take place in Zionsville?"
-    a: "GhostWalk runs October 2–3 with guided walking tours of the historic Village. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Fright Nights on October 23–24 is a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead."
+    a: "GhostWalk runs October 2–3, with costumed actors reenacting local ghost stories along a guided walking tour of the historic Village. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Fright Nights on October 23–24 features a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. Nightmare at Elm Street on October 29 is a free luminary walk at Elm Street Green Park."
 ---
 
 Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits, and traditional fall activities throughout September, October, and November.
@@ -53,11 +53,19 @@ The approximately 45-minute experience returns **October 2–3, 2026**, with sto
 
 ## Experience Fright Nights
 
-**Friday and Saturday, October 23–24, 2026 — 7:00–10:00 p.m.**
+**Friday and Saturday, October 23–24, 2026 · 7:00–10:00 p.m.**
 
-Zionsville Parks & Recreation runs a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. The ride crosses the fields after dark before reaching the barn.
+Zionsville Parks & Recreation’s Fright Nights begins with a haunted hayride from Mulberry Fields Park to Maplelawn Farmstead, where the event continues with the Fright Barn, Spooky Story Barn, campfire, spooky encounters and other nighttime activities.
 
-See the [Fright Nights event guide](/events/fright-nights) for tickets and parking.
+See the [Fright Nights event guide](/events/fright-nights) for tickets, age recommendations and parking.
+
+[↑ Back to activities](#at-a-glance)
+
+## Explore Nightmare at Elm Street: A Luminary Walk
+
+**Thursday, October 29, 2026 · 6:00–8:00 p.m. · Elm Street Green Park**
+
+Zionsville Parks & Recreation lights a trail of luminaries around Elm Street Green for a self-guided Halloween walk. Families can search for mischievous skeletons hidden along the route and explore the glowing Pumpkin Pathway after dark. The free, drop-in event offers a not-too-spooky way to celebrate Halloween outdoors.
 
 [↑ Back to activities](#at-a-glance)
 
@@ -65,7 +73,7 @@ See the [Fright Nights event guide](/events/fright-nights) for tickets and parki
 
 **Pumpkinfest** at St. Alphonsus Liguori Catholic Church returns on **October 3** with an afternoon of family fall activities. **The event is open to the public.**
 
-Children can paint pumpkins, take a hayride to the church’s pumpkin patch, and enjoy other seasonal activities. Pumpkins are available while supplies last.
+Children can take a hayride to the church’s pumpkin patch, and pumpkin decorating, face painting, the petting zoo, games and bounce houses are all free. Pumpkins are available while supplies last.
 
 [See the complete Pumpkinfest guide.](/events/pumpkinfest)
 
@@ -86,7 +94,7 @@ Children can paint pumpkins, take a hayride to the church’s pumpkin patch, and
 
 ## Raise a Stein at Oktoberfest
 
-**Saturday, October 3, 2026 — 4:00–11:00 p.m.**
+**Saturday, October 3, 2026 · 4:00–11:00 p.m.**
 
 St. Alphonsus Liguori Catholic Church holds its annual Oktoberfest in Parish Hall and the Biergarten. The evening is open to the public for adults 21 and older, with German food, live polka from Polkamotion, a stein-holding contest and a raffle drawing. There is no cover charge.
 
@@ -108,7 +116,7 @@ The event includes **hayrides, free pumpkins for painting while supplies last, B
 
 ## Dance on Main Street
 
-**Saturday, September 26, 2026 — 6:00–10:00 p.m., gates at 5:00 p.m.**
+**Saturday, September 26, 2026 · 6:00–10:00 p.m., gates at 5:00 p.m.**
 
 The Zionsville Street Dance returns to Main Street with The Janeways followed by The Flying Toasters. Normally a summer event, the 2026 dance was rescheduled to September after the August date was cancelled.
 
@@ -120,7 +128,7 @@ See the [Street Dance event guide](/events/street-dance) for tickets and details
 
 ## Take the Kids to Trick or Trees
 
-**Saturday, October 24, 2026 — 9:00 a.m.–12:00 p.m.**
+**Saturday, October 24, 2026 · 9:00 a.m.–12:00 p.m.**
 
 Zionsville Parks & Recreation runs a Trick-or-Treat Trail through Elm Street Green Park for children ages 2 to 12, with the Pumpkin Path, marshmallow roasting, science activities and games alongside the trail.
 
@@ -132,7 +140,7 @@ See the [Trick or Trees event guide](/events/trick-or-trees) for registration an
 
 ## Step Back to 80s Night
 
-**Thursday, September 17, 2026 — from 5:00 p.m.**
+**Thursday, September 17, 2026 · from 5:00 p.m.**
 
 Downtown Zionsville turns to the 1980s for an evening of music, fashion and pop culture along Main Street, with themed activities at participating businesses.
 
@@ -211,7 +219,7 @@ Three community running events take place from October through Thanksgiving, ran
 
 ### Hit the Bricks
 
-The **Hit the Bricks 5K Run & 3K Walk** on **October 3** includes a timed 5K and untimed 3K. The routes use the Big-4 Rail Trail, neighborhood streets and Zionsville’s historic brick Main Street.
+The **Hit the Bricks 5K Run & 3K Walk** on **October 3** includes a timed 5K and untimed 3K. The routes use the Zionsville Rail Trail, neighborhood streets and Zionsville’s historic brick Main Street.
 
 The 2026 race highlights the **Boys & Girls Club of Boone County** as its local charity, with a large portion of race fundraising benefiting programs for area youth.
 
@@ -391,20 +399,20 @@ The farm can be combined with a stop at the Farm Store or a meal at The Loft, ma
 
 Not every fall outing needs a scheduled start time. Zionsville’s parks and trails provide several places to get outside as temperatures cool and leaves begin changing.
 
-[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park) has wooded trails through approximately 80 acres along Eagle Creek. [Overley-Worman Park](https://www.zionsville-in.gov/712/Overley-Worman-Park) adds trails, mountain biking and disc golf, while the Big-4 Rail Trail provides a paved multi-use route for walking, running and cycling through Zionsville.
+[Starkey Nature Park](https://www.zionsville-in.gov/714/Starkey-Nature-Park) has wooded trails through approximately 80 acres along Eagle Creek. [Overley-Worman Park](https://www.zionsville-in.gov/712/Overley-Worman-Park) adds trails, mountain biking and disc golf, while the Zionsville Rail Trail provides a paved multi-use route for walking, running and cycling through Zionsville.
 
-[See the Big-4 Rail Trail guide.](/articles/big-4-rail-trail)
+[See the Zionsville Rail Trail guide.](/articles/big-4-rail-trail)
 
 <figure className="my-8">
   <Image
     src="/images/articles/fall-activities-zionsville-rail-trail.webp"
-    alt="Vibrant red and orange autumn foliage lining the paved Big-4 Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
+    alt="Vibrant red and orange autumn foliage lining the paved Zionsville Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
     width={1400}
     height={933}
     className="w-full h-auto rounded"
   />
   <figcaption className="text-sm text-stone-600 italic mt-2">
-    Peak fall colors framing the paved Big-4 Rail Trail in Zionsville. <span className="not-italic">© ZionsvilleIndiana.com</span>
+    Peak fall colors framing the paved Zionsville Rail Trail in Zionsville. <span className="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -414,7 +422,7 @@ Not every fall outing needs a scheduled start time. Zionsville’s parks and tra
 
 The [Teeny Tiny Art Market](https://discoverboonecounty.com/events/event/teeny-tiny-art-market/) opens at SullivanMunce Cultural Center on **November 20** and continues through December 19.
 
-The juried market features miniature works by local and regional artists, with each piece measuring **6 x 6 inches or smaller**. The small-scale format makes the exhibit easy to browse and especially suited to collecting and holiday gift-giving.
+The juried market features miniature works by local and regional artists, with each piece measuring **6 x 6 inches or smaller**. The small-scale format makes the exhibit easy to browse, with original artwork sized for collecting or holiday gift-giving.
 
 [↑ Back to activities](#at-a-glance)
 
