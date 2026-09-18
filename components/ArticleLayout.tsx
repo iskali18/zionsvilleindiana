@@ -112,10 +112,14 @@ export default function ArticleLayout({ meta, contentHtml, pathPrefix = '', chil
           position: i + 1,
           name: entry.name,
           ...(entry.description && { description: entry.description }),
-          ...(entry.href && {
+          // A url here is only meaningful when it points at another page.
+          // Google's carousel guidance does not support a list whose items are
+          // anchors on the page itself, so an anchor gets no url. A href to a
+          // real page is the pattern Google does support and keeps its url.
+          ...(entry.href && !entry.href.startsWith('#') && {
             url: entry.href.startsWith('http')
               ? entry.href
-              : `https://zionsvilleindiana.com${entry.href.startsWith('#') ? fullPath : ''}${entry.href}`,
+              : `https://zionsvilleindiana.com${entry.href}`,
           }),
         })),
       }
