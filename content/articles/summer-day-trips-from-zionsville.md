@@ -3,7 +3,7 @@ title: "17 Summer Day Trips for Families"
 metaTitle: "17 Summer Day Trips from Zionsville, Indiana for Families"
 metaDescription: "Water days, farms, interactive museums, zoos, animal sanctuaries, and state parks within reasonable driving distance for families."
 category: "family"
-hubOrder: 90
+hubOrder: 120
 draft: false
 hero_image: /images/articles/summer-day-trips-from-zionsville-hero.webp
 lastUpdated: "2026-06-04"

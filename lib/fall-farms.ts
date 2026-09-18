@@ -210,12 +210,14 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'hogan-farms-pumpkin-patch-corn-maze',
     city: 'Brownsburg',
     highlights: 'Pay-as-you-go pricing, Kid Zone, leashed pets allowed',
-    cost: 'Free entry; 2026 activity and pumpkin prices not yet posted',
+    cost: 'Free entry; corn maze $6, hayride $5, Kid Zone $3; pumpkins $2\u2013$20',
     features: ['Free / No General Admission', 'Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride'],
     schedules: [
-      { label: 'Farmers Market', start: '2026-10-03', end: '2026-11-01', days: ['sat', 'sun'], status: 'confirmed', planner: true, note: 'Every weekend in October, per the farm\u2019s vendor flyer.' },
-      { label: 'Fall season', start: '2026-09-26', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Thu. 2\u20136 PM; Fri.\u2013Sat. 10 AM\u20138 PM; Sun. 10 AM\u20136 PM', status: 'confirmed', planner: true, note: 'Days and hours confirmed by the farm; closed Mondays. End date taken from the October-weekends market flyer, not stated by the farm. 2026 activity prices not posted.' },
-      { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
+      { label: 'September opening', dates: ['2026-09-26', '2026-09-27'], hours: '10 AM\u20136 PM', status: 'confirmed', planner: true },
+      { label: 'September weekdays', dates: ['2026-09-29', '2026-09-30'], hours: '2\u20136 PM', status: 'confirmed', planner: true },
+      { label: 'October hours', start: '2026-10-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Thu. 2\u20136 PM; Fri.\u2013Sun. 10 AM\u20136 PM', status: 'confirmed', planner: true, note: 'Closed Mondays. Hours published by the farm for October. The farm has not said whether the season continues past October.' },
+      { label: 'Hayrides', appliesTo: 'Hayride / Wagon Ride', start: '2026-10-01', end: '2026-10-31', days: ['fri', 'sat', 'sun'], hours: '11 AM\u20135:30 PM', status: 'confirmed', planner: false, note: 'Hours published by the farm for October. The farm has not said whether the season continues past October.' },
+      { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Hours published by the farm for October. The farm has not said whether the season continues past October.' },
     ],
   },
   {

@@ -389,9 +389,13 @@ Before the regular fall season begins, Piney Acres hosts the Autism Society of I
 
 Hogan Farms offers a smaller, more intimate fall outing than many of the larger farm attractions around Indianapolis. There is no general admission fee, and visitors can choose individual activities such as the corn maze, hayride and Kid Zone, along with picking pumpkins from the patch. Its smaller scale may appeal to families looking for a more intimate pumpkin-patch experience rather than a large fall festival with dozens of attractions.
 
-The farm opens for the season on **September 26** and runs **Tuesday through Sunday**, and is closed Mondays.  Hours are **Tuesday through Thursday 2–6 p.m., Friday and Saturday 10 a.m.–8 p.m., and Sunday 10 a.m.–6 p.m.**. The season looks set to run through the end of October. As of early September the farm has not posted 2026 activity prices. Earlier in the season is a good time to visit for a fuller pumpkin selection. Pumpkins are priced by size, with mini and specialty pumpkins, white pumpkins, pie pumpkins, gourds, Indian corn and other fall décor available.
+The farm opens for the season on **September 26**. September hours are **10 a.m.–6 p.m. on September 26 and 27, and 2–6 p.m. on September 29 and 30**. In October the farm is open **Tuesday through Thursday 2–6 p.m. and Friday through Sunday 10 a.m.–6 p.m.**, closed Mondays. The farm has not posted a closing date for the season.
 
-The farm also runs a **Farmers Market** every weekend in October, with vendors selling local honey, baked goods, handmade soaps and candles. Hogan posts vendor and food-truck updates on its Facebook page.
+There is no general admission. The **corn maze is $6**, **hayrides are $5** and the **Kid Zone is $3**, with children 36 inches and under free for all three. Pumpkins are **$2 to $20** depending on size, with mini and specialty pumpkins, white pumpkins, pie pumpkins, gourds, Indian corn and other fall décor available.
+
+**Hayrides** run Friday through Sunday in October, 11 a.m.–5:30 p.m., and last 15 to 20 minutes. The **Kid Zone** runs Tuesday through Sunday in October and includes a straw pyramid, pumpkin chess and pumpkin tic-tac-toe.
+
+The farm also runs a **Farmers Market** on various Saturdays and Sundays in October, now in its sixth year, with vendors selling local honey, baked goods, handmade soaps and candles. Hogan posts vendor and food-truck updates on its Facebook page.
 
 [Hogan Farms website →](https://brownsburgcornmaze.com/)
 
