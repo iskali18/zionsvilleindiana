@@ -147,6 +147,14 @@ export function formatEventDate(isoDate: string, isAllDay: boolean): string {
 }
 
 export function buildEventSchema(event: CalendarEvent) {
+  // Google requires `location` on an Event, so one without it is invalid
+  // rather than merely incomplete. Emit nothing and log, so a missing calendar
+  // field turns up in the build output instead of in Search Console weeks on.
+  if (!event.location) {
+    console.warn(`Calendar event has no location, skipping schema: ${event.title}`)
+    return null
+  }
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Event',
@@ -154,19 +162,18 @@ export function buildEventSchema(event: CalendarEvent) {
     startDate: event.startDate,
     ...(event.endDate && { endDate: event.endDate }),
     ...(event.description && { description: event.description }),
-    ...(event.location && {
-      location: {
-        '@type': 'Place',
+    location: {
+      '@type': 'Place',
+      name: event.location,
+      address: {
+        // Google accepts a whole address on one line, and the calendar gives
+        // one free-text string. Parsing it out into locality, region and
+        // postcode would mean guessing, and the previous hardcoded Zionsville
+        // values were wrong for any event in Lebanon or Indianapolis.
+        '@type': 'PostalAddress',
         name: event.location,
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Zionsville',
-          addressRegion: 'IN',
-          postalCode: '46077',
-          addressCountry: 'US',
-        },
       },
-    }),
+    },
     url: event.htmlLink,
     organizer: {
       '@type': 'Organization',

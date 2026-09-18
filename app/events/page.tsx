@@ -51,7 +51,8 @@ export default async function EventsPage() {
   const allEvents = getAllEvents()
   const calendarEvents = await getUpcomingEvents(24)
   const allSlugs = allEvents.map((e) => e.slug)
-  const calendarSchemas = calendarEvents.map(buildEventSchema)
+  // buildEventSchema returns null for an event with no location.
+  const calendarSchemas = calendarEvents.map(buildEventSchema).filter(Boolean)
 
   // The strip sits after the first desktop row, so people see the events they
   // came for before the guides.

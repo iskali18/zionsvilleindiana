@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-zionsville-indianapolis-scarecrow.webp
 hero_position: "center 45%"
-lastUpdated: "2026-09-16"
+lastUpdated: "2026-09-17"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -41,7 +41,7 @@ Fall farms near Zionsville and across the Indianapolis area offer apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 16, 2026.**
+**Updated September 17, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -147,7 +147,7 @@ No dedicated sensory program was found for Stuckey, Beasley’s or Kelsay.
 
 ## Fall Farms, Orchards & Fall Attractions
 
-### [Dull’s Tree Farm](https://www.dullstreefarm.com/fall-admission) (Thorntown, IN) {#dulls-tree-farm}
+### Dull’s Tree Farm (Thorntown, IN) {#dulls-tree-farm}
 
 - **Location:** [1765 W. Blubaugh Avenue, Thorntown, IN 46071](https://maps.app.goo.gl/jL4Yf4kUJZwd9kCr9) · Boone County
 - **Drive from Zionsville:** ~35 min (26 miles NW)
@@ -165,9 +165,11 @@ As of early September, the farm has not posted a 2026 pumpkin price.
 
 For visitors considering accessibility, Indy with Kids reports that the farm has no stairs, mostly flat terrain and ramps at building entrances.
 
+[Dull’s Tree Farm website →](https://www.dullstreefarm.com/fall-admission)
+
 [↑ Back to comparison](#compare)
 
-### [Stuckey Farm Orchard & Cider Mill](https://stuckeyfarm.com/farm-events) (Sheridan, IN) {#stuckey-farm-orchard-cider-mill}
+### Stuckey Farm Orchard & Cider Mill (Sheridan, IN) {#stuckey-farm-orchard-cider-mill}
 
 - **Location:** [19975 Hamilton Boone Road, Sheridan, IN 46069](https://maps.app.goo.gl/EVNLc1DJ5NpVRRmU6) · Hamilton County
 - **Drive from Zionsville:** ~20 min (12 miles N)
@@ -198,9 +200,11 @@ The **Sunflower Festival** continues **September 5–7 and September 12–13**, 
 
 Hamilton County Tourism notes handicap parking and accessible restrooms at the farm market. Indy with Kids reports the hayride is not accessible, but the pumpkin patch, U-pick orchard and play area can all be reached on foot. Most of the ground around the farm is gravel, grass or dirt, which can be difficult for wheelchairs and strollers. Mornings are generally less crowded.
 
+[Stuckey Farm website →](https://stuckeyfarm.com/farm-events)
+
 [↑ Back to comparison](#compare)
 
-### [Spencer Farm](https://spencerberryfarm.com/you-pick-crops) (Noblesville, IN) {#spencer-farm}
+### Spencer Farm (Noblesville, IN) {#spencer-farm}
 
 - **Location:** [7177 E. 161st Street, Noblesville, IN 46062](https://maps.app.goo.gl/hmqgh6mkU6pC19JVA) · Hamilton County
 - **Drive from Zionsville:** ~30 min (16 miles NE)
@@ -214,9 +218,11 @@ Leashed pets are welcome on the grounds, though not in the edible crop areas or 
 
 **Spencer Farm Winery**, a sister company located on the same property, has a tasting room in a restored 1883 farmhouse and an outdoor event space among the vines. The winery keeps separate hours from the farm, so check its hours before visiting.
 
+[Spencer Farm website →](https://spencerberryfarm.com/you-pick-crops)
+
 [↑ Back to comparison](#compare)
 
-### [Conner Prairie’s Headless Horseman Festival](https://www.connerprairie.org/headless-horseman) (Fishers, IN) {#conner-prairies-headless-horseman-festival}
+### Conner Prairie’s Headless Horseman Festival (Fishers, IN) {#conner-prairies-headless-horseman-festival}
 
 - **Location:** [13400 Allisonville Road, Fishers, IN 46038](https://maps.app.goo.gl/QRxwfJzEDTNuBMoG6) · Hamilton County
 - **Drive from Zionsville:** ~30 min (18 miles NE)
@@ -260,9 +266,11 @@ Conner Prairie publishes detailed sensory and accessibility information for the 
 
 Guests who are sensitive to loud sounds, bright lights or scares are encouraged to visit earlier in the evening. Hayrides after 8 p.m. travel through darker woods with scarier surprises. Pets are not allowed on the property except for service dogs.
 
+[Headless Horseman website →](https://www.connerprairie.org/headless-horseman)
+
 [↑ Back to comparison](#compare)
 
-### [Russell Farms Pumpkin Patch](https://russell-farms.com/admission.html) (Noblesville, IN) {#russell-farms-pumpkin-patch}
+### Russell Farms Pumpkin Patch (Noblesville, IN) {#russell-farms-pumpkin-patch}
 
 - **Location:** [12290 E. 191st Street, Noblesville, IN 46060](https://maps.app.goo.gl/tTbSgWQekF4KhbsZA) · Hamilton County
 - **Drive from Zionsville:** ~40 min (23 miles NE)
@@ -300,9 +308,11 @@ The activity list includes **two scavenger-hunt corn mazes at 5 and 10 acres, a 
   </figcaption>
 </figure>
 
+[Russell Farms website →](https://russell-farms.com/admission.html)
+
 [↑ Back to comparison](#compare)
 
-### [Tuttle Orchards](https://www.tuttleorchards.com/fall/) (Greenfield, IN) {#tuttle-orchards}
+### Tuttle Orchards (Greenfield, IN) {#tuttle-orchards}
 
 - **Location:** [5717 N. 300 W., Greenfield, IN 46140](https://maps.app.goo.gl/VqDa2iYoY5zURWJ89) · Hancock County
 - **Drive from Zionsville:** ~45 min (27 miles SE)
@@ -316,9 +326,11 @@ There is no charge to enter the pumpkin field — visitors pay for what they pic
 
 For groups with special needs, Tuttle says tour guides can adapt the program and hayrides are wheelchair accessible. The hayride to the pumpkin patch has a ramp. The farm notes that taking a wheelchair into the dirt pumpkin patch can be difficult, though Indy with Kids reports the grounds are otherwise flat and manageable with a wheelchair or walker. Pets are not permitted because the farm wholesales fruit and follows stricter food-safety rules; ADA service dogs are welcome.
 
+[Tuttle Orchards website →](https://www.tuttleorchards.com/fall/)
+
 [↑ Back to comparison](#compare)
 
-### [Lark Ranch](https://larkranch.com/greenfield) (Greenfield, IN) {#lark-ranch}
+### Lark Ranch (Greenfield, IN) {#lark-ranch}
 
 - **Location:** [1611 N. Meridian Road, Greenfield, IN 46140](https://maps.app.goo.gl/NFQsozbiw9eYJpyX7) · Hancock County
 - **Drive from Zionsville:** ~45 min (34 miles SE)
@@ -345,9 +357,11 @@ Lark Ranch has paved sidewalks, handicap-accessible restrooms and accommodations
 
 Leashed dogs are welcome and parking is free. Outside food and drink are not permitted except for birthday celebrations, and alcohol is available on select dates. The farm notes that September weekends are typically quieter and less expensive, while mid-October weekends are the busiest.
 
+[Lark Ranch website →](https://larkranch.com/greenfield)
+
 [↑ Back to comparison](#compare)
 
-### [Piney Acres Farm](https://pineyacresfarm.com/fall-fun/) (Fortville, IN) {#piney-acres-farm}
+### Piney Acres Farm (Fortville, IN) {#piney-acres-farm}
 
 - **Location:** [1115 E. 1000 N., Fortville, IN 46040](https://maps.app.goo.gl/1zjnsYnwMbpVbSYu9) · Hancock County
 - **Drive from Zionsville:** ~50 min (36 miles E)
@@ -363,9 +377,11 @@ Piney Acres markets pick-your-own pumpkins, but says its patch is **off-site thi
 
 Before the regular fall season begins, Piney Acres hosts the Autism Society of Indiana’s **Ausome Fall Fest on September 12 from noon to 3 p.m.** Admission includes a train or tractor ride, gem mining, giant slide, play area and one sweet treat. Piney Acres also has handicap-accessible indoor restrooms.
 
+[Piney Acres website →](https://pineyacresfarm.com/fall-fun/)
+
 [↑ Back to comparison](#compare)
 
-### [Hogan Farms Pumpkin Patch & Corn Maze](https://brownsburgcornmaze.com/) (Brownsburg, IN) {#hogan-farms-pumpkin-patch-corn-maze}
+### Hogan Farms Pumpkin Patch & Corn Maze (Brownsburg, IN) {#hogan-farms-pumpkin-patch-corn-maze}
 
 - **Location:** [8900 E. County Road 1000 N., Brownsburg, IN 46112](https://maps.app.goo.gl/o8T8Cdvc3RSbp9ki6) · Hendricks County
 - **Drive from Zionsville:** ~17 min (8 miles SW)
@@ -376,6 +392,8 @@ Hogan Farms offers a smaller, more intimate fall outing than many of the larger 
 The farm opens for the season on **September 26** and runs **Tuesday through Sunday**, and is closed Mondays.  Hours are **Tuesday through Thursday 2–6 p.m., Friday and Saturday 10 a.m.–8 p.m., and Sunday 10 a.m.–6 p.m.**. The season looks set to run through the end of October. As of early September the farm has not posted 2026 activity prices. Earlier in the season is a good time to visit for a fuller pumpkin selection. Pumpkins are priced by size, with mini and specialty pumpkins, white pumpkins, pie pumpkins, gourds, Indian corn and other fall décor available.
 
 The farm also runs a **Farmers Market** every weekend in October, with vendors selling local honey, baked goods, handmade soaps and candles. Hogan posts vendor and food-truck updates on its Facebook page.
+
+[Hogan Farms website →](https://brownsburgcornmaze.com/)
 
 [↑ Back to comparison](#compare)
 
@@ -392,7 +410,7 @@ The farm also runs a **Farmers Market** every weekend in October, with vendors s
   </figcaption>
 </figure>
 
-### [Nehemiah Ranch Fall Harvest Days](https://www.nehemiahranch.org/events) (Avon, IN) {#nehemiah-ranch-fall-harvest-days}
+### Nehemiah Ranch Fall Harvest Days (Avon, IN) {#nehemiah-ranch-fall-harvest-days}
 
 - **Location:** [1420 N. County Road 600 E., Avon, IN 46123](https://www.google.com/maps/search/?api=1&query=1420%20N.%20County%20Road%20600%20E.%2C%20Avon%2C%20IN%2046123) · Hendricks County
 - **Drive from Zionsville:** ~35 min (21 miles SW)
@@ -402,9 +420,11 @@ The farm also runs a **Farmers Market** every weekend in October, with vendors s
 
 Admission is **free**, with a **$5-per-person donation suggested**. The evening includes hayrides, hot dogs, s’mores, hot chocolate, a fire pit, games and a trip to the pumpkin patch to choose a child’s pumpkin.
 
+[Nehemiah Ranch website →](https://www.nehemiahranch.org/events)
+
 [↑ Back to comparison](#compare)
 
-### [Beasley’s Orchard](https://www.beasleys-orchard.com/) (Danville, IN) {#beasleys-orchard}
+### Beasley’s Orchard (Danville, IN) {#beasleys-orchard}
 
 - **Location:** [2304 E. Main Street, Danville, IN 46122](https://maps.app.goo.gl/mDBizgRaDLPHq4B5A) · Hendricks County
 - **Drive from Zionsville:** ~40 min (25 miles SW)
@@ -419,6 +439,8 @@ Seven themed weekends run throughout the season, including **Hometown Heroes** (
 Admission includes the corn maze, hayride to the pumpkin patch, five apple cannon shots, Straw Mountain, Barnyard Bonanza with its jumbo jumping pillow and target toss, photo ops and the marigold field while in season. U-pick apples and pumpkins are sold separately.
 
 The farm market occupies a Civil War-era barn and sells homegrown produce, baked goods and Beasley’s apple cider. It is open **Monday through Saturday 9 a.m.–6 p.m. and Sunday noon–6 p.m.** Visit Hendricks County lists the orchard as **ADA accessible**.
+
+[Beasley’s Orchard website →](https://www.beasleys-orchard.com/)
 
 [↑ Back to comparison](#compare)
 
@@ -435,7 +457,7 @@ The farm market occupies a Civil War-era barn and sells homegrown produce, baked
   </figcaption>
 </figure>
 
-### [Kelsay Farms](https://kelsayfarms.com/) (Whiteland, IN) {#kelsay-farms}
+### Kelsay Farms (Whiteland, IN) {#kelsay-farms}
 
 - **Location:** [6848 N. County Road 250 E., Whiteland, IN 46184](https://maps.app.goo.gl/2tFbEmiEEUaAe6TU6) · Johnson County
 - **Drive from Zionsville:** ~55 min (~35 miles SE)
@@ -449,9 +471,11 @@ As a working farm, Kelsay also gives visitors a chance to see calves, goats, she
 
 Kelsay describes the farm as handicap accessible and says it works to accommodate individual needs, though many attractions are outdoors on uneven farm terrain and the corn maze can be difficult to navigate. Restrooms are portable toilets with hand-washing stations.
 
+[Kelsay Farms website →](https://kelsayfarms.com/)
+
 [↑ Back to comparison](#compare)
 
-### [Driving Wind Berry Farms](https://www.drivingwindberryfarm.com/) (Indianapolis, IN) {#driving-wind-berry-farms}
+### Driving Wind Berry Farms (Indianapolis, IN) {#driving-wind-berry-farms}
 
 - **Location:** [6410 N. Michigan Road, Indianapolis, IN 46268](https://maps.app.goo.gl/iCXL762HFS5VzKtq5) · Marion County
 - **Drive from Zionsville:** ~17 min (7 miles SE)
@@ -459,9 +483,11 @@ Kelsay describes the farm as handicap accessible and says it works to accommodat
 
 Driving Wind Berry Farms is an urban farm on the northwest side of Indianapolis. Its year-round café serves espresso, smoothies, soups, breakfast and lunch along with house-made fruit popsicles, and the farm has a small pumpkin patch, flower fields, a picnic area, a gift shop and animals including a pony, a donkey and chickens. The café moved to **Wednesday through Saturday, 8 a.m. to 3 p.m.** in late August and is closed Monday and Tuesday. The farm has not posted separate hours for the rest of the property. It will hold its 2026 Pumpkin Palooza on **Saturday, October 3, and Saturday, October 10, from 8 a.m. to 3 p.m.** Past Pumpkin Palooza events have included pumpkin picking, wagon rides, apple cider and cider donuts, fall mums, farm animals, market vendors and bounce houses. Additional 2026 event details will be added as they are announced.
 
+[Driving Wind Farm website →](https://www.drivingwindberryfarm.com/)
+
 [↑ Back to comparison](#compare)
 
-### [Waterman’s Family Farm](https://watermansfamilyfarm.com/price-hours/) (Indianapolis, IN) {#watermans-family-farm}
+### Waterman’s Family Farm (Indianapolis, IN) {#watermans-family-farm}
 
 - **Location:** [7010 E. Raymond Street, Indianapolis, IN 46239](https://maps.app.goo.gl/8hipAJtjdHSzyTsa6) · Marion County
 - **Drive from Zionsville:** ~35 min (26 miles SE)
@@ -472,6 +498,8 @@ Driving Wind Berry Farms is an urban farm on the northwest side of Indianapolis.
 The festival includes the corn maze, hayride to the pumpkin patch, carnival rides, games, petting zoo, live entertainment and the farm’s pumpkin-eating dinosaur, along with a corn play pit, straw mountain, hamster wheels, a youth zip line and a cow milking event.
 
 Admission starts at **$12.95** on weekdays and **$17.95** on weekends, with ages 2 and under free. Buying in advance locks in the price. Pumpkins start at **$5**, animal feed costs **$5**, and the apple cannon starts at **$4.95**. Gem mining, pony rides and the baby animal experience also cost extra. The farm market keeps different hours from the festival.
+
+[Waterman’s Family Farm website →](https://watermansfamilyfarm.com/price-hours/)
 
 [↑ Back to comparison](#compare)
 
@@ -488,7 +516,7 @@ Admission starts at **$12.95** on weekdays and **$17.95** on weekends, with ages
   </figcaption>
 </figure>
 
-### [Anderson Orchard](http://www.andersonorchard.com/) (Mooresville, IN) {#anderson-orchard}
+### Anderson Orchard (Mooresville, IN) {#anderson-orchard}
 
 - **Location:** [369 E. Greencastle Road, Mooresville, IN 46158](https://maps.app.goo.gl/ya7KSakkLqGyAR1Y7) · Morgan County
 - **Drive from Zionsville:** ~40 min (30 miles SW)
@@ -504,9 +532,11 @@ For visitors considering accessibility, Indy with Kids reports that the U-pick r
 
 A **petting zoo** runs October 3–25, and **Trunk or Treat** is scheduled for October 30 from 6–9 p.m.
 
+[Anderson Orchard website →](http://www.andersonorchard.com/)
+
 [↑ Back to comparison](#compare)
 
-### [Chandler’s Orchard & Country Market](https://chandlersorchard.com/) (Fillmore, IN) {#chandlers-orchard-country-market}
+### Chandler’s Orchard & Country Market (Fillmore, IN) {#chandlers-orchard-country-market}
 
 - **Location:** [2849 S. County Road 825 E., Fillmore, IN 46128](https://maps.app.goo.gl/TqCX6aF4hemizD4t9) · Putnam County
 - **Drive from Zionsville:** ~1 hr 5 min (~45 miles SW)
@@ -522,9 +552,11 @@ Chandler’s posts farm and crop updates on Facebook and Instagram. Check there 
 
 The country store sells jams, jellies, take-and-bake pies, cheeses, sauces and fresh produce, along with pasture-raised meats from local producers. The farm also grows rhubarb, tomatoes, sweet corn, honey and U-pick flowers.
 
+[Chandler’s Orchard website →](https://chandlersorchard.com/)
+
 [↑ Back to comparison](#compare)
 
-### [Pleasant View Orchard](http://www.pleasantvieworchardin.com/) (Fairland, IN) {#pleasant-view-orchard}
+### Pleasant View Orchard (Fairland, IN) {#pleasant-view-orchard}
 
 - **Location:** [10721 N. 850 W., Fairland, IN 46126](https://maps.app.goo.gl/Hj3YniK5v4NBMaxWA) · Shelby County
 - **Drive from Zionsville:** ~45 min (~35 miles SE)
@@ -541,6 +573,8 @@ Pleasant View hosts several **free fall events**, including Saturday live music 
 **Silly Safaris** will present a live animal show on **October 24 at 3 p.m.** Children who attend in costume receive a special treat.
 
 Leashed pets are welcome in the orchard, though not inside the store or on the pumpkin patch wagons. The orchard charges a **3% surcharge on credit cards**, with no fee for cash or debit.
+
+[Pleasant View Orchard website →](http://www.pleasantvieworchardin.com/)
 
 [↑ Back to comparison](#compare)
 

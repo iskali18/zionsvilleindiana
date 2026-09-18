@@ -1,14 +1,14 @@
 ---
 title: "Zionsville Trick-or-Treat & Trunk-or-Treat Events 2026"
 metaTitle: "Zionsville Trick or Treat 2026: Hours & Halloween Events"
-metaDescription: "2026 Zionsville trick-or-treat and trunk-or-treat events, including Trick or Trees, Graham Rahal Performance, Zionsville Presbyterian and Eagle Church."
+metaDescription: "2026 Zionsville trick-or-treat and trunk-or-treat events, including Trick or Trees, local trunk-or-treats and a sensory-friendly event."
 description: "A guide to 2026 trick-or-treat and trunk-or-treat events for Zionsville families, with dates, times, ages and admission."
 category: "discovery"
 hubOrder: 10
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
-lastUpdated: "2026-09-07"
+lastUpdated: "2026-09-17"
 itemListName: "Zionsville trick-or-treat and trunk-or-treat events 2026"
 itemList:
   - name: "Trick or Trees"
@@ -23,6 +23,9 @@ itemList:
   - name: "Zionsville Presbyterian Church Trunk or Treat"
     href: "#zionsville-presbyterian-church-trunk-or-treat"
     description: "Sunday, October 25, 12:15–2 p.m. Brunch, face painting and bounce houses."
+  - name: "BACA Sensory-Friendly Trunk-or-Treat"
+    href: "#baca-sensory-friendly-trunk-or-treat"
+    description: "Thursday, October 29, 5:30–7 p.m. at BACA’s Zionsville Learning Center. Free and open to the public."
 ctas:
   - label: "See all Zionsville events"
     href: "/events"
@@ -30,7 +33,7 @@ ctas:
     href: "/articles/pumpkin-patches-corn-mazes-near-indianapolis"
 faqs:
   - q: "When is trick-or-treating in Zionsville in 2026?"
-    a: "The Town of Zionsville has not yet announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are already scheduled for October 24 and 25."
+    a: "The Town of Zionsville has not yet announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are scheduled for October 24, 25 and 29."
   - q: "Do you need to register for Trick or Trees?"
     a: "Yes. Every participating child needs a timed-entry registration. Children under age 2 attend free but still need to be registered. Registration opens October 1 and closes at 4 p.m. on Friday, October 23."
   - q: "What ages is Trick or Trees for?"
@@ -38,16 +41,16 @@ faqs:
   - q: "How much does Trick or Trees cost?"
     a: "Advance admission is $5 for Zionsville residents and $7 for nonresidents. If space remains, limited day-of admission is $7 per child. Children under 2 attend free."
   - q: "Are there trunk-or-treat events in Zionsville?"
-    a: "Yes. Graham Rahal Performance hosts a Trunk or Treat on Saturday, October 24 from 4 to 6 p.m., and Zionsville Presbyterian Church hosts one on Sunday, October 25 from 12:15 to 2 p.m."
+    a: "Yes. Graham Rahal Performance hosts a Trunk or Treat on Saturday, October 24 from 4 to 6 p.m., Zionsville Presbyterian Church hosts one on Sunday, October 25 from 12:15 to 2 p.m., and BACA’s Zionsville Learning Center hosts a Sensory-Friendly Trunk-or-Treat on Thursday, October 29 from 5:30 to 7 p.m."
   - q: "Is there a sensory-friendly trunk-or-treat in Zionsville?"
-    a: "BACA’s Zionsville location has hosted a sensory-friendly Trunk or Treat in previous years, but a 2026 event has not yet been announced."
-  - q: "Are there trunk-or-treat events near Zionsville?"
-    a: "Eagle Church in Whitestown is holding its annual Trunk or Treat on Saturday, October 24 from 4 to 6 p.m. The event includes pumpkin decorating, hayrides, donut holes and cider."
+    a: "Yes. BACA’s Zionsville Learning Center is holding a Sensory-Friendly Trunk-or-Treat on Thursday, October 29 from 5:30 to 7 p.m. The event is free and open to the public, with sensory-friendly activities, treats and candy. Costumes are optional."
+  - q: "When is Eagle Church Trunk or Treat?"
+    a: "Eagle Church is holding its annual Trunk or Treat on Saturday, October 24 from 4 to 6 p.m. The event includes pumpkin decorating, hayrides, donut holes and cider."
 ---
 
-Zionsville families have several places to trick-or-treat before Halloween in 2026, from the Trick-or-Treat Trail at Elm Street Green to trunk-or-treat events at local businesses and churches.
+Zionsville families have several places to trick-or-treat before Halloween in 2026, from the Trick-or-Treat Trail at Elm Street Green to trunk-or-treat events at local businesses, churches and BACA’s Zionsville Learning Center.
 
-**Saturday, October 24 is currently the busiest day**, with Trick or Trees in the morning and two trunk-or-treat events that afternoon. More annual Halloween events may be announced as October approaches.
+**Saturday, October 24 is currently the busiest day**, with Trick or Trees in the morning and two trunk-or-treat events that afternoon. Additional events are scheduled for October 25 and 29, and more annual Halloween events may be announced as October approaches.
 
 ## 2026 Zionsville Trick-or-Treat Events
 
@@ -57,6 +60,7 @@ Zionsville families have several places to trick-or-treat before Halloween in 20
 | [Graham Rahal Performance Trunk or Treat](#graham-rahal-performance-trunk-or-treat) | Sat., Oct. 24, 4–6 PM | Trunk-or-treating at the final Cars & Coffee of the season |
 | [Eagle Church Trunk or Treat](#eagle-church-trunk-or-treat) | Sat., Oct. 24, 4–6 PM | Pumpkin decorating, hayrides, donut holes and cider |
 | [Zionsville Presbyterian Church Trunk or Treat](#zionsville-presbyterian-church-trunk-or-treat) | Sun., Oct. 25, 12:15–2 PM | Brunch, face painting and bounce houses |
+| [BACA Sensory-Friendly Trunk-or-Treat](#baca-sensory-friendly-trunk-or-treat) | Thu., Oct. 29, 5:30–7 PM | Sensory-friendly activities, treats and candy |
 
 ## Trick or Trees at Elm Street Green
 
@@ -117,11 +121,25 @@ See the [ZPC Trunk or Treat event page](https://www.zpc.org/event/24406806-2026-
 
 [↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 
+## BACA Sensory-Friendly Trunk-or-Treat
+
+**Thursday, October 29 · 5:30–7 PM**  
+**BACA Zionsville Learning Center · [6704 Central Blvd., Zionsville](https://maps.app.goo.gl/KerSkKMurvn7pBEt9)**  
+**Admission:** Free · Open to the public
+
+BACA is the Behavior Analysis Center for Autism, which provides applied behavior analysis (ABA) therapy for children with autism at its Zionsville Learning Center and other Indiana locations.
+
+BACA’s Sensory-Friendly Trunk-or-Treat includes **sensory-friendly activities, treats and candy**. Costumes are optional.
+
+See the [BACA Sensory-Friendly Trunk-or-Treat event page](https://thebaca.com/event/bacas-zionsville-learning-center-sensory-friendly-trunk-or-treat/).
+
+[↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
+
 ## Other Zionsville Halloween Events
 
-Two more Halloween-season events take place the same weekend but are not trick-or-treat events.
+Three more Halloween-season events are not trick-or-treat events.
 
-[Fright Nights](/events/fright-nights) runs October 23–24 at Mulberry Fields Park and Maplelawn Farmstead. [Pumpkins & Hayrides](/events/pumpkins-hayrides) is October 25 at Lions Park.
+[Fright Nights](/events/fright-nights) runs October 23–24 at Mulberry Fields Park and Maplelawn Farmstead. [Pumpkins & Hayrides](/events/pumpkins-hayrides) is October 25 at Lions Park. [Nightmare at Elm Street: A Luminary Walk](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147) is October 29 at Elm Street Green Park.
 
 For pumpkin patches, corn mazes and apple orchards, see our guide to [fall farms and orchards near Zionsville and Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
@@ -129,7 +147,7 @@ For pumpkin patches, corn mazes and apple orchards, see our guide to [fall farms
 
 Several local organizations have held trick-or-treat or trunk-or-treat events in previous years but have not yet announced 2026 details.
 
-We are watching for announcements from **Boone Village, the Zionsville Marching Eagles, Zionsville United Methodist Church and St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, Zionsville Meadows, BACA Zionsville and Morning Dove Therapeutic Riding Center**.
+We are watching for announcements from **Boone Village, the Zionsville Marching Eagles, Zionsville United Methodist Church and St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, Zionsville Meadows and Morning Dove Therapeutic Riding Center**.
 
 Additional events will be added as 2026 details are confirmed.
 
