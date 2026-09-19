@@ -12,8 +12,9 @@ endDateTime: "2026-11-14T16:00:00-05:00"
 location: "Lincoln Park, Zionsville"
 address: "100 W. Oak Street"
 externalUrl: "https://www.zionsville-in.gov/803/Love-Lincoln"
-image: /images/events/lincoln-park-zionsville-old-gazebo.webp
+image: /images/events/lincoln-park-zionsville-old-gazebo-vignette.webp
 imageAlt: "Illustration of the gazebo at Lincoln Park in downtown Zionsville"
+hero_position: "center 63%"
 featured: true
 tags: [family, free, history, outdoor, music]
 lastUpdated: "2026-09-17"
