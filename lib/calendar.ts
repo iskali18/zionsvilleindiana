@@ -22,15 +22,22 @@ const BASE = 'https://www.googleapis.com/calendar/v3'
 
 const OFFICIAL_URLS: Record<string, string> = {
   'stories in the park': 'https://www.zionsvillelions.com/',
-  '80\'s night': 'https://www.facebook.com/events/1379810587240039',
   'pizza party friday at mulberry fields': 'https://www.facebook.com/events/1655763592306236',
   'park and play at mulberry fields': 'https://www.facebook.com/events/1525297579066058',
   'wild and wacky water day at fire station 93': 'https://www.facebook.com/events/2222870561902849',
   'indy british motor day': 'https://www.townplanner.com/event/870949/',
-  'diabetes awareness day': 'https://www.zionsvillelions.com/',
-  'fright nights at maplelawn farmstead': 'https://zionsville-in.gov/740/Fright-Nights',
-  'trick or trees: registration required': 'https://www.zionsville-in.gov/739/Trick-or-Trees',
-  'zionsville half marathon & 5k': 'https://runsignup.com/Race/IN/Zionsville/ZionsvilleHalf',
+  'family fun day for diabetes awareness': 'https://www.zionsvillelions.com/',
+  'eagle church trunk or treat': 'https://www.eaglechurch.com/event/24457369-2026-10-24-trunk-or-treat-2026/',
+  'zionsville presbyterian church trunk or treat':'https://www.zpc.org/event/24474648-2026-10-25-trunk-or-treat-2026/',
+  'nightmare at elm street: a luminary walk':'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147',
+}
+
+/** Calendar titles are typed by hand, so an apostrophe may arrive curly or
+ *  straight depending on where it was typed. The lookup below is an exact
+ *  string match, so both spellings are folded to one here. Keys in
+ *  OFFICIAL_URLS use a straight apostrophe. */
+function titleKey(summary?: string): string {
+  return (summary ?? '').trim().toLowerCase().replace(/[\u2018\u2019]/g, "'")
 }
 
 export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[]> {
@@ -99,7 +106,7 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
         : undefined,
       isAllDay,
       htmlLink: item.htmlLink ?? '#',
-      officialUrl: OFFICIAL_URLS[item.summary?.trim().toLowerCase() ?? ''] ?? undefined,
+      officialUrl: OFFICIAL_URLS[titleKey(item.summary)] ?? undefined,
     }
   })
 
@@ -110,7 +117,7 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
   const lastDates = new Map<string, string>()
 
   for (const event of mapped) {
-    const key = event.title.trim().toLowerCase()
+    const key = titleKey(event.title)
     if (!seen.has(key)) {
       seen.set(key, event)
       counts.set(key, 1)
@@ -122,7 +129,7 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
   }
 
   const deduped = Array.from(seen.values()).map((event) => {
-    const key = event.title.trim().toLowerCase()
+    const key = titleKey(event.title)
     const count = counts.get(key) ?? 1
     const lastDate = lastDates.get(key)
     return {

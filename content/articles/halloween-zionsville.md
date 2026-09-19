@@ -117,7 +117,7 @@ Families can come in costume, enjoy brunch in the Gym and then head outside for 
 
 The church asks participants not to wear scary masks or bring costume weapons.
 
-See the [ZPC Trunk or Treat event page](https://www.zpc.org/event/24406806-2026-10-25-trunk-or-treat-2026/).
+See the [ZPC Trunk or Treat event page](https://www.zpc.org/event/24474648-2026-10-25-trunk-or-treat-2026/).
 
 [↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 

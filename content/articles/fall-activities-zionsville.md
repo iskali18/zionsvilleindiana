@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-09-17"
+lastUpdated: "2026-09-18"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -67,6 +67,8 @@ See the [Fright Nights event guide](/events/fright-nights) for tickets, age reco
 
 Zionsville Parks & Recreation lights a trail of luminaries around Elm Street Green for a self-guided Halloween walk. Families can search for mischievous skeletons hidden along the route and explore the glowing Pumpkin Pathway after dark. The free, drop-in event offers a not-too-spooky way to celebrate Halloween outdoors.
 
+See the [Zionsville Parks program page](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147) for details.
+
 [↑ Back to activities](#at-a-glance)
 
 ## Celebrate Fall at Pumpkinfest
@@ -98,7 +100,7 @@ Children can take a hayride to the church’s pumpkin patch, and pumpkin decorat
 
 St. Alphonsus Liguori Catholic Church holds its annual Oktoberfest in Parish Hall and the Biergarten. The evening is open to the public for adults 21 and older, with German food, live polka from Polkamotion, a stein-holding contest and a raffle drawing. There is no cover charge.
 
-Pumpkinfest runs at the same location earlier in the day, so the two can be combined into one visit.
+Pumpkinfest, the all-ages afternoon at the same church, runs from noon to 4:00 p.m.
 
 See the [Oktoberfest event guide](/events/oktoberfest) for the menu and schedule.
 
