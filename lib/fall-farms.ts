@@ -131,7 +131,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Spencer Farm',
     anchor: 'spencer-farm',
     city: 'Noblesville',
-    highlights: 'Dig-your-own mums, leashed pets welcome; winery with a tasting room in an 1883 farmhouse',
+    highlights: 'Dig-your-own mums, weekend hayrides; winery in an 1883 farmhouse',
     cost: 'Free entry & parking; 2026 pumpkin price not yet posted',
     features: ['Pumpkin Picking', 'Free / No General Admission', 'Hayride / Wagon Ride'],
     schedules: [
@@ -196,7 +196,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Piney Acres Farm',
     anchor: 'piney-acres-farm',
     city: 'Fortville',
-    highlights: 'Train, 150-ft slide (42 in. min height); sensory-friendly Ausome Fall Fest Sept. 12',
+    highlights: 'Train, corn mazes, 150-ft tube slide (42 in. min height)',
     cost: 'Adults $10\u2013$18; kids 3\u201313 $20; tots $5; pumpkins extra',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
@@ -314,9 +314,9 @@ export const DESTINATIONS: Destination[] = [
     cost: 'Free entry; pay for what you pick',
     features: ['Pumpkin Picking', 'Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
     schedules: [
-      { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Sat. 10 AM\u20136 PM; Sun. 1\u20135 PM', status: 'confirmed', planner: true },
-      { label: 'U-pick apples', appliesTo: 'Apple Picking', status: 'not_posted', planner: false, note: 'Farm said in September 2026 that U-pick apple dates have not been decided.' },
-      { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'Farm said in September 2026 that U-pick pumpkin dates have not been decided; pumpkins are close but not ready.' },
+      { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Sat. 10 AM\u20136 PM; Sun. noon\u20136 PM', status: 'confirmed', planner: true },
+      { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-09-20', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Farm said on Facebook on Sept. 20, 2026 that U-pick Jonagold apples were available. No end date given.' },
+      { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'Farm said on Facebook on Sept. 20, 2026 that pumpkins were still ripening and would open for picking soon; no date given.' },
       { label: 'Horse-drawn wagon rides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends from September; times not posted. Tractor-drawn rides on weekdays by advance arrangement.' },
     ],
   },
