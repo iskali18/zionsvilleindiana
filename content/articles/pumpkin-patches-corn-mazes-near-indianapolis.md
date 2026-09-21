@@ -50,7 +50,7 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 ## Closest Fall Destinations to Zionsville
 
-Among the fall destinations included here, [Driving Wind Berry Farms](#driving-wind-berry-farms), [Hogan Farms](#hogan-farms-pumpkin-patch-corn-maze) and [Stuckey Farm Orchard & Cider Mill](#stuckey-farm-orchard-cider-mill) have the shortest drives from Zionsville. Driving Wind Berry Farms and Hogan Farms are both about 17 minutes away, while Stuckey Farm is about 20 minutes away.
+Among the fall destinations included here, **[Driving Wind Berry Farms](#driving-wind-berry-farms)**, **[Hogan Farms](#hogan-farms-pumpkin-patch-corn-maze)** and **[Stuckey Farm Orchard & Cider Mill](#stuckey-farm-orchard-cider-mill)** have the shortest drives from Zionsville. Driving Wind Berry Farms and Hogan Farms are both about 17 minutes away, while Stuckey Farm is about 20 minutes away.
 
 ## Map of Fall Farms Near Zionsville and Indianapolis
 
@@ -69,9 +69,9 @@ Use the map to compare the locations of pumpkin patches, apple orchards and fall
 
 ### For Pumpkin Picking
 
-Pumpkin picking is offered at many farms in this guide. Hogan Farms, Anderson Orchard and Spencer Farm do not charge general admission, while larger fall attractions charge admission for activities such as corn mazes, hayrides, animals and play areas.
+Pumpkin picking is offered at many farms in this guide. **Hogan Farms**, **Anderson Orchard** and **Spencer Farm** do not charge general admission, while larger fall attractions charge admission for activities such as corn mazes, hayrides, animals and play areas.
 
-Pumpkins are typically purchased separately. As of September, prices include $10 for a carving pumpkin of any size at Tuttle Orchards, about $5–$12 at Russell Farms and $5 and up at Waterman’s Family Farm.
+Pumpkins are typically purchased separately. As of September, prices include $10 for a carving pumpkin of any size at **Tuttle Orchards**, about $5–$12 at **Russell Farms** and $5 and up at **Waterman’s Family Farm**.
 
 For a local Zionsville option, [Pumpkinfest](/events/pumpkinfest) on October 3 includes pumpkin painting and hayrides to a church pumpkin patch.
 
@@ -90,11 +90,11 @@ For a local Zionsville option, [Pumpkinfest](/events/pumpkinfest) on October 3 i
 
 ### For Corn Mazes, Rides and Play Areas
 
-Ten destinations offer corn mazes, with several adding larger activity areas. Russell Farms has mini golf and rides, Lark Ranch has a mile-long train ride, Piney Acres has a tube slide and jump pad, and Stuckey Farm has Adventure Acres. Use the Corn Maze filter to see all ten.
+Ten destinations offer corn mazes, with several adding larger activity areas. **Russell Farms** has mini golf and rides, **Lark Ranch** has a mile-long train ride, **Piney Acres** has a tube slide and jump pad, and **Stuckey Farm** has Adventure Acres. Use the Corn Maze filter to see all ten.
 
 ### For Apple Picking
 
-Stuckey Farm, Tuttle Orchards, Beasley’s Orchard, Anderson Orchard, Chandler’s Orchard & Country Market and Pleasant View Orchard offer U-pick apples. Several also offer pumpkin picking and other fall activities, while Stuckey, Chandler’s and Pleasant View grow 30 or more apple varieties across their seasons.
+**Stuckey Farm**, **Tuttle Orchards**, **Beasley’s Orchard**, **Anderson Orchard**, **Chandler’s Orchard & Country Market** and **Pleasant View Orchard** offer U-pick apples. Several also offer pumpkin picking and other fall activities, while Stuckey, Chandler’s and Pleasant View grow 30 or more apple varieties across their seasons.
 
 <figure className="my-8">
   <Image
@@ -111,15 +111,15 @@ Stuckey Farm, Tuttle Orchards, Beasley’s Orchard, Anderson Orchard, Chandler�
 
 ### For a Traditional Farm or Orchard Visit
 
-Anderson Orchard, Spencer Farm and Hogan Farms keep more of the visit centered on seasonal crops and traditional farm activities rather than large ride and play areas. Anderson offers U-pick apples and pumpkins, while Spencer and Hogan offer pumpkin picking and hayrides.
+**Anderson Orchard**, **Spencer Farm** and **Hogan Farms** keep more of the visit centered on seasonal crops and traditional farm activities rather than large ride and play areas. Anderson offers U-pick apples and pumpkins, while Spencer and Hogan offer pumpkin picking and hayrides.
 
 ### For Young Children
 
-Russell Farms has two low-wall mazes for easier visibility, while Lark Ranch’s train ride and Highland cows and Stuckey Farm’s weekend pig races offer attractions for younger visitors. Check height limits before visiting: Russell lists a 44-inch minimum on three rides, Piney Acres requires 42 inches for its tube slide, and Conner Prairie’s barrel train has a 48-inch maximum.
+**Russell Farms** has two low-wall mazes for easier visibility, while **Lark Ranch**’s train ride and Highland cows and **Stuckey Farm**’s weekend pig races offer attractions for younger visitors. Check height limits before visiting: Russell lists a 44-inch minimum on three rides, **Piney Acres** requires 42 inches for its tube slide, and **Conner Prairie**’s barrel train has a 48-inch maximum.
 
 ### For Free or Lower-Cost Options
 
-Hogan Farms, Anderson Orchard, Spencer Farm, Tuttle Orchards, Chandler’s Orchard & Country Market and Pleasant View Orchard have no general admission fee, allowing visitors to pay for the activities or purchases they choose. Nehemiah Ranch Fall Harvest Days is free with a suggested donation. Tuttle’s FarmYard is $10, while Hogan prices its corn maze, hayride and Kid Zone separately.
+**Hogan Farms**, **Anderson Orchard**, **Spencer Farm**, **Tuttle Orchards**, **Chandler’s Orchard & Country Market** and **Pleasant View Orchard** have no general admission fee, allowing visitors to pay for the activities or purchases they choose. **Nehemiah Ranch Fall Harvest Days** is free with a suggested donation. Tuttle’s FarmYard is $10, while Hogan prices its corn maze, hayride and Kid Zone separately.
 
 ### For Sensory and Accessibility Considerations
 
