@@ -8,7 +8,7 @@ hubOrder: 10
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
-lastUpdated: "2026-09-17"
+lastUpdated: "2026-09-21"
 itemListName: "Zionsville trick-or-treat and trunk-or-treat events 2026"
 itemList:
   - name: "Trick or Trees"
@@ -117,7 +117,7 @@ Families can come in costume, enjoy brunch in the Gym and then head outside for 
 
 The church asks participants not to wear scary masks or bring costume weapons.
 
-See the [ZPC Trunk or Treat event page](https://www.zpc.org/event/24474648-2026-10-25-trunk-or-treat-2026/).
+See the [ZPC Trunk or Treat event page](https://www.zpc.org/event/24406806-2026-10-25-trunk-or-treat-2026/).
 
 [↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 
@@ -141,7 +141,7 @@ Three more Halloween-season events are not trick-or-treat events.
 
 [Fright Nights](/events/fright-nights) runs October 23–24 at Mulberry Fields Park and Maplelawn Farmstead. [Pumpkins & Hayrides](/events/pumpkins-hayrides) is October 25 at Lions Park. [Nightmare at Elm Street: A Luminary Walk](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147) is October 29 at Elm Street Green Park.
 
-For pumpkin patches, corn mazes and apple orchards, see our guide to [fall farms and orchards near Zionsville and Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
+For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
 ## More Trick-or-Treat Events May Be Announced
 

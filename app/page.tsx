@@ -102,12 +102,12 @@ const quickLinks = [
 
 const featuredGuides = [
   {
-    title: 'Big-4 Rail Trail',
+    title: 'Zionsville Rail Trail',
     description:
       'A paved rail-to-trail path connecting Zionsville to the surrounding area, popular for walking and biking.',
     href: '/articles/big-4-rail-trail',
     image: '/images/articles/zionsville-rail-trail-hero.webp',
-    imageAlt: 'Big-4 Rail Trail in Zionsville, Indiana',
+    imageAlt: 'Zionsville Rail Trail in Zionsville, Indiana',
   },  
   {
     title: 'Downtown Zionsville Map',
@@ -118,12 +118,12 @@ const featuredGuides = [
     imageAlt: 'Map of downtown Zionsville, Indiana',
   },  
   {
-    title: 'Mulberry Fields Park',
+    title: 'Pumpkin Patches & Corn Mazes',
     description:
-      'Splash pad, playgrounds, picnic shelters, and prairie trails in central Zionsville.',
-    href: '/articles/mulberry-fields-park',
-    image: '/images/parks/zionsville-mulberry-fields-park-hero.webp',
-    imageAlt: 'Mulberry Fields Park in Zionsville, Indiana',
+      'Compare 17 farms and orchards near Indianapolis by cost, activities and what\u2019s open when.',
+    href: '/articles/pumpkin-patches-corn-mazes-near-indianapolis',
+    image: '/images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp',
+    imageAlt: 'Pumpkins at a pumpkin patch near Zionsville and Indianapolis',
   },
 ]
 
@@ -408,7 +408,7 @@ export default function HomePage() {
                 <span className="text-2xl transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
               </Link>
               <p className="text-stone-500 mt-1">
-                Parks, trails, and downtown
+                Trails, downtown and fall farms
               </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -456,7 +456,7 @@ export default function HomePage() {
                 >
                   <Image
                     src="/images/articles/fall-activities-zionsville.webp"
-                    alt="Vibrant red and orange autumn foliage lining the paved Big-4 Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
+                    alt="Vibrant red and orange autumn foliage lining the paved Zionsville Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
                     fill
                     sizes="(min-width: 1024px) 536px, 100vw"
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
@@ -464,7 +464,7 @@ export default function HomePage() {
                   />
                 </Link>
                 <figcaption className="text-xs text-stone-500 italic mt-2">
-                  Peak fall colors framing the paved Big-4 Rail Trail in Zionsville.{' '}
+                  Peak fall colors framing the paved Zionsville Rail Trail in Zionsville.{' '}
                   <span className="not-italic">© ZionsvilleIndiana.com</span>
                 </figcaption>
               </figure>

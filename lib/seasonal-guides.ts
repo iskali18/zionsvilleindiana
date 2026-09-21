@@ -44,7 +44,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     href: '/articles/pumpkin-patches-corn-mazes-near-indianapolis',
     title: 'Pumpkin Patches & Corn Mazes',
     season: 'fall',
-    blurb: 'Compare 14 farms and orchards by cost, activities and what is open when.',
+    blurb: 'Compare 17 farms and orchards by cost, activities and what is open when.',
     from: '2026-09-01',
     to: '2026-11-02',
     priority: 30,

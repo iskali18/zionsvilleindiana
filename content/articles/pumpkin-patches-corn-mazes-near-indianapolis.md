@@ -1,7 +1,7 @@
 ---
-title: "Pumpkin Patches, Corn Mazes & Orchards Near Zionsville and Indianapolis"
-metaTitle: "Pumpkin Patches, Corn Mazes & Orchards Near Indianapolis 2026"
-metaDescription: "Compare all 17 pumpkin patches, corn mazes and apple orchards near Indianapolis. Filter by free entry, hayrides, animals, play areas and accessibility."
+title: "17 Pumpkin Patches, Corn Mazes & Orchards Near Indianapolis and Zionsville"
+metaTitle: "17 Pumpkin Patches, Corn Mazes & Orchards Near Indianapolis 2026"
+metaDescription: "Map and compare 17 pumpkin patches, corn mazes and apple orchards near Indianapolis. Filter by free entry, hayrides, animals, play areas and accessibility."
 description: "A comparison of pumpkin patches, apple orchards and fall destinations near Zionsville and Indianapolis for the 2026 season, covering admission, pumpkin pricing, activities, height requirements and published sensory or accessibility information."
 category: "discovery"
 hubOrder: 9

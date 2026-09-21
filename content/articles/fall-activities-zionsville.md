@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-09-18"
+lastUpdated: "2026-09-21"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -37,7 +37,7 @@ faqs:
 
 Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits, and traditional fall activities throughout September, October, and November.
 
-This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For pumpkin patches, apple orchards and corn mazes, see our guide to [fall farms and orchards near Zionsville and Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
+This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
 <!-- FALL_ACTIVITIES_TABLE -->
 
