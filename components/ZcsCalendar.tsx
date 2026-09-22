@@ -224,12 +224,17 @@ export default function ZcsCalendar() {
     const now = new Date()
     const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')}`
 
-    return zcsEvents.filter((event) => {
-      const eventEnd = event.endDate || event.startDate
-      if (eventEnd < today) return false
-      if (event.isDistrictwide) return true
-      return event.audiences.some((a) => activeAudiences.has(a))
-    })
+    return zcsEvents
+      .filter((event) => {
+        const eventEnd = event.endDate || event.startDate
+        if (eventEnd < today) return false
+        if (event.isDistrictwide) return true
+        return event.audiences.some((a) => activeAudiences.has(a))
+      })
+      // Chronological by start date, so display order never depends on the
+      // order entries were typed into the data file. Array.sort is stable,
+      // so events sharing a date keep their existing relative order.
+      .sort((a, b) => a.startDate.localeCompare(b.startDate))
   }, [activeAudiences])
 
   const monthGroups = useMemo(() => {
