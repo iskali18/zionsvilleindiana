@@ -217,7 +217,11 @@ export default async function EventPage({ params }: Props) {
     notFound()
   }
 
-  const { meta, contentHtml } = data
+  // Roll an occurrences-list event forward to its next date before anything
+  // renders. Without this the page sees the season's first date, so the
+  // in-season banner shows on every day of the range, not just event days.
+  const { meta: rawMeta, contentHtml } = data
+  const meta = resolveOccurrenceDates(rawMeta)
 
   return (
     <>
