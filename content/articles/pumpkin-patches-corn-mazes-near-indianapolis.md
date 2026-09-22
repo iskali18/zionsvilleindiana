@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp
 hero_position: "center 20%"
-lastUpdated: "2026-09-21"
+lastUpdated: "2026-09-22"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -39,7 +39,7 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 21, 2026.**
+**Updated September 22, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -193,7 +193,7 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
 - **Drive from Zionsville:** ~30 min (16 miles NE)
 - **Highlights:** Dig-your-own mums, weekend hayrides; winery in an 1883 farmhouse
 
-**Spencer Farm in Noblesville** is a year-round working farm with a U-pick pumpkin patch, dig-your-own mums and seasonal U-pick crops. The **pumpkin patch opens September 19**, with weekend hayrides taking visitors to the patch. Mums are available in several colors during September and October while supplies last, and sunflowers are expected in late September or early October.
+**Spencer Farm in Noblesville** is a year-round working farm with a U-pick pumpkin patch, dig-your-own mums and seasonal U-pick crops. The **pumpkin patch opened September 19**, with weekend hayrides taking visitors to the patch. Mums are available in several colors during September and October while supplies last, and sunflowers are expected in late September or early October.
 
 **Spencer Farm Winery**, a sister company on the same property, has a tasting room in a restored **1883 farmhouse** and keeps separate hours from the farm.
 
@@ -280,7 +280,7 @@ There is **no admission charge** for visitors who only want to buy already-picke
 - **Drive from Zionsville:** ~45 min (27 miles SE)
 - **Highlights:** Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table dining
 
-**Tuttle Orchards in Greenfield** offers U-pick apples, pumpkins and flowers. The 2026 apple season begins **August 28**, the 20-acre pumpkin patch opens **September 18**, and the U-cut flower garden runs from August 28 until frost.
+**Tuttle Orchards in Greenfield** offers U-pick apples, pumpkins and flowers. The 2026 apple season began **August 28**, the 20-acre pumpkin patch opened **September 18**, and the U-cut flower garden runs from August 28 until frost.
 
 The separately ticketed **FarmYard** includes more than 30 activities, including a three-acre corn maze, wagon rides, corn crib, history trail, barnyard and toddler play areas and yard games.
 
@@ -331,9 +331,9 @@ The separately ticketed **FarmYard** includes more than 30 activities, including
 
 - **Location:** [1115 E. 1000 N., Fortville, IN 46040](https://maps.app.goo.gl/1zjnsYnwMbpVbSYu9) · Hancock County
 - **Drive from Zionsville:** ~50 min (36 miles E)
-- **Highlights:** Train, corn mazes, 150-ft tube slide (42 in. min height)
+- **Highlights:** Train, 1-acre kids’ corn maze, 150-ft tube slide (42 in. min height)
 
-**Piney Acres Farm in Fortville** has corn mazes, hayrides, barnyard animals, a train, jump pad, **150-foot tube slide**, gem mining, fossil digging, pig races and play areas. The tube slide has a **42-inch minimum height**. Special events include a **Fall Decorating Wreath Workshop** on September 22 and outdoor movie nights featuring *Halloweentown* on October 9 and *It’s the Great Pumpkin, Charlie Brown* and *Hocus Pocus* on October 23.
+**Piney Acres Farm in Fortville** has hayrides, barnyard animals, a train, jump pad, **150-foot tube slide**, gem mining, fossil digging, pig races and play areas. Due to flooding, the farm’s large corn maze will not open in 2026, but the 1-acre kids’ corn maze is open. The tube slide has a **42-inch minimum height**. Special events include a **Fall Decorating Wreath Workshop** on September 22 and outdoor movie nights featuring *Halloweentown* on October 9 and *It’s the Great Pumpkin, Charlie Brown* and *Hocus Pocus* on October 23.
 
 The farm’s pumpkin patch is **off-site for 2026** because its fields are rotated yearly. Staff harvest the pumpkins and bring them to the farm, so visitors choose from the available selection rather than picking pumpkins directly from the field.
 

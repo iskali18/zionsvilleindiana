@@ -196,7 +196,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Piney Acres Farm',
     anchor: 'piney-acres-farm',
     city: 'Fortville',
-    highlights: 'Train, corn mazes, 150-ft tube slide (42 in. min height)',
+    highlights: 'Train, 1-acre kids\u2019 corn maze, 150-ft tube slide (42 in. min height)',
     cost: 'Adults $10\u2013$18; kids 3\u201313 $20; tots $5; pumpkins extra',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [

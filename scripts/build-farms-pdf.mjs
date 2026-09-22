@@ -20,7 +20,9 @@ const src = fs.readFileSync(path.join(ROOT, 'lib/fall-farms.ts'), 'utf8')
 const OUT = path.join(ROOT, 'scripts/comparison.html')
 
 /** The lib stores non-ASCII as \uXXXX escapes; decode them all. */
-const TODAY_ISO = new Date().toISOString().slice(0, 10)
+// Indiana date, not UTC — toISOString() is already tomorrow after 8 PM Eastern,
+// which would drop an event from the PDF on its own evening.
+const TODAY_ISO = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Indiana/Indianapolis' })
 
 const un = (x) => x.replace(/\\u([0-9a-fA-F]{4})/g, (_, c) => String.fromCharCode(parseInt(c, 16)))
 
@@ -175,6 +177,18 @@ for (const m of body.matchAll(/    name: '(.+?)',([\s\S]*?)(?=\n  \},)/g)) {
     // A feature-only schedule is already represented by its grayed icon label,
     // so repeating it in the date column just makes the row longer.
     if (/appliesTo:/.test(t) && /planner: false/.test(t)) continue
+    // Anything already over drops off the printed guide. The data file keeps
+    // it as the season's record, so nothing needs deleting for next year.
+    // An open-ended schedule (a start with no end) is never treated as over.
+    {
+      const endM = /end: '(\d{4}-\d{2}-\d{2})'/.exec(t)
+      const startM = /start: '(\d{4}-\d{2}-\d{2})'/.exec(t)
+      const listed = [...t.matchAll(/'(\d{4}-\d{2}-\d{2})'/g)]
+        .map((x) => x[1])
+        .filter((d) => d !== endM?.[1] && d !== startM?.[1])
+      const last = endM ? endM[1] : startM ? null : listed.sort().at(-1) ?? null
+      if (last && last < TODAY_ISO) continue
+    }
     const g = (k) => {
       const r = new RegExp(`${k}: '(.*?)'`).exec(t)
       return r ? un(r[1]) : null
