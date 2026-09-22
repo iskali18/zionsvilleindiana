@@ -38,10 +38,10 @@ faqs:
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-64 mb-4">
   <a href="/images/events/cars-and-coffee-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/events/cars-and-coffee-flyer.webp" alt="Rear view of a red Ferrari F40 with an Indiana license plate surrounded by spectators taking photos outside Graham Rahal Performance in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/events/cars-and-coffee-flyer.webp" alt="Rear view of a red Ferrari F40 with an Indiana license plate surrounded by spectators taking photos outside a Graham Rahal Performance location." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Promotional flyer for GR Brands Cars & Coffee at Graham Rahal Performance, featuring a featured red Ferrari F40 on display outside the facility.
+    Promotional flyer for GR Brands Cars & Coffee at Graham Rahal Performance, featuring a red Ferrari F40 on display.
   </figcaption>
 </figure>
 
