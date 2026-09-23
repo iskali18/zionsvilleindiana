@@ -381,7 +381,14 @@ const rows = dests
   })
   .join('')
 
-const today = new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+// Indiana date, matching TODAY_ISO above — without the timeZone this reads a
+// day ahead after 8 PM Eastern, when UTC has already rolled over.
+const today = new Date().toLocaleDateString('en-US', {
+  month: 'long',
+  day: 'numeric',
+  year: 'numeric',
+  timeZone: 'America/Indiana/Indianapolis',
+})
 
 fs.writeFileSync(
   OUT,

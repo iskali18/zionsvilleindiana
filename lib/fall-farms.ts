@@ -9,8 +9,8 @@
 
 export const FILTERS = [
   // Ordered by how many destinations offer the feature, most common first.
-  'Hayride / Wagon Ride',
   'Pumpkin Picking',
+  'Hayride / Wagon Ride',
   'Corn Maze',
   'Rides / Large Play Area',
   'Farm Animals',
@@ -116,10 +116,10 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'stuckey-farm-orchard-cider-mill',
     city: 'Sheridan',
     highlights: 'Adventure Acres with a 60-ft tube slide; cider mill and café; weekend pig races',
-    cost: 'Sat.\u2013Sun. $16.25 online / $18.95 gate; Thu.\u2013Fri. $12.50 / $14.75',
+    cost: 'Sat\u2013Sun $16.25 online / $18.95 gate; Thu\u2013Fri $12.50 / $14.75',
     features: ['Pumpkin Picking', 'Apple Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
-      { label: 'Fall season', start: '2026-08-20', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], hours: 'Thu.\u2013Sat. 10 AM\u20137 PM; Sun. 1\u20137 PM', status: 'confirmed', planner: true },
+      { label: 'Fall season', start: '2026-08-20', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], hours: 'Thu\u2013Sat 10 AM\u20137 PM; Sun 1\u20137 PM', status: 'confirmed', planner: true },
       { label: 'Sunflower Festival', dates: ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-12', '2026-09-13'], status: 'confirmed', planner: true },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', days: ['thu', 'fri', 'sat', 'sun'], end: '2026-10-25', status: 'not_posted', planner: true, note: 'Farm said on Facebook in mid-September 2026 that the patch opens once the pumpkins turn orange; no date given.' },
       { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-08-20', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
@@ -135,7 +135,7 @@ export const DESTINATIONS: Destination[] = [
     cost: 'Free entry & parking; 2026 pumpkin price not yet posted',
     features: ['Pumpkin Picking', 'Free / No General Admission', 'Hayride / Wagon Ride'],
     schedules: [
-      { label: 'Farm and market', start: '2026-09-01', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Tue.\u2013Sat. 9 AM\u20136 PM; Sun. noon\u20136 PM', status: 'confirmed', planner: true, note: 'Year-round working farm; no separate fall hours. Closed Mondays.' },
+      { label: 'Farm and market', start: '2026-09-01', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Tue\u2013Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true, note: 'Year-round working farm; no separate fall hours. Closed Mondays.' },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: true, note: 'Opens Sept. 19; open during normal farm hours after that.' },
       { label: 'Sunflower field', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'not_posted', planner: true, note: 'Expected late September or early October; no date announced. Farm closed Mondays.' },
       { label: 'Hayrides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends only, running to the pumpkin patch. No start or end date posted for 2026.' },
@@ -167,7 +167,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Tuttle Orchards',
     anchor: 'tuttle-orchards',
     city: 'Greenfield',
-    highlights: 'Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table dining',
+    highlights: 'Free entry; wheelchair-accessible hayride, farm-to-table dining',
     cost: 'Free entry; FarmYard $10 for age 2+; carving pumpkins $10, pie $5, mini $2',
     features: ['Free / No General Admission', 'Apple Picking', 'Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
@@ -201,7 +201,7 @@ export const DESTINATIONS: Destination[] = [
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
       { label: 'Ausome Fall Fest', dates: ['2026-09-12'], hours: 'noon\u20133 PM', status: 'confirmed', planner: false, note: 'Autism Society of Indiana event, not general admission. The farm opens to the public Sept. 19.' },
-      { label: 'Fall season', start: '2026-09-19', end: '2026-10-25', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon.\u2013Fri. 1\u20137 PM; Sat. 10 AM\u20137 PM; Sun. noon\u20137 PM', status: 'confirmed', planner: true, note: 'Open daily.' },
+      { label: 'Fall season', start: '2026-09-19', end: '2026-10-25', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon\u2013Fri 1\u20137 PM; Sat 10 AM\u20137 PM; Sun noon\u20137 PM', status: 'confirmed', planner: true, note: 'Open daily.' },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-19', end: '2026-10-25', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
     ],
   },
@@ -215,7 +215,7 @@ export const DESTINATIONS: Destination[] = [
     schedules: [
       { label: 'September opening', dates: ['2026-09-26', '2026-09-27'], hours: '10 AM\u20136 PM', status: 'confirmed', planner: true },
       { label: 'September weekdays', dates: ['2026-09-29', '2026-09-30'], hours: '2\u20136 PM', status: 'confirmed', planner: true },
-      { label: 'October hours', start: '2026-10-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Thu. 2\u20136 PM; Fri.\u2013Sun. 10 AM\u20136 PM', status: 'confirmed', planner: true, note: 'Closed Mondays. Hours published by the farm for October. The farm has not said whether the season continues past October.' },
+      { label: 'October hours', start: '2026-10-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue\u2013Thu 2\u20136 PM; Fri\u2013Sun 10 AM\u20136 PM', status: 'confirmed', planner: true, note: 'Closed Mondays. Hours published by the farm for October. The farm has not said whether the season continues past October.' },
       { label: 'Hayrides', appliesTo: 'Hayride / Wagon Ride', start: '2026-10-01', end: '2026-10-31', days: ['fri', 'sat', 'sun'], hours: '11 AM\u20135:30 PM', status: 'confirmed', planner: false, note: 'Hours published by the farm for October. The farm has not said whether the season continues past October.' },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Hours published by the farm for October. The farm has not said whether the season continues past October.' },
     ],
@@ -240,7 +240,7 @@ export const DESTINATIONS: Destination[] = [
     cost: 'Weekdays $12; weekends $14\u2013$16 by date; Heartland weekends $5 parking',
     features: ['Apple Picking', 'Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
-      { label: 'Fall season', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon.\u2013Fri. 1\u20136 PM; Sat. 9 AM\u20136 PM; Sun. noon\u20136 PM', status: 'confirmed', planner: true, note: 'Attractions open daily; admission sales end at 5 PM' },
+      { label: 'Fall season', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon\u2013Fri 1\u20136 PM; Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true, note: 'Attractions open daily; admission sales end at 5 PM' },
       { label: 'Heartland Apple Festival', dates: ['2026-10-03', '2026-10-04', '2026-10-10', '2026-10-11'], hours: '9 AM\u20136 PM', status: 'confirmed', planner: true },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
       { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
@@ -250,12 +250,12 @@ export const DESTINATIONS: Destination[] = [
     name: 'Kelsay Farms',
     anchor: 'kelsay-farms',
     city: 'Whiteland',
-    highlights: '7-acre corn maze, flashlight maze nights, Moo Choo train, farm animals',
+    highlights: '7-acre corn maze with flashlights after dark, Moo Choo train, farm animals',
     cost: '$14 for age 2+; $12/person for groups of 20+; under 2 free',
     features: ['Pumpkin Picking', 'Corn Maze', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
-      { label: 'Fall season', start: '2026-09-25', end: '2026-10-25', days: ['fri', 'sat', 'sun'], hours: 'Fri. 6\u20139 PM; Sat. noon\u20139 PM; Sun. noon\u20136 PM', status: 'confirmed', planner: true },
-      { label: 'Fall break weekdays', start: '2026-10-05', end: '2026-10-16', days: ['mon', 'tue', 'wed', 'thu', 'fri'], hours: 'noon\u20136 PM', status: 'confirmed', planner: true },
+      { label: 'Fall season', start: '2026-09-25', end: '2026-10-25', days: ['fri', 'sat', 'sun'], hours: 'Fri 6\u20139 PM; Sat noon\u20139 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true },
+      { label: 'October weekdays', start: '2026-10-05', end: '2026-10-16', days: ['mon', 'tue', 'wed', 'thu', 'fri'], hours: 'noon\u20136 PM', status: 'confirmed', planner: true },
       { label: 'Trick or Treat', dates: ['2026-10-24'], hours: '4\u20136 PM', status: 'confirmed', planner: true },
       { label: 'Pumpkin sales', appliesTo: 'Pumpkin Picking', start: '2026-09-25', end: '2026-10-25', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Pumpkins for sale; no U-pick patch.' },
     ],
@@ -285,9 +285,9 @@ export const DESTINATIONS: Destination[] = [
     schedules: [
       { label: 'Opening weekend', dates: ['2026-09-26', '2026-09-27'], hours: '11 AM\u20135 PM', status: 'confirmed', planner: true },
       { label: 'October weekdays', dates: ['2026-10-07', '2026-10-08', '2026-10-09', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-21', '2026-10-22', '2026-10-23'], hours: '10 AM\u20137 PM', status: 'confirmed', planner: true, note: 'Closed most Mondays and Tuesdays; open Oct. 12\u201313.' },
-      { label: 'October Saturdays', dates: ['2026-10-03', '2026-10-10', '2026-10-17', '2026-10-24', '2026-10-31'], hours: '10 AM\u20138 PM', status: 'confirmed', planner: true },
+      { label: 'October Saturdays', dates: ['2026-10-03', '2026-10-10', '2026-10-17', '2026-10-24'], hours: '10 AM\u20138 PM', status: 'confirmed', planner: true },
       { label: 'October Sundays', dates: ['2026-10-04', '2026-10-11', '2026-10-18', '2026-10-25'], hours: '10 AM\u20137 PM', status: 'confirmed', planner: true },
-      { label: 'Closing week', dates: ['2026-10-28', '2026-10-29', '2026-10-30', '2026-11-01'], hours: '11 AM\u20135 PM', status: 'confirmed', planner: true },
+      { label: 'Closing week', dates: ['2026-10-28', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-01'], hours: '11 AM\u20135 PM', status: 'confirmed', planner: true },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
     ],
   },
@@ -314,7 +314,7 @@ export const DESTINATIONS: Destination[] = [
     cost: 'Free entry; pay for what you pick',
     features: ['Pumpkin Picking', 'Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
     schedules: [
-      { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue.\u2013Sat. 10 AM\u20136 PM; Sun. noon\u20136 PM', status: 'confirmed', planner: true },
+      { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue\u2013Sat 10 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true },
       { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-09-20', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Farm said on Facebook on Sept. 20, 2026 that U-pick Jonagold apples were available. No end date given.' },
       { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'Farm said on Facebook on Sept. 20, 2026 that pumpkins were still ripening and would open for picking soon; no date given.' },
       { label: 'Horse-drawn wagon rides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends from September; times not posted. Tractor-drawn rides on weekdays by advance arrangement.' },

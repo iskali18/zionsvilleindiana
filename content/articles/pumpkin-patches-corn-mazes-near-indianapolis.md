@@ -32,7 +32,7 @@ faqs:
   - q: "Which fall farms are best for toddlers and young children?"
     a: "Russell Farms has two low-wall scavenger-hunt mazes for easier visibility for children, alongside its two full-size mazes. Lark Ranch runs a mile-long train ride and keeps Highland cows, Stuckey Farm holds weekend pig races, and Waterman’s Family Farm has a pumpkin-eating dinosaur. Nehemiah Ranch Fall Harvest Days is free and includes a child’s pumpkin. Height minimums apply at Russell Farms, which lists 44 inches on three rides, and Piney Acres Farm, which requires 42 inches for its tube slide."
   - q: "Are there evening or after-dark fall events?"
-    a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 3, 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m."
+    a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 3, 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m. Kelsay Farms is open Fridays from 6 to 9 p.m. and Saturdays until 9 p.m., with flashlights allowed in the corn maze after dark."
 ---
 
 Fall farms near Zionsville and Indianapolis offer everything from apple and pumpkin picking to corn mazes, hayrides and full-scale fall attractions. Compare 2026 admission prices, activities, extra costs and event dates for destinations across Central Indiana. For festivals, walks and races in town rather than on a farm, see [fall activities in Zionsville](/articles/fall-activities-zionsville).
@@ -143,11 +143,15 @@ Dull’s Tree Farm in Thorntown opens its 2026 fall season on **September 26** a
 
 Special events include **Antique Tractor and Touch a Tractor Day** on September 26 from 10 a.m.–3 p.m., **Worship Night** on October 16 from 6–7:30 p.m. and **fireworks** on October 24 at 7:30 p.m. Parking fees apply beginning at 6:15 p.m. on fireworks night. For accessibility, Indy with Kids reports no stairs, mostly flat terrain and ramps at building entrances.
 
-- **Season:** Sept. 26–Nov. 1
-- **Hours:** Saturday 10 a.m.–7 p.m.; Sunday 1–7 p.m.; additional dates Oct. 12, 15–16, 22–23 and 29–30 from 1–7 p.m.
+- **Hours**
+  - Open on weekends, Sept. 26–Nov. 1
+    - Sat 10 AM–7 PM · Sun 1–7 PM
+  - Additional dates
+    - Mon · Oct. 12 · 1–7 PM
+    - Thu & Fri · Oct. 15–16, 22–23 & 29–30 · 1–7 PM
 - **Admission:** $21.95 plus tax; ages 2 and under free
-- **Pumpkins:** Extra; as of early September, 2026 pricing had not been posted
-- **Extras:** Additional Activity Passes $4.75; pony rides and some activities cost extra
+- **Pumpkins:** Sold separately; as of September 2026, pricing had not been posted
+- **Extras:** Additional Activity Passes $4.75; pony rides and select activities have separate fees
 
 [Dull’s Tree Farm website →](https://www.dullstreefarm.com/fall-admission)
 
@@ -176,8 +180,9 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
   </figcaption>
 </figure>
 
-- **Season:** Through Oct. 25 · Thu.–Sat. 10 AM–7 PM; Sun. 1–7 PM
-- **Admission:** Thu.–Fri. $12.50 online / $14.75 gate · Sat.–Sun. $16.25 online / $18.95 gate · ages 2 and under free
+- **Season:** Through Oct. 25 · Closed Mon–Wed
+- **Hours:** Thu–Sat 10 AM–7 PM · Sun 1–7 PM
+- **Admission:** Thu–Fri $12.50 online / $14.75 gate · Sat–Sun $16.25 online / $18.95 gate · ages 2 and under free
 - **Season pass:** $48 for the fall season
 - **Pumpkin patch:** As of mid-September, an opening date had not been set; the farm said it would open once the pumpkins turned orange
 - **Weekends only:** Corn maze, Stuckey Express train, pig races, donut bakery, Snack Barn and apple cannons ($5 for eight shots)
@@ -197,7 +202,7 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
 
 **Spencer Farm Winery**, a sister company on the same property, has a tasting room in a restored **1883 farmhouse** and keeps separate hours from the farm.
 
-- **Hours:** Tue.–Sat. 9 AM–6 PM; Sun. noon–6 PM; closed Mondays
+- **Hours:** Tue–Sat 9 AM–6 PM · Sun noon–6 PM · Closed Mon
 - **Admission:** No entry or parking fee; pumpkins, mums and farm-market purchases sold separately
 - **Pumpkins:** As of early September, 2026 pricing had not been posted
 - **Pets:** Leashed pets welcome on the grounds, but not in edible crop areas or buildings; service dogs permitted throughout
@@ -229,7 +234,8 @@ The museum’s regular daytime historic village and farm areas close at 4 p.m. o
   </figcaption>
 </figure>
 
-- **Season:** Oct. 1–25 · Thu.–Sun. 5–10 PM
+- **Season:** Oct. 1–25 · Closed Mon–Wed
+- **Hours:** Thu–Sun 5–10 PM
 - **Admission:** $26 nonmembers · members free with reservation · Access Pass $10 · parking free
 - **Hayride:** $10 additional for members and nonmembers
 - **Tickets:** Capacity is limited; advance tickets recommended
@@ -264,9 +270,12 @@ There is **no admission charge** for visitors who only want to buy already-picke
 </figure>
 
 - **Season:** Sept. 26–Oct. 31
-- **Hours:** Weekends 10 AM–6 PM · Oct. 14–16 and 21–23, 1–5 PM
+- **Hours**
+  - Weekends 10 AM–6 PM
+  - Additional dates
+    - Wed–Fri · Oct. 14–16 & 21–23 · 1–5 PM
 - **Admission:** $17 · ages 2 and under free · veterans, active military and ages 70+ $10
-- **Groups:** 15+ people $15 each, Wed.–Sun.
+- **Groups:** 15+ people $15 each, Wed–Sun
 - **Pumpkins:** Extra · average carving pumpkin about $5–$12
 - **Activities:** Unlimited with admission; Paint a Pumpkin costs extra
 
@@ -278,14 +287,16 @@ There is **no admission charge** for visitors who only want to buy already-picke
 
 - **Location:** [5717 N. 300 W., Greenfield, IN 46140](https://maps.app.goo.gl/VqDa2iYoY5zURWJ89) · Hancock County
 - **Drive from Zionsville:** ~45 min (27 miles SE)
-- **Highlights:** Free entry, closed Sundays; wheelchair-accessible hayride, farm-to-table dining
+- **Highlights:** Free entry; wheelchair-accessible hayride, farm-to-table dining
 
 **Tuttle Orchards in Greenfield** offers U-pick apples, pumpkins and flowers. The 2026 apple season began **August 28**, the 20-acre pumpkin patch opened **September 18**, and the U-cut flower garden runs from August 28 until frost.
 
 The separately ticketed **FarmYard** includes more than 30 activities, including a three-acre corn maze, wagon rides, corn crib, history trail, barnyard and toddler play areas and yard games.
 
-- **Season:** Fall U-pick through Oct. 31 · closed Sundays
-- **Hours:** Mon.–Sat. 9 AM–6 PM through Sept. 30; 9 AM–7 PM in October
+- **Season:** Fall U-pick through Oct. 31 · Closed Sun
+- **Hours**
+  - Mon–Sat, through Sept. 30 · 9 AM–6 PM
+  - Mon–Sat, Oct. 1–31 · 9 AM–7 PM
 - **Admission:** General farm admission and parking free · FarmYard $10 ages 2+ · ages 1 and under free · FarmYard season pass $30
 - **Pumpkins:** No field admission · carving pumpkins $10 any size · decorative squash $12 · pie pumpkins $5 · mini pumpkins $2
 - **Accessibility:** Wheelchair-accessible hayride with ramp · special-needs group programs can be adapted · grounds generally flat, but the dirt pumpkin patch can be difficult to navigate
@@ -316,7 +327,12 @@ The separately ticketed **FarmYard** includes more than 30 activities, including
   </figcaption>
 </figure>
 
-- **Season:** Sept. 19–Nov. 1 · Sat. 11 AM–8 PM; Sun. 11 AM–6 PM; October Fridays noon–8 PM · also open Monday, Oct. 12
+- **Hours**
+  - Open on weekends, Sept. 19–Nov. 1
+    - Sat 11 AM–8 PM · Sun 11 AM–6 PM
+  - Additional dates
+    - Fri · Oct. 9, 16, 23 & 30 · noon–8 PM
+    - Mon · Oct. 12 · 11 AM–6 PM
 - **Admission:** $17 or $22 depending on date · ages 3+ require a ticket · season pass $40 and valid at all three Lark Ranch locations
 - **Discounts:** Groups of 12+ save $2 per person · active military free · veterans half price with verification
 - **Activities:** Most rides and attractions included · U-pick pumpkins, gem mining, pony rides and apple cannon cost extra · rides and food stands open one hour after the gates
@@ -337,7 +353,8 @@ The separately ticketed **FarmYard** includes more than 30 activities, including
 
 The farm’s pumpkin patch is **off-site for 2026** because its fields are rotated yearly. Staff harvest the pumpkins and bring them to the farm, so visitors choose from the available selection rather than picking pumpkins directly from the field.
 
-- **Season:** Sept. 19–Oct. 25 · Mon.–Fri. 1–7 PM; Sat. 10 AM–7 PM; Sun. noon–7 PM
+- **Season:** Sept. 19–Oct. 25
+- **Hours:** Mon–Fri 1–7 PM · Sat 10 AM–7 PM · Sun noon–7 PM
 - **Admission:** Adults $10 general / $18 All Access · ages 3–13 $20 All Access · walking children under 3 $5 · infants in a carrier or stroller free
 - **Activities:** General admission includes play areas, backyard games and tractor ride · train and slide upgrade $8 · all-day tube slide $6 · select weekdays offer half-price admission with some attractions unavailable
 - **Season passes:** $45 per person · family of five $200 through Oct. 11 / $120 beginning Oct. 12
@@ -355,11 +372,17 @@ The farm’s pumpkin patch is **off-site for 2026** because its fields are rotat
 
 **Hogan Farms in Brownsburg** offers a smaller-scale pumpkin-patch outing with a corn maze, hayrides, **Kid Zone** and pumpkins picked from the patch. The Kid Zone includes a straw pyramid, pumpkin chess and pumpkin tic-tac-toe. A **Farmers Market** is also held on select weekends in October with local vendors and food trucks.
 
-- **Season:** Opens Sept. 26 · Sept. 26–27, 10 AM–6 PM; Sept. 29–30, 2–6 PM · October Tue.–Thu. 2–6 PM; Fri.–Sun. 10 AM–6 PM; closed Mondays · no closing date posted
+- **Season:** Opens Sept. 26 · no closing date posted · Closed Mon
+- **Hours**
+  - Sat & Sun · Sept. 26–27 · 10 AM–6 PM
+  - Tue & Wed · Sept. 29–30 · 2–6 PM
+  - Open Tue–Sun, Oct. 1–31
+    - Tue–Thu 2–6 PM
+    - Fri–Sun 10 AM–6 PM
 - **Admission:** No general admission · corn maze $6 · hayride $5 · Kid Zone $3 · children 36 in. and under free for all three
 - **Pumpkins:** $2–$20 depending on size · mini, specialty, white and pie pumpkins also available
-- **Kid Zone:** Tue.–Sun. in October
-- **Hayrides:** Fri.–Sun. in October, 11 AM–5:30 PM · approximately 15–20 minutes
+- **Kid Zone:** Tue–Sun in October
+- **Hayrides:** Fri–Sun in October, 11 AM–5:30 PM · approximately 15–20 minutes
 - **Pets:** Leashed pets allowed
 
 [Hogan Farms website →](https://brownsburgcornmaze.com/)
@@ -387,8 +410,7 @@ The farm’s pumpkin patch is **off-site for 2026** because its fields are rotat
 
 **Nehemiah Ranch in Avon** is a faith-based nonprofit that holds **Fall Harvest Days** on three Saturday evenings in October. The event includes hayrides, hot dogs, s’mores, hot chocolate, a fire pit, games and a trip to the pumpkin patch where children can choose a pumpkin.
 
-- **Dates:** Oct. 3, 10 and 17
-- **Hours:** 6–9 PM
+- **Hours:** Sat · Oct. 3, 10 & 17 · 6–9 PM
 - **Admission:** Free · $5 per person donation suggested
 - **Pumpkins:** One child’s pumpkin included
 
@@ -406,8 +428,12 @@ The farm’s pumpkin patch is **off-site for 2026** because its fields are rotat
 
 The farm market is housed in a **Civil War-era barn** and sells homegrown produce, baked goods and Beasley’s apple cider. It is open Monday through Saturday 9 a.m.–6 p.m. and Sunday noon–6 p.m., separate from the fall attraction hours.
 
-- **Season:** Sept. 19–Nov. 1 · Mon.–Fri. 1–6 PM; Sat. 9 AM–6 PM; Sun. noon–6 PM · Heartland Sundays open at 9 AM · admission sales end at 5 PM
-- **Admission:** Weekdays $12 · weekends $14–$16 · ages 2 and under free · children under 16 must be accompanied by an adult
+- **Hours**
+  - Open daily, Sept. 19–Nov. 1
+    - Mon–Fri 1–6 PM · Sat 9 AM–6 PM · Sun noon–6 PM
+  - **Heartland Apple Festival**
+    - Sat & Sun · Oct. 3–4 & 10–11 · 9 AM–6 PM
+- **Admission:** Weekdays $12 · weekends $14–$16 · ages 2 and under free · children under 16 must be accompanied by an adult · admission sales end at 5 PM
 - **Activities:** Corn maze, pumpkin-patch hayride, five apple cannon shots, Straw Mountain, Barnyard Bonanza and seasonal marigold field included · U-pick apples and pumpkins extra
 - **Parking:** Free · $5 per vehicle during Heartland Apple Festival weekends
 - **Accessibility:** Listed as ADA accessible by Visit Hendricks County
@@ -433,13 +459,17 @@ The farm market is housed in a **Civil War-era barn** and sells homegrown produc
 
 - **Location:** [6848 N. County Road 250 E., Whiteland, IN 46184](https://maps.app.goo.gl/2tFbEmiEEUaAe6TU6) · Johnson County
 - **Drive from Zionsville:** ~55 min (~35 miles SE)
-- **Highlights:** 7-acre corn maze, flashlight maze nights, Moo Choo train, farm animals
+- **Highlights:** 7-acre corn maze with flashlights after dark, Moo Choo train, farm animals
 
 **Kelsay Farms in Whiteland** is a seventh-generation family farm celebrating its **20th fall season** in 2026. Attractions include a **7-acre corn maze**, calves, goats, sheep and pigs, a jump pad, corn crib, Bale Mountain, play activities and the **Moo Choo cow train**. Kelsay does not offer U-pick pumpkins or hayrides.
 
 Special events include **Howl at the Moon** on October 2, when pets are permitted, and **Trick or Treat through the Corn Maze** on October 24 from 4–6 p.m., with candy and prizes.
 
-- **Season:** Sept. 25–Oct. 25 · Fri. 6–9 PM; Sat. noon–9 PM; Sun. noon–6 PM · also open Oct. 5–16, noon–6 PM
+- **Hours**
+  - Open Fri–Sun, Sept. 25–Oct. 25
+    - Fri 6–9 PM · Sat noon–9 PM · Sun noon–6 PM
+  - Additional dates: Weekdays, Oct. 5–16
+    - Mon–Thu noon–6 PM · Fri noon–9 PM
 - **Admission:** $14 ages 2+ · 23 months and under free · groups of 20+ $12 · season pass $40, including the Holiday Stroll · concessions, merchandise and fall decorations extra
 - **Pumpkins:** Sold separately · no U-pick pumpkin patch
 - **Accessibility:** Kelsay describes the farm as handicap accessible and says it works to accommodate individual needs · outdoor terrain can be uneven and the corn maze difficult to navigate
@@ -457,8 +487,8 @@ Special events include **Howl at the Moon** on October 2, when pets are permitte
 
 **Driving Wind Berry Farms** is an urban farm on the northwest side of Indianapolis with a café, small pumpkin patch, flower fields, picnic area, gift shop and animals including a pony, donkey and chickens. Its 2026 **Pumpkin Palooza** will be held **October 3 and 10**. Past events have included pumpkin picking, wagon rides, cider and cider donuts, mums, farm animals, vendors and bounce houses; as of September, additional 2026 activities had not been announced.
 
-- **Pumpkin Palooza:** Oct. 3 and 10 · 8 AM–3 PM
-- **Café:** Wed.–Sat. 8 AM–3 PM · espresso, smoothies, breakfast, lunch and house-made fruit popsicles
+- **Pumpkin Palooza:** Sat, Oct. 3 & 10 · 8 AM–3 PM
+- **Café:** Wed–Sat 8 AM–3 PM · espresso, smoothies, breakfast, lunch and house-made fruit popsicles
 - **Farm hours:** Separate hours for the rest of the property have not been posted
 - **Pumpkins:** Small pumpkin patch; as of September, 2026 picking and pricing details had not been announced
 
@@ -474,8 +504,16 @@ Special events include **Howl at the Moon** on October 2, when pets are permitte
 
 **Waterman’s Family Farm on the southeast side of Indianapolis** holds its annual **Fall Festival** with a corn maze, hayride to the pumpkin patch, carnival rides, games, petting zoo, live entertainment and its distinctive **pumpkin-eating dinosaur**. Other activities include a corn play pit, straw mountain, hamster wheels, youth zip line and cow milking event.
 
-- **Season:** Sept. 26–Nov. 1 · opening weekend and final week 11 AM–5 PM · otherwise Wed.–Fri. 10 AM–7 PM; Sat. 10 AM–8 PM; Sun. 10 AM–7 PM · also open Oct. 12–13
-- **Admission:** From $12.95 weekdays / $17.95 weekends · ages 2 and under free · advance purchase locks in the price
+- **Season:** Sept. 26–Nov. 1
+- **Hours**
+  - Sat & Sun · Sept. 26–27 · 11 AM–5 PM
+  - Wed–Sun, Oct. 3–25
+    - Wed–Fri 10 AM–7 PM · Sat 10 AM–8 PM · Sun 10 AM–7 PM
+  - Wed–Sun, Oct. 28–Nov. 1 · 11 AM–5 PM
+  - Additional dates
+    - Mon & Tue · Oct. 12–13 · 10 AM–7 PM
+- **Admission:** $17.95 Saturdays and Sundays from Oct. 3 · $12.95 weekdays and Sept. 26–27 · ages 2 and under free
+- **Tickets:** Tickets for the 2026 season were not yet available for purchase as of Sept. 22
 - **Pumpkins & extras:** Pumpkins from $5 · animal feed $5 · apple cannon from $4.95 · gem mining, pony rides and baby animal experience extra
 - **Farm market:** Keeps separate hours from the Fall Festival
 
@@ -526,7 +564,10 @@ The **Apple Festival & Craft Fair** runs **September 26–27**, rain or shine, w
 
 The **country store** sells jams, jellies, take-and-bake pies, cheeses, sauces, fresh produce and locally produced pasture-raised meats. **Apple Annie’s Tasty Café** is open Saturdays and Sundays.
 
-- **Hours:** Tue.–Sat. 10 AM–6 PM; Sun. noon–6 PM; closed Mondays
+- **Hours**
+  - Tue–Sat 10 AM–6 PM
+  - Sun noon–6 PM
+  - Closed Mon
 - **Admission:** No general admission · pay for what you pick
 - **U-pick:** As of Sept. 20, Jonagold apples available · pumpkin patch expected to open soon, with pre-picked pumpkins also sold at the farm store · U-pick flowers also available
 - **Wagon rides:** Percheron horse-drawn wagon rides offered on weekends · tractor-drawn wagon rides available weekdays by advance arrangement
@@ -546,7 +587,7 @@ The **country store** sells jams, jellies, take-and-bake pies, cheeses, sauces, 
 
 The orchard hosts **free Saturday live music** September 26 and October 3, 10 and 17, generally from 2–5 p.m., along with **wine tastings** September 26 and October 17 from noon–6 p.m. **Silly Safaris** presents a live animal show **October 24 at 3 p.m.**, with a special treat for children who attend in costume.
 
-- **Season:** Open daily through November · 9 AM–6 PM
+- **Hours:** Open daily through November · 9 AM–6 PM
 - **Admission:** No admission or parking fee · pay for what you pick or buy
 - **Food & market:** Daily concession stand through October with apple cobbler, cider donuts, cider slushies and hot food · store sells pre-picked apples, preserves, produce and caramel apples
 - **Pets:** Leashed pets welcome in the orchard · not permitted in the store or on pumpkin-patch wagons
