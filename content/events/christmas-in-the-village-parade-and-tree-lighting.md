@@ -1,82 +1,77 @@
 ---
 title: "Zionsville Christmas Parade & Tree Lighting"
 alternateName: ["Zionsville Holiday Parade", "Christmas in the Village Parade & Tree Lighting", "Zionsville Christmas Tree Lighting"]
-description: "Zionsville’s annual Christmas kickoff on the Saturday after Thanksgiving, with the 5:00 PM parade from Eagle Elementary and the town tree lighting at the corner of Pine and Main Streets."
+description: "Zionsville’s annual Christmas parade and town tree lighting, held the Saturday after Thanksgiving. The parade starts at 5:00 PM at Eagle Elementary, and the tree lighting follows at Main and Pine Streets."
 metaTitle: "Zionsville Christmas Parade & Tree Lighting 2026 | Nov. 28"
-metaDescription: "The Zionsville Christmas Parade runs 5:00–6:30 PM on November 28, 2026, with the town tree lighting at Pine and Main immediately after."
+metaDescription: "The Zionsville Christmas Parade runs 5:00–6:30 PM on November 28, 2026, with the town tree lighting at Main and Pine immediately after."
 eventType: annual
 startDate: "2026-11-28"
 endDate: "2026-11-28"
 startDateTime: "2026-11-28T17:00:00-05:00"
 endDateTime: "2026-11-28T18:30:00-05:00"
 location: "Main Street, Zionsville"
-address: "100 W Pine St"
-externalUrl: "https://www.zionsvillechamber.org/christmas-in-the-village/"
+address: "340 S Main St"
+externalUrl: "https://www.zionsvillechamber.org/holiday-parade/"
 image: /images/events/zionsville-christmas-in-the-village-parade.webp
 imageAlt: "Crowds lining Main Street in Zionsville during the Christmas in the Village parade"
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
 tags: [holiday, family, parade, free, outdoor]
-lastUpdated: "2026-08-24"
+lastUpdated: "2026-09-22"
 faqs:
   - q: "When is the Zionsville Christmas Parade?"
-    a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026, from 5:00 to 6:30 PM. The parade begins at 5:00 PM and the town tree is lit immediately afterward. This is the opening event of the Christmas in the Village season, which continues through Christmas Eve."
-  - q: "What time is the Zionsville Christmas parade?"
-    a: "The parade begins at 5:00 PM at Eagle Elementary and ends at Old National Bank on Main Street at approximately 6:00 PM."
+    a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026. The parade begins at 5:00 PM at Eagle Elementary and ends on Main Street at approximately 6:00 PM."
+  - q: "Is the Zionsville Christmas Parade free?"
+    a: "Yes. The parade and tree lighting are both free to attend."
   - q: "Where is the Zionsville Christmas tree lighting?"
-    a: "The Christmas tree is lit on the corner of Pine and Main Streets in downtown Zionsville, immediately following the parade — typically around 6:00 PM."
-  - q: "What time do the streets close for the parade?"
-    a: "Main Street and the parade route close to vehicles at 4:00 PM. Plan to arrive before 4:00 PM if you want to drive into the Village before street closures begin."
-  - q: "Is Christmas in the Village free?"
-    a: "Yes, the parade and tree lighting are free to attend. Photos with Santa, shopping, and dining are available at participating Main Street businesses."
-  - q: "What happens at Christmas in the Village?"
-    a: "The kickoff Saturday includes the parade, tree lighting at Pine and Main, Santa photos, shopping, and dining at participating Main Street businesses. Additional activities are added each year, and confirmed 2026 details will be added as they are announced."
+    a: "The town tree is lit at the corner of Main and Pine Streets in downtown Zionsville, 100 W Pine St, immediately after the parade."
   - q: "Where do I park for the Zionsville Christmas parade?"
-    a: "Streets along the parade route close at 4:00 PM, and the parking lot at the southwest corner of Main and Pine Streets is closed for the tree lighting. Public parking is available at the northwest corner of Main Street and Sycamore Road, at Lions Park, and along surrounding side streets. Plan to arrive before 4:00 PM if you want to drive into the Village before street closures begin."
-  - q: "Who organizes Christmas in the Village?"
-    a: "Christmas in the Village is organized by the Zionsville Chamber of Commerce with support from the Town of Zionsville."
+    a: "Public parking is available at the northwest corner of Main Street and Sycamore Road, at Lions Park, and along surrounding side streets."
+  - q: "Who organizes the Zionsville Christmas Parade?"
+    a: "The parade and tree lighting are organized by the Zionsville Chamber of Commerce with support from the Town of Zionsville."
 ---
 
-Christmas in the Village is Zionsville’s annual holiday kickoff, beginning the Saturday after Thanksgiving with a parade through the Village and the town tree lighting at the corner of Pine and Main Streets. The kickoff evening leads into the Christmas in the Village season, with shopping events, dining, and Santa visits on select dates through December.
+The Zionsville Christmas Parade & Tree Lighting is held the Saturday after Thanksgiving, with a parade through the Village followed by the town tree lighting at Main and Pine Streets. It opens the Christmas in the Village season.
 
-The parade begins at 5:00 PM at Eagle Elementary and travels through the Village to Old National Bank on Main Street, arriving around 6:00 PM. Santa and Mrs. Claus then light the town tree, officially starting the Christmas season in Zionsville.
+<div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-[Visit the Zionsville Chamber of Commerce website →](https://www.zionsvillechamber.org/christmas-in-the-village/)
+## Quick Facts
+
+- **The parade begins at 5:00 PM on Saturday, November 28, 2026.**
+- **Santa and Mrs. Claus light the town tree after the parade.**
+- **The parade and tree lighting are free to attend.**
+
+</div>
 
 ## What’s planned for 2026
 
-The kickoff Saturday includes:
+The evening includes:
 
-- **4:00 PM** — Streets along the parade route close to vehicles
 - **5:00 PM** — Christmas parade begins at Eagle Elementary
-- **~6:00 PM** — Parade ends at Old National Bank on Main Street
-- **Immediately following parade** — Christmas tree lighting at the corner of Pine and Main Streets with Santa and Mrs. Claus
-- **After the tree lighting** — Photos with Santa and Mrs Claus
-
-Additional kickoff-day activities are added each year by Main Street merchants and the Chamber of Commerce. Confirmed 2026 details will be added as they are announced.
+- **~6:00 PM** — Parade ends on Main Street
+- **Immediately after the parade** — Christmas tree lighting at Main and Pine Streets with Santa and Mrs. Claus
+- **After the tree lighting** — Photos with Santa and Mrs. Claus
 
 ## The Christmas in the Village season
 
-The kickoff parade marks the start of Zionsville’s holiday season downtown, which runs through Christmas Eve with shopping events, Santa visits, and ticketed December events. The brick-paved streets, lit storefronts, and Village setting make downtown Zionsville a popular place for evening strolls, holiday photos, and Christmas shopping.
+The parade and tree lighting mark the start of Christmas in the Village, with downtown shopping events, Santa visits, and ticketed events continuing through Christmas Eve. Brick-paved Main Street, holiday lights, and decorated storefronts also make the Village a popular destination for Christmas shopping, photos, and evening walks.
 
 **[See the full Christmas in Zionsville 2026 schedule](/events/christmas-in-zionsville)**
 
 ## Plan your visit
 
-**When:** Saturday, November 28, 2026 · 5:00–6:30 PM  
-**Parade route:** Begins at Eagle Elementary, ends at Old National Bank on Main Street  
-**Tree lighting:** Corner of Pine and Main Streets, immediately following the parade  
+**Where:** Main Street, downtown Zionsville · Tree lighting at [100 W Pine St](https://maps.app.goo.gl/qimXGdpYCoiH8dd37)  
 **Admission:** Free  
-**Dress warm:** This is an outdoor evening event in late November. Bring coats, hats, and gloves, especially if you plan to stand along the parade route.
+**Dress warmly:** This is an outdoor evening event in late November. Bring coats, hats, and gloves, especially if you plan to stand along the parade route.
 
 **Parking:**  
-This is one of the most heavily attended events of the year, and parking fills quickly throughout the Village. Plan to arrive before 4:00 PM if you want to park closer to the parade route.
+Parking fills quickly throughout the Village for the parade and tree lighting, so arrive early if you want to park closer to the route.
 
-Parking is not available along the parade route. The largest public parking lot is at the northwest corner of Main Street and Sycamore Road, with access from First Street. The lot at the southwest corner of Main and Pine Streets is closed for the tree lighting on parade night.
+The largest public lot is at the northwest corner of Main Street and Sycamore Road, with access from First Street. The lot at the southwest corner of Main and Pine Streets is closed for the tree lighting.
 
-Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park. Many residents and visitors walk several blocks to the parade and tree lighting, so dress warmly and plan for the walk.
+Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park. Many parking areas are within an easy walk of the parade route.
 
 ## Downtown map
 
-Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows the Main Street area, including nearby restaurants, shops, public parking, restrooms, and landmarks.
+Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows nearby restaurants, shops, public parking, restrooms, and other Main Street landmarks.
