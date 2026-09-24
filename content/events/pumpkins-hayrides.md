@@ -1,27 +1,40 @@
 ---
-title: "Pumpkins & Hayrides"
+title: Pumpkins & Hayrides
 alternateName: ["Pumpkins and Hayrides", "Zionsville Lions Pumpkins & Hayrides"]
-description: "A free family fall event at Lions Park with hayrides, pumpkin painting, games, live music, bounce houses, and a kids costume contest."
-metaTitle: "Pumpkins & Hayrides 2026 | Lions Park, Zionsville"
-metaDescription: "Pumpkins & Hayrides 2026 — Sunday, October 25, 2 to 5 PM at Lions Park. Free hayrides, pumpkin painting, bounce houses, and a 4 PM costume contest."
+description: A free family fall event at Lions Park with hayrides, pumpkin painting, games, live music, bounce houses, and a kids costume contest.
 eventType: annual
 startDate: "2026-10-25"
 endDate: "2026-10-25"
 startDateTime: "2026-10-25T14:00:00-04:00"
 endDateTime: "2026-10-25T17:00:00-04:00"
-location: "Lions Park, Zionsville"
-address: "11053 Sycamore St"
-externalUrl: "https://www.zionsvillelions.com"
+lastUpdated: "2026-09-22"
+location: Lions Park, Zionsville
+address: "11053 Sycamore St, Zionsville, IN 46077"
 image: /images/events/zionsville-pumpkins-hayrides.webp
-imageAlt: "Families enjoying a hayride and pumpkins at Lions Park in Zionsville in fall"
+imageAlt: Families enjoying a hayride and pumpkins at Lions Park in Zionsville in fall
 photoCredit: "Photo by Lions Club Zionsville"
 photoCreditHeroOnly: false
+tags: [family, kids, fall, outdoor, free, seasonal]
 featured: true
-tags: [family, kids, fall, outdoor, free]
-lastUpdated: "2026-08-20"
+externalUrl: https://www.zionsvillelions.com/events/pumpkins-hayrides
+faqs:
+  - q: "When is Pumpkins & Hayrides 2026?"
+    a: "Pumpkins & Hayrides is Sunday, October 25, 2026, from 2:00 to 5:00 PM at Lions Park."
+  - q: "Is Pumpkins & Hayrides free?"
+    a: "Yes. Admission is free, and the Zionsville Lions Club runs the event as a thank-you to the community. Pumpkins are free while supplies last."
+  - q: "Where do I park for Pumpkins & Hayrides?"
+    a: "Parking at Lions Park is free for this event, though the on-site lot may fill quickly. Public lots are at the northwest corner of Main Street and Sycamore Road and the southwest corner of Main Street and Pine Street. Street parking is also available on nearby streets throughout the Village."
+  - q: "What activities are at Pumpkins & Hayrides?"
+    a: "Hayrides through the park, free pumpkins for painting, live music, Master Yoo’s Taekwondo, bounce houses, games, food, and a kids costume contest."
+  - q: "When is the costume contest?"
+    a: "The kids costume contest is at 4:00 PM."
+  - q: "Who hosts Pumpkins & Hayrides?"
+    a: "The Zionsville Lions Club hosts the event at Lions Park each fall."
+metaTitle: Pumpkins & Hayrides 2026 — Lions Park, Zionsville Indiana | October 25
+metaDescription: "Pumpkins & Hayrides 2026 — Sunday, October 25, 2 to 5 PM at Lions Park. Free hayrides, pumpkin painting, bounce houses, and a 4 PM costume contest."
 ---
 
-Pumpkins & Hayrides is an annual autumn tradition held at Lions Park, hosted by the Zionsville Lions Club. The 2026 event is Sunday, October 25, from 2:00 to 5:00 PM, with hayrides, free pumpkins for painting, live music, bounce houses, games, and food. The Lions Club runs it as a free thank-you to the community for its support.
+Pumpkins & Hayrides is an annual autumn tradition held at Lions Park, hosted by the Zionsville Lions Club. The Lions Club runs it as a free thank-you to the community for its support.
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
@@ -35,7 +48,7 @@ Pumpkins & Hayrides is an annual autumn tradition held at Lions Park, hosted by 
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <a href="/images/events/pumpkins-hayrides-2026-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/events/pumpkins-hayrides-2026-flyer.webp" alt="Event flyer for the Pumpkins & Hayrides community event at Zionsville Lions Park featuring illustrated jack-o'-lanterns, event details for Sunday, October 25, 2026, and a list of family activities."  class="rounded-lg shadow-sm cursor-zoom-in" />
+    <img src="/images/events/pumpkins-hayrides-2026-flyer.webp" alt="Event flyer for the Pumpkins & Hayrides community event at Zionsville Lions Park featuring illustrated jack-o’-lanterns, event details for Sunday, October 25, 2026, and a list of family activities." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Promotional flyer for the Pumpkins & Hayrides event at Zionsville Lions Park.
@@ -45,7 +58,7 @@ Pumpkins & Hayrides is an annual autumn tradition held at Lions Park, hosted by 
 ## Details
 
 **When:** Sunday, October 25, 2026 · 2:00 to 5:00 PM  
-**Location:** Lions Park, 11053 Sycamore St, Zionsville  
+**Location:** Lions Park, [11053 Sycamore St, Zionsville, IN 46077](https://maps.app.goo.gl/GutjJJvsuSLyuU4D9)  
 **Admission:** Free  
 
 ## Activities
