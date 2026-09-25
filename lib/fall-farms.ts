@@ -117,7 +117,7 @@ export const DESTINATIONS: Destination[] = [
     city: 'Sheridan',
     highlights: 'Adventure Acres with a 60-ft tube slide; cider mill and café; weekend pig races',
     cost: 'Sat\u2013Sun $16.25 online / $18.95 gate; Thu\u2013Fri $12.50 / $14.75',
-    features: ['Pumpkin Picking', 'Apple Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
+    features: ['Pumpkin Picking', 'Apple Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
       { label: 'Fall season', start: '2026-08-20', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], hours: 'Thu\u2013Sat 10 AM\u20137 PM; Sun 1\u20137 PM', status: 'confirmed', planner: true },
       { label: 'Sunflower Festival', dates: ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-12', '2026-09-13'], status: 'confirmed', planner: true },
