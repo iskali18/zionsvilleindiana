@@ -24,7 +24,7 @@ hero_position: "center 35%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [cars, family, free, outdoor]
-lastUpdated: "2026-09-23"
+lastUpdated: "2026-09-22"
 faqs:
   - q: "When are the 2026 Cars & Coffee events?"
     a: "Cars & Coffee is Saturday, September 26 from 9:00 to 11:00 AM. The season concludes with the Trunk or Treat event on Saturday, October 24 from 4:00 to 6:00 PM."
@@ -72,6 +72,19 @@ Cars & Coffee is a recurring automotive gathering at Graham Rahal Performance in
 The event includes vehicles displayed both outside and inside the facility. Visitors can walk through the displays, talk with vehicle owners and other enthusiasts, or stop at RIVET Coffee Bar.
 
 Cars & Coffee attracts dedicated automotive enthusiasts as well as families and casual visitors interested in seeing an unusual collection of vehicles in one place.
+
+## Parking
+
+Parking is available in several lots near the event. Use the map below to see designated parking areas and plan where to park before you arrive.
+
+<figure class="my-8">
+  <a href="/images/events/cars-and-coffee-parking-map.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size parking map in new tab">
+    <img src="/images/events/cars-and-coffee-parking-map.webp" alt="Parking map for Cars & Coffee showing on-campus parking around Graham Rahal Performance and overflow parking at RLL, TriPhase and Fanimation." class="rounded-lg shadow-sm cursor-zoom-in mx-auto max-w-2xl" />
+    </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2 text-center">
+    On-campus and overflow parking for Cars & Coffee.
+  </figcaption>
+</figure>
 
 ## Location
 
