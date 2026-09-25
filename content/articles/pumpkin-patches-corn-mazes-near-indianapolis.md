@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp
 hero_position: "center 20%"
-lastUpdated: "2026-09-22"
+lastUpdated: "2026-09-24"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -39,7 +39,7 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 22, 2026.**
+**Updated September 24, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -149,7 +149,7 @@ Special events include **Antique Tractor and Touch a Tractor Day** on September 
   - Additional dates
     - Mon · Oct. 12 · 1–7 PM
     - Thu & Fri · Oct. 15–16, 22–23 & 29–30 · 1–7 PM
-- **Admission:** $21.95 plus tax; ages 2 and under free
+- **Admission:** $17.95 online · $21.95 full price · ages 2 and under and 70 and older free · season pass $44.95 · groups of 25 or more $15.95 per person
 - **Pumpkins:** Sold separately; as of September 2026, pricing had not been posted
 - **Extras:** Additional Activity Passes $4.75; pony rides and select activities have separate fees
 

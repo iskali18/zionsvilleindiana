@@ -101,7 +101,7 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'dulls-tree-farm',
     city: 'Thorntown',
     highlights: 'Tire mountain, ropes course, giant slides; fireworks Oct. 24',
-    cost: '$21.95; pumpkins and select activities extra',
+    cost: '$17.95 online / $21.95 full price; pumpkins and select activities extra',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area'],
     schedules: [
       { label: 'Fall Saturdays', dates: ['2026-09-26', '2026-10-03', '2026-10-10', '2026-10-17', '2026-10-24', '2026-10-31'], hours: '10 AM\u20137 PM', status: 'confirmed', planner: true },
