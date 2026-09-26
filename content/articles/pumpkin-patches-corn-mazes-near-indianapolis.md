@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp
 hero_position: "center 20%"
-lastUpdated: "2026-09-24"
+lastUpdated: "2026-09-25"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -39,7 +39,7 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 24, 2026.**
+**Updated September 25, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -90,7 +90,7 @@ For a local Zionsville option, [Pumpkinfest](/events/pumpkinfest) on October 3 i
 
 ### For Corn Mazes, Rides and Play Areas
 
-Ten destinations offer corn mazes, with several adding larger activity areas. **Russell Farms** has mini golf and rides, **Lark Ranch** has a mile-long train ride, **Piney Acres** has a tube slide and jump pad, and **Stuckey Farm** has Adventure Acres. Use the Corn Maze filter to see all ten.
+Eleven destinations offer corn mazes, with several adding larger activity areas. **Russell Farms** has mini golf and rides, **Lark Ranch** has a mile-long train ride, **Piney Acres** has a tube slide and jump pad, and **Stuckey Farm** has Adventure Acres. Use the Corn Maze filter to see all ten.
 
 ### For Apple Picking
 
@@ -163,7 +163,7 @@ Special events include **Antique Tractor and Touch a Tractor Day** on September 
 - **Drive from Zionsville:** ~20 min (12 miles N)
 - **Highlights:** Adventure Acres with a 60-ft tube slide; cider mill and café; weekend pig races
 
-**Stuckey Farm Orchard & Cider Mill in Sheridan** grows **37 varieties of U-pick apples** across its growing year. Admission includes **Adventure Acres**, a large play area with a 60-foot tube slide, combine slides, jumping pillows, pedal cars and a barrel train, along with an **$8 apple voucher** and three U-pick zinnia stems while in season.
+**Stuckey Farm Orchard & Cider Mill in Sheridan** grows **37 varieties of U-pick apples** across its growing year. Admission includes **Adventure Acres**, a large play area with a 60-foot tube slide, combine slides, jumping pillows, pedal cars, a barrel train and farm goats, along with an **$8 apple voucher** and three U-pick zinnia stems while in season.
 
 The fall season includes three themed stretches: **Apple Pluckin’ Days** on **September 12–13, 19–20 and 26–27**; **Cider Pressin’ Days** on **October 3–4 and 10–11**; and **Pumpkin Pluckin’ Days** on **October 17–18 and 24–25**, ending with a Nightmare Before Christmas market.
 
@@ -184,7 +184,7 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
 - **Hours:** Thu–Sat 10 AM–7 PM · Sun 1–7 PM
 - **Admission:** Thu–Fri $12.50 online / $14.75 gate · Sat–Sun $16.25 online / $18.95 gate · ages 2 and under free
 - **Season pass:** $48 for the fall season
-- **Pumpkin patch:** As of mid-September, an opening date had not been set; the farm said it would open once the pumpkins turned orange
+- **Pumpkin patch:** Opens Sept. 26
 - **Weekends only:** Corn maze, Stuckey Express train, pig races, donut bakery, Snack Barn and apple cannons ($5 for eight shots)
 - **Accessibility:** Handicap parking and accessible restrooms at the farm market · hayride not accessible, but the pumpkin patch, U-pick orchard and play area can be reached on foot · surfaces include gravel, grass and dirt
 
@@ -217,7 +217,7 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
 - **Drive from Zionsville:** ~30 min (18 miles NE)
 - **Highlights:** Headless Horseman hayride, dry tubing hill, shows; barrel train (48 in. max height)
 
-**Conner Prairie’s Headless Horseman Festival** runs **Thursday through Sunday, October 1–25, from 5–10 p.m.** Festival activities include the Headless Horseman hayride, barrel train, dry tubing hill, carnival games, shows and live performances. The barrel train is limited to riders **under 48 inches tall**. As of September 21, the **corn maze and Haunted Trail had not been confirmed for 2026** because Conner Prairie was assessing the effects of flooding across the property.
+**Conner Prairie’s Headless Horseman Festival** runs **Thursday through Sunday, October 1–25, from 5–10 p.m.** Festival activities include the Headless Horseman hayride, barrel train, dry tubing hill, carnival games, shows and live performances. The barrel train is limited to riders **under 48 inches tall**. The **corn maze opens September 26** with a short maze and a long maze, both included with admission. During the festival, the long maze closes at dusk and the **Haunted Trail** opens after dark.
 
 The museum’s regular daytime historic village and farm areas close at 4 p.m. on festival days and are not open during the evening festival. Sensory boxes are available at the ticket gates.
 

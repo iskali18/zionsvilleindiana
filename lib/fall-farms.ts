@@ -121,7 +121,7 @@ export const DESTINATIONS: Destination[] = [
     schedules: [
       { label: 'Fall season', start: '2026-08-20', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], hours: 'Thu\u2013Sat 10 AM\u20137 PM; Sun 1\u20137 PM', status: 'confirmed', planner: true },
       { label: 'Sunflower Festival', dates: ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-12', '2026-09-13'], status: 'confirmed', planner: true },
-      { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', days: ['thu', 'fri', 'sat', 'sun'], end: '2026-10-25', status: 'not_posted', planner: true, note: 'Farm said on Facebook in mid-September 2026 that the patch opens once the pumpkins turn orange; no date given.' },
+      { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-26', days: ['thu', 'fri', 'sat', 'sun'], end: '2026-10-25', status: 'confirmed', planner: true, note: 'Farm said on Facebook on Sept. 25, 2026 that the pumpkin patch opens this weekend.' },
       { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-08-20', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Available whenever the destination is open during this window.' },
       { label: 'Harvest Festival', appliesTo: 'Corn Maze', start: '2026-09-12', end: '2026-10-25', days: ['sat', 'sun'], status: 'confirmed', planner: false, note: 'Thursday and Friday day passes cover the orchard, pumpkin patch, Adventure Acres and market, but not the corn maze or hayrides.' },
       { label: 'Harvest Festival', appliesTo: 'Hayride / Wagon Ride', start: '2026-09-12', end: '2026-10-25', days: ['sat', 'sun'], status: 'confirmed', planner: false, note: 'Thursday and Friday day passes cover the orchard, pumpkin patch, Adventure Acres and market, but not the corn maze or hayrides.' },
@@ -147,7 +147,7 @@ export const DESTINATIONS: Destination[] = [
     city: 'Fishers',
     highlights: 'Headless Horseman hayride, dry tubing hill, shows; barrel train (48 in. max height)',
     cost: '$26 + $10 hayride',
-    features: ['Hayride / Wagon Ride', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
+    features: ['Hayride / Wagon Ride', 'Corn Maze', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [{ label: 'Headless Horseman Festival', start: '2026-10-01', end: '2026-10-25', days: ['thu', 'fri', 'sat', 'sun'], hours: '5\u201310 PM', status: 'confirmed', planner: true }],
   },
   {
