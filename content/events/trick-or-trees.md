@@ -12,10 +12,9 @@ endDateTime: "2026-10-24T12:00:00-04:00"
 location: "Elm Street Green, Zionsville"
 address: "165 N Elm Street"
 externalUrl: "https://www.zionsville-in.gov/739/Trick-or-Trees"
-image: /images/events/trick-or-trees-zionsville-fall-leaves.webp
+image: /images/events/trick-or-trees-zionsville-hero.webp
 imageAlt: "Close-up of red, orange, yellow, and green maple leaves on tree branches during autumn in Zionsville, Indiana."
-hero_position: "center 45%"
-photoCredit: "© ZionsvilleIndiana.com"
+hero_position: "center 33%"
 featured: true
 tags: [family, kids, fall, holiday, outdoor, ticketed]
 lastUpdated: "2026-08-20"
