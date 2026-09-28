@@ -8,9 +8,12 @@ hubOrder: 10
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
-lastUpdated: "2026-09-21"
+lastUpdated: "2026-09-28"
 itemListName: "Zionsville trick-or-treat and trunk-or-treat events 2026"
 itemList:
+  - name: "Zionsville Marching Eagles Community Trunk or Treat Night"
+    href: "#zionsville-marching-eagles-community-trunk-or-treat-night"
+    description: "Friday, October 23, 6–7:30 p.m. at Zionsville Community High School Stadium."
   - name: "Trick or Trees"
     href: "/events/trick-or-trees"
     description: "Saturday, October 24, 9 a.m.–noon at Elm Street Green. Ages 2–12; children under 2 attend free. Registration required."
@@ -33,7 +36,7 @@ ctas:
     href: "/articles/pumpkin-patches-corn-mazes-near-indianapolis"
 faqs:
   - q: "When is trick-or-treating in Zionsville in 2026?"
-    a: "The Town of Zionsville has not yet announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are scheduled for October 24, 25 and 29."
+    a: "The Town of Zionsville has not yet announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are scheduled for October 23, 24, 25 and 29."
   - q: "Do you need to register for Trick or Trees?"
     a: "Yes. Every participating child needs a timed-entry registration. Children under age 2 attend free but still need to be registered. Registration opens October 1 and closes at 4 p.m. on Friday, October 23."
   - q: "What ages is Trick or Trees for?"
@@ -41,26 +44,39 @@ faqs:
   - q: "How much does Trick or Trees cost?"
     a: "Advance admission is $5 for Zionsville residents and $7 for nonresidents. If space remains, limited day-of admission is $7 per child. Children under 2 attend free."
   - q: "Are there trunk-or-treat events in Zionsville?"
-    a: "Yes. Graham Rahal Performance hosts a Trunk or Treat on Saturday, October 24 from 4 to 6 p.m., Zionsville Presbyterian Church hosts one on Sunday, October 25 from 12:15 to 2 p.m., and BACA’s Zionsville Learning Center hosts a Sensory-Friendly Trunk-or-Treat on Thursday, October 29 from 5:30 to 7 p.m."
+    a: "Yes. The Zionsville Marching Eagles host a Community Trunk or Treat Night on Friday, October 23 from 6 to 7:30 p.m., Graham Rahal Performance hosts a Trunk or Treat on Saturday, October 24 from 4 to 6 p.m., Zionsville Presbyterian Church hosts one on Sunday, October 25 from 12:15 to 2 p.m., and BACA’s Zionsville Learning Center hosts a Sensory-Friendly Trunk-or-Treat on Thursday, October 29 from 5:30 to 7 p.m."
   - q: "Is there a sensory-friendly trunk-or-treat in Zionsville?"
     a: "Yes. BACA’s Zionsville Learning Center is holding a Sensory-Friendly Trunk-or-Treat on Thursday, October 29 from 5:30 to 7 p.m. The event is free and open to the public, with sensory-friendly activities, treats and candy. Costumes are optional."
   - q: "When is Eagle Church Trunk or Treat?"
     a: "Eagle Church is holding its annual Trunk or Treat on Saturday, October 24 from 4 to 6 p.m. The event includes pumpkin decorating, hayrides, donut holes and cider."
 ---
 
-Zionsville families have several places to trick-or-treat before Halloween in 2026, from the Trick-or-Treat Trail at Elm Street Green to trunk-or-treat events at local businesses, churches and BACA’s Zionsville Learning Center.
+Zionsville families have several chances to trick-or-treat before Halloween in 2026, including Trick or Trees and trunk-or-treats at local businesses, churches and BACA’s Zionsville Learning Center.
 
-**Saturday, October 24 is currently the busiest day**, with Trick or Trees in the morning and two trunk-or-treat events that afternoon. Additional events are scheduled for October 25 and 29, and more annual Halloween events may be announced as October approaches.
+**Saturday, October 24 is currently the busiest day**, with three events scheduled, and more Halloween events may be announced as October approaches.
 
 ## 2026 Zionsville Trick-or-Treat Events
 
 | Event | When | What to Expect |
 | --- | --- | --- |
-| [Trick or Trees](#trick-or-trees-at-elm-street-green) | Sat., Oct. 24, 9 AM–12 PM | Trick-or-treat trail, marshmallow roasting, games and the Pumpkin Path |
-| [Graham Rahal Performance Trunk or Treat](#graham-rahal-performance-trunk-or-treat) | Sat., Oct. 24, 4–6 PM | Trunk-or-treating at the final Cars & Coffee of the season |
-| [Eagle Church Trunk or Treat](#eagle-church-trunk-or-treat) | Sat., Oct. 24, 4–6 PM | Pumpkin decorating, hayrides, donut holes and cider |
-| [Zionsville Presbyterian Church Trunk or Treat](#zionsville-presbyterian-church-trunk-or-treat) | Sun., Oct. 25, 12:15–2 PM | Brunch, face painting and bounce houses |
-| [BACA Sensory-Friendly Trunk-or-Treat](#baca-sensory-friendly-trunk-or-treat) | Thu., Oct. 29, 5:30–7 PM | Sensory-friendly activities, treats and candy |
+| [Zionsville Marching Eagles Community Trunk or Treat Night](#zionsville-marching-eagles-community-trunk-or-treat-night) | Fri., Oct. 23 · 6–7:30 PM | Ticketed · Trunk-or-treating, a Marching Eagles performance and a jackpot drawing |
+| [Trick or Trees](#trick-or-trees-at-elm-street-green) | Sat., Oct. 24 · 9 AM–12 PM | Trick-or-treat trail, marshmallow roasting, games and the Pumpkin Path |
+| [Graham Rahal Performance Trunk or Treat](#graham-rahal-performance-trunk-or-treat) | Sat., Oct. 24 · 4–6 PM | Trunk-or-treating at the final Cars & Coffee of the season |
+| [Eagle Church Trunk or Treat](#eagle-church-trunk-or-treat) | Sat., Oct. 24 · 4–6 PM | Pumpkin decorating, hayrides, donut holes and cider |
+| [Zionsville Presbyterian Church Trunk or Treat](#zionsville-presbyterian-church-trunk-or-treat) | Sun., Oct. 25 · 12:15–2 PM | Brunch, face painting and bounce houses |
+| [BACA Sensory-Friendly Trunk-or-Treat](#baca-sensory-friendly-trunk-or-treat) | Thu., Oct. 29 · 5:30–7 PM | Sensory-friendly activities, treats and candy |
+
+## Zionsville Marching Eagles Community Trunk or Treat Night
+
+**Friday, October 23 · 6–7:30 PM trunk-or-treat · 7:30 PM performances**  
+**Zionsville Community High School Stadium · [800 Hal Sharpe Rd., Zionsville](https://maps.app.goo.gl/EbmQbowapwaNVcJu6)**  
+**Admission:** $5 per person in advance · $7 day of the event · children 3 and under free
+
+The **Zionsville Marching Eagles** are the marching band at Zionsville Community High School and the 2025 ISSMA Scholastic Class A state champions. Their **Community Trunk or Treat Night** includes trunk-or-treating from 6 to 7:30 p.m., followed by a Marching Eagles performance and a jackpot drawing. Food is available.
+
+See the [Zionsville Band Boosters website](https://www.zionsvillebandboosters.com/).
+
+[↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 
 ## Trick or Trees at Elm Street Green
 
@@ -147,7 +163,7 @@ For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near
 
 Several local organizations have held trick-or-treat or trunk-or-treat events in previous years but have not yet announced 2026 details.
 
-We are watching for announcements from **Boone Village, the Zionsville Marching Eagles, Zionsville United Methodist Church and St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, Zionsville Meadows and Morning Dove Therapeutic Riding Center**.
+We are watching for announcements from **Boone Village, Zionsville United Methodist Church and St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, Zionsville Meadows and Morning Dove Therapeutic Riding Center**.
 
 Additional events will be added as 2026 details are confirmed.
 
