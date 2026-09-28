@@ -1,8 +1,8 @@
 ---
 title: "Oktoberfest"
 alternateName: ["Zionsville Oktoberfest", "St. Alphonsus Oktoberfest", "St. Al Oktoberfest"]
-description: "An evening Oktoberfest for adults at St. Alphonsus Liguori Catholic Church, with German food, a Biergarten, live polka music and dancing, contests and a raffle drawing benefiting local charities."
-metaTitle: "St. Alphonsus Oktoberfest 2026 | Zionsville, IN"
+description: "Open to the public, an evening Oktoberfest for adults 21 and older at St. Alphonsus Liguori Catholic Church, with German food, a Biergarten, live polka music and dancing, contests and a raffle drawing benefiting local charities."
+metaTitle: "Oktoberfest 2026 | Zionsville, IN"
 metaDescription: "Oktoberfest at St. Alphonsus is October 3, 2026, 4–11 PM. Open to the public, ages 21+. German food, a Biergarten, live polka, contests and a raffle."
 eventType: annual
 startDate: "2026-10-03"
@@ -17,7 +17,7 @@ imageAlt: "Bavarian soft pretzel and mug of Oktoberfest-style beer on a blue-and
 hero_position: "center 60%"
 featured: true
 tags: [adults, food, music, free, fall]
-lastUpdated: "2026-09-10"
+lastUpdated: "2026-09-28"
 faqs:
   - q: "When is Oktoberfest 2026?"
     a: "Oktoberfest is Saturday, October 3, 2026, from 4:00 to 11:00 p.m. Dinner is served from 4:00 to 9:00 p.m."
