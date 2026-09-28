@@ -1,9 +1,9 @@
 ---
-title: "Cars & Coffee"
-alternateName: ["GR Brands Cars & Coffee", "Cars and Coffee", "Graham Rahal Cars & Coffee", "Graham Rahal Cars and Coffee", "Graham Rahal Performance Cars & Coffee", "Rahal Cars & Coffee"]
-description: "A recurring automotive gathering at Graham Rahal Performance in Zionsville featuring rare exotics, vintage classics, race cars, motorcycles, and other enthusiast vehicles."
-metaTitle: "Cars & Coffee Zionsville 2026: Dates, Times & Location"
-metaDescription: "Cars & Coffee at Graham Rahal Performance in Zionsville is September 26, with a Trunk or Treat season finale on October 24. Free and open to the public."
+title: "Cars & Coffee – Trunk or Treat"
+alternateName: ["Graham Rahal Performance Trunk or Treat", "GR Brands Cars & Coffee", "Cars and Coffee", "Graham Rahal Cars & Coffee", "Graham Rahal Cars and Coffee", "Graham Rahal Performance Cars & Coffee", "Rahal Cars & Coffee"]
+description: "Cars & Coffee closes its 2026 season with a free Trunk or Treat at Graham Rahal Performance in Zionsville on October 24 from 4:00 to 6:00 PM."
+metaTitle: "Cars & Coffee Trunk or Treat 2026 | Zionsville, IN"
+metaDescription: "Cars & Coffee closes its 2026 season with a free Trunk or Treat at Graham Rahal Performance in Zionsville on October 24 from 4 to 6 PM."
 eventType: recurring
 startDate: "2026-08-29"
 endDate: "2026-10-24"
@@ -14,38 +14,37 @@ occurrences:
   - "2026-09-26"
   - "2026-10-24"
 recurrenceLabel: "Saturdays, Aug 29, Sep 26 & Oct 24, 2026"
-inSeasonMessage: "Cars & Coffee runs 9:00–11:00 a.m. on September 26, with the Trunk or Treat finale October 24 from 4:00 to 6:00 p.m."
+inSeasonMessage: "The Cars & Coffee Trunk or Treat finale is today from 4:00 to 6:00 p.m."
 location: "Graham Rahal Performance"
 address: "10850 Creek Way"
 externalUrl: "https://www.grahamrahalperformance.com/events-calendar-cars-dealership--xlistevents"
-image: /images/events/cars-and-coffee.webp
-imageAlt: "Cars from different eras displayed outside Graham Rahal Performance during Cars & Coffee in Zionsville."
-hero_position: "center 35%"
+image: /images/events/cars-and-coffee-zionsville.webp
+imageAlt: "Cars displayed outside Graham Rahal Performance during Cars & Coffee in Zionsville."
+hero_position: "center 30%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [cars, family, free, outdoor]
-lastUpdated: "2026-09-22"
+lastUpdated: "2026-09-28"
 faqs:
-  - q: "When are the 2026 Cars & Coffee events?"
-    a: "Cars & Coffee is Saturday, September 26 from 9:00 to 11:00 AM. The season concludes with the Trunk or Treat event on Saturday, October 24 from 4:00 to 6:00 PM."
+  - q: "When is the Cars & Coffee Trunk or Treat?"
+    a: "The Cars & Coffee Trunk or Treat is Saturday, October 24, 2026, from 4:00 to 6:00 PM. It closes out the 2026 Cars & Coffee season."
   - q: "Where is Cars & Coffee held?"
     a: "The event takes place at Graham Rahal Performance, 10850 Creek Way, in Zionsville’s Creekside Corporate Park."
-  - q: "What types of vehicles can I see at Cars & Coffee?"
-    a: "Cars & Coffee draws a wide range of vehicles, including rare exotics, vintage classics, race cars, motorcycles, and other enthusiast vehicles."
+  - q: "Is the Cars & Coffee Trunk or Treat free?"
+    a: "Yes. The event is free and open to the public."
   - q: "Is coffee available on site?"
     a: "RIVET Coffee Bar is located at the Graham Rahal Performance campus along 106th Street in Zionsville."
 ---
-
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-64 mb-4">
-  <a href="/images/events/cars-and-coffee-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/events/cars-and-coffee-flyer.webp" alt="Rear view of a red Ferrari F40 with an Indiana license plate surrounded by spectators taking photos." class="rounded-lg shadow-sm cursor-zoom-in" />
+  <a href="/images/events/graham-rahal-zionsville-cars-and-coffee-trunk-or-treat-flyer-2026.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/graham-rahal-zionsville-cars-and-coffee-trunk-or-treat-flyer-2026.webp" alt="Flyer for the GR Brands Cars &amp; Coffee Trunk or Treat at Graham Rahal Performance in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in" />
   </a>
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Promotional flyer for GR Brands Cars & Coffee at Graham Rahal Performance, featuring a red Ferrari F40 on display.
+    Promotional flyer for the Cars &amp; Coffee Trunk or Treat season finale.
   </figcaption>
 </figure>
 
-Cars & Coffee is a recurring automotive gathering at Graham Rahal Performance in Zionsville, bringing together rare exotics, vintage classics, race cars, motorcycles, and other enthusiast vehicles.
+Graham Rahal Performance closes out its 2026 **Cars & Coffee** season with a **Trunk or Treat** in Zionsville on **Saturday, October 24, from 4:00 to 6:00 PM**. Families can trick-or-treat among rare exotics, vintage classics, race cars, motorcycles and other enthusiast vehicles.
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
@@ -53,7 +52,6 @@ Cars & Coffee is a recurring automotive gathering at Graham Rahal Performance in
 
 - **Admission is free and open to the public**
 - **RIVET Coffee Bar is located on site**
-- **Season concludes October 24 with Trunk or Treat, 4:00–6:00 PM**
 
 </div>
 
@@ -61,35 +59,40 @@ Cars & Coffee is a recurring automotive gathering at Graham Rahal Performance in
 
 | Feature | Detail |
 | :--- | :--- |
-| **Dates** | Saturday, September 26, 2026 |
-| **Time** | 9:00 AM – 11:00 AM EDT |
-| **Season Finale** | Saturday, October 24, 2026 — Trunk or Treat |
-| **Finale Time** | 4:00 PM – 6:00 PM EDT |
+| **Date & Time** | Saturday, October 24, 2026 · 4:00–6:00 PM |
 | **Location** | Graham Rahal Performance, [10850 Creek Way, Zionsville, IN 46077](https://maps.app.goo.gl/mczHw7vpnDz8dhUU7) |
 
 ## What to Expect
 
-The event includes vehicles displayed both outside and inside the facility. Visitors can walk through the displays, talk with vehicle owners and other enthusiasts, or stop at RIVET Coffee Bar.
+Along with trick-or-treating at participating vehicles, families can see cars displayed outside and inside the showroom, talk with vehicle owners and other enthusiasts, or stop at RIVET Coffee Bar.
 
-Cars & Coffee attracts dedicated automotive enthusiasts as well as families and casual visitors interested in seeing an unusual collection of vehicles in one place.
-
-## Parking
-
-Parking is available in several lots near the event. Use the map below to see designated parking areas and plan where to park before you arrive.
+The **Humane Society for Boone County** will bring dogs and puppies available for adoption.
 
 <figure class="my-8">
-  <a href="/images/events/cars-and-coffee-parking-map.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size parking map in new tab">
-    <img src="/images/events/cars-and-coffee-parking-map.webp" alt="Parking map for Cars & Coffee showing on-campus parking around Graham Rahal Performance and overflow parking at RLL, TriPhase and Fanimation." class="rounded-lg shadow-sm cursor-zoom-in mx-auto max-w-2xl" />
-    </a>
+  <a href="/images/events/cars-and-coffee-zionsville-graham-rahal-performance-exterior.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/cars-and-coffee-zionsville-graham-rahal-performance-exterior.webp" alt="Visitors and display vehicles outside the Ducati showroom at Graham Rahal Performance during Cars &amp; Coffee in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in mx-auto max-w-2xl" />
+  </a>
   <figcaption class="text-xs text-stone-500 italic mt-2 text-center">
-    On-campus and overflow parking for Cars & Coffee.
+    Visitors gather outside Graham Rahal Performance’s Ducati showroom during the September Cars &amp; Coffee event in Zionsville.
   </figcaption>
 </figure>
 
-## Location
+<figure class="my-8">
+  <a href="/images/events/cars-and-coffee-zionsville-graham-rahal-performance-showroom.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/cars-and-coffee-zionsville-graham-rahal-performance-showroom.webp" alt="Yellow Capricorn 01 Zagato with its gullwing doors raised inside Graham Rahal Performance during Cars &amp; Coffee in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in mx-auto max-w-2xl" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2 text-center">
+    The yellow Capricorn 01 Zagato on display inside Graham Rahal Performance during the September Cars &amp; Coffee event.
+  </figcaption>
+</figure>
 
-**Graham Rahal Performance**  
-10850 Creek Way  
-Zionsville, IN 46077
+Cars & Coffee draws dedicated automotive enthusiasts, families and casual visitors for a close look at vehicles rarely seen together in one place.
 
-The campus is in Creekside Corporate Park on 106th Street, southeast of the Main Street Village district.
+<figure class="my-8">
+  <a href="/images/events/cars-and-coffee-zionsville-classic-car-dashboard-steering-wheel.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/cars-and-coffee-zionsville-classic-car-dashboard-steering-wheel.webp" alt="Blue dashboard, steering wheel and front bench seat inside a 1960 Cadillac displayed at Cars &amp; Coffee in Zionsville, Indiana." class="rounded-lg shadow-sm cursor-zoom-in mx-auto max-w-2xl" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2 text-center">
+    The blue interior of a 1960 Cadillac at the September Cars &amp; Coffee event in Zionsville.
+  </figcaption>
+</figure>
