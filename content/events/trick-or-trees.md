@@ -11,13 +11,13 @@ startDateTime: "2026-10-24T09:00:00-04:00"
 endDateTime: "2026-10-24T12:00:00-04:00"
 location: "Elm Street Green, Zionsville"
 address: "165 N Elm Street"
-externalUrl: "https://www.zionsville-in.gov/739/Trick-or-Trees"
+externalUrl: "https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29969"
 image: /images/events/trick-or-trees-zionsville-hero.webp
 imageAlt: "Close-up of red, orange, yellow, and green maple leaves on tree branches during autumn in Zionsville, Indiana."
 hero_position: "center 33%"
 featured: true
 tags: [family, kids, fall, holiday, outdoor, ticketed]
-lastUpdated: "2026-08-20"
+lastUpdated: "2026-09-28"
 faqs:
   - q: "When is Trick or Trees 2026?"
     a: "Trick or Trees 2026 is Saturday, October 24, from 9:00 AM to 12:00 PM at Elm Street Green in Zionsville. Entry is by timed slot, and the final check-in is at 11:30 AM."
@@ -47,10 +47,10 @@ The 2026 event is Saturday, October 24, from 9:00 AM to 12:00 PM, with timed ent
 
 ## Quick Facts
 
-- **Trick or Trees is for children ages 2 to 12, and every participating child must be registered.** Children under 2 attend free but still need to be registered.
-- **Registration is open October 1 at 8:00 AM through October 23 at 4:00 PM.** Limited day-of admission is $7 per child, cashless only.
-- **Entry is by 30-minute time slot.** The 2026 slots begin at 9:00, 9:30, 10:00, 10:30, and 11:00 AM, with final check-in at 11:30 AM.
-- **Tickets are nonrefundable.**
+- **Trick or Trees is for children ages 2 to 12, and every participating child must be registered.** Children under 2 are free but still need to be registered.
+- **Advance admission is $5 per child for Zionsville residents and $7 for nonresidents;** limited day-of admission is $7.
+- **Registration opens October 1 and closes October 23 at 4:00 PM.**
+- **Entry is by 30-minute time slot, with final check-in at 11:30 AM.**
 
 </div>
 
@@ -97,7 +97,7 @@ Families register each participating child for a specific arrival time. The time
 
 Children under 2 attend free, but they still need to be included in the registration. Advance admission is $5 per child for Zionsville residents and $7 for nonresidents.
 
-Online registration is open October 1 at 8:00 AM through October 23 at 4:00 PM. A limited number of day-of admissions may be available for $7 per child, with cashless payment only. Keep the registration confirmation email for the reserved entry time.
+Advance registration is recommended; tickets typically sell out. Online registration is open October 1 at 8:00 AM through October 23 at 4:00 PM. A limited number of day-of admissions may be available for $7 per child, with cashless payment only. Keep the registration confirmation email for the reserved entry time.
 
 **[Trick or Trees registration information](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29969)**
 
