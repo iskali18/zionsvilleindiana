@@ -13,7 +13,7 @@ location: "Elm Street Green, Zionsville"
 address: "165 N Elm Street"
 externalUrl: "https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29969"
 image: /images/events/trick-or-trees-zionsville-hero.webp
-imageAlt: "Close-up of red, orange, yellow, and green maple leaves on tree branches during autumn in Zionsville, Indiana."
+imageAlt: "A group of children in Halloween costumes trick-or-treating along a wooded path in the fall."
 hero_position: "center 33%"
 featured: true
 tags: [family, kids, fall, holiday, outdoor, ticketed]
@@ -25,21 +25,17 @@ faqs:
     a: "Advance admission is $5 per child for Zionsville residents and $7 for nonresidents. Children under 2 attend free but still need to be registered."
   - q: "Do I need to register for Trick or Trees?"
     a: "Yes. Every participating child needs a registration, including children under 2. Online registration opens October 1 at 8:00 AM and closes October 23 at 4:00 PM."
-  - q: "What ages is Trick or Trees for?"
-    a: "The event is for ages 2 to 12. Children under 2 are free but still need to be registered. Every participating child needs a registration."
   - q: "How does timed entry work at Trick or Trees?"
     a: "Families choose a 30-minute arrival slot when they register. The 2026 slots begin at 9:00, 9:30, 10:00, 10:30, and 11:00 AM, and the final check-in is 11:30 AM."
   - q: "Can I buy tickets the day of Trick or Trees?"
     a: "A limited number of day-of admissions may be available for $7 per child, with cashless payment only."
-  - q: "What happens at Trick or Trees?"
-    a: "Children in costume follow the Trick-or-Treat Trail through the park collecting treats from local businesses and community organizations. The morning also includes the Pumpkin Path, a scarecrow decorating contest, marshmallow roasting, fall games, and science experiments."
   - q: "Are Trick or Trees tickets refundable?"
     a: "No. Tickets are nonrefundable."
   - q: "Who organizes Trick or Trees?"
     a: "Trick or Trees is hosted by Zionsville Parks and Recreation."
 ---
 
-Trick or Trees is an annual Halloween event hosted by Zionsville Parks and Recreation. It takes place at Elm Street Green, a park at the northern end of the historic Village district. Children come in costume and follow the Trick-or-Treat Trail through the park, collecting treats from local businesses and community organizations along the way. The morning also includes marshmallow roasting, fall activities, science experiments, games, the Pumpkin Path, and a scarecrow contest.
+Trick or Trees is an annual Halloween event hosted by Zionsville Parks and Recreation. It takes place at Elm Street Green, a park at the northern end of the historic Village district. Children come in costume and follow the Trick-or-Treat Trail through the park, collecting treats from local businesses and community organizations along the way.
 
 The 2026 event is Saturday, October 24, from 9:00 AM to 12:00 PM, with timed entry to manage the flow of families through the trail and activity areas.
 
@@ -54,7 +50,6 @@ The 2026 event is Saturday, October 24, from 9:00 AM to 12:00 PM, with timed ent
 
 </div>
 
-
 ## Event Details
 
 | Feature | Detail |
@@ -62,8 +57,6 @@ The 2026 event is Saturday, October 24, from 9:00 AM to 12:00 PM, with timed ent
 | **Date** | Saturday, October 24, 2026 |
 | **Time** | 9:00 AM – 12:00 PM *(Timed entry; final check-in at 11:30 AM)* |
 | **Location** | [Elm Street Green](https://maps.app.goo.gl/TbtMM3qUUCkqF2qX7), 165 N Elm Street, Zionsville, IN 46077 |
-| **Ages** | Ages 2 to 12 *(children under 2 are free but must still be registered)* |
-| **Advance Admission** | $5 per child for Zionsville residents; $7 for nonresidents |
 | **Organizer** | Zionsville Parks and Recreation |
 
 <figure>
@@ -94,8 +87,6 @@ The activities are spread throughout Elm Street Green, combining the wooded trai
 ## Timed entry and registration
 
 Families register each participating child for a specific arrival time. The timed-entry system spaces arrivals through the morning while leaving time to walk the Trick-or-Treat Trail and visit the other activities before noon.
-
-Children under 2 attend free, but they still need to be included in the registration. Advance admission is $5 per child for Zionsville residents and $7 for nonresidents.
 
 Advance registration is recommended; tickets typically sell out. Online registration is open October 1 at 8:00 AM through October 23 at 4:00 PM. A limited number of day-of admissions may be available for $7 per child, with cashless payment only. Keep the registration confirmation email for the reserved entry time.
 
