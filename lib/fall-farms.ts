@@ -101,7 +101,7 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'dulls-tree-farm',
     city: 'Thorntown',
     highlights: 'Tire mountain, ropes course, giant slides; fireworks Oct. 24',
-    cost: '$17.95 online / $21.95 full price; pumpkins and select activities extra',
+    cost: '$17.95 online / $21.95 full price; pumpkins from $0.59/lb, select activities extra',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area'],
     schedules: [
       { label: 'Fall Saturdays', dates: ['2026-09-26', '2026-10-03', '2026-10-10', '2026-10-17', '2026-10-24', '2026-10-31'], hours: '10 AM\u20137 PM', status: 'confirmed', planner: true },
@@ -137,8 +137,8 @@ export const DESTINATIONS: Destination[] = [
     schedules: [
       { label: 'Farm and market', start: '2026-09-01', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Tue\u2013Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true, note: 'Year-round working farm; no separate fall hours. Closed Mondays.' },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: true, note: 'Opens Sept. 19; open during normal farm hours after that.' },
-      { label: 'Sunflower field', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'not_posted', planner: true, note: 'Expected late September or early October; no date announced. Farm closed Mondays.' },
-      { label: 'Hayrides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends only, running to the pumpkin patch. No start or end date posted for 2026.' },
+      { label: 'Sunflower field', start: '2026-09-16', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: true, note: 'Farm said on Facebook on Sept. 16, 2026 that the fall sunflower field was open. No end date posted.' },
+      { label: 'Hayrides', appliesTo: 'Hayride / Wagon Ride', days: ['fri', 'sat', 'sun'], hours: 'Fri 3\u20136 PM; Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: false, note: 'Free, running to the pumpkin patch. Farm said on Facebook on Sept. 25, 2026 that hayrides run every weekend to the end of the season, usually around Halloween. Last ride to the patch at 5:30 PM. No end date posted.' },
     ],
   },
   {
@@ -265,12 +265,13 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'driving-wind-berry-farms',
     city: 'Indianapolis',
     highlights: 'Year-round café and espresso bar; urban farm with pumpkin patch and farm animals',
-    cost: '2026 Pumpkin Palooza pricing not yet posted',
-    features: ['Pumpkin Picking', 'Farm Animals'],
+    cost: '$10 per carload for Pumpkin Palooza; pumpkins sold separately',
+    features: ['Pumpkin Picking', 'Hayride / Wagon Ride', 'Farm Animals'],
     schedules: [
       { label: 'Caf\u00e9', start: '2026-09-01', end: '2026-11-01', days: ['wed', 'thu', 'fri', 'sat'], hours: '8 AM\u20133 PM', status: 'confirmed', planner: false, note: 'Caf\u00e9 hours only, announced Aug. 26. The farm has not posted its own hours, so this does not decide whether a fall visit is possible.' },
       { label: 'Pumpkin Palooza', appliesTo: 'Pumpkin Picking', dates: ['2026-10-03', '2026-10-10'], hours: '8 AM\u20133 PM', status: 'confirmed', planner: true },
       { label: 'Pumpkin Palooza', appliesTo: 'Farm Animals', dates: ['2026-10-03', '2026-10-10'], status: 'confirmed', planner: false },
+      { label: 'Halloween event', dates: ['2026-10-31'], hours: '11 AM\u20131 PM', status: 'confirmed', planner: true, note: 'Pumpkin painting, a costume contest and a pumpkin to take home. Presale tickets; price not posted.' },
       { label: 'Farm access', appliesTo: 'Farm Animals', status: 'not_posted', planner: false, note: 'The caf\u00e9 posts hours; the rest of the property does not.' },
       { label: 'Farm access', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'The caf\u00e9 posts hours; the rest of the property does not.' },
     ],
@@ -295,7 +296,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Anderson Orchard',
     anchor: 'anderson-orchard',
     city: 'Mooresville',
-    highlights: 'Open 7 days a week; free Apple Festival & Craft Fair with 80+ vendors, Sept. 26–27',
+    highlights: 'Open 7 days a week; petting zoo Oct. 3–25 and Trunk or Treat Oct. 30',
     cost: 'Free entry; 2026 pumpkin price not yet posted',
     features: ['Pumpkin Picking', 'Free / No General Admission', 'Apple Picking'],
     schedules: [
@@ -316,7 +317,7 @@ export const DESTINATIONS: Destination[] = [
     schedules: [
       { label: 'Market hours', start: '2026-09-01', end: '2026-10-31', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], hours: 'Tue\u2013Sat 10 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true },
       { label: 'U-pick apples', appliesTo: 'Apple Picking', start: '2026-09-20', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Farm said on Facebook on Sept. 20, 2026 that U-pick Jonagold apples were available. No end date given.' },
-      { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', status: 'not_posted', planner: false, note: 'Farm said on Facebook on Sept. 20, 2026 that pumpkins were still ripening and would open for picking soon; no date given.' },
+      { label: 'U-pick pumpkins', appliesTo: 'Pumpkin Picking', start: '2026-09-27', days: ['tue', 'wed', 'thu', 'fri', 'sat', 'sun'], status: 'confirmed', planner: false, note: 'Farm said on Facebook on Sept. 27, 2026 that the pumpkin patch was open.' },
       { label: 'Horse-drawn wagon rides', appliesTo: 'Hayride / Wagon Ride', days: ['sat', 'sun'], status: 'not_posted', planner: false, note: 'Weekends from September; times not posted. Tractor-drawn rides on weekdays by advance arrangement.' },
     ],
   },

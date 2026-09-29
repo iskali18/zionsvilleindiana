@@ -1,7 +1,7 @@
 ---
-title: "Pumpkin Patches & Corn Mazes Near Indianapolis and Zionsville 2026"
-metaTitle: "Pumpkin Patches & Corn Mazes Near Indianapolis 2026"
-metaDescription: "Map and compare 17 pumpkin patches, corn mazes & orchards near Indianapolis. Filter by free entry, hayrides, animals, play areas and accessibility."
+title: "17 Pumpkin Patches, Corn Mazes & Orchards Near Indianapolis and Zionsville"
+metaTitle: "17 Pumpkin Patches, Corn Mazes & Orchards Near Indianapolis 2026"
+metaDescription: "Map and compare 17 pumpkin patches, corn mazes and apple orchards near Indianapolis. Filter by free entry, hayrides, animals, play areas and accessibility."
 description: "A comparison of pumpkin patches, apple orchards and fall destinations near Zionsville and Indianapolis for the 2026 season, covering admission, pumpkin pricing, activities, height requirements and published sensory or accessibility information."
 category: "discovery"
 hubOrder: 9
@@ -39,7 +39,7 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated September 25, 2026.**
+**Updated September 29, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -150,8 +150,8 @@ Special events include **Antique Tractor and Touch a Tractor Day** on September 
     - Mon · Oct. 12 · 1–7 PM
     - Thu & Fri · Oct. 15–16, 22–23 & 29–30 · 1–7 PM
 - **Admission:** $17.95 online · $21.95 full price · ages 2 and under and 70 and older free · season pass $44.95 · groups of 25 or more $15.95 per person
-- **Pumpkins:** Sold separately; as of September 2026, pricing had not been posted
-- **Extras:** Additional Activity Passes $4.75; pony rides and select activities have separate fees
+- **Pumpkins:** $0.59/lb for orange and specialty pumpkins over 8 lbs · pie pumpkins $3.75 · specialty pie pumpkins $4.50 · mini pumpkins $1.75 or 3 for $5 · plus sales tax
+- **Extras:** Additional Activity Passes $4.75 · pony rides and select activities have separate fees · gourds from $2 · mums $11.95 · mini straw bales $6.95 · Indian corn $5.95 · corn stalks $9.95
 
 [Dull’s Tree Farm website →](https://www.dullstreefarm.com/fall-admission)
 
@@ -198,12 +198,13 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
 - **Drive from Zionsville:** ~30 min (16 miles NE)
 - **Highlights:** Dig-your-own mums, weekend hayrides; winery in an 1883 farmhouse
 
-**Spencer Farm in Noblesville** is a year-round working farm with a U-pick pumpkin patch, dig-your-own mums and seasonal U-pick crops. The **pumpkin patch opened September 19**, with weekend hayrides taking visitors to the patch. Mums are available in several colors during September and October while supplies last, and sunflowers are expected in late September or early October.
+**Spencer Farm in Noblesville** is a year-round working farm with a U-pick pumpkin patch, dig-your-own mums and seasonal U-pick crops. The **sunflower field and pumpkin patch are open**. Mums are available in several colors during September and October while supplies last.
 
 **Spencer Farm Winery**, a sister company on the same property, has a tasting room in a restored **1883 farmhouse** and keeps separate hours from the farm.
 
 - **Hours:** Tue–Sat 9 AM–6 PM · Sun noon–6 PM · Closed Mon
 - **Admission:** No entry or parking fee; pumpkins, mums and farm-market purchases sold separately
+- **Hayrides:** Free · Every weekend through the end of the season · Fri 3–6 PM · Sat 9 AM–6 PM · Sun noon–6 PM · last ride to the patch at 5:30 PM
 - **Pumpkins:** As of early September, 2026 pricing had not been posted
 - **Pets:** Leashed pets welcome on the grounds, but not in edible crop areas or buildings; service dogs permitted throughout
 
@@ -217,7 +218,7 @@ The fall season includes three themed stretches: **Apple Pluckin’ Days** on **
 - **Drive from Zionsville:** ~30 min (18 miles NE)
 - **Highlights:** Headless Horseman hayride, dry tubing hill, shows; barrel train (48 in. max height)
 
-**Conner Prairie’s Headless Horseman Festival** runs **Thursday through Sunday, October 1–25, from 5–10 p.m.** Festival activities include the Headless Horseman hayride, barrel train, dry tubing hill, carnival games, shows and live performances. The barrel train is limited to riders **under 48 inches tall**. The **corn maze opens September 26** with a short maze and a long maze, both included with admission. During the festival, the long maze closes at dusk and the **Haunted Trail** opens after dark.
+**Conner Prairie’s Headless Horseman Festival** runs **Thursday through Sunday, October 1–25, from 5–10 p.m.** Festival activities include the Headless Horseman hayride, barrel train, dry tubing hill, carnival games, shows and live performances. The barrel train is limited to riders **under 48 inches tall**. The **corn maze** has a short maze and a long maze, both included with admission. During the festival, the long maze closes at dusk and the **Haunted Trail** opens after dark.
 
 The museum’s regular daytime historic village and farm areas close at 4 p.m. on festival days and are not open during the evening festival. Sensory boxes are available at the ticket gates.
 
@@ -485,12 +486,13 @@ Special events include **Howl at the Moon** on October 2, when pets are permitte
 - **Drive from Zionsville:** ~17 min (7 miles SE)
 - **Highlights:** Year-round café and espresso bar; urban farm with pumpkin patch and farm animals
 
-**Driving Wind Berry Farms** is an urban farm on the northwest side of Indianapolis with a café, small pumpkin patch, flower fields, picnic area, gift shop and animals including a pony, donkey and chickens. Its 2026 **Pumpkin Palooza** will be held **October 3 and 10**. Past events have included pumpkin picking, wagon rides, cider and cider donuts, mums, farm animals, vendors and bounce houses; as of September, additional 2026 activities had not been announced.
+**Driving Wind Berry Farms** is an urban farm on the northwest side of Indianapolis with a café, small pumpkin patch, flower fields, picnic area, gift shop and animals including a pony, donkey and chickens. Its **Pumpkin Palooza** runs two Saturdays in October, with admission charged per carload rather than per person. A **Halloween event** on October 31 from 11 a.m.–1 p.m. includes pumpkin painting, a costume contest and a pumpkin to take home.
 
-- **Pumpkin Palooza:** Sat, Oct. 3 & 10 · 8 AM–3 PM
+- **Pumpkin Palooza:** Sat, Oct. 3 & 10 · 8 AM–3 PM · $10 per carload
+- **Included:** Wagon rides · Bounce houses · Feeding and petting the animals
 - **Café:** Wed–Sat 8 AM–3 PM · espresso, smoothies, breakfast, lunch and house-made fruit popsicles
 - **Farm hours:** Separate hours for the rest of the property have not been posted
-- **Pumpkins:** Small pumpkin patch; as of September, 2026 picking and pricing details had not been announced
+- **Pumpkins:** Sold separately from Pumpkin Palooza admission
 
 [Driving Wind Farm website →](https://www.drivingwindberryfarm.com/)
 
@@ -538,15 +540,14 @@ Special events include **Howl at the Moon** on October 2, when pets are permitte
 
 - **Location:** [369 E. Greencastle Road, Mooresville, IN 46158](https://maps.app.goo.gl/ya7KSakkLqGyAR1Y7) · Morgan County
 - **Drive from Zionsville:** ~40 min (30 miles SW)
-- **Highlights:** Open 7 days a week; free Apple Festival & Craft Fair with 80+ vendors, Sept. 26–27
+- **Highlights:** Open 7 days a week; petting zoo Oct. 3–25 and Trunk or Treat Oct. 30
 
 **Anderson Orchard in Mooresville** grows nearly **30 apple varieties** across more than **100 acres**, with U-pick apples available daily during the season. The orchard also offers U-pick sunflowers, and its pumpkin patch opens in late September. Free children’s activities include a straw pile, swings, playground and education center. Apples and other produce are also available from the Apple Barn.
 
-The **Apple Festival & Craft Fair** runs **September 26–27**, rain or shine, with 80 or more crafters, food trucks, live music and picnic areas. A **petting zoo** runs October 3–25, and **Trunk or Treat** is October 30 from 6–9 p.m.
+A **petting zoo** runs October 3–25, and **Trunk or Treat** is October 30 from 6–9 p.m.
 
 - **Hours:** Daily 8 AM–8 PM or dark during September and October · U-pick closes at 7 PM
 - **Admission:** No admission or parking fee · pay for what you pick
-- **Apple Festival:** Free · crafter tent 10 AM–6 PM · live music noon–4 PM
 - **Food:** Weekend concession stand in September and October · cider slushes and caramel apples available daily
 - **Accessibility:** U-pick terrain varies but is generally manageable with a wheelchair or walker, according to Indy with Kids
 
@@ -569,7 +570,7 @@ The **country store** sells jams, jellies, take-and-bake pies, cheeses, sauces, 
   - Sun noon–6 PM
   - Closed Mon
 - **Admission:** No general admission · pay for what you pick
-- **U-pick:** As of Sept. 20, Jonagold apples available · pumpkin patch expected to open soon, with pre-picked pumpkins also sold at the farm store · U-pick flowers also available
+- **U-pick:** As of Sept. 27, the pumpkin patch and Jonagold apples are open for picking · pre-picked pumpkins also sold at the farm store · U-pick flowers also available
 - **Wagon rides:** Percheron horse-drawn wagon rides offered on weekends · tractor-drawn wagon rides available weekdays by advance arrangement
 - **Corn maze:** Offered some years but not announced for 2026
 
@@ -583,7 +584,7 @@ The **country store** sells jams, jellies, take-and-bake pies, cheeses, sauces, 
 - **Drive from Zionsville:** ~45 min (~35 miles SE)
 - **Highlights:** Free Saturday live music, weekend wagon rides to the pumpkin patch; Silly Safaris animal show Oct. 24
 
-**Pleasant View Orchard in Fairland** is a 40-acre orchard growing more than **30 apple varieties**. The **U-pick pumpkin patch opens September 26** and is available daily after that, with tractor-pulled wagon rides to the patch on weekends. A playground is also available for children.
+**Pleasant View Orchard in Fairland** is a 40-acre orchard growing more than **30 apple varieties**. The **U-pick pumpkin patch** is open daily, with tractor-pulled wagon rides to the patch on weekends. A playground is also available for children.
 
 The orchard hosts **free Saturday live music** September 26 and October 3, 10 and 17, generally from 2–5 p.m., along with **wine tastings** September 26 and October 17 from noon–6 p.m. **Silly Safaris** presents a live animal show **October 24 at 3 p.m.**, with a special treat for children who attend in costume.
 
