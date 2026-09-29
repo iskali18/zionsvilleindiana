@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-09-21"
+lastUpdated: "2026-09-28"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -175,8 +175,8 @@ Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations befo
 
 The 2026 schedule includes:
 
-* **September 19** — *1776*
-* **September 26** — *Hamilton*
+* **September 19** · *1776*
+* **September 26** · *Hamilton*
 
 Gates open at 7:00 PM and the movies begin at dusk. Pizza, popcorn, desserts and beverages are available for purchase.
 
@@ -249,9 +249,9 @@ Zionsville Parks & Recreation offers several smaller fall activities for people 
 
 The three-part [Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141) meets on Saturday mornings at different Zionsville parks:
 
-* **September 19** — Turkey Foot Park
-* **October 10** — Starkey Nature Park
-* **November 7** — Carpenter Nature Preserve
+* **September 19** · Turkey Foot Park
+* **October 10** · Starkey Nature Park
+* **November 7** · Carpenter Nature Preserve
 
 Naturalists help participants identify resident and migrating birds by sight and sound. Beginners are welcome, and each session is limited to 20 participants.
 
@@ -259,8 +259,8 @@ Naturalists help participants identify resident and migrating birds by sight and
 
 The [Campfire Concert Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30143) combines live music with an evening outdoors at Carpenter Nature Preserve.
 
-* **September 17** — Possum Jaw String Band
-* **October 8** — Squirrel Butter
+* **September 17** · Possum Jaw String Band
+* **October 8** · Squirrel Butter
 
 Both concerts run from 6:00–8:00 PM and include campfires, sunset views and concessions.
 
@@ -340,14 +340,14 @@ Fall brings both performing arts and athletics to Zionsville Community High Scho
 
 Zionsville Community High School has several performances scheduled at the STAR Bank Performing Arts Center this fall.
 
-* **September 29** — Fall Choral Concert
-* **October 5** — Fall Band Concert
-* **October 8** — Fall Orchestra Concert
-* **November 12–15** — *A Chorus Line: Teen Edition*
+* **September 29** · Fall Choral Concert
+* **October 5** · Fall Band Concert
+* **October 8** · Fall Orchestra Concert
+* **November 12–15** · *A Chorus Line: Teen Edition*
 
-*A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences.
+*A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences. Performances are Thursday through Saturday, November 12–14, at 7:00 p.m., and Sunday, November 15, at 2:00 p.m.
 
-Check the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php) for performance times and ticket availability as each event approaches.
+Check the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php?sections=events) for performance times and ticket availability as each event approaches.
 
 <figure className="my-8">
   <Image

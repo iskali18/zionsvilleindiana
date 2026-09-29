@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { notFound } from 'next/navigation'
+import { notFound, permanentRedirect } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import Header from '@/components/layout/Header'
@@ -221,6 +221,11 @@ export default async function EventPage({ params }: Props) {
   // renders. Without this the page sees the season's first date, so the
   // in-season banner shows on every day of the range, not just event days.
   const { meta: rawMeta, contentHtml } = data
+
+  // Card-only events have no page of their own. Send anyone who lands on
+  // /events/{slug} to the hub section instead. Outside the try/catch above,
+  // because permanentRedirect works by throwing.
+  if (rawMeta.linkTo) permanentRedirect(rawMeta.linkTo)
   const meta = resolveOccurrenceDates(rawMeta)
 
   return (

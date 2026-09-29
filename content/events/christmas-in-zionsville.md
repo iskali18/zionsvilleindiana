@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-09-16" 
+lastUpdated: "2026-09-28"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -25,11 +25,11 @@ faqs:
   - q: "What Christmas events are on December 5 in Zionsville?"
     a: "Saturday, December 5 has four: the Zionsville Showchoir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market and Selfies with Santa."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
-    a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center."
+    a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and as of late September, tickets for both are on sale."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night and the Christmas Crawl are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, David Ackerman Christmas Concert, both Nutcracker productions and Back to Bethlehem are ticketed. Admission details for the Zionsville Community High School holiday concerts and Women’s Christmas Tea have not yet been posted."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, the Christmas Crawl and The Bethlehem Beat are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, David Ackerman Christmas Concert, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed. As of late September, admission details for the Zionsville Community High School holiday concerts and Women’s Christmas Tea had not been posted."
   - q: "Where do Christmas events in Zionsville take place?"
-    a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. Concerts and ballet performances are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, and church events are at their own venues."
+    a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events, including the David Ackerman Christmas Concert, are at their own venues."
   - q: "Who organizes Christmas in the Village?"
     a: "The Zionsville Chamber of Commerce organizes Christmas in the Village, with individual events hosted by the Chamber, Main Street Zionsville, Zionsville Tri Kappa, Zionsville Parks & Recreation, and the Zionsville Show Choirs."
 ---
@@ -84,7 +84,7 @@ See the Chamber’s [Santa House Selfies page](https://business.zionsvillechambe
 
 **Saturday, December 5, 2026 · Ticketed**
 
-Presented by Zionsville Show Choirs and long known as the Carol of Homes, the event has traditionally featured festively decorated private residences in Zionsville with Zionsville Community High School show choir students performing holiday solos and small-group arrangements inside the homes.
+Presented by Zionsville Show Choirs and historically known as Carol of Homes, the tour has traditionally featured festively decorated private residences with Zionsville Community High School show choir students performing holiday solos and small-group arrangements inside.
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
@@ -93,7 +93,7 @@ Presented by Zionsville Show Choirs and long known as the Carol of Homes, the ev
   </figcaption>
 </figure>
 
-Main Street Zionsville lists the tour on its [2026 Christmas in the Village schedule](https://mainstreetzionsville.org/events). 2026 ticket information and tour details have not yet been released.
+Main Street Zionsville includes the tour on its [2026 Christmas in the Village schedule](https://mainstreetzionsville.org/events). As of late September, ticket information and other tour details had not been released.
 
 [↑ Back to schedule](#schedule)
 
@@ -101,7 +101,7 @@ Main Street Zionsville lists the tour on its [2026 Christmas in the Village sche
 
 **Saturday, December 5, 2026 · Ticketed**
 
-Zionsville Tri Kappa’s annual Santa Breakfast is scheduled for Saturday, December 5. Additional 2026 event details and ticket information have not yet been released.
+Zionsville Tri Kappa hosts its annual Santa Breakfast. As of late September, the organization had not released additional 2026 details or ticket information.
 
 Main Street Zionsville lists the breakfast on its [2026 Christmas in the Village schedule](https://mainstreetzionsville.org/events).
 
@@ -121,7 +121,7 @@ See the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest)
 
 **Thursday, December 10, 2026 · 5:00–9:00 p.m.**
 
-Ladies Night is an evening shopping and dining event hosted by the Zionsville Chamber of Commerce as part of Christmas in the Village. Participating businesses offer Ladies Night specials from 5:00 to 9:00 p.m. Between shopping stops, visitors can pause at local [Downtown Zionsville restaurants](/articles/downtown-zionsville-restaurants).
+Ladies Night is an evening shopping and dining event hosted by the Zionsville Chamber of Commerce as part of Christmas in the Village. Participating businesses offer Ladies Night specials, and visitors can stop at [Downtown Zionsville restaurants](/articles/downtown-zionsville-restaurants) for an appetizer, dinner, or dessert.
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/events/christmas-in-zionsville-town-tree.webp" alt="The official Zionsville town Christmas tree illuminated with warm lights and red and gold ornaments following the annual holiday parade." class="rounded-lg shadow-sm" />
@@ -130,7 +130,7 @@ Ladies Night is an evening shopping and dining event hosted by the Zionsville Ch
   </figcaption>
 </figure>
 
-See the Chamber’s [Ladies’ Night page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-ladies-night-1916400).
+See the Chamber’s [Ladies Night page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-ladies-night-1916400).
 
 [↑ Back to schedule](#schedule)
 
@@ -138,7 +138,7 @@ See the Chamber’s [Ladies’ Night page](https://business.zionsvillechamber.or
 
 **Thursday, December 17, 2026 · 5:00–9:00 p.m. · Ages 21+**
 
-The annual Christmas Crawl is an evening shopping and social event for guests ages 21 and older. Participating downtown shops and restaurants offer seasonal specials throughout the evening. An ugly sweater contest is scheduled for 8:00 p.m. at participating locations.
+The annual Christmas Crawl is an evening of shopping and socializing in Downtown Zionsville, with seasonal specials at local shops and restaurants. An ugly sweater contest begins at 8:00 p.m. at participating locations.
 
 See the Chamber’s [Christmas Crawl page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-christmas-crawl-1916452).
 
@@ -152,7 +152,7 @@ Several of the season’s larger events take place away from Main Street.
 
 **Friday, November 20 – Saturday, December 19, 2026 · SullivanMunce Cultural Center**
 
-SullivanMunce Cultural Center’s Teeny Tiny Art Market features original small-format artwork, with pieces measuring 6 by 6 inches or smaller. The market opens the week before Thanksgiving and continues through December 19.
+SullivanMunce Cultural Center’s Teeny Tiny Art Market features original artwork measuring 6 by 6 inches or smaller.
 
 See the [Teeny Tiny Art Market page](https://discoverboonecounty.com/events/event/teeny-tiny-art-market/).
 
@@ -164,13 +164,13 @@ See the [Teeny Tiny Art Market page](https://discoverboonecounty.com/events/even
 
 Zionsville Community High School’s performing arts groups have three holiday concerts scheduled:
 
-- **Orchestra Holiday Concert — Tuesday, December 1, 7:00 p.m.**
-- **Band Holiday Concert — Thursday, December 3, 7:00 p.m.**
-- **Choral Holiday Concert — Tuesday, December 8, 7:00 p.m.**
+- **Orchestra Holiday Concert · Tuesday, December 1 · 7:00 p.m.**
+- **Band Holiday Concert · Thursday, December 3 · 7:00 p.m.**
+- **Choral Holiday Concert · Tuesday, December 8 · 7:00 p.m.**
 
-The Performing Arts Center currently lists all three concerts as coming soon; ticket or admission details have not yet been posted.
+As of late September, the Performing Arts Center lists all three concerts as coming soon, and ticket sales for the Orchestra Holiday Concert begin November 18.
 
-Tickets and details are on the [STAR Bank PAC calendar](https://zionsvillepac.ludus.com/index.php).
+Tickets and details are on the [STAR Bank PAC calendar](https://zionsvillepac.ludus.com/index.php?sections=events).
 
 [↑ Back to schedule](#schedule)
 
@@ -188,16 +188,25 @@ See the [David Ackerman Christmas Concert page](https://www.zpc.org/event/244631
 
 Zionsville hosts two separate productions of *The Nutcracker* at the STAR Bank Performing Arts Center on consecutive December weekends.
 
-| Production | Dates | Performances |
-| --- | --- | --- |
-| **Central Indiana Dance Ensemble** | Fri.–Sun., Dec. 11–13 | Times to be announced |
-| **Metropolitan Youth Ballet** | Fri.–Sun., Dec. 18–20 | Dec. 18 at 7:30 p.m.; Dec. 19 at 2:00 and 7:30 p.m.; Dec. 20 at 2:00 p.m. |
+| Production | Performances |
+| --- | --- |
+| **Central Indiana Dance Ensemble** | Fri, Dec. 11 · 7:30 PM<br>Sat, Dec. 12 · 2 PM and 7:30 PM<br>Sun, Dec. 13 · 2 PM |
+| **Metropolitan Youth Ballet** | Fri, Dec. 18 · 7:30 PM<br>Sat, Dec. 19 · 2 PM and 7:30 PM<br>Sun, Dec. 20 · 2 PM |
 
-Central Indiana Dance Ensemble returns with its full-length production, following Clara through the Christmas party, the battle, the snow scene and the Land of Sweets. Individual performance times have not yet been published.
+**Central Indiana Dance Ensemble** presents its full-length production, following Clara through the Christmas party, the battle, the snow scene and the Land of Sweets.
 
-Metropolitan Youth Ballet presents a separate production the following weekend, with four performances. The company says tickets will be available in September, and the production runs approximately two hours including intermission.
+- **Tickets:** Adults $30 · Students 17 and younger $20 · Plus fees
+- **Relaxed matinees:** The 2:00 p.m. shows let audience members talk quietly and leave their seats if needed
+- **Live stream:** Both Saturday shows are also offered by live stream and video on demand
+- **Sugar Plum Fairy Dessert Party:** 12:30 p.m. before each matinee · $12 plus fee
 
-See [Central Indiana Dance Ensemble](https://www.cidedance.org/current-season) and [Metropolitan Youth Ballet](https://my-ballet.org/nutcracker/).
+**[Buy Central Indiana Dance Ensemble tickets](https://27486.danceticketing.com/r/events/)**
+
+**Metropolitan Youth Ballet** presents a separate production the following weekend.
+
+- **Tickets:** Adults $30 · Children 17 and younger, seniors 65 and older, and military $25 · Plus fees
+
+**[Buy Metropolitan Youth Ballet tickets](https://my-ballet.org/nutcracker/)**
 
 [↑ Back to schedule](#schedule)
 
@@ -225,7 +234,7 @@ Several Zionsville churches host Christmas programs open to visitors beyond thei
 
 **Saturday, December 12, 2026 · Zionsville Fellowship Church**
 
-Zionsville Fellowship Church’s annual Women’s Christmas Tea is open to women ages 12 and older, and the church encourages attendees to invite family members, neighbors and coworkers. The gathering includes a warm brunch, Christmas hymns, and personal stories centered on the Christian meaning of Christmas. The event time and registration details have not yet been published.
+Zionsville Fellowship Church’s annual Women’s Christmas Tea is open to women and girls ages 12 and older. The gathering includes brunch, Christmas hymns and personal stories centered on the Christian meaning of Christmas, and attendees are encouraged to invite family members, neighbors and coworkers. As of late September, the event time and registration details had not been published.
 
 See [Zionsville Fellowship Church’s women’s ministry page](https://www.zionsvillefellowship.org/ministries/women/).
 
@@ -245,9 +254,9 @@ The performance is **free and open to the public**.
 
 **Sunday, December 13, 2026 · 5:30–8:30 p.m. · Zionsville Presbyterian Church, 4775 W. 116th St.**
 
-Back to Bethlehem turns the Christmas story into a walk-through experience. Visitors travel past six theatrical and interactive scenes before reaching a Bethlehem Marketplace with activities and refreshments.
+Back to Bethlehem is a walk-through presentation of the Christmas story, with six theatrical and interactive scenes followed by a Bethlehem Marketplace with activities and refreshments.
 
-The tour takes about 30 minutes and runs on timed entry, with visitors asked to arrive 10 minutes before their scheduled time. Admission is **$5 per person, to a maximum of $20 per family**, including the marketplace activities and refreshments.
+The 30-minute tour uses timed entry, and guests are asked to arrive 10 minutes before their scheduled time. Admission is **$5 per person, with a maximum of $20 per family**.
 
 See the [Back to Bethlehem event page](https://www.zpc.org/event/24467474-2026-12-13-back-to-bethlehem/).
 

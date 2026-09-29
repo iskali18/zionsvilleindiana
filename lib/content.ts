@@ -184,6 +184,12 @@ export function formatOccurrenceList(
 
 // ─── Events ──────────────────────────────────────────────────────────────────
 
+/** Where an event's card should link: its own page, or the hub section named
+ *  in `linkTo` for card-only events. */
+export function eventHref(event: Pick<EventMeta, 'slug' | 'linkTo'>): string {
+  return event.linkTo ?? `/events/${event.slug}`
+}
+
 export function getAllEventSlugs(): string[] {
   return getSlugs('events')
 }

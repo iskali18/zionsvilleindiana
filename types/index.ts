@@ -83,6 +83,12 @@ export interface EventMeta {
     availability?: string
   }
   alternateName?: string[]
+  /** Card-only event. When set, the event's card (events page, homepage) and any
+   *  calendar entry matched to it link here instead of /events/{slug}, and
+   *  /events/{slug} redirects here. Use a section of a hub page, e.g.
+   *  "/events/christmas-in-zionsville#selfies-with-santa". The anchor comes from
+   *  the section heading, so update this if the heading is renamed. */
+  linkTo?: string
 }
 
 // ─── Park ────────────────────────────────────────────────────────────────────

@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import { getFeaturedEvents, getAllEvents, formatOccurrenceList } from '@/lib/content'
+import { getFeaturedEvents, getAllEvents, formatOccurrenceList, eventHref } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
@@ -51,6 +51,7 @@ export default async function EventsPage() {
   const allEvents = getAllEvents()
   const calendarEvents = await getUpcomingEvents(24)
   const allSlugs = allEvents.map((e) => e.slug)
+  const hrefBySlug = new Map(allEvents.map((e) => [e.slug, eventHref(e)]))
   // buildEventSchema returns null for an event with no location.
   const calendarSchemas = calendarEvents.map(buildEventSchema).filter(Boolean)
 
@@ -66,7 +67,7 @@ export default async function EventsPage() {
     itemListElement: featuredEvents.map((e, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: `https://zionsvilleindiana.com/events/${e.slug}`,
+      url: `https://zionsvilleindiana.com${eventHref(e)}`,
       name: e.title,
     })),
   }
@@ -117,7 +118,7 @@ export default async function EventsPage() {
               {firstRow.map((event) => (
                 <Link
                   key={event.slug}
-                  href={`/events/${event.slug}`}
+                  href={eventHref(event)}
                   className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
                 >
                   <div className="relative aspect-[16/9] bg-stone-100">
@@ -166,7 +167,7 @@ export default async function EventsPage() {
               {restRow.map((event) => (
                 <Link
                   key={event.slug}
-                  href={`/events/${event.slug}`}
+                  href={eventHref(event)}
                   className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
                 >
                   <div className="relative aspect-[16/9] bg-stone-100">
@@ -264,7 +265,7 @@ export default async function EventsPage() {
                     <div className="flex-1 min-w-0">
                       {matchedSlug ? (
                         <Link
-                          href={`/events/${matchedSlug}`}
+                          href={hrefBySlug.get(matchedSlug) ?? `/events/${matchedSlug}`}
                           className="font-medium text-stone-900 hover:text-brick-600 transition-colors line-clamp-1"
                         >
                           {event.title}

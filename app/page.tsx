@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import { getFeaturedEvents, formatOccurrenceList } from '@/lib/content'
+import { getFeaturedEvents, formatOccurrenceList, eventHref } from '@/lib/content'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 export const metadata: Metadata = {
@@ -241,7 +241,7 @@ export default function HomePage() {
             {events.map((event) => (
               <Link
                 key={event.slug}
-                href={`/events/${event.slug}`}
+                href={eventHref(event)}
                 className="group bg-white rounded-lg overflow-hidden border border-stone-200 hover:border-brick-300 hover:shadow-md transition-all"
               >
                 <div className="relative aspect-[16/9] bg-stone-100">
