@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import { getFeaturedEvents, getAllEvents, formatOccurrenceList, eventHref } from '@/lib/content'
+import { getFeaturedEvents, formatOccurrenceList, eventHref, getCalendarLinkTargets } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
@@ -48,10 +48,12 @@ function matchEventToSlug(eventTitle: string, slugs: string[]): string | undefin
 
 export default async function EventsPage() {
   const featuredEvents = getFeaturedEvents(30)
-  const allEvents = getAllEvents()
   const calendarEvents = await getUpcomingEvents(24)
-  const allSlugs = allEvents.map((e) => e.slug)
-  const hrefBySlug = new Map(allEvents.map((e) => [e.slug, eventHref(e)]))
+  // Includes series items whose cards aren't showing yet, so their calendar
+  // entries still link.
+  const linkTargets = getCalendarLinkTargets()
+  const allSlugs = linkTargets.map((t) => t.slug)
+  const hrefBySlug = new Map(linkTargets.map((t) => [t.slug, t.href]))
   // buildEventSchema returns null for an event with no location.
   const calendarSchemas = calendarEvents.map(buildEventSchema).filter(Boolean)
 

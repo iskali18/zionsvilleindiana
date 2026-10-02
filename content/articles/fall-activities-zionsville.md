@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-09-28"
+lastUpdated: "2026-10-01"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -17,8 +17,6 @@ ctas:
 faqs:
   - q: "What is there to do in Zionsville in the fall?"
     a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities throughout September, October and November. Scheduled events include 80s Night, the Zionsville Street Dance, GhostWalk, Pumpkinfest, Oktoberfest, Gallery On & Off Main, Fright Nights, Pumpkins & Hayrides and Smashin’ Pumpkins."
-  - q: "When does the Zionsville Farmers Market end for the season?"
-    a: "The Zionsville Farmers Market continues on Saturday mornings through September 26, 2026. The final market of the season also includes pumpkin painting."
   - q: "What fall races take place in Zionsville?"
     a: "Three community running events take place from October through Thanksgiving: Hit the Bricks on October 3 with a timed 5K and untimed 3K, the Zionsville Half Marathon & 5K on November 21, and the Gravy Chase on Thanksgiving morning, November 26."
   - q: "Where can I see fall colors in Zionsville?"
@@ -110,21 +108,9 @@ See the [Oktoberfest event guide](/events/oktoberfest) for the menu and schedule
 
 **Pumpkins & Hayrides** returns to Lions Park on **October 25 from 2:00–5:00 PM** for a free afternoon of fall activities.
 
-The event includes **hayrides, free pumpkins for painting while supplies last, Bach to Rock, Mr. Daniel’s Music, Master Yoo’s Taekwondo, bounce houses, games and food**. A kids costume contest begins at **4:00 PM**, and parking in Lions Park is free for the event.
+The event includes **hayrides, free pumpkins for painting while supplies last, Bach to Rock, Mr Daniel’s Music, Master Yoo’s Taekwondo, bounce houses, games and food**. A kids costume contest begins at **4:00 PM**, and parking in Lions Park is free for the event.
 
 [See the full Pumpkins & Hayrides event guide.](/events/pumpkins-hayrides)
-
-[↑ Back to activities](#at-a-glance)
-
-## Dance on Main Street
-
-**Saturday, September 26, 2026 · 6:00–10:00 p.m., gates at 5:00 p.m.**
-
-The Zionsville Street Dance returns to Main Street with The Janeways followed by The Flying Toasters. Normally a summer event, the 2026 dance was rescheduled to September after the August date was cancelled.
-
-This is a scaled-down makeup event and does not include a children’s area. Tickets are required.
-
-See the [Street Dance event guide](/events/street-dance) for tickets and details.
 
 [↑ Back to activities](#at-a-glance)
 
@@ -137,16 +123,6 @@ Zionsville Parks & Recreation runs a Trick-or-Treat Trail through Elm Street Gre
 Admission is $5 for residents and $7 for nonresidents. Registration opens October 1 and the event sells out each year.
 
 See the [Trick or Trees event guide](/events/trick-or-trees) for registration and parking.
-
-[↑ Back to activities](#at-a-glance)
-
-## Step Back to 80s Night
-
-**Thursday, September 17, 2026 · from 5:00 p.m.**
-
-Downtown Zionsville turns to the 1980s for an evening of music, fashion and pop culture along Main Street, with themed activities at participating businesses.
-
-See the [80s Night event guide](/events/80s-night) for details.
 
 [↑ Back to activities](#at-a-glance)
 
@@ -166,34 +142,6 @@ See the [80s Night event guide](/events/80s-night) for details.
 Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations before the pieces are collected for composting. The **Epic Pumpkin Drop** is one of the main attractions, with Zionsville firefighters raising pumpkins on a ladder truck and dropping them from above for a dramatic smash.
 
 [See the complete Smashin’ Pumpkins event guide.](/events/smashin-pumpkins)
-
-[↑ Back to activities](#at-a-glance)
-
-## Watch a Movie at Maplelawn Farmstead
-
-**Movies at Maplelawn** brings outdoor movie nights to the historic Maplelawn Farmstead, with films projected directly onto the barn. Visitors can bring blankets or lawn chairs for seating on the lawn.
-
-The 2026 schedule includes:
-
-* **September 19** · *1776*
-* **September 26** · *Hamilton*
-
-Gates open at 7:00 PM and the movies begin at dusk. Pizza, popcorn, desserts and beverages are available for purchase.
-
-[See the full Movies at Maplelawn event guide.](/events/movies-at-maplelawn)
-
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-movies-at-maplelawn.webp"
-    alt="White wooden historic barns at Maplelawn Farmstead framed by orange daylilies under an evening sky in Zionsville, Indiana."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    The white barns and historic grounds at Maplelawn Farmstead. <span className="not-italic">© ZionsvilleIndiana.com</span>
-  </figcaption>
-</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -245,36 +193,41 @@ The event is the **Boys & Girls Club of Boone County’s largest annual fundrais
 
 Zionsville Parks & Recreation offers several smaller fall activities for people who want to spend time outside, learn about local wildlife, or enjoy an evening in the parks.
 
-### Fall Birding Series
+### Oct. 8 · 6:00–8:00 PM · Campfire Concert · Mr Daniel and Friends {#campfire-concert-series}
 
-The three-part [Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141) meets on Saturday mornings at different Zionsville parks:
+Spend an early fall evening at Carpenter Nature Preserve with a free outdoor performance by Mr Daniel and Friends. The concert takes place in the preserve’s outdoor amphitheater, with campfires and sunset views adding to the setting. Concessions will be available for purchase, and all participants must register.
 
-* **September 19** · Turkey Foot Park
-* **October 10** · Starkey Nature Park
-* **November 7** · Carpenter Nature Preserve
+**[Register for the Campfire Concert](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30143)**
 
-Naturalists help participants identify resident and migrating birds by sight and sound. Beginners are welcome, and each session is limited to 20 participants.
+### Oct. 10 · Fall Birding Series {#fall-birding-starkey}
 
-### Campfire Concert Series
+Fall migration brings both resident and migratory birds to Zionsville’s parks. Join a Zionsville Parks naturalist for a morning walk at Starkey Nature Park and learn techniques for identifying birds by sight and sound. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
 
-The [Campfire Concert Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30143) combines live music with an evening outdoors at Carpenter Nature Preserve.
+**[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
 
-* **September 17** · Possum Jaw String Band
-* **October 8** · Squirrel Butter
+### Oct. 16 · Night Hike {#night-hike}
 
-Both concerts run from 6:00–8:00 PM and include campfires, sunset views and concessions.
+See Carpenter Nature Preserve from a different perspective after the sun goes down. A Zionsville Parks naturalist will introduce some of the native nocturnal animals that navigate the preserve in darkness, while participants test how well their own senses work along the nighttime trail. Ages 5 and up.
 
-### Night Hike
+**[Register for the Night Hike](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29844)**
 
-On **October 16**, a guided [Night Hike](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29844) at Carpenter Nature Preserve explores how nocturnal animals navigate after dark. Participants also use their own senses to experience the park differently once daylight disappears.
+### Nov. 7 · Fall Birding Series {#fall-birding-carpenter}
 
-### Owl Prowl
+Continue the Fall Birding Series with a November walk through Carpenter Nature Preserve, looking for resident and migratory birds and practicing identification by sight and sound with a Zionsville Parks naturalist. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
 
-The [Owl Prowl](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30009) on **November 13** focuses on owl species found around Zionsville. After learning about local owls, participants head into Carpenter Nature Preserve with a naturalist to listen and look for them.
+**[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
 
-### Fall Campfire
+### Nov. 13 · Owl Prowl {#owl-prowl}
 
-The [Fall Campfire](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30150) on **November 21** at Carpenter Nature Preserve includes a sunset walk looking for animals active around dusk followed by marshmallow roasting around the campfire.
+Late fall is a good time to search for owls in Zionsville. Learn about the different owls found locally before heading into Carpenter Nature Preserve with a naturalist to look and listen for them in the wild. Ages 6 and up. Dress for the weather and wear sturdy shoes or boots; flashlights must be covered with a red wrap to protect night vision.
+
+**[Register for the Owl Prowl](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30009)**
+
+### Nov. 21 · Fall Campfire {#fall-campfire}
+
+Start around sunset with a walk through Carpenter Nature Preserve to see which animals are active as daylight fades. After exploring the preserve, gather around the campfire to roast marshmallows and finish the evening outdoors. Ages 3 and up.
+
+**[Register for the Fall Campfire](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30150)**
 
 [Browse all Zionsville Parks & Recreation programs](https://zionsvillein.myrec.com/info/activities/default.aspx).
 
@@ -293,23 +246,12 @@ The [Fall Campfire](https://zionsvillein.myrec.com/info/activities/program_detai
 
 [↑ Back to activities](#at-a-glance)
 
-## Visit the Zionsville Farmers Market
-
-The **Zionsville Farmers Market** continues on Saturday mornings through September 26, giving visitors a few more chances to shop the market as the season shifts into fall.
-
-Vendors offer produce, baked goods, prepared foods, flowers and other locally made items, with live music and activities throughout the morning. The final market on **September 26** includes **Pumpkin Painting with MyArt**, a Zionsville art studio that offers classes, camps and creative programs for children and adults.
-
-[See the full Zionsville Farmers Market schedule and details.](/events/farmers-market)
-
-[↑ Back to activities](#at-a-glance)
-
 ## Enjoy the SFZ Concert Series
 
-The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with three Sunday afternoon performances:
+The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with two Sunday afternoon performances:
 
 | Date | Artist | Program |
 | --- | --- | --- |
-| **September 13 · 4:00 PM** | **Phil Pierick, saxophone** | ***Chicago Bagatelles Project***<br>Music for solo saxophone from Bach to today. |
 | **October 11 · 4:00 PM** | **Becky Archibald and Friends** | ***Wango Tzango Sfortzango!***<br>Original violin-and-piano tangos with Indianapolis Symphony Orchestra violinist Bryson Karrer, plus jazz trios with a small combo, celebrating Archibald’s new album *Tango for Disobedient Beasts*. |
 | **November 1 · 4:00 PM** | **Alec Holcomb** | ***A Panorama of Classical Guitar Music***<br>Familiar favorites, overlooked gems and rarely heard works that show the range of the classical guitar, including music adapted from other instruments. |
 
@@ -340,12 +282,17 @@ Fall brings both performing arts and athletics to Zionsville Community High Scho
 
 Zionsville Community High School has several performances scheduled at the STAR Bank Performing Arts Center this fall.
 
-* **September 29** · Fall Choral Concert
-* **October 5** · Fall Band Concert
-* **October 8** · Fall Orchestra Concert
-* **November 12–15** · *A Chorus Line: Teen Edition*
+**October 5** · Fall Band Concert
 
-*A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences. Performances are Thursday through Saturday, November 12–14, at 7:00 p.m., and Sunday, November 15, at 2:00 p.m.
+ZCHS band students take the stage for their first major concert of the school year, presenting a program of selected works developed during the opening weeks of the fall semester. The concert offers an early-season look at the school’s instrumental music program.
+
+**October 8** · Fall Orchestra Concert
+
+ZCHS orchestra students present selected works from their fall repertoire in an evening performance. The concert highlights the orchestra program early in the school year.
+
+**November 12–15** · *A Chorus Line: Teen Edition*
+
+*A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences. The musical follows a group of dancers auditioning for spots in a Broadway chorus line as they share stories about their lives, ambitions and experiences as performers. Performances are Thursday through Saturday, November 12–14, at 7:00 p.m., and Sunday, November 15, at 2:00 p.m.
 
 Check the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php?sections=events) for performance times and ticket availability as each event approaches.
 

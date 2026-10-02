@@ -184,14 +184,108 @@ export function formatOccurrenceList(
 
 // ─── Events ──────────────────────────────────────────────────────────────────
 
+// ─── Series ──────────────────────────────────────────────────────────────────
+
+/** How far ahead a series shows its events, and the default number of cards. */
+const SERIES_WINDOW_DAYS = 14
+const SERIES_DEFAULT_MAX_CARDS = 3
+
+function slugify(text: string): string {
+  return text
+    .toLowerCase()
+    .replace(/&/g, ' and ')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+/**
+ * Turns a series file into one card per item. Shows the items that start in
+ * the next SERIES_WINDOW_DAYS days, up to `maxCards`. When none fall in that
+ * window, shows only the next one, so the series never drops out between
+ * dates. Items that have ended drop off; once all have, the series is gone.
+ * Each card gets a slug from its own title, so calendar entries can match it.
+ * With `windowed` false, returns every upcoming item (used for calendar links).
+ */
+function expandSeries(series: EventMeta, today: Date, windowed = true): EventMeta[] {
+  const toIso = (v: string | Date): string =>
+    v instanceof Date
+      ? `${v.getFullYear()}-${String(v.getMonth() + 1).padStart(2, '0')}-${String(v.getDate()).padStart(2, '0')}`
+      : v
+
+  const windowEnd = new Date(today)
+  windowEnd.setDate(windowEnd.getDate() + SERIES_WINDOW_DAYS)
+
+  const upcoming = (series.items ?? [])
+    .map((item) => ({ ...item, date: toIso(item.date), endDate: item.endDate ? toIso(item.endDate) : undefined }))
+    .filter((item) => new Date((item.endDate ?? item.date) + 'T23:59:59') >= today)
+    .sort((a, b) => a.date.localeCompare(b.date))
+
+  const inWindow = upcoming.filter((item) => new Date(item.date + 'T00:00:00') <= windowEnd)
+  const shown = !windowed
+    ? upcoming
+    : inWindow.length
+    ? inWindow.slice(0, series.maxCards ?? SERIES_DEFAULT_MAX_CARDS)
+    : upcoming.slice(0, 1)
+
+  const used = new Set<string>()
+  return shown.map((item) => {
+    let slug = slugify(item.title)
+    for (let n = 2; used.has(slug); n++) slug = `${slugify(item.title)}-${n}`
+    used.add(slug)
+
+    return {
+      ...series,
+      slug,
+      seriesSlug: series.slug,
+      title: item.title,
+      startDate: item.date,
+      endDate: item.endDate,
+      description: item.description ?? series.description,
+      location: item.location ?? series.location,
+      image: item.image ?? series.image,
+      imageAlt: item.imageAlt ?? series.imageAlt,
+      photoCredit: item.photoCredit ?? series.photoCredit,
+      showOnHomepage: item.showOnHomepage ?? series.showOnHomepage,
+      // Fall back to the series page, which exists, never the item's own slug.
+      linkTo: item.linkTo ?? series.linkTo ?? `/events/${series.slug}`,
+      items: undefined,
+      occurrences: undefined,
+      recurrenceLabel: undefined,
+      recurrence: undefined,
+    }
+  })
+}
+
 /** Where an event's card should link: its own page, or the hub section named
  *  in `linkTo` for card-only events. */
 export function eventHref(event: Pick<EventMeta, 'slug' | 'linkTo'>): string {
   return event.linkTo ?? `/events/${event.slug}`
 }
 
+/** Every event and every upcoming series item, with where it links. The
+ *  Google Calendar list on the events page matches its entries against these,
+ *  so an item links even before its card is showing. */
+export function getCalendarLinkTargets(): Array<{ slug: string; href: string }> {
+  const now = new Date()
+  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+
+  const events = getAllEvents().filter((e) => !e.seriesSlug)
+  const seriesItems = getSlugs('events')
+    .map((slug) => ({ slug, ...readFile('events', slug).data }) as EventMeta)
+    .filter((e) => e.items?.length)
+    .flatMap((e) => expandSeries(e, today, false))
+
+  return [...events, ...seriesItems].map((e) => ({ slug: e.slug, href: eventHref(e) }))
+}
+
 export function getAllEventSlugs(): string[] {
   return getSlugs('events')
+}
+
+/** Event files that have a page of their own. Leaves out card-only and series
+ *  files (those with `linkTo`), whose /events/{slug} address only redirects. */
+export function getEventPageSlugs(): string[] {
+  return getSlugs('events').filter((slug) => !readFile('events', slug).data.linkTo)
 }
 
 export function getAllEvents(): EventMeta[] {
@@ -203,6 +297,8 @@ export function getAllEvents(): EventMeta[] {
       const { data } = readFile('events', slug)
       return { slug, ...data } as EventMeta
     })
+    // Series files become one card per upcoming item.
+    .flatMap((e) => (e.items?.length ? expandSeries(e, today) : [e]))
     // Resolve recurrence: replace startDate with next occurrence for recurring events.
     // Drop recurring events that have ended for the season.
     .map((e) => applyRecurrence(e, today))
@@ -226,12 +322,15 @@ function timeOfDay(event: EventMeta): string {
   return event.startDateTime?.slice(11, 16) ?? '99:99'
 }
 
-export function getFeaturedEvents(limit = 3): EventMeta[] {
+/** Pass `{ homepage: true }` from the homepage: it drops events with
+ *  `showOnHomepage: false` and lists at most one card per series, so a series
+ *  can't fill the few slots there. The events page passes nothing. */
+export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {}): EventMeta[] {
   const now = new Date()
   const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
 
   // getAllEvents() already resolves recurrence and sorts by resolved startDate
-  const all = getAllEvents()
+  const all = getAllEvents().filter((e) => !options.homepage || e.showOnHomepage !== false)
 
   // 1. Featured events that have not finished yet (not perennials).
   //    Compare against endDate, not startDate — a multi-day event is still
@@ -243,6 +342,7 @@ export function getFeaturedEvents(limit = 3): EventMeta[] {
         !e.perennial &&
         new Date((e.endDate ?? e.startDate) + 'T23:59:59') >= today
     )
+    .filter(seriesCap(options.homepage ? 1 : undefined))
     .slice(0, limit)
 
   if (upcoming.length >= limit) return upcoming
@@ -258,6 +358,17 @@ export function getFeaturedEvents(limit = 3): EventMeta[] {
 
   const fillSlots = limit - upcoming.length
   return [...upcoming, ...sortedPerennials.slice(0, fillSlots)]
+}
+
+/** Filter that keeps at most `max` cards per series, in list order. */
+function seriesCap(max?: number) {
+  const seen = new Map<string, number>()
+  return (e: EventMeta): boolean => {
+    if (!max || !e.seriesSlug) return true
+    const count = seen.get(e.seriesSlug) ?? 0
+    seen.set(e.seriesSlug, count + 1)
+    return count < max
+  }
 }
 
 function daysUntilNext(mmdd: string): number {

@@ -89,6 +89,38 @@ export interface EventMeta {
    *  "/events/christmas-in-zionsville#selfies-with-santa". The anchor comes from
    *  the section heading, so update this if the heading is renamed. */
   linkTo?: string
+  /** Series of separate events, each shown as its own card. A series file
+   *  lists them here instead of using startDate/occurrences. Each item takes
+   *  any field it leaves out (image, location, description, linkTo…) from the
+   *  series. getAllEvents() turns each item into a card, showing only those
+   *  in the next 14 days, up to `maxCards`. Keep `linkTo` on the series too, so
+   *  /events/{slug} redirects to the combined section. */
+  items?: EventSeriesItem[]
+  /** Set to false to keep this event's card off the homepage. It still shows
+   *  on the events page. Defaults to true. On a series, applies to every item
+   *  unless an item sets its own. */
+  showOnHomepage?: boolean
+  /** Most cards a series shows at once. Defaults to 3. */
+  maxCards?: number
+  /** Set by getAllEvents() on cards made from a series: the series file's slug.
+   *  Not written in frontmatter. */
+  seriesSlug?: string
+}
+
+/** One event in a series. Only title, date and linkTo are required. */
+export interface EventSeriesItem {
+  title: string
+  /** YYYY-MM-DD */
+  date: string
+  /** YYYY-MM-DD, for an item that runs several days (e.g. a musical). */
+  endDate?: string
+  linkTo?: string
+  description?: string
+  location?: string
+  image?: string
+  imageAlt?: string
+  photoCredit?: string
+  showOnHomepage?: boolean
 }
 
 // ─── Park ────────────────────────────────────────────────────────────────────

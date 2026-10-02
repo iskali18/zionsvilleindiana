@@ -128,7 +128,7 @@ const featuredGuides = [
 ]
 
 export default function HomePage() {
-  const events = getFeaturedEvents(6)
+  const events = getFeaturedEvents(6, { homepage: true })
 
   return (
     <>

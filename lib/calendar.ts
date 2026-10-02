@@ -30,6 +30,13 @@ const OFFICIAL_URLS: Record<string, string> = {
   'eagle church trunk or treat': 'https://www.eaglechurch.com/event/24457369-2026-10-24-trunk-or-treat-2026/',
   'zionsville presbyterian church trunk or treat':'https://www.zpc.org/event/24474648-2026-10-25-trunk-or-treat-2026/',
   'nightmare at elm street: a luminary walk':'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147',
+  'mr daniel & friends campfire concert': 'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30143',
+  'night hike at carpenter nature preserve': 'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29844',
+  'fall birding at starkey park': 'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141',
+  'fall birding at carpenter nature preserve': 'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141',
+  'owl prowl at carpenter nature preserve': 'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30009',
+  'fall campfire at carpenter nature preserve': 'https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30150',
+  'zchs fall musical': 'https://zionsvillepac.ludus.com/index.php?sections=events',
 }
 
 /** Calendar titles are typed by hand, so an apostrophe may arrive curly or
