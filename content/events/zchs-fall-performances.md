@@ -15,16 +15,19 @@ items:
   - title: "ZCHS Fall Choral Concert"
     date: "2026-09-29"
     description: "The Zionsville Community High School's choir performs its fall concert."
+    showOnHomepage: false
   - title: "ZCHS Fall Band Concert"
     date: "2026-10-05"
     description: "The Zionsville Community High School's band performs its fall concert."
     image: /images/events/zchs-band-concert-960w.webp
     imageAlt: "Close-up of a silver trumpet with musicians and music stands blurred in the background."
+    showOnHomepage: false
   - title: "ZCHS Fall Orchestra Concert"
     date: "2026-10-08"
     description: "The Zionsville Community High School's orchestra performs its fall concert."
     image: /images/events/zchs-orchestra-concert-960w.webp
     imageAlt: "Orchestra musicians performing on violin and cello."
+    showOnHomepage: false
   - title: "A Chorus Line: Teen Edition"
     date: "2026-11-12"
     endDate: "2026-11-15"
@@ -32,4 +35,5 @@ items:
     image: /images/articles/fall-activities-zionsville-zchs-pac-performance.webp
     imageAlt: "Zionsville Community High School students performing a musical on stage at the STAR Bank Performing Arts Center."
     photoCredit: "Photo by STAR Bank Performing Arts Center"    
+    showOnHomepage: false
 ---
