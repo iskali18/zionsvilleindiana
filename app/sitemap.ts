@@ -3,6 +3,9 @@ import { getEventPageSlugs, getAllBusinessSlugs, getAllParkSlugs, getAllArticleS
 
 const BASE = 'https://zionsvilleindiana.com'
 
+/** Park pages aren't live yet. Set to true at launch to list them here. */
+const PARKS_LIVE = false
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const eventSlugs = getEventPageSlugs()
   const businessSlugs = getAllBusinessSlugs()
@@ -54,5 +57,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }))
 
-  return [...staticRoutes, ...eventRoutes, ...businessRoutes, ...parkRoutes, ...articleRoutes]
+  return [
+    ...staticRoutes,
+    ...eventRoutes,
+    ...businessRoutes,
+    ...(PARKS_LIVE ? parkRoutes : []),
+    ...articleRoutes,
+  ]
 }

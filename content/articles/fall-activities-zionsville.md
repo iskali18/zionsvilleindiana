@@ -195,35 +195,35 @@ Zionsville Parks & Recreation offers several smaller fall activities for people 
 
 ### Oct. 8 · 6:00–8:00 PM · Campfire Concert · Mr Daniel and Friends {#campfire-concert-series}
 
-Spend an early fall evening at Carpenter Nature Preserve with a free outdoor performance by Mr Daniel and Friends. The concert takes place in the preserve’s outdoor amphitheater, with campfires and sunset views adding to the setting. Concessions will be available for purchase, and all participants must register.
+Spend an early fall evening at Carpenter Nature Preserve with a free outdoor performance by Mr Daniel and Friends. Mr Daniel is an Indianapolis-area children’s musician who performs at family and youth events around Central Indiana. The concert takes place in the preserve’s outdoor amphitheater, with campfires and sunset views adding to the setting. Concessions will be available for purchase, and all participants must register.
 
 **[Register for the Campfire Concert](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30143)**
 
-### Oct. 10 · Fall Birding Series {#fall-birding-starkey}
+### Oct. 10 · 9:00–10:00 AM · Fall Birding Series {#fall-birding-starkey}
 
 Fall migration brings both resident and migratory birds to Zionsville’s parks. Join a Zionsville Parks naturalist for a morning walk at Starkey Nature Park and learn techniques for identifying birds by sight and sound. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
 
 **[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
 
-### Oct. 16 · Night Hike {#night-hike}
+### Oct. 16 · 7:00–8:00 PM · Night Hike {#night-hike}
 
 See Carpenter Nature Preserve from a different perspective after the sun goes down. A Zionsville Parks naturalist will introduce some of the native nocturnal animals that navigate the preserve in darkness, while participants test how well their own senses work along the nighttime trail. Ages 5 and up.
 
 **[Register for the Night Hike](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29844)**
 
-### Nov. 7 · Fall Birding Series {#fall-birding-carpenter}
+### Nov. 7 · 9:00–10:00 AM · Fall Birding Series {#fall-birding-carpenter}
 
 Continue the Fall Birding Series with a November walk through Carpenter Nature Preserve, looking for resident and migratory birds and practicing identification by sight and sound with a Zionsville Parks naturalist. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
 
 **[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
 
-### Nov. 13 · Owl Prowl {#owl-prowl}
+### Nov. 13 · 5:30–6:30 PM · Owl Prowl {#owl-prowl}
 
 Late fall is a good time to search for owls in Zionsville. Learn about the different owls found locally before heading into Carpenter Nature Preserve with a naturalist to look and listen for them in the wild. Ages 6 and up. Dress for the weather and wear sturdy shoes or boots; flashlights must be covered with a red wrap to protect night vision.
 
 **[Register for the Owl Prowl](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30009)**
 
-### Nov. 21 · Fall Campfire {#fall-campfire}
+### Nov. 21 · 5:00–6:30 PM · Fall Campfire {#fall-campfire}
 
 Start around sunset with a walk through Carpenter Nature Preserve to see which animals are active as daylight fades. After exploring the preserve, gather around the campfire to roast marshmallows and finish the evening outdoors. Ages 3 and up.
 
