@@ -12,8 +12,8 @@ endDateTime: "2026-10-24T20:00:00-04:00"
 location: "Main Street, Zionsville"
 address: "Main Street"
 externalUrl: "https://mainstreetzionsville.org/art-walk"
-image: /images/events/gallery-on-and-off-main-zionsville.webp
-imageAlt: "A visitor admiring colorful floral and abstract oil paintings displayed on a concrete wall inside an art gallery."
+image: /images/events/gallery-on-and-off-main-zionsville-v2.webp
+imageAlt: "Ornate gold picture frames displaying blue artwork on a white gallery wall."
 featured: true
 tags: [art, shopping, free, downtown, fall]
 lastUpdated: "2026-09-10"

@@ -1,5 +1,5 @@
 ---
-title: "Zionsville Fire Department Pancake Day 2026"
+title: "Fire Department Pancake Day"
 alternateName: ["Pancake Day", "ZFD Pancake Day", "Zionsville Pancake Day", "Zionsville Fire Department Pancake Breakfast"]
 description: "The Zionsville Fire Department’s 41st annual Pancake Day, an all-you-can-eat breakfast at Station 91 on Saturday, October 3, 2026, from 6 to 11 a.m."
 metaTitle: "Zionsville Fire Department Pancake Day 2026 | Oct. 3"
