@@ -13,6 +13,22 @@ import type { EventMeta, ParkMeta, BusinessMeta, ArticleMeta } from '@/types'
 
 const contentDir = path.join(process.cwd(), 'content')
 
+// ─── Indiana time ────────────────────────────────────────────────────────────
+
+/** The current date and time in Indianapolis. Vercel runs in UTC, where the
+ *  date turns over at 8 p.m. Indiana time (7 p.m. in winter); reading the clock
+ *  here keeps event dates on local time, so dev and prod agree. */
+export function indianaNow(): Date {
+  return new Date(new Date().toLocaleString('en-US', { timeZone: 'America/Indiana/Indianapolis' }))
+}
+
+/** Midnight at the start of today, Indianapolis time. An event's card stays up
+ *  through the end of its date here, not until 8 p.m. */
+export function indianaToday(): Date {
+  const now = indianaNow()
+  return new Date(now.getFullYear(), now.getMonth(), now.getDate())
+}
+
 // ─── Generic helpers ─────────────────────────────────────────────────────────
 
 function getContentDir(section: string) {
@@ -154,7 +170,7 @@ function applyRecurrence(event: EventMeta, today: Date): EventMeta | null {
  */
 export function formatOccurrenceList(
   occurrences: Array<string | Date>,
-  today: Date = new Date(),
+  today: Date = indianaToday(),
   max = 3
 ): string | null {
   const toIso = (v: string | Date): string =>
@@ -266,8 +282,7 @@ export function eventHref(event: Pick<EventMeta, 'slug' | 'linkTo'>): string {
  *  Google Calendar list on the events page matches its entries against these,
  *  so an item links even before its card is showing. */
 export function getCalendarLinkTargets(): Array<{ slug: string; href: string }> {
-  const now = new Date()
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  const today = indianaToday()
 
   const events = getAllEvents().filter((e) => !e.seriesSlug)
   const seriesItems = getSlugs('events')
@@ -289,8 +304,7 @@ export function getEventPageSlugs(): string[] {
 }
 
 export function getAllEvents(): EventMeta[] {
-  const now = new Date()
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  const today = indianaToday()
 
   return getSlugs('events')
     .map((slug) => {
@@ -326,8 +340,7 @@ function timeOfDay(event: EventMeta): string {
  *  `showOnHomepage: false` and lists at most one card per series, so a series
  *  can't fill the few slots there. The events page passes nothing. */
 export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {}): EventMeta[] {
-  const now = new Date()
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  const today = indianaToday()
 
   // getAllEvents() already resolves recurrence and sorts by resolved startDate
   const all = getAllEvents().filter((e) => !options.homepage || e.showOnHomepage !== false)
@@ -373,7 +386,7 @@ function seriesCap(max?: number) {
 
 function daysUntilNext(mmdd: string): number {
   const [month, day] = mmdd.split('-').map(Number)
-  const now = new Date()
+  const now = indianaNow()
   const thisYear = new Date(now.getFullYear(), month - 1, day)
   if (thisYear >= now) return thisYear.getTime() - now.getTime()
   // Already passed this year — use next year

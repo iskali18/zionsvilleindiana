@@ -8,9 +8,9 @@ startDateTime: "2026-10-10T09:00:00-04:00"
 endDateTime: "2026-10-13T17:00:00-04:00"
 location: "Mulberry Fields"
 address: "9645 Whitestown Rd"
-image: /images/events/tuff-nutterz-inflatable-obstacle-course-zionsville-hero.webp
-imageAlt: "Large blue and yellow inflatable obstacle course under a sunny sky."
-hero_position: "center 30%"
+image: /images/events/tuff-nutterz-inflatable-obstacle-course-zionsville-hero-v2.webp
+imageAlt: "Aerial view of a massive blue, green, and yellow Tuff Nutterz inflatable obstacle course set up on a grassy lawn with white event tents in the foreground."
+hero_position: "center 40%"
 tags: [family, outdoors]
 externalUrl: "https://www.tuffnutterz.us/zionsville"
 mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=1-GVGx3pe2XWr6tvO-nVu1ndj-jXfTA8&ehbc=2E312F"

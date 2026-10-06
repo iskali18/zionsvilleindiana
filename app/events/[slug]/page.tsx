@@ -9,7 +9,7 @@ import EventEndedBanner, { hasEnded } from '@/components/EventEndedBanner'
 import EventInSeasonBanner from '@/components/EventInSeasonBanner'
 import FaqSection from '@/components/FaqSection'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
-import { getAllEventSlugs, getEvent } from '@/lib/content'
+import { getAllEventSlugs, getEvent, indianaToday } from '@/lib/content'
 import ChristmasEventTable from '@/components/ChristmasEventTable'
 
 interface Props {
@@ -58,8 +58,7 @@ function nextOccurrence(occurrences: Array<string | Date>): string | null {
       ? `${v.getFullYear()}-${String(v.getMonth() + 1).padStart(2, '0')}-${String(v.getDate()).padStart(2, '0')}`
       : v
 
-  const now = new Date()
-  const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  const midnight = indianaToday()
 
   return (
     occurrences
