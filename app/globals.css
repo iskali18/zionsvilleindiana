@@ -25,6 +25,10 @@
     scroll-margin-top: 5rem; /* jump links land below the sticky header */
   }
 
+  h4 {
+    scroll-margin-top: 5rem; /* jump links land below the sticky header */
+  }
+
   html {
     scroll-behavior: smooth;
     font-size: 18px;

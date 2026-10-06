@@ -37,6 +37,13 @@ export interface EventMeta {
   mapEmbedUrl?: string
   /** Optional title for the embedded map (used for iframe accessibility) */
   mapTitle?: string
+  /** Optional heading shown above the map. When omitted, the page shows the
+   *  original downtown heading, "Parking & nearby restaurants". */
+  mapHeading?: string
+  /** Optional line shown under the map heading. When omitted, pages without a
+   *  mapHeading show the original downtown line about the P icons; pages with
+   *  their own mapHeading show no line. */
+  mapDescription?: string
   /** Explicit list of dates this event happens (YYYY-MM-DD). Use for patterns
    *  the weekly `recurrence` field can't express — monthly, a few scattered
    *  dates, or a run across several weekdays. When set, getAllEvents() resolves

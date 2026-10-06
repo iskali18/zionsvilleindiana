@@ -390,12 +390,20 @@ export default async function EventPage({ params }: Props) {
           {/* Map (optional, set via mapEmbedUrl in frontmatter) */}
           {meta.mapEmbedUrl && (
             <section className="mt-10">
+              {/* Heading and line come from the event's own file. Pages that set
+                  neither keep the original downtown text, so existing maps
+                  look the same. */}
               <h2 className="font-display text-2xl text-stone-800 font-bold mb-2">
-                Parking & nearby restaurants
+                {meta.mapHeading ?? 'Parking & nearby restaurants'}
               </h2>
-              <p className="text-sm text-stone-600 mb-4">
-                Use the map below to find public lots, street parking areas, and nearby restaurants. Blue P icons mark public parking lots, while green P icons mark street parking areas. Tap any pin for details or directions in Google Maps.
-              </p>
+              {(() => {
+                const line =
+                  meta.mapDescription ??
+                  (meta.mapHeading
+                    ? null
+                    : 'Use the map below to find public lots, street parking areas, and nearby restaurants. Blue P icons mark public parking lots, while green P icons mark street parking areas. Tap any pin for details or directions in Google Maps.')
+                return line ? <p className="text-sm text-stone-600 mb-4">{line}</p> : <div className="mb-4" />
+              })()}
               <div className="aspect-video w-full overflow-hidden rounded-lg border border-stone-200 shadow-sm">
                 <iframe
                   src={meta.mapEmbedUrl}
