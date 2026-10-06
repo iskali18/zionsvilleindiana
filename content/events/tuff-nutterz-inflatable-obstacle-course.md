@@ -10,6 +10,7 @@ location: "Mulberry Fields"
 address: "9645 Whitestown Rd"
 image: /images/events/tuff-nutterz-inflatable-obstacle-course-zionsville-hero-v2.webp
 imageAlt: "Aerial view of a massive blue, green, and yellow Tuff Nutterz inflatable obstacle course set up on a grassy lawn with white event tents in the foreground."
+photoCredit: "Photo by Tuff Nutterz USA"
 hero_position: "center 40%"
 tags: [family, outdoors]
 externalUrl: "https://www.tuffnutterz.us/zionsville"
