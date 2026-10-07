@@ -132,12 +132,11 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'spencer-farm',
     city: 'Noblesville',
     highlights: 'Dig-your-own mums, weekend hayrides; winery in an 1883 farmhouse',
-    cost: 'Free entry & parking; 2026 pumpkin price not yet posted',
+    cost: 'Free entry & parking',
     features: ['Pumpkin Picking', 'Free / No General Admission', 'Hayride / Wagon Ride'],
     schedules: [
       { label: 'Farm and market', start: '2026-09-01', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Tue\u2013Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true, note: 'Year-round working farm; no separate fall hours. Closed Mondays.' },
       { label: 'Pumpkin patch', appliesTo: 'Pumpkin Picking', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: true, note: 'Opens Sept. 19; open during normal farm hours after that.' },
-      { label: 'Sunflower field', start: '2026-09-16', days: ['sun', 'tue', 'wed', 'thu', 'fri', 'sat'], status: 'confirmed', planner: true, note: 'Farm said on Facebook on Sept. 16, 2026 that the fall sunflower field was open. No end date posted.' },
       { label: 'Hayrides', appliesTo: 'Hayride / Wagon Ride', days: ['fri', 'sat', 'sun'], hours: 'Fri 3\u20136 PM; Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: false, note: 'Free, running to the pumpkin patch. Farm said on Facebook on Sept. 25, 2026 that hayrides run every weekend to the end of the season, usually around Halloween. Last ride to the patch at 5:30 PM. No end date posted.' },
     ],
   },
@@ -297,7 +296,7 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'anderson-orchard',
     city: 'Mooresville',
     highlights: 'Open 7 days a week; petting zoo Oct. 3–25 and Trunk or Treat Oct. 30',
-    cost: 'Free entry; 2026 pumpkin price not yet posted',
+    cost: 'Free entry',
     features: ['Pumpkin Picking', 'Free / No General Admission', 'Apple Picking'],
     schedules: [
       { label: 'Orchard season', start: '2026-07-01', end: '2026-11-15', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Sept.\u2013Oct. 8 AM\u20138 PM or dark', status: 'confirmed', planner: true, note: 'Apples early July into mid-November.' },
