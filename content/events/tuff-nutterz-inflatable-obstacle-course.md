@@ -1,5 +1,5 @@
 ---
-title: "Tuff Nutterz Inflatable Obstacle Course"
+title: "Tuff Nutterz 1,000-Ft Inflatable Obstacle Course"
 description: "Tuff Nutterz brings a 1,000-foot inflatable obstacle course and a 20-foot slide to Mulberry Fields in Zionsville, October 10–13, 2026, with 2-hour sessions from 9:00 a.m. to 5:00 p.m."
 eventType: oneoff
 startDate: "2026-10-10"
@@ -19,9 +19,9 @@ mapTitle: "Mulberry Fields Location and Parking"
 mapHeading: "Mulberry Fields Location and Parking"
 mapDescription: "The map shows the location of Tuff Nutterz at Mulberry Fields and nearby parking areas."
 featured: true
-lastUpdated: "2026-10-05"
-metaTitle: "Inflatable Obstacle Course in Zionsville | Oct. 10–13, 2026"
-metaDescription: "Inflatable obstacle course at Mulberry Fields in Zionsville, Oct. 10–13, 2026: a 1,000-foot course, a 20-foot slide, 2-hour sessions and tickets."
+lastUpdated: "2026-10-09"
+metaTitle: "1,000-Ft Inflatable Obstacle Course Event in Zionsville"
+metaDescription: "Tuff Nutterz brings a giant inflatable obstacle course to Mulberry Fields in Zionsville, Oct. 10–13: session times, tickets, parking map and rain policy."
 offer:
   price: "21.99"
   priceCurrency: "USD"
@@ -52,7 +52,7 @@ faqs:
     a: "Bring your ticket QR code and completed online waivers, either digitally or on paper. Check in at the ticket office when you arrive to receive your wristband."
   - q: "What if I’m late?"
     a: "You can still join your session, but it will end at its scheduled time. If you can’t make it, you can request a gift card or reschedule."
-  - q: "Do children need an adult with them?"
+  - q: "Do children need to be accompanied by an adult?"
     a: "Only children under 5 must be with an adult 18 or older. Children 5 and older can go on the inflatables on their own. Adults must stay on the grounds for all children under 16."
   - q: "Is there a weight limit?"
     a: "The manufacturer recommends a maximum weight of 100 kilograms, about 220 pounds."
