@@ -1,7 +1,7 @@
 ---
-title: "Indoor Things to Do for Tweens & Teens Near Zionsville"
-metaTitle: "Indoor Activities for Tweens & Teens: Zionsville & NW Indy"
-metaDescription: "Indoor places for tweens and teens near Zionsville and NW Indianapolis, including climbing, karting, escape rooms, art, sports and free library spaces."
+title: "32 Indoor Things to Do for Tweens & Teens Near Zionsville"
+metaTitle: "32 Indoor Activities for Tweens & Teens: Zionsville & NW Indy"
+metaDescription: "32 indoor places for tweens and teens near Zionsville and NW Indianapolis, including climbing, karting, escape rooms, art, sports and free library spaces."
 description: "A guide to indoor outings and activities for tweens and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
 hubOrder: 15
