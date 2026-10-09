@@ -1,14 +1,14 @@
 ---
 title: "Fall Activities in Zionsville 2026"
 metaTitle: "Fall Activities & Things to Do in Zionsville 2026"
-metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and fall walks, September through November."
-description: "A guide to fall in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and seasonal traditions from September through November 2026."
+metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and fall walks through November."
+description: "A guide to fall in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and seasonal traditions through November 2026."
 category: "discovery"
 hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-10-01"
+lastUpdated: "2026-10-09"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -16,38 +16,26 @@ ctas:
     href: /downtown
 faqs:
   - q: "What is there to do in Zionsville in the fall?"
-    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities throughout September, October and November. Scheduled events include 80s Night, the Zionsville Street Dance, GhostWalk, Pumpkinfest, Oktoberfest, Gallery On & Off Main, Fright Nights, Pumpkins & Hayrides and Smashin’ Pumpkins."
+    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include Fright Nights, Trick or Trees, Gallery On & Off Main, Pumpkins & Hayrides and Smashin’ Pumpkins."
   - q: "What fall races take place in Zionsville?"
-    a: "Three community running events take place from October through Thanksgiving: Hit the Bricks on October 3 with a timed 5K and untimed 3K, the Zionsville Half Marathon & 5K on November 21, and the Gravy Chase on Thanksgiving morning, November 26."
+    a: "Two community running events take place in November: the Zionsville Half Marathon & 5K on November 21 and the Gravy Chase on Thanksgiving morning, November 26."
   - q: "Where can I see fall colors in Zionsville?"
     a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Zionsville Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
   - q: "Are there fall activities in Zionsville for families with young children?"
-    a: "Yes. Pumpkinfest on October 3 includes children’s activities, pumpkin painting and hayrides to the pumpkin patch. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Pumpkins & Hayrides returns to Lions Park on October 25, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
+    a: "Yes. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Pumpkins & Hayrides returns to Lions Park on October 25, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
-    a: "Zionsville Parks & Recreation runs a three-part Fall Birding Series, a Campfire Concert Series at Carpenter Nature Preserve, a Night Hike on October 16, an Owl Prowl on November 13 and a Fall Campfire on November 21."
+    a: "Zionsville Parks & Recreation offers a Night Hike on October 16, a Fall Birding walk on November 7, an Owl Prowl on November 13 and a Fall Campfire on November 21."
   - q: "Are there indoor fall activities in Zionsville?"
-    a: "Yes. The SFORZANDO (SFZ) Concert Series presents Sunday afternoon concerts at St. Francis In-The-Fields, the STAR Bank Performing Arts Center hosts the ZCHS Fall Musical and fall choral, band and orchestra concerts, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
-  - q: "When is GhostWalk in Zionsville?"
-    a: "GhostWalk returns October 2–3, 2026. The approximately 45-minute guided walking tour moves through the historic Village while actors reenact stories associated with local people, places and legends."
+    a: "Yes. The SFORZANDO (SFZ) Concert Series presents Sunday afternoon concerts at St. Francis In-The-Fields, the STAR Bank Performing Arts Center hosts the ZCHS Fall Musical in November, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
   - q: "What Halloween events take place in Zionsville?"
-    a: "GhostWalk runs October 2–3, with costumed actors reenacting local ghost stories along a guided walking tour of the historic Village. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Fright Nights on October 23–24 features a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. Nightmare at Elm Street on October 29 is a free luminary walk at Elm Street Green Park."
+    a: "Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Fright Nights on October 23–24 features a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. Nightmare at Elm Street on October 29 is a free luminary walk at Elm Street Green Park."
 ---
 
-Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits, and traditional fall activities throughout September, October, and November.
+Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November.
 
 This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
 <!-- FALL_ACTIVITIES_TABLE -->
-
-## Experience Zionsville’s GhostWalk
-
-**GhostWalk** is an evening walking tour through Zionsville’s historic Village, with actors reenacting stories connected to local people, places and legends.
-
-The approximately 45-minute experience returns **October 2–3, 2026**, with stories and stops that can change from year to year.
-
-[See the full GhostWalk event guide.](/events/ghostwalk)
-
-[↑ Back to activities](#at-a-glance)
 
 ## Experience Fright Nights
 
@@ -69,41 +57,6 @@ See the [Zionsville Parks program page](https://zionsvillein.myrec.com/info/acti
 
 [↑ Back to activities](#at-a-glance)
 
-## Celebrate Fall at Pumpkinfest
-
-**Pumpkinfest** at St. Alphonsus Liguori Catholic Church returns on **October 3** with an afternoon of family fall activities. **The event is open to the public.**
-
-Children can take a hayride to the church’s pumpkin patch, and pumpkin decorating, face painting, the petting zoo, games and bounce houses are all free. Pumpkins are available while supplies last.
-
-[See the complete Pumpkinfest guide.](/events/pumpkinfest)
-
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-pumpkinfest.webp"
-    alt="Large orange pumpkins in a grass field with a hayride trailer in the background at St. Alphonsus Liguori Catholic Church in Zionsville."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    Pumpkins lined up on the grass for picking during Pumpkinfest at St. Alphonsus Liguori Catholic Church. <span className="not-italic">© ZionsvilleIndiana.com</span>
-  </figcaption>
-</figure>
-
-[↑ Back to activities](#at-a-glance)
-
-## Raise a Stein at Oktoberfest
-
-**Saturday, October 3, 2026 · 4:00–11:00 p.m.**
-
-St. Alphonsus Liguori Catholic Church holds its annual Oktoberfest in Parish Hall and the Biergarten. The evening is open to the public for adults 21 and older, with German food, live polka from Polkamotion, a stein-holding contest and a raffle drawing. There is no cover charge.
-
-Pumpkinfest, the all-ages afternoon at the same church, runs from noon to 4:00 p.m.
-
-See the [Oktoberfest event guide](/events/oktoberfest) for the menu and schedule.
-
-[↑ Back to activities](#at-a-glance)
-
 ## Enjoy Pumpkins & Hayrides at Lions Park
 
 **Pumpkins & Hayrides** returns to Lions Park on **October 25 from 2:00–5:00 PM** for a free afternoon of fall activities.
@@ -120,7 +73,7 @@ The event includes **hayrides, free pumpkins for painting while supplies last, B
 
 Zionsville Parks & Recreation runs a Trick-or-Treat Trail through Elm Street Green Park for children ages 2 to 12, with the Pumpkin Path, marshmallow roasting, science activities and games alongside the trail.
 
-Admission is $5 for residents and $7 for nonresidents. Registration opens October 1 and the event sells out each year.
+Admission is $5 for residents and $7 for nonresidents. Registration opened October 1, and the event sells out each year.
 
 See the [Trick or Trees event guide](/events/trick-or-trees) for registration and parking.
 
@@ -153,27 +106,9 @@ Main Street merchants open their businesses to participating artists, creating a
 
 [↑ Back to activities](#at-a-glance)
 
-## Spend a Fall Evening at Salem Methodist Church
-
-Salem Methodist Church’s [Night Out with Christ Fall Cookout](https://www.salemchurchzionsville.org/events/night-out-w-christ-fall-cookout-2026) is scheduled for **October 2**, beginning at 6:00 p.m., and includes several traditional fall activities in one evening.
-
-Visitors can take a hayride, paint pumpkins, gather around a campfire, participate in a candy dig, and enjoy dinner and s’mores. Stones Crossing will provide live music. All ages are welcome, and the church describes it as a community event. Guests can bring lawn chairs or blankets.
-
-Salem Methodist Church has been part of the Zionsville community since the 1830s, with its first church built in 1849. The historic church sits in a wooded area off 550 South, adding to the setting for an outdoor fall evening.
-
-[↑ Back to activities](#at-a-glance)
-
 ## Race Through Zionsville This Fall
 
-Three community running events take place from October through Thanksgiving, ranging from a 3K walk to a half marathon.
-
-### Hit the Bricks
-
-The **Hit the Bricks 5K Run & 3K Walk** on **October 3** includes a timed 5K and untimed 3K. The routes use the Zionsville Rail Trail, neighborhood streets and Zionsville’s historic brick Main Street.
-
-The 2026 race highlights the **Boys & Girls Club of Boone County** as its local charity, with a large portion of race fundraising benefiting programs for area youth.
-
-[See the Hit the Bricks 5K & 3K guide.](/events/hit-the-bricks)
+Two community running events take place in November, ranging from a 2.2-mile run/walk to a half marathon.
 
 ### Zionsville Half Marathon & 5K
 
@@ -193,18 +128,6 @@ The event is the **Boys & Girls Club of Boone County’s largest annual fundrais
 
 Zionsville Parks & Recreation offers several smaller fall activities for people who want to spend time outside, learn about local wildlife, or enjoy an evening in the parks.
 
-### Oct. 8 · 6:00–8:00 PM · Campfire Concert · Mr Daniel and Friends {#campfire-concert-series}
-
-Spend an early fall evening at Carpenter Nature Preserve with a free outdoor performance by Mr Daniel and Friends. Mr Daniel is an Indianapolis-area children’s musician who performs at family and youth events around Central Indiana. The concert takes place in the preserve’s outdoor amphitheater, with campfires and sunset views adding to the setting. Concessions will be available for purchase, and all participants must register.
-
-**[Register for the Campfire Concert](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30143)**
-
-### Oct. 10 · 9:00–10:00 AM · Fall Birding Series {#fall-birding-starkey}
-
-Fall migration brings both resident and migratory birds to Zionsville’s parks. Join a Zionsville Parks naturalist for a morning walk at Starkey Nature Park and learn techniques for identifying birds by sight and sound. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
-
-**[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
-
 ### Oct. 16 · 7:00–8:00 PM · Night Hike {#night-hike}
 
 See Carpenter Nature Preserve from a different perspective after the sun goes down. A Zionsville Parks naturalist will introduce some of the native nocturnal animals that navigate the preserve in darkness, while participants test how well their own senses work along the nighttime trail. Ages 5 and up.
@@ -213,7 +136,7 @@ See Carpenter Nature Preserve from a different perspective after the sun goes do
 
 ### Nov. 7 · 9:00–10:00 AM · Fall Birding Series {#fall-birding-carpenter}
 
-Continue the Fall Birding Series with a November walk through Carpenter Nature Preserve, looking for resident and migratory birds and practicing identification by sight and sound with a Zionsville Parks naturalist. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
+Fall migration brings both resident and migratory birds to Zionsville’s parks. Join a Zionsville Parks naturalist for a November morning walk through Carpenter Nature Preserve and practice identifying birds by sight and sound. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
 
 **[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
 
@@ -276,19 +199,11 @@ The concerts take place inside the church and provide an indoor arts option alon
 
 ## Enjoy Fall Performances & Sports at ZCHS
 
-Fall brings both performing arts and athletics to Zionsville Community High School, with concerts, theater productions and Eagles sporting events throughout the season.
+Fall brings both performing arts and athletics to Zionsville Community High School, with the fall musical and Eagles sporting events throughout the season.
 
 ### See a ZCHS Performance
 
-Zionsville Community High School has several performances scheduled at the STAR Bank Performing Arts Center this fall.
-
-**October 5** · Fall Band Concert
-
-ZCHS band students take the stage for their first major concert of the school year, presenting a program of selected works developed during the opening weeks of the fall semester. The concert offers an early-season look at the school’s instrumental music program.
-
-**October 8** · Fall Orchestra Concert
-
-ZCHS orchestra students present selected works from their fall repertoire in an evening performance. The concert highlights the orchestra program early in the school year.
+The ZCHS Fall Musical takes the stage at the STAR Bank Performing Arts Center in November.
 
 **November 12–15** · *A Chorus Line: Teen Edition*
 

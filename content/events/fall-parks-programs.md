@@ -1,6 +1,6 @@
 ---
 title: "Fall Programs in Zionsville Parks"
-description: "Guided birding, live music, night hikes, owl walks and campfires in Zionsville parks"
+description: "Guided birding, night hikes, owl walks and campfires in Zionsville parks"
 eventType: annual
 startDate: "2026-09-17"
 endDate: "2026-11-21"
@@ -11,19 +11,6 @@ tags: [family, outdoors]
 featured: true
 linkTo: "/articles/fall-activities-zionsville#experience-fall-with-zionsville-parks--recreation"
 items:
-  - title: "Campfire Concert: Mr Daniel and Friends"
-    date: "2026-10-08"
-    description: "Live music, a campfire, sunset views and concessions at Carpenter Nature Preserve."
-    linkTo: "/articles/fall-activities-zionsville#campfire-concert-series"
-    image: /images/events/zionsville-parks-campfire.webp
-    imageAlt: "Campfire burning in a fire pit among trees at sunset."    
-  - title: "Fall Birding at Starkey Nature Park"
-    date: "2026-10-10"
-    location: "Starkey Nature Park"
-    description: "Naturalists help identify resident and migrating birds by sight and sound. Beginners welcome."
-    linkTo: "/articles/fall-activities-zionsville#fall-birding-starkey"
-    image: /images/events/zionsville-parks-fall-birding.webp
-    imageAlt: "Downy Woodpecker clinging to a tree trunk with blurred yellow autumn leaves in the background."     
   - title: "Night Hike at Carpenter Nature Preserve"
     date: "2026-10-16"
     description: "A guided hike exploring how nocturnal animals find their way after dark."
