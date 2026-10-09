@@ -6,7 +6,9 @@ import ZcsCalendar from '@/components/ZcsCalendar'
 import ZcsMilestones from '@/components/ZcsMilestones'
 import FallFarmComparison from '@/components/FallFarmComparison'
 import FallActivitiesTable from '@/components/FallActivitiesTable'
+import IndoorActivitiesTeensTable from '@/components/IndoorActivitiesTeensTable'
 import { DESTINATIONS } from '@/lib/fall-farms'
+import { INDOOR_ACTIVITIES } from '@/lib/indoor-activities-teens'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 interface Props {
@@ -68,13 +70,25 @@ export default async function ArticlePage({ params }: Props) {
                 description: d.highlights,
               })),
             }
-          : {})}
+          : slug === 'indoor-things-to-do-tweens-teens'
+            ? {
+                // Same idea: the schema list comes from the table's own data.
+                itemListName: 'Indoor things to do for tweens and teens near Zionsville and NW Indianapolis',
+                itemList: INDOOR_ACTIVITIES.map((a) => ({
+                  name: a.name,
+                  href: `#${a.anchor}`,
+                  description: a.what,
+                })),
+              }
+            : {})}
         injectAt={
           slug === 'pumpkin-patches-corn-mazes-near-indianapolis'
             ? '<!-- FALL_FARM_COMPARISON -->'
             : slug === 'fall-activities-zionsville'
               ? '<!-- FALL_ACTIVITIES_TABLE -->'
-              : undefined
+              : slug === 'indoor-things-to-do-tweens-teens'
+                ? '<!-- INDOOR_ACTIVITIES_TABLE -->'
+                : undefined
         }
       >
         {slug === 'zcs-school-calendar' && (
@@ -88,6 +102,7 @@ export default async function ArticlePage({ params }: Props) {
         )}
         {slug === 'pumpkin-patches-corn-mazes-near-indianapolis' && <FallFarmComparison />}
         {slug === 'fall-activities-zionsville' && <FallActivitiesTable />}
+        {slug === 'indoor-things-to-do-tweens-teens' && <IndoorActivitiesTeensTable />}
       </ArticleLayout>
     )
   } catch {
