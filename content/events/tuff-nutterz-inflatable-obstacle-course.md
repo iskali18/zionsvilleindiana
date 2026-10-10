@@ -1,5 +1,5 @@
 ---
-title: "Tuff Nutterz 1,000-Ft Inflatable Obstacle Course"
+title: "1,000-Ft Inflatable Obstacle Course in Zionsville"
 description: "Tuff Nutterz brings a 1,000-foot inflatable obstacle course and a 20-foot slide to Mulberry Fields in Zionsville, October 10–13, 2026, with 2-hour sessions from 9:00 a.m. to 5:00 p.m."
 eventType: oneoff
 startDate: "2026-10-10"
@@ -20,8 +20,8 @@ mapHeading: "Mulberry Fields Location and Parking"
 mapDescription: "The map shows the location of Tuff Nutterz at Mulberry Fields and nearby parking areas."
 featured: true
 lastUpdated: "2026-10-09"
-metaTitle: "1,000-Ft Inflatable Obstacle Course Event in Zionsville"
-metaDescription: "Tuff Nutterz brings a giant inflatable obstacle course to Mulberry Fields in Zionsville, Oct. 10–13: session times, tickets, parking map and rain policy."
+metaTitle: "1,000-Ft Inflatable Obstacle Course in Zionsville Oct. 10–13"
+metaDescription: "A giant inflatable obstacle course comes to Mulberry Fields, Oct. 10–13: 9 AM, 11 AM, 1 PM, 3 PM, tickets from $21.99, parking map and rain policy."
 offer:
   price: "21.99"
   priceCurrency: "USD"
