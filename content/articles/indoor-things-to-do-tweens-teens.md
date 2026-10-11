@@ -2,13 +2,14 @@
 title: "32 Indoor Things to Do for Tweens & Teens Near Zionsville"
 metaTitle: "32 Indoor Activities for Tweens & Teens: Zionsville & NW Indy"
 metaDescription: "32 indoor places for tweens and teens near Zionsville and NW Indianapolis, including climbing, karting, escape rooms, art, sports and free library spaces."
-description: "A guide to indoor outings and activities for tweens and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
+description: "A guide to indoor outings and activities for tweens and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes and free library spaces."
 category: "family"
 hubOrder: 15
 draft: false
-hero_image: /images/articles/indoor-things-to-do-tweens-teens-zionsville-climbing.webp
-hero_position: "center 45%"
-lastUpdated: "2026-10-09"
+hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
+hero_credit: "© ZionsvilleIndiana.com"
+hero_position: "center 65%"
+lastUpdated: "2026-10-11"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -22,9 +23,9 @@ faqs:
   - q: "Where can teens take classes near Zionsville?"
     a: "Ongoing programs include robotics at Kids Explore Robotics, music at School of Rock, Bach to Rock and Musicologie, theater at The Cat in Carmel, pottery at The Wandering Peacock, cooking at Sprouts Cooking School, sports training in badminton, basketball and tennis, and martial arts at Adamson’s Karate Studio, Bushido Jiu-Jitsu and Master Yoo’s Tae Kwon Do."
   - q: "Which places have sensory-friendly accommodations for teens?"
-    a: "Several places list sensory supports. The Indianapolis Motor Speedway Museum has sensory bags and a wellness room for a quieter break. Hussey-Mayfield Memorial Public Library and Carmel Clay Public Library offer sensory bags with noise-canceling headphones and fidgets, and Carmel Clay partners with KultureCity. Pinheads in Brownsburg offers a venue orientation for guests on the autism spectrum, along with adaptive bowling ramps. The Wandering Peacock has a private pottery-wheel room called the Zen Den."
+    a: "Several places list sensory supports. The Indianapolis Motor Speedway Museum has sensory bags and a wellness room for a quieter break. Hussey-Mayfield Memorial Public Library and Carmel Clay Public Library offer sensory bags with noise-canceling headphones and fidgets. Pinheads in Brownsburg offers a venue orientation for guests on the autism spectrum, along with adaptive bowling ramps. The Wandering Peacock has a private pottery-wheel room called the Zen Den."
   - q: "Do teens need a library card to attend library programs?"
-    a: "Not always. Brownsburg Public Library does not require a card for programs, and Westfield Washington Public Library’s makerspace is open without one. Some resources are limited to cardholders, such as Carmel Clay’s Digital Media Lab. Hussey-Mayfield offers a free Student Card to nonresident students in kindergarten through 12th grade."
+    a: "Not always. Brownsburg Public Library does not require a card for programs, and Westfield Washington Public Library’s Teen Room and makerspace are open to nonresidents. Some resources are limited to cardholders, such as Carmel Clay’s recording rooms. Hussey-Mayfield offers a free Student Card to qualifying nonresident students in kindergarten through 12th grade."
 ---
 
 Whether you’re looking for things to do with tweens and teens on a rainy day, during a cold Indiana winter or when summer heat drives everyone indoors, this guide covers 32 activities near Zionsville and Northwest Indianapolis. Options include climbing, karting, escape rooms, robotics, pottery, music, theater, sports and other active, creative and social experiences.
@@ -32,19 +33,6 @@ Whether you’re looking for things to do with tweens and teens on a rainy day, 
 Ages are based on published guidelines when available. Many locations also offer activities for younger children, making them useful for families with siblings of different ages.
 
 <!-- INDOOR_ACTIVITIES_TABLE -->
-
-<figure className="my-8">
-  <Image
-    src="/images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp"
-    alt="Two young drivers race go-karts on an indoor track."
-    width={1800}
-    height={1200}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    Indoor karting is one of the high-energy activities in this guide for tweens and teens. Photo by © ZionsvilleIndiana.com
-  </figcaption>
-</figure>
 
 ## Drop-In & One-Time Activities
 
@@ -67,6 +55,15 @@ Tickets are sold in 90- or 120-minute sessions, and guests under 18 need a waive
 
 **Active & Climbing · Recommended ages 6 through adult**  
 **Location:** [9850 Mayflower Park Dr., Carmel, IN 46032](https://maps.app.goo.gl/PVVpNM6XfbemnDBN7)
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/articles/indoor-activities-tweens-teens-zionsville-hoosier-heights.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/indoor-activities-tweens-teens-zionsville-hoosier-heights.webp" alt="Young climber bouldering on an overhang wall while another child uses an auto-belay at Hoosier Heights near Zionsville." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Hoosier Heights in Carmel offers unroped bouldering on overhangs and automated belay systems, providing an indoor climbing option for tweens and teens near Zionsville. Photo by © ZionsvilleIndiana.com
+  </figcaption>
+</figure>
 
 Hoosier Heights is an indoor climbing gym with options for beginners through experienced climbers. Visitors can try bouldering on shorter walls without ropes, climb taller walls using an automatic safety system that lowers them back down, or climb with a partner who manages the rope from the ground. First-time visitors complete an orientation before climbing, and kids 5 and under climb free.
 
@@ -106,12 +103,12 @@ Walk-in racing is available, but Fastimes recommends checking its website or cal
 
 ### Press Play Gaming Lounge
 
-**Gaming & Active Entertainment · All ages**  
+**Gaming & Active Entertainment · Recommended ages 8 through adult**  
 **Location:** [1004 E. Main St., Brownsburg, IN 46112](https://maps.app.goo.gl/Ng28BaAEqLqKH6Xy9)
 
-Press Play is an indoor gaming and entertainment center with virtual reality, Foam Wars using Nerf-style blasters, arcade games, Xbox gaming and a 3-point basketball challenge. Some attractions have their own participation requirements.
+Press Play is an indoor gaming and entertainment center with virtual reality, Foam Wars using Nerf-style blasters, arcade games, Xbox gaming and a 3-point basketball challenge. The center welcomes all ages, and some attractions have their own participation requirements, such as a 4-foot-2-inch minimum height for Omni Arena VR.
 
-Visitors can choose one-hour, two-hour, day or weekend passes that include unlimited virtual reality, Foam Wars and the 3-point basketball challenge during the pass period. A waiver is required, and passes are purchased on-site.
+Visitors can choose one-hour, two-hour, day or weekend passes that include unlimited virtual reality, Foam Wars and the 3-point basketball challenge during the pass period. Passes cost less for ages 7 and under. A waiver is required, and passes are purchased on-site.
 
 [Visit Press Play Gaming Lounge →](http://www.pressplaylounge.com/)
 
@@ -124,7 +121,7 @@ Visitors can choose one-hour, two-hour, day or weekend passes that include unlim
 [16848 Southpark Dr., Ste. 100, Westfield, IN 46074](https://maps.app.goo.gl/75AUHJKfhGeJbP6S9)  
 [200 S. Meridian St., Ste. 220, Indianapolis, IN 46225](https://maps.app.goo.gl/V3ctAvZoGBQXAgNF8)
 
-The Escape Room USA has locations in Westfield and downtown Indianapolis, with themed live-action adventures where groups work together to crack codes, solve puzzles and uncover hidden clues within a set time limit. Adventures typically last about an hour, although select rooms run longer, and each booking is private, so groups do not share the experience with other parties. Both locations offer several different themes and difficulty levels.
+The Escape Room USA has locations in Westfield and downtown Indianapolis, with themed live-action adventures where groups work together to crack codes, solve puzzles and uncover hidden clues within a set time limit. Adventures typically last about an hour, although select rooms run longer. Each booking is private, so groups have the room to themselves. Both locations offer several different themes and difficulty levels.
 
 Guests of all ages can participate, but ages 14 and under must have an adult age 18 or older in the room. Guests under 18 need a waiver completed by a parent or legal guardian. Reservations are made for a specific start time, and arriving 15–20 minutes early is recommended.
 
@@ -134,6 +131,19 @@ Guests of all ages can participate, but ages 14 and under must have an adult age
 
 ### Pinheads (Brownsburg) & Royal Pin Woodland (Indianapolis)
 
+<figure className="my-8">
+  <Image
+    src="/images/articles/indoor-activities-tweens-teens-zionsville-bowling.webp"
+    alt="Row of brightly colored bowling balls at the start of a modern indoor bowling lane with neon blacklight effects."
+    width={1800}
+    height={1200}
+    className="w-full h-auto rounded"
+  />
+  <figcaption className="text-sm text-stone-600 italic mt-2">
+    Bowling lanes glowing under blacklights during cosmic bowling.
+  </figcaption>
+</figure>
+
 **Bowling & Arcades · Recommended ages 3 through adult**  
 **Locations:**  
 Pinheads · [18 Whittington Dr., Brownsburg, IN 46112](https://maps.app.goo.gl/c6HpjQw5nmTExaWo7)  
@@ -141,7 +151,7 @@ Royal Pin Woodland · [3421 E. 96th St., Indianapolis, IN 46240](https://maps.ap
 
 Pinheads Brownsburg has 28 traditional bowling lanes and four duckpin lanes, which use shorter lanes and smaller balls for a different style of play. Tweens and teens can also spend time in the large redemption arcade, and Alley’s Alehouse offers sit-down dining. Walk-ins are accepted when lanes are available, and reservations are also offered.
 
-Royal Pin Woodland has 70 bowling lanes, an arcade with more than 40 games, a two-story laser tag arena and an on-site café. Bumpers, lightweight balls and small shoe sizes are available for young children. Reservations are recommended, particularly when leagues, tournaments or large groups may affect lane availability.
+Royal Pin Woodland has 70 bowling lanes, an arcade with more than 40 games, a two-story laser tag arena and an on-site café. Cosmic Bowling features blacklights, lasers and strobes, and Spark Immersive Bowling uses augmented reality to project interactive games onto the lanes. Bumpers, lightweight balls and small shoe sizes are available for young children. Reservations are recommended, particularly when leagues, tournaments or large groups may affect lane availability.
 
 **Accessibility & sensory note — Pinheads Brownsburg:** The entrance is at ground level with automatic doors, and the center has accessible parking, routes, restrooms, elevators and dining tables, plus adaptive bowling ramps and an accessible arcade. Staff offer a venue orientation for guests who are blind or have low vision or are on the autism spectrum, and accommodations are available for guests who are deaf or hard of hearing.
 
@@ -163,7 +173,7 @@ Royal Pin Woodland has 70 bowling lanes, an arcade with more than 40 games, a tw
   </figcaption>
 </figure>
 
-The IMAX Theater at the Indiana State Museum shows major theatrical releases along with documentary and educational films on a six-story, 84-foot-wide screen—the largest movie screen in Indiana. Many of the documentaries run about 45 minutes, and both 2D and 3D films are shown. Museum admission is not required, and an IMAX ticket includes free parking in the White River State Park garage and $2 off museum admission. Concessions include popcorn, candy, coffee and tea, with local beer and wine available for adults.
+The IMAX Theater at the Indiana State Museum shows major theatrical releases along with documentary and educational films on a six-story, 84-foot-wide screen—the largest movie screen in Indiana. Many of the documentaries run about 45 minutes, and both 2D and 3D films are shown. Museum admission is not required, and an IMAX ticket includes free parking in the White River State Park garage and $2 off museum admission. Concessions include popcorn, candy, coffee and tea.
 
 The oversized screen and powerful surround sound are noticeably different from a standard movie theater. In 3D screenings, special glasses add depth, so objects can appear to extend into the theater. Some films are also shown in IMAX 70mm, a large-format film process available at relatively few theaters.
 
@@ -219,7 +229,7 @@ Smitten Kitten welcomes all ages, with adult supervision required for younger ch
 
 3rd Shot Pickleball has 15 climate-controlled indoor courts and is open to the public, so families can reserve a court and play without purchasing a paid membership. Open-play sessions are offered for different skill levels, while beginners can sign up for lessons and clinics with instructors.
 
-The facility also offers leagues, private lessons and special events such as Blacklight Cosmic Pickleball, along with a pro shop and lounge. Court reservations and scheduled programs can be booked online; a free guest account provides access without a monthly membership.
+The facility also offers leagues, private lessons and special events such as Blacklight Cosmic Pickleball, along with a pro shop and lounge. Court reservations and scheduled programs can be booked online with a free guest account.
 
 [Visit 3rd Shot Pickleball →](https://3rdshotpickleball.com/home-indy)
 
@@ -230,7 +240,7 @@ The facility also offers leagues, private lessons and special events such as Bla
 **Sports & Training · Recommended ages 6 through adult**  
 **Location:** [6200 Technology Center Dr., Ste. 150, Indianapolis, IN 46278](https://maps.app.goo.gl/bHhWxh6xWJaenWMB9)
 
-D-BAT Zionsville is an indoor, climate-controlled baseball and softball facility with automated pitching-machine cages, separate reservable batting lanes and private instruction. The pitching-machine cages use real baseballs and softballs and are available on a first-come, first-served basis, so players can come in for extra batting practice without enrolling in lessons or purchasing a membership. Players who don’t have their own bat can use one provided by D-BAT.
+D-BAT Zionsville is an indoor, climate-controlled baseball and softball facility with automated pitching-machine cages, separate reservable batting lanes and private instruction. The pitching-machine cages use real baseballs and softballs and are available on a first-come, first-served basis, so players can come in for extra batting practice without enrolling in lessons. Players who don’t have their own bat can use one provided by D-BAT.
 
 The reservable batting lanes are intended for individual or team practice rather than automated pitching. Rentals include baseballs or softballs, a batting tee and an L-screen that protects the person pitching, but do not include a pitching machine. D-BAT also offers lessons, camps and clinics, and membership is optional; nonmembers can pay separately for swings, lane rentals and instruction.
 
@@ -243,7 +253,7 @@ The reservable batting lanes are intended for individual or team practice rather
 **Pottery & Creative Projects · Recommended ages 8 through adult**  
 **Location:** [2280 W. 86th St., Indianapolis, IN 46260](https://maps.app.goo.gl/77kxsAsnT32PERiV9)
 
-Pottery By You is a walk-in art studio where visitors choose a project and create at their own pace. Pottery painting is the studio’s main activity, with more than 400 bisque pieces to choose from, along with paints and specialty glazes. Staff glaze and fire finished pottery, which is typically ready to pick up about a week later. Project prices vary, with pottery pricing including the piece, supplies and firing.
+Pottery By You is a walk-in art studio where visitors choose a project and create at their own pace. Pottery painting is the studio’s main activity, with more than 400 ready-to-paint pottery pieces to choose from, along with paints and specialty glazes. Staff glaze and fire finished pottery, which is typically ready to pick up about a week later. Project prices vary, with pottery pricing including the piece, supplies and firing.
 
 Tweens and teens can also try fused glass, make distressed wood signs or pour their own candles in a choice of more than 100 scents. For fused glass, children 8 and older can work independently at the glass table. Younger children can work on projects with a parent, but for families bringing a younger sibling, we recommend ages 5 and older as a practical starting point.
 
@@ -264,9 +274,11 @@ Public libraries can be a good source of free indoor activities for tweens and t
 [250 N. 5th St., Zionsville, IN 46077](https://maps.app.goo.gl/Z85WzJeNGRQU135N8)  
 [6310 Albert S. White Dr., Whitestown, IN 46075](https://maps.app.goo.gl/nr1pW81eXFz1J7zGA)
 
-Hussey-Mayfield Memorial Public Library has branches in Zionsville and Whitestown, with tween and teen programs at both. Activities change throughout the year and may include art and crafts, LEGO and maker projects, book clubs, gaming, Dungeons & Dragons and the Neurodivergent Teen Hangout. Check the event calendar for each program’s branch, ages and registration. Cardholders can also borrow free admission passes to local museums, including the Indianapolis Motor Speedway Museum, Indiana State Museum, Conner Prairie and Eiteljorg Museum, and nonresident students in kindergarten through 12th grade can get a free Student Card.
+**Access:** Both branches are open to residents and nonresidents for visits, study spaces and Wi-Fi.
 
-Both branches have MakerStudios with 3D printers, sewing and embroidery machines, vinyl cutters and other tools, and the Whitestown branch adds laser cutting and engraving. Users must complete an orientation and safety training for each piece of equipment, ages 13 and under need a parent or guardian with them, and some projects have materials fees.
+Hussey-Mayfield Memorial Public Library offers tween and teen programs at both branches, including art and crafts, LEGO and maker projects, book clubs, gaming, Dungeons & Dragons and the Neurodivergent Teen Hangout. Activities change throughout the year, and the event calendar lists each program’s location, grade range and registration details.
+
+Both branches have MakerStudios with 3D printers, sewing and embroidery machines, vinyl cutters and other tools. The Whitestown branch also offers laser cutting and engraving. Equipment use requires an orientation, safety training, a signed waiver and a reservation. Ages 13 and under need parent or guardian supervision, and some projects have materials fees. Cardholders can also borrow museum passes, while qualifying nonresident K–12 students can obtain a free Student Card.
 
 **Accessibility & sensory note:** Sensory bags with a weighted blanket, noise-canceling headphones and fidgets can be used during library visits, and study rooms offer a quieter space.
 
@@ -279,11 +291,13 @@ Both branches have MakerStudios with 3D printers, sewing and embroidery machines
 **Art, Games & Teen Programs · Ages 11–18 · Grades 6–12**  
 **Location:** [425 E. Main St., Carmel, IN 46032](https://maps.app.goo.gl/Ky1QrEyVKqge4Kz57)
 
-Carmel Clay Public Library has a dedicated teen calendar for grades 6–12 (about ages 11–18), with programs such as Nintendo Switch nights, Pokémon meetups, art workshops and volunteering. The Main Library has a Teens Area and Teens Program Room, and selected students can use a studio for four months through the Teen Artist in Residence program. Teens can also propose and lead their own workshops through Student-Led Programming.
+**Access:** Nonresidents can use the Teen Area and attend public programs.
 
-Library programs are open to the public, though some require advance registration or are limited to specific age groups. The Digital Media Lab, with 3D printing and recording rooms, is free to use but limited to Carmel Clay cardholders, Hamilton County reciprocal borrowers and PLAC holders, and children 12 and under need an adult with them. Cardholders can also borrow Experience Passes for free admission to the Eiteljorg Museum, Indiana Historical Society, Indiana State Museum and Indiana State Parks.
+Carmel Clay Public Library has a dedicated Teen Area and Teen Program Room, with activities for grades 6–12 such as Nintendo Switch nights, Pokémon meetups, art workshops and volunteering. Nintendo Switch Game Night is a drop-in program with library-provided consoles and no registration required. Other programs, including workshops and the Teen Artist in Residence program, offer additional creative opportunities.
 
-**Accessibility & sensory note:** The library partners with KultureCity, and sensory bags with noise-canceling headphones and fidget tools are available at both locations. The Main Library also has a Quiet Room and wheelchairs on both floors.
+The Digital Media Lab offers 3D printing, creative software and audio and video production classes, including some open to noncardholders. Recording-room reservations require a library card registered with Carmel Clay, and users must be at least 16. Cardholders can also borrow Experience Passes for museum and state park admission.
+
+**Accessibility & sensory note:** Sensory bags with noise-canceling headphones and fidget tools are available at both locations. The Main Library also has a Quiet Room and wheelchairs on both floors.
 
 [Visit Carmel Clay Public Library →](https://carmelclaylibrary.org/)
 
@@ -294,11 +308,13 @@ Library programs are open to the public, though some require advance registratio
 **Games, Art & Teen Programs · Ages 12–18**  
 **Location:** [17400 Westfield Blvd., Westfield, IN 46074](https://maps.app.goo.gl/XUkggrixTspYEMjz7)
 
-Westfield Washington Public Library has a dedicated Teen Room and regular programs for ages 12–18, including video games, art and craft activities, movies and role-playing games such as Dungeons & Dragons. Cardholders can also borrow from the Teen Library of Things, which includes a drone, action camera, karaoke equipment, laser tag and a vlogging kit.
+**Access:** Nonresidents can use the Teen Room and Makerspace and attend programs.
 
-The Annie Gotwald Makerspace and STEM Lab offers coding, robotics and other creative technology activities. It is open to the public during designated hours, does not require a library card and charges only for materials. Ages 13 and older can use it independently, while younger visitors need adult supervision; staff-led workshops may allow ages 8 and older to attend on their own. Individual teen programs may have separate registration requirements.
+Westfield Washington Public Library has a dedicated Teen Room with seating and study spaces, along with activities for ages 12–18 such as video games, movies, art and crafts, and role-playing games including Dungeons & Dragons. Nonresidents can register for programs through the library’s online registration.
 
-[Visit Westfield Washington Public Library →](http://wwpl.lib.in.us/)
+The Annie Gotwald Makerspace and STEM Lab offers 3D printing, laser cutting, coding, robotics and other creative technology activities. Families can drop in during posted Makerspace hours and check in with staff. Ages 13 and older can use the space independently, while younger participants require adult supervision; staff-led workshops allow independent participation beginning at age 8. Materials fees may apply, and nonresidents can reserve the Recording Studio in advance. Cardholders can also borrow equipment and games from the Teen Library of Things.
+
+[Visit Westfield Washington Public Library →](https://wwpl.lib.in.us/)
 
 [↑ Back to activities](#at-a-glance)
 
@@ -307,24 +323,28 @@ The Annie Gotwald Makerspace and STEM Lab offers coding, robotics and other crea
 **Teen Space, Games & Programs · Ages 11–18 · Grades 6–12**  
 **Location:** [104 E. Washington St., Lebanon, IN 46052](https://maps.app.goo.gl/AYJcF3LqWJGFMhZe8)
 
-Lebanon Public Library has a dedicated Teen Space for grades 6–12 (about ages 11–18) with video-game consoles, board games, puzzles and seating for hanging out. Teen programming changes throughout the year and has included Dungeons & Dragons, fiber arts, LEGO projects and trivia. The Teen Space and current teen program listings do not state a residency or library-card requirement, although individual events may have their own registration requirements.
+**Access:** Students in grades 6–12 can drop in to the Teen Space; no residency requirement is published.
 
-Teen resources also include ebooks and audiobooks, driver’s-test practice, writing resources and a Teen Space Discord server. Cardholders can reserve free passes to the Indiana State Museum, Indiana Historical Society and Eiteljorg Museum, and Hussey-Mayfield cardholders can use their Evergreen Indiana card to borrow materials here.
+Lebanon Public Library has a dedicated Teen Space with video-game consoles, board games, puzzles and seating for hanging out with friends. Scheduled activities have included Dungeons & Dragons, fiber arts, LEGO projects and trivia.
+
+Free Wi-Fi is available throughout the library, and noncardholders can request a guest pass for public computers. Visitors under 18 need a parent or guardian present to use computers. Cardholders can also reserve museum passes, and Hussey-Mayfield cardholders can borrow materials through Evergreen Indiana.
 
 **Accessibility & sensory note:** The library has four study rooms and a quiet space on the top floor.
 
-[Visit Lebanon Public Library →](http://www.leblib.org/)
+[Visit Lebanon Public Library →](https://www.leblib.org/)
 
 [↑ Back to activities](#at-a-glance)
 
 ### Brownsburg Public Library
 
-**Games, Anime & Teen Programs · Ages 11–19**  
+**Games, Anime & Teen Programs · Ages 11–18 · Grades 6–12**  
 **Location:** [450 S. Jefferson St., Brownsburg, IN 46112](https://maps.app.goo.gl/RPXHRPav7pRZwLYr5)
 
-Brownsburg Public Library offers recurring programs for tweens and teens, including Teen & Tween Game Night with Nintendo Switch and board games and Anime Club with anime, crafts and snacks. Next Chapter, a monthly teen and tween book club that also gathers input for the library, gives students a place to talk about books, movies and music and suggest ideas for future library programs.
+**Access:** Nonresidents can attend tween and teen programs and use library spaces.
 
-A library card is not required to participate in programs. Brownsburg welcomes anyone to attend events, use the computers and Wi-Fi, or spend time in the library; a card is needed to borrow physical or digital materials. Some teen programs require advance registration.
+Brownsburg Public Library offers recurring activities for tweens and teens, including Teen & Tween Game Night with Nintendo Switch and board games, Anime Club with crafts and snacks, and Next Chapter, a monthly group for discussing books, movies and music and suggesting future library activities. These programs serve students in grades 6–12 and require advance registration.
+
+Nonresidents can also drop in to spend time in the library, use computers and connect to Wi-Fi. A library card is required for borrowing materials, but not for program participation.
 
 **Accessibility & sensory note:** The library is ADA compliant, and visitors who need accommodations for a program can contact the library at least 48 hours ahead.
 
@@ -338,6 +358,8 @@ These options involve scheduled instruction, course enrollment or recurring part
 
 ### STEM & Technology
 
+#### Kids Explore Robotics
+
 <figure className="my-8">
   <Image
     src="/images/articles/indoor-activities-tweens-teens-zionsville-robotics.webp"
@@ -350,8 +372,6 @@ These options involve scheduled instruction, course enrollment or recurring part
     Hands-on robotics classes let students build, test and program their own creations.
   </figcaption>
 </figure>
-
-#### Kids Explore Robotics
 
 **Robotics & Coding · Ages 4–18**  
 **Location:** [1742 E. 116th St., Carmel, IN 46032](https://maps.app.goo.gl/f7HC3FFb1oa3zPAc6)
@@ -381,15 +401,6 @@ Programs progress by age: Little Wing is designed for ages 4–5, Rookies for ag
 
 #### Bach to Rock
 
-**Music Instruction & Performance · Ages 1 through adult**  
-**Location:** [10895 N. Michigan Rd., Ste. 100, Zionsville, IN 46077](https://maps.app.goo.gl/6neeXnpWZfMcnv3v9)
-
-Bach to Rock offers private and semi-private lessons along with a strong selection of group programs for tweens and teens. Students can join a band or Glee Club and work toward live performances, or take beginner group classes in drums, voice and songwriting. For students interested in creating and producing music, Beat Refinery programs cover DJ mixing and scratching, beat making and music production using professional software and equipment.
-
-The school also offers songwriting, DJ and music-production workshops, along with camps and opportunities to record music in the studio. Students are encouraged to work with songs and styles they enjoy, whether they want to learn an instrument, perform with other musicians or create their own music.
-
-[Visit Bach to Rock →](https://www.bachtorock.com/zionsville/)
-
 <figure className="my-8">
   <Image
     src="/images/articles/indoor-activities-tweens-teens-zionsville-bach2rock.webp"
@@ -403,6 +414,15 @@ The school also offers songwriting, DJ and music-production workshops, along wit
   </figcaption>
 </figure>
 
+**Music Instruction & Performance · Ages 1 through adult**  
+**Location:** [10895 N. Michigan Rd., Ste. 100, Zionsville, IN 46077](https://maps.app.goo.gl/6neeXnpWZfMcnv3v9)
+
+Bach to Rock offers private and semi-private lessons along with group programs for tweens and teens. Students can join a band or Glee Club and work toward live performances, or take beginner group classes in drums, voice and songwriting. For students interested in creating and producing music, Beat Refinery programs cover DJ mixing and scratching, beat making and music production using professional software and equipment.
+
+The school also offers workshops, camps and opportunities to record music in the studio.
+
+[Visit Bach to Rock →](https://www.bachtorock.com/zionsville/)
+
 [↑ Back to activities](#at-a-glance)
 
 #### Musicologie
@@ -410,7 +430,7 @@ The school also offers songwriting, DJ and music-production workshops, along wit
 **Music Instruction · Ages 6 months through adult**  
 **Location:** [271 Merchants Square Dr., A-118, Carmel, IN 46032](https://maps.app.goo.gl/utUn8aieGuUE75PQ9)
 
-Musicologie emphasizes individualized private instruction while giving tweens and teens several ways to perform and play with other musicians. Students work with the same teacher each week on a curriculum based on their goals, whether they are learning for fun, preparing for a school jury or competition, or developing more advanced skills. Private lessons are available in piano, voice, guitar, bass, drums, violin, ukulele and other instruments.
+Musicologie emphasizes individualized private instruction while giving tweens and teens several ways to perform and play with other musicians. Students work with the same teacher each week on a curriculum based on their goals, whether they are learning for fun, preparing for a competition or developing more advanced skills. Private lessons are available in piano, voice, guitar, bass, drums, violin, ukulele and other instruments.
 
 Students who want a group experience can join RockStars beginning at age 7, where they rehearse and perform with a band. Musicologie also offers open mics, concerts, workshops and an All Stars concert for more advanced students. Its Musicologie Junior program serves younger children beginning at 6 months. Scholarships are also available for music lessons.
 
@@ -442,7 +462,7 @@ Programs include semester-long productions and classes, summer sessions, short L
 
 SullivanMunce Cultural Center brings together an art center, local-history museum and genealogy library downtown. Museum and gallery admission is free, so families can stop in to see rotating art exhibitions, local-history displays and artifacts without registering for a program.
 
-SullivanMunce also offers art instruction for children, teens and adults. Youth classes for ages 6–11 may include clay projects and wheel throwing—forming clay while it spins on a pottery wheel—along with seasonal projects using painting, sculpture, collage and fiber art. Programs for ages 10–14 vary and have included fashion design, fashion illustration and hand-sewing, among other art and design workshops. Summer day camps serve ages 7–12, and separate classes are available for adults.
+SullivanMunce also offers art instruction for children, teens and adults. Programs for ages 10–14 vary and have included fashion design, fashion illustration and hand-sewing, among other art and design workshops. Youth classes for ages 6–11 may include clay projects and wheel throwing—forming clay while it spins on a pottery wheel—along with seasonal projects using painting, sculpture, collage and fiber art. Summer day camps serve ages 7–12.
 
 [Visit SullivanMunce Cultural Center →](http://www.sullivanmunce.org/)
 
@@ -479,7 +499,7 @@ Classes must be scheduled in advance; the studio does not offer regular drop-in 
 **Culinary & Creative · Ages 4–14**  
 **Location:** [11145 N. Michigan Rd., Zionsville, IN 46077](https://maps.app.goo.gl/XcfqfKjsHkXDLjCd8)
 
-Sprouts Cooking School offers hands-on cooking programs for children ages 4–14, with classes divided by age and experience. Participants prepare recipes while learning kitchen basics, cooking techniques and other age-appropriate culinary skills. Family classes are also available for children as young as 3 with an adult.
+Sprouts Cooking School offers hands-on cooking programs for children ages 4–14, with classes divided by age and experience. Participants prepare recipes while learning kitchen basics, cooking techniques and other age-appropriate culinary skills. Family classes for a parent and child start at age 3.
 
 For tweens and younger teens, the Tween Chef program is designed for ages 10–14, giving them a more age-specific setting to build cooking skills and tackle more involved recipes. Sprouts also offers seasonal camps and multi-week MemberChef programs, with advance registration required.
 
@@ -531,7 +551,7 @@ Training covers ball handling, shooting, passing, finishing, footwork and game d
 
 Pearson Tennis Club has eight climate-controlled indoor tennis courts and junior programming specifically for middle- and high-school players. Seasonal clinics run throughout the year, with players placed at an appropriate level; private and small-group lessons are also available.
 
-Members can reserve courts for independent play and add ball-machine practice. Membership is generally required for clinics, lessons, and court rentals, although limited nonmember access is available for private lessons and some summer youth clinics.
+Members can reserve courts for independent play and add ball-machine practice. Membership is generally required for clinics, lessons and court rentals, although limited nonmember access is available for private lessons and some summer youth clinics.
 
 [Visit Pearson Tennis Club →](https://www.pearsontennis.com/)
 
