@@ -7,8 +7,8 @@ startDateTime: "2026-10-22T17:00:00-04:00"
 endDateTime: "2026-10-22T19:00:00-04:00"
 location: "Boone Village Shopping Center"
 address: "25 Boone Village"
-image: /images/events/boone-village-halloween-party-zionsville-hero.webp
-imageAlt: "Orange Happy Halloween balloon decorated with black bats, surrounded by pumpkins, jack-o'-lantern decorations and Halloween party supplies on a turquoise wooden background."
+image: /images/events/boone-village-halloween-party-trick-or-treat.webp
+imageAlt: "Children holding orange jack-o'-lantern candy buckets while trick-or-treating outdoors at Halloween."
 tags: [halloween, family]
 externalUrl: "https://business.zionsvillechamber.org/calendar/Details/boone-village-halloween-party-1952759"
 featured: true
