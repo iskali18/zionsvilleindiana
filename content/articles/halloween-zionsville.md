@@ -8,12 +8,15 @@ hubOrder: 10
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
-lastUpdated: "2026-10-05"
+lastUpdated: "2026-10-17"
 itemListName: "Zionsville trick-or-treat and trunk-or-treat events 2026"
 itemList:
+  - name: "Boone Village Halloween Party"
+    href: "/events/boone-village-halloween-party"
+    description: "Thursday, October 22, 5–7 p.m. at Boone Village Shopping Center. Free trick-or-treating at participating shops and businesses, with a costume contest at 6 p.m."
   - name: "Zionsville Marching Eagles Community Trunk or Treat Night"
     href: "#zionsville-marching-eagles-community-trunk-or-treat-night"
-    description: "Friday, October 23, 6–7:30 p.m. at Zionsville Community High School Stadium."
+    description: "Friday, October 23, 6–7:30 p.m. at Ascension St. Vincent Stadium at Zionsville Community High School."
   - name: "Trick or Trees"
     href: "/events/trick-or-trees"
     description: "Saturday, October 24, 9 a.m.–noon at Elm Street Green. Ages 2–12; children under 2 attend free. Registration required."
@@ -39,7 +42,7 @@ ctas:
     href: "/articles/pumpkin-patches-corn-mazes-near-indianapolis"
 faqs:
   - q: "When is trick-or-treating in Zionsville in 2026?"
-    a: "As of early October, the Town of Zionsville has not announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are scheduled for October 23, 24, 25 and 29."
+    a: "As of early October, the Town of Zionsville has not announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are scheduled for October 22, 23, 24, 25 and 29."
   - q: "Do you need to register for Trick or Trees?"
     a: "Yes. Every participating child needs a timed-entry registration. Children under age 2 attend free but still need to be registered. Registration opened October 1 and closes at 4 p.m. on Friday, October 23."
   - q: "What ages is Trick or Trees for?"
@@ -62,23 +65,36 @@ Zionsville families have several chances to trick-or-treat before Halloween in 2
 
 | Event | When | What to Expect |
 | --- | --- | --- |
-| [Zionsville Marching Eagles Community Trunk or Treat Night](#zionsville-marching-eagles-community-trunk-or-treat-night) | Fri., Oct. 23 · 6–7:30 PM | Ticketed · Trunk-or-treating, a Marching Eagles performance and a jackpot drawing |
-| [Trick or Trees](#trick-or-trees-at-elm-street-green) | Sat., Oct. 24 · 9 AM–12 PM | Ticketed · Trick-or-treat trail, marshmallow roasting, games and the Pumpkin Path |
-| [Graham Rahal Performance Trunk or Treat](#graham-rahal-performance-trunk-or-treat) | Sat., Oct. 24 · 4–6 PM | Trunk-or-treating at the final Cars & Coffee of the season |
-| [Eagle Church Trunk or Treat](#eagle-church-trunk-or-treat) | Sat., Oct. 24 · 4–6 PM | Pumpkin decorating, hayrides, donut holes and cider |
-| [Zionsville Presbyterian Church Trunk or Treat](#zionsville-presbyterian-church-trunk-or-treat) | Sun., Oct. 25 · 12:15–2 PM | Brunch, face painting and bounce houses |
-| [Zionsville United Methodist Church Trunk or Treat](#zionsville-united-methodist-church-trunk-or-treat) | Sun., Oct. 25 · 3–5 PM | Trunk-or-treating and a Bombas sock service project |
-| [BACA Sensory-Friendly Trunk-or-Treat](#baca-sensory-friendly-trunk-or-treat) | Thu., Oct. 29 · 5:30–7 PM | Sensory-friendly activities, treats and candy |
+| [Boone Village Halloween Party](#boone-village-halloween-party) | Thu, Oct. 22 · 5–7 PM | Trick-or-treating, haunted hallway, face painting and costume contest |
+| [Zionsville Marching Eagles Community Trunk or Treat Night](#zionsville-marching-eagles-community-trunk-or-treat-night) | Fri, Oct. 23 · 6–7:30 PM | Ticketed · Trunk-or-treating, Marching Eagles and community band performances and a jackpot drawing |
+| [Trick or Trees](#trick-or-trees-at-elm-street-green) | Sat, Oct. 24 · 9 AM–12 PM | Ticketed · Trick-or-treat trail, marshmallow roasting, games and the Pumpkin Path |
+| [Graham Rahal Performance Trunk or Treat](#graham-rahal-performance-trunk-or-treat) | Sat, Oct. 24 · 4–6 PM | Trunk-or-treating at the final Cars & Coffee of the season |
+| [Eagle Church Trunk or Treat](#eagle-church-trunk-or-treat) | Sat, Oct. 24 · 4–6 PM | Pumpkin decorating, hayrides, donut holes and cider |
+| [Zionsville Presbyterian Church Trunk or Treat](#zionsville-presbyterian-church-trunk-or-treat) | Sun, Oct. 25 · 12:15–2 PM | Brunch, face painting and bounce houses |
+| [Zionsville United Methodist Church Trunk or Treat](#zionsville-united-methodist-church-trunk-or-treat) | Sun, Oct. 25 · 3–5 PM | Trunk-or-treating and a Bombas sock service project |
+| [BACA Sensory-Friendly Trunk-or-Treat](#baca-sensory-friendly-trunk-or-treat) | Thu, Oct. 29 · 5:30–7 PM | Sensory-friendly activities, treats and candy |
+
+## Boone Village Halloween Party
+
+**Thursday, October 22 · 5–7 PM**  
+**Boone Village Shopping Center · [25 Boone Village, Zionsville](https://maps.app.goo.gl/JihameuPUeDJW6kQ9)**  
+**Admission:** Free
+
+The annual **Boone Village Halloween Party** brings trick-or-treating, family activities and a costume contest to the shopping center, with participation from local businesses and community organizations.
+
+See the [Boone Village Halloween Party event page](/events/boone-village-halloween-party) for activities, costume contest details and participating organizations.
+
+[↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 
 ## Zionsville Marching Eagles Community Trunk or Treat Night
 
 **Friday, October 23 · 6–7:30 PM trunk-or-treat · 7:30 PM performances**  
-**Zionsville Community High School Stadium · [800 Hal Sharpe Rd., Zionsville](https://maps.app.goo.gl/EbmQbowapwaNVcJu6)**  
+**Ascension St. Vincent Stadium at Zionsville Community High School · [800 Hal Sharpe Rd., Zionsville](https://maps.app.goo.gl/EbmQbowapwaNVcJu6)**  
 **Admission:** $5 per person in advance · $7 day of the event · children 3 and under free
 
-The **Zionsville Marching Eagles** are the marching band at Zionsville Community High School and the 2025 ISSMA Scholastic Class A state champions. Their **Community Trunk or Treat Night** includes trunk-or-treating from 6 to 7:30 p.m., followed by a Marching Eagles performance and a jackpot drawing. Food is available.
+The **Zionsville Marching Eagles** are the marching band at Zionsville Community High School and the 2025 ISSMA Scholastic Class A state champions. Their **Community Trunk or Treat Night** includes trunk-or-treating from 6 to 7:30 p.m., followed by performances from the Marching Eagles and the community band and a jackpot drawing. Food is available.
 
-See the [Zionsville Band Boosters website](https://www.zionsvillebandboosters.com/).
+See the [Marching Eagles Trunk or Treat event page](https://zchsbands.com/).
 
 [↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 
@@ -152,7 +168,7 @@ See the [ZPC Trunk or Treat event page](https://www.zpc.org/event/24406806-2026-
 
 Zionsville United Methodist Church invites the community to its free Trunk or Treat, with children collecting candy from decorated vehicles in the church's east parking lot. The event will also include a service project sorting donated Bombas socks for Fletcher Place Community Center, an Indianapolis nonprofit that provides food, clothing and other basic-needs assistance to families and individuals.
 
-See the [ZUMC Trunk or Treat page](https://www.zumc.org/trunk-or-treat).
+See the [ZUMC Trunk or Treat event page](https://www.zumc.org/trunk-or-treat).
 
 [↑ Back to the schedule](#2026-zionsville-trick-or-treat-events)
 
@@ -182,7 +198,7 @@ For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near
 
 Several local organizations have held trick-or-treat or trunk-or-treat events in previous years. As of early October, they have not announced 2026 details.
 
-We are watching for announcements from **Boone Village, St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, and Zionsville Meadows**.
+We are watching for announcements from **St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, and Zionsville Meadows**.
 
 Additional events will be added as 2026 details are confirmed.
 
