@@ -29,6 +29,30 @@ export function indianaToday(): Date {
   return new Date(now.getFullYear(), now.getMonth(), now.getDate())
 }
 
+// ─── Display dates ───────────────────────────────────────────────────────────
+// Dates are built from their year, month and day numbers instead of being read
+// through the server clock, so they show the same day on Vercel (UTC) as in dev.
+
+/** Month abbreviations as the articles write them (AP style). */
+export const MONTHS = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
+export const WEEKDAYS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+
+/** Year, month, day and weekday of a date. YAML turns an unquoted date into a
+ *  Date at UTC midnight, so a Date is read in UTC. */
+export function dateParts(value: string | Date) {
+  const [y, m, d] =
+    value instanceof Date
+      ? [value.getUTCFullYear(), value.getUTCMonth() + 1, value.getUTCDate()]
+      : value.slice(0, 10).split('-').map(Number)
+  return { y, m, d, weekday: new Date(Date.UTC(y, m - 1, d)).getUTCDay() }
+}
+
+/** "Sat, Oct. 24, 2026", or "Sat, Oct. 24" without the year. */
+export function formatCardDate(value: string | Date, withYear = true): string {
+  const { y, m, d, weekday } = dateParts(value)
+  return `${WEEKDAYS[weekday]}, ${MONTHS[m - 1]} ${d}${withYear ? `, ${y}` : ''}`
+}
+
 // ─── Generic helpers ─────────────────────────────────────────────────────────
 
 function getContentDir(section: string) {
@@ -163,9 +187,10 @@ function applyRecurrence(event: EventMeta, today: Date): EventMeta | null {
 
 /**
  * Card-friendly summary of an `occurrences` list: the next few upcoming dates,
- * short month names, ellipsis when more remain. Past dates drop off on their own.
- *   4+ upcoming -> "Sat, Mar 28, Apr 25, May 23…"
- *   1-3 upcoming -> "Sat, Sep 26, Oct 24, 2026"
+ * months written as in formatCardDate, ellipsis when more remain. Past dates
+ * drop off on their own.
+ *   4+ upcoming -> "Sat, March 28, April 25, May 23…"
+ *   1-3 upcoming -> "Sat, Sept. 26, Oct. 24, 2026"
  * Returns null when every listed date has passed, so callers can fall back.
  */
 export function formatOccurrenceList(
@@ -186,15 +211,15 @@ export function formatOccurrenceList(
 
   if (upcoming.length === 0) return null
 
-  const at = (d: string) => new Date(d + 'T00:00:00Z')
-  const weekday = at(upcoming[0]).toLocaleDateString('en-US', { weekday: 'short', timeZone: 'UTC' })
-  const shown = upcoming
-    .slice(0, max)
-    .map((d) => at(d).toLocaleDateString('en-US', { month: 'short', day: 'numeric', timeZone: 'UTC' }))
+  const weekday = WEEKDAYS[dateParts(upcoming[0]).weekday]
+  const shown = upcoming.slice(0, max).map((d) => {
+    const { m, d: day } = dateParts(d)
+    return `${MONTHS[m - 1]} ${day}`
+  })
 
   if (upcoming.length > max) return `${weekday}, ${shown.join(', ')}…`
 
-  const year = at(upcoming[upcoming.length - 1]).getUTCFullYear()
+  const year = dateParts(upcoming[upcoming.length - 1]).y
   return `${weekday}, ${shown.join(', ')}, ${year}`
 }
 

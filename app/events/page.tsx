@@ -4,47 +4,79 @@ import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
-import { getFeaturedEvents, formatOccurrenceList, eventHref, getCalendarLinkTargets } from '@/lib/content'
-import { getUpcomingEvents, buildEventSchema } from '@/lib/calendar'
+import {
+  getFeaturedEvents,
+  formatOccurrenceList,
+  eventHref,
+  getCalendarLinkTargets,
+  dateParts,
+  formatCardDate,
+  MONTHS,
+  WEEKDAYS,
+} from '@/lib/content'
+import { getUpcomingEvents, buildEventSchema, indianaDate, matchEventToSlug } from '@/lib/calendar'
+import { formatShortDate, formatDateRange, todayIso, toIso, fitNames, timeRange } from '@/lib/weekend'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
-export const metadata: Metadata = {
-  title: 'Zionsville Indiana Events 2026 Calendar',
-  description:
-    'Find upcoming events in Zionsville, Indiana for 2026 — the Farmers Market, Fall Festival, Brick Street Market, community gatherings, and more.',
-  alternates: { canonical: 'https://zionsvilleindiana.com/events' },
+const FALLBACK_DESCRIPTION =
+  'Find upcoming events in Zionsville, Indiana for 2026 — the Farmers Market, Fall Festival, Brick Street Market, community gatherings, and more.'
+
+/** Longest description that shows in full in Google results. */
+const DESCRIPTION_LIMIT = 160
+
+/** Names the next few featured events with their dates, so the Google snippet
+ *  shows what's actually coming up. Rebuilt with the page once a day. Falls
+ *  back to the fixed description when no dated events are listed. */
+function upcomingDescription(): string {
+  const today = todayIso()
+  const events = getFeaturedEvents(30)
+    .filter((e) => !e.perennial)
+    .map((e) => {
+      const start = toIso(e.startDate)
+      // A repeating event shows its next date. Its endDate is the end of the
+      // season, which would read as one long run ("Oct. 24–Nov. 21").
+      const repeats = Boolean(e.occurrences?.length || e.recurrence)
+      const end = e.endDate && !repeats ? toIso(e.endDate) : start
+      const ongoing = start < today
+      const when = ongoing
+        ? `through ${formatShortDate(end)}`
+        : end !== start
+        ? formatDateRange(start, end)
+        : formatShortDate(start)
+      return { label: `${e.title} (${when})`, ongoing }
+    })
+  // Events that haven't started yet come first, so a season-long event that's
+  // already running doesn't push the next few dated events out of the snippet.
+  const labels = [
+    ...events.filter((e) => !e.ongoing),
+    ...events.filter((e) => e.ongoing),
+  ].map((e) => e.label)
+
+  // Up to three events, skipping any whose name would push the text past the
+  // limit. "And more" always fits, since the calendar lists more besides.
+  return (
+    fitNames(
+      labels,
+      DESCRIPTION_LIMIT,
+      (shown) =>
+        `Upcoming Zionsville events: ${shown.join(', ')}${shown.length > 1 ? ',' : ''} and more, plus the community calendar.`,
+      3
+    ) ?? FALLBACK_DESCRIPTION
+  )
+}
+
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: 'Zionsville Indiana Events 2026 Calendar',
+    description: upcomingDescription(),
+    alternates: { canonical: 'https://zionsvilleindiana.com/events' },
+  }
 }
 
 export const revalidate = 86400
 
-// Match a Google Calendar event title to an internal event slug.
-// Uses tokenized matching: punctuation-tolerant, stop-word-free,
-// and bidirectional so it works whether the calendar title is shorter
-// or longer than the slug.
-const STOP_WORDS = new Set(['at', 'the', 'in', 'of', 'a', 'an', 'and', 'on', 'for', 'to'])
-
-function tokenize(input: string): Set<string> {
-  return new Set(
-    input
-      .toLowerCase()
-      .replace(/[^a-z0-9\s]/g, ' ')
-      .split(/\s+/)
-      .filter((w) => w && !STOP_WORDS.has(w))
-  )
-}
-
-function matchEventToSlug(eventTitle: string, slugs: string[]): string | undefined {
-  const titleWords = tokenize(eventTitle)
-  if (titleWords.size === 0) return undefined
-
-  return slugs.find((slug) => {
-    const slugWords = tokenize(slug.replace(/-/g, ' '))
-    if (slugWords.size === 0) return false
-    const slugInTitle = [...slugWords].every((w) => titleWords.has(w))
-    const titleInSlug = [...titleWords].every((w) => slugWords.has(w))
-    return slugInTitle || titleInSlug
-  })
-}
+// Three-letter months for the calendar date badge, which shows them in capitals.
+const BADGE_MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 export default async function EventsPage() {
   const featuredEvents = getFeaturedEvents(30)
@@ -101,13 +133,19 @@ export default async function EventsPage() {
           <p className="text-stone-600 leading-relaxed">
             Zionsville hosts a full calendar of community events throughout the year — from the
             weekly Farmers Market on Main Street to the annual Fall Festival at Lions Park.
-            Browse featured events below, or scroll down for the full community calendar.
+            Browse featured events below, or scroll down for the community calendar.
             After your event, explore{' '}
             <Link href="/downtown" className="text-brick-600 hover:text-brick-700">
               downtown Zionsville
             </Link>{' '}
             for restaurants and shopping in the Village.
           </p>
+          <Link
+            href="/events/this-weekend"
+            className="inline-block mt-3 text-sm font-medium text-brick-600 hover:text-brick-700"
+          >
+            See what&rsquo;s happening this weekend →
+          </Link>
         </div>
 
         {/* Featured events */}
@@ -147,8 +185,8 @@ export default async function EventsPage() {
                         : null) ??
                         event.recurrenceLabel ?? (
                         event.endDate && event.endDate !== event.startDate
-                          ? `${new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })} – ${new Date(event.endDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}`
-                          : new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })
+                          ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
+                          : formatCardDate(event.startDate)
                       )}
                     </p>
                     <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
@@ -196,8 +234,8 @@ export default async function EventsPage() {
                         : null) ??
                         event.recurrenceLabel ?? (
                         event.endDate && event.endDate !== event.startDate
-                          ? `${new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })} – ${new Date(event.endDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })}`
-                          : new Date(event.startDate + 'T00:00:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' })
+                          ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
+                          : formatCardDate(event.startDate)
                       )}
                     </p>
                     <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
@@ -225,40 +263,30 @@ export default async function EventsPage() {
             <div className="divide-y divide-stone-100 border border-stone-200 rounded-lg bg-white overflow-hidden">
               {calendarEvents.map((event) => {
                 const matchedSlug = matchEventToSlug(event.title, allSlugs)
-                const displayDate = new Date(
-                  event.isAllDay ? event.startDate + 'T00:00:00' : event.startDate
+                const day = dateParts(
+                  event.isAllDay ? event.startDate.slice(0, 10) : indianaDate(event.startDate)
                 )
+                const lastDay = event.lastOccurrenceDate
+                  ? dateParts(indianaDate(event.lastOccurrenceDate))
+                  : null
                 const externalHref = event.officialUrl ?? event.htmlLink
                 return (
                   <div key={event.id} className="flex gap-4 p-4 hover:bg-stone-50 transition-colors">
                     {/* Date badge */}
                     <div className="shrink-0 w-14 text-center">
                       <p className="text-xs text-stone-400 uppercase tracking-wide">
-                        {displayDate.toLocaleDateString('en-US', {
-                          month: 'short',
-                          timeZone: 'America/Indiana/Indianapolis',
-                        })}
+                        {BADGE_MONTHS[day.m - 1]}
                       </p>
                       <p className="font-display text-2xl text-stone-900 leading-none">
-                        {displayDate.toLocaleDateString('en-US', {
-                          day: 'numeric',
-                          timeZone: 'America/Indiana/Indianapolis',
-                        })}
+                        {day.d}
                       </p>
                       {/* Weekday — the thing people actually plan around. */}
                       <p className="text-xs text-stone-500 leading-none mt-0.5">
-                        {displayDate.toLocaleDateString('en-US', {
-                          weekday: 'short',
-                          timeZone: 'America/Indiana/Indianapolis',
-                        })}
+                        {WEEKDAYS[day.weekday]}
                       </p>
-                      {event.lastOccurrenceDate && (
+                      {lastDay && (
                         <p className="text-xs text-stone-400 leading-none mt-0.5">
-                          – {new Date(event.lastOccurrenceDate).toLocaleDateString('en-US', {
-                            month: 'short',
-                            day: 'numeric',
-                            timeZone: 'America/Indiana/Indianapolis',
-                          })}
+                          – {MONTHS[lastDay.m - 1]} {lastDay.d}
                         </p>
                       )}
                     </div>
@@ -289,8 +317,7 @@ export default async function EventsPage() {
                       <div className="flex flex-wrap gap-x-3 mt-0.5">
                         {!event.isAllDay && event.startTime && (
                           <p className="text-xs text-stone-500">
-                            {event.startTime}
-                            {event.endTime && ` – ${event.endTime}`}
+                            {timeRange(event.startTime, event.endTime)}
                           </p>
                         )}
                         {event.location && (

@@ -47,20 +47,19 @@ function titleKey(summary?: string): string {
   return (summary ?? '').trim().toLowerCase().replace(/[\u2018\u2019]/g, "'")
 }
 
-export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[]> {
-  const now = new Date().toISOString()
-  // 1 year out — needs to extend past late-year events like Christmas in the Village
-  const max = new Date(Date.now() + 1000 * 60 * 60 * 24 * 365).toISOString()
-
-  // Fetch generously to account for deduplication of recurring events
-  // (weekly events like Farmers Market expand to ~20 instances over a year)
-  const fetchLimit = Math.min(maxResults * 10, 250)
-
+/** Fetches calendar entries between two ISO timestamps, one entry per
+ *  occurrence (recurring events are expanded). Returns an empty list when the
+ *  calendar can't be reached, so pages still render. */
+async function fetchCalendarEvents(
+  timeMin: string,
+  timeMax: string,
+  maxResults: number
+): Promise<CalendarEvent[]> {
   const params = new URLSearchParams({
     key: API_KEY,
-    timeMin: now,
-    timeMax: max,
-    maxResults: String(fetchLimit),
+    timeMin,
+    timeMax,
+    maxResults: String(maxResults),
     singleEvents: 'true',
     orderBy: 'startTime',
   })
@@ -86,7 +85,7 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
 
   const data = await res.json()
 
-  const mapped: CalendarEvent[] = (data.items ?? []).map((item: any): CalendarEvent => {
+  return (data.items ?? []).map((item: any): CalendarEvent => {
     const isAllDay = Boolean(item.start?.date)
     return {
       id: item.id,
@@ -116,6 +115,27 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
       officialUrl: OFFICIAL_URLS[titleKey(item.summary)] ?? undefined,
     }
   })
+}
+
+/** Every calendar entry between two ISO timestamps, with recurring events
+ *  listed once per date (not grouped). Used by /events/this-weekend. */
+export async function getCalendarEventsBetween(
+  timeMin: string,
+  timeMax: string
+): Promise<CalendarEvent[]> {
+  return fetchCalendarEvents(timeMin, timeMax, 250)
+}
+
+export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[]> {
+  const now = new Date().toISOString()
+  // 1 year out — needs to extend past late-year events like Christmas in the Village
+  const max = new Date(Date.now() + 1000 * 60 * 60 * 24 * 365).toISOString()
+
+  // Fetch generously to account for deduplication of recurring events
+  // (weekly events like Farmers Market expand to ~20 instances over a year)
+  const fetchLimit = Math.min(maxResults * 10, 250)
+
+  const mapped = await fetchCalendarEvents(now, max, fetchLimit)
 
   // Deduplicate recurring events by title — keep first occurrence,
   // track last occurrence date and total count
@@ -147,6 +167,50 @@ export async function getUpcomingEvents(maxResults = 20): Promise<CalendarEvent[
   })
 
   return deduped.slice(0, maxResults)
+}
+
+/** The date a calendar entry falls on in Indiana, as YYYY-MM-DD. An all-day
+ *  entry's plain date is already that; a timestamp is converted to Indiana
+ *  time, so an 11:30 PM event stays on its own day. */
+export function indianaDate(value: string): string {
+  if (/^\d{4}-\d{2}-\d{2}$/.test(value)) return value
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Indiana/Indianapolis',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).formatToParts(new Date(value))
+  const part = (type: string) => parts.find((p) => p.type === type)?.value
+  return `${part('year')}-${part('month')}-${part('day')}`
+}
+
+// Match a Google Calendar event title to an internal event slug.
+// Uses tokenized matching: punctuation-tolerant, stop-word-free,
+// and bidirectional so it works whether the calendar title is shorter
+// or longer than the slug.
+const STOP_WORDS = new Set(['at', 'the', 'in', 'of', 'a', 'an', 'and', 'on', 'for', 'to'])
+
+function tokenize(input: string): Set<string> {
+  return new Set(
+    input
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w && !STOP_WORDS.has(w))
+  )
+}
+
+export function matchEventToSlug(eventTitle: string, slugs: string[]): string | undefined {
+  const titleWords = tokenize(eventTitle)
+  if (titleWords.size === 0) return undefined
+
+  return slugs.find((slug) => {
+    const slugWords = tokenize(slug.replace(/-/g, ' '))
+    if (slugWords.size === 0) return false
+    const slugInTitle = [...slugWords].every((w) => titleWords.has(w))
+    const titleInSlug = [...titleWords].every((w) => slugWords.has(w))
+    return slugInTitle || titleInSlug
+  })
 }
 
 export function formatEventDate(isoDate: string, isAllDay: boolean): string {

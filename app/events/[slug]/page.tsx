@@ -9,7 +9,14 @@ import EventEndedBanner, { hasEnded } from '@/components/EventEndedBanner'
 import EventInSeasonBanner from '@/components/EventInSeasonBanner'
 import FaqSection from '@/components/FaqSection'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
-import { getAllEventSlugs, getEvent, indianaToday } from '@/lib/content'
+import {
+  getAllEventSlugs,
+  getEvent,
+  indianaToday,
+  dateParts,
+  formatCardDate,
+  MONTHS,
+} from '@/lib/content'
 import ChristmasEventTable from '@/components/ChristmasEventTable'
 
 interface Props {
@@ -173,21 +180,19 @@ function buildEventSchema(rawMeta: Awaited<ReturnType<typeof getEvent>>['meta'])
   return schema
 }
 
+const WEEKDAYS_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
+/** Same month style as the event cards (formatCardDate in lib/content):
+ *  "Sat, Oct. 10 – Tue, Oct. 13, 2026" for a range, "Saturday, Oct. 24, 2026"
+ *  for a single day. */
 function formatEventDate(meta: Awaited<ReturnType<typeof getEvent>>['meta']): string {
   if (meta.perennial && meta.perennialLabel) return meta.perennialLabel
   if (meta.recurrenceLabel) return meta.recurrenceLabel
   if (meta.endDate && meta.endDate !== meta.startDate) {
-    const start = new Date(meta.startDate + 'T00:00:00').toLocaleDateString('en-US', {
-      weekday: 'short', month: 'short', day: 'numeric',
-    })
-    const end = new Date(meta.endDate + 'T00:00:00').toLocaleDateString('en-US', {
-      weekday: 'short', month: 'short', day: 'numeric', year: 'numeric',
-    })
-    return `${start} – ${end}`
+    return `${formatCardDate(meta.startDate, false)} – ${formatCardDate(meta.endDate)}`
   }
-  return new Date(meta.startDate + 'T00:00:00').toLocaleDateString('en-US', {
-    weekday: 'long', month: 'short', day: 'numeric', year: 'numeric',
-  })
+  const { y, m, d, weekday } = dateParts(meta.startDate)
+  return `${WEEKDAYS_LONG[weekday]}, ${MONTHS[m - 1]} ${d}, ${y}`
 }
 
 /** Matches ArticleLayout's formatter so the freshness date reads the same on

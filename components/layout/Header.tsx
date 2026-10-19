@@ -10,7 +10,14 @@ type NavItem = {
 }
 
 const nav: NavItem[] = [
-  { label: 'Events', href: '/events' },
+  {
+    label: 'Events',
+    href: '/events',
+    children: [
+      { label: 'All Events', href: '/events' },
+      { label: 'This Weekend', href: '/events/this-weekend' },
+    ],
+  },
   {
     label: 'Downtown',
     href: '/downtown',

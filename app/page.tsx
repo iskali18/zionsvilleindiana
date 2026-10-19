@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import { getFeaturedEvents, formatOccurrenceList, eventHref } from '@/lib/content'
+import { getFeaturedEvents, formatOccurrenceList, eventHref, formatCardDate } from '@/lib/content'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 export const metadata: Metadata = {
@@ -26,11 +26,11 @@ const faqs = [
   },
   {
     q: 'When is the Zionsville Farmers Market?',
-    a: 'The Zionsville Farmers Market runs every Saturday from May 16 through September 26, 2026, 8:00–11:30 AM at 340 S Main Street in the Village.',
+    a: 'The 2026 Zionsville Farmers Market season ran every Saturday from May 16 through September 26, 8:00–11:30 AM, at 340 S Main Street in the Village. The 2027 dates will be added here once they are announced.',
   },
   {
     q: 'When is the Zionsville Fall Festival?',
-    a: 'The Zionsville Fall Festival runs September 11–13, 2026 at Lions Park, 11053 Sycamore Street.',
+    a: 'The 2026 Zionsville Fall Festival was held September 11–13 at Lions Park, 11053 Sycamore Street. The 2027 dates will be added here once they are announced.',
   },
   {
     q: 'What is the Village in Zionsville?',
@@ -271,8 +271,8 @@ export default function HomePage() {
                           : null) ??
                         event.recurrenceLabel ?? (
                           event.endDate && event.endDate !== event.startDate
-                            ? `${new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: 'UTC' })} – ${new Date(event.endDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })}`
-                            : new Date(event.startDate + 'T00:00:00Z').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', timeZone: 'UTC' })
+                            ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
+                            : formatCardDate(event.startDate)
                         )
                     }
                   </p>
@@ -292,6 +292,12 @@ export default function HomePage() {
                 className="text-md text-brick-600 hover:text-brick-700 font-medium"
               >
             View all events →
+            </Link>
+            <Link
+                href="/events/this-weekend"
+                className="text-md text-brick-600 hover:text-brick-700 font-medium"
+              >
+            This weekend →
             </Link>
           </div>
 

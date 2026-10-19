@@ -245,8 +245,9 @@ export const EVENTS: ChristmasEvent[] = [
   },
 ]
 
-const MONTH = ['Jan.', 'Feb.', 'Mar.', 'Apr.', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
-const DAY = ['Sun.', 'Mon.', 'Tue.', 'Wed.', 'Thu.', 'Fri.', 'Sat.']
+// Same style as the rest of the site: AP months, weekdays without periods.
+const MONTH = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.']
+const DAY = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 
 /** Parsed as local time — `new Date('2026-12-05')` is UTC midnight, which lands
  *  on the previous day west of Greenwich. */
@@ -255,13 +256,13 @@ export function parseDate(iso: string): Date {
   return new Date(y, m - 1, d)
 }
 
-/** 'Sat., Dec. 5' */
+/** 'Sat, Dec. 5' */
 export function formatDay(iso: string): string {
   const d = parseDate(iso)
   return `${DAY[d.getDay()]}, ${MONTH[d.getMonth()]} ${d.getDate()}`
 }
 
-/** 'Fri.\u2013Sun., Dec. 11\u201313' for a short run; 'Nov. 20 \u2013 Dec. 19' for a long one.
+/** 'Fri\u2013Sun, Dec. 11\u201313' for a short run; 'Nov. 20 \u2013 Dec. 19' for a long one.
  *  The weekday prefix only makes sense within a single week — over a month it
  *  reads as "Fridays and Saturdays" rather than the first and last day. */
 export function formatRange(startIso: string, endIso: string): string {

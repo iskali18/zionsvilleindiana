@@ -21,12 +21,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // actually changed. Articles without one are listed with no date.
   const articleUpdated = new Map(articles.map((a) => [a.slug, a.lastUpdated] as const))
 
-  // Only the homepage and events page change daily (events come and go), so
-  // only they carry today's date. Other pages leave lastModified out rather
+  // Only the homepage, the events page and the weekend page change daily
+  // (events come and go), so only they carry today's date. Other pages leave lastModified out rather
   // than claim a change that didn't happen.
   const staticRoutes: MetadataRoute.Sitemap = [
     { url: BASE, lastModified: new Date(), changeFrequency: 'daily', priority: 1.0 },
     { url: `${BASE}/events`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.9 },
+    { url: `${BASE}/events/this-weekend`, lastModified: new Date(), changeFrequency: 'daily', priority: 0.8 },
     { url: `${BASE}/articles`, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/downtown`, changeFrequency: 'weekly', priority: 0.8 },
     { url: `${BASE}/businesses`, changeFrequency: 'weekly', priority: 0.7 },
