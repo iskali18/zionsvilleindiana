@@ -13,7 +13,7 @@ ctas:
     href: /things-to-do
   - label: View upcoming events
     href: /events
-lastUpdated: "2026-09-06"
+lastUpdated: "2026-10-19"
 faqs:
   - q: "What is the Zionsville Rail Trail?"
     a: "The Zionsville Rail Trail is the Zionsville section of the Big-4 Rail Trail and the town’s main paved trail corridor, running about 5 miles from the Zionsville Road trailhead northwest to the Whitestown border. It connects parks, neighborhoods, and downtown Zionsville along the way."
@@ -91,8 +91,8 @@ Use this table for a quick look at trail details that change from section to sec
 
 | Feature             | Sec. 1 | Sec. 2 | Sec. 3 | Sec. 4    | Sec. 5 |
 | ------------------- | ------ | ------ | ------ | --------- | ------ |
-| Street crossing     | Yes    | No     | No     | No        | Yes    |
-| Restrooms & drinking water   | Yes    | Yes    | Nearby | Nearby    | Yes    |
+| Street crossing     | Yes    | No     | No     | Yes       | No     |
+| Restrooms & drinking water   | Yes    | Yes    | Nearby | Yes       | Yes    |
 | Bike repair station | Yes    | Yes    | No     | No        | No     |
 | Notable structure   | Bridge, Overpass, Tunnel | Underpass | Underpass, Tunnel | Tunnel | No |  
 
