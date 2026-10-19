@@ -93,7 +93,7 @@ export const SEASON_LABELS: Record<Season, Record<StripKind, string>> = {
   fall: {
     listing: 'Planning the season?',
     event: 'Explore fall in Zionsville',
-    schoolBreak: 'Making plans for fall break?',
+    schoolBreak: 'Looking for things to do this fall?',
   },
   holiday: {
     listing: 'Planning the season?',
@@ -103,7 +103,7 @@ export const SEASON_LABELS: Record<Season, Record<StripKind, string>> = {
   spring: {
     listing: 'Planning the season?',
     event: 'Explore spring in Zionsville',
-    schoolBreak: 'Making plans for spring break?',
+    schoolBreak: 'Looking for things to do this spring?',
   },
   summer: {
     listing: 'Planning the season?',
