@@ -39,13 +39,25 @@ export async function generateMetadata(): Promise<Metadata> {
     ) ?? `Things to do in Zionsville the weekend of ${range}, ${year}, plus what\u2019s coming up next.`
 
   // Share image: the first listing with a photo, so the preview changes weekly.
-  const image = all.find((i) => i.image)?.image
+  const first = all.find((i) => i.image)
+  const image = first?.image ? { url: first.image, alt: first.imageAlt ?? '' } : null
 
   return {
     title,
     description,
     alternates: { canonical: PAGE_URL },
-    openGraph: { title, description, url: PAGE_URL, ...(image && { images: [{ url: image }] }) },
+    // A page's openGraph replaces the one in app/layout.tsx entirely, so the
+    // site-wide fields are repeated here. With no event photo this weekend,
+    // the site's default share image is used.
+    openGraph: {
+      type: 'website',
+      url: PAGE_URL,
+      siteName: 'Zionsville Indiana',
+      locale: 'en_US',
+      title,
+      description,
+      images: [image ? { url: image.url, alt: image.alt } : { url: '/images/og-default.jpg', width: 1200, height: 630 }],
+    },
   }
 }
 

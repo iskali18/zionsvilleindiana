@@ -5,6 +5,7 @@ import Link from 'next/link'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
+import ShareButton from '@/components/ui/ShareButton'
 import EventEndedBanner, { hasEnded } from '@/components/EventEndedBanner'
 import EventInSeasonBanner from '@/components/EventInSeasonBanner'
 import FaqSection from '@/components/FaqSection'
@@ -40,10 +41,16 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: meta.metaTitle,
       description: meta.metaDescription,
       alternates: { canonical: `https://zionsvilleindiana.com/events/${slug}` },
+      // A page's openGraph replaces the one in app/layout.tsx entirely, so the
+      // site-wide fields (type, siteName, locale) are repeated here.
       openGraph: {
+        type: 'website',
+        url: `https://zionsvilleindiana.com/events/${slug}`,
+        siteName: 'Zionsville Indiana',
+        locale: 'en_US',
         title: meta.metaTitle,
         description: meta.metaDescription,
-        images: [{ url: meta.image }],
+        images: [{ url: meta.image, alt: meta.imageAlt }],
       },
     }
   } catch {
@@ -288,7 +295,20 @@ export default async function EventPage({ params }: Props) {
             <h1 className="font-display text-3xl sm:text-4xl text-white font-bold leading-tight mb-1">
               {meta.title}
             </h1>
-            <p className="text-stone-300 text-sm">{meta.location}</p>
+            {/* Location, a thin divider, then Share. The divider and Share stay
+                together, so a long location wraps without stranding the divider.
+                Share uses the canonical URL. */}
+            <p className="text-stone-300 text-sm">
+              {meta.location}
+              <span className="inline-flex items-center gap-3 ml-3 align-bottom whitespace-nowrap print:hidden">
+                <span aria-hidden="true" className="h-4 w-px bg-white/40" />
+                <ShareButton
+                  url={`https://zionsvilleindiana.com/events/${slug}`}
+                  title={meta.title}
+                  tone="light"
+                />
+              </span>
+            </p>
             {meta.photoCredit && (
               <p
                 className="absolute bottom-2 right-3 text-white/60 text-xs"
