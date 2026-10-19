@@ -22,7 +22,7 @@ const nav: NavItem[] = [
     label: 'Downtown',
     href: '/downtown',
     children: [
-      { label: 'Itineraries', href: '/downtown' },
+      { label: 'Explore Downtown', href: '/downtown' },
       { label: 'Restaurants', href: '/articles/downtown-zionsville-restaurants' },
       { label: 'Shopping', href: '/articles/shopping-in-downtown-zionsville' },
       { label: 'Downtown Map', href: '/articles/downtown-zionsville-map' },

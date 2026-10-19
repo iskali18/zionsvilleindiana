@@ -1,20 +1,20 @@
 ---
-title: "32 Indoor Things to Do for Tweens & Teens Near Zionsville"
-metaTitle: "32 Indoor Activities for Tweens & Teens: Zionsville & NW Indy"
-metaDescription: "32 indoor places for tweens and teens near Zionsville and NW Indianapolis, including climbing, karting, escape rooms, art, sports and free library spaces."
-description: "A guide to indoor outings and activities for tweens and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes and free library spaces."
+title: "32 Indoor Things to Do for Older Kids & Teens Near Zionsville"
+metaTitle: "32 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
+metaDescription: "32 indoor places for older kids and teens near Zionsville and NW Indy, including climbing, karting, escape rooms, art, sports, and free library spaces."
+description: "A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
 hubOrder: 15
 draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-10-11"
+lastUpdated: "2026-10-19"
 ctas:
   - label: See all Zionsville events
     href: /events
 faqs:
-  - q: "What are some indoor things to do for teens near Zionsville?"
+  - q: "What are some indoor things to do for older kids and teens near Zionsville?"
     a: "Options near Zionsville and Indianapolis include indoor slides at Slick City in Brownsburg, climbing at Hoosier Heights, laser tag at Laser Flash in Carmel, karting at Fastimes, escape rooms, bowling, pottery painting, cat cafes and indoor sports such as pickleball and batting cages."
   - q: "Are there free indoor activities for teens near Zionsville?"
     a: "Yes. Hussey-Mayfield Memorial Public Library in Zionsville, Carmel Clay Public Library, Westfield Washington Public Library, Lebanon Public Library and Brownsburg Public Library all offer free teen programs, and SullivanMunce Cultural Center in Zionsville has free museum and gallery admission."
@@ -28,7 +28,7 @@ faqs:
     a: "Not always. Brownsburg Public Library does not require a card for programs, and Westfield Washington Public Library’s Teen Room and makerspace are open to nonresidents. Some resources are limited to cardholders, such as Carmel Clay’s recording rooms. Hussey-Mayfield offers a free Student Card to qualifying nonresident students in kindergarten through 12th grade."
 ---
 
-Whether you’re looking for things to do with tweens and teens on a rainy day, during a cold Indiana winter or when summer heat drives everyone indoors, this guide covers 32 activities near Zionsville and Northwest Indianapolis. Options include climbing, karting, escape rooms, robotics, pottery, music, theater, sports and other active, creative and social experiences.
+Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 32 activities near Zionsville and Northwest Indianapolis. Options for tweens and teenagers include climbing, karting, escape rooms, robotics, pottery, music, theater, sports, and other active, creative, and social experiences.
 
 Ages are based on published guidelines when available. Many locations also offer activities for younger children, making them useful for families with siblings of different ages.
 
