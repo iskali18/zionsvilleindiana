@@ -112,6 +112,47 @@ export interface EventMeta {
   /** Set by getAllEvents() on cards made from a series: the series file's slug.
    *  Not written in frontmatter. */
   seriesSlug?: string
+  /** A short follow-up event shown on this event's page after the main event,
+   *  e.g. touring the People's Choice winner after Home-A-Rama. Leave the main
+   *  event's own dates as they were. Through the follow-up's last day, the page
+   *  shows a notice for it in place of the "ended" banner, uses its meta title
+   *  and description if set, and adds its Event schema, and getAllEvents()
+   *  gives it a card. The day after it ends, all of that turns off by itself. */
+  relatedEvent?: RelatedEvent
+}
+
+/** See EventMeta.relatedEvent. Dates are YYYY-MM-DD; times are 24-hour "HH:MM",
+ *  Indiana time, and apply to each day. */
+export interface RelatedEvent {
+  /** Card title and schema name. Name the main event, since a card shows only
+   *  its title, e.g. "Home-A-Rama People's Choice Home Tour at Wild Air". */
+  title: string
+  /** Heading of the notice on the page. Defaults to `title`. Its anchor is what
+   *  the card links to. */
+  heading?: string
+  /** The notice text on the page, and the schema description. */
+  description: string
+  /** One line for the card. Defaults to `description`. */
+  summary?: string
+  startDate: string
+  /** Last day, for a follow-up that runs several days. */
+  endDate?: string
+  startTime?: string
+  endTime?: string
+  location: string
+  address: string
+  addressLocality?: string
+  postalCode?: string
+  /** Optional link shown under the notice text, e.g. the builder's site. */
+  url?: string
+  linkText?: string
+  /** Used for the page's title tag and description while the follow-up is
+   *  upcoming or on, so search results mention it. */
+  metaTitle?: string
+  metaDescription?: string
+  /** Card image. Defaults to the main event's image. */
+  image?: string
+  imageAlt?: string
 }
 
 /** One event in a series. Only title, date and linkTo are required. */

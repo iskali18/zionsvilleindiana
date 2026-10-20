@@ -9,7 +9,7 @@ import rehypeRaw from 'rehype-raw'
 import rehypeSlug from 'rehype-slug'
 import rehypeExternalLinks from 'rehype-external-links'
 import rehypeStringify from 'rehype-stringify'
-import type { EventMeta, ParkMeta, BusinessMeta, ArticleMeta } from '@/types'
+import type { EventMeta, ParkMeta, BusinessMeta, ArticleMeta, RelatedEvent } from '@/types'
 
 const contentDir = path.join(process.cwd(), 'content')
 
@@ -303,6 +303,105 @@ export function eventHref(event: Pick<EventMeta, 'slug' | 'linkTo'>): string {
   return event.linkTo ?? `/events/${event.slug}`
 }
 
+// ─── Follow-up events ────────────────────────────────────────────────────────
+// A `relatedEvent` is a short follow-up shown on the main event's page, such as
+// touring the People's Choice winner after Home-A-Rama. Everything it adds
+// turns off by itself the day after its last date.
+
+/** "2026-10-22" from a frontmatter date, quoted or not. */
+function ymd(value: string | Date): string {
+  const { y, m, d } = dateParts(value)
+  return `${y}-${String(m).padStart(2, '0')}-${String(d).padStart(2, '0')}`
+}
+
+/** The follow-up while it is upcoming or on, through the end of its last day
+ *  in Indiana. Null when there is none, or once it has ended. */
+export function activeRelatedEvent(
+  event: Pick<EventMeta, 'relatedEvent'>,
+  today = indianaToday()
+): RelatedEvent | null {
+  const related = event.relatedEvent
+  if (!related) return null
+  const last = ymd(related.endDate ?? related.startDate)
+  return new Date(last + 'T23:59:59') >= today ? related : null
+}
+
+/** The id of the follow-up's notice on the page, which its card links to. */
+export function relatedEventAnchor(related: RelatedEvent): string {
+  // Drop apostrophes first: "People’s" -> "peoples", as heading anchors read.
+  return slugify((related.heading ?? related.title).replace(/['’]/g, ''))
+}
+
+/** Indiana's UTC offset on a date, "-04:00" in daylight time and "-05:00" in
+ *  standard time, so schema times are right on either side of a time change. */
+function indianaOffset(day: string): string {
+  const name = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/Indiana/Indianapolis',
+    timeZoneName: 'shortOffset',
+  })
+    .formatToParts(new Date(`${day}T17:00:00Z`))
+    .find((part) => part.type === 'timeZoneName')?.value
+  const match = name?.match(/GMT([+-])(\d{1,2})(?::(\d{2}))?/)
+  return match ? `${match[1]}${match[2].padStart(2, '0')}:${match[3] ?? '00'}` : '-05:00'
+}
+
+/** "2026-10-22T12:00:00-04:00", or just the date when no time is given. */
+function dateTime(day: string, time?: string): string {
+  return time ? `${day}T${time}:00${indianaOffset(day)}` : day
+}
+
+/** Each day of the follow-up with that day's start and end, for schema. */
+export function relatedEventDays(related: RelatedEvent): Array<{ start: string; end?: string }> {
+  const first = ymd(related.startDate)
+  const last = ymd(related.endDate ?? related.startDate)
+  const days: Array<{ start: string; end?: string }> = []
+  const cursor = new Date(first + 'T12:00:00Z')
+  // Capped at 31 days, so a typo in a year can't run away.
+  for (let i = 0; i < 31; i++) {
+    const day = cursor.toISOString().slice(0, 10)
+    if (day > last) break
+    days.push({
+      start: dateTime(day, related.startTime),
+      end: related.endTime ? dateTime(day, related.endTime) : undefined,
+    })
+    cursor.setUTCDate(cursor.getUTCDate() + 1)
+  }
+  return days
+}
+
+/** The follow-up as a card for the events page, homepage and This Weekend,
+ *  linking to its notice on the main event's page. Null once it has ended. */
+function relatedEventCard(event: EventMeta, today: Date): EventMeta | null {
+  const related = activeRelatedEvent(event, today)
+  if (!related) return null
+  const first = ymd(related.startDate)
+  const last = ymd(related.endDate ?? related.startDate)
+
+  return {
+    slug: slugify(related.title),
+    title: related.title,
+    description: related.summary ?? related.description,
+    // Cards don't show these, but every event carries them.
+    metaTitle: related.metaTitle ?? related.title,
+    metaDescription: related.metaDescription ?? related.summary ?? related.description,
+    eventType: 'oneoff',
+    startDate: first,
+    ...(last !== first && { endDate: last }),
+    ...(related.startTime && { startDateTime: dateTime(first, related.startTime) }),
+    ...(related.endTime && { endDateTime: dateTime(last, related.endTime) }),
+    location: related.location,
+    address: related.address,
+    ...(related.addressLocality && { addressLocality: related.addressLocality }),
+    ...(related.postalCode && { postalCode: related.postalCode }),
+    image: related.image ?? event.image,
+    imageAlt: related.imageAlt ?? event.imageAlt,
+    tags: event.tags,
+    featured: event.featured,
+    showOnHomepage: event.showOnHomepage,
+    linkTo: `/events/${event.slug}#${relatedEventAnchor(related)}`,
+  }
+}
+
 /** Every event and every upcoming series item, with where it links. The
  *  Google Calendar list on the events page matches its entries against these,
  *  so an item links even before its card is showing. */
@@ -338,6 +437,11 @@ export function getAllEvents(): EventMeta[] {
     })
     // Series files become one card per upcoming item.
     .flatMap((e) => (e.items?.length ? expandSeries(e, today) : [e]))
+    // A follow-up event gets its own card next to the main event.
+    .flatMap((e) => {
+      const card = relatedEventCard(e, today)
+      return card ? [e, card] : [e]
+    })
     // Resolve recurrence: replace startDate with next occurrence for recurring events.
     // Drop recurring events that have ended for the season.
     .map((e) => applyRecurrence(e, today))

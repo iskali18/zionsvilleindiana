@@ -17,7 +17,12 @@ import {
   dateParts,
   formatCardDate,
   MONTHS,
+  activeRelatedEvent,
+  relatedEventAnchor,
+  relatedEventDays,
 } from '@/lib/content'
+import { timeRange } from '@/lib/weekend'
+import type { RelatedEvent } from '@/types'
 import ChristmasEventTable from '@/components/ChristmasEventTable'
 
 interface Props {
@@ -37,9 +42,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params
   try {
     const { meta } = await getEvent(slug)
+    // While a follow-up event is upcoming or on, search results describe it.
+    const related = activeRelatedEvent(meta)
+    const metaTitle = related?.metaTitle ?? meta.metaTitle
+    const metaDescription = related?.metaDescription ?? meta.metaDescription
     return {
-      title: meta.metaTitle,
-      description: meta.metaDescription,
+      title: metaTitle,
+      description: metaDescription,
       alternates: { canonical: `https://zionsvilleindiana.com/events/${slug}` },
       // A page's openGraph replaces the one in app/layout.tsx entirely, so the
       // site-wide fields (type, siteName, locale) are repeated here.
@@ -48,8 +57,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         url: `https://zionsvilleindiana.com/events/${slug}`,
         siteName: 'Zionsville Indiana',
         locale: 'en_US',
-        title: meta.metaTitle,
-        description: meta.metaDescription,
+        title: metaTitle,
+        description: metaDescription,
         // JPG copy of the hero photo, made by ./share.jpg/route.ts. Messenger
         // does not show WebP previews, and the size lets Facebook show the
         // image on the first share.
@@ -198,7 +207,68 @@ function buildEventSchema(rawMeta: Awaited<ReturnType<typeof getEvent>>['meta'])
   return schema
 }
 
+/** One Event per day of a follow-up event, at its own location. The main
+ *  event's schema is left as it is, so Google sees two separate events. */
+function buildRelatedEventSchema(
+  meta: Awaited<ReturnType<typeof getEvent>>['meta'],
+  related: RelatedEvent
+) {
+  return relatedEventDays(related).map((day) => ({
+    '@context': 'https://schema.org',
+    '@type': 'Event',
+    name: related.title,
+    description: related.description,
+    startDate: day.start,
+    ...(day.end && { endDate: day.end }),
+    eventStatus: 'https://schema.org/EventScheduled',
+    location: {
+      '@type': 'Place',
+      name: related.location,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: related.address,
+        addressLocality: related.addressLocality ?? 'Zionsville',
+        addressRegion: 'IN',
+        postalCode: related.postalCode ?? '46077',
+        addressCountry: 'US',
+      },
+    },
+    image: `https://zionsvilleindiana.com${related.image ?? meta.image}`,
+    url: `https://zionsvilleindiana.com/events/${meta.slug}#${relatedEventAnchor(related)}`,
+    organizer: {
+      '@type': 'Organization',
+      name: 'Zionsville Indiana',
+      url: 'https://zionsvilleindiana.com',
+    },
+  }))
+}
+
 const WEEKDAYS_LONG = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+
+/** "Thursday, Oct. 22 – Sunday, Oct. 25, 2026", or one day. */
+function formatRelatedDates(related: RelatedEvent): string {
+  const a = dateParts(related.startDate)
+  const day = (p: typeof a) => `${WEEKDAYS_LONG[p.weekday]}, ${MONTHS[p.m - 1]} ${p.d}`
+  if (!related.endDate) return `${day(a)}, ${a.y}`
+  const b = dateParts(related.endDate)
+  if (a.y === b.y && a.m === b.m && a.d === b.d) return `${day(a)}, ${a.y}`
+  return `${day(a)}${a.y === b.y ? '' : `, ${a.y}`} – ${day(b)}, ${b.y}`
+}
+
+/** The notice's time line, with noon written out: "Noon–5 PM", "Noon". */
+function noticeTime(related: RelatedEvent): string | undefined {
+  const range = timeRange(clock12(related.startTime), clock12(related.endTime))
+  if (range === '12 PM') return 'Noon'
+  return range?.replace(/^12(?=–)/, 'Noon').replace(/–12 PM$/, '–Noon')
+}
+
+/** "12:00" -> "12:00 PM", the form timeRange() reads. */
+function clock12(time?: string): string | undefined {
+  const match = time?.match(/^(\d{1,2}):(\d{2})$/)
+  if (!match) return undefined
+  const hours = Number(match[1])
+  return `${hours % 12 || 12}:${match[2]} ${hours < 12 ? 'AM' : 'PM'}`
+}
 
 /** Same month style as the event cards (formatCardDate in lib/content):
  *  "Sat, Oct. 10 – Tue, Oct. 13, 2026" for a range, "Saturday, Oct. 24, 2026"
@@ -250,12 +320,25 @@ export default async function EventPage({ params }: Props) {
   if (rawMeta.linkTo) permanentRedirect(rawMeta.linkTo)
   const meta = resolveOccurrenceDates(rawMeta)
 
+  // A follow-up event that is upcoming or on takes the place of the "ended"
+  // banner, so the page leads with what people can still go to.
+  const related = activeRelatedEvent(meta)
+  const showEnded = !related && hasEnded(meta.startDate, meta.endDate)
+
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(buildEventSchema(meta)) }}
       />
+      {related && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(buildRelatedEventSchema(meta, related)),
+          }}
+        />
+      )}
       {meta.faqs && meta.faqs.length > 0 && (
         <script
           type="application/ld+json"
@@ -334,8 +417,44 @@ export default async function EventPage({ params }: Props) {
         </div>
 
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
-          {/* Event ended banner (renders only if end date has passed) */}
-          <EventEndedBanner startDate={meta.startDate} endDate={meta.endDate} />
+          {/* Follow-up event notice, shown through its last day. While it
+              shows, the "ended" banner stays off. */}
+          {related ? (
+            <section
+              id={relatedEventAnchor(related)}
+              className="my-6 p-5 bg-white border-l-4 border-village-600 rounded-r-lg scroll-mt-24"
+            >
+              <h2 className="font-display text-2xl text-stone-900 font-bold mb-2">
+                {related.heading ?? related.title}
+              </h2>
+              <p className="text-sm text-stone-900 font-semibold mb-3">
+                {[
+                  formatRelatedDates(related),
+                  noticeTime(related),
+                  related.location,
+                  related.address,
+                ]
+                  .filter(Boolean)
+                  .join(' · ')}
+              </p>
+              <p className="text-stone-700 leading-relaxed">{related.description}</p>
+              {related.url && (
+                <p className="mt-3 mb-0">
+                  <a
+                    href={related.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-medium text-brick-600 hover:text-brick-700"
+                  >
+                    {related.linkText ? `${related.linkText} →` : getLinkText(related.url)}
+                  </a>
+                </p>
+              )}
+            </section>
+          ) : (
+            /* Event ended banner (renders only if end date has passed) */
+            <EventEndedBanner startDate={meta.startDate} endDate={meta.endDate} />
+          )}
 
           {/* Event in-season banner (renders only when today falls within
               startDate–endDate AND an inSeasonMessage is set in frontmatter) */}
@@ -406,7 +525,7 @@ export default async function EventPage({ params }: Props) {
               return (
                 <>
                   <div className="prose-village" dangerouslySetInnerHTML={{ __html: before }} />
-                  {!hasEnded(meta.startDate, meta.endDate) && (
+                  {!showEnded && (
                     <SeasonalGuidesStrip kind="event" tone="plain" />
                   )}
                   <div
