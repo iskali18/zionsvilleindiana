@@ -50,7 +50,18 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         locale: 'en_US',
         title: meta.metaTitle,
         description: meta.metaDescription,
-        images: [{ url: meta.image, alt: meta.imageAlt }],
+        // JPG copy of the hero photo, made by ./share.jpg/route.ts. Messenger
+        // does not show WebP previews, and the size lets Facebook show the
+        // image on the first share.
+        images: [
+          {
+            url: `/events/${slug}/share.jpg`,
+            width: 1200,
+            height: 630,
+            type: 'image/jpeg',
+            alt: meta.imageAlt,
+          },
+        ],
       },
     }
   } catch {
