@@ -1,7 +1,7 @@
 ---
 title: "32 Indoor Things to Do for Older Kids & Teens Near Zionsville"
 metaTitle: "32 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
-metaDescription: "32 indoor places for older kids and teens near Zionsville and NW Indy, including climbing, karting, escape rooms, art, sports, and free library spaces."
+metaDescription: "32 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
 description: "A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
 hubOrder: 15
@@ -28,7 +28,7 @@ faqs:
     a: "Not always. Brownsburg Public Library does not require a card for programs, and Westfield Washington Public Library’s Teen Room and makerspace are open to nonresidents. Some resources are limited to cardholders, such as Carmel Clay’s recording rooms. Hussey-Mayfield offers a free Student Card to qualifying nonresident students in kindergarten through 12th grade."
 ---
 
-Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 32 activities near Zionsville and Northwest Indianapolis. Options for tweens and teenagers include climbing, karting, escape rooms, robotics, pottery, music, theater, sports, and other active, creative, and social experiences.
+Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 32 things to do in and around Zionsville and Northwest Indianapolis. You’ll find options in Zionsville, Whitestown, Carmel, Westfield, Fishers, Brownsburg, Lebanon, and Indianapolis, including both drop-in outings and ongoing programs for tweens and teenagers.
 
 Ages are based on published guidelines when available. Many locations also offer activities for younger children, making them useful for families with siblings of different ages.
 
