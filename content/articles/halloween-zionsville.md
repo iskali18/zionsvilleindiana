@@ -68,7 +68,7 @@ faqs:
 
 Zionsville families have several chances to trick-or-treat before Halloween in 2026, including Trick or Trees and trunk-or-treats at local businesses, churches and BACA's Zionsville Learning Center.
 
-**Three events are scheduled for Saturday, October 24.** More Halloween events may still be announced before the end of October.
+**Three events are scheduled for Saturday, October 24.**
 
 ## Zionsville Trick-or-Treat Hours on Halloween
 
@@ -213,11 +213,3 @@ Three more Halloween-season events are not trick-or-treat events.
 [Fright Nights](/events/fright-nights) runs October 23–24 at Mulberry Fields Park and Maplelawn Farmstead. [Pumpkins & Hayrides](/events/pumpkins-hayrides) is October 25 at Lions Park. [Nightmare at Elm Street: A Luminary Walk](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147) is October 29 at Elm Street Green Park.
 
 For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
-
-## More Trick-or-Treat Events May Be Announced
-
-Several local organizations have held trick-or-treat or trunk-or-treat events in previous years. As of early October, they have not announced 2026 details.
-
-We are watching for announcements from **St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, and Zionsville Meadows**.
-
-Additional events will be added as 2026 details are confirmed.
