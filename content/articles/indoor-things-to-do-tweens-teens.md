@@ -1,7 +1,7 @@
 ---
-title: "32 Indoor Things to Do for Older Kids & Teens Near Zionsville"
-metaTitle: "32 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
-metaDescription: "32 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
+title: "36 Indoor Things to Do for Older Kids & Teens Near Zionsville"
+metaTitle: "36 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
+metaDescription: "36 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
 description: "A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
 hubOrder: 15
@@ -9,7 +9,7 @@ draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-10-19"
+lastUpdated: "2026-10-21"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -21,14 +21,14 @@ faqs:
   - q: "Which indoor activities can teens do without signing up for a class?"
     a: "Drop-in options include Slick City, Hoosier Heights, Laser Flash, Fastimes Indoor Karting, Press Play Gaming Lounge, The Escape Room USA, Pinheads, Royal Pin Woodland, the IMAX Theater at the Indiana State Museum, the Indianapolis Motor Speedway Museum, Smitten Kitten, Nine Lives Cat Cafe, 3rd Shot Pickleball, D-BAT and Pottery By You. Some require timed tickets or reservations."
   - q: "Where can teens take classes near Zionsville?"
-    a: "Ongoing programs include robotics at Kids Explore Robotics, music at School of Rock, Bach to Rock and Musicologie, theater at The Cat in Carmel, pottery at The Wandering Peacock, cooking at Sprouts Cooking School, sports training in badminton, basketball and tennis, and martial arts at Adamson’s Karate Studio, Bushido Jiu-Jitsu and Master Yoo’s Tae Kwon Do."
+    a: "Ongoing programs include robotics at Kids Explore Robotics, music at School of Rock, Bach to Rock and Musicologie, theater at The Cat in Carmel, dance at Village Dance Studio, Metropolitan Youth Ballet, Sister Act Dance Academy and Dance Innovations PAC, pottery at The Wandering Peacock, cooking at Sprouts Cooking School, sports training in badminton, basketball and tennis, and martial arts at Adamson’s Karate Studio, Bushido Jiu-Jitsu and Master Yoo’s Tae Kwon Do."
   - q: "Which places have sensory-friendly accommodations for teens?"
     a: "Several places list sensory supports. The Indianapolis Motor Speedway Museum has sensory bags and a wellness room for a quieter break. Hussey-Mayfield Memorial Public Library and Carmel Clay Public Library offer sensory bags with noise-canceling headphones and fidgets. Pinheads in Brownsburg offers a venue orientation for guests on the autism spectrum, along with adaptive bowling ramps. The Wandering Peacock has a private pottery-wheel room called the Zen Den."
   - q: "Do teens need a library card to attend library programs?"
     a: "Not always. Brownsburg Public Library does not require a card for programs, and Westfield Washington Public Library’s Teen Room and makerspace are open to nonresidents. Some resources are limited to cardholders, such as Carmel Clay’s recording rooms. Hussey-Mayfield offers a free Student Card to qualifying nonresident students in kindergarten through 12th grade."
 ---
 
-Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 32 things to do in and around Zionsville and Northwest Indianapolis. You’ll find options in Zionsville, Whitestown, Carmel, Westfield, Fishers, Brownsburg, Lebanon, and Indianapolis, including both drop-in outings and ongoing programs for tweens and teenagers.
+Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 36 things to do in and around Zionsville and Northwest Indianapolis. You’ll find options in Zionsville, Whitestown, Carmel, Westfield, Fishers, Brownsburg, Lebanon, and Indianapolis, including both drop-in outings and ongoing programs for tweens and teenagers.
 
 Ages are based on published guidelines when available. Many locations also offer activities for younger children, making them useful for families with siblings of different ages.
 
@@ -450,6 +450,60 @@ The Cat is a small, 110-seat community theater with an eclectic mix of sofas and
 Programs include semester-long productions and classes, summer sessions, short Lab Series workshops focused on skills such as monologues and audition preparation, and private or small-group lessons. In Devised Theater, students create their own scenes through improv, movement and storytelling. Advance registration is required.
 
 [Visit The Cat →](http://thecattheatre.com/)
+
+[↑ Back to activities](#at-a-glance)
+
+### Dance
+
+#### Village Dance Studio
+
+**Dance · Ages 3 through adult**  
+**Location:** [6290 Central Blvd., Whitestown, IN 46075](https://maps.app.goo.gl/aRV6BCVPLLxisQaW6)
+
+Village Dance Studio offers ballet, tap, jazz, modern, hip hop, musical theater and pointe, with classes from beginning through advanced levels. As of October 2026, the class schedule includes several options specifically for older beginners and teens, including Beginning/Intermediate Teen Tap, Beginning Teen Musical Theater & Show Choir Prep and Intermediate Teen & Adult Ballet. Jazz, modern, hip hop and ballet also continue through upper levels for experienced dancers.
+
+The studio has served the Zionsville area since 1977 and offers a non-competitive program with an emphasis on technique. Dancers interested in additional performances can audition for the Apprentice or Ensemble groups, which have separate eligibility and weekly class requirements.
+
+[Visit Village Dance Studio →](http://www.villagedancestudio.com/)
+
+[↑ Back to activities](#at-a-glance)
+
+#### Metropolitan Youth Ballet of Indiana
+
+**Ballet & Dance · Ages 18 months through adult**  
+**Location:** [6210 Technology Center Dr., Ste. 200, Indianapolis, IN 46278](https://maps.app.goo.gl/HiKpfJv3v5yPb9259)
+
+Metropolitan Youth Ballet offers ballet training from introductory classes through pre-professional levels using the American Ballet Theatre National Training Curriculum. Older students progress through Middle, Intermediate and Upper/Pre-Professional divisions, with classes that can include ballet technique, pre-pointe or pointe, contemporary, jazz, strength and conditioning, variations, character and partnering.
+
+Teens can also start ballet without entering the leveled youth program. Teen/Adult Ballet is designed for beginners and returning dancers ages 13 and up, while experienced dancers can continue into the more advanced divisions. Students may also participate in the annual showcase and, beginning at age 7, audition for the school’s full-length ballet productions.
+
+[Visit Metropolitan Youth Ballet →](http://www.my-ballet.org/)
+
+[↑ Back to activities](#at-a-glance)
+
+#### Sister Act Dance Academy
+
+**Dance · Ages 2–18**  
+**Location:** [1630 E. Northfield Dr., Ste. 100, Brownsburg, IN 46112](https://maps.app.goo.gl/VCegmWWDJbBgnqCg6)
+
+Sister Act Dance Academy offers ballet, tap, jazz, hip hop, contemporary and lyrical dance, with instruction beginning at age 2 and extending through pre-professional levels. Older kids and teens can take recreational classes across several styles and progress into more advanced training as their skills develop.
+
+Students looking for additional performance opportunities can participate in recitals, camps and competitive dance through Sister Act Dance Company. The studio has served Brownsburg since 2010 and offers programs for both recreational and competitive dancers.
+
+[Visit Sister Act Dance Academy →](http://www.sisteractdance.com/)
+
+[↑ Back to activities](#at-a-glance)
+
+#### Dance Innovations PAC
+
+**Dance · Ages 2.5–18**  
+**Location:** [810 E. Main St., Westfield, IN 46074](https://maps.app.goo.gl/TnUmMko6FX2guaSD6)
+
+Dance Innovations PAC offers several options for tweens and teens. Its Academy Program for ages 8–18 includes leveled dance training, while ballet, jazz and tap classes are available for ages 8 and up. Contemporary/lyrical, hip hop and acro are also offered beginning at age 8, and Teen/Adult Ballet and Teen/Adult Tap provide all-level classes for ages 13 and up.
+
+Dancers seeking additional performance experience can audition for DI Company programs. The Collective is the studio’s pre-professional company for ages 8–18 and includes advanced instruction, competitions, conventions and other performance opportunities. New students can also request a free trial class before enrolling.
+
+[Visit Dance Innovations PAC →](http://danceinnovationspac.com/)
 
 [↑ Back to activities](#at-a-glance)
 
