@@ -27,6 +27,18 @@ const SORT_LABELS: Record<SortKey, string> = {
   where: 'Where',
   ages: 'Ages',
 }
+
+/** Sort arrows as icons, not text characters. Search engines read text
+ *  arrows (↓ ⇅) as part of the header ("Activity↓"), but skip icons. */
+function SortIcon({ state }: { state: 'asc' | 'desc' | 'none' }) {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5">
+      {state === 'asc' && <path d="M8 3v10M4 9l4 4 4-4" />}
+      {state === 'desc' && <path d="M8 13V3M4 7l4-4 4 4" />}
+      {state === 'none' && <path d="M5 13.5v-11M2.5 5 5 2.5 7.5 5M11 2.5v11M8.5 11 11 13.5 13.5 11" />}
+    </svg>
+  )
+}
 export default function IndoorActivitiesTeensTable() {
   const [sortKey, setSortKey] = useState<SortKey>('name')
   const [sortDir, setSortDir] = useState<SortDir>('asc')
@@ -70,7 +82,7 @@ export default function IndoorActivitiesTeensTable() {
       >
         {SORT_LABELS[col]}
         <span aria-hidden="true" className={isActive ? 'text-brick-600' : 'text-stone-400'}>
-          {isActive ? (sortDir === 'asc' ? '\u2193' : '\u2191') : '\u21C5'}
+          <SortIcon state={isActive ? sortDir : 'none'} />
         </span>
       </button>
     )
@@ -157,6 +169,11 @@ export default function IndoorActivitiesTeensTable() {
       {rows.length > 0 && (
         <div className="overflow-hidden rounded-lg border border-stone-200">
           <table className="w-full border-collapse text-sm">
+            {/* Read by screen readers and search engines, hidden on screen. Without
+                it, Google titles the table with the nearest word it finds. */}
+            <caption className="sr-only">
+              Indoor activities for older kids and teens near Zionsville and NW Indy
+            </caption>
             <thead>
               <tr className="border-b-2 border-stone-300 bg-stone-100 text-left">
                 <th
