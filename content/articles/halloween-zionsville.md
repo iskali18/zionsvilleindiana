@@ -1,14 +1,14 @@
 ---
 title: "Zionsville Trick-or-Treat & Trunk-or-Treat Events 2026"
 metaTitle: "Zionsville Trick or Treat 2026: Hours & Halloween Events"
-metaDescription: "2026 Zionsville trick-or-treat and trunk-or-treat events, including Trick or Trees, local trunk-or-treats and a sensory-friendly event."
+metaDescription: "Zionsville trick-or-treat hours are 5:30–8:30 p.m. on Saturday, Oct. 31, 2026, plus Trick or Trees, local trunk-or-treats, and a sensory-friendly event."
 description: "A guide to 2026 trick-or-treat and trunk-or-treat events for Zionsville families, with dates, times, ages and admission."
 category: "discovery"
 hubOrder: 10
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
-lastUpdated: "2026-10-17"
+lastUpdated: "2026-10-21"
 itemListName: "Zionsville trick-or-treat and trunk-or-treat events 2026"
 itemList:
   - name: "Boone Village Halloween Party"
@@ -42,7 +42,7 @@ ctas:
     href: "/articles/pumpkin-patches-corn-mazes-near-indianapolis"
 faqs:
   - q: "When is trick-or-treating in Zionsville in 2026?"
-    a: "As of early October, the Town of Zionsville has not announced its official Halloween night trick-or-treat hours for Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are scheduled for October 22, 23, 24, 25 and 29."
+    a: "Zionsville’s official trick-or-treat hours are 5:30 to 8:30 p.m. on Saturday, October 31, 2026. Organized trick-or-treat and trunk-or-treat events are also scheduled for October 22, 23, 24, 25, and 29."
   - q: "Do you need to register for Trick or Trees?"
     a: "Yes. Every participating child needs a timed-entry registration. Children under age 2 attend free but still need to be registered. Registration opened October 1 and closes at 4 p.m. on Friday, October 23."
   - q: "What ages is Trick or Trees for?"
@@ -57,9 +57,28 @@ faqs:
     a: "Eagle Church is holding its annual Trunk or Treat on Saturday, October 24 from 4 to 6 p.m. The event includes pumpkin decorating, hayrides, donut holes and cider."
 ---
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/articles/zionsville-trick-or-treat-hours-2026.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/articles/zionsville-trick-or-treat-hours-2026.webp" alt="Official Zionsville Trick or Treat hours graphic for Halloween on October 31, 2026, from 5:30 p.m. to 8:30 p.m." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Official Town of Zionsville Trick-or-Treat hours for Halloween, Saturday, October 31, 2026, from 5:30 p.m. to 8:30 p.m.
+  </figcaption>
+</figure>
+
 Zionsville families have several chances to trick-or-treat before Halloween in 2026, including Trick or Trees and trunk-or-treats at local businesses, churches and BACA's Zionsville Learning Center.
 
 **Three events are scheduled for Saturday, October 24.** More Halloween events may still be announced before the end of October.
+
+## Zionsville Trick-or-Treat Hours on Halloween
+
+**Saturday, October 31, 2026 · 5:30–8:30 PM**
+
+The Town of Zionsville has set the community’s Halloween trick-or-treating window for 5:30–8:30 PM.
+
+See the [Town of Zionsville’s Facebook post](https://www.facebook.com/ZionsvilleIN/posts/pfbid02p1rFyFWYsV8etGSsYUQivwfopeDri3txCnu4fnsGnTBzQ5XYBcZ1aQjyM2Rj8gFvl).
+
+<div style="clear: both"></div>
 
 ## 2026 Zionsville Trick-or-Treat Events
 
@@ -73,6 +92,7 @@ Zionsville families have several chances to trick-or-treat before Halloween in 2
 | [Zionsville Presbyterian Church Trunk or Treat](#zionsville-presbyterian-church-trunk-or-treat) | Sun, Oct. 25 · 12:15–2 PM | Brunch, face painting and bounce houses |
 | [Zionsville United Methodist Church Trunk or Treat](#zionsville-united-methodist-church-trunk-or-treat) | Sun, Oct. 25 · 3–5 PM | Trunk-or-treating and a Bombas sock service project |
 | [BACA Sensory-Friendly Trunk-or-Treat](#baca-sensory-friendly-trunk-or-treat) | Thu, Oct. 29 · 5:30–7 PM | Sensory-friendly activities, treats and candy |
+| [Halloween trick-or-treat hours](#zionsville-trick-or-treat-hours-on-halloween) | Sat, Oct. 31 · 5:30–8:30 PM | Official town trick-or-treat hours |
 
 ## Boone Village Halloween Party
 
@@ -201,9 +221,3 @@ Several local organizations have held trick-or-treat or trunk-or-treat events in
 We are watching for announcements from **St. Francis In-The-Fields Episcopal Church, the Boys & Girls Club of Boone County – Zionsville Unit, and Zionsville Meadows**.
 
 Additional events will be added as 2026 details are confirmed.
-
-## Zionsville Trick-or-Treat Hours on Halloween
-
-**As of early October**, the Town of Zionsville has not announced its official 2026 Halloween trick-or-treat hours for Saturday, October 31.
-
-The hours will be added here once the Town publishes its 2026 Halloween information.
