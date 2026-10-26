@@ -9,7 +9,7 @@ hubOrder: 16
 draft: false
 hero_image: /images/articles/indoor-things-to-do-kids-hero.webp
 hero_position: "center 25%"
-lastUpdated: "2026-10-25"
+lastUpdated: "2026-10-26"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -113,7 +113,9 @@ The **indoor aquatic center** has a family activity pool, water slides, and a sl
 
 Both areas are accessible with a day pass or membership. Monon Station has designated Family Hours, and children under 11 require adult supervision. At the aquatic center, children 8 and under require parental supervision, with an adult within arm’s reach for ages 5 and under.
 
-[Visit Monon Community Center →](https://www.carmelclayparks.com/monon-community-center/)
+[Visit Monon Station →](https://www.carmelclayparks.com/amenities/monon-station-indoor-playground/)
+
+[Visit the Indoor Aquatic Center →](https://www.carmelclayparks.com/amenities/indoor-aquatics/)
 
 [↑ Back to activities](#at-a-glance)
 
