@@ -1,14 +1,14 @@
 ---
 title: "Fall Activities in Zionsville 2026"
 metaTitle: "Fall Activities & Things to Do in Zionsville 2026"
-metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, hayrides, races, ghost tours, farm visits and fall walks through November."
+metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, races, nature programs, art markets, farm visits and fall walks through November."
 description: "A guide to fall in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and seasonal traditions through November 2026."
 category: "discovery"
 hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-10-09"
+lastUpdated: "2026-10-26"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -16,19 +16,19 @@ ctas:
     href: /downtown
 faqs:
   - q: "What is there to do in Zionsville in the fall?"
-    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include Fright Nights, Trick or Trees, Gallery On & Off Main, Pumpkins & Hayrides and Smashin’ Pumpkins."
+    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include Nightmare at Elm Street, Smashin’ Pumpkins, the Zionsville Half Marathon & 5K and the Gravy Chase."
   - q: "What fall races take place in Zionsville?"
     a: "Two community running events take place in November: the Zionsville Half Marathon & 5K on November 21 and the Gravy Chase on Thanksgiving morning, November 26."
   - q: "Where can I see fall colors in Zionsville?"
     a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Zionsville Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
   - q: "Are there fall activities in Zionsville for families with young children?"
-    a: "Yes. Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Pumpkins & Hayrides returns to Lions Park on October 25, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
+    a: "Yes. Nightmare at Elm Street on October 29 is a free, not-too-spooky luminary walk at Elm Street Green Park, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
-    a: "Zionsville Parks & Recreation offers a Night Hike on October 16, a Fall Birding walk on November 7, an Owl Prowl on November 13 and a Fall Campfire on November 21."
+    a: "Zionsville Parks & Recreation offers a Fall Birding walk on November 7, an Owl Prowl on November 13 and a Fall Campfire on November 21."
   - q: "Are there indoor fall activities in Zionsville?"
-    a: "Yes. The SFORZANDO (SFZ) Concert Series presents Sunday afternoon concerts at St. Francis In-The-Fields, the STAR Bank Performing Arts Center hosts the ZCHS Fall Musical in November, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
+    a: "Yes. The SFORZANDO (SFZ) Concert Series presents a Sunday afternoon concert at St. Francis In-The-Fields on November 1, the STAR Bank Performing Arts Center hosts the ZCHS Fall Musical in November, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
   - q: "What Halloween events take place in Zionsville?"
-    a: "Trick or Trees at Elm Street Green Park on October 24 is a trick-or-treat trail for ages 2 to 12. Fright Nights on October 23–24 features a haunted hayride from Mulberry Fields Park to the Fright Barn at Maplelawn Farmstead. Nightmare at Elm Street on October 29 is a free luminary walk at Elm Street Green Park."
+    a: "Nightmare at Elm Street on October 29 is a free luminary walk at Elm Street Green Park."
 ---
 
 Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November.
@@ -37,16 +37,6 @@ This guide focuses on things to do in Zionsville throughout the fall season, inc
 
 <!-- FALL_ACTIVITIES_TABLE -->
 
-## Experience Fright Nights
-
-**Friday and Saturday, October 23–24, 2026 · 7:00–10:00 p.m.**
-
-Zionsville Parks & Recreation’s Fright Nights begins with a haunted hayride from Mulberry Fields Park to Maplelawn Farmstead, where the event continues with the Fright Barn, Spooky Story Barn, campfire, spooky encounters and other nighttime activities.
-
-See the [Fright Nights event guide](/events/fright-nights) for tickets, age recommendations and parking.
-
-[↑ Back to activities](#at-a-glance)
-
 ## Explore Nightmare at Elm Street: A Luminary Walk
 
 **Thursday, October 29, 2026 · 6:00–8:00 p.m. · Elm Street Green Park**
@@ -54,28 +44,6 @@ See the [Fright Nights event guide](/events/fright-nights) for tickets, age reco
 Zionsville Parks & Recreation lights a trail of luminaries around Elm Street Green for a self-guided Halloween walk. Families can search for mischievous skeletons hidden along the route and explore the glowing Pumpkin Pathway after dark. The free, drop-in event offers a not-too-spooky way to celebrate Halloween outdoors.
 
 See the [Zionsville Parks program page](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147) for details.
-
-[↑ Back to activities](#at-a-glance)
-
-## Enjoy Pumpkins & Hayrides at Lions Park
-
-**Pumpkins & Hayrides** returns to Lions Park on **October 25 from 2:00–5:00 PM** for a free afternoon of fall activities.
-
-The event includes **hayrides, free pumpkins for painting while supplies last, Bach to Rock, Mr Daniel’s Music, Master Yoo’s Taekwondo, bounce houses, games and food**. A kids costume contest begins at **4:00 PM**, and parking in Lions Park is free for the event.
-
-[See the full Pumpkins & Hayrides event guide.](/events/pumpkins-hayrides)
-
-[↑ Back to activities](#at-a-glance)
-
-## Take the Kids to Trick or Trees
-
-**Saturday, October 24, 2026 · 9:00 a.m.–12:00 p.m.**
-
-Zionsville Parks & Recreation runs a Trick-or-Treat Trail through Elm Street Green Park for children ages 2 to 12, with the Pumpkin Path, marshmallow roasting, science activities and games alongside the trail.
-
-Admission is $5 for residents and $7 for nonresidents. Registration opened October 1, and the event sells out each year.
-
-See the [Trick or Trees event guide](/events/trick-or-trees) for registration and parking.
 
 [↑ Back to activities](#at-a-glance)
 
@@ -95,14 +63,6 @@ See the [Trick or Trees event guide](/events/trick-or-trees) for registration an
 Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations before the pieces are collected for composting. The **Epic Pumpkin Drop** is one of the main attractions, with Zionsville firefighters raising pumpkins on a ladder truck and dropping them from above for a dramatic smash.
 
 [See the complete Smashin’ Pumpkins event guide.](/events/smashin-pumpkins)
-
-[↑ Back to activities](#at-a-glance)
-
-## Explore Gallery On & Off Main
-
-[Gallery On & Off Main](/events/gallery-on-and-off-main) brings local artists and artisans into shops throughout [the Village](/downtown) on **October 24**.
-
-Main Street merchants open their businesses to participating artists, creating an art walk along Main Street and in nearby shops. Visitors can browse artwork, meet artists, and explore businesses throughout the district from **noon to 8:00 PM**.
 
 [↑ Back to activities](#at-a-glance)
 
@@ -128,12 +88,6 @@ The event is the **Boys & Girls Club of Boone County’s largest annual fundrais
 
 Zionsville Parks & Recreation offers several smaller fall activities for people who want to spend time outside, learn about local wildlife, or enjoy an evening in the parks.
 
-### Oct. 16 · 7:00–8:00 PM · Night Hike {#night-hike}
-
-See Carpenter Nature Preserve from a different perspective after the sun goes down. A Zionsville Parks naturalist will introduce some of the native nocturnal animals that navigate the preserve in darkness, while participants test how well their own senses work along the nighttime trail. Ages 5 and up.
-
-**[Register for the Night Hike](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29844)**
-
 ### Nov. 7 · 9:00–10:00 AM · Fall Birding Series {#fall-birding-carpenter}
 
 Fall migration brings both resident and migratory birds to Zionsville’s parks. Join a Zionsville Parks naturalist for a November morning walk through Carpenter Nature Preserve and practice identifying birds by sight and sound. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
@@ -154,15 +108,9 @@ Start around sunset with a walk through Carpenter Nature Preserve to see which a
 
 [Browse all Zionsville Parks & Recreation programs](https://zionsvillein.myrec.com/info/activities/default.aspx).
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-bird-watching.webp"
-    alt="Downy Woodpecker clinging to a tree trunk with blurred yellow autumn leaves in the background."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-activities-zionsville-bird-watching.webp" alt="Downy Woodpecker clinging to a tree trunk with blurred yellow autumn leaves in the background." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     A Downy Woodpecker foraging on a tree trunk surrounded by fall foliage.
   </figcaption>
 </figure>
@@ -171,27 +119,20 @@ Start around sunset with a walk through Carpenter Nature Preserve to see which a
 
 ## Enjoy the SFZ Concert Series
 
-The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with two Sunday afternoon performances:
+The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with a Sunday afternoon performance:
 
 | Date | Artist | Program |
 | --- | --- | --- |
-| **October 11 · 4:00 PM** | **Becky Archibald and Friends** | ***Wango Tzango Sfortzango!***<br>Original violin-and-piano tangos with Indianapolis Symphony Orchestra violinist Bryson Karrer, plus jazz trios with a small combo, celebrating Archibald’s new album *Tango for Disobedient Beasts*. |
 | **November 1 · 4:00 PM** | **Alec Holcomb** | ***A Panorama of Classical Guitar Music***<br>Familiar favorites, overlooked gems and rarely heard works that show the range of the classical guitar, including music adapted from other instruments. |
 
 The concerts take place inside the church and provide an indoor arts option alongside Zionsville’s outdoor fall activities.
 
 [See the complete SFZ Concert Series schedule.](/events/sfz-concert-series)
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-st-francis-fall.webp"
-    alt="Bright red, orange, and yellow autumn leaves on trees outside St. Francis In-The-Fields Episcopal Church in Zionsville, Indiana."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    Fall foliage surrounding St. Francis In-The-Fields Episcopal Church, host location for the SFZ Concert Series. <br /> <span className="not-italic">© ZionsvilleIndiana.com</span>
+<figure class="my-8">
+  <img src="/images/articles/fall-activities-zionsville-st-francis-fall.webp" alt="Bright red, orange, and yellow autumn leaves on trees outside St. Francis In-The-Fields Episcopal Church in Zionsville, Indiana." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Fall foliage surrounding St. Francis In-The-Fields Episcopal Church, host location for the SFZ Concert Series. <br /> <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -209,28 +150,22 @@ The ZCHS Fall Musical takes the stage at the STAR Bank Performing Arts Center in
 
 *A Chorus Line: Teen Edition* is the 2026 ZCHS Fall Musical, adapted for teen performers and family audiences. The musical follows a group of dancers auditioning for spots in a Broadway chorus line as they share stories about their lives, ambitions and experiences as performers. Performances are Thursday through Saturday, November 12–14, at 7:00 p.m., and Sunday, November 15, at 2:00 p.m.
 
-Check the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php?sections=events) for performance times and ticket availability as each event approaches.
+Tickets and more information are available on the [STAR Bank Performing Arts Center ticket site](https://zionsvillepac.ludus.com/index.php?sections=events).
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-zchs-pac-performance.webp"
-    alt="Zionsville Community High School students performing a musical on stage at the STAR Bank Performing Arts Center."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    Student performers on stage at the STAR Bank Performing Arts Center during a Zionsville Community High School show. <span className="not-italic">Photo by STAR Bank Performing Arts Center</span>
+<figure class="my-8">
+  <img src="/images/articles/fall-activities-zionsville-zchs-pac-performance.webp" alt="Zionsville Community High School students performing a musical on stage at the STAR Bank Performing Arts Center." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Student performers on stage at the STAR Bank Performing Arts Center during a Zionsville Community High School show. <span class="not-italic">Photo by STAR Bank Performing Arts Center</span>
   </figcaption>
 </figure>
 
 ### Catch a Zionsville Eagles Game
 
-Friday night football is one of the most recognizable fall sports at Zionsville Community High School, with varsity games continuing into October.
+Friday night football is one of the most recognizable fall sports at Zionsville Community High School. The Eagles host Brownsburg in a sectional game on **Friday, October 30, at 7:00 p.m.** at Ascension St. Vincent Stadium.
 
 [See upcoming ZCHS football games.](https://www.zchsathletics.org/Events?for=c51f1ea9-cdbb-4cdd-86dc-d1370bba775f&academicYear=0)
 
-The ZCHS athletics calendar also includes **soccer, volleyball, cross country, tennis, golf, and Unified Flag Football**. As fall moves into November, **basketball and wrestling** also begin their seasons.
+As fall moves into November, **basketball and wrestling** begin their seasons, with tickets available for purchase. Swimming and diving meets also appear on the athletics calendar and do not require tickets.
 
 [See all upcoming ZCHS sporting events.](https://www.zchsathletics.org/Events?for=&academicYear=0)
 
@@ -267,16 +202,10 @@ Not every fall outing needs a scheduled start time. Zionsville’s parks and tra
 
 [See the Zionsville Rail Trail guide.](/articles/big-4-rail-trail)
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-activities-zionsville-rail-trail.webp"
-    alt="Vibrant red and orange autumn foliage lining the paved Zionsville Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    Peak fall colors framing the paved Zionsville Rail Trail in Zionsville. <span className="not-italic">© ZionsvilleIndiana.com</span>
+<figure class="my-8">
+  <img src="/images/articles/fall-activities-zionsville-rail-trail.webp" alt="Vibrant red and orange autumn foliage lining the paved Zionsville Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Peak fall colors framing the paved Zionsville Rail Trail in Zionsville. <span class="not-italic">© ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 

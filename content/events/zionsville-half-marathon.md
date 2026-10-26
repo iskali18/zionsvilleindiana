@@ -1,7 +1,7 @@
 ---
 title: "Zionsville Half-Marathon & 5K"
 alternateName: ["Zionsville Half Marathon", "Zionsville Half Marathon 5K"]
-description: "The 10th annual Zionsville Half-Marathon & 5K, presented by OrthoIndy, returns to downtown Zionsville on Saturday, November 21, 2026, with both races starting and finishing at Lions Park."
+description: "The 10th annual Zionsville Half-Marathon & 5K, presented by OrthoIndy, returns to downtown Zionsville on Saturday, November 21, 2026, with both races starting and finishing at Lions Park. Half-marathon runners must be at least 10 years old. Strollers are allowed in the 5K only, and dogs are not allowed in either race."
 metaTitle: "Zionsville Half-Marathon & 5K 2026 | Nov. 21 Race Info"
 metaDescription: "Zionsville Half-Marathon & 5K 2026: Saturday, November 21 at Lions Park. Half-marathon starts at 8 AM, 5K at 8:20 AM. Packet pickup and parking info."
 eventType: annual
@@ -15,7 +15,7 @@ image: /images/events/zionsville-half-marathon.webp
 imageAlt: "Low-angle view of runners' legs and running shoes striding along pavement during a road race."
 featured: true
 tags: [race, ticketed, outdoor, fall]
-lastUpdated: "2026-08-18"
+lastUpdated: "2026-10-26"
 faqs:
   - q: "When is the Zionsville Half-Marathon & 5K in 2026?"
     a: "The 10th annual Zionsville Half-Marathon & 5K is Saturday, November 21, 2026. The half-marathon starts at 8:00 AM and the 5K starts at 8:20 AM."
@@ -41,6 +41,9 @@ Both races start and finish at Lions Park. The Lions Club Building at 115 S. Elm
 - **Start/finish line:** Lions Park, Zionsville
 - **Race headquarters:** Lions Club Building, 115 S. Elm Street, Zionsville, IN 46077
 - **Registration:** [RunSignup](https://runsignup.com/Race/IN/Zionsville/ZionsvilleHalf)
+- **Age:** Half-marathon runners must be at least 10 years old by race day.
+- **Strollers:** Allowed in the 5K only.
+- **Dogs:** Not allowed in either race.
 
 ---
 
