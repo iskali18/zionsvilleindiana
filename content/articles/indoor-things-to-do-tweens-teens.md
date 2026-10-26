@@ -1,7 +1,7 @@
 ---
-title: "36 Indoor Things to Do for Older Kids & Teens Near Zionsville"
-metaTitle: "36 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
-metaDescription: "36 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
+title: "37 Indoor Things to Do for Older Kids & Teens Near Zionsville"
+metaTitle: "37 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
+metaDescription: "37 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
 description: "A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
 hubOrder: 15
@@ -9,7 +9,7 @@ draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-10-21"
+lastUpdated: "2026-10-24"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -19,7 +19,7 @@ faqs:
   - q: "Are there free indoor activities for teens near Zionsville?"
     a: "Yes. Hussey-Mayfield Memorial Public Library in Zionsville, Carmel Clay Public Library, Westfield Washington Public Library, Lebanon Public Library and Brownsburg Public Library all offer free teen programs, and SullivanMunce Cultural Center in Zionsville has free museum and gallery admission."
   - q: "Which indoor activities can teens do without signing up for a class?"
-    a: "Drop-in options include Slick City, Hoosier Heights, Laser Flash, Fastimes Indoor Karting, Press Play Gaming Lounge, The Escape Room USA, Pinheads, Royal Pin Woodland, the IMAX Theater at the Indiana State Museum, the Indianapolis Motor Speedway Museum, Smitten Kitten, Nine Lives Cat Cafe, 3rd Shot Pickleball, D-BAT and Pottery By You. Some require timed tickets or reservations."
+    a: "Drop-in options include Slick City, Hoosier Heights, Laser Flash, Fastimes Indoor Karting, Malibu Jack’s, Press Play Gaming Lounge, The Escape Room USA, Pinheads, Royal Pin Woodland, the IMAX Theater at the Indiana State Museum, the Indianapolis Motor Speedway Museum, Smitten Kitten, Nine Lives Cat Cafe, 3rd Shot Pickleball, D-BAT and Pottery By You. Some require timed tickets or reservations."
   - q: "Where can teens take classes near Zionsville?"
     a: "Ongoing programs include robotics at Kids Explore Robotics, music at School of Rock, Bach to Rock and Musicologie, theater at The Cat in Carmel, dance at Village Dance Studio, Metropolitan Youth Ballet, Sister Act Dance Academy and Dance Innovations PAC, pottery at The Wandering Peacock, cooking at Sprouts Cooking School, sports training in badminton, basketball and tennis, and martial arts at Adamson’s Karate Studio, Bushido Jiu-Jitsu and Master Yoo’s Tae Kwon Do."
   - q: "Which places have sensory-friendly accommodations for teens?"
@@ -28,9 +28,9 @@ faqs:
     a: "Not always. Brownsburg Public Library does not require a card for programs, and Westfield Washington Public Library’s Teen Room and makerspace are open to nonresidents. Some resources are limited to cardholders, such as Carmel Clay’s recording rooms. Hussey-Mayfield offers a free Student Card to qualifying nonresident students in kindergarten through 12th grade."
 ---
 
-Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 36 things to do in and around Zionsville and Northwest Indianapolis. You’ll find options in Zionsville, Whitestown, Carmel, Westfield, Fishers, Brownsburg, Lebanon, and Indianapolis, including both drop-in outings and ongoing programs for tweens and teenagers.
+Whether you’re looking for indoor activities for older kids and teens on a rainy day, during a cold Indiana winter, or when summer heat drives everyone indoors, this guide covers 37 things to do in and around Zionsville and Northwest Indianapolis. You’ll find options in Zionsville, Whitestown, Carmel, Westfield, Fishers, Brownsburg, Lebanon, Lafayette, and Indianapolis, including both drop-in outings and ongoing programs for tweens and teenagers.
 
-Ages are based on published guidelines when available. Many locations also offer activities for younger children, making them useful for families with siblings of different ages.
+Ages are based on published guidelines when available. Many locations also offer activities for younger children, making them useful for families with siblings of different ages. For activities geared toward younger children, explore our guide to [indoor things to do for kids near Zionsville](/articles/indoor-things-to-do-kids).
 
 <!-- INDOOR_ACTIVITIES_TABLE -->
 
@@ -53,7 +53,7 @@ Tickets are sold in 90- or 120-minute sessions, and guests under 18 need a waive
 
 ### Hoosier Heights
 
-**Active & Climbing · Recommended ages 6 through adult**  
+**Active & Climbing · Recommended ages 4 through adult**  
 **Location:** [9850 Mayflower Park Dr., Carmel, IN 46032](https://maps.app.goo.gl/PVVpNM6XfbemnDBN7)
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
@@ -101,6 +101,19 @@ Walk-in racing is available, but Fastimes recommends checking its website or cal
 
 [↑ Back to activities](#at-a-glance)
 
+### Malibu Jack’s
+
+**Indoor Amusement Park · Recommended ages 3 through adult**  
+**Location:** [2415 Sagamore Pkwy. S., Ste. 1980, Lafayette, IN 47905](https://maps.app.goo.gl/zravBNbaTEvH8BVL9)
+
+Malibu Jack’s is a 135,000-square-foot indoor amusement park at Tippecanoe Mall with electric go-karts, a spinning roller coaster, bumper cars, laser tag, miniature golf, duckpin bowling, motion theater rides, and more than 100 arcade games. The park also has a restaurant and enough attractions for several hours of entertainment. Entry is free, with rides and games purchased through prepaid Play Cards or attraction packages, including unlimited-play passes. Age and height restrictions apply to certain attractions.
+
+**Planning note:** Some attractions, including laser tag, bumper cars, and the Dark Ride, open at 4 PM Monday through Friday.
+
+[Visit Malibu Jack’s →](https://www.malibujacks.net/lafayette/home)
+
+[↑ Back to activities](#at-a-glance)
+
 ### Press Play Gaming Lounge
 
 **Gaming & Active Entertainment · Recommended ages 8 through adult**  
@@ -129,31 +142,28 @@ Guests of all ages can participate, but ages 14 and under must have an adult age
 
 [↑ Back to activities](#at-a-glance)
 
-### Pinheads (Brownsburg) & Royal Pin Woodland (Indianapolis)
+### Pinheads (Brownsburg & Fishers) & Royal Pin Woodland (Indianapolis)
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/indoor-activities-tweens-teens-zionsville-bowling.webp"
-    alt="Row of brightly colored bowling balls at the start of a modern indoor bowling lane with neon blacklight effects."
-    width={1800}
-    height={1200}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/indoor-activities-tweens-teens-zionsville-bowling.webp" alt="Row of brightly colored bowling balls at the start of a modern indoor bowling lane with neon blacklight effects." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Bowling lanes glowing under blacklights during cosmic bowling.
   </figcaption>
 </figure>
 
 **Bowling & Arcades · Recommended ages 3 through adult**  
 **Locations:**  
-Pinheads · [18 Whittington Dr., Brownsburg, IN 46112](https://maps.app.goo.gl/c6HpjQw5nmTExaWo7)  
+Pinheads Brownsburg · [18 Whittington Dr., Brownsburg, IN 46112](https://maps.app.goo.gl/c6HpjQw5nmTExaWo7)  
+Pinheads Fishers · [13825 Britton Park Rd., Fishers, IN 46038](https://maps.app.goo.gl/tmWWSkE78ttM6EtU8)  
 Royal Pin Woodland · [3421 E. 96th St., Indianapolis, IN 46240](https://maps.app.goo.gl/JM5KoGQGoWx5rPU48)
 
-Pinheads Brownsburg has 28 traditional bowling lanes and four duckpin lanes, which use shorter lanes and smaller balls for a different style of play. Tweens and teens can also spend time in the large redemption arcade, and Alley’s Alehouse offers sit-down dining. Walk-ins are accepted when lanes are available, and reservations are also offered.
+Pinheads Brownsburg has 28 traditional bowling lanes and four duckpin lanes, which use shorter lanes and smaller balls without finger holes. It also has a four-lane private bowling suite with custom cosmic lighting and large TVs for group events. Pinheads Fishers has 32 traditional bowling lanes and two private bowling suites. Both locations feature arcades and on-site restaurants, with walk-in bowling available when lanes are open. Reservations are also offered.
 
-Royal Pin Woodland has 70 bowling lanes, an arcade with more than 40 games, a two-story laser tag arena and an on-site café. Cosmic Bowling features blacklights, lasers and strobes, and Spark Immersive Bowling uses augmented reality to project interactive games onto the lanes. Bumpers, lightweight balls and small shoe sizes are available for young children. Reservations are recommended, particularly when leagues, tournaments or large groups may affect lane availability.
+Royal Pin Woodland has 70 bowling lanes, an arcade with more than 40 games, a two-story laser tag arena and an on-site café. Cosmic Bowling features blacklights, lasers and strobes, and Spark Immersive Bowling uses augmented reality to project interactive games onto the lanes. Lightweight balls and small shoe sizes are available for young children. Reservations are recommended, particularly when leagues, tournaments or large groups may affect lane availability.
 
-**Accessibility & sensory note — Pinheads Brownsburg:** The entrance is at ground level with automatic doors, and the center has accessible parking, routes, restrooms, elevators and dining tables, plus adaptive bowling ramps and an accessible arcade. Staff offer a venue orientation for guests who are blind or have low vision or are on the autism spectrum, and accommodations are available for guests who are deaf or hard of hearing.
+**Bowling accommodations:** All three locations offer bumpers and bowling ramps upon request.
+
+**Accessibility & sensory note — Pinheads Brownsburg:** The entrance is at ground level with automatic doors, and the center has accessible parking, routes, restrooms, elevators and dining tables. Staff offer a venue orientation for guests who are blind or have low vision or are on the autism spectrum, and accommodations are available for guests who are deaf or hard of hearing.
 
 [Visit Pinheads →](http://bowlatpinheads.com/) · [Visit Royal Pin Woodland →](http://www.royalpin.com/)
 
@@ -265,7 +275,7 @@ Tweens and teens can also try fused glass, make distressed wood signs or pour th
 
 Public libraries can be a good source of free indoor activities for tweens and teens, including gaming, Dungeons & Dragons, art and craft projects, makerspaces, clubs, workshops and volunteer opportunities. Several of the libraries below explicitly welcome nonresidents to teen programs or public spaces, while others set access requirements by program. We note those details in each entry so families can see what is available before visiting.
 
-**Borrowing from other Indiana libraries:** Before purchasing a nonresident library card, check whether the library you want to use has a reciprocal borrowing agreement with your home library. If it does, eligible resident cardholders can borrow there without paying for a separate card. If not, Indiana’s [Public Library Access Card (PLAC)](https://www.in.gov/library/about/general-information/policies-of-the-indiana-state-library/plac-rules-and-guidelines/) provides borrowing privileges at public libraries across the state; the fee is $70 for one year as of October 2026.
+**Borrowing from other Indiana libraries:** Before purchasing a nonresident library card, check whether the library you want to use has a reciprocal borrowing agreement with your home library. If it does, eligible resident cardholders can borrow there without paying for a separate card. If not, Indiana’s [Public Library Access Card (PLAC)](https://www.in.gov/library/about/general-information/policies-of-the-indiana-state-library/plac-rules-and-guidelines/) provides borrowing privileges at public libraries across the state; the fee is $70 for one year.
 
 ### Hussey-Mayfield Memorial Public Library
 
@@ -360,15 +370,9 @@ These options involve scheduled instruction, course enrollment or recurring part
 
 #### Kids Explore Robotics
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/indoor-activities-tweens-teens-zionsville-robotics.webp"
-    alt="Students build and program robots during a hands-on robotics class."
-    width={1800}
-    height={1200}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/indoor-activities-tweens-teens-zionsville-robotics.webp" alt="Students build and program robots during a hands-on robotics class." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Hands-on robotics classes let students build, test and program their own creations.
   </figcaption>
 </figure>
@@ -388,12 +392,12 @@ Classes generally meet once a week for about an hour, and robotics kits and mate
 
 #### School of Rock
 
-**Music & Performance · Ages 4 through adult**  
+**Music & Performance · Ages 6 through adult**  
 **Location:** [675 S. Main St., Zionsville, IN 46077](https://maps.app.goo.gl/TLDeWyBHV6hdY5f47)
 
 School of Rock makes band rehearsal and live performance a core part of its teaching model. Students in Rock 101 and the Performance program take a weekly private lesson along with a weekly group rehearsal, with the Performance program working toward live shows at local venues. Guitar, bass, drums, vocals and keyboard are all taught at the Zionsville school.
 
-Programs progress by age: Little Wing is designed for ages 4–5, Rookies for ages 6–7, Rock 101 for ages 8–13 and Performance for ages 8–18; songwriting is also available beginning at age 12. The school also offers House Band and AllStars opportunities for more advanced students under 18.
+Programs progress by age: Rookies is designed for ages 6–7, Rock 101 for ages 8–13, and Performance for ages 8–18, with songwriting available beginning at age 12. More advanced students under 18 can take part in House Band and AllStars.
 
 [Visit School of Rock →](https://www.schoolofrock.com/locations/zionsville)
 
@@ -401,15 +405,9 @@ Programs progress by age: Little Wing is designed for ages 4–5, Rookies for ag
 
 #### Bach to Rock
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/indoor-activities-tweens-teens-zionsville-bach2rock.webp"
-    alt="Students perform together on stage at Bach to Rock music school in Zionsville."
-    width={1800}
-    height={1200}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/indoor-activities-tweens-teens-zionsville-bach2rock.webp" alt="Students perform together on stage at Bach to Rock music school in Zionsville." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Students perform as a band at Bach to Rock in Zionsville, where group programs include bands, Glee Club, songwriting and music production. Photo by © ZionsvilleIndiana.com
   </figcaption>
 </figure>
@@ -460,7 +458,7 @@ Programs include semester-long productions and classes, summer sessions, short L
 **Dance · Ages 3 through adult**  
 **Location:** [6290 Central Blvd., Whitestown, IN 46075](https://maps.app.goo.gl/aRV6BCVPLLxisQaW6)
 
-Village Dance Studio offers ballet, tap, jazz, modern, hip hop, musical theater and pointe, with classes from beginning through advanced levels. As of October 2026, the class schedule includes several options specifically for older beginners and teens, including Beginning/Intermediate Teen Tap, Beginning Teen Musical Theater & Show Choir Prep and Intermediate Teen & Adult Ballet. Jazz, modern, hip hop and ballet also continue through upper levels for experienced dancers.
+Village Dance Studio offers ballet, tap, jazz, modern, hip hop, musical theater and pointe, with classes from beginning through advanced levels. The class schedule includes several options specifically for older beginners and teens, including Beginning/Intermediate Teen Tap, Beginning Teen Musical Theater & Show Choir Prep and Intermediate Teen & Adult Ballet. Jazz, modern, hip hop and ballet also continue through upper levels for experienced dancers.
 
 The studio has served the Zionsville area since 1977 and offers a non-competitive program with an emphasis on technique. Dancers interested in additional performances can audition for the Apprentice or Ensemble groups, which have separate eligibility and weekly class requirements.
 
@@ -551,7 +549,9 @@ Classes must be scheduled in advance; the studio does not offer regular drop-in 
 #### Sprouts Cooking School
 
 **Culinary & Creative · Ages 4–14**  
-**Location:** [11145 N. Michigan Rd., Zionsville, IN 46077](https://maps.app.goo.gl/XcfqfKjsHkXDLjCd8)
+**Locations:**  
+[11145 N. Michigan Rd., Zionsville, IN 46077](https://maps.app.goo.gl/XcfqfKjsHkXDLjCd8)  
+[13190 Hazel Dell Pkwy., Carmel, IN 46033](https://maps.app.goo.gl/GYHs9mL8dQqkiBBm8)
 
 Sprouts Cooking School offers hands-on cooking programs for children ages 4–14, with classes divided by age and experience. Participants prepare recipes while learning kitchen basics, cooking techniques and other age-appropriate culinary skills. Family classes for a parent and child start at age 3.
 
@@ -598,16 +598,16 @@ Training covers ball handling, shooting, passing, finishing, footwork and game d
 
 [↑ Back to activities](#at-a-glance)
 
-#### Pearson Tennis Club
+#### Pearson Automotive Tennis Club
 
 **Indoor Tennis · Ages 2 through adult**  
 **Location:** [4400 S. 875 E., Zionsville, IN 46077](https://maps.app.goo.gl/o7cMbVqLm6cNv2qq5)
 
-Pearson Tennis Club has eight climate-controlled indoor tennis courts and junior programming specifically for middle- and high-school players. Seasonal clinics run throughout the year, with players placed at an appropriate level; private and small-group lessons are also available.
+Pearson Automotive Tennis Club has eight climate-controlled indoor tennis courts and junior programming specifically for middle- and high-school players. Seasonal clinics run throughout the year, with players placed at an appropriate level; private and small-group lessons are also available.
 
 Members can reserve courts for independent play and add ball-machine practice. Membership is generally required for clinics, lessons and court rentals, although limited nonmember access is available for private lessons and some summer youth clinics.
 
-[Visit Pearson Tennis Club →](https://www.pearsontennis.com/)
+[Visit Pearson Automotive Tennis Club →](https://www.pearsontennis.com/)
 
 [↑ Back to activities](#at-a-glance)
 
@@ -641,12 +641,12 @@ Ages 8–13 train in the Junior Samurai program, which mixes Brazilian Jiu-Jitsu
 
 #### Master Yoo’s Tae Kwon Do
 
-**Martial Arts · Ages 3 through adult**  
+**Martial Arts · Ages 4 through adult**  
 **Location:** [2470 Harleston St., Carmel, IN 46032](https://maps.app.goo.gl/fZUhC71a1z4ojBiu8)
 
 Tae Kwon Do is a Korean martial art known for its high, jumping and spinning kicks, along with punches and other striking techniques. At Master Yoo’s, students learn Tae Kwon Do and self-defense while developing fitness, focus, confidence, discipline and respect. Students advance through the belt system from beginner levels toward black belt.
 
-No previous martial arts experience is required. As of October 2026, Master Yoo’s offers new students an introductory private lesson and group class, providing a structured starting point for learning the basics.
+No previous martial arts experience is required. Master Yoo’s offers new students an introductory private lesson and group class, providing a structured starting point for learning the basics.
 
 [Visit Master Yoo’s Tae Kwon Do →](https://masteryootkd.com/carmel/)
 

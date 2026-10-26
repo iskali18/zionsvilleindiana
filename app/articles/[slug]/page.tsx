@@ -7,8 +7,10 @@ import ZcsMilestones from '@/components/ZcsMilestones'
 import FallFarmComparison from '@/components/FallFarmComparison'
 import FallActivitiesTable from '@/components/FallActivitiesTable'
 import IndoorActivitiesTeensTable from '@/components/IndoorActivitiesTeensTable'
+import IndoorActivitiesKidsTable from '@/components/IndoorActivitiesKidsTable'
 import { DESTINATIONS } from '@/lib/fall-farms'
 import { INDOOR_ACTIVITIES } from '@/lib/indoor-activities-teens'
+import { INDOOR_ACTIVITIES as INDOOR_ACTIVITIES_KIDS } from '@/lib/indoor-activities-kids'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 interface Props {
@@ -80,13 +82,22 @@ export default async function ArticlePage({ params }: Props) {
                   description: a.what,
                 })),
               }
-            : {})}
+            : slug === 'indoor-things-to-do-kids'
+              ? {
+                  itemListName: 'Indoor things to do for young kids near Zionsville and NW Indianapolis',
+                  itemList: INDOOR_ACTIVITIES_KIDS.map((a) => ({
+                    name: a.name,
+                    href: `#${a.anchor}`,
+                    description: a.what,
+                  })),
+                }
+              : {})}
         injectAt={
           slug === 'pumpkin-patches-corn-mazes-near-indianapolis'
             ? '<!-- FALL_FARM_COMPARISON -->'
             : slug === 'fall-activities-zionsville'
               ? '<!-- FALL_ACTIVITIES_TABLE -->'
-              : slug === 'indoor-things-to-do-tweens-teens'
+              : slug === 'indoor-things-to-do-tweens-teens' || slug === 'indoor-things-to-do-kids'
                 ? '<!-- INDOOR_ACTIVITIES_TABLE -->'
                 : undefined
         }
@@ -103,6 +114,7 @@ export default async function ArticlePage({ params }: Props) {
         {slug === 'pumpkin-patches-corn-mazes-near-indianapolis' && <FallFarmComparison />}
         {slug === 'fall-activities-zionsville' && <FallActivitiesTable />}
         {slug === 'indoor-things-to-do-tweens-teens' && <IndoorActivitiesTeensTable />}
+        {slug === 'indoor-things-to-do-kids' && <IndoorActivitiesKidsTable />}
       </ArticleLayout>
     )
   } catch {
