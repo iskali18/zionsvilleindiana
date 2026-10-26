@@ -100,7 +100,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Dull\u2019s Tree Farm',
     anchor: 'dulls-tree-farm',
     city: 'Thorntown',
-    highlights: 'Tire mountain, ropes course, giant slides; fireworks Oct. 24',
+    highlights: 'Tire mountain, ropes course, giant slides',
     cost: '$17.95 online / $21.95 full price; pumpkins from $0.59/lb, select activities extra',
     features: ['Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Farm Animals', 'Rides / Large Play Area'],
     schedules: [
@@ -236,7 +236,7 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'beasleys-orchard',
     city: 'Danville',
     highlights: '7 themed festival weekends, apple cannons, Straw Mountain',
-    cost: 'Weekdays $12; weekends $14\u2013$16 by date; Heartland weekends $5 parking',
+    cost: 'Weekdays $12; weekends $14\u2013$16 by date',
     features: ['Apple Picking', 'Pumpkin Picking', 'Corn Maze', 'Hayride / Wagon Ride', 'Rides / Large Play Area', 'Sensory / Accessibility Info'],
     schedules: [
       { label: 'Fall season', start: '2026-09-19', end: '2026-11-01', days: ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'], hours: 'Mon\u2013Fri 1\u20136 PM; Sat 9 AM\u20136 PM; Sun noon\u20136 PM', status: 'confirmed', planner: true, note: 'Attractions open daily; admission sales end at 5 PM' },
@@ -264,7 +264,7 @@ export const DESTINATIONS: Destination[] = [
     anchor: 'driving-wind-berry-farms',
     city: 'Indianapolis',
     highlights: 'Year-round café and espresso bar; urban farm with pumpkin patch and farm animals',
-    cost: '$10 per carload for Pumpkin Palooza; pumpkins sold separately',
+    cost: 'Halloween event tickets sold in advance; pumpkins sold separately',
     features: ['Pumpkin Picking', 'Hayride / Wagon Ride', 'Farm Animals'],
     schedules: [
       { label: 'Caf\u00e9', start: '2026-09-01', end: '2026-11-01', days: ['wed', 'thu', 'fri', 'sat'], hours: '8 AM\u20133 PM', status: 'confirmed', planner: false, note: 'Caf\u00e9 hours only, announced Aug. 26. The farm has not posted its own hours, so this does not decide whether a fall visit is possible.' },
@@ -295,7 +295,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Anderson Orchard',
     anchor: 'anderson-orchard',
     city: 'Mooresville',
-    highlights: 'Open 7 days a week; petting zoo Oct. 3–25 and Trunk or Treat Oct. 30',
+    highlights: 'Open 7 days a week; Trunk or Treat Oct. 30',
     cost: 'Free entry',
     features: ['Pumpkin Picking', 'Free / No General Admission', 'Apple Picking'],
     schedules: [
@@ -324,7 +324,7 @@ export const DESTINATIONS: Destination[] = [
     name: 'Pleasant View Orchard',
     anchor: 'pleasant-view-orchard',
     city: 'Fairland',
-    highlights: 'Free Saturday live music, weekend wagon rides to the pumpkin patch; Silly Safaris animal show Oct. 24',
+    highlights: 'Weekend wagon rides to the pumpkin patch, 30+ apple varieties, playground',
     cost: 'Free entry & parking; pay for what you pick',
     features: ['Pumpkin Picking', 'Apple Picking', 'Hayride / Wagon Ride', 'Free / No General Admission'],
     schedules: [

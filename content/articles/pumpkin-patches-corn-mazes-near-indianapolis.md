@@ -8,7 +8,7 @@ hubOrder: 9
 draft: false
 hero_image: /images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp
 hero_position: "center 20%"
-lastUpdated: "2026-10-06"
+lastUpdated: "2026-10-26"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -18,30 +18,30 @@ faqs:
   - q: "Where can I go apple picking near Zionsville and Indianapolis?"
     a: "Stuckey Farm in Sheridan, Beasley’s Orchard in Danville, Tuttle Orchards in Greenfield, Anderson Orchard in Mooresville, Chandler’s Orchard & Country Market in Fillmore and Pleasant View Orchard in Fairland all offer U-pick apples. Across the growing year Chandler’s lists 50 apple varieties, Stuckey lists 37 and Anderson nearly 30, though fewer are ripe at any one time."
   - q: "Which pumpkin patches near Indianapolis have free admission?"
-    a: "Tuttle Orchards has free general admission and parking, with the FarmYard priced separately at $10 per person age 2 and older. Hogan Farms lists no general admission and prices activities individually. Anderson Orchard has no admission or parking fee. Spencer Farm lists no entry or parking fee, and Pleasant View Orchard charges no admission or parking fee. Chandler’s Orchard & Country Market has no general admission for U-pick visitors. Nehemiah Ranch Fall Harvest Days are free with a $5-per-person donation suggested."
+    a: "Tuttle Orchards has free general admission and parking, with the FarmYard priced separately at $10 per person age 2 and older. Hogan Farms lists no general admission and prices activities individually. Anderson Orchard has no admission or parking fee. Spencer Farm lists no entry or parking fee, and Pleasant View Orchard charges no admission or parking fee. Chandler’s Orchard & Country Market has no general admission for U-pick visitors."
   - q: "Are there height requirements for rides at these fall destinations?"
     a: "Russell Farms lists a 44-inch minimum for three attractions, and Piney Acres Farm lists a 42-inch minimum for its tube slide. Conner Prairie limits its barrel train to riders under 48 inches tall. Other destinations have not published ride-height restrictions."
   - q: "Which destinations publish sensory or accessibility information?"
     a: "Conner Prairie publishes detailed sensory and accessibility information for its Headless Horseman Festival. Piney Acres Farm has hosted a sensory-friendly Ausome Fall Fest with the Autism Society of Indiana and has handicap-accessible indoor restrooms, though its train cars are not wheelchair accessible. Tuttle Orchards, Lark Ranch, Stuckey Farm, Beasley’s Orchard and Kelsay Farms have published accessibility details."
   - q: "Which pumpkin patches near Indianapolis allow dogs?"
-    a: "Leashed dogs are welcome at Dull’s Tree Farm in outdoor areas, Lark Ranch and Hogan Farms. Spencer Farm allows leashed pets on the grounds but not in crop areas or buildings, and Pleasant View Orchard allows them in the orchard but not in the store or on pumpkin-patch wagons. Beasley’s Orchard allows dogs on its attractions only during Dog Days at the Maze, October 17–18. Pets are not allowed past the front gate at Russell Farms or at Tuttle Orchards."
+    a: "Leashed dogs are welcome at Dull’s Tree Farm in outdoor areas, Lark Ranch and Hogan Farms. Spencer Farm allows leashed pets on the grounds but not in crop areas or buildings, and Pleasant View Orchard allows them in the orchard but not in the store or on pumpkin-patch wagons. Beasley’s Orchard allows dogs on its attractions only during its Dog Days at the Maze weekend. Pets are not allowed past the front gate at Russell Farms or at Tuttle Orchards."
   - q: "Are there pumpkin patches in Indianapolis?"
-    a: "Yes. Driving Wind Berry Farms on the northwest side has a small pumpkin patch and a Pumpkin Palooza on October 10. Waterman’s Family Farm on the southeast side holds its Fall Festival with a hayride to the pumpkin patch through November 1."
+    a: "Yes. Driving Wind Berry Farms on the northwest side has a small pumpkin patch and a Halloween event on October 31. Waterman’s Family Farm on the southeast side holds its Fall Festival with a hayride to the pumpkin patch through November 1."
   - q: "Are pumpkins included with admission?"
-    a: "Usually not. Pumpkins are typically purchased separately even at destinations that charge general admission. Tuttle Orchards charges $10 for a carving pumpkin whatever its size, $5 for a pie pumpkin and $2 for a mini. Waterman’s Family Farm lists pumpkins from $5 and Russell Farms lists an average carving pumpkin at about $5 to $12. Nehemiah Ranch includes a child’s pumpkin with its free Fall Harvest Days."
+    a: "Usually not. Pumpkins are typically purchased separately even at destinations that charge general admission. Tuttle Orchards charges $10 for a carving pumpkin whatever its size, $5 for a pie pumpkin and $2 for a mini. Waterman’s Family Farm lists pumpkins from $5 and Russell Farms lists an average carving pumpkin at about $5 to $12."
   - q: "Which pumpkin patches are closest to Zionsville?"
     a: "Driving Wind Berry Farms in Indianapolis and Hogan Farms in Brownsburg are both about 17 minutes from Zionsville, and Stuckey Farm in Sheridan is about 20 minutes. They are the closest destinations in this guide."
   - q: "Which pumpkin patches near Indianapolis are best for toddlers and young children?"
-    a: "Russell Farms has two low-wall scavenger-hunt mazes for easier visibility for children, alongside its two full-size mazes. Dull’s Tree Farm has a mini maze that takes about 15 minutes or less, and Piney Acres Farm has a 1-acre kids’ corn maze. At Hogan Farms, children 36 inches and under get the corn maze, hayride and Kid Zone free, and Tuttle Orchards’ FarmYard includes toddler play areas. Lark Ranch runs a mile-long train ride and keeps Highland cows. Nehemiah Ranch Fall Harvest Days is free and includes a child’s pumpkin. Height minimums apply at Russell Farms, which lists 44 inches on three rides, and Piney Acres Farm, which requires 42 inches for its tube slide."
+    a: "Russell Farms has two low-wall scavenger-hunt mazes for easier visibility for children, alongside its two full-size mazes. Dull’s Tree Farm has a mini maze that takes about 15 minutes or less, and Piney Acres Farm has a 1-acre kids’ corn maze. At Hogan Farms, children 36 inches and under get the corn maze, hayride and Kid Zone free, and Tuttle Orchards’ FarmYard includes toddler play areas. Lark Ranch runs a mile-long train ride and keeps Highland cows. Height minimums apply at Russell Farms, which lists 44 inches on three rides, and Piney Acres Farm, which requires 42 inches for its tube slide."
   - q: "Are there evening or after-dark fall events?"
-    a: "Yes. Conner Prairie’s Headless Horseman Festival runs 5–10 p.m. Thursday through Sunday, October 1–25. Nehemiah Ranch holds Fall Harvest Days from 6–9 p.m. on October 10 and 17. Dull’s Tree Farm has fireworks October 24 at 7:30 p.m., Piney Acres Farm shows outdoor movies from 6–10 p.m. on October 9 and 23, and Anderson Orchard holds a Trunk or Treat October 30 from 6–9 p.m. Kelsay Farms is open Fridays from 6 to 9 p.m. and Saturdays until 9 p.m., with flashlights allowed in the corn maze after dark."
+    a: "Yes. Anderson Orchard holds a Trunk or Treat on October 30 from 6–9 p.m."
 ---
 
 Fall farms near Zionsville and Indianapolis offer everything from apple and pumpkin picking to corn mazes, hayrides and full-scale fall attractions. Compare 2026 admission prices, activities, extra costs and event dates for destinations across Central Indiana. For festivals, walks and races in town rather than on a farm, see [fall activities in Zionsville](/articles/fall-activities-zionsville).
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated October 6, 2026.**
+**Updated October 26, 2026.**
 
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
@@ -52,7 +52,7 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 ## Pumpkin Patches in Indianapolis
 
-Two destinations in this guide are inside Indianapolis. **[Driving Wind Berry Farms](#driving-wind-berry-farms)**, on the northwest side, is an urban farm with a small pumpkin patch, and its Pumpkin Palooza is October 10. **[Waterman’s Family Farm](#watermans-family-farm)**, on the southeast side, holds its Fall Festival through November 1, with a corn maze, a hayride to the pumpkin patch and a pumpkin-eating dinosaur.
+Two destinations in this guide are inside Indianapolis. **[Driving Wind Berry Farms](#driving-wind-berry-farms)**, on the northwest side, is an urban farm with a small pumpkin patch, and it holds a Halloween event on October 31. **[Waterman’s Family Farm](#watermans-family-farm)**, on the southeast side, holds its Fall Festival through November 1, with a corn maze, a hayride to the pumpkin patch and a pumpkin-eating dinosaur.
 
 ## Closest Fall Destinations to Zionsville
 
@@ -62,12 +62,12 @@ Among the fall destinations included here, **[Driving Wind Berry Farms](#driving
 
 Use the map to compare the locations of pumpkin patches, apple orchards and fall attractions included below.
 
-<div className="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100 my-6">
+<div class="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100 my-6">
   <iframe
     src="https://www.google.com/maps/d/embed?mid=1Vi8a7F2D5AOxxh4xvBbVzT3bKy-XmsM&ehbc=2E312F"
     title="Map of fall farms and orchards near Zionsville and Indianapolis"
     loading="lazy"
-    className="w-full h-full"
+    class="w-full h-full"
   ></iframe>
 </div>
 
@@ -79,15 +79,9 @@ For picking your own pumpkins without paying admission, **Tuttle Orchards** has 
 
 At farms that charge admission, pumpkins are usually still sold separately. **Russell Farms** lists an average carving pumpkin at about $5–$12, and **Waterman’s Family Farm** sells pumpkins from $5. Piney Acres Farm and Kelsay Farms sell pumpkins but don’t have a patch to pick from.
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-pumpkin-picking.webp"
-    alt="A field filled with ripe orange pumpkins and a wheelbarrow parked in the background under a clear sky."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-pumpkin-picking.webp" alt="A field filled with ripe orange pumpkins and a wheelbarrow parked in the background under a clear sky." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Many farms and orchards near Zionsville and Indianapolis feature pumpkin picking throughout September and October.
   </figcaption>
 </figure>
@@ -104,22 +98,16 @@ For rides and play areas, **Lark Ranch** includes country-fair rides and a mile-
 
 Only some varieties are ripe at any one time, so check each orchard’s picking updates before you go.
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-apple-picking.webp"
-    alt="A woman in a red plaid shirt reaching up to pick a red apple from a tree branch surrounded by autumn foliage."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-apple-picking.webp" alt="A woman in a red plaid shirt reaching up to pick a red apple from a tree branch surrounded by autumn foliage." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Several orchards near Zionsville and Indianapolis offer U-pick apples during the fall harvest season.
   </figcaption>
 </figure>
 
 ### Calm, Low-Key Farms for a Traditional Visit
 
-**Spencer Farm**, a year-round working farm, keeps the visit centered on its crops, with U-pick pumpkins, dig-your-own mums and free weekend hayrides. **Chandler’s Orchard & Country Market** offers Percheron horse-drawn wagon rides on weekends and a country store, and **Pleasant View Orchard** has free live music on select October Saturdays and a playground alongside its orchard and pumpkin patch. **Anderson Orchard** and **Hogan Farms** also skip large ride areas, keeping the focus on picking, hayrides and simple activities for children.
+**Spencer Farm**, a year-round working farm, keeps the visit centered on its crops, with U-pick pumpkins, dig-your-own mums and free weekend hayrides. **Chandler’s Orchard & Country Market** offers Percheron horse-drawn wagon rides on weekends and a country store, and **Pleasant View Orchard** has a playground alongside its orchard and pumpkin patch. **Anderson Orchard** and **Hogan Farms** also skip large ride areas, keeping the focus on picking, hayrides and simple activities for children.
 
 ### Best Pumpkin Patches for Young Children
 
@@ -129,9 +117,9 @@ Check height limits before visiting: Russell lists a 44-inch minimum on three ri
 
 ### Free and Low-Cost Pumpkin Patches
 
-**Hogan Farms**, **Anderson Orchard**, **Spencer Farm**, **Tuttle Orchards**, **Chandler’s Orchard & Country Market** and **Pleasant View Orchard** have no admission fee, allowing visitors to pay for the activities or purchases they choose. **Nehemiah Ranch Fall Harvest Days** is free with a suggested donation. Tuttle’s FarmYard admission is $10, while Hogan prices its corn maze, hayride and Kid Zone separately.
+**Hogan Farms**, **Anderson Orchard**, **Spencer Farm**, **Tuttle Orchards**, **Chandler’s Orchard & Country Market** and **Pleasant View Orchard** have no admission fee, allowing visitors to pay for the activities or purchases they choose. Tuttle’s FarmYard admission is $10, while Hogan prices its corn maze, hayride and Kid Zone separately.
 
-Among farms that charge admission, **Driving Wind Berry Farms**’ Pumpkin Palooza is $10 per carload on Saturday, October 10, its last date this season. Weekday admission is $12 at **Beasley’s Orchard**, $12.50 online on Thursdays and Fridays at **Stuckey Farm** and $12.95 at **Waterman’s Family Farm**.
+Among farms that charge admission, weekday admission is $12 at **Beasley’s Orchard** and $12.95 at **Waterman’s Family Farm**.
 
 ### Sensory-Friendly and Accessible Farms
 
@@ -149,11 +137,11 @@ Among farms that charge admission, **Driving Wind Berry Farms**’ Pumpkin Paloo
 
 - **Location:** [1765 W. Blubaugh Avenue, Thorntown, IN 46071](https://maps.app.goo.gl/jL4Yf4kUJZwd9kCr9) · Boone County
 - **Drive from Zionsville:** ~35 min (26 miles NW)
-- **Highlights:** Tire mountain, ropes course, giant slides; fireworks Oct. 24
+- **Highlights:** Tire mountain, ropes course, giant slides
 
 Dull’s Tree Farm in Thorntown runs its 2026 fall season through **November 1**. Admission includes more than **45 activities**, including the corn maze, hayrides to the pumpkin patch, farm animals, giant slides, barrel train, tractor-tire mountain, ropes and obstacle course, corn pit and other play areas. Each ticket also includes one **Activity Pass** for select activities. A mini maze for younger children takes about 15 minutes or less.
 
-Special events include **Worship Night** on October 16 from 6–7:30 p.m. and **fireworks** on October 24 at 7:30 p.m. Parking fees apply beginning at 6:15 p.m. on fireworks night. For accessibility, Indy with Kids reports no stairs, mostly flat terrain and ramps at building entrances.
+For accessibility, Indy with Kids reports no stairs, mostly flat terrain and ramps at building entrances.
 
 - **Hours**
   - Open on weekends, Sept. 26–Nov. 1
@@ -178,22 +166,14 @@ Special events include **Worship Night** on October 16 from 6–7:30 p.m. and **
 
 **Stuckey Farm Orchard & Cider Mill in Sheridan** grows **37 varieties of U-pick apples** across its growing year. Admission includes **Adventure Acres**, a large play area with a 60-foot tube slide, combine slides, jumping pillows, pedal cars, a barrel train and farm goats, along with an **$8 apple voucher** and three U-pick zinnia stems while in season.
 
-The rest of the fall season includes **Cider Pressin’ Days** on **October 10–11** and **Pumpkin Pluckin’ Days** on **October 17–18 and 24–25**, ending with a Nightmare Before Christmas market.
-
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-sunflower-festival.webp"
-    alt="A wide field of yellow sunflowers in full bloom stretching toward the horizon under a cloudy sky."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-sunflower-festival.webp" alt="A wide field of yellow sunflowers in full bloom stretching toward the horizon under a cloudy sky." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Select local farms and orchards near Zionsville and Indianapolis offer sunflower fields and festivals during late summer and early autumn.
   </figcaption>
 </figure>
 
-- **Season:** Through Oct. 25 · Closed Mon–Wed
+- **Season:** Season ended Oct. 25
 - **Hours:** Thu–Sat 10 AM–7 PM · Sun 1–7 PM
 - **Admission:** Thu–Fri $12.50 online / $14.75 gate · Sat–Sun $16.25 online / $18.95 gate · ages 2 and under free
 - **Season pass:** $48 for the fall season
@@ -210,7 +190,7 @@ The rest of the fall season includes **Cider Pressin’ Days** on **October 10�
 - **Drive from Zionsville:** ~30 min (16 miles NE)
 - **Highlights:** Dig-your-own mums, weekend hayrides; winery in an 1883 farmhouse
 
-**Spencer Farm in Noblesville** is a year-round working farm with a U-pick pumpkin patch, dig-your-own mums and seasonal U-pick crops. As of early October, the farm has **pumpkins and mums** for sale, with mums in several colors while supplies last.
+**Spencer Farm in Noblesville** is a year-round working farm with a U-pick pumpkin patch, dig-your-own mums and seasonal U-pick crops. The farm sells **pumpkins and mums**, with mums in several colors while supplies last.
 
 **Spencer Farm Winery**, a sister company on the same property, has a tasting room in a restored **1883 farmhouse** and keeps separate hours from the farm.
 
@@ -233,20 +213,14 @@ The rest of the fall season includes **Cider Pressin’ Days** on **October 10�
 
 The museum’s regular daytime historic village and farm areas close at 4 p.m. on festival days and are not open during the evening festival. Sensory boxes are available at the ticket gates.
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-conner-prairie-headless-horseman.webp"
-    alt="The Headless Horseman on a spotted horse illuminated by red light beside a hayride wagon at Conner Prairie in Fishers, Indiana."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    The Headless Horseman appears alongside the hayride during Conner Prairie’s Headless Horseman Festival in Fishers. <span className="not-italic">©ZionsvilleIndiana.com</span>
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-conner-prairie-headless-horseman.webp" alt="The Headless Horseman on a spotted horse illuminated by red light beside a hayride wagon at Conner Prairie in Fishers, Indiana." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    The Headless Horseman appears alongside the hayride during Conner Prairie’s Headless Horseman Festival in Fishers. <span class="not-italic">©ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
-- **Season:** Oct. 1–25 · Closed Mon–Wed
+- **Season:** Season ended Oct. 25
 - **Hours:** Thu–Sun 5–10 PM
 - **Admission:** $26 nonmembers · members free with reservation · Access Pass $10 · parking free
 - **Hayride:** $10 additional for members and nonmembers
@@ -268,16 +242,10 @@ The museum’s regular daytime historic village and farm areas close at 4 p.m. o
 
 There is **no admission charge** for visitors who only want to buy already-picked pumpkins, straw and fall decorations or shop the Country Store. Pets are not allowed past the front gate.
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-russell-farms-petting-zoo.webp"
-    alt="A young boy sitting in straw surrounded by goats in the petting zoo area at Russell Farms in Noblesville, Indiana."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
-    The petting zoo at Russell Farms in Noblesville features pygmy goats, pigs, miniature horses, and other farm animals. <span className="not-italic">©ZionsvilleIndiana.com</span>
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-russell-farms-petting-zoo.webp" alt="A young boy sitting in straw surrounded by goats in the petting zoo area at Russell Farms in Noblesville, Indiana." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    The petting zoo at Russell Farms in Noblesville features pygmy goats, pigs, miniature horses, and other farm animals. <span class="not-italic">©ZionsvilleIndiana.com</span>
   </figcaption>
 </figure>
 
@@ -323,17 +291,11 @@ The separately ticketed **FarmYard** includes more than 30 activities, including
 - **Drive from Zionsville:** ~45 min (34 miles SE)
 - **Highlights:** Mile-long train ride, carnival rides included with admission, Highland cows
 
-**Lark Ranch in Greenfield** is one of the larger fall attractions, with a pumpkin patch, corn maze, **mile-long train ride**, Highland cows and other animals, hayrides, playsets and a corn pit. Country-fair rides include a carousel, Cornado, Lark Swing, Reckless, Hampton car ride and Corn Twister. **Colts Fall Fest** takes place **Saturday, October 24**, from 11 a.m.–8 p.m.
+**Lark Ranch in Greenfield** is one of the larger fall attractions, with a pumpkin patch, corn maze, **mile-long train ride**, Highland cows and other animals, hayrides, playsets and a corn pit. Country-fair rides include a carousel, Cornado, Lark Swing, Reckless, Hampton car ride and Corn Twister.
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-highland-cow.webp"
-    alt="A long-horned, shaggy brown Highland cow standing in an open grassy pasture under a clear sky."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-highland-cow.webp" alt="A long-horned, shaggy brown Highland cow standing in an open grassy pasture under a clear sky." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Highland cows are among the animals visitors can see at Lark Ranch.
   </figcaption>
 </figure>
@@ -360,15 +322,15 @@ The separately ticketed **FarmYard** includes more than 30 activities, including
 - **Drive from Zionsville:** ~50 min (36 miles E)
 - **Highlights:** Train, 1-acre kids’ corn maze, 150-ft tube slide (42 in. min height)
 
-**Piney Acres Farm in Fortville** has hayrides, barnyard animals, a train, jump pad, **150-foot tube slide**, gem mining, fossil digging, pig races and play areas. Due to flooding, the farm’s large corn maze will not open in 2026, but the 1-acre kids’ corn maze is open. The tube slide has a **42-inch minimum height**. Special events include outdoor movie nights featuring *Halloweentown* on October 9 and *It’s the Great Pumpkin, Charlie Brown* and *Hocus Pocus* on October 23.
+**Piney Acres Farm in Fortville** has hayrides, barnyard animals, a train, jump pad, **150-foot tube slide**, gem mining, fossil digging, pig races and play areas. Due to flooding, the farm’s large corn maze will not open in 2026, but the 1-acre kids’ corn maze is open. The tube slide has a **42-inch minimum height**.
 
 The farm’s pumpkin patch is **off-site for 2026** because its fields are rotated yearly. Staff harvest the pumpkins and bring them to the farm, so visitors choose from the available selection rather than picking pumpkins directly from the field.
 
-- **Season:** Sept. 19–Oct. 25
+- **Season:** Season ended Oct. 25
 - **Hours:** Mon–Fri 1–7 PM · Sat 10 AM–7 PM · Sun noon–7 PM
 - **Admission:** Adults $10 general / $18 All Access · ages 3–13 $20 All Access · walking children under 3 $5 · infants in a carrier or stroller free
 - **Activities:** General admission includes play areas, backyard games and tractor ride · train and slide upgrade $8 · all-day tube slide $6 · select weekdays offer half-price admission with some attractions unavailable
-- **Season passes:** $45 per person · family of five $200 through Oct. 11 / $120 beginning Oct. 12
+- **Season passes:** $45 per person
 - **Accessibility:** Handicap-accessible indoor restrooms
 
 [Piney Acres website →](https://pineyacresfarm.com/fall-fun/)
@@ -398,15 +360,9 @@ The farm’s pumpkin patch is **off-site for 2026** because its fields are rotat
 
 [↑ Back to comparison](#compare)
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-hayride.webp"
-    alt="Three young children kneeling on straw inside a green wagon pulled by a tractor through a corn field."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-hayride.webp" alt="Three young children kneeling on straw inside a green wagon pulled by a tractor through a corn field." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Tractor-pulled hayrides travel across fields and farm grounds at many fall destinations near Zionsville.
   </figcaption>
 </figure>
@@ -419,7 +375,8 @@ The farm’s pumpkin patch is **off-site for 2026** because its fields are rotat
 
 **Nehemiah Ranch in Avon** is a faith-based nonprofit that holds **Fall Harvest Days** on three Saturday evenings in October. The event includes hayrides, hot dogs, s’mores, hot chocolate, a fire pit, games and a trip to the pumpkin patch where children can choose a pumpkin.
 
-- **Hours:** Sat · Oct. 10 & 17 · 6–9 PM
+- **Season:** Season ended Oct. 17
+- **Hours:** Sat · 6–9 PM
 - **Admission:** Free · $5 per person donation suggested
 - **Pumpkins:** One child’s pumpkin included
 
@@ -433,33 +390,25 @@ The farm’s pumpkin patch is **off-site for 2026** because its fields are rotat
 - **Drive from Zionsville:** ~40 min (25 miles SW)
 - **Highlights:** 7 themed festival weekends, apple cannons, Straw Mountain
 
-**Beasley’s Orchard in Danville** has seven themed festival weekends during its fall season, including the **Heartland Apple Festival** October 10–11, **Dog Days at the Maze** October 17–18, **Halloweekend** October 24–25 and **Dia de los Muertos** October 31–November 1. Dog Days is the only weekend dogs are permitted on the attractions.
+**Beasley’s Orchard in Danville** has seven themed festival weekends during its fall season, ending with **Dia de los Muertos** October 31–November 1. Dogs are permitted on the attractions only during its **Dog Days at the Maze** weekend.
 
 The farm market is housed in a **Civil War-era barn** and sells homegrown produce, baked goods and Beasley’s apple cider. It is open Monday through Saturday 9 a.m.–6 p.m. and Sunday noon–6 p.m., separate from the fall attraction hours.
 
 - **Hours**
   - Open daily, Sept. 19–Nov. 1
     - Mon–Fri 1–6 PM · Sat 9 AM–6 PM · Sun noon–6 PM
-  - **Heartland Apple Festival**
-    - Sat & Sun · Oct. 10–11 · 9 AM–6 PM
 - **Admission:** Weekdays $12 · weekends $14–$16 · ages 2 and under free · children under 16 must be accompanied by an adult · admission sales end at 5 PM
 - **Activities:** Corn maze, pumpkin-patch hayride, five apple cannon shots, Straw Mountain, Barnyard Bonanza and seasonal marigold field included · U-pick apples and pumpkins extra
-- **Parking:** Free · $5 per vehicle during Heartland Apple Festival weekends
+- **Parking:** Free
 - **Accessibility:** Listed as ADA accessible by Visit Hendricks County
 
 [Beasley’s Orchard website →](https://www.beasleys-orchard.com/)
 
 [↑ Back to comparison](#compare)
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-apple-cider-donuts.webp"
-    alt="Apple cider donuts coated in cinnamon sugar sitting on a wooden board next to a red apple."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-apple-cider-donuts.webp" alt="Apple cider donuts coated in cinnamon sugar sitting on a wooden board next to a red apple." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Fresh apple cider donuts and warm cider are popular seasonal concessions at orchards and farm markets throughout Central Indiana.
   </figcaption>
 </figure>
@@ -472,8 +421,7 @@ The farm market is housed in a **Civil War-era barn** and sells homegrown produc
 
 **Kelsay Farms in Whiteland** is a seventh-generation family farm celebrating its **20th fall season** in 2026. Attractions include a **7-acre corn maze**, calves, goats, sheep and pigs, a jump pad, corn crib, Bale Mountain, play activities and the **Moo Choo cow train**. Kelsay does not offer U-pick pumpkins or hayrides.
 
-Special events include **Trick or Treat through the Corn Maze** on October 24 from 4–6 p.m., with candy and prizes.
-
+- **Season:** Season ended Oct. 25
 - **Hours**
   - Open Fri–Sun, Sept. 25–Oct. 25
     - Fri 6–9 PM · Sat noon–9 PM · Sun noon–6 PM
@@ -494,13 +442,11 @@ Special events include **Trick or Treat through the Corn Maze** on October 24 fr
 - **Drive from Zionsville:** ~17 min (7 miles SE)
 - **Highlights:** Year-round café and espresso bar; urban farm with pumpkin patch and farm animals
 
-**Driving Wind Berry Farms** is an urban farm on the northwest side of Indianapolis with a café, small pumpkin patch, flower fields, picnic area, gift shop and animals including a pony, donkey and chickens. Its **Pumpkin Palooza** is Saturday, October 10, with admission charged per carload rather than per person. A **Halloween event** on October 31 from 11 a.m.–1 p.m. includes pumpkin painting, a costume contest and a pumpkin to take home.
+**Driving Wind Berry Farms** is an urban farm on the northwest side of Indianapolis with a café, small pumpkin patch, flower fields, picnic area, gift shop and animals including a pony, donkey and chickens. A **Halloween event** on October 31 from 11 a.m.–1 p.m. includes pumpkin painting, a costume contest and a pumpkin to take home.
 
-- **Pumpkin Palooza:** Sat, Oct. 10 · 8 AM–3 PM · $10 per carload
-- **Included:** Wagon rides · Bounce houses · Feeding and petting the animals
 - **Café:** Wed–Sat 8 AM–3 PM · espresso, smoothies, breakfast, lunch and house-made fruit popsicles
 - **Farm hours:** Separate hours for the rest of the property have not been posted
-- **Pumpkins:** Sold separately from Pumpkin Palooza admission
+- **Pumpkins:** Sold separately
 
 [Driving Wind Farm website →](https://www.drivingwindberryfarm.com/)
 
@@ -529,15 +475,9 @@ Special events include **Trick or Treat through the Corn Maze** on October 24 fr
 
 [↑ Back to comparison](#compare)
 
-<figure className="my-8">
-  <Image
-    src="/images/articles/fall-farms-market.webp"
-    alt="A rustic wooden farm market building with pumpkins and corn stalks displayed outside along a gravel drive."
-    width={1400}
-    height={933}
-    className="w-full h-auto rounded"
-  />
-  <figcaption className="text-sm text-stone-600 italic mt-2">
+<figure class="my-8">
+  <img src="/images/articles/fall-farms-market.webp" alt="A rustic wooden farm market building with pumpkins and corn stalks displayed outside along a gravel drive." width="1400" height="933" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
     Many fall destinations have farm markets with pumpkins, produce, baked goods and other seasonal items.
   </figcaption>
 </figure>
@@ -546,11 +486,11 @@ Special events include **Trick or Treat through the Corn Maze** on October 24 fr
 
 - **Location:** [369 E. Greencastle Road, Mooresville, IN 46158](https://maps.app.goo.gl/ya7KSakkLqGyAR1Y7) · Morgan County
 - **Drive from Zionsville:** ~40 min (30 miles SW)
-- **Highlights:** Open 7 days a week; petting zoo Oct. 3–25 and Trunk or Treat Oct. 30
+- **Highlights:** Open 7 days a week; Trunk or Treat Oct. 30
 
 **Anderson Orchard in Mooresville** grows nearly **30 apple varieties** across more than **100 acres**, with U-pick apples available daily during the season. The orchard also offers U-pick sunflowers, and its pumpkin patch opened in late September. Free children’s activities include a straw pile, swings, playground and education center. Apples and other produce are also available from the Apple Barn.
 
-A **petting zoo** runs October 3–25, and **Trunk or Treat** is October 30 from 6–9 p.m.
+**Trunk or Treat** is October 30 from 6–9 p.m.
 
 - **Hours:** Daily 8 AM–8 PM or dark during September and October · U-pick closes at 7 PM
 - **Admission:** No admission or parking fee · pay for what you pick
@@ -576,7 +516,7 @@ The **country store** sells jams, jellies, take-and-bake pies, cheeses, sauces, 
   - Sun noon–6 PM
   - Closed Mon
 - **Admission:** No general admission · pay for what you pick
-- **U-pick:** As of Sept. 27, the pumpkin patch and Jonagold apples are open for picking · pre-picked pumpkins also sold at the farm store · U-pick flowers also available
+- **U-pick:** Pumpkins, and apples as varieties ripen · pre-picked pumpkins also sold at the farm store · U-pick flowers also available
 - **Wagon rides:** Percheron horse-drawn wagon rides offered on weekends · tractor-drawn wagon rides available weekdays by advance arrangement
 - **Corn maze:** Offered some years but not announced for 2026
 
@@ -588,11 +528,9 @@ The **country store** sells jams, jellies, take-and-bake pies, cheeses, sauces, 
 
 - **Location:** [10721 N. 850 W., Fairland, IN 46126](https://maps.app.goo.gl/Hj3YniK5v4NBMaxWA) · Shelby County
 - **Drive from Zionsville:** ~45 min (~35 miles SE)
-- **Highlights:** Free Saturday live music, weekend wagon rides to the pumpkin patch; Silly Safaris animal show Oct. 24
+- **Highlights:** Weekend wagon rides to the pumpkin patch, 30+ apple varieties, playground
 
 **Pleasant View Orchard in Fairland** is a 40-acre orchard growing more than **30 apple varieties**. The **U-pick pumpkin patch** is open daily, with tractor-pulled wagon rides to the patch on weekends. A playground is also available for children.
-
-The orchard hosts **free Saturday live music** October 10 and 17, generally from 2–5 p.m., along with a **wine tasting** October 17 from noon–6 p.m. **Silly Safaris** presents a live animal show **October 24 at 3 p.m.**, with a special treat for children who attend in costume.
 
 - **Hours:** Open daily through November · 9 AM–6 PM
 - **Admission:** No admission or parking fee · pay for what you pick or buy
