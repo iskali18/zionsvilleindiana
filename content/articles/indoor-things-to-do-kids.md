@@ -95,13 +95,6 @@ Kids Empire is a large indoor playground where children can climb through multil
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-monon-community-center-indoor-pool.webp" alt="Monon Community Center indoor pool in Carmel with water slide features, shallow play areas, and swim lanes for kids." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    The indoor aquatic center at the Monon Community Center in Carmel features a zero-depth entry activity pool, water features, an indoor slide, and dedicated lap lanes. Photo by Carmel Clay Parks and Recreation.
-  </figcaption>
-</figure>
-
 ### Monon Community Center
 
 **Indoor Playground & Pool · All ages**  
@@ -116,6 +109,13 @@ Both areas are accessible with a day pass or membership. Monon Station has desig
 [Visit Monon Station →](https://www.carmelclayparks.com/amenities/monon-station-indoor-playground/)
 
 [Visit the Indoor Aquatic Center →](https://www.carmelclayparks.com/amenities/indoor-aquatics/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-monon-community-center-indoor-pool.webp" alt="Monon Community Center indoor pool in Carmel with water slide features, shallow play areas, and swim lanes for kids." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    The indoor aquatic center at the Monon Community Center in Carmel features a zero-depth entry activity pool, water features, an indoor slide, and dedicated lap lanes. Photo by Carmel Clay Parks and Recreation.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -184,13 +184,6 @@ We Rock the Spectrum is an indoor sensory gym for all children, both neurodiverg
 
 These destinations include museums with hands-on exhibits, an indoor amusement park, bowling, and indoor climbing.
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-childrens-museum-indianapolis-water-table.webp" alt="The water play table and STEM exhibit at The Children’s Museum of Indianapolis featuring toy boats, dams, and interactive river channels." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    The interactive water table in the ScienceWorks gallery at The Children’s Museum of Indianapolis allows kids to float toy boats, experiment with locks and dams, and explore water flow.
-  </figcaption>
-</figure>
-
 ### The Children’s Museum of Indianapolis
 
 **Museum · All ages**  
@@ -203,6 +196,13 @@ Playscape, a gallery exclusively for children 5 and under, has water and sand ta
 **Accessibility & sensory note:** Museum My Way events offer limited-capacity visits for guests with disabilities or sensory sensitivities, with a quiet area, reduced music, and adjusted lighting. Registration is required.
 
 [Visit The Children’s Museum →](https://www.childrensmuseum.org/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-childrens-museum-indianapolis-water-table.webp" alt="The water play table and STEM exhibit at The Children’s Museum of Indianapolis featuring toy boats, dams, and interactive river channels." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    The interactive water table in the ScienceWorks gallery at The Children’s Museum of Indianapolis allows kids to float toy boats, experiment with locks and dams, and explore water flow.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -217,13 +217,6 @@ The third floor of the Carmel Clay History Museum is a children’s play area wi
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <video src="/videos/articles/indoor-things-to-do-kids-malibu-jacks-rides.mp4" poster="/images/articles/indoor-things-to-do-kids-malibu-jacks-rides-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Riders on the Twist N’ Shout coaster circling a lighted track at Malibu Jack’s indoor amusement park in Lafayette." class="w-full h-auto rounded"></video>
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    The Twist N’ Shout coaster at Malibu Jack’s, an indoor amusement park in Lafayette. Video by © ZionsvilleIndiana.com
-  </figcaption>
-</figure>
-
 ### Malibu Jack’s
 
 **Indoor Amusement Park · Recommended ages 3 through adult**  
@@ -232,6 +225,13 @@ The third floor of the Carmel Clay History Museum is a children’s play area wi
 Malibu Jack’s is a large indoor amusement park at Tippecanoe Mall with go-karts, bumper cars, a spinning roller coaster, miniature golf, duckpin bowling, laser tag, motion theater rides, and more than 100 arcade games. Younger children can enjoy Bounce Beach, an indoor playground with slides, bounce houses, and a toddler area. Bounce Beach is limited to children ages 12 and under who are 52 inches tall or shorter. Park entry is free, with rides and games purchased through prepaid Play Cards or attraction packages, including unlimited-play passes. Separate all-day passes are available for Bounce Beach. Age and height restrictions apply to certain attractions.
 
 [Visit Malibu Jack’s →](https://www.malibujacks.net/lafayette/home)
+
+<figure class="my-8">
+  <video src="/videos/articles/indoor-things-to-do-kids-malibu-jacks-rides.mp4" poster="/images/articles/indoor-things-to-do-kids-malibu-jacks-rides-poster.webp" autoplay muted loop playsinline preload="metadata" aria-label="Riders on the Twist N’ Shout coaster circling a lighted track at Malibu Jack’s indoor amusement park in Lafayette." class="w-full h-auto rounded"></video>
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    The Twist N’ Shout coaster at Malibu Jack’s, an indoor amusement park in Lafayette. Video by © ZionsvilleIndiana.com
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -248,13 +248,6 @@ Pinheads offers bowling, arcade games, and on-site dining at both locations. Bro
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-hoosier-heights.webp" alt="Child climbing a colorful indoor rock wall at Hoosier Heights in Carmel, Indiana, with an adult nearby." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    A young climber practices on an indoor rock wall at Hoosier Heights in Carmel, where youth climbing programs begin at age 4. Photo by © ZionsvilleIndiana.com
-  </figcaption>
-</figure>
-
 ### Hoosier Heights
 
 **Climbing · Recommended ages 4 through adult**  
@@ -269,6 +262,13 @@ Walk-ins are welcome, and first-time visitors complete a safety orientation that
 Two youth programs give kids structured climbing time with counselors. Sunrise Senders is for ages 4–6. The Youth Climbing Club is for ages 7–14 and includes tips, feedback, and climbing games. Both programs require advance sign-up and include gear, and members pay a lower rate.
 
 [Visit Hoosier Heights →](https://hoosierheightsindianapolis.com/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-hoosier-heights.webp" alt="Child climbing a colorful indoor rock wall at Hoosier Heights in Carmel, Indiana, with an adult nearby." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    A young climber practices on an indoor rock wall at Hoosier Heights in Carmel, where youth climbing programs begin at age 4. Photo by © ZionsvilleIndiana.com
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -347,13 +347,6 @@ Westfield Washington Public Library’s children’s services cover infants thro
 
 These programs involve scheduled classes or enrollment. Several offer a free first class, a trial class, or a single-class option.
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-parent-child-classes.webp" alt="Parents and toddlers participating in a parent-and-child class with colorful toys and hands-on learning activities." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Parent-and-child classes introduce babies and toddlers to early learning through play, music, movement, and social interaction.
-  </figcaption>
-</figure>
-
 ### Parent & Child Classes
 
 #### The Bunny Hive
@@ -375,6 +368,13 @@ The Bunny Hive is a parent-and-child social club for babies, toddlers, and presc
 Gymboree Play & Music’s Play & Learn classes are grouped by age and developmental stage, from infants to age 5. Infant classes include movement, sensory play, music, and socialization, and toddler and preschool classes build balance, coordination, and problem-solving. Separate Music and Art classes are also offered. The Carmel location has Open Gym time for free play, with parents staying close by. Drop-off preschool programs prepare older children for a classroom setting.
 
 [Visit Gymboree Play & Music →](https://www.gymboreeclasses.com/en/locations/IN/Carmel/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-parent-child-classes.webp" alt="Parents and toddlers participating in a parent-and-child class with colorful toys and hands-on learning activities." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Parent-and-child classes introduce babies and toddlers to early learning through play, music, movement, and social interaction.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -413,13 +413,6 @@ Pearson Automotive Tennis Club’s youngest players start with red-ball tennis, 
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-basketball.webp" alt="Young basketball players practicing dribbling drills on an indoor gym court during a group training session." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Youth basketball classes introduce children to dribbling, footwork, and shooting fundamentals through drills and skill-building activities.
-  </figcaption>
-</figure>
-
 #### Elevate3 Basketball
 
 **Basketball · Ages 5–18**  
@@ -428,6 +421,13 @@ Pearson Automotive Tennis Club’s youngest players start with red-ball tennis, 
 Elevate3 Basketball’s Little Dribblers program introduces basketball fundamentals to young children, and the Kids Program provides small-group beginner training for grades 1–4. Training covers ball handling, footwork, body positioning, and shooting form through drills. The first session is free.
 
 [Visit Elevate3 Basketball →](https://elevatethreebasketballtraining.com/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-basketball.webp" alt="Young basketball players practicing dribbling drills on an indoor gym court during a group training session." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Youth basketball classes introduce children to dribbling, footwork, and shooting fundamentals through drills and skill-building activities.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -466,13 +466,6 @@ School of Rock’s Rookies program introduces beginners ages 6–7 to music in a
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-ballet.webp" alt="Young children practicing ballet positions at the barre in a dance studio with mirrors and wooden floors." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Young dancers learn their first ballet positions at the barre, building a foundation for more advanced steps and routines.
-  </figcaption>
-</figure>
-
 ### Dance & Theater
 
 #### Village Dance Studio
@@ -495,6 +488,13 @@ Metropolitan Youth Ballet’s youngest dancers start in Toddler & Me, a class fo
 
 [Visit Metropolitan Youth Ballet →](https://my-ballet.org/)
 
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-ballet.webp" alt="Young children practicing ballet positions at the barre in a dance studio with mirrors and wooden floors." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Young dancers learn their first ballet positions at the barre, building a foundation for more advanced steps and routines.
+  </figcaption>
+</figure>
+
 [↑ Back to activities](#at-a-glance)
 
 #### Black Box Theatre Company
@@ -507,13 +507,6 @@ Black Box Theatre Company stages youth productions for different age groups, fro
 [Visit Black Box Theatre Company →](https://blackboxtheatreco.com/)
 
 [↑ Back to activities](#at-a-glance)
-
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-art.webp" alt="Children painting at a table with colorful paints, brushes, and art supplies during a hands-on art activity." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Art classes and workshops give young children opportunities to experiment with colors, textures, and creative materials through painting and mixed-media projects.
-  </figcaption>
-</figure>
 
 ### Art
 
@@ -536,6 +529,13 @@ Brightly Art Studio specializes in process art, an approach in which children ex
 Palette Art Studio offers drop-in art sessions and children’s classes, along with workshops, school-break and summer camps, and art-themed birthday parties. Its owner, an artist and educator, emphasizes the creative process over the finished product.
 
 [Visit Palette Art Studio →](https://www.itsaspacetocreate.com/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-art.webp" alt="Children painting at a table with colorful paints, brushes, and art supplies during a hands-on art activity." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Art classes and workshops give young children opportunities to experiment with colors, textures, and creative materials through painting and mixed-media projects.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -565,13 +565,6 @@ Bushido Jiu-Jitsu divides its youth program by age. Little Samurai, for ages 5�
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-master-yoos-tae-kwon-do.webp" alt="Kids martial arts class at Master Yoo’s Tae Kwon Do in Carmel featuring students in traditional dobok uniforms on red padded training mats." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Students practice stances and technique inside the spacious, padded training room at Master Yoo’s World Class Tae Kwon Do in Carmel.
-  </figcaption>
-</figure>
-
 #### Master Yoo’s Tae Kwon Do
 
 **Tae Kwon Do · Ages 4 through adult**  
@@ -582,6 +575,13 @@ Tae Kwon Do is a Korean martial art that emphasizes kicking techniques. Students
 Master Yoo’s youngest students start in Little Tigers, for ages 4–5, and move into the children’s program for ages 6–12. Students advance through a belt system, earning a new belt color as they learn each set of skills, so progress is based on ability rather than age. Classes emphasize focus and respect. Family classes, open to ages 6 and up, let parents and children train together. New students can begin with an introductory private lesson and group class.
 
 [Visit Master Yoo’s Tae Kwon Do →](https://masteryootkd.com/carmel/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-master-yoos-tae-kwon-do.webp" alt="Kids martial arts class at Master Yoo’s Tae Kwon Do in Carmel featuring students in traditional dobok uniforms on red padded training mats." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Students practice stances and technique inside the spacious, padded training room at Master Yoo’s World Class Tae Kwon Do in Carmel.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
@@ -600,13 +600,6 @@ Sprouts Cooking School offers hands-on cooking classes grouped by age, where chi
 
 [↑ Back to activities](#at-a-glance)
 
-<figure class="my-8">
-  <img src="/images/articles/indoor-things-to-do-kids-robotics.webp" alt="Young girl assembling a robot with colorful building pieces, gears, wheels, and electronic components during a STEM activity." width="1800" height="1200" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Beginning robotics activities introduce children to engineering concepts as they construct simple machines using gears, motors, and building components.
-  </figcaption>
-</figure>
-
 ### STEM
 
 #### Kids Explore Robotics
@@ -617,5 +610,12 @@ Sprouts Cooking School offers hands-on cooking classes grouped by age, where chi
 Kids Explore Robotics offers robotics workshops and a robotics-and-math program for children ages 4–6. Robotics classes begin at age 6. Students build robots from individual parts, including motors, sensors, and controllers, and learn to write code to program them. In the Project-Based Robotics program, students build a new robot each month and take it home.
 
 [Visit Kids Explore Robotics →](https://www.kidsexplorerobotics.com/)
+
+<figure class="my-8">
+  <img src="/images/articles/indoor-things-to-do-kids-robotics.webp" alt="Young girl assembling a robot with colorful building pieces, gears, wheels, and electronic components during a STEM activity." width="1800" height="1200" class="w-full h-auto rounded" />
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    Beginning robotics activities introduce children to engineering concepts as they construct simple machines using gears, motors, and building components.
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
