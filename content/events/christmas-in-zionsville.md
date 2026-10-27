@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-09-28"
+lastUpdated: "2026-10-26"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -25,11 +25,11 @@ faqs:
   - q: "What Christmas events are on December 5 in Zionsville?"
     a: "Saturday, December 5 has four: the Zionsville Showchoir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market and Selfies with Santa."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
-    a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and as of late September, tickets for both are on sale."
+    a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, the Christmas Crawl and The Bethlehem Beat are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, David Ackerman Christmas Concert, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed. As of late September, admission details for the Zionsville Community High School holiday concerts and Women’s Christmas Tea had not been posted."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, and the Christmas Crawl are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
   - q: "Where do Christmas events in Zionsville take place?"
-    a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events, including the David Ackerman Christmas Concert, are at their own venues."
+    a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
   - q: "Who organizes Christmas in the Village?"
     a: "The Zionsville Chamber of Commerce organizes Christmas in the Village, with individual events hosted by the Chamber, Main Street Zionsville, Zionsville Tri Kappa, Zionsville Parks & Recreation, and the Zionsville Show Choirs."
 ---
@@ -51,7 +51,7 @@ Christmas in Zionsville runs from late November through Christmas Eve. The seaso
 
 ## Christmas in the Village
 
-The Zionsville Chamber of Commerce’s Christmas in the Village program begins Thanksgiving weekend and continues through Christmas Eve, with events along Main Street and the surrounding Village streets.
+The Zionsville Chamber of Commerce’s Christmas in the Village program begins Thanksgiving weekend and continues through Christmas Eve, with events along Main Street and the surrounding Village streets. The program opens with Small Business Weekend, November 27–29.
 
 ### Holiday Parade & Tree Lighting
 
@@ -82,9 +82,9 @@ See the Chamber’s [Santa House Selfies page](https://business.zionsvillechambe
 
 ### Zionsville Showchoir Holiday Home Tour
 
-**Saturday, December 5, 2026 · Ticketed**
+**Saturday, December 5, 2026 · 10:00 a.m.–4:00 p.m. · Ticketed**
 
-Presented by Zionsville Show Choirs and historically known as Carol of Homes, the tour has traditionally featured festively decorated private residences with Zionsville Community High School show choir students performing holiday solos and small-group arrangements inside.
+Presented by Zionsville Show Choirs and historically known as Carol of Homes, the tour features six festively decorated private homes, with Zionsville Community High School show choir students performing holiday solos and small-group arrangements inside.
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
@@ -93,7 +93,7 @@ Presented by Zionsville Show Choirs and historically known as Carol of Homes, th
   </figcaption>
 </figure>
 
-Main Street Zionsville includes the tour on its [2026 Christmas in the Village schedule](https://mainstreetzionsville.org/events). As of late September, ticket information and other tour details had not been released.
+Tickets are $25, and children 10 and under are free. Advance tickets are sold at Fivethirty Home, Great Lakes Ace Hardware, Village Mattress, and by show choir students. Cash-only tickets are also sold at the homes on the day of the tour. See the [Holiday Home Tour website](https://holidayhometour.weebly.com/).
 
 [↑ Back to schedule](#schedule)
 
@@ -101,9 +101,9 @@ Main Street Zionsville includes the tour on its [2026 Christmas in the Village s
 
 **Saturday, December 5, 2026 · Ticketed**
 
-Zionsville Tri Kappa hosts its annual Santa Breakfast. As of late September, the organization had not released additional 2026 details or ticket information.
+Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone County nonprofits and Zionsville Community Schools, hosts its annual Santa Breakfast. Tickets go on sale November 1.
 
-Main Street Zionsville lists the breakfast on its [2026 Christmas in the Village schedule](https://mainstreetzionsville.org/events).
+See [Zionsville Tri Kappa](https://zionsvilletrikappa.org/) for details.
 
 [↑ Back to schedule](#schedule)
 
@@ -168,19 +168,9 @@ Zionsville Community High School’s performing arts groups have three holiday c
 - **Band Holiday Concert · Thursday, December 3 · 7:00 p.m.**
 - **Choral Holiday Concert · Tuesday, December 8 · 7:00 p.m.**
 
-As of late September, the Performing Arts Center lists all three concerts as coming soon, and ticket sales for the Orchestra Holiday Concert begin November 18.
+Ticket sales for the Orchestra Holiday Concert begin November 18.
 
 Tickets and details are on the [STAR Bank PAC calendar](https://zionsvillepac.ludus.com/index.php?sections=events).
-
-[↑ Back to schedule](#schedule)
-
-### David Ackerman Christmas Concert
-
-**Sunday, December 6, 2026 · 7:00–9:00 p.m. · Zionsville Presbyterian Church, 4775 W. 116th St.**
-
-The David Ackerman Christmas Concert brings a full ensemble of musicians and vocalists to Zionsville Presbyterian Church for an evening of traditional Christmas music and contemporary holiday selections. Tickets are **$15 in advance or $20 at the door**, with a portion of the proceeds benefiting the Zionsville Food Pantry.
-
-See the [David Ackerman Christmas Concert page](https://www.zpc.org/event/24463138-2026-12-06-david-ackerman-christmas-concert-2026/).
 
 [↑ Back to schedule](#schedule)
 
@@ -218,11 +208,22 @@ Christmas events elsewhere in Zionsville include those hosted by local businesse
 
 **Sunday, December 13, 2026 · Noon–4:00 p.m. · The Red Barn at Traders Point Creamery, 9101 Moore Road**
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/christmas-in-zionsville-afternoon-with-santa-flyer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
+    <img src="/images/events/christmas-in-zionsville-afternoon-with-santa-flyer.webp" alt="Flyer for An Afternoon with Santa on Sunday, December 13, from noon to 4:00 p.m. at The Red Barn at Traders Point Creamery, listing activities and ticket prices." class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Event flyer from Morning Dove Therapeutic Riding Center.
+  </figcaption>
+</figure>
+
 Morning Dove Therapeutic Riding Center, a local nonprofit that provides equine-assisted therapies and activities for children and adults with physical, cognitive, and emotional challenges, hosts An Afternoon with Santa at Traders Point Creamery. Morning Dove has served the Central Indiana community since 1998.
 
 The afternoon includes visits with Santa, cookie and ornament decorating, face painting, a hot chocolate bar, hors d’oeuvres, and a cash bar.
 
 Tickets are **$20 through October 31, $25 after October 31, and $30 at the door**. Children ages 3 and younger are free. Entry is offered in hourly time slots, and tickets are limited. All ticket sales support the care and work of Morning Dove Therapeutic Riding Center.
+
+Register on the [An Afternoon with Santa Eventbrite page](https://www.eventbrite.com/e/an-afternoon-with-santa-registration-2000260359581).
 
 [↑ Back to schedule](#schedule)
 
@@ -234,7 +235,7 @@ Several Zionsville churches host Christmas programs open to visitors beyond thei
 
 **Saturday, December 12, 2026 · Zionsville Fellowship Church**
 
-Zionsville Fellowship Church’s annual Women’s Christmas Tea is open to women and girls ages 12 and older. The gathering includes brunch, Christmas hymns and personal stories centered on the Christian meaning of Christmas, and attendees are encouraged to invite family members, neighbors and coworkers. As of late September, the event time and registration details had not been published.
+Zionsville Fellowship Church’s annual Women’s Christmas Tea is open to women and girls ages 12 and older. The gathering includes brunch, Christmas hymns and personal stories centered on the Christian meaning of Christmas, and attendees are encouraged to invite family members, neighbors and coworkers.
 
 See [Zionsville Fellowship Church’s women’s ministry page](https://www.zionsvillefellowship.org/ministries/women/).
 
@@ -242,11 +243,13 @@ See [Zionsville Fellowship Church’s women’s ministry page](https://www.zions
 
 ### The Bethlehem Beat (Children’s Musical)
 
-**Sunday, December 13, 2026 · Time to be announced · Zionsville United Methodist Church, 9644 Whitestown Road**
+**Sunday, December 13, 2026 · 11:00 a.m.–12:30 p.m. · Zionsville United Methodist Church, 9644 Whitestown Road**
 
 Children in kindergarten through sixth grade at Zionsville United Methodist Church present The Bethlehem Beat, a lively musical retelling of the Nativity story. The production features a spunky young Mary and her lovable donkey, Yipyip, mamboing through Bethlehem, along with rapping shepherds and other characters who bring a playful twist to the familiar Christmas story.
 
-The performance is **free and open to the public**.
+The performance is open to the public.
+
+See the [Zionsville United Methodist Church musical page](https://www.zumc.org/musical).
 
 [↑ Back to schedule](#schedule)
 
