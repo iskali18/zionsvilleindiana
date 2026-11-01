@@ -46,7 +46,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     season: 'fall',
     blurb: 'Compare 17 farms and orchards by cost, activities and what is open when.',
     from: '2026-09-01',
-    to: '2026-11-02',
+    to: '2026-11-01',
     priority: 30,
   },
 
@@ -59,7 +59,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     season: 'fall',
     blurb: 'Dates, times, ages and costs for the 2026 events around Zionsville.',
     from: '2026-09-07',
-    to: '2026-11-01',
+    to: '2026-10-31',
     priority: 40,
   },
   // {
