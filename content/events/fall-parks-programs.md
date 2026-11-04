@@ -19,19 +19,19 @@ items:
     imageAlt: "Crescent moon above dark tree silhouettes at dusk."      
   - title: "Fall Birding at Carpenter Nature Preserve"
     date: "2026-11-07"
-    description: "Naturalists help identify resident and migrating birds by sight and sound. Beginners welcome."
+    description: "Discover migrating and resident birds during a guided walk at Carpenter Nature Preserve."
     linkTo: "/articles/fall-activities-zionsville#fall-birding-carpenter"
     image: /images/events/zionsville-parks-fall-birding.webp
     imageAlt: "Downy Woodpecker clinging to a tree trunk with blurred yellow autumn leaves in the background."     
   - title: "Owl Prowl at Carpenter Nature Preserve"
     date: "2026-11-13"
-    description: "Learn about local owls, then head out with a naturalist to listen and look for them."
+    description: "Listen and search for owls on a guided walk through Carpenter Nature Preserve."
     linkTo: "/articles/fall-activities-zionsville#owl-prowl"
     image: /images/events/zionsville-parks-owl-prowl-960w.webp
     imageAlt: "Eastern screech-owl resting in a hollow tree trunk."      
   - title: "Fall Campfire at Carpenter Nature Preserve"
     date: "2026-11-21"
-    description: "A sunset walk looking for animals active at dusk, followed by marshmallow roasting."
+    description: "Enjoy a sunset wildlife walk at Carpenter Nature Preserve, followed by marshmallow roasting around a campfire."
     linkTo: "/articles/fall-activities-zionsville#fall-campfire"
     image: /images/events/zionsville-parks-campfire.webp
     imageAlt: "Campfire burning in a fire pit among trees at sunset."      
