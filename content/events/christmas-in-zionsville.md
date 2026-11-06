@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-10-26"
+lastUpdated: "2026-11-05"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -27,7 +27,7 @@ faqs:
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
     a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, and the Christmas Crawl are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, and the Christmas Crawl are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
   - q: "Where do Christmas events in Zionsville take place?"
     a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
   - q: "Who organizes Christmas in the Village?"
@@ -101,9 +101,7 @@ Tickets are $25, and children 10 and under are free. Advance tickets are sold at
 
 **Saturday, December 5, 2026 · Ticketed**
 
-Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone County nonprofits and Zionsville Community Schools, hosts its annual Santa Breakfast. Tickets go on sale November 1.
-
-See [Zionsville Tri Kappa](https://zionsvilletrikappa.org/) for details.
+Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone County nonprofits and Zionsville Community Schools, hosts its annual Santa Breakfast. Tickets are sold through [Zionsville Tri Kappa](https://zionsvilletrikappa.org/).
 
 [↑ Back to schedule](#schedule)
 
@@ -204,6 +202,18 @@ Zionsville hosts two separate productions of *The Nutcracker* at the STAR Bank P
 
 Christmas events elsewhere in Zionsville include those hosted by local businesses, nonprofits and attractions outside the downtown program.
 
+### Jingle in the Park
+
+**Friday, December 4, 2026 · 4:00–6:00 p.m. · Lincoln Park, [100 W. Oak St.](https://maps.app.goo.gl/zKcxidf1e4uVR2UF7)**
+
+Zionsville Parks & Recreation hosts Jingle in the Park, an evening at Lincoln Park with visits with Santa, live reindeer, and holiday crafts and activities, along with the annual Lincoln Park lighting sponsored by Hometown Lawns.
+
+The event is for children ages 12 and under. Registration opens November 15, and each child must be registered in advance. Space is limited, and the registration fee is $5 for residents and $7 for nonresidents.
+
+See the [Zionsville Parks & Recreation program page](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29892) for registration details.
+
+[↑ Back to schedule](#schedule)
+
 ### An Afternoon with Santa
 
 **Sunday, December 13, 2026 · Noon–4:00 p.m. · The Red Barn at Traders Point Creamery, 9101 Moore Road**
@@ -221,7 +231,7 @@ Morning Dove Therapeutic Riding Center, a local nonprofit that provides equine-a
 
 The afternoon includes visits with Santa, cookie and ornament decorating, face painting, a hot chocolate bar, hors d’oeuvres, and a cash bar.
 
-Tickets are **$20 through October 31, $25 after October 31, and $30 at the door**. Children ages 3 and younger are free. Entry is offered in hourly time slots, and tickets are limited. All ticket sales support the care and work of Morning Dove Therapeutic Riding Center.
+Tickets are **$25 in advance and $30 at the door**. Children ages 3 and younger are free. Entry is offered in hourly time slots, and tickets are limited. All ticket sales support the care and work of Morning Dove Therapeutic Riding Center.
 
 Register on the [An Afternoon with Santa Eventbrite page](https://www.eventbrite.com/e/an-afternoon-with-santa-registration-2000260359581).
 

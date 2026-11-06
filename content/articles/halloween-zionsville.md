@@ -8,7 +8,7 @@ hubOrder: 910
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
-lastUpdated: "2026-10-21"
+lastUpdated: "2026-11-05"
 itemListName: "Zionsville trick-or-treat and trunk-or-treat events 2026"
 itemList:
   - name: "Boone Village Halloween Party"
@@ -68,7 +68,7 @@ faqs:
 
 Zionsville families have several chances to trick-or-treat before Halloween in 2026, including Trick or Trees and trunk-or-treats at local businesses, churches and BACA's Zionsville Learning Center.
 
-**Three events are scheduled for Saturday, October 24.**
+**This guide covers Halloween 2026 and will be updated for 2027.**
 
 ## Zionsville Trick-or-Treat Hours on Halloween
 

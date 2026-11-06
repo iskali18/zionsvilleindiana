@@ -12,7 +12,6 @@ export const FILTERS = [
   'Outdoors',
   'Arts, Music & Culture',
   'Downtown',
-  'Halloween',
 ] as const
 
 export type Filter = (typeof FILTERS)[number]
@@ -47,16 +46,6 @@ export interface FallActivity {
 }
 
 export const FALL_ACTIVITIES: FallActivity[] = [
-  {
-    name: 'Nightmare at Elm Street: A Luminary Walk',
-    anchor: 'explore-nightmare-at-elm-street-a-luminary-walk',
-    when: 'Oct. 29',
-    sortDate: '2026-10-29',
-    what: 'Evening walk lined with lights, playful skeletons and a Pumpkin Pathway',
-    types: ['Family', 'Outdoors', 'Halloween'],
-    free: true,
-    featured: 25,
-  },
   {
     name: 'Smashin\u2019 Pumpkins',
     anchor: 'smash-your-pumpkins-at-mulberry-fields',
@@ -109,16 +98,6 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     featured: 146,
   },
   {
-    name: 'SFZ Concert Series',
-    anchor: 'enjoy-the-sfz-concert-series',
-    when: 'Nov. 1',
-    sortDate: '2026-11-01',
-    what: 'Sunday afternoon concert at St. Francis In-The-Fields',
-    types: ['Arts, Music & Culture'],
-    free: true,
-    featured: 160,
-  },
-  {
     name: 'ZCHS Performances & Sports',
     anchor: 'enjoy-fall-performances--sports-at-zchs',
     when: 'Throughout fall',
@@ -164,7 +143,7 @@ export const FALL_ACTIVITIES: FallActivity[] = [
 export type SortKey = 'featured' | 'date'
 
 /** Activities matching every selected filter, and the free-only attribute when
- *  it is on. AND logic: ticking Family and Halloween shows only activities that
+ *  it is on. AND logic: ticking Family and Outdoors shows only activities that
  *  are both. */
 export function filterActivities(
   list: FallActivity[],

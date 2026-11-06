@@ -7,7 +7,7 @@
  *  `priority` breaks ties when more guides are live than the band shows.
  *  Lower sorts first. */
 
-export type Season = 'fall' | 'holiday' | 'spring' | 'summer'
+export type Season = 'fall' | 'holiday' | 'winter' | 'spring' | 'summer'
 
 /** Where the strip is being shown. Each page passes its kind; the label comes
  *  from the season currently in play, so the wording follows the guides. */
@@ -46,7 +46,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     season: 'fall',
     blurb: 'Compare 17 farms and orchards by cost, activities and what is open when.',
     from: '2026-09-01',
-    to: '2026-11-01',
+    to: '2026-11-02',
     priority: 30,
   },
 
@@ -59,16 +59,36 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     season: 'fall',
     blurb: 'Dates, times, ages and costs for the 2026 events around Zionsville.',
     from: '2026-09-07',
-    to: '2026-10-31',
+    to: '2026-11-01',
     priority: 40,
   },
-  // {
-  //   href: '/articles/christmas-zionsville',
-  //   title: 'Christmas in Zionsville',
-  //   season: 'holiday',
-  //   blurb: 'Tree lighting, the Christmas parade and holiday shopping in the Village.',
-  //   from: '2026-10-15', to: '2026-12-26', priority: 40,
-  // },
+  {
+    href: '/events/christmas-in-zionsville',
+    title: 'Christmas in Zionsville',
+    season: 'holiday',
+    blurb: 'Parade, tree lighting, Santa visits and holiday events around town.',
+    from: '2026-11-05',
+    to: '2026-12-24',
+    priority: 10,
+  },
+  {
+    href: '/articles/indoor-things-to-do-kids',
+    title: 'Indoor Things to Do for Kids',
+    season: 'winter',
+    blurb: '39 play spaces, museums, libraries and classes near Zionsville.',
+    from: '2026-11-05',
+    to: '2027-03-15',
+    priority: 20,
+  },
+  {
+    href: '/articles/indoor-things-to-do-tweens-teens',
+    title: 'Indoor Things to Do for Tweens & Teens',
+    season: 'winter',
+    blurb: '37 indoor places for older kids and teens, from climbing to karting.',
+    from: '2026-11-05',
+    to: '2027-03-15',
+    priority: 30,
+  },
 ]
 
 /** Guides live on the given date, best first, capped at MAX_GUIDES.
@@ -98,6 +118,11 @@ export const SEASON_LABELS: Record<Season, Record<StripKind, string>> = {
   holiday: {
     listing: 'Planning the season?',
     event: 'Explore Christmas in Zionsville',
+    schoolBreak: 'Making plans for winter break?',
+  },
+  winter: {
+    listing: 'Planning the season?',
+    event: 'Explore winter in Zionsville',
     schoolBreak: 'Making plans for winter break?',
   },
   spring: {

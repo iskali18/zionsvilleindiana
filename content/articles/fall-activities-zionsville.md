@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-10-26"
+lastUpdated: "2026-11-05"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -16,19 +16,17 @@ ctas:
     href: /downtown
 faqs:
   - q: "What is there to do in Zionsville in the fall?"
-    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include Nightmare at Elm Street, Smashin’ Pumpkins, the Zionsville Half Marathon & 5K and the Gravy Chase."
+    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include Smashin’ Pumpkins, the Zionsville Half Marathon & 5K and the Gravy Chase."
   - q: "What fall races take place in Zionsville?"
     a: "Two community running events take place in November: the Zionsville Half Marathon & 5K on November 21 and the Gravy Chase on Thanksgiving morning, November 26."
   - q: "Where can I see fall colors in Zionsville?"
     a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Zionsville Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
   - q: "Are there fall activities in Zionsville for families with young children?"
-    a: "Yes. Nightmare at Elm Street on October 29 is a free, not-too-spooky luminary walk at Elm Street Green Park, and Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
+    a: "Yes. Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
     a: "Zionsville Parks & Recreation offers a Fall Birding walk on November 7, an Owl Prowl on November 13 and a Fall Campfire on November 21."
   - q: "Are there indoor fall activities in Zionsville?"
-    a: "Yes. The SFORZANDO (SFZ) Concert Series presents a Sunday afternoon concert at St. Francis In-The-Fields on November 1, the STAR Bank Performing Arts Center hosts the ZCHS Fall Musical in November, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
-  - q: "What Halloween events take place in Zionsville?"
-    a: "Nightmare at Elm Street on October 29 is a free luminary walk at Elm Street Green Park."
+    a: "Yes. The STAR Bank Performing Arts Center hosts the ZCHS Fall Musical in November, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
 ---
 
 Fall in Zionsville brings concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November.
@@ -36,16 +34,6 @@ Fall in Zionsville brings concerts and live performances, outdoor and nature act
 This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
 <!-- FALL_ACTIVITIES_TABLE -->
-
-## Explore Nightmare at Elm Street: A Luminary Walk
-
-**Thursday, October 29, 2026 · 6:00–8:00 p.m. · Elm Street Green Park**
-
-Zionsville Parks & Recreation lights a trail of luminaries around Elm Street Green for a self-guided Halloween walk. Families can search for mischievous skeletons hidden along the route and explore the glowing Pumpkin Pathway after dark. The free, drop-in event offers a not-too-spooky way to celebrate Halloween outdoors.
-
-See the [Zionsville Parks program page](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30147) for details.
-
-[↑ Back to activities](#at-a-glance)
 
 ## Smash Your Pumpkins at Mulberry Fields
 
@@ -117,27 +105,6 @@ Start around sunset with a walk through Carpenter Nature Preserve to see which a
 
 [↑ Back to activities](#at-a-glance)
 
-## Enjoy the SFZ Concert Series
-
-The **SFORZANDO (SFZ) Concert Series** at St. Francis In-The-Fields Episcopal Church continues through the fall with a Sunday afternoon performance:
-
-| Date | Artist | Program |
-| --- | --- | --- |
-| **November 1 · 4:00 PM** | **Alec Holcomb** | ***A Panorama of Classical Guitar Music***<br>Familiar favorites, overlooked gems and rarely heard works that show the range of the classical guitar, including music adapted from other instruments. |
-
-The concerts take place inside the church and provide an indoor arts option alongside Zionsville’s outdoor fall activities.
-
-[See the complete SFZ Concert Series schedule.](/events/sfz-concert-series)
-
-<figure class="my-8">
-  <img src="/images/articles/fall-activities-zionsville-st-francis-fall.webp" alt="Bright red, orange, and yellow autumn leaves on trees outside St. Francis In-The-Fields Episcopal Church in Zionsville, Indiana." width="1400" height="933" class="w-full h-auto rounded" />
-  <figcaption class="text-sm text-stone-600 italic mt-2">
-    Fall foliage surrounding St. Francis In-The-Fields Episcopal Church, host location for the SFZ Concert Series. <br /> <span class="not-italic">© ZionsvilleIndiana.com</span>
-  </figcaption>
-</figure>
-
-[↑ Back to activities](#at-a-glance)
-
 ## Enjoy Fall Performances & Sports at ZCHS
 
 Fall brings both performing arts and athletics to Zionsville Community High School, with the fall musical and Eagles sporting events throughout the season.
@@ -161,7 +128,7 @@ Tickets and more information are available on the [STAR Bank Performing Arts Cen
 
 ### Catch a Zionsville Eagles Game
 
-Friday night football is one of the most recognizable fall sports at Zionsville Community High School. The Eagles host Brownsburg in a sectional game on **Friday, October 30, at 7:00 p.m.** at Ascension St. Vincent Stadium.
+Friday night football is one of the most recognizable fall sports at Zionsville Community High School.
 
 [See upcoming ZCHS football games.](https://www.zchsathletics.org/Events?for=c51f1ea9-cdbb-4cdd-86dc-d1370bba775f&academicYear=0)
 
@@ -218,7 +185,3 @@ The [Teeny Tiny Art Market](https://discoverboonecounty.com/events/event/teeny-t
 The juried market features miniature works by local and regional artists, with each piece measuring **6 x 6 inches or smaller**. The small-scale format makes the exhibit easy to browse, with original artwork sized for collecting or holiday gift-giving.
 
 [↑ Back to activities](#at-a-glance)
-
-## Looking for Halloween Events?
-
-For trick-or-treating, trunk-or-treats and other Halloween activities around town, see the [Zionsville Trick-or-Treat & Trunk-or-Treat Guide](/articles/halloween-zionsville).

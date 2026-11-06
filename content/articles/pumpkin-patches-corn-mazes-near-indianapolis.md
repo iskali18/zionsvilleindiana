@@ -8,7 +8,7 @@ hubOrder: 900
 draft: false
 hero_image: /images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp
 hero_position: "center 20%"
-lastUpdated: "2026-10-26"
+lastUpdated: "2026-11-05"
 ctas:
   - label: See fall activities in Zionsville
     href: /articles/fall-activities-zionsville
@@ -41,8 +41,9 @@ Fall farms near Zionsville and Indianapolis offer everything from apple and pump
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
-**Updated October 26, 2026.**
+**Updated November 5, 2026.**
 
+- This guide covers the 2026 season and will be updated for 2027.
 - Crop availability and weather-related closures may vary throughout the season.
 - Check social media or contact the farm before visiting for the latest hours and availability.
 
