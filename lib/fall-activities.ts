@@ -68,16 +68,6 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     featured: 130,
   },
   {
-    name: 'Fall Birding at Carpenter Nature Preserve',
-    anchor: 'fall-birding-carpenter',
-    when: 'Nov. 7',
-    sortDate: '2026-11-07',
-    what: 'Naturalist-led bird walk for ages 12 and up',
-    types: ['Outdoors'],
-    free: false,
-    featured: 144,
-  },
-  {
     name: 'Owl Prowl',
     anchor: 'owl-prowl',
     when: 'Nov. 13',

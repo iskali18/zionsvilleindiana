@@ -8,7 +8,7 @@ hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-11-05"
+lastUpdated: "2026-11-06"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -24,7 +24,7 @@ faqs:
   - q: "Are there fall activities in Zionsville for families with young children?"
     a: "Yes. Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
-    a: "Zionsville Parks & Recreation offers a Fall Birding walk on November 7, an Owl Prowl on November 13 and a Fall Campfire on November 21."
+    a: "Zionsville Parks & Recreation offers an Owl Prowl on November 13 and a Fall Campfire on November 21."
   - q: "Are there indoor fall activities in Zionsville?"
     a: "Yes. The STAR Bank Performing Arts Center hosts the ZCHS Fall Musical in November, and the Teeny Tiny Art Market opens at SullivanMunce Cultural Center on November 20."
 ---
@@ -75,12 +75,6 @@ The event is the **Boys & Girls Club of Boone County’s largest annual fundrais
 ## Experience Fall with Zionsville Parks & Recreation
 
 Zionsville Parks & Recreation offers several smaller fall activities for people who want to spend time outside, learn about local wildlife, or enjoy an evening in the parks.
-
-### Nov. 7 · 9:00–10:00 AM · Fall Birding Series {#fall-birding-carpenter}
-
-Fall migration brings both resident and migratory birds to Zionsville’s parks. Join a Zionsville Parks naturalist for a November morning walk through Carpenter Nature Preserve and practice identifying birds by sight and sound. Ages 12 and up; all birding levels are welcome. Bring binoculars if you have them; a few pairs will be available to borrow.
-
-**[Register for the Fall Birding Series](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30141)**
 
 ### Nov. 13 · 5:30–6:30 PM · Owl Prowl {#owl-prowl}
 
