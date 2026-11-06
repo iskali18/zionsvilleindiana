@@ -73,7 +73,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   },
   {
     href: '/articles/indoor-things-to-do-kids',
-    title: 'Indoor Things to Do for Kids',
+    title: 'Indoor Things to Do for Young Kids',
     season: 'winter',
     blurb: '39 play spaces, museums, libraries and classes near Zionsville.',
     from: '2026-11-05',
@@ -82,7 +82,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   },
   {
     href: '/articles/indoor-things-to-do-tweens-teens',
-    title: 'Indoor Things to Do for Tweens & Teens',
+    title: 'Indoor Things to Do for Older Kids & Teens',
     season: 'winter',
     blurb: '37 indoor places for older kids and teens, from climbing to karting.',
     from: '2026-11-05',
