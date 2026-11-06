@@ -4,7 +4,7 @@ metaTitle: "Zionsville Trick or Treat 2026: Hours & Halloween Events"
 metaDescription: "Zionsville trick-or-treat hours are 5:30–8:30 p.m. on Saturday, Oct. 31, 2026, plus Trick or Trees, local trunk-or-treats, and a sensory-friendly event."
 description: "A guide to 2026 trick-or-treat and trunk-or-treat events for Zionsville families, with dates, times, ages and admission."
 category: "discovery"
-hubOrder: 10
+hubOrder: 910
 draft: false
 hero_image: /images/articles/trick-or-treat-zionsville.webp
 hero_position: "center 40%"
