@@ -210,7 +210,7 @@ Zionsville Parks & Recreation hosts Jingle in the Park, an evening at Lincoln Pa
 
 The event is for children ages 12 and under. Registration opens November 15, and each child must be registered in advance. Space is limited, and the registration fee is $5 for residents and $7 for nonresidents.
 
-See the [Zionsville Parks & Recreation program page](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29892) for registration details.
+See the [Jingle in the Park event page](/events/jingle-in-the-park).
 
 [↑ Back to schedule](#schedule)
 
