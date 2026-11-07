@@ -8,7 +8,7 @@ draft: false
 hero_image: /images/articles/dining-downtown-zionsville-tipsy-mermaid-sign.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-09-16"
+lastUpdated: "2026-11-06"
 faqs:
   - q: "What are the best restaurants in downtown Zionsville?"
     a: "Downtown Zionsville has restaurants across a range of styles — French cuisine at Auberge, New American with live music at Cobblestone, an oyster bar at Noah Grant's, Italian at Convivio, and casual options like Rush on Main and The Friendly Tavern. The right choice depends on what you're in the mood for."
@@ -30,7 +30,7 @@ Downtown Zionsville's restaurant scene is concentrated in the Village along Main
 <a href="#breakfast-brunch">Breakfast & Brunch</a>
 <a href="#coffee-cafes">Coffee & Cafés</a>
 <a href="#restaurants-bars">Restaurants & Bars</a>
-<a href="#pizza-burgers">Pizza & Burgers</a>
+<a href="#pizza">Pizza</a>
 <a href="#sweets-dessert">Sweets & Dessert</a>
 <a href="#near-downtown">Near Downtown</a>
 </div>
@@ -149,15 +149,9 @@ Downtown Zionsville’s sit-down restaurants cover French, Italian, seafood, New
 
 ---
 
-## Pizza & Burgers {#pizza-burgers}
+## Pizza {#pizza}
 
-For casual meals, downtown Zionsville has pizza shops, burger spots, and taproom-style menus along and near Main Street.
-
-### Bub's Burgers and Ice Cream
-
-* **Address:** 620 S. Main St
-* **Website:** [bubsburgers.com](https://bubsburgers.com/)
-* Just south of the Main Street Bridge over Eagle Creek, Bub’s Burgers and Ice Cream is about a five-minute walk or a quick drive from the brick Main Street area and serves burgers, cheeseburgers, and hand-dipped milkshakes.
+For casual meals, downtown Zionsville has pizza restaurants along Main Street.
 
 ### Greek's Pizzeria & Taproom
 
