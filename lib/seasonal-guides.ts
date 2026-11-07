@@ -4,8 +4,11 @@
  *  pass — no edit needed when a season turns. Guides drop off one at a time
  *  because their windows end on different days.
  *
- *  `priority` breaks ties when more guides are live than the band shows.
- *  Lower sorts first. */
+ *  When more guides are live than the band shows, the band rotates daily:
+ *  each day shows the next set in priority order, so every page agrees on
+ *  the same guides that day. A guide with `pinned: true` skips the rotation
+ *  and shows every day it is live. `priority` sets the rotation order and the
+ *  display order. Lower sorts first. */
 
 export type Season = 'fall' | 'holiday' | 'winter' | 'spring' | 'summer'
 
@@ -24,6 +27,9 @@ export interface SeasonalGuide {
   from: string
   to: string
   priority: number
+  /** Show this guide every day it is live instead of rotating it with the
+   *  others. Use for the one guide that matters most in its season. */
+  pinned?: boolean
 }
 
 /** How many guides the band renders at once. Three fits the grid; more than
@@ -37,7 +43,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     season: 'fall',
     blurb: 'Festivals, walks, races and seasonal events around town.',
     from: '2026-09-01',
-    to: '2026-11-02',
+    to: '2026-11-26',
     priority: 20,
   },
   {
@@ -66,6 +72,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     href: '/events/christmas-in-zionsville',
     title: 'Christmas in Zionsville',
     season: 'holiday',
+    pinned: true,
     blurb: 'Parade, tree lighting, Santa visits and holiday events around town.',
     from: '2026-11-05',
     to: '2026-12-24',
@@ -73,7 +80,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   },
   {
     href: '/articles/indoor-things-to-do-kids',
-    title: 'Indoor Things to Do for Young Kids',
+    title: 'Indoor Things to Do for Young Kids This Winter',
     season: 'winter',
     blurb: '39 play spaces, museums, libraries and classes near Zionsville.',
     from: '2026-11-05',
@@ -82,7 +89,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   },
   {
     href: '/articles/indoor-things-to-do-tweens-teens',
-    title: 'Indoor Things to Do for Older Kids & Teens',
+    title: 'Indoor Things to Do for Older Kids & Teens This Winter',
     season: 'winter',
     blurb: '37 indoor places for older kids and teens, from climbing to karting.',
     from: '2026-11-05',
@@ -91,7 +98,14 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   },
 ]
 
-/** Guides live on the given date, best first, capped at MAX_GUIDES.
+/** Guides live on the given date, capped at MAX_GUIDES.
+ *
+ *  Pinned guides always show. The remaining slots rotate once a day through
+ *  the other live guides, in priority order, so every guide gets its turn.
+ *  The day decides the set, which keeps the events page, the homepage and
+ *  every other page in step. The result is returned in display order:
+ *  pinned first, then by priority.
+ *
  *  Pass a date so the caller controls the timezone. */
 export function activeGuides(today: Date, limit = MAX_GUIDES): SeasonalGuide[] {
   const iso = [
@@ -100,9 +114,23 @@ export function activeGuides(today: Date, limit = MAX_GUIDES): SeasonalGuide[] {
     String(today.getDate()).padStart(2, '0'),
   ].join('-')
 
-  return SEASONAL_GUIDES.filter((g) => iso >= g.from && iso <= g.to)
-    .sort((a, b) => a.priority - b.priority)
-    .slice(0, limit)
+  const live = SEASONAL_GUIDES.filter((g) => iso >= g.from && iso <= g.to).sort(
+    (a, b) => a.priority - b.priority
+  )
+  const pinned = live.filter((g) => g.pinned).slice(0, limit)
+  const others = live.filter((g) => !g.pinned)
+  const slots = limit - pinned.length
+
+  let rotating = others
+  if (others.length > slots) {
+    // Whole days since 1970, counted from the local calendar date, so the set
+    // turns over at midnight in the caller's timezone.
+    const day = Math.floor(Date.UTC(today.getFullYear(), today.getMonth(), today.getDate()) / 86_400_000)
+    const start = day % others.length
+    rotating = Array.from({ length: slots }, (_, i) => others[(start + i) % others.length])
+  }
+
+  return [...pinned, ...rotating.sort((a, b) => a.priority - b.priority)]
 }
 
 /** Lead-in text for the strip, by season and page kind.

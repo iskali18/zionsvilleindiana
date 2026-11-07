@@ -1,6 +1,6 @@
 ---
 title: "Jingle in the Park in Zionsville"
-description: "Zionsville Parks & Recreation hosts Jingle in the Park at Lincoln Park on Friday, December 4, 2026, with visits with Santa, live reindeer, holiday crafts and activities, and the opening evening of Lincoln Lights."
+description: "See live reindeer, visit Santa, and enjoy holiday crafts at Lincoln Park as the park’s seasonal lights debut."
 metaTitle: "Jingle in the Park 2026 | Dec. 4 at Lincoln Park, Zionsville"
 metaDescription: "Jingle in the Park at Lincoln Park in downtown Zionsville, Dec. 4, 4–6 p.m.: Santa, live reindeer, holiday crafts, and the start of Lincoln Lights. Registration required."
 eventType: annual
