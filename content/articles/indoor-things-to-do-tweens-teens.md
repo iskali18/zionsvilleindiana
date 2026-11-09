@@ -1,15 +1,15 @@
 ---
-title: "37 Indoor Things to Do for Older Kids & Teens Near Zionsville"
-metaTitle: "37 Indoor Activities for Kids & Teens: Zionsville & NW Indy"
+title: "37 Indoor Things to Do for Older Kids & Teens Near Zionsville and NW Indianapolis"
+metaTitle: "37 Indoor Activities for Older Kids & Teens: NW Indianapolis"
 metaDescription: "37 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
 description: "A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
-hubOrder: 15
+hubOrder: 80
 draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-10-24"
+lastUpdated: "2026-11-09"
 ctas:
   - label: See all Zionsville events
     href: /events

@@ -1,15 +1,15 @@
 ---
-title: "39 Indoor Things to Do for Young Kids Near Zionsville"
+title: "39 Indoor Things to Do for Young Kids Near Zionsville and NW Indianapolis"
 # Winter meta title. Year-round version for spring: "39 Indoor Activities for Kids: Zionsville & NW Indy"
-metaTitle: "39 Indoor Winter Activities for Kids Near Zionsville"
+metaTitle: "39 Indoor Activities for Young Kids: NW Indianapolis"
 metaDescription: "39 indoor winter activities for kids ages 0–9 near Zionsville and Indianapolis, including playgrounds, sensory play, sports, music, art, and free options."
 description: "A guide to indoor playgrounds, sensory play, sports, music, dance, art, and free library programs for kids ages 0–9 near Zionsville and NW Indianapolis."
 category: "family"
-hubOrder: 16
+hubOrder: 70
 draft: false
 hero_image: /images/articles/indoor-things-to-do-kids-hero.webp
 hero_position: "center 25%"
-lastUpdated: "2026-10-26"
+lastUpdated: "2026-11-09"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -191,7 +191,7 @@ These destinations include museums with hands-on exhibits, an indoor amusement p
 
 The Children’s Museum of Indianapolis has five floors of interactive exhibits covering dinosaurs, science, history, art, and imaginative play. In Dinosphere, children can see real dinosaur fossils and meet paleontologists working in a fossil lab, while Beyond Spaceship Earth recreates part of the International Space Station. ScienceWorks features a water table, cave, farm activities, and a Discovery Lab for children 5 and under. Other attractions include archaeological digs in Treasures of the Earth, a pretend Peruvian marketplace, and a historic carousel with a mirror maze and playhouses.
 
-Playscape, a gallery exclusively for children 5 and under, has water and sand tables, art and music studios, a climbing structure, and Babyscape for infants and toddlers. Playscape is closed through Nov. 6, 2026, and reopens Nov. 7. Family art activities and workshops give parents and children more opportunities for hands-on creativity.
+Playscape, a gallery exclusively for children 5 and under, has water and sand tables, art and music studios, a climbing structure, and Babyscape for infants and toddlers. Family art activities and workshops give parents and children more opportunities for hands-on creativity.
 
 **Accessibility & sensory note:** Museum My Way events offer limited-capacity visits for guests with disabilities or sensory sensitivities, with a quiet area, reduced music, and adjusted lighting. Registration is required.
 

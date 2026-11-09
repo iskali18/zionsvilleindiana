@@ -4,11 +4,11 @@ metaTitle: "Fall Activities & Things to Do in Zionsville 2026"
 metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, races, nature programs, art markets, farm visits and fall walks through November."
 description: "A guide to fall in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and seasonal traditions through November 2026."
 category: "discovery"
-hubOrder: 6
+hubOrder: 60
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-11-06"
+lastUpdated: "2026-11-09"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -16,13 +16,11 @@ ctas:
     href: /downtown
 faqs:
   - q: "What is there to do in Zionsville in the fall?"
-    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include Smashin’ Pumpkins, the Zionsville Half Marathon & 5K and the Gravy Chase."
+    a: "Fall in Zionsville includes concerts and live performances, outdoor and nature activities, community races, art events, farm visits and traditional fall activities through October and November. Scheduled events include the Zionsville Half Marathon & 5K and the Gravy Chase."
   - q: "What fall races take place in Zionsville?"
     a: "Two community running events take place in November: the Zionsville Half Marathon & 5K on November 21 and the Gravy Chase on Thanksgiving morning, November 26."
   - q: "Where can I see fall colors in Zionsville?"
     a: "Starkey Nature Park has wooded trails through approximately 80 acres along Eagle Creek. Overley-Worman Park adds trails, mountain biking and disc golf, and the Zionsville Rail Trail provides a longer paved route for walking, running and cycling through Zionsville."
-  - q: "Are there fall activities in Zionsville for families with young children?"
-    a: "Yes. Smashin’ Pumpkins at Mulberry Fields Park on November 7 includes pumpkin smashing and the Epic Pumpkin Drop."
   - q: "What fall programs does Zionsville Parks & Recreation offer?"
     a: "Zionsville Parks & Recreation offers an Owl Prowl on November 13 and a Fall Campfire on November 21."
   - q: "Are there indoor fall activities in Zionsville?"
@@ -34,25 +32,6 @@ Fall in Zionsville brings concerts and live performances, outdoor and nature act
 This guide focuses on things to do in Zionsville throughout the fall season, including both scheduled events and activities that can be enjoyed on your own. For farm visits, see our guide to [pumpkin patches, corn mazes and orchards near Indianapolis](/articles/pumpkin-patches-corn-mazes-near-indianapolis).
 
 <!-- FALL_ACTIVITIES_TABLE -->
-
-## Smash Your Pumpkins at Mulberry Fields
-
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <a href="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size flyer in new tab">
-    <img src="/images/articles/fall-activities-zionsville-smashin-pumpkins.webp" alt="A large orange pumpkin falling mid-air from an extended fire truck ladder toward straw bales on the ground."  class="rounded-lg shadow-sm cursor-zoom-in" />
-  </a>
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    A pumpkin dropping from an extended fire truck ladder.
-  </figcaption>
-</figure>
-
-**Smashin’ Pumpkins** returns to Mulberry Fields Park on **November 7**, giving families a fun way to dispose of leftover pumpkins after Halloween.
-
-Visitors can bring pumpkins and jack-o’-lanterns to the smashing stations before the pieces are collected for composting. The **Epic Pumpkin Drop** is one of the main attractions, with Zionsville firefighters raising pumpkins on a ladder truck and dropping them from above for a dramatic smash.
-
-[See the complete Smashin’ Pumpkins event guide.](/events/smashin-pumpkins)
-
-[↑ Back to activities](#at-a-glance)
 
 ## Race Through Zionsville This Fall
 
@@ -121,10 +100,6 @@ Tickets and more information are available on the [STAR Bank Performing Arts Cen
 </figure>
 
 ### Catch a Zionsville Eagles Game
-
-Friday night football is one of the most recognizable fall sports at Zionsville Community High School.
-
-[See upcoming ZCHS football games.](https://www.zchsathletics.org/Events?for=c51f1ea9-cdbb-4cdd-86dc-d1370bba775f&academicYear=0)
 
 As fall moves into November, **basketball and wrestling** begin their seasons, with tickets available for purchase. Swimming and diving meets also appear on the athletics calendar and do not require tickets.
 

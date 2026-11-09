@@ -3,7 +3,7 @@ title: "Breakfast and Brunch in Zionsville"
 metaTitle: "Breakfast & Brunch in Zionsville: Where to Eat"
 metaDescription: "Breakfast and brunch in Zionsville, Indiana — sit-down restaurants, bagels, coffee with a light bite, açaí bowls, breakfast tacos, and weekend brunch."
 category: "discovery"
-hubOrder: 40
+hubOrder: 100
 draft: false
 hero_image: /images/articles/breakfast-brunch.webp
 hero_position: "center 35%"

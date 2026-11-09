@@ -3,7 +3,7 @@ title: "Downtown Zionsville Map"
 metaTitle: "Downtown Zionsville Map: Printable PDF & Phone Download"
 metaDescription: "Printable map of downtown Zionsville showing Main Street businesses, public parking, restrooms, and landmarks. Download the PDF or save to your phone."
 category: discovery
-hubOrder: 70
+hubOrder: 50
 hero_image: /images/articles/downtown-zionsville-map-hero.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 20%"

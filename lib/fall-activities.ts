@@ -47,16 +47,6 @@ export interface FallActivity {
 
 export const FALL_ACTIVITIES: FallActivity[] = [
   {
-    name: 'Smashin\u2019 Pumpkins',
-    anchor: 'smash-your-pumpkins-at-mulberry-fields',
-    when: 'Nov. 7',
-    sortDate: '2026-11-07',
-    what: 'Pumpkin smashing, composting tips and the Epic Pumpkin Drop',
-    types: ['Family', 'Outdoors'],
-    free: true,
-    featured: 90,
-  },
-  {
     name: 'Fall Races',
     anchor: 'race-through-zionsville-this-fall',
     when: 'Nov. 21\u201326',
@@ -75,7 +65,7 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     what: 'Learn about local owls, then look and listen for them with a naturalist at Carpenter Nature Preserve',
     types: ['Family', 'Outdoors'],
     free: false,
-    featured: 145,
+    featured: 110,
   },
   {
     name: 'Fall Campfire',
@@ -85,7 +75,7 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     what: 'Sunset animal walk and marshmallow roasting at Carpenter Nature Preserve',
     types: ['Family', 'Outdoors'],
     free: false,
-    featured: 146,
+    featured: 140,
   },
   {
     name: 'ZCHS Performances & Sports',
@@ -126,7 +116,7 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     what: 'Miniature works by local and regional artists on display and for sale at SullivanMunce Cultural Center',
     types: ['Arts, Music & Culture', 'Downtown'],
     free: true,
-    featured: 200,
+    featured: 120,
   },
 ]
 

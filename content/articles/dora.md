@@ -3,7 +3,7 @@ title: Downtown DORA Guide
 metaTitle: "Downtown Zionsville DORA Rules, Hours & Boundaries"
 metaDescription: Downtown Zionsville DORA hours, rules, beverage size limits, district boundaries, and participating establishments.
 category: discovery
-hubOrder: 100
+hubOrder: 130
 draft: false
 hero_image: /images/zionsville-dora.webp
 ctas:
