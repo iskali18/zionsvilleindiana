@@ -11,7 +11,7 @@ print_hide_body: true
 ctas:
   - label: Visit the official ZCS calendar
     href: https://www.zcs.k12.in.us/about-zcs/calendars
-lastUpdated: "2026-09-15"
+lastUpdated: "2026-11-10"
 faqs:
   - q: "When does Zionsville school start in 2026?"
     a: "The first student day for Zionsville Community Schools (ZCS) is Tuesday, August 4, 2026."

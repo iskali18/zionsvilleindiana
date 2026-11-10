@@ -272,6 +272,42 @@ export const zcsEvents: ZcsEvent[] = [
     audienceLabel: 'All ZCS',
     isDistrictwide: true,
   },
+
+  // ZCHS Semester 1 finals (Dec 15–18)
+  {
+    startDate: '2026-12-15',
+    title: 'G4 Final Assessment · Full Day (Green)',
+    audiences: ['zchs'],
+    audienceLabel: 'ZCHS',
+    isDistrictwide: false,
+  },
+  {
+    startDate: '2026-12-16',
+    title: 'G1 and G3 Final Assessments · Half Day (Green)',
+    time: 'G1 8:30–10:00 AM · G3 10:10–11:40 AM',
+    audiences: ['zchs'],
+    audienceLabel: 'ZCHS',
+    comment: 'Afternoon independent preparation; teacher office hours 12:40–3:40 PM in person, via Canvas, or email.',
+    isDistrictwide: false,
+  },
+  {
+    startDate: '2026-12-17',
+    title: 'S1 and S2 Final Assessments · Half Day (Silver)',
+    time: 'S1 8:30–10:00 AM · S2 10:10–11:40 AM',
+    audiences: ['zchs'],
+    audienceLabel: 'ZCHS',
+    comment: 'Afternoon independent preparation; teacher office hours 12:40–3:40 PM in person, via Canvas, or email.',
+    isDistrictwide: false,
+  },
+  {
+    startDate: '2026-12-18',
+    title: 'S3 and S4 Final Assessments · Half Day (Silver)',
+    time: 'S3 8:30–10:00 AM · S4 10:10–11:40 AM',
+    audiences: ['zchs'],
+    audienceLabel: 'ZCHS',
+    comment: 'Afternoon independent preparation; teacher office hours 12:40–3:40 PM in person, via Canvas, or email. Last day of Semester 1.',
+    isDistrictwide: false,
+  },
   {
     startDate: '2026-12-21',
     endDate: '2027-01-04',
