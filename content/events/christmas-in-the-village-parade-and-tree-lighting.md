@@ -11,14 +11,14 @@ startDateTime: "2026-11-28T17:00:00-05:00"
 endDateTime: "2026-11-28T18:30:00-05:00"
 location: "Main Street, Zionsville"
 address: "340 S Main St"
-externalUrl: "https://www.zionsvillechamber.org/holiday-parade/"
+externalUrl: "https://business.zionsvillechamber.org/calendar/Details/2026-christmas-in-the-village-parade-tree-lighting-1848977"
 image: /images/events/zionsville-christmas-in-the-village-parade.webp
 imageAlt: "Crowds lining Main Street in Zionsville during the Christmas in the Village parade"
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
 tags: [holiday, family, parade, free, outdoor]
-lastUpdated: "2026-09-22"
+lastUpdated: "2026-11-10"
 faqs:
   - q: "When is the Zionsville Christmas Parade?"
     a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026. The parade begins at 5:00 PM at Eagle Elementary and ends on Main Street at approximately 6:00 PM."
