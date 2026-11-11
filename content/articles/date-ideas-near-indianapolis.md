@@ -4,7 +4,7 @@ metaTitle: "24 Date Ideas Near Zionsville & Indianapolis (2027)"
 metaDescription: "Explore 24 date ideas near Zionsville and Indianapolis for 2027, with two options for every month, from concerts and classes to seasonal outings."
 description: "A month-by-month guide to 24 date ideas near Zionsville and Indianapolis for 2027, featuring concerts, hands-on classes, outdoor adventures, and seasonal events, with two activities for every month."
 category: "discovery"
-hubOrder: 40
+hubOrder: 35
 draft: false
 hero_image: /images/articles/candlelight-concert-scottish-rite-cathedral-indianapolis.webp
 hero_position: "center 47%"
@@ -82,7 +82,7 @@ itemList:
     description: "A German-style Christmas market on Carter Green in Carmel."
   - name: "Winterlights at Newfields"
     href: "#winterlights-newfields"
-    description: "An outdoor holiday light display with nearly two million lights at Newfields in Indianapolis."
+    description: "An outdoor holiday light display with millions of lights at Newfields in Indianapolis."
   - name: "Holiday Cheers on the Nickel Plate Express"
     href: "#holiday-cheers-train"
     description: "An adults-only holiday train excursion from Hobbs Station in Noblesville."
@@ -390,7 +390,7 @@ Guests can bring their own food and beverages or purchase refreshments on-site. 
 <figure class="my-8">
   <img src="/images/articles/date-ideas-indianapolis-symphony-on-the-prairie.webp" alt="Concertgoers seated in lawn chairs watch an illuminated outdoor stage at Symphony on the Prairie at Conner Prairie in Fishers, Indiana." class="w-full h-auto rounded" />
   <figcaption class="text-sm text-stone-600 italic mt-2">
-    Concertgoers enjoy live music on the lawn during Symphony on the Prairie at Conner Prairie in Fishers. Photo: © ZionsvilleIndiana.com.
+    Concertgoers enjoy a performance by EagleMania, an Eagles tribute band, during Symphony on the Prairie at Conner Prairie in Fishers. Photo: © ZionsvilleIndiana.com.
   </figcaption>
 </figure>
 
@@ -519,7 +519,7 @@ Warm spiced drinks and seasonal entertainment add to the holiday atmosphere, whi
 
 **Location:** Newfields · [4000 Michigan Road, Indianapolis, IN 46208](https://maps.app.goo.gl/kDyLBi6Rzgo2cf6C7)
 
-Newfields, home to the Indianapolis Museum of Art and its surrounding gardens, hosts Winterlights, an annual outdoor holiday light display. Nearly two million lights illuminate the grounds, from towering trees wrapped in lights to glowing ornaments and colorful installations along the walking paths. A highlight is Landscape of Light, where thousands of lights spread across the lawn in changing patterns synchronized to holiday music.
+Newfields, home to the Indianapolis Museum of Art and its surrounding gardens, hosts Winterlights, an annual outdoor holiday light display. Millions of lights illuminate the grounds, from towering trees wrapped in lights to glowing ornaments and colorful installations along the walking paths. A highlight is Landscape of Light, where thousands of lights spread across the lawn in changing patterns synchronized to holiday music.
 
 Recent displays have also featured a giant illuminated ornament and glowing sculptures that change colors throughout the evening. Visitors can explore rooms decorated for Christmas inside the estate’s mansion or enjoy hot cocoa, cider, cookies, and s’mores kits, available for purchase.
 
