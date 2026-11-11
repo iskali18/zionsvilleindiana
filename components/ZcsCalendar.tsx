@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useMemo } from 'react'
+import Link from 'next/link'
 import { zcsEvents, type Audience, type ZcsEvent } from '@/lib/zcs-calendar'
 import Toggle from '@/components/ui/Toggle'
 
@@ -109,7 +110,7 @@ function EventRow({ event }: EventRowProps) {
     : event.audienceLabel.split(' · ')
 
   return (
-    <div className="grid grid-cols-[9rem_1fr] gap-x-4 py-3 border-b border-stone-100 last:border-b-0 print:py-1 print:grid-cols-[10rem_1fr] print:gap-x-3">
+    <div className="grid grid-cols-[9rem_1fr] gap-x-4 py-3 border-b border-stone-100 last:border-b-0 print:py-1 print:grid-cols-[10rem_1fr] print:gap-x-2">
       {/* Tag column — fixed width so event text aligns across all rows */}
       <div className="flex flex-wrap gap-1 items-start">
         {tagLabels.map((label, idx) => (
@@ -130,10 +131,13 @@ function EventRow({ event }: EventRowProps) {
       <div className="min-w-0">
         <p className="text-stone-900 font-medium leading-snug">{event.title}</p>
         {event.time && (
-          <p className="text-sm text-stone-600 mt-0.5">{event.time}</p>
+          <p className={`text-sm text-stone-600 mt-0.5${event.hideInPrint?.includes('time') ? ' print:hidden' : ''}`}>{event.time}</p>
+        )}
+        {event.detail && (
+          <p className="text-sm text-stone-600 mt-0.5">{event.detail}</p>
         )}
         {event.comment && (
-          <div className="text-sm text-stone-600 mt-0.5">
+          <div className={`text-sm text-stone-600 mt-0.5${event.hideInPrint?.includes('comment') ? ' print:hidden' : ''}`}>
             <p>{displayComment}</p>
             {hasLongComment && (
               <button
@@ -145,6 +149,14 @@ function EventRow({ event }: EventRowProps) {
               </button>
             )}
           </div>
+        )}
+        {event.link && (
+          <Link
+            href={event.link.href}
+            className="inline-block text-sm text-brick-600 hover:text-brick-700 font-medium mt-1 print:hidden"
+          >
+            {event.link.label} →
+          </Link>
         )}
       </div>
     </div>
@@ -163,7 +175,7 @@ function DateBlock({ date, events }: DateBlockProps) {
     : formatCompactDate(date)
 
   return (
-    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:grid print:grid-cols-[7rem_1fr] print:gap-x-4 print:mb-2 print:pt-2 print:border-t print:border-stone-400 print:break-inside-avoid">
+    <div className="mb-6 sm:grid sm:grid-cols-[8rem_1fr] sm:gap-x-6 print:grid print:grid-cols-[6rem_1fr] print:gap-x-3 print:mb-2 print:pt-2 print:border-t print:border-stone-400 print:break-inside-avoid">
       {/* Date label — sticky on screen, top-aligned for print */}
       <div className="sm:sticky sm:top-20 sm:self-start mb-2 sm:mb-0 print:static print:mb-0">
         <div className="hidden sm:block print:block">

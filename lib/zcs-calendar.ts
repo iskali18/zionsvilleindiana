@@ -15,8 +15,14 @@ export interface ZcsEvent {
   audiences: Audience[]
   /** Display label for audiences. Districtwide events display as "All ZCS". */
   audienceLabel: string
+  /** Extra one-line detail shown under the time (e.g. dismissal and bus times). */
+  detail?: string
   /** Additional details. May be long; UI will collapse if needed. */
   comment?: string
+  /** Optional link shown under the event (e.g. a details page). */
+  link?: { label: string; href: string }
+  /** Lines to leave off the printout (still shown on screen). */
+  hideInPrint?: ('time' | 'comment')[]
   /** True for events that apply district-wide (breaks, no-school days, first/last day) */
   isDistrictwide: boolean
 }
@@ -276,36 +282,46 @@ export const zcsEvents: ZcsEvent[] = [
   // ZCHS Semester 1 finals (Dec 15–18)
   {
     startDate: '2026-12-15',
-    title: 'G4 Final Assessment · Full Day (Green)',
+    title: 'Full Day (Green) · G4 Final Assessment',
     audiences: ['zchs'],
     audienceLabel: 'ZCHS',
+    link: { label: 'Finals Week Details', href: '/articles/zchs-finals-week' },
     isDistrictwide: false,
   },
   {
     startDate: '2026-12-16',
-    title: 'G1 and G3 Final Assessments · Half Day (Green)',
+    title: 'Half Day (Green) · G1 and G3 Final Assessments',
     time: 'G1 8:30–10:00 AM · G3 10:10–11:40 AM',
+    detail: 'Early dismissal 11:40 AM · Buses depart 3:50 PM',
     audiences: ['zchs'],
     audienceLabel: 'ZCHS',
     comment: 'Afternoon independent preparation; teacher office hours 12:40–3:40 PM in person, via Canvas, or email.',
+    link: { label: 'Finals Week Details', href: '/articles/zchs-finals-week' },
+    hideInPrint: ['time', 'comment'],
     isDistrictwide: false,
   },
   {
     startDate: '2026-12-17',
-    title: 'S1 and S2 Final Assessments · Half Day (Silver)',
+    title: 'Half Day (Silver) · S1 and S2 Final Assessments',
     time: 'S1 8:30–10:00 AM · S2 10:10–11:40 AM',
+    detail: 'Early dismissal 11:40 AM · Buses depart 3:50 PM',
     audiences: ['zchs'],
     audienceLabel: 'ZCHS',
     comment: 'Afternoon independent preparation; teacher office hours 12:40–3:40 PM in person, via Canvas, or email.',
+    link: { label: 'Finals Week Details', href: '/articles/zchs-finals-week' },
+    hideInPrint: ['time', 'comment'],
     isDistrictwide: false,
   },
   {
     startDate: '2026-12-18',
-    title: 'S3 and S4 Final Assessments · Half Day (Silver)',
+    title: 'Half Day (Silver) · S3 and S4 Final Assessments',
     time: 'S3 8:30–10:00 AM · S4 10:10–11:40 AM',
+    detail: 'Early dismissal 11:40 AM · Buses depart 3:50 PM',
     audiences: ['zchs'],
     audienceLabel: 'ZCHS',
     comment: 'Afternoon independent preparation; teacher office hours 12:40–3:40 PM in person, via Canvas, or email. Last day of Semester 1.',
+    link: { label: 'Finals Week Details', href: '/articles/zchs-finals-week' },
+    hideInPrint: ['time', 'comment'],
     isDistrictwide: false,
   },
   {
@@ -339,6 +355,11 @@ export const zcsEvents: ZcsEvent[] = [
     audienceLabel: 'All ZCS',
     isDistrictwide: true,
   },
+  // ZCHS Semester 2 finals (May 21–26)
+  { startDate: '2027-05-21', title: '(Green Day) Final Assessment', audiences: ['zchs'], audienceLabel: 'ZCHS', isDistrictwide: false },
+  { startDate: '2027-05-24', title: 'Final Assessments', audiences: ['zchs'], audienceLabel: 'ZCHS', isDistrictwide: false },
+  { startDate: '2027-05-25', title: 'Final Assessments', audiences: ['zchs'], audienceLabel: 'ZCHS', isDistrictwide: false },
+  { startDate: '2027-05-26', title: 'Final Assessments', audiences: ['zchs'], audienceLabel: 'ZCHS', isDistrictwide: false },
   {
     startDate: '2027-05-26',
     title: 'Last Student Day',
@@ -408,7 +429,7 @@ export const zcsEvents: ZcsEvent[] = [
   },
   {
     startDate: '2027-03-04',
-    title: 'Grades 9, 10, 12 E-Learning Day (SAT)',
+    title: 'Gr 11 SAT, PM Release; Gr 9, 10, 12 E-Learning Day',
     audiences: ['zchs'],
     audienceLabel: 'ZCHS',
     isDistrictwide: false,

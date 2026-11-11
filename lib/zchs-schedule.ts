@@ -111,11 +111,11 @@ const SPECIAL_DATES: SpecialDate[] = [
   { dateKey: '2026-11-26', label: 'Thanksgiving Break — No School', blocksClasses: true },
   { dateKey: '2026-11-27', label: 'Thanksgiving Break — No School', blocksClasses: true },
 
-  // Semester 1 finals (Dec 15–18, weekdays)
-  { dateKey: '2026-12-15', label: 'Semester 1 Finals', blocksClasses: true, hasSpecialSchedule: true },
-  { dateKey: '2026-12-16', label: 'Semester 1 Finals', blocksClasses: true, hasSpecialSchedule: true },
-  { dateKey: '2026-12-17', label: 'Semester 1 Finals', blocksClasses: true, hasSpecialSchedule: true },
-  { dateKey: '2026-12-18', label: 'Semester 1 Finals · End of Semester 1', blocksClasses: true, hasSpecialSchedule: true },
+  // Semester 1 finals. Dec 15 is a regular full Green day (G4 Final in period 4),
+  // so it has no entry here. Dec 16–18 are half days.
+  { dateKey: '2026-12-16', label: 'Half Day (Green) · Final Assessments 8:30–11:40 AM', blocksClasses: true, hasSpecialSchedule: true },
+  { dateKey: '2026-12-17', label: 'Half Day (Silver) · Final Assessments 8:30–11:40 AM', blocksClasses: true, hasSpecialSchedule: true },
+  { dateKey: '2026-12-18', label: 'Half Day (Silver) · Final Assessments 8:30–11:40 AM · End of Semester 1', blocksClasses: true, hasSpecialSchedule: true },
 
   // Winter Break (Dec 21 – Jan 4, weekdays)
   { dateKey: '2026-12-21', label: 'Winter Break — No School', blocksClasses: true },
@@ -146,16 +146,27 @@ const SPECIAL_DATES: SpecialDate[] = [
   { dateKey: '2027-04-01', label: 'Spring Break — No School', blocksClasses: true },
   { dateKey: '2027-04-02', label: 'Spring Break — No School', blocksClasses: true },
 
-  // Semester 2 finals (May 21, 24, 25, 26 — weekdays only)
-  { dateKey: '2027-05-21', label: 'Semester 2 Finals', blocksClasses: true, hasSpecialSchedule: true },
-  { dateKey: '2027-05-24', label: 'Semester 2 Finals', blocksClasses: true, hasSpecialSchedule: true },
-  { dateKey: '2027-05-25', label: 'Semester 2 Finals', blocksClasses: true, hasSpecialSchedule: true },
-  { dateKey: '2027-05-26', label: 'Last Day of School', blocksClasses: true, hasSpecialSchedule: true },
+  // Semester 2 finals. May 21 is a regular full Green day, so it has no entry here.
+  { dateKey: '2027-05-24', label: 'Final Assessments', blocksClasses: true, hasSpecialSchedule: true },
+  { dateKey: '2027-05-25', label: 'Final Assessments', blocksClasses: true, hasSpecialSchedule: true },
+  { dateKey: '2027-05-26', label: 'Final Assessments · Last Day of School', blocksClasses: true, hasSpecialSchedule: true },
 
   // Post-semester
   { dateKey: '2027-05-31', label: 'Memorial Day — No School', blocksClasses: true },
   { dateKey: '2027-06-02', label: 'ZCHS Commencement', blocksClasses: true, hasSpecialSchedule: true },
 ]
+
+/**
+ * Dates where ZCHS sets the Green/Silver day itself instead of following the
+ * normal alternation (e.g. finals weeks). The alternation continues from the
+ * forced color on the next instructional day.
+ */
+const DAY_COLOR_OVERRIDES: Record<string, DayColor> = {
+  '2026-12-14': 'S',
+  '2026-12-15': 'G',
+  '2027-05-20': 'S',
+  '2027-05-21': 'G',
+}
 
 const SPECIAL_DATE_MAP = new Map<string, SpecialDate>(
   SPECIAL_DATES.map((d) => [d.dateKey, d])
@@ -199,6 +210,7 @@ export function getSpecialDate(dateKey: string): SpecialDate | undefined {
  * Build a map from date key → 'G' | 'S' for the whole school year.
  * Alternates only on regular instructional days. Skips weekends and any
  * special date that blocks classes. Semester 2 restarts on Green.
+ * DAY_COLOR_OVERRIDES can force a date's color.
  */
 export function buildGreenSilverMap(): Map<string, DayColor> {
   const map = new Map<string, DayColor>()
@@ -214,8 +226,9 @@ export function buildGreenSilverMap(): Map<string, DayColor> {
       const skip = isWeekend(cursor) || (special?.blocksClasses ?? false)
 
       if (!skip) {
-        map.set(key, current)
-        current = current === 'G' ? 'S' : 'G'
+        const color: DayColor = DAY_COLOR_OVERRIDES[key] ?? current
+        map.set(key, color)
+        current = color === 'G' ? 'S' : 'G'
       }
       cursor = addDays(cursor, 1)
     }
