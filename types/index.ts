@@ -306,6 +306,9 @@ export interface ArticleMeta {
   /** When true, the article is hidden from the /articles hub page and any listings.
    *  The direct URL /articles/{slug} still resolves so the page can be previewed. */
   draft?: boolean
+  /** When true, the article is live but left off the /articles hub page,
+   *  e.g. a short-term page linked only from the school calendar. */
+  hideFromHub?: boolean
   faqs?: Array<{
     q: string
     a: string

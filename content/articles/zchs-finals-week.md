@@ -5,6 +5,7 @@ metaDescription: "Zionsville Community High School first-semester finals, Decemb
 description: "Zionsville Community High School (ZCHS) first-semester finals schedule for December 15–18, 2026, with assessment times, dismissal, bus departure, on-campus study hall, and teacher office hours."
 category: "discovery"
 draft: false
+hideFromHub: true
 lastUpdated: "2026-11-10"
 ---
 
