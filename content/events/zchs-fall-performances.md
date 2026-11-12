@@ -35,5 +35,5 @@ items:
     image: /images/articles/fall-activities-zionsville-zchs-pac-performance.webp
     imageAlt: "Zionsville Community High School students performing a musical on stage at the STAR Bank Performing Arts Center."
     photoCredit: "Photo by STAR Bank Performing Arts Center"    
-    showOnHomepage: false
+    showOnHomepage: true
 ---
