@@ -600,6 +600,15 @@ export default function ScheduleGenerator() {
     const clampedStart = startDate < SCHOOL_YEAR_START ? SCHOOL_YEAR_START : startDate
     const clampedEnd = endDate > SCHOOL_YEAR_END ? SCHOOL_YEAR_END : endDate
 
+    // Track event in GA4
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      ;(window as any).gtag('event', 'generate_schedule', {
+        event_category: 'tool_interaction',
+        preset_selected: preset,
+        student_count: students.length,
+      })
+    }
+
     scrollPendingRef.current = true
     setGenerated(generateScheduleRange(clampedStart, clampedEnd, activeStudent, gsMap))
   }
@@ -622,6 +631,15 @@ export default function ScheduleGenerator() {
   }, [generated])
 
   const handlePrint = () => {
+    // Track event in GA4
+    if (typeof window !== 'undefined' && (window as any).gtag) {
+      ;(window as any).gtag('event', 'print_schedule', {
+        event_category: 'tool_interaction',
+        preset_selected: preset,
+        student_count: students.length,
+      })
+    }
+
     window.print()
   }
 
