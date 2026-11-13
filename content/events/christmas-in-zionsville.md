@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-05"
+lastUpdated: "2026-11-12"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -23,11 +23,11 @@ faqs:
   - q: "When can I see Santa in Zionsville?"
     a: "Santa and Mrs. Claus are scheduled at the Santa House at Cedar and Main on Sunday, November 29 and on the weekends of December 5–6, 12–13 and 19–20, from 11:00 a.m. to 3:00 p.m."
   - q: "What Christmas events are on December 5 in Zionsville?"
-    a: "Saturday, December 5 has four: the Zionsville Showchoir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market and Selfies with Santa."
+    a: "Saturday, December 5 has six: the Zionsville Showchoir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Selfies with Santa, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
     a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, and the Christmas Crawl are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
   - q: "Where do Christmas events in Zionsville take place?"
     a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
   - q: "Who organizes Christmas in the Village?"
@@ -53,6 +53,18 @@ Christmas in Zionsville runs from late November through Christmas Eve. The seaso
 
 The Zionsville Chamber of Commerce’s Christmas in the Village program begins Thanksgiving weekend and continues through Christmas Eve, with events along Main Street and the surrounding Village streets. The program opens with Small Business Weekend, November 27–29.
 
+### Small Business Weekend
+
+**Friday, November 27 – Sunday, November 29, 2026 · Downtown Zionsville**
+
+The Zionsville Chamber of Commerce opens the Christmas in the Village season with Small Business Weekend, the weekend after Thanksgiving, with holiday shopping at locally owned businesses in Downtown Zionsville.
+
+Shoppers who buy locally during the weekend receive a free tote bag while supplies last.
+
+See the Chamber’s [Small Business Weekend flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/PY0Ae6xp).
+
+[↑ Back to schedule](#schedule)
+
 ### Holiday Parade & Tree Lighting
 
 **Saturday, November 28, 2026 · 5:00–6:30 p.m.**
@@ -76,7 +88,7 @@ The annual Holiday Parade and Tree Lighting marks the official opening weekend o
 
 Santa and Mrs. Claus return to the Santa House at the corner of Cedar and Main Streets on seven dates during the season. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
 
-See the Chamber’s [Santa House Selfies page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-santa-house-selfies-1916478).
+See the Chamber’s [Santa House Selfies flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/plv6EmkL).
 
 [↑ Back to schedule](#schedule)
 
@@ -109,9 +121,19 @@ Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone
 
 **Saturday, December 5, 2026 · 9:00 a.m.–noon**
 
-Main Street Zionsville lists this as the Zionsville Parks Winter Market on the 2026 Christmas in the Village schedule. Zionsville Parks & Recreation calls it the Open-Air Maker’s Market and runs it as part of Winterfest, its winter season program. The market takes place on Zionsville’s brick Main Street, with local makers and artists, food trucks, seasonal music, and carolers.
+Main Street Zionsville lists this as the Zionsville Parks Winter Market on the 2026 Christmas in the Village schedule. Zionsville Parks & Recreation calls it the Open-Air Maker’s Market and runs it as part of Winterfest, its winter season program. The market takes place in the parking lot at Main Street and Sycamore Street, with local makers and artists, food trucks, seasonal music, and carolers.
 
-See the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
+See the Chamber’s [Maker’s Market flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/r4zND8XP).
+
+[↑ Back to schedule](#schedule)
+
+### Vintage Village Carriage Rides
+
+**Saturdays and Sundays, December 5–6 and 19–20, 2026 · 3:00–5:00 p.m. · Santa House, Cedar and Main Streets**
+
+The Zionsville Chamber of Commerce offers horse-drawn carriage rides through the Village, presented by Sylo Apartments – Zionsville in partnership with SullivanMunce Cultural Center. The route starts at the Santa House at Cedar and Main and loops along Elm, Walnut, Fifth and Cedar Streets before returning to Main Street, passing Village homes and Century Structures, homes at least 100 years old.
+
+See the Chamber’s [Christmas in the Village page](https://www.zionsvillechamber.org/christmas-in-the-village/).
 
 [↑ Back to schedule](#schedule)
 
@@ -152,7 +174,7 @@ Several of the season’s larger events take place away from Main Street.
 
 SullivanMunce Cultural Center’s Teeny Tiny Art Market features original artwork measuring 6 by 6 inches or smaller.
 
-See the [Teeny Tiny Art Market page](https://discoverboonecounty.com/events/event/teeny-tiny-art-market/).
+See the [Teeny Tiny Art Market page](https://business.zionsvillechamber.org/calendar/Details/teeny-tiny-art-market-opening-party-1988549).
 
 [↑ Back to schedule](#schedule)
 
@@ -214,6 +236,24 @@ See the [Jingle in the Park event page](/events/jingle-in-the-park).
 
 [↑ Back to schedule](#schedule)
 
+### Lincoln Lights
+
+**Friday, December 4, 2026 – Sunday, February 14, 2027 · 5:30–11:59 p.m. · Lincoln Park, [100 W. Oak St.](https://maps.app.goo.gl/zKcxidf1e4uVR2UF7) · Free**
+
+Zionsville Parks & Recreation’s Lincoln Lights holiday display, sponsored by Hometown Lawns, lights Lincoln Park and its gazebo each evening through Valentine’s Day.
+
+See the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
+
+[↑ Back to schedule](#schedule)
+
+### Christmas on the Farm at Traders Point Creamery
+
+**Saturday, December 5, 2026 · Traders Point Creamery, 9101 Moore Road · Ticketed**
+
+Christmas on the Farm is a one-day holiday event at Traders Point Creamery, the organic dairy farm in Zionsville. The event includes farm-animal encounters, wagon rides, holiday crafts, Santa activities, campfires with s’mores, seasonal food and drinks, music, and holiday decorations across the historic farm. Tickets are sold online in advance through [Eventbrite](https://www.eventbrite.com/e/christmas-on-the-farm-2026-tickets-2002940841976), with a selected arrival time.
+
+[↑ Back to schedule](#schedule)
+
 ### An Afternoon with Santa
 
 **Sunday, December 13, 2026 · Noon–4:00 p.m. · The Red Barn at Traders Point Creamery, 9101 Moore Road**
@@ -234,6 +274,26 @@ The afternoon includes visits with Santa, cookie and ornament decorating, face p
 Tickets are **$25 in advance and $30 at the door**. Children ages 3 and younger are free. Entry is offered in hourly time slots, and tickets are limited. All ticket sales support the care and work of Morning Dove Therapeutic Riding Center.
 
 Register on the [An Afternoon with Santa Eventbrite page](https://www.eventbrite.com/e/an-afternoon-with-santa-registration-2000260359581).
+
+[↑ Back to schedule](#schedule)
+
+### Luminary Walk at Elm Street Green
+
+**Wednesday, December 16, 2026 · 6:00–7:30 p.m. · Elm Street Green, Lower Shelter · Free**
+
+Zionsville Parks & Recreation hosts an evening walk along paths lined with luminaries, small lanterns lit from inside. The walk is a free drop-in event, and leashed pets are welcome.
+
+See the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
+
+[↑ Back to schedule](#schedule)
+
+### Winter Solstice Hike
+
+**Monday, December 21, 2026 · 4:00–5:00 p.m. · Carpenter Nature Preserve, Prairie Pavilion · Free**
+
+Zionsville Parks & Recreation leads an afternoon hike at Carpenter Nature Preserve to observe the seasonal change on the shortest day of the year. The hike is free, space is limited to 25 people, and everyone taking part must register in advance.
+
+Register through [Zionsville Parks & Recreation](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=30166).
 
 [↑ Back to schedule](#schedule)
 
