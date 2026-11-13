@@ -40,7 +40,7 @@ faqs:
 | Detail | Information |
 | :--- | :--- |
 | **Exhibition** | Friday, November 20 – Saturday, December 19, 2026 |
-| **Opening party** | Thursday, November 19, 2026 · 5–8 p.m. · [Tickets required](https://www.sullivanmunce.org/teeny-tiny-party.html) |
+| **Opening party** | Thursday, November 19, 2026 · 5–8 p.m. · Tickets required |
 | **Gallery hours** | Tuesday–Friday · 10 a.m.–4 p.m. · Saturday · 10 a.m.–2 p.m. |
 | **Location** | SullivanMunce Cultural Center · [225 W. Hawthorne St., Zionsville, IN 46077](https://maps.app.goo.gl/fPXyn4DwpdV7DNq98) |
 | **Admission** | Free · Opening party tickets required |
@@ -61,8 +61,8 @@ The Teeny Tiny Art Market at SullivanMunce Cultural Center is an exhibition and 
 
 The market opens with a ticketed party on Thursday, November 19, from 5 to 8 p.m., with small appetizers, wine, beer, mocktails, music, and hands-on art making. At the make-your-own mini art station, guests can leave a small piece of art and take another one home.
 
-**[Buy opening party tickets](https://www.sullivanmunce.org/teeny-tiny-party.html)**
+**[Buy opening party tickets on the SullivanMunce Cultural Center website →](https://www.sullivanmunce.org/teeny-tiny-party.html)**
 
 SullivanMunce Cultural Center is at 225 W. Hawthorne St., two blocks west of the brick section of Main Street.
 
-**[SullivanMunce Cultural Center website](https://www.sullivanmunce.org)**
+**[Visit the SullivanMunce Cultural Center website →](https://www.sullivanmunce.org)**
