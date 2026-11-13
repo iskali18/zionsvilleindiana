@@ -41,7 +41,7 @@ faqs:
 | :--- | :--- |
 | **Exhibition** | Friday, November 20 – Saturday, December 19, 2026 |
 | **Opening party** | Thursday, November 19, 2026 · 5–8 p.m. · [Tickets required](https://www.sullivanmunce.org/teeny-tiny-party.html) |
-| **Gallery hours** | Tuesdays · 10 a.m.–4 p.m. · Saturdays · 11 a.m.–2 p.m. |
+| **Gallery hours** | Tuesday–Friday · 10 a.m.–4 p.m. · Saturday · 10 a.m.–2 p.m. |
 | **Location** | SullivanMunce Cultural Center · [225 W. Hawthorne St., Zionsville, IN 46077](https://maps.app.goo.gl/fPXyn4DwpdV7DNq98) |
 | **Admission** | Free · Opening party tickets required |
 | **Pickup of sold work** | December 15–18 during regular business hours, unless other arrangements are made with SullivanMunce Cultural Center |

@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-12"
+lastUpdated: "2026-11-13"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -23,7 +23,7 @@ faqs:
   - q: "When can I see Santa in Zionsville?"
     a: "Santa and Mrs. Claus are scheduled at the Santa House at Cedar and Main on Sunday, November 29 and on the weekends of December 5–6, 12–13 and 19–20, from 11:00 a.m. to 3:00 p.m."
   - q: "What Christmas events are on December 5 in Zionsville?"
-    a: "Saturday, December 5 has six: the Zionsville Showchoir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Selfies with Santa, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
+    a: "Saturday, December 5 has six: the Zionsville Show Choir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Selfies with Santa, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
     a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
@@ -84,15 +84,16 @@ The annual Holiday Parade and Tree Lighting marks the official opening weekend o
 
 ### Selfies with Santa
 
-**Sunday, November 29; Saturdays and Sundays, December 5–6, 12–13, 19–20 · 11:00 a.m.–3:00 p.m.**
+**Saturday, November 28 · 6:30–8:00 p.m. · Town tree, Main and Pine Streets**  
+**Sunday, November 29; Saturdays and Sundays, December 5–6, 12–13, 19–20 · 11:00 a.m.–3:00 p.m. · Santa House, Cedar and Main Streets**
 
-Santa and Mrs. Claus return to the Santa House at the corner of Cedar and Main Streets on seven dates during the season. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
+After the parade on November 28, Santa and Mrs. Claus pose for photos at the town tree. Santa and Mrs. Claus then return to the Santa House at the corner of Cedar and Main Streets on seven dates during the season. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
 
 See the Chamber’s [Santa House Selfies flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/plv6EmkL).
 
 [↑ Back to schedule](#schedule)
 
-### Zionsville Showchoir Holiday Home Tour
+### Zionsville Show Choir Holiday Home Tour
 
 **Saturday, December 5, 2026 · 10:00 a.m.–4:00 p.m. · Ticketed**
 
@@ -111,7 +112,7 @@ Tickets are $25, and children 10 and under are free. Advance tickets are sold at
 
 ### Tri Kappa Santa Breakfast
 
-**Saturday, December 5, 2026 · Ticketed**
+**Saturday, December 5, 2026 · 9:00–11:00 a.m. · Ticketed**
 
 Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone County nonprofits and Zionsville Community Schools, hosts its annual Santa Breakfast. Tickets are sold through [Zionsville Tri Kappa](https://zionsvilletrikappa.org/).
 
@@ -133,7 +134,7 @@ See the Chamber’s [Maker’s Market flyer](https://zionsvillechamberofcommerce
 
 The Zionsville Chamber of Commerce offers horse-drawn carriage rides through the Village, presented by Sylo Apartments – Zionsville in partnership with SullivanMunce Cultural Center. The route starts at the Santa House at Cedar and Main and loops along Elm, Walnut, Fifth and Cedar Streets before returning to Main Street, passing Village homes and Century Structures, homes at least 100 years old.
 
-See the Chamber’s [Christmas in the Village page](https://www.zionsvillechamber.org/christmas-in-the-village/).
+See the Chamber’s [Vintage Village Carriage Rides flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/rXXEDKdr).
 
 [↑ Back to schedule](#schedule)
 
@@ -170,11 +171,19 @@ Several of the season’s larger events take place away from Main Street.
 
 ### Teeny Tiny Art Market
 
-**Friday, November 20 – Saturday, December 19, 2026 · SullivanMunce Cultural Center**
+**Opening Party · Ticketed**  
+Thursday, November 19, 2026 · 5:00–8:00 p.m.  
+SullivanMunce Cultural Center
 
-SullivanMunce Cultural Center’s Teeny Tiny Art Market features original artwork measuring 6 by 6 inches or smaller.
+**Exhibition & Art Market · Free Admission**  
+November 20–December 19, 2026  
+Tuesday–Friday: 10:00 a.m.–4:00 p.m.  
+Saturday: 10:00 a.m.–2:00 p.m.  
+SullivanMunce Cultural Center
 
-See the [Teeny Tiny Art Market page](https://business.zionsvillechamber.org/calendar/Details/teeny-tiny-art-market-opening-party-1988549).
+SullivanMunce Cultural Center’s Teeny Tiny Art Market features original artwork measuring 6 by 6 inches or smaller. The ticketed opening party on November 19 includes small appetizers, wine, beer, mocktails, music, and hands-on art making.
+
+See the [Teeny Tiny Art Market guide](/events/teeny-tiny-art-market).
 
 [↑ Back to schedule](#schedule)
 
@@ -232,7 +241,7 @@ Zionsville Parks & Recreation hosts Jingle in the Park, an evening at Lincoln Pa
 
 The event is for children ages 12 and under. Registration opens November 15, and each child must be registered in advance. Space is limited, and the registration fee is $5 for residents and $7 for nonresidents.
 
-See the [Jingle in the Park event page](/events/jingle-in-the-park).
+See the [Jingle in the Park guide](/events/jingle-in-the-park).
 
 [↑ Back to schedule](#schedule)
 
