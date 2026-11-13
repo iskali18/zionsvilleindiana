@@ -4,11 +4,11 @@ metaTitle: "Fall Activities & Things to Do in Zionsville 2026"
 metaDescription: "Fall events and things to do in Zionsville, Indiana — concerts, races, nature programs, art markets, farm visits and fall walks through November."
 description: "A guide to fall in Zionsville, Indiana, covering concerts, outdoor and nature programs, community races, art events, farm visits and seasonal traditions through November 2026."
 category: "discovery"
-hubOrder: 50
+hubOrder: 6
 draft: false
 hero_image: /images/articles/fall-activities-zionsville.webp
 hero_position: "center 75%"
-lastUpdated: "2026-11-09"
+lastUpdated: "2026-11-13"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -149,7 +149,7 @@ Not every fall outing needs a scheduled start time. Zionsville’s parks and tra
 
 ## Browse the Teeny Tiny Art Market
 
-The [Teeny Tiny Art Market](https://discoverboonecounty.com/events/event/teeny-tiny-art-market/) opens at SullivanMunce Cultural Center on **November 20** and continues through December 19.
+The [Teeny Tiny Art Market](/events/teeny-tiny-art-market) opens at SullivanMunce Cultural Center on **November 20** and continues through December 19.
 
 The juried market features miniature works by local and regional artists, with each piece measuring **6 x 6 inches or smaller**. The small-scale format makes the exhibit easy to browse, with original artwork sized for collecting or holiday gift-giving.
 
