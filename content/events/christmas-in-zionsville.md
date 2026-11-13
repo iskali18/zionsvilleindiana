@@ -61,7 +61,7 @@ The Zionsville Chamber of Commerce opens the Christmas in the Village season wit
 
 Shoppers who buy locally during the weekend receive a free tote bag while supplies last.
 
-See the Chamber’s [Small Business Weekend flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/PY0Ae6xp).
+See the [Small Business Weekend page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/PY0Ae6xp).
 
 [↑ Back to schedule](#schedule)
 
@@ -89,7 +89,7 @@ The annual Holiday Parade and Tree Lighting marks the official opening weekend o
 
 After the parade on November 28, Santa and Mrs. Claus pose for photos at the town tree. Santa and Mrs. Claus then return to the Santa House at the corner of Cedar and Main Streets on seven dates during the season. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
 
-See the Chamber’s [Santa House Selfies flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/plv6EmkL).
+See the [Santa House Selfies page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/plv6EmkL).
 
 [↑ Back to schedule](#schedule)
 
@@ -124,7 +124,7 @@ Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone
 
 Main Street Zionsville lists this as the Zionsville Parks Winter Market on the 2026 Christmas in the Village schedule. Zionsville Parks & Recreation calls it the Open-Air Maker’s Market and runs it as part of Winterfest, its winter season program. The market takes place in the parking lot at Main Street and Sycamore Street, with local makers and artists, food trucks, seasonal music, and carolers.
 
-See the Chamber’s [Maker’s Market flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/r4zND8XP).
+See the [Maker’s Market page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/r4zND8XP).
 
 [↑ Back to schedule](#schedule)
 
@@ -134,7 +134,7 @@ See the Chamber’s [Maker’s Market flyer](https://zionsvillechamberofcommerce
 
 The Zionsville Chamber of Commerce offers horse-drawn carriage rides through the Village, presented by Sylo Apartments – Zionsville in partnership with SullivanMunce Cultural Center. The route starts at the Santa House at Cedar and Main and loops along Elm, Walnut, Fifth and Cedar Streets before returning to Main Street, passing Village homes and Century Structures, homes at least 100 years old.
 
-See the Chamber’s [Vintage Village Carriage Rides flyer](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/rXXEDKdr).
+See the [Vintage Village Carriage Rides page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/rXXEDKdr).
 
 [↑ Back to schedule](#schedule)
 
@@ -151,7 +151,7 @@ Ladies Night is an evening shopping and dining event hosted by the Zionsville Ch
   </figcaption>
 </figure>
 
-See the Chamber’s [Ladies Night page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-ladies-night-1916400).
+See the [Ladies Night page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-ladies-night-1916400).
 
 [↑ Back to schedule](#schedule)
 
@@ -161,7 +161,7 @@ See the Chamber’s [Ladies Night page](https://business.zionsvillechamber.org/c
 
 The annual Christmas Crawl is an evening of shopping and socializing in Downtown Zionsville, with seasonal specials at local shops and restaurants. An ugly sweater contest begins at 8:00 p.m. at participating locations.
 
-See the Chamber’s [Christmas Crawl page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-christmas-crawl-1916452).
+See the [Christmas Crawl page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-christmas-crawl-1916452).
 
 [↑ Back to schedule](#schedule)
 
@@ -251,7 +251,7 @@ See the [Jingle in the Park guide](/events/jingle-in-the-park).
 
 Zionsville Parks & Recreation’s Lincoln Lights holiday display, sponsored by Hometown Lawns, lights Lincoln Park and its gazebo each evening through Valentine’s Day.
 
-See the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
+See the [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
 
 [↑ Back to schedule](#schedule)
 
@@ -292,7 +292,7 @@ Register on the [An Afternoon with Santa Eventbrite page](https://www.eventbrite
 
 Zionsville Parks & Recreation hosts an evening walk along paths lined with luminaries, small lanterns lit from inside. The walk is a free drop-in event, and leashed pets are welcome.
 
-See the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
+See the [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
 
 [↑ Back to schedule](#schedule)
 
