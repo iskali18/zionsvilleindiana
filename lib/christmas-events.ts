@@ -66,7 +66,7 @@ export const EVENTS: ChristmasEvent[] = [
     end: '2026-12-19',
     types: ['Shopping & Markets'],
     admission: 'unknown',
-    time: 'Tue\u2013Sat',
+    time: 'Tue\u2013Sat \u00b7 Closed Nov. 26',
     venue: 'SullivanMunce Cultural Center',
     summary: 'Original artwork measuring 6 by 6 inches or smaller',
   },

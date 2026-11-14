@@ -13,7 +13,7 @@ image: /images/events/teeny-tiny-art-market-zionsville-collage.webp
 imageAlt: "Collage of nine colorful artworks featuring landscapes, ocean waves, flowers, abstract designs, and a decorative mosaic."
 featured: true
 tags: [art, shopping, free]
-lastUpdated: "2026-11-13"
+lastUpdated: "2026-11-14"
 faqs:
   - q: "When is the Teeny Tiny Art Market in 2026?"
     a: "The exhibition and market run November 20 through December 19, 2026, at SullivanMunce Cultural Center during regular gallery hours. An opening party takes place Thursday, November 19, from 5 to 8 p.m."
@@ -41,7 +41,7 @@ faqs:
 | :--- | :--- |
 | **Exhibition** | Friday, November 20 – Saturday, December 19, 2026 |
 | **Opening party** | Thursday, November 19, 2026 · 5–8 p.m. · Tickets required |
-| **Gallery hours** | Tuesday–Friday · 10 a.m.–4 p.m. · Saturday · 10 a.m.–2 p.m. |
+| **Gallery hours** | Tuesday–Friday · 10 a.m.–4 p.m. · Saturday · 10 a.m.–2 p.m. · Closed Thanksgiving Day, November 26 |
 | **Location** | SullivanMunce Cultural Center · [225 W. Hawthorne St., Zionsville, IN 46077](https://maps.app.goo.gl/fPXyn4DwpdV7DNq98) |
 | **Admission** | Free · Opening party tickets required |
 | **Pickup of sold work** | December 15–18 during regular business hours, unless other arrangements are made with SullivanMunce Cultural Center |

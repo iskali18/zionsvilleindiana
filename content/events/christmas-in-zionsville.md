@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-13"
+lastUpdated: "2026-11-14"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -179,6 +179,7 @@ SullivanMunce Cultural Center
 November 20–December 19, 2026  
 Tuesday–Friday: 10:00 a.m.–4:00 p.m.  
 Saturday: 10:00 a.m.–2:00 p.m.  
+Closed Thanksgiving Day, November 26  
 SullivanMunce Cultural Center
 
 SullivanMunce Cultural Center’s Teeny Tiny Art Market features original artwork measuring 6 by 6 inches or smaller. The ticketed opening party on November 19 includes small appetizers, wine, beer, mocktails, music, and hands-on art making.
@@ -236,6 +237,15 @@ Christmas events elsewhere in Zionsville include those hosted by local businesse
 ### Jingle in the Park
 
 **Friday, December 4, 2026 · 4:00–6:00 p.m. · Lincoln Park, [100 W. Oak St.](https://maps.app.goo.gl/zKcxidf1e4uVR2UF7)**
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/jingle-in-the-park-zionsville-reindeer.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/jingle-in-the-park-zionsville-reindeer.webp" alt="Harnessed reindeer and wooden sleigh in deep snow surrounded by winter pine trees" class="rounded-lg shadow-sm cursor-zoom-in" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Visitors can see live reindeer at Lincoln Park during the annual Jingle in the Park celebration in Zionsville.
+  </figcaption>
+</figure>
 
 Zionsville Parks & Recreation hosts Jingle in the Park, an evening at Lincoln Park with visits with Santa, live reindeer, and holiday crafts and activities, along with the annual Lincoln Park lighting sponsored by Hometown Lawns.
 
