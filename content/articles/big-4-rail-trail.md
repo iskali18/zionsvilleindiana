@@ -3,7 +3,7 @@ title: Zionsville Rail Trail Guide
 metaTitle: "Zionsville Rail Trail: Maps, Parking & Amenities"
 metaDescription: Zionsville Rail Trail section maps, trailheads, distances, parking, restrooms, trail amenities, landmarks, and access points.
 category: discovery
-hubOrder: 90
+hubOrder: 60
 draft: false
 hero_image: /images/articles/zionsville-rail-trail-hero.webp
 hero_credit: "© ZionsvilleIndiana.com"

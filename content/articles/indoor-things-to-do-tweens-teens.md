@@ -4,7 +4,7 @@ metaTitle: "37 Indoor Activities for Older Kids & Teens: NW Indianapolis"
 metaDescription: "37 indoor places for older kids and teens in Zionsville, Carmel, Westfield, Brownsburg, Lebanon, and NW Indy, from climbing and karting to free libraries."
 description: "A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces."
 category: "family"
-hubOrder: 70
+hubOrder: 90
 draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"

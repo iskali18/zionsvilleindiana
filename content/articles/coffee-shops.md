@@ -3,9 +3,9 @@ title: "Coffee Shops in Zionsville"
 metaTitle: "Zionsville Coffee Shops: Local Cafés, Roasters & Drive-Thrus"
 metaDescription: "Compare local coffee shops in Zionsville and Whitestown — downtown Village cafés, roasters, drive-thrus, and spots for laptop work or breakfast."
 category: "food"
-hubOrder: 110
+hubOrder: 50
 draft: false
-hero_image: /images/articles/zionsville-coffee-shops-hero-roasted-in-the-village.webp
+hero_image: /images/articles/coffee-to-go.jpg
 hero_position: "center 45%"
 lastUpdated: "2026-08-08"
 faqs:

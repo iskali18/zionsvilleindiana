@@ -1,14 +1,14 @@
 ---
-title: "24 Date Ideas Near Zionsville and Indianapolis for 2027: Two for Every Month"
-metaTitle: "24 Date Ideas Near Zionsville & Indianapolis (2027)"
-metaDescription: "Explore 24 date ideas near Zionsville and Indianapolis for 2027, with two options for every month, from concerts and classes to seasonal outings."
-description: "A month-by-month guide to 24 date ideas near Zionsville and Indianapolis for 2027, featuring concerts, hands-on classes, outdoor adventures, and seasonal events, with two activities for every month."
+title: "24 Date Night Ideas (and Day Dates) Near Zionsville & NW Indy for 2027"
+metaTitle: "24 Date Night Ideas Near Zionsville & Indianapolis (2027)"
+metaDescription: "Explore 24 date night ideas and day dates near Zionsville and Indianapolis for 2027, featuring concerts, outdoor activities, and seasonal events."
+description: "A month-by-month guide to 24 date night ideas and day dates near Zionsville and NW Indianapolis, featuring concerts, classes, outdoor activities, and seasonal events, with two activities for every month in 2027."
 category: "discovery"
 hubOrder: 80
 draft: false
 hero_image: /images/articles/candlelight-concert-scottish-rite-cathedral-indianapolis.webp
 hero_position: "center 47%"
-lastUpdated: "2026-11-09"
+lastUpdated: "2026-11-13"
 ctas:
   - label: See upcoming Zionsville events
     href: /events

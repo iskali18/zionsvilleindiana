@@ -5,7 +5,7 @@ metaTitle: "39 Indoor Activities for Young Kids: NW Indianapolis"
 metaDescription: "39 indoor winter activities for kids ages 0–9 near Zionsville and Indianapolis, including playgrounds, sensory play, sports, music, art, and free options."
 description: "A guide to indoor playgrounds, sensory play, sports, music, dance, art, and free library programs for kids ages 0–9 near Zionsville and NW Indianapolis."
 category: "family"
-hubOrder: 60
+hubOrder: 110
 draft: false
 hero_image: /images/articles/indoor-things-to-do-kids-hero.webp
 hero_position: "center 25%"
