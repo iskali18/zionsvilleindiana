@@ -454,42 +454,43 @@ export default function HomePage() {
             <p className="text-xs uppercase tracking-widest text-brick-600 font-medium mb-3">
               Featured Article
             </p>
-            <div className="grid lg:grid-cols-2 gap-8 items-center">
+            <div className="grid lg:grid-cols-2 gap-8 items-start">
               <figure className="m-0">
                 <Link
-                  href="/articles/fall-activities-zionsville"
+                  href="/events/christmas-in-zionsville"
                   className="group relative aspect-[16/9] rounded-lg overflow-hidden bg-stone-200 block"
                 >
                   <Image
-                    src="/images/articles/fall-activities-zionsville.webp"
-                    alt="Vibrant red and orange autumn foliage lining the paved Zionsville Rail Trail with fallen leaves scattered along the path in Zionsville, Indiana."
+                    src="/images/events/brick-street-hotel-christmas-lights.webp"
+                    alt="Exterior of the Brick Street Inn at night in Zionsville, Indiana, decorated with holiday string lights, Christmas wreaths, and snow-covered outdoor patio seating."
                     fill
                     sizes="(min-width: 1024px) 536px, 100vw"
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    className="object-cover object-[center_70%] group-hover:scale-105 transition-transform duration-300"
                     quality={65}
                   />
                 </Link>
                 <figcaption className="text-xs text-stone-500 italic mt-2">
-                  Peak fall colors framing the paved Zionsville Rail Trail in Zionsville.{' '}
+                  The Brick Street Inn decorated for the holidays in downtown Zionsville.{' '}
                   <span className="not-italic">© ZionsvilleIndiana.com</span>
                 </figcaption>
               </figure>
               <div>
                 <Link
-                  href="/articles/fall-activities-zionsville"
+                  href="/events/christmas-in-zionsville"
                   className="group inline-block"
                 >
                   <h2 className="font-display text-3xl text-stone-900 group-hover:text-brick-600 transition-colors leading-tight mb-4">
-                    Fall Activities in Zionsville 2026
+                    Christmas in Zionsville 2026
                   </h2>
                 </Link>
                 <p className="text-stone-700 leading-relaxed mb-6">
-                  Fall in Zionsville brings concerts and live performances, outdoor and nature
-                  activities, community races, art events, farm visits, and traditional fall
-                  activities throughout September, October, and November.
+                  Zionsville’s Christmas calendar features the Holiday Parade and Tree Lighting,
+                  Santa visits, holiday markets, live concerts, two productions of{' '}
+                  <em>The Nutcracker</em>, and Christmas celebrations at local churches, with
+                  events scheduled from late November through Christmas Eve.
                 </p>
                 <Link
-                  href="/articles/fall-activities-zionsville"
+                  href="/events/christmas-in-zionsville"
                   className="inline-block bg-brick-500 hover:bg-brick-600 text-white px-5 py-2.5 rounded font-medium transition-colors text-sm"
                 >
                   Read the guide →

@@ -5,7 +5,7 @@ metaDescription: "Compare local coffee shops in Zionsville and Whitestown — do
 category: "food"
 hubOrder: 50
 draft: false
-hero_image: /images/articles/coffee-to-go.webp
+hero_image: /images/articles/coffee-to-go.webp                        
 hero_position: "center 45%"
 lastUpdated: "2026-08-08"
 faqs:
