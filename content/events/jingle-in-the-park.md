@@ -1,5 +1,5 @@
 ---
-title: "Jingle in the Park in Zionsville"
+title: "Jingle in the Park"
 description: "See live reindeer, visit Santa, and enjoy holiday crafts at Lincoln Park as the park’s seasonal lights debut."
 metaTitle: "Jingle in the Park 2026 | Dec. 4 at Lincoln Park, Zionsville"
 metaDescription: "Jingle in the Park at Lincoln Park in downtown Zionsville, Dec. 4, 4–6 p.m.: Santa, live reindeer, holiday crafts, and the start of Lincoln Lights. Registration required."
