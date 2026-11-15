@@ -23,7 +23,7 @@ faqs:
   - q: "When can I see Santa in Zionsville?"
     a: "Santa and Mrs. Claus are scheduled at the Santa House at Cedar and Main on Sunday, November 29 and on the weekends of December 5–6, 12–13 and 19–20, from 11:00 a.m. to 3:00 p.m."
   - q: "What Christmas events are on December 5 in Zionsville?"
-    a: "Saturday, December 5 has six: the Zionsville Show Choir Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Selfies with Santa, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
+    a: "Saturday, December 5 has six: the Zionsville Show Choirs Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Selfies with Santa, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
     a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
@@ -93,18 +93,11 @@ See the [Santa House Selfies page](https://zionsvillechamberofcommerce.growthzon
 
 [↑ Back to schedule](#schedule)
 
-### Zionsville Show Choir Holiday Home Tour
+### Zionsville Show Choirs Holiday Home Tour
 
 **Saturday, December 5, 2026 · 10:00 a.m.–4:00 p.m. · Ticketed**
 
 Presented by Zionsville Show Choirs and historically known as Carol of Homes, the tour features six festively decorated private homes, with Zionsville Community High School show choir students performing holiday solos and small-group arrangements inside.
-
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    The Santa House on the corner of Cedar and Main Streets in downtown Zionsville following a snowfall.
-  </figcaption>
-</figure>
 
 Tickets are $25, and children 10 and under are free. Advance tickets are sold at Fivethirty Home, Great Lakes Ace Hardware, Village Mattress, and by show choir students. Cash-only tickets are also sold at the homes on the day of the tour. See the [Holiday Home Tour website](https://holidayhometour.weebly.com/).
 
@@ -129,6 +122,13 @@ See the [Maker’s Market page](https://zionsvillechamberofcommerce.growthzoneap
 [↑ Back to schedule](#schedule)
 
 ### Vintage Village Carriage Rides
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The Santa House at Cedar and Main Streets in downtown Zionsville serves as the location for Selfies with Santa visits and the starting point for horse-drawn carriage rides.
+  </figcaption>
+</figure>
 
 **Saturdays and Sundays, December 5–6 and 19–20, 2026 · 3:00–5:00 p.m. · Santa House, Cedar and Main Streets**
 

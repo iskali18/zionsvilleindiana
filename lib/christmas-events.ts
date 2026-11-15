@@ -175,8 +175,8 @@ export const EVENTS: ChristmasEvent[] = [
     summary: 'Farm animals, wagon rides, holiday crafts, Santa and campfires with s\u2019mores',
   },
   {
-    name: 'Zionsville Show Choir Holiday Home Tour',
-    anchor: 'zionsville-show-choir-holiday-home-tour',
+    name: 'Zionsville Show Choirs Holiday Home Tour',
+    anchor: 'zionsville-show-choirs-holiday-home-tour',
     dates: ['2026-12-05'],
     types: ['Family', 'Concerts & Performances'],
     admission: 'ticketed',
