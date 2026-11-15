@@ -18,7 +18,7 @@ photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
 tags: [holiday, family, parade, free, outdoor]
-lastUpdated: "2026-11-10"
+lastUpdated: "2026-11-15"
 faqs:
   - q: "When is the Zionsville Christmas Parade?"
     a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026. The parade begins at 5:00 PM at Eagle Elementary and ends on Main Street at approximately 6:00 PM."
@@ -71,6 +71,17 @@ Parking fills quickly throughout the Village for the parade and tree lighting, s
 The largest public lot is at the northwest corner of Main Street and Sycamore Road, with access from First Street. The lot at the southwest corner of Main and Pine Streets is closed for the tree lighting.
 
 Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park. Many parking areas are within an easy walk of the parade route.
+
+## Parade route
+
+<div class="aspect-[4/3] sm:aspect-[16/10] rounded-lg overflow-hidden border border-stone-200 bg-stone-100 my-6">
+  <iframe
+    src="https://www.google.com/maps/d/embed?mid=1y6sFdPJ4LErbLUtgLGAuAAIaEZxUrTs&ehbc=2E312F"
+    title="Zionsville Christmas Parade route map"
+    loading="lazy"
+    class="w-full h-full"
+  ></iframe>
+</div>
 
 ## Downtown map
 

@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-14"
+lastUpdated: "2026-11-15"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -51,13 +51,13 @@ Christmas in Zionsville runs from late November through Christmas Eve. The seaso
 
 ## Christmas in the Village
 
-The Zionsville Chamber of Commerce’s Christmas in the Village program begins Thanksgiving weekend and continues through Christmas Eve, with events along Main Street and the surrounding Village streets. The program opens with Small Business Weekend, November 27–29.
+The Zionsville Chamber of Commerce’s Christmas in the Village program begins Thanksgiving weekend and continues through Christmas Eve, with events along Main Street and the surrounding Village streets.
 
 ### Small Business Weekend
 
 **Friday, November 27 – Sunday, November 29, 2026 · Downtown Zionsville**
 
-The Zionsville Chamber of Commerce opens the Christmas in the Village season with Small Business Weekend, the weekend after Thanksgiving, with holiday shopping at locally owned businesses in Downtown Zionsville.
+The Zionsville Chamber of Commerce hosts Small Business Weekend the weekend after Thanksgiving, with holiday shopping at locally owned businesses in Downtown Zionsville.
 
 Shoppers who buy locally during the weekend receive a free tote bag while supplies last.
 
