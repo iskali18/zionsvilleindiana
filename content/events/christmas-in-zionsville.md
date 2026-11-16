@@ -106,7 +106,7 @@ See the [Santa House Selfies page](https://zionsvillechamberofcommerce.growthzon
 
 Presented by Zionsville Show Choirs and historically known as Carol of Homes, the tour features six festively decorated private homes, with Zionsville Community High School show choir students performing holiday solos and small-group arrangements inside.
 
-Tickets are $25, and children 10 and under are free. Advance tickets are sold at Fivethirty Home, Great Lakes Ace Hardware, Village Mattress, and by show choir students. Cash-only tickets are also sold at the homes on the day of the tour. See the [Holiday Home Tour website](https://holidayhometour.weebly.com/).
+Tickets are $25, and children 10 and under are free. Advance tickets are sold at Fivethirty Home, Great Lakes Ace Hardware, Village Mattress, and by show choir students. Cash-only tickets are also sold at the homes on the day of the tour. See the [Holiday Home Tour guide](/events/show-choirs-holiday-home-tour).
 
 [↑ Back to schedule](#schedule)
 
