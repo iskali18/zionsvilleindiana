@@ -67,14 +67,14 @@ See the [Small Business Weekend page](https://zionsvillechamberofcommerce.growth
 
 ### Holiday Parade & Tree Lighting
 
-**Saturday, November 28, 2026 · 5:00–6:30 p.m.**
-
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-80 mb-4">
   <img src="/images/events/christmas-in-zionsville-santa-carriage.webp" alt="Santa Claus and Mrs. Claus waving from a horse-drawn carriage during the holiday parade along brick Main Street in Zionsville, Indiana." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
     Santa Claus and Mrs. Claus riding down Main Street in a horse-drawn carriage during the annual Zionsville holiday parade.
   </figcaption>
 </figure>
+
+**Saturday, November 28, 2026 · 5:00–6:30 p.m.**
 
 The annual Holiday Parade and Tree Lighting marks the official opening weekend of the Christmas in the Village season. The parade travels along Main Street before concluding with the traditional lighting of the town tree.
 
@@ -86,6 +86,13 @@ The annual Holiday Parade and Tree Lighting marks the official opening weekend o
 
 **Saturday, November 28 · 6:30–8:00 p.m. · Town tree, Main and Pine Streets**  
 **Sunday, November 29; Saturdays and Sundays, December 5–6, 12–13, 19–20 · 11:00 a.m.–3:00 p.m. · Santa House, Cedar and Main Streets**
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The Santa House at Cedar and Main Streets in downtown Zionsville serves as the location for Selfies with Santa visits and the starting point for horse-drawn carriage rides.
+  </figcaption>
+</figure>
 
 After the parade on November 28, Santa and Mrs. Claus pose for photos at the town tree. Santa and Mrs. Claus then return to the Santa House at the corner of Cedar and Main Streets on seven dates during the season. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
 
@@ -107,7 +114,7 @@ Tickets are $25, and children 10 and under are free. Advance tickets are sold at
 
 **Saturday, December 5, 2026 · 9:00–11:00 a.m. · Ticketed**
 
-Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone County nonprofits and Zionsville Community Schools, hosts its annual Santa Breakfast. Tickets are sold through [Zionsville Tri Kappa](https://zionsvilletrikappa.org/).
+Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone County nonprofits and Zionsville Community Schools, hosts its annual Santa Breakfast. Tickets are sold through [Eventbrite](https://www.eventbrite.com/e/santa-breakfast-hosted-by-the-zionsville-tri-kappa-elves-tickets-2004177478790?aff=oddtdtcreator).
 
 [↑ Back to schedule](#schedule)
 
@@ -122,13 +129,6 @@ See the [Maker’s Market page](https://zionsvillechamberofcommerce.growthzoneap
 [↑ Back to schedule](#schedule)
 
 ### Vintage Village Carriage Rides
-
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    The Santa House at Cedar and Main Streets in downtown Zionsville serves as the location for Selfies with Santa visits and the starting point for horse-drawn carriage rides.
-  </figcaption>
-</figure>
 
 **Saturdays and Sundays, December 5–6 and 19–20, 2026 · 3:00–5:00 p.m. · Santa House, Cedar and Main Streets**
 
