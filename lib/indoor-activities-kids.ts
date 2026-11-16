@@ -484,3 +484,15 @@ export function sortActivities(key: SortKey, dir: SortDir = 'asc'): IndoorActivi
     (a, b) => sign * compare(a[key], b[key]) || compare(a.name, b.name)
   )
 }
+
+/** Opening order, before any header is clicked: Drop-In places first (including
+ *  places that also offer classes), then class-only places, each group A to Z
+ *  by name. */
+export function defaultOrder(): IndoorActivity[] {
+  const compare = (x: string, y: string) =>
+    x.localeCompare(y, 'en', { numeric: true, sensitivity: 'base' })
+  const dropIn = (a: IndoorActivity) => (a.types.includes('Drop-In') ? 0 : 1)
+  return [...INDOOR_ACTIVITIES].sort(
+    (a, b) => dropIn(a) - dropIn(b) || compare(a.name, b.name)
+  )
+}

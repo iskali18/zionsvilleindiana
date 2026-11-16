@@ -7,6 +7,7 @@ import {
   CATEGORIES,
   filterActivities,
   sortActivities,
+  defaultOrder,
   type Filter,
   type SortKey,
   type SortDir,
@@ -17,9 +18,10 @@ import {
  *  Chips sit in two labeled rows. The first row (Drop-In, Classes and the free
  *  toggle) shortens the list; the "Activities" row is OR within
  *  itself. See filterActivities in
- *  lib/indoor-activities-kids.ts. Opens A to Z by name. Each of
- *  the Activity, Where and Ages headers sorts by its column; clicking the
- *  active header again flips between A to Z and Z to A.
+ *  lib/indoor-activities-kids.ts. Opens with Drop-In places first, then
+ *  class-only places, each A to Z (see defaultOrder). Each of the Activity,
+ *  Where and Ages headers sorts by its column; clicking the active header
+ *  again flips between A to Z and Z to A.
  */
 
 const SORT_LABELS: Record<SortKey, string> = {
@@ -40,7 +42,8 @@ function SortIcon({ state }: { state: 'asc' | 'desc' | 'none' }) {
   )
 }
 export default function IndoorActivitiesKidsTable() {
-  const [sortKey, setSortKey] = useState<SortKey>('name')
+  /** Null until a header is clicked, which shows the default order. */
+  const [sortKey, setSortKey] = useState<SortKey | null>(null)
   const [sortDir, setSortDir] = useState<SortDir>('asc')
   const [active, setActive] = useState<Filter[]>([])
   const [freeOnly, setFreeOnly] = useState(false)
@@ -49,7 +52,12 @@ export default function IndoorActivitiesKidsTable() {
     setActive((prev) => (prev.includes(f) ? prev.filter((x) => x !== f) : [...prev, f]))
 
   const rows = useMemo(
-    () => filterActivities(sortActivities(sortKey, sortDir), active, freeOnly),
+    () =>
+      filterActivities(
+        sortKey ? sortActivities(sortKey, sortDir) : defaultOrder(),
+        active,
+        freeOnly
+      ),
     [sortKey, sortDir, active, freeOnly]
   )
 

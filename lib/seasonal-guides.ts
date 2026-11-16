@@ -43,7 +43,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     season: 'fall',
     blurb: 'Festivals, walks, races and seasonal events around town.',
     from: '2026-09-01',
-    to: '2026-11-26',
+    to: '2026-11-15',
     priority: 20,
   },
   {
