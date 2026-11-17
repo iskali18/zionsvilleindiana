@@ -102,28 +102,29 @@ const quickLinks = [
 
 const featuredGuides = [
   {
-    title: 'Zionsville Rail Trail',
+    title: '24 Christmas Events & Attractions Near Indianapolis',
     description:
-      'A paved rail-to-trail path connecting Zionsville to the surrounding area, popular for walking and biking.',
-    href: '/articles/big-4-rail-trail',
-    image: '/images/articles/zionsville-rail-trail-hero.webp',
-    imageAlt: 'Zionsville Rail Trail in Zionsville, Indiana',
-  },  
+      'A guide to the 2026 Christmas season near Zionsville and Indianapolis, covering major light displays and holiday attractions, plus Christmas events at local farms.',
+    href: '/articles/christmas-holiday-attractions-near-indianapolis',
+    image: '/images/articles/christmas-events-indianapolis-newfields-winterlights.webp',
+    imageAlt:
+      'Visitors walking along a tree-lined path illuminated by thousands of white Christmas lights and hanging lighted ornaments during Winterlights at Newfields in Indianapolis.',
+  },
   {
-    title: 'Downtown Zionsville Map',
+    title: 'Indoor Things to Do for Kids Near Zionsville This Winter',
     description:
-      'A printable map of downtown Zionsville with shops, restaurants, parking, and the Village district.',
-    href: '/articles/downtown-zionsville-map',
-    image: '/images/articles/downtown-zionsville-map-hero.webp',
-    imageAlt: 'Map of downtown Zionsville, Indiana',
-  },  
+      'A guide to indoor playgrounds, sensory play, sports, music, dance, art, and free library programs for kids ages 0\u20139 near Zionsville and NW Indianapolis.',
+    href: '/articles/indoor-things-to-do-kids',
+    image: '/images/articles/indoor-things-to-do-kids-hero.webp',
+    imageAlt: 'Indoor activities for kids near Zionsville',
+  },
   {
-    title: 'Pumpkin Patches & Corn Mazes',
+    title: 'Indoor Things to Do for Older Kids & Teens Near Zionsville',
     description:
-      'Compare 17 farms and orchards near Indianapolis by cost, activities and what\u2019s open when.',
-    href: '/articles/pumpkin-patches-corn-mazes-near-indianapolis',
-    image: '/images/articles/fall-farms-pumpkins-patches-near-zionsville-indianapolis.webp',
-    imageAlt: 'Pumpkins at a pumpkin patch near Zionsville and Indianapolis',
+      'A guide to indoor outings and activities for older kids, tweens, and teens near Zionsville and NW Indianapolis, covering drop-in spots, specialized classes, and free library spaces.',
+    href: '/articles/indoor-things-to-do-tweens-teens',
+    image: '/images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp',
+    imageAlt: 'Two teens in go-karts',
   },
 ]
 
@@ -414,7 +415,7 @@ export default function HomePage() {
                 <span className="text-2xl transition-transform group-hover:translate-x-1" aria-hidden="true">→</span>
               </Link>
               <p className="text-stone-500 mt-1">
-                Trails, downtown and fall farms
+                Christmas lights, holiday events, and indoor activities for kids and teens near Zionsville and Indianapolis.
               </p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
