@@ -63,16 +63,8 @@ export default function ChristmasEventTable() {
             accent="amber"
           />
         ))}
-        {/* Admission is an attribute, not a type. On wide screens a rule
-            separates it; on mobile the rule would be lost in the wrap, so it
-            breaks to its own line with a label instead. */}
-        <span className="basis-full sm:hidden" aria-hidden="true" />
-        <span className="mx-1 hidden w-px self-stretch bg-stone-200 sm:block" aria-hidden="true" />
-        <span className="self-center text-xs font-medium text-stone-500 sm:hidden">
-          Admission
-        </span>
         <Toggle
-          label="Free only"
+          label="Free admission"
           active={freeOnly}
           onClick={() => setFreeOnly((v) => !v)}
           accent="amber"

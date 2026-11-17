@@ -9,7 +9,7 @@ draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-11-09"
+lastUpdated: "2026-11-17"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -111,6 +111,13 @@ Malibu Jack’s is a 135,000-square-foot indoor amusement park at Tippecanoe Mal
 **Planning note:** Some attractions, including laser tag, bumper cars, and the Dark Ride, open at 4 PM Monday through Friday.
 
 [Visit Malibu Jack’s →](https://www.malibujacks.net/lafayette/home)
+
+<figure class="my-8">
+  <video src="/videos/articles/indoor-things-to-do-kids-malibu-jacks-rides.mp4" poster="/images/articles/indoor-things-to-do-kids-malibu-jacks-rides-poster.webp" autoplay muted loop playsinline controls preload="metadata" aria-label="Riders on the Twist N’ Shout coaster circling a lighted track at Malibu Jack’s indoor amusement park in Lafayette." class="w-full h-auto rounded"></video>
+  <figcaption class="text-sm text-stone-600 italic mt-2">
+    The Twist N’ Shout coaster at Malibu Jack’s, an indoor amusement park in Lafayette. Video by © ZionsvilleIndiana.com
+  </figcaption>
+</figure>
 
 [↑ Back to activities](#at-a-glance)
 
