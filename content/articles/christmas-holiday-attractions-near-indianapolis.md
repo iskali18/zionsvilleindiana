@@ -1,5 +1,5 @@
 ---
-title: "Christmas & Holiday Events Near Zionsville and Indianapolis (2026)"
+title: "24 Christmas & Holiday Events Near Zionsville and Indianapolis (2026)"
 metaTitle: "Christmas Lights & Holiday Events Near Indianapolis 2026"
 metaDescription: "Christmas lights and holiday attractions near Zionsville and Indianapolis in 2026, from Winterlights and Christmas at the Zoo to farm train rides and Santa."
 description: "A guide to the 2026 Christmas season near Zionsville and Indianapolis, covering major light displays and holiday attractions, plus Christmas events at local farms."
