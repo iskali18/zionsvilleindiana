@@ -4,7 +4,7 @@ metaTitle: "24 Date Night Ideas Near Zionsville & Indianapolis (2027)"
 metaDescription: "Explore 24 date night ideas and day dates near Zionsville and Indianapolis for 2027, featuring concerts, outdoor activities, and seasonal events."
 description: "A month-by-month guide to 24 date night ideas and day dates near Zionsville and NW Indianapolis, featuring concerts, classes, outdoor activities, and seasonal events, with two activities for every month in 2027."
 category: "discovery"
-hubOrder: 80
+hubOrder: 120
 draft: false
 hero_image: /images/articles/candlelight-concert-scottish-rite-cathedral-indianapolis.webp
 hero_position: "center 47%"
