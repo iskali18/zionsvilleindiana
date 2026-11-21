@@ -9,7 +9,7 @@ draft: false
 hero_image: /images/articles/indoor-activities-tweens-teens-zionsville-go-kart.webp
 hero_credit: "© ZionsvilleIndiana.com"
 hero_position: "center 65%"
-lastUpdated: "2026-11-17"
+lastUpdated: "2026-11-21"
 ctas:
   - label: See all Zionsville events
     href: /events
@@ -152,9 +152,9 @@ Guests of all ages can participate, but ages 14 and under must have an adult age
 ### Pinheads (Brownsburg & Fishers) & Royal Pin Woodland (Indianapolis)
 
 <figure class="my-8">
-  <img src="/images/articles/indoor-activities-tweens-teens-zionsville-bowling.webp" alt="Row of brightly colored bowling balls at the start of a modern indoor bowling lane with neon blacklight effects." width="1800" height="1200" class="w-full h-auto rounded" />
+  <img src="/images/articles/indoor-activities-tweens-teens-zionsville-royal-pin-woodland-bowling.webp" alt="Bowling lanes, seating areas, and overhead scoring screens at Royal Pin Woodland in Indianapolis, with bowlers gathered near the far lanes." width="1800" height="1200" class="w-full h-auto rounded" />
   <figcaption class="text-sm text-stone-600 italic mt-2">
-    Bowling lanes glowing under blacklights during cosmic bowling.
+    Royal Pin Woodland in Indianapolis offers bowling in a spacious entertainment center with dozens of lanes, lounge seating, and electronic scoring.
   </figcaption>
 </figure>
 

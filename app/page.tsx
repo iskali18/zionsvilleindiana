@@ -353,7 +353,7 @@ export default function HomePage() {
               >
                 <div className="relative aspect-[16/9] bg-stone-100">
                   <Image
-                    src="/images/downtown/zionsville-downtown-shopping.jpg"
+                    src="/images/downtown/zionsville-downtown-shopping-winter.webp"
                     alt="Shopping in downtown Zionsville"
                     fill
                     sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
