@@ -58,16 +58,6 @@ export const FALL_ACTIVITIES: FallActivity[] = [
     featured: 130,
   },
   {
-    name: 'Fall Campfire',
-    anchor: 'fall-campfire',
-    when: 'Nov. 21',
-    sortDate: '2026-11-21',
-    what: 'Sunset animal walk and marshmallow roasting at Carpenter Nature Preserve',
-    types: ['Family', 'Outdoors'],
-    free: false,
-    featured: 140,
-  },
-  {
     name: 'Zionsville Eagles Games',
     anchor: 'catch-a-zionsville-eagles-game',
     when: 'Throughout fall',

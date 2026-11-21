@@ -1,9 +1,9 @@
 ---
 title: "Fall Programs in Zionsville Parks"
-description: "Owl walks and campfires in Zionsville parks"
+description: "Night hikes and owl walks in Zionsville parks"
 eventType: annual
 startDate: "2026-09-17"
-endDate: "2026-11-21"
+endDate: "2026-11-13"
 location: "Carpenter Nature Preserve"
 image: /images/events/zionsville-parks-fall-trees-960w.webp
 imageAlt: "Autumn woodland with yellow and orange leaves illuminated by sunlight."
@@ -23,10 +23,4 @@ items:
     linkTo: "/articles/fall-activities-zionsville#owl-prowl"
     image: /images/events/zionsville-parks-owl-prowl-960w.webp
     imageAlt: "Eastern screech-owl resting in a hollow tree trunk."      
-  - title: "Fall Campfire at Carpenter Nature Preserve"
-    date: "2026-11-21"
-    description: "A sunset walk looking for animals active at dusk, followed by marshmallow roasting."
-    linkTo: "/articles/fall-activities-zionsville#fall-campfire"
-    image: /images/events/zionsville-parks-campfire.webp
-    imageAlt: "Campfire burning in a fire pit among trees at sunset."      
 ---

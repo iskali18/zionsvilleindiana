@@ -127,7 +127,13 @@ export default async function ArticlePage({ params }: Props) {
         )}
         {ZCS_YEAR_PAGES[slug] && <ZcsMilestones events={ZCS_YEAR_PAGES[slug]} />}
         {slug === 'pumpkin-patches-corn-mazes-near-indianapolis' && <FallFarmComparison />}
-        {slug === 'fall-activities-zionsville' && <FallActivitiesTable />}
+        {slug === 'fall-activities-zionsville' && (
+          <>
+            {/* Out of season: points readers to the guides that are live now. */}
+            <SeasonalGuidesStrip tone="plain" className="mb-8" />
+            <FallActivitiesTable />
+          </>
+        )}
         {slug === 'indoor-things-to-do-tweens-teens' && <IndoorActivitiesTeensTable />}
         {slug === 'indoor-things-to-do-kids' && <IndoorActivitiesKidsTable />}
         {slug === 'christmas-holiday-attractions-near-indianapolis' && <HolidayAttractionsTable />}

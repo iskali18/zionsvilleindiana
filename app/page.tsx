@@ -102,7 +102,7 @@ const quickLinks = [
 
 const featuredGuides = [
   {
-    title: '24 Christmas Events & Attractions Near Indianapolis',
+    title: '25 Best Christmas Lights & Events Near Indianapolis',
     description:
       'A guide to the 2026 Christmas season near Zionsville and Indianapolis, covering major light displays and holiday attractions, plus Christmas events at local farms.',
     href: '/articles/christmas-holiday-attractions-near-indianapolis',

@@ -79,6 +79,16 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     priority: 10,
   },
   {
+    href: '/articles/christmas-holiday-attractions-near-indianapolis',
+    title: 'Best Christmas Lights & Events Near Indianapolis',
+    season: 'holiday',
+    pinned: true,
+    blurb: '25 light displays, holiday festivals, and Santa visits near Zionsville.',
+    from: '2026-11-21',
+    to: '2027-01-03',
+    priority: 15,
+  },
+  {
     href: '/articles/indoor-things-to-do-kids',
     title: 'Indoor Things to Do for Young Kids This Winter',
     season: 'winter',
