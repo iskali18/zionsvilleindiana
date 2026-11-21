@@ -96,7 +96,7 @@ export default function HolidayAttractionsTable() {
         Christmas Events at a Glance
       </h2>
       <p className="mt-1.5 mb-5 text-stone-600">
-        Filter by type or show only free attractions.
+        Filter by type or show attractions with free admission.
       </p>
 
       <div className="flex flex-wrap gap-2">
@@ -110,7 +110,7 @@ export default function HolidayAttractionsTable() {
           />
         ))}
         <Toggle
-          label="Free admission"
+          label="Free admission available"
           active={freeOnly}
           onClick={() => setFreeOnly((v) => !v)}
           accent="amber"

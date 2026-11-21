@@ -50,7 +50,7 @@ export default function ChristmasEventTable() {
         Christmas in Zionsville 2026 at a Glance
       </h2>
       <p className="mt-1.5 mb-5 text-stone-600">
-        Filter by event type or show only free events.
+        Filter by event type or show events with free admission.
       </p>
 
       <div className="flex flex-wrap gap-2">
@@ -64,7 +64,7 @@ export default function ChristmasEventTable() {
           />
         ))}
         <Toggle
-          label="Free admission"
+          label="Free admission available"
           active={freeOnly}
           onClick={() => setFreeOnly((v) => !v)}
           accent="amber"
