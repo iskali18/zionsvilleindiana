@@ -442,3 +442,85 @@ export const zcsEvents: ZcsEvent[] = [
     isDistrictwide: false,
   },  
 ]
+
+// Zionsville Community Schools 2027-2028 key dates (district-wide only).
+// Titles match the 2026-2027 entries above so ZcsMilestones recognizes them.
+export const zcsEvents2027_28: ZcsEvent[] = [
+  {
+    startDate: '2027-08-04',
+    title: 'First Student School Day',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2027-09-06',
+    title: 'Labor Day — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2027-10-11',
+    endDate: '2027-10-15',
+    title: 'Fall Break — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2027-11-24',
+    endDate: '2027-11-26',
+    title: 'Thanksgiving Break — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2027-12-20',
+    endDate: '2028-01-03',
+    title: 'Winter Break — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2028-01-17',
+    title: 'Dr. MLK Holiday — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2028-02-21',
+    endDate: '2028-02-25',
+    title: 'February Break — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2028-03-31',
+    endDate: '2028-04-07',
+    title: 'Spring Break — No School',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+  {
+    startDate: '2028-05-25',
+    title: 'Last Student Day',
+    audiences: ['elementary', 'zms', 'zwms', 'zchs'],
+    audienceLabel: 'All ZCS',
+    isDistrictwide: true,
+  },
+]
+
+/**
+ * Future school-year pages: article slug -> that year's events.
+ * The main page (/articles/zcs-school-calendar) uses `zcsEvents` above.
+ * To add a year: add its events list, add one line here, and create the article.
+ */
+export const ZCS_YEAR_PAGES: Record<string, ZcsEvent[]> = {
+  'zcs-school-calendar-2027-2028': zcsEvents2027_28,
+}

@@ -13,6 +13,7 @@ import { DESTINATIONS } from '@/lib/fall-farms'
 import { INDOOR_ACTIVITIES } from '@/lib/indoor-activities-teens'
 import { INDOOR_ACTIVITIES as INDOOR_ACTIVITIES_KIDS } from '@/lib/indoor-activities-kids'
 import { ATTRACTIONS } from '@/lib/holiday-attractions'
+import { ZCS_YEAR_PAGES } from '@/lib/zcs-calendar'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 interface Props {
@@ -124,6 +125,7 @@ export default async function ArticlePage({ params }: Props) {
             <ZcsCalendar />
           </>
         )}
+        {ZCS_YEAR_PAGES[slug] && <ZcsMilestones events={ZCS_YEAR_PAGES[slug]} />}
         {slug === 'pumpkin-patches-corn-mazes-near-indianapolis' && <FallFarmComparison />}
         {slug === 'fall-activities-zionsville' && <FallActivitiesTable />}
         {slug === 'indoor-things-to-do-tweens-teens' && <IndoorActivitiesTeensTable />}

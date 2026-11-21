@@ -51,10 +51,11 @@ function formatDateRange(start: string, end: string): string {
   return `${startStr} – ${endStr}`
 }
 
-export default function ZcsMilestones() {
+/** `events` defaults to the main page's year (`zcsEvents`). Future-year pages pass their own list. */
+export default function ZcsMilestones({ events = zcsEvents }: { events?: ZcsEvent[] }) {
   const milestones = MILESTONE_ORDER
     .map((title) =>
-      zcsEvents.find((e) => e.title === title && e.isDistrictwide)
+      events.find((e) => e.title === title && e.isDistrictwide)
     )
     .filter((e): e is ZcsEvent => e !== undefined)
 

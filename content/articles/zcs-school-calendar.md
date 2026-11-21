@@ -11,7 +11,7 @@ print_hide_body: true
 ctas:
   - label: Visit the official ZCS calendar
     href: https://www.zcs.k12.in.us/about-zcs/calendars
-lastUpdated: "2026-11-10"
+lastUpdated: "2026-11-20"
 faqs:
   - q: "When does Zionsville school start in 2026?"
     a: "The first student day for Zionsville Community Schools (ZCS) is Tuesday, August 4, 2026."
@@ -36,6 +36,8 @@ faqs:
 ---
 
 Zionsville Community Schools (ZCS) includes six elementary schools — Boone Meadow, Eagle, Pleasant View, Stonegate, Trailside, and Union — plus Zionsville Middle School (ZMS), Zionsville West Middle School (ZWMS), and Zionsville Community High School (ZCHS). Use this calendar to find back-to-school events, breaks, no-school days, and graduation. Choose one school or combine schools to see dates that apply to your family, then print a personalized calendar.
+
+For the next school year, see the [Zionsville School Calendar 2027–2028](/articles/zcs-school-calendar-2027-2028).
 
 <div className="my-6 max-w-2xl py-4 px-5 bg-village-50 rounded-lg">
 <p className="!my-0 !mb-3 text-lg font-semibold text-stone-800">Printable Schedule Tools</p>
