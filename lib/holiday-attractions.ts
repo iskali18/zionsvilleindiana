@@ -180,7 +180,7 @@ export const ATTRACTIONS: HolidayAttraction[] = [
     name: "Mail a Letter to Santa",
     anchor: "letters-to-santa",
     city: "Multiple locations",
-    highlights: "Free Santa mailboxes in Central Indiana communities, with personalized replies available",
+    highlights: "Free Santa mailboxes where children can drop off Christmas letters and receive personalized replies by mail",
     types: ["Letters to Santa"],
     free: true,
   },

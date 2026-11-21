@@ -96,7 +96,7 @@ export default function HolidayAttractionsTable() {
         Christmas Events at a Glance
       </h2>
       <p className="mt-1.5 mb-5 text-stone-600">
-        Filter by type or show attractions with free admission.
+        Filter by attraction type, free admission, or both.
       </p>
 
       <div className="flex flex-wrap gap-2">
