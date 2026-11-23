@@ -8,7 +8,7 @@ hubOrder: 8
 draft: false
 hero_image: /images/articles/christmas-events-indianapolis-newfields-winterlights.webp
 hero_position: "center 35%"
-lastUpdated: "2026-11-20"
+lastUpdated: "2026-11-22"
 ctas:
   - label: See Christmas events in Zionsville
     href: /events/christmas-in-zionsville
@@ -255,7 +255,7 @@ Dull’s Tree Farm in Thorntown offers Christmas tree shopping and seasonal acti
 ### Glimmer Lights at Piney Acres {#piney-acres-glimmer-lights}
 
 - **Location:** [1115 E. 1000 N., Fortville, IN 46040](https://maps.app.goo.gl/1zjnsYnwMbpVbSYu9)
-- **Dates:** From Sat, Nov. 21 · Thursdays–Sundays · End date TBD
+- **Dates:** Sat, Nov. 21 – Sun, Dec. 20 · Select dates
 
 Piney Acres Farm in Fortville hosts Glimmer Lights, a nighttime Christmas train experience through illuminated displays among the farm’s Christmas trees. Visitors ride the trackless Piney Acres Express through the displays, with hot cocoa and a freshly made cookie included. Families can also visit Santa in his Piney Acres Cabin. The event uses timed tickets, and the train cars are not wheelchair accessible.
 
@@ -286,7 +286,7 @@ Kelsay Farms in Whiteland opens its grounds for the Holiday Stroll, a walk-throu
 ### Ultimate Country Christmas at Lark Ranch {#lark-ranch}
 
 - **Location:** [1611 N. Meridian Road, Greenfield, IN 46140](https://maps.app.goo.gl/NFQsozbiw9eYJpyX7)
-- **Dates:** Select weekends in December · Dates TBD
+- **Dates:** Sat, Dec. 5 – Wed, Dec. 23 · Select dates · 4–8 p.m.
 
 Lark Ranch in Greenfield hosts the Ultimate Country Christmas, featuring a Christmas Train ride through a mile of illuminated holiday displays. Families can visit Santa, see farm animals, and make Build-a-Buddy toys and decorate ornaments in Santa’s Workshop. Seasonal food includes hot chocolate, funnel cakes, fresh donuts, and sweets from Mrs. Claus’s Bakery. Tickets are sold online or at the gate. Admission applies to guests ages 3 and older.
 
@@ -358,7 +358,7 @@ The Athenaeum Foundation hosts a free German-style Christmas market in the outdo
 
 [↑ Back to the list](#christmas-events-at-a-glance)
 
-Zionsville’s Winterfest Open-Air Maker’s Market is on Saturday, December 5, from 9 a.m. to noon downtown. See [Christmas in Zionsville](/events/christmas-in-zionsville) for details.
+Zionsville’s Winterfest Open-Air Maker’s Market is on Saturday, December 5, from 9 a.m. to noon downtown. See the [Winterfest Open-Air Maker’s Market guide](/events/winterfest-makers-market) for details.
 
 ## Live Performances {#live-performances}
 
