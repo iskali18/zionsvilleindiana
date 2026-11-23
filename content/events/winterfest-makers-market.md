@@ -1,16 +1,16 @@
 ---
 title: "Winterfest Open-Air Maker’s Market"
 alternateName: ["Open-Air Maker’s Market", "Zionsville Open-Air Maker’s Market", "Zionsville Parks Winter Market"]
-description: "Holiday market on Zionsville’s brick Main Street featuring local makers, artists, food trucks, seasonal music and carolers, part of the Town’s Winterfest season."
+description: "Holiday market along Zionsville’s brick Main Street featuring local makers, artists, food trucks, seasonal music, and carolers, part of the Town’s Winterfest season."
 metaTitle: "Winterfest Open-Air Maker’s Market 2026 | Zionsville"
-metaDescription: "Shop the Winterfest Open-Air Maker’s Market on Zionsville’s brick Main Street December 5, 2026, with local makers, food trucks, music and carolers."
+metaDescription: "Shop the Winterfest Open-Air Maker’s Market along Zionsville’s brick Main Street December 5, 2026, with local makers, food trucks, music, and carolers."
 eventType: annual
 startDate: "2026-12-05"
 endDate: "2026-12-05"
 startDateTime: "2026-12-05T09:00:00-05:00"
 endDateTime: "2026-12-05T12:00:00-05:00"
-inSeasonMessage: "The Winterfest Open-Air Maker’s Market is on Main Street today from 9:00 a.m. to noon."
-location: "Main Street, Downtown Zionsville"
+inSeasonMessage: "The Winterfest Open-Air Maker’s Market is in downtown Zionsville, just off Main Street, today from 9:00 a.m. to noon."
+location: "Parking lot at 340 S. Main St., Zionsville"
 address: "340 S Main St"
 externalUrl: "https://www.zionsville-in.gov/737/Winterfest"
 image: /images/events/winterfest-makers-market-zionsville.webp
@@ -18,16 +18,16 @@ imageAlt: "Handmade wooden Christmas tree ornaments hanging at a holiday market 
 hero_position: "center 50%"
 featured: true
 tags: [family, free, shopping, outdoor, holiday]
-lastUpdated: "2026-09-18"
+lastUpdated: "2026-11-22"
 faqs:
   - q: "When is the 2026 Zionsville Open-Air Maker’s Market?"
-    a: "The market is Saturday, December 5, 2026, from 9 a.m. to noon."
+    a: "The market is Saturday, December 5, 2026, from 9:00 a.m. to noon."
   - q: "Where is the Open-Air Maker’s Market?"
-    a: "It takes place along Zionsville’s historic brick Main Street."
+    a: "It takes place in the parking lot at 340 S. Main St., Zionsville, just south of the Friendly Tavern."
   - q: "Is the Open-Air Maker’s Market free?"
     a: "Yes. The market is free to attend; purchases from vendors are additional."
   - q: "What is sold at the market?"
-    a: "The market features products from local makers, crafters and artists. The Town emphasizes vendors who are directly involved in creating the products they sell."
+    a: "The market features products from local makers, crafters, and artists. The Town emphasizes vendors who are directly involved in creating the products they sell."
   - q: "Will there be food at the market?"
     a: "Yes. The Town lists food trucks among the market offerings, along with seasonal music and carolers."
   - q: "Is the market part of Winterfest?"
@@ -36,17 +36,15 @@ faqs:
     a: "Zionsville Parks & Recreation runs the market as part of Winterfest. Main Street Zionsville lists it as the Zionsville Parks Winter Market on the Christmas in the Village schedule."
 ---
 
-The **Winterfest Open-Air Maker’s Market** brings local makers, crafters and artists to Zionsville’s brick Main Street for a morning of holiday shopping. The market returns **Saturday, December 5, 2026, from 9 a.m. to noon**, with locally made goods, food trucks, seasonal music and carolers.
+The **Winterfest Open-Air Maker’s Market** is a morning of holiday shopping in downtown Zionsville, just off Main Street, held **Saturday, December 5, 2026, from 9:00 a.m. to noon**.
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
 ## Quick Facts
 
-- The Open-Air Maker’s Market takes place Saturday, December 5, 2026, from 9:00 a.m. to noon.
-- The market is free to attend and is held outdoors along Zionsville’s brick Main Street.
-- Vendors include local makers, crafters and artists offering a variety of goods for holiday shopping.
-- Food trucks, seasonal music and carolers are planned for the market.
-- The market is part of Zionsville Parks & Recreation’s Winterfest season.
+- Admission is free, and all ages are welcome.
+- The market is located in the parking lot at 340 S. Main St., just south of the Friendly Tavern.
+- More than 2,200 shoppers attended in 2025.
 
 </div>
 
@@ -58,21 +56,19 @@ The **Winterfest Open-Air Maker’s Market** brings local makers, crafters and a
 | :--- | :--- |
 | **Date** | Saturday, December 5, 2026 |
 | **Hours** | 9:00 a.m.–noon |
-| **Location** | [Main Street, Zionsville](https://maps.app.goo.gl/ggBesqBFhXFkTTrR6) |
+| **Location** | [Parking lot at 340 S. Main St., Zionsville](https://maps.app.goo.gl/ggBesqBFhXFkTTrR6) |
 | **Admission** | Free |
 | **Organizer** | Zionsville Parks & Recreation |
 
 ## What to Expect
 
-Vendor booths line Main Street with goods from local makers, crafters and artists, with an emphasis on handmade products and Indiana businesses.
-
-Food trucks are also planned, along with seasonal music and carolers. More than 2,200 shoppers attended the market in 2025.
+Local makers, crafters, and artists sell handmade gifts and specialty goods, with an emphasis on Indiana businesses. Food trucks, seasonal music, and carolers add to the holiday atmosphere.
 
 ## Part of Winterfest
 
-The Open-Air Maker’s Market is part of **Zionsville Winterfest**, the Town’s seasonal winter program. Other Winterfest activities take place throughout the season.
+The market is part of Zionsville Parks & Recreation’s Winterfest, a seasonal program that also includes [Jingle in the Park](/events/jingle-in-the-park), Lincoln Lights, luminary walks, and [Fireside Nights](/events/fireside-nights).
 
-Visit the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest) for the latest details.
+Visit the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest) for details.
 
 For additional holiday events, see the [Christmas in Zionsville guide](/events/christmas-in-zionsville).
 

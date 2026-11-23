@@ -80,7 +80,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
   },
   {
     href: '/articles/christmas-holiday-attractions-near-indianapolis',
-    title: 'Best Christmas Lights & Events Near Indianapolis',
+    title: 'Best Christmas Lights & Events Near Zionsville & Indianapolis',
     season: 'holiday',
     pinned: true,
     blurb: '25 light displays, holiday festivals, and Santa visits near Zionsville.',

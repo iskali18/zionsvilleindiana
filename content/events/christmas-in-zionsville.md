@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-15"
+lastUpdated: "2026-11-22"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -124,7 +124,7 @@ Zionsville Tri Kappa, a women’s philanthropic organization that supports Boone
 
 Main Street Zionsville lists this as the Zionsville Parks Winter Market on the 2026 Christmas in the Village schedule. Zionsville Parks & Recreation calls it the Open-Air Maker’s Market and runs it as part of Winterfest, its winter season program. The market takes place in the parking lot at Main Street and Sycamore Street, with local makers and artists, food trucks, seasonal music, and carolers.
 
-See the [Maker’s Market page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/r4zND8XP).
+See the [Winterfest Open-Air Maker’s Market guide](/events/winterfest-makers-market).
 
 [↑ Back to schedule](#schedule)
 
