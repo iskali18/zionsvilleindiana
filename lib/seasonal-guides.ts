@@ -85,7 +85,7 @@ export const SEASONAL_GUIDES: SeasonalGuide[] = [
     pinned: true,
     blurb: '25 light displays, holiday festivals, and Santa visits near Zionsville.',
     from: '2026-11-21',
-    to: '2027-01-03',
+    to: '2026-12-25',
     priority: 15,
   },
   {
@@ -155,7 +155,7 @@ export const SEASON_LABELS: Record<Season, Record<StripKind, string>> = {
   },
   holiday: {
     listing: 'Planning the season?',
-    event: 'Explore Christmas in Zionsville',
+    event: 'Discover Things to Do This Season',
     schoolBreak: 'Making plans for winter break?',
   },
   winter: {

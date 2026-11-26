@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-22"
+lastUpdated: "2026-11-26"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -27,7 +27,7 @@ faqs:
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
     a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies’ Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
   - q: "Where do Christmas events in Zionsville take place?"
     a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
   - q: "Who organizes Christmas in the Village?"
@@ -134,15 +134,15 @@ See the [Winterfest Open-Air Maker’s Market guide](/events/winterfest-makers-m
 
 The Zionsville Chamber of Commerce offers horse-drawn carriage rides through the Village, presented by Sylo Apartments – Zionsville in partnership with SullivanMunce Cultural Center. The route starts at the Santa House at Cedar and Main and loops along Elm, Walnut, Fifth and Cedar Streets before returning to Main Street, passing Village homes and Century Structures, homes at least 100 years old.
 
-See the [Vintage Village Carriage Rides page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/rXXEDKdr).
+See the [Vintage Village Carriage Rides guide](/events/vintage-village-carriage-rides).
 
 [↑ Back to schedule](#schedule)
 
-### Ladies Night
+### Ladies’ Night {#ladies-night}
 
 **Thursday, December 10, 2026 · 5:00–9:00 p.m.**
 
-Ladies Night is an evening shopping and dining event hosted by the Zionsville Chamber of Commerce as part of Christmas in the Village. Participating businesses offer Ladies Night specials, and visitors can stop at [Downtown Zionsville restaurants](/articles/downtown-zionsville-restaurants) for an appetizer, dinner, or dessert.
+Ladies’ Night is an evening shopping and dining event hosted by the Zionsville Chamber of Commerce as part of Christmas in the Village. Participating businesses offer Ladies’ Night specials, and visitors can stop at [Downtown Zionsville restaurants](/articles/downtown-zionsville-restaurants) for an appetizer, dinner, or dessert.
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/events/christmas-in-zionsville-town-tree.webp" alt="The official Zionsville town Christmas tree illuminated with warm lights and red and gold ornaments following the annual holiday parade." class="rounded-lg shadow-sm" />
@@ -151,7 +151,17 @@ Ladies Night is an evening shopping and dining event hosted by the Zionsville Ch
   </figcaption>
 </figure>
 
-See the [Ladies Night page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-ladies-night-1916400).
+See the [Ladies’ Night guide](/events/ladies-night).
+
+[↑ Back to schedule](#schedule)
+
+### Santa’s Stag Night {#santas-stag-night}
+
+**Thursday, December 10, 2026 · 5:00–9:00 p.m. · Zionsville Underground**
+
+Santa’s Stag Night is an evening for men at Zionsville Underground, located beneath Noah Grant’s in the Carter Building. Cocktails, beer, wine, and football viewing are part of the event, which takes place alongside Ladies’ Night.
+
+See the [Santa’s Stag Night guide](/events/santas-stag-night).
 
 [↑ Back to schedule](#schedule)
 
@@ -227,6 +237,8 @@ Zionsville hosts two separate productions of *The Nutcracker* at the STAR Bank P
 - **Tickets:** Adults $30 · Children 17 and younger, seniors 65 and older, and military $25 · Plus fees
 
 **[Buy Metropolitan Youth Ballet tickets](https://my-ballet.org/nutcracker/)**
+
+See [The Nutcracker guide](/events/the-nutcracker).
 
 [↑ Back to schedule](#schedule)
 

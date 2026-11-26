@@ -17,7 +17,7 @@ imageAlt: "White horse harnessed to a vintage black carriage with golden wheels,
 hero_position: "center 35%"
 featured: true
 tags: [holiday, family, free, outdoor]
-lastUpdated: "2026-11-25"
+lastUpdated: "2026-11-26"
 faqs:
   - q: "When are the Vintage Village Carriage Rides in 2026?"
     a: "The rides take place Saturday, December 5; Sunday, December 6; Saturday, December 19; and Sunday, December 20, 2026, from 3:00 to 5:00 p.m."
@@ -68,12 +68,12 @@ Designated homes are identified by plaques displaying their approximate year of 
 
 Visitors interested in learning more about these historic properties can also explore SullivanMunce Cultural Center’s self-guided Century Structures Walking Tour.
 
-[Century Structures Walking Tour](https://www.sullivanmunce.org/walking-tour.html)
+**[Explore the Century Structures Walking Tour →](https://www.sullivanmunce.org/walking-tour.html)**
 
 ## Reservations
 
 Advance carriage ride reservations are available in 15-minute time slots for groups of up to four passengers. Walk-up rides are available on a first-come, first-served basis.
 
-[Reserve a carriage ride](https://www.signupgenius.com/go/9040C48A4AE2C7-60396982-vintage)
+**[Reserve a carriage ride →](https://www.signupgenius.com/go/9040C48A4AE2C7-60396982-vintage)**
 
-[Official Vintage Village Carriage Rides information](https://zionsvillechamberofcommerce.growthzoneapp.com/calendar/Details/vintage-village-carriage-rides-1552814?sourceTypeId=Website)
+**[Learn more about the Vintage Village Carriage Rides →](https://zionsvillechamberofcommerce.growthzoneapp.com/calendar/Details/vintage-village-carriage-rides-1552814?sourceTypeId=Website)**

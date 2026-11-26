@@ -14,7 +14,7 @@ imageAlt: "Ballet dancers in classical tutus performing under blue stage lightin
 hero_position: "center 75%"
 featured: true
 tags: [holiday, family, concerts]
-lastUpdated: "2026-11-25"
+lastUpdated: "2026-11-26"
 ---
 
 The STAR Bank Performing Arts Center in Zionsville will host two productions of *The Nutcracker* this December. Central Indiana Dance Ensemble and Metropolitan Youth Ballet will each take the stage for a weekend of performances of Tchaikovsky’s classic holiday ballet.
@@ -67,7 +67,7 @@ The 2:00 p.m. performances on Saturday, December 12, and Sunday, December 13, of
 
 A Sugar Plum Fairy Dessert Party is scheduled for 12:30 p.m. on Saturday, December 12, and Sunday, December 13, before the afternoon performances. Separate tickets are required for the dessert party.
 
-[Central Indiana Dance Ensemble performance information and tickets](https://www.cidedance.org/current-season)
+**[Buy Central Indiana Dance Ensemble tickets →](https://www.cidedance.org/current-season)**
 
 ## Metropolitan Youth Ballet {#metropolitan-youth-ballet}
 
@@ -95,7 +95,7 @@ Several Nutcracker-themed activities are available in the theater lobby:
 
 Proceeds from lobby sales support Ballet Theatre of Carmel Academy’s dance education and community outreach programs. Cash, credit cards, and Venmo are accepted.
 
-[Metropolitan Youth Ballet performance information and tickets](https://my-ballet.org/nutcracker/)
+**[Buy Metropolitan Youth Ballet tickets →](https://my-ballet.org/nutcracker/)**
 
 ### Arrival and Parking
 
