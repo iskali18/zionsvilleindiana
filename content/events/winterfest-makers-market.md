@@ -18,7 +18,7 @@ imageAlt: "Handmade wooden Christmas tree ornaments hanging at a holiday market 
 hero_position: "center 50%"
 featured: true
 tags: [family, free, shopping, outdoor, holiday]
-lastUpdated: "2026-11-22"
+lastUpdated: "2026-11-25"
 faqs:
   - q: "When is the 2026 Zionsville Open-Air Maker’s Market?"
     a: "The market is Saturday, December 5, 2026, from 9:00 a.m. to noon."
@@ -66,7 +66,7 @@ Local makers, crafters, and artists sell handmade gifts and specialty goods, wit
 
 ## Part of Winterfest
 
-The market is part of Zionsville Parks & Recreation’s Winterfest, a seasonal program that also includes [Jingle in the Park](/events/jingle-in-the-park), Lincoln Lights, luminary walks, and [Fireside Nights](/events/fireside-nights).
+The market is part of Zionsville Parks & Recreation’s Winterfest, a seasonal program that also includes [Jingle in the Park](/events/jingle-in-the-park), Lincoln Lights, [luminary walks](/events/winterfest-luminary-walks), and [Fireside Nights](/events/fireside-nights).
 
 Visit the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest) for details.
 

@@ -267,6 +267,7 @@ export const EVENTS: ChristmasEvent[] = [
     dates: ['2026-12-12'],
     types: ['Church'],
     admission: 'unknown',
+    time: '9:00\u201311:30 a.m.',
     venue: 'Zionsville Fellowship Church',
     summary: 'Christmas brunch with hymns and personal stories for ages 12 and older',
   },

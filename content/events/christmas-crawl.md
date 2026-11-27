@@ -12,6 +12,7 @@ address: "340 S Main St"
 externalUrl: "https://www.zionsvillechamber.org/christmas-crawl/"
 image: /images/events/christmas-crawl-zionsville.webp
 imageAlt: "Two women carrying shopping bags beneath illuminated Christmas decorations, illustrating the Christmas Crawl in Zionsville."
+hero_position: "center 45%"
 featured: true
 tags: [holiday, shopping]
 lastUpdated: "2026-11-26"

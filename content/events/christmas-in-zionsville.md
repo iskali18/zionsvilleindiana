@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-26"
+lastUpdated: "2026-11-27"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -229,7 +229,7 @@ Zionsville hosts three separate productions of *The Nutcracker* at the STAR Bank
 
 **[Buy Village Dance Studio tickets](https://32601.danceticketing.com/)**
 
-**Central Indiana Dance Ensemble** presents its full-length production, following Clara through the Christmas party, the battle, the snow scene and the Land of Sweets.
+**Central Indiana Dance Ensemble** presents its annual production of *The Nutcracker*, featuring vocal performances by the Indianapolis Children’s Choir.
 
 - **Tickets:** Adults $30 · Students 17 and younger $20 · Plus fees
 - **Relaxed matinees:** The 2:00 p.m. shows let audience members talk quietly and leave their seats if needed
@@ -238,7 +238,7 @@ Zionsville hosts three separate productions of *The Nutcracker* at the STAR Bank
 
 **[Buy Central Indiana Dance Ensemble tickets](https://27486.danceticketing.com/r/events/)**
 
-**Metropolitan Youth Ballet** presents a separate production the following weekend.
+**Metropolitan Youth Ballet** presents its full-length production of *The Nutcracker*, featuring pre-professional ballet dancers and special guest artists.
 
 - **Tickets:** Adults $30 · Children 17 and younger, seniors 65 and older, and military $25 · Plus fees
 
@@ -340,7 +340,7 @@ Several Zionsville churches host Christmas programs open to visitors beyond thei
 
 ### Women’s Christmas Tea
 
-**Saturday, December 12, 2026 · Zionsville Fellowship Church**
+**Saturday, December 12, 2026 · 9:00–11:30 a.m. · Zionsville Fellowship Church**
 
 Zionsville Fellowship Church’s annual Women’s Christmas Tea is open to women and girls ages 12 and older. The gathering includes brunch, Christmas hymns and personal stories centered on the Christian meaning of Christmas, and attendees are encouraged to invite family members, neighbors and coworkers.
 
