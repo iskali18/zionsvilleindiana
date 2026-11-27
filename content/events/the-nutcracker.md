@@ -1,12 +1,12 @@
 ---
 title: "The Nutcracker"
-description: "Two productions at the STAR Bank Performing Arts Center by Central Indiana Dance Ensemble and Metropolitan Youth Ballet."
+description: "Three productions at the STAR Bank Performing Arts Center by Village Dance Studio, Central Indiana Dance Ensemble, and Metropolitan Youth Ballet."
 metaTitle: "The Nutcracker in Zionsville 2026"
-metaDescription: "See The Nutcracker in Zionsville, December 11–13 and 18–20, 2026, with eight performances by Central Indiana Dance Ensemble and Metropolitan Youth Ballet."
+metaDescription: "See The Nutcracker in Zionsville, December 6–20, 2026: ten performances by Village Dance Studio, Central Indiana Dance Ensemble, and Metropolitan Youth Ballet."
 eventType: annual
-startDate: "2026-12-11"
+startDate: "2026-12-06"
 endDate: "2026-12-20"
-occurrences: ["2026-12-11", "2026-12-12", "2026-12-13", "2026-12-18", "2026-12-19", "2026-12-20"]
+occurrences: ["2026-12-06", "2026-12-11", "2026-12-12", "2026-12-13", "2026-12-18", "2026-12-19", "2026-12-20"]
 location: "STAR Bank Performing Arts Center"
 address: "1000 Mulberry St"
 image: /images/events/nutcracker-ballet-zionsville.webp
@@ -14,13 +14,14 @@ imageAlt: "Ballet dancers in classical tutus performing under blue stage lightin
 hero_position: "center 75%"
 featured: true
 tags: [holiday, family, concerts]
-lastUpdated: "2026-11-26"
+lastUpdated: "2026-11-27"
 ---
 
-The STAR Bank Performing Arts Center in Zionsville will host two productions of *The Nutcracker* this December. Central Indiana Dance Ensemble and Metropolitan Youth Ballet will each take the stage for a weekend of performances of Tchaikovsky’s classic holiday ballet.
+The STAR Bank Performing Arts Center in Zionsville will host three productions of *The Nutcracker* this December, presented by Village Dance Studio, Central Indiana Dance Ensemble, and Metropolitan Youth Ballet.
 
-| Ballet Company | Dates | Performance Times |
+| Presented By | Dates | Performance Times |
 | :--- | :--- | :--- |
+| [Village Dance Studio](#village-dance-studio) | December 6, 2026 | Sun 1:00 and 4:00 p.m. |
 | [Central Indiana Dance Ensemble](#central-indiana-dance-ensemble) | December 11–13, 2026 | Fri 7:30 p.m. · Sat 2:00 and 7:30 p.m. · Sun 2:00 p.m. |
 | [Metropolitan Youth Ballet](#metropolitan-youth-ballet) | December 18–20, 2026 | Fri 7:30 p.m. · Sat 2:00 and 7:30 p.m. · Sun 2:00 p.m. |
 
@@ -28,6 +29,7 @@ The STAR Bank Performing Arts Center in Zionsville will host two productions of 
 
 ## Quick Facts
 
+- Village Dance Studio offers Nutcracker Sweets, a children’s meet-and-greet with dancers, between its two performances.
 - Central Indiana Dance Ensemble offers Sugar Plum Fairy Dessert Parties before its afternoon performances.
 - Metropolitan Youth Ballet features holiday shopping, sweet treats, and opportunities to meet costumed dancers.
 
@@ -39,17 +41,46 @@ The STAR Bank Performing Arts Center in Zionsville will host two productions of 
 
 | Detail | Information |
 | :--- | :--- |
-| **Dates** | December 11–13 and 18–20, 2026 |
-| **Location** | STAR Bank Performing Arts Center · [1000 Mulberry St., Zionsville](https://maps.app.goo.gl/zjbxWahMeGF4nwUJA) |
+| **Dates** | December 6, 11–13, and 18–20, 2026 |
+| **Location** | STAR Bank Performing Arts Center at Zionsville Community High School · [1000 Mulberry St., Zionsville](https://maps.app.goo.gl/zjbxWahMeGF4nwUJA) |
 | **Admission & Parking** | Ticketed · Free parking |
+
+## Arrival and Parking
+
+Visitors enter through Door 1 on the south side of Zionsville Community High School, about a five-minute walk from the auditorium. Free parking is available on the same side of the building, accessible from Mulberry Street.
+
+<figure class="my-8">
+  <img src="/images/events/star-bank-pac-zchs-entrance-zionsville.webp" alt="Aerial view of the STAR Bank Performing Arts Center at Zionsville Community High School, showing the Door 1 entrance and nearby parking areas." class="rounded-lg shadow-sm w-full h-auto" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Visitors to the STAR Bank Performing Arts Center enter through Door 1, with free parking available in the adjacent lots.
+  </figcaption>
+</figure>
 
 ## Event Overview
 
 Set to Tchaikovsky’s celebrated score, *The Nutcracker* tells the story of Clara, a young girl whose Christmas Eve takes a magical turn when her nutcracker doll comes to life. After a battle between toy soldiers and mice, Clara journeys through the Kingdom of Snow to the Land of Sweets, where she meets the Sugar Plum Fairy.
 
+## Village Dance Studio {#village-dance-studio}
+
+Village Dance Studio presents *Nutcracker Short & Suite*, a shorter, family-oriented adaptation of *The Nutcracker* that pairs classical ballet excerpts with jazz, modern, tap, and hip-hop.
+
+### Performance Schedule
+
+| Date | Performance Times |
+| :--- | :--- |
+| Sunday, December 6 | 1:00 p.m. and 4:00 p.m. |
+
+### Nutcracker Sweets
+
+Nutcracker Sweets takes place in the high school commons after the 1:00 p.m. performance and before the 4:00 p.m. performance. Children can meet dancers, get photos and autographs, make a craft, and enjoy treats. Separate tickets are required, and accompanying adults attend free.
+
+**[Buy Village Dance Studio tickets →](https://32601.danceticketing.com/)**
+
+**[Learn more about Nutcracker Short & Suite →](https://www.villagedancestudio.com/nutcracker-short-suite.html)**
+
 ## Central Indiana Dance Ensemble {#central-indiana-dance-ensemble}
 
-Central Indiana Dance Ensemble (CIDE) presents its 27th annual production of *The Nutcracker* in 2026, featuring vocal performances by the Indianapolis Children’s Choir.
+Central Indiana Dance Ensemble presents its annual production of *The Nutcracker*, featuring vocal performances by the Indianapolis Children’s Choir.
 
 ### Performance Schedule
 
@@ -71,7 +102,7 @@ A Sugar Plum Fairy Dessert Party is scheduled for 12:30 p.m. on Saturday, Decemb
 
 ## Metropolitan Youth Ballet {#metropolitan-youth-ballet}
 
-Metropolitan Youth Ballet of Indiana presents its production of *The Nutcracker* the weekend before Christmas.
+Metropolitan Youth Ballet presents its full-length production of *The Nutcracker*, featuring pre-professional ballet dancers and special guest artists.
 
 ### Performance Schedule
 
@@ -95,10 +126,6 @@ Several Nutcracker-themed activities are available in the theater lobby:
 
 Proceeds from lobby sales support Ballet Theatre of Carmel Academy’s dance education and community outreach programs. Cash, credit cards, and Venmo are accepted.
 
-**[Buy Metropolitan Youth Ballet tickets →](https://my-ballet.org/nutcracker/)**
-
-### Arrival and Parking
-
 The venue opens one hour before each performance, and theater doors open 30 minutes before showtime. Tickets may also be purchased at the venue, subject to availability.
 
-Visitors enter through Door 1 on the south side of Zionsville Community High School. Free parking is available on the same side of the building, accessible from Mulberry Street.
+**[Buy Metropolitan Youth Ballet tickets →](https://my-ballet.org/nutcracker/)**

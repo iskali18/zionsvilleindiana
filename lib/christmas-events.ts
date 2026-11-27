@@ -209,6 +209,16 @@ export const EVENTS: ChristmasEvent[] = [
     summary: 'Horse-drawn carriage rides past historic Village homes',
   },
   {
+    name: 'Village Dance Studio: Nutcracker Short & Suite',
+    anchor: 'three-nutcracker-productions',
+    dates: ['2026-12-06'],
+    types: ['Concerts & Performances', 'Family'],
+    admission: 'ticketed',
+    time: '1:00 and 4:00 p.m.',
+    venue: 'STAR Bank Performing Arts Center',
+    summary: 'Shorter Nutcracker adaptation mixing classical ballet with jazz, modern, tap and hip-hop',
+  },
+  {
     name: 'Zionsville Community High School Choral Holiday Concert',
     anchor: 'zchs-holiday-concerts',
     dates: ['2026-12-08'],
@@ -242,7 +252,7 @@ export const EVENTS: ChristmasEvent[] = [
   },
   {
     name: 'Central Indiana Dance Ensemble: The Nutcracker',
-    anchor: 'two-nutcracker-productions',
+    anchor: 'three-nutcracker-productions',
     start: '2026-12-11',
     end: '2026-12-13',
     types: ['Concerts & Performances', 'Family'],
@@ -316,7 +326,7 @@ export const EVENTS: ChristmasEvent[] = [
   },
   {
     name: 'Metropolitan Youth Ballet: The Nutcracker',
-    anchor: 'two-nutcracker-productions',
+    anchor: 'three-nutcracker-productions',
     start: '2026-12-18',
     end: '2026-12-20',
     types: ['Concerts & Performances', 'Family'],

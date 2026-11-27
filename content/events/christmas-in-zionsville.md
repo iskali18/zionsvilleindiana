@@ -1,6 +1,6 @@
 ---
 title: "Christmas in Zionsville"
-description: "A season of holiday events across Zionsville from late November through Christmas Eve, including the Holiday Parade and Tree Lighting, Santa visits, holiday markets, concerts, two Nutcracker productions and church Christmas events."
+description: "A season of holiday events across Zionsville from late November through Christmas Eve, including the Holiday Parade and Tree Lighting, Santa visits, holiday markets, concerts, three Nutcracker productions and church Christmas events."
 metaTitle: "Christmas in Zionsville 2026: Holiday Events & Activities"
 metaDescription: "Find 2026 Christmas events in Zionsville — the Holiday Parade, Santa visits, holiday markets, concerts, The Nutcracker, shopping nights and family events."
 eventType: annual
@@ -25,16 +25,16 @@ faqs:
   - q: "What Christmas events are on December 5 in Zionsville?"
     a: "Saturday, December 5 has six: the Zionsville Show Choirs Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Santa House Selfies, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
-    a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
+    a: "Yes. Village Dance Studio presents Nutcracker Short & Suite on December 6, Central Indiana Dance Ensemble performs The Nutcracker December 11–13, and Metropolitan Youth Ballet follows December 18–20. All three productions are at the STAR Bank Performing Arts Center, and tickets for each are sold through the company’s own ticket page."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Santa House Selfies, Ladies’ Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Santa House Selfies, Ladies’ Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, all three Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
   - q: "Where do Christmas events in Zionsville take place?"
-    a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
+    a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and all three Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
   - q: "Who organizes Christmas in the Village?"
     a: "The Zionsville Chamber of Commerce organizes Christmas in the Village, with individual events hosted by the Chamber, Main Street Zionsville, Zionsville Tri Kappa, Zionsville Parks & Recreation, and the Zionsville Show Choirs."
 ---
 
-Christmas in Zionsville runs from late November through Christmas Eve. The season takes in the Chamber of Commerce’s downtown **Christmas in the Village** program along with holiday concerts and two productions of *The Nutcracker* at the STAR Bank Performing Arts Center, a seasonal art market at SullivanMunce Cultural Center, and Christmas events hosted by local churches.
+Christmas in Zionsville runs from late November through Christmas Eve. The season takes in the Chamber of Commerce’s downtown **Christmas in the Village** program along with holiday concerts and three productions of *The Nutcracker* at the STAR Bank Performing Arts Center, a seasonal art market at SullivanMunce Cultural Center, and Christmas events hosted by local churches.
 
 <div class="bg-amber-50 border-l-4 border-amber-400 rounded-r-lg px-6 py-5 my-8">
 
@@ -43,7 +43,7 @@ Christmas in Zionsville runs from late November through Christmas Eve. The seaso
 - **The season opens Saturday, November 28** with the Holiday Parade and Tree Lighting, 5:00–6:30 p.m.
 - **Santa is at the Santa House on seven dates**, all Saturdays and Sundays, 11:00 a.m.–3:00 p.m.
 - **Zionsville Community High School presents orchestra, band and choral holiday concerts** at the STAR Bank Performing Arts Center in early December.
-- **Two Nutcracker productions play the STAR Bank PAC** on consecutive December weekends.
+- **Three Nutcracker productions play the STAR Bank PAC** on consecutive December weekends.
 
 </div>
 
@@ -213,14 +213,21 @@ Tickets and details are on the [STAR Bank PAC calendar](https://zionsvillepac.lu
 
 [↑ Back to schedule](#schedule)
 
-### Two Nutcracker Productions
+### Three Nutcracker Productions
 
-Zionsville hosts two separate productions of *The Nutcracker* at the STAR Bank Performing Arts Center on consecutive December weekends.
+Zionsville hosts three separate productions of *The Nutcracker* at the STAR Bank Performing Arts Center on consecutive December weekends.
 
 | Production | Performances |
 | --- | --- |
+| **Village Dance Studio** | Sun, Dec. 6 · 1 PM and 4 PM |
 | **Central Indiana Dance Ensemble** | Fri, Dec. 11 · 7:30 PM<br>Sat, Dec. 12 · 2 PM and 7:30 PM<br>Sun, Dec. 13 · 2 PM |
 | **Metropolitan Youth Ballet** | Fri, Dec. 18 · 7:30 PM<br>Sat, Dec. 19 · 2 PM and 7:30 PM<br>Sun, Dec. 20 · 2 PM |
+
+**Village Dance Studio** presents *Nutcracker Short & Suite*, a shorter adaptation that pairs classical ballet excerpts with jazz, modern, tap, and hip-hop.
+
+- **Nutcracker Sweets:** After the 1:00 p.m. show and before the 4:00 p.m. show · High school commons · $15 per child · Accompanying adults free
+
+**[Buy Village Dance Studio tickets](https://32601.danceticketing.com/)**
 
 **Central Indiana Dance Ensemble** presents its full-length production, following Clara through the Christmas party, the battle, the snow scene and the Land of Sweets.
 
