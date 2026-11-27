@@ -91,7 +91,18 @@ The largest public lot is at the northwest corner of Main Street and Sycamore St
 
 Additional parking is available on nearby side streets and in public lots throughout the Village, including Lions Park. Many parking areas are within an easy walk of the parade route.
 
-**Restrooms:** Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern. The facility includes accessible restrooms and a baby changing table.
+<div style="clear: both;"></div>
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The public restroom trailer in the Main Street and Sycamore Street parking lot.
+  </figcaption>
+</figure>
+
+**Restrooms:** Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7 AM to 10 PM. The wheelchair-accessible restroom includes a baby changing table. Hours may vary during special events.
 
 <div style="clear: both;"></div>
 
