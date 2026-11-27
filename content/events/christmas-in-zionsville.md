@@ -70,7 +70,7 @@ See the [Small Business Weekend page](https://zionsvillechamberofcommerce.growth
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-80 mb-4">
   <img src="/images/events/christmas-in-zionsville-santa-carriage.webp" alt="Santa Claus and Mrs. Claus waving from a horse-drawn carriage during the holiday parade along brick Main Street in Zionsville, Indiana." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Santa Claus and Mrs. Claus riding down Main Street in a horse-drawn carriage during the annual Zionsville holiday parade.
+    Santa Claus and Mrs. Claus riding down Main Street in a horse-drawn carriage during the annual Zionsville holiday parade. © ZionsvilleIndiana.com
   </figcaption>
 </figure>
 
@@ -146,7 +146,7 @@ Ladies’ Night is an evening shopping and dining event hosted by the Zionsville
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/events/christmas-in-zionsville-town-tree.webp" alt="The official Zionsville town Christmas tree illuminated with warm lights and red and gold ornaments following the annual holiday parade." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Zionsville’s official town Christmas tree, lit each year at the conclusion of the annual holiday parade.
+    Zionsville’s official town Christmas tree, lit each year at the conclusion of the annual holiday parade. © ZionsvilleIndiana.com
   </figcaption>
 </figure>
 
@@ -318,9 +318,9 @@ Register on the [An Afternoon with Santa Eventbrite page](https://www.eventbrite
 
 **Wednesday, December 16, 2026 · 6:00–7:30 p.m. · Elm Street Green, Lower Shelter · Free**
 
-Zionsville Parks & Recreation hosts an evening walk along paths lined with luminaries, small lanterns lit from inside. The walk is a free drop-in event, and leashed pets are welcome.
+Zionsville Parks & Recreation hosts an evening walk along paths lined with luminaries, small lanterns lit from inside. The walk is a free drop-in event, and leashed dogs are welcome.
 
-See the [Winterfest page](https://www.zionsville-in.gov/737/Winterfest).
+See the [guide to Luminary Walks at Elm Street Green](/events/luminary-walks-elm-street-green).
 
 [↑ Back to schedule](#schedule)
 
