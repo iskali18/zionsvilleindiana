@@ -23,11 +23,11 @@ faqs:
   - q: "When can I see Santa in Zionsville?"
     a: "Santa and Mrs. Claus are scheduled at the Santa House at Cedar and Main on Sunday, November 29 and on the weekends of December 5–6, 12–13 and 19–20, from 11:00 a.m. to 3:00 p.m."
   - q: "What Christmas events are on December 5 in Zionsville?"
-    a: "Saturday, December 5 has six: the Zionsville Show Choirs Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Selfies with Santa, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
+    a: "Saturday, December 5 has six: the Zionsville Show Choirs Holiday Home Tour, the Tri Kappa Santa Breakfast, the Winterfest Open-Air Maker’s Market, Santa House Selfies, Vintage Village Carriage Rides and Christmas on the Farm at Traders Point Creamery."
   - q: "Are there Nutcracker performances in Zionsville in 2026?"
     a: "Yes. Central Indiana Dance Ensemble performs The Nutcracker December 11–13, followed by Metropolitan Youth Ballet December 18–20. Both productions are at the STAR Bank Performing Arts Center, and tickets for both are sold through each company’s website."
   - q: "Are Christmas events in Zionsville free?"
-    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Selfies with Santa, Ladies’ Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
+    a: "The calendar includes both free and ticketed events. The Holiday Parade and Tree Lighting, Santa House Selfies, Ladies’ Night, the Christmas Crawl, Lincoln Lights, the Luminary Walk at Elm Street Green, and the Winter Solstice Hike are free to attend. The Holiday Home Tour, Tri Kappa Santa Breakfast, Jingle in the Park, Christmas on the Farm at Traders Point Creamery, both Nutcracker productions, An Afternoon with Santa and Back to Bethlehem are ticketed."
   - q: "Where do Christmas events in Zionsville take place?"
     a: "Christmas in the Village events are held downtown along Main Street and the surrounding Village streets. The ZCHS holiday concerts and both Nutcracker productions are at the STAR Bank Performing Arts Center on Mulberry Street, the Teeny Tiny Art Market is at SullivanMunce Cultural Center, An Afternoon with Santa is at Traders Point Creamery, and church events are at their own venues."
   - q: "Who organizes Christmas in the Village?"
@@ -82,21 +82,20 @@ The annual Holiday Parade and Tree Lighting marks the official opening weekend o
 
 [↑ Back to schedule](#schedule)
 
-### Selfies with Santa
+### Santa House Selfies {#selfies-with-santa}
 
-**Saturday, November 28 · 6:30–8:00 p.m. · Town tree, Main and Pine Streets**  
 **Sunday, November 29; Saturdays and Sundays, December 5–6, 12–13, 19–20 · 11:00 a.m.–3:00 p.m. · Santa House, Cedar and Main Streets**
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <img src="/images/events/christmas-in-zionsville-santa-house.webp" alt="Small red and white Santa House with a red mailbox on a snow-dusted brick sidewalk at Cedar and Main Streets in downtown Zionsville." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    The Santa House at Cedar and Main Streets in downtown Zionsville serves as the location for Selfies with Santa visits and the starting point for horse-drawn carriage rides.
+    The Santa House at Cedar and Main Streets in downtown Zionsville serves as the location for Santa House Selfies visits and the starting point for horse-drawn carriage rides.
   </figcaption>
 </figure>
 
-After the parade on November 28, Santa and Mrs. Claus pose for photos at the town tree. Santa and Mrs. Claus then return to the Santa House at the corner of Cedar and Main Streets on seven dates during the season. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
+Santa and Mrs. Claus will be available for photos following the Holiday Parade and Tree Lighting on November 28 until 8:00 p.m. Regular visits at the Santa House at Cedar and Main Streets begin on Sunday, November 29, and continue on weekends through December 20. Families take their own photos using a phone or camera, with Chamber volunteers available to help.
 
-See the [Santa House Selfies page](https://zionsvillechamberofcommerce.growthzoneapp.com/ap/CloudFile/Download/plv6EmkL).
+See the [Santa House Selfies guide](/events/selfies-with-santa).
 
 [↑ Back to schedule](#schedule)
 
@@ -171,7 +170,7 @@ See the [Santa’s Stag Night guide](/events/santas-stag-night).
 
 The annual Christmas Crawl is an evening of shopping and socializing in Downtown Zionsville, with seasonal specials at local shops and restaurants. An ugly sweater contest begins at 8:00 p.m. at participating locations.
 
-See the [Christmas Crawl page](https://business.zionsvillechamber.org/calendar/Details/christmas-in-the-village-christmas-crawl-1916452).
+See the [Christmas Crawl guide](/events/christmas-crawl).
 
 [↑ Back to schedule](#schedule)
 

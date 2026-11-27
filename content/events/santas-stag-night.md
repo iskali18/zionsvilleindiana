@@ -10,7 +10,7 @@ endDateTime: "2026-12-10T21:00:00-05:00"
 location: "Zionsville Underground"
 address: "91 S. Main St., Suite 007"
 externalUrl: "https://business.zionsvillechamber.org/calendar/Details/santa-s-stag-night-2008538?sourceTypeId=Website"
-image: "/images/events/santas-stag-night-zionsville.webp"
+image: /images/events/santas-stag-night-zionsville.webp
 imageAlt: "Men socializing over food and drinks at a sports bar, illustrating Santa’s Stag Night in Zionsville."
 hero_position: "center 40%"
 featured: true

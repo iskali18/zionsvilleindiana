@@ -24,7 +24,7 @@ Ladies’ Night returns to Downtown Zionsville this December for an evening of h
 ## Quick Facts
 
 - Participating businesses will have special promotions throughout the evening.
-- Ticketed private horse-drawn carriage rides are available by advance reservation.
+- Private horse-drawn carriage rides are available for $50 by advance reservation.
 - For the guys, Santa’s Stag Night takes place at Zionsville Underground during the same evening.
 
 </div>
@@ -102,7 +102,7 @@ Private horse-drawn carriage rides through historic Downtown Zionsville are sche
 | :--- | :--- |
 | **Time** | 5:00–7:00 p.m. |
 | **Location** | Midwest Jewelers & Estate Buyers · [190 S. Main St., Zionsville](https://maps.app.goo.gl/AwMYwRScDeGfbwmy8) |
-| **Admission & Reservations** | Ticketed · Advance reservations required |
+| **Cost & Reservations** | $50 per carriage · Advance reservations required |
 | **Sponsor** | Stock Yards Bank & Trust |
 
 These ticketed rides are separate from the complimentary [Vintage Village Carriage Rides](/events/vintage-village-carriage-rides) scheduled on December weekends.

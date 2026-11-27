@@ -10,7 +10,7 @@ occurrences: ["2026-12-04", "2026-12-05"]
 location: "Confectioneiress"
 address: "80 Brendon Way"
 externalUrl: "https://www.confectioneiress.com/"
-image: /images/events/a-weekend-in-whoville-zionsville-confectioneiress.webp
+image: /images/events/a-weekend-at-whoville-zionsville-confectioneiress.webp
 imageAlt: "The Grinch’s green hand holding a Christmas ornament beside festive cupcakes, illustrating A Weekend at Whoville at Confectioneiress in Zionsville."
 featured: true
 tags: [holiday, shopping]
@@ -38,6 +38,15 @@ Confectioneiress is giving its bakery a Grinch-themed makeover for a special hol
 
 ## Event Overview
 
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-96 mb-4">
+  <a href="/images/events/a-weekend-at-whoville-zionsville-cookie-cupcakes.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/a-weekend-at-whoville-zionsville-cookie-cupcakes.webp" alt="Grinch-themed cookie and cupcakes with bright green frosting and red heart decorations at Confectioneiress in Zionsville." class="rounded-lg shadow-sm w-full h-auto" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Grinch-inspired cookies and cupcakes are among the specialty treats featured during A Weekend at Whoville. Photo: Confectioneiress.
+  </figcaption>
+</figure>
+
 Based on Dr. Seuss’s *How the Grinch Stole Christmas!*, the two-day event features a special menu with limited-edition holiday surprises.
 
 ## About Confectioneiress
@@ -45,6 +54,8 @@ Based on Dr. Seuss’s *How the Grinch Stole Christmas!*, the two-day event feat
 Confectioneiress is a specialty bakery on Brendon Way in Zionsville offering gourmet cupcakes, custom cakes, French macarons, mini cream pies, and cake pops. Customers can stop in for a dessert or purchase treats to take home.
 
 Everyday cupcake flavors include red velvet, chocolate chip cookie dough, and salted chocolate caramel, with a rotating selection of additional flavors such as almond raspberry, blueberry cheesecake, and lemon drop.
+
+<div style="clear: both;"></div>
 
 **[Browse the bakery’s daily menu →](https://www.confectioneiress.com/dailymenu)**
 

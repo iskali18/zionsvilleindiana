@@ -6,6 +6,9 @@ metaDescription: "Reserve a private igloo at Lincoln Park in Zionsville for Fire
 eventType: annual
 startDate: "2027-02-05"
 endDate: "2027-02-13"
+occurrences: ["2027-02-05", "2027-02-06", "2027-02-12", "2027-02-13"]
+startDateTime: "2027-02-05T16:00:00-05:00"
+endDateTime: "2027-02-05T19:45:00-05:00"
 location: "Lincoln Park, Zionsville"
 address: "100 W. Oak St."
 externalUrl: "https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29892"

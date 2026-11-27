@@ -78,6 +78,9 @@ function ItemRow({ item }: { item: WeekendItem }) {
         </div>
       )}
       <div className="flex-1 min-w-0">
+        {item.featured && (
+          <p className="text-xs font-semibold uppercase tracking-wide text-brick-600 mb-0.5">Featured</p>
+        )}
         {item.href && item.external ? (
           <a href={item.href} target="_blank" rel="noopener noreferrer" className={titleClass}>
             {item.title}
@@ -114,7 +117,7 @@ function ItemList({ items }: { items: WeekendItem[] }) {
 }
 
 export default async function ThisWeekendPage() {
-  const { friday, sunday, allWeekend, days, comingUp, all } = await getWeekendData()
+  const { friday, sunday, days, comingUp, all } = await getWeekendData()
   const range = formatDateRange(friday, sunday)
   const year = dateParts(sunday).y
   const isEmpty = all.length === 0
@@ -178,13 +181,6 @@ export default async function ThisWeekendPage() {
           <p className="mb-14 rounded-lg border border-stone-200 bg-white px-5 py-6 text-stone-600">
             No events are listed for the weekend of {range} yet. See what&rsquo;s coming up next below.
           </p>
-        )}
-
-        {allWeekend.length > 0 && (
-          <section className="mb-10">
-            <h2 className="font-display text-2xl text-stone-800 mb-4">All Weekend</h2>
-            <ItemList items={allWeekend} />
-          </section>
         )}
 
         {days.map((day) => (

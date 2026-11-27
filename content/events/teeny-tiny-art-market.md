@@ -6,6 +6,12 @@ metaDescription: "SullivanMunce Cultural Center’s Teeny Tiny Art Market, Nov. 
 eventType: annual
 startDate: "2026-11-19"
 endDate: "2026-12-19"
+hoursByDay:
+  tuesday: "10 AM–4 PM"
+  wednesday: "10 AM–4 PM"
+  thursday: "10 AM–4 PM"
+  friday: "10 AM–4 PM"
+  saturday: "10 AM–2 PM"
 location: "SullivanMunce Cultural Center"
 address: "225 W. Hawthorne St."
 externalUrl: "https://www.sullivanmunce.org/calendar.html"

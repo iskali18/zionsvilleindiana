@@ -94,18 +94,7 @@ export const EVENTS: ChristmasEvent[] = [
     summary: 'Main Street parade followed by the town tree lighting',
   },
   {
-    name: 'Selfies with Santa at the Town Tree',
-    anchor: 'selfies-with-santa',
-    dates: ['2026-11-28'],
-    types: ['Family'],
-    admission: 'free',
-    time: '6:30\u20138:00 p.m.',
-    organizer: 'Zionsville Chamber of Commerce',
-    venue: 'Town tree, Main & Pine',
-    summary: 'Photos with Santa and Mrs. Claus at the town tree after the parade',
-  },
-  {
-    name: 'Selfies with Santa',
+    name: 'Santa House Selfies',
     anchor: 'selfies-with-santa',
     dates: [
       '2026-11-29',

@@ -17,6 +17,7 @@ imageAlt: "Crowds lining Main Street in Zionsville during the Christmas in the V
 photoCredit: "© ZionsvilleIndiana.com"
 photoCreditHeroOnly: false
 featured: true
+weekendFeatured: true
 tags: [holiday, family, parade, free, outdoor]
 lastUpdated: "2026-11-15"
 faqs:

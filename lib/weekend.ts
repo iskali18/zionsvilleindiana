@@ -97,6 +97,22 @@ function clockTime(iso?: string): string | undefined {
   return `${hours % 12 || 12}:${match[2]} ${hours < 12 ? 'AM' : 'PM'}`
 }
 
+/** Sort key from an hours string like "6:30–8 PM" or "10 AM–4 PM". When the
+ *  start has no AM/PM of its own, it shares the end's. */
+function hoursSortKey(hours: string): string {
+  const match = hours.match(/^(\d{1,2})(?::(\d{2}))?\s*(AM|PM)?/i)
+  if (!match) return '00:00'
+  const meridiem = (match[3] ?? hours.match(/(AM|PM)\s*$/i)?.[1] ?? 'AM').toUpperCase()
+  const hour = (Number(match[1]) % 12) + (meridiem === 'PM' ? 12 : 0)
+  return `${pad(hour)}:${match[2] ?? '00'}`
+}
+
+/** An event's hours for one date from its hoursByDay field: the date's own
+ *  entry first, then its weekday's. */
+function hoursOn(hoursByDay: Record<string, string>, ymd: string): string | undefined {
+  return hoursByDay[ymd] ?? hoursByDay[WEEKDAYS_LONG[dateParts(ymd).weekday].toLowerCase()]
+}
+
 /** "13:05" from a time like "1:05 PM", for sorting. Untimed entries sort first. */
 function sortKey(time?: string): string {
   const match = time?.match(/^(\d{1,2}):(\d{2})\s*(AM|PM)/i)
@@ -132,6 +148,9 @@ export interface WeekendItem {
   imageAlt?: string
   /** schema.org Event for this listing, when there's enough to build one. */
   schema?: Record<string, unknown>
+  /** Listed first on its day with a "Featured" label (weekendFeatured in the
+   *  event's frontmatter). */
+  featured?: boolean
 }
 
 export interface WeekendDay {
@@ -143,12 +162,10 @@ export interface WeekendData {
   friday: string
   sunday: string
   from: string
-  /** Running the whole weekend and beyond, such as a season-long attraction. */
-  allWeekend: WeekendItem[]
   days: WeekendDay[]
   /** The next few featured events after the weekend. */
   comingUp: EventMeta[]
-  /** Every item once, in page order (by day and time, then all-weekend items),
+  /** Every item once, in page order (by day, featured first, then by time),
    *  for the meta description and schema. */
   all: WeekendItem[]
 }
@@ -231,10 +248,6 @@ function featuredEventSchema(event: EventMeta, firstDate: string, repeats: boole
   }
 }
 
-function spansWholeWeekend(start: string, end: string, friday: string, sunday: string) {
-  return start < friday && end > sunday
-}
-
 /** Drops repeats of the same item, such as a two-day event listed under both
  *  days, keeping the first. A weekly calendar entry has a separate key for each
  *  date, so it's matched on title and link as well. */
@@ -270,8 +283,9 @@ function stripHtml(text?: string): string | undefined {
  *  is listed twice. Cached per request, so the page and its metadata share it. */
 export const getWeekendData = cache(async (): Promise<WeekendData> => {
   const { friday, sunday, from } = getWeekend()
+  // An event that runs all weekend is listed under each of its days, so no
+  // day looks emptier than it is.
   const byDay = new Map<string, WeekendItem[]>(daysBetween(from, sunday).map((d) => [d, []]))
-  const allWeekend: WeekendItem[] = []
 
   // ── Featured events ──
   const featured = getFeaturedEvents(500).filter((e) => !e.perennial)
@@ -304,15 +318,21 @@ export const getWeekendData = cache(async (): Promise<WeekendData> => {
         dates[0],
         Boolean(event.occurrences?.length || event.recurrence)
       ),
+      featured: Boolean(event.weekendFeatured),
     }
 
-    const isSingleRun = !event.occurrences?.length && !event.recurrence
-    const runEnd = event.endDate ? toIso(event.endDate) : toIso(event.startDate)
-    if (isSingleRun && spansWholeWeekend(toIso(event.startDate), runEnd, friday, sunday)) {
-      allWeekend.push(item)
-    } else {
-      dates.forEach((d) => byDay.get(d)?.push(item))
+    // Hours that differ by day: each day gets its own hours, and a day with
+    // none listed (the event is closed) is skipped.
+    if (event.hoursByDay) {
+      const hoursByDay = event.hoursByDay
+      dates.forEach((d) => {
+        const hours = hoursOn(hoursByDay, d)
+        if (hours) byDay.get(d)?.push({ ...item, time: hours, sortTime: hoursSortKey(hours) })
+      })
+      continue
     }
+
+    dates.forEach((d) => byDay.get(d)?.push(item))
   }
 
   // ── Community calendar ──
@@ -372,15 +392,14 @@ export const getWeekendData = cache(async (): Promise<WeekendData> => {
       schema: buildEventSchema(entry) ?? undefined,
     }
 
-    if (spansWholeWeekend(startDay, endDay, friday, sunday)) {
-      allWeekend.push(item)
-    } else {
-      daysBetween(first, last).forEach((d) => byDay.get(d)?.push(item))
-    }
+    daysBetween(first, last).forEach((d) => byDay.get(d)?.push(item))
   }
 
+  // A featured event leads its day; everything else follows by start time.
   const bySortTime = (a: WeekendItem, b: WeekendItem) =>
-    a.sortTime.localeCompare(b.sortTime) || a.title.localeCompare(b.title)
+    Number(Boolean(b.featured)) - Number(Boolean(a.featured)) ||
+    a.sortTime.localeCompare(b.sortTime) ||
+    a.title.localeCompare(b.title)
 
   const days = [...byDay.entries()]
     .map(([date, items]) => ({ date, items: items.sort(bySortTime) }))
@@ -394,10 +413,9 @@ export const getWeekendData = cache(async (): Promise<WeekendData> => {
     friday,
     sunday,
     from,
-    allWeekend,
     days,
     comingUp,
-    all: uniqueByKey([...days.flatMap((d) => d.items), ...allWeekend]),
+    all: uniqueByKey(days.flatMap((d) => d.items)),
   }
 })
 
