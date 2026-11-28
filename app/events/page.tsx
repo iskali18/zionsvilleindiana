@@ -10,9 +10,9 @@ import {
   eventHref,
   getCalendarLinkTargets,
   dateParts,
-  formatCardDate,
   MONTHS,
   WEEKDAYS,
+  formatRunDates,
 } from '@/lib/content'
 import { getUpcomingEvents, buildEventSchema, indianaDate, matchEventToSlug } from '@/lib/calendar'
 import { formatShortDate, formatDateRange, todayIso, toIso, fitNames, timeRange } from '@/lib/weekend'
@@ -79,7 +79,7 @@ export const revalidate = 86400
 const BADGE_MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
 export default async function EventsPage() {
-  const featuredEvents = getFeaturedEvents(30)
+  const featuredEvents = getFeaturedEvents(30, { featuredFirst: true })
   const calendarEvents = await getUpcomingEvents(24)
   // Includes series items whose cards aren't showing yet, so their calendar
   // entries still link.
@@ -169,6 +169,13 @@ export default async function EventsPage() {
                       sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
+                    {/* On the photo, so this card's title lines up with the
+                        other cards in the row. Same badge as the homepage. */}
+                    {event.pinned && (
+                      <span className="absolute top-2 left-2 bg-white/90 text-stone-800 text-xs font-semibold uppercase tracking-wide px-2 py-0.5 rounded shadow-sm pointer-events-none">
+                        Featured
+                      </span>
+                    )}
                     {event.photoCredit && !event.photoCreditHeroOnly && (
                       <p
                         className="absolute bottom-1.5 right-2 text-white/70 text-[10px] leading-none"
@@ -184,9 +191,7 @@ export default async function EventsPage() {
                         ? formatOccurrenceList(event.occurrences)
                         : null) ??
                         event.recurrenceLabel ?? (
-                        event.endDate && event.endDate !== event.startDate
-                          ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
-                          : formatCardDate(event.startDate)
+                        formatRunDates(event.startDate, event.endDate)
                       )}
                     </p>
                     <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">
@@ -218,6 +223,13 @@ export default async function EventsPage() {
                       sizes="(min-width: 1024px) 352px, (min-width: 640px) 50vw, 100vw"
                       className="object-cover group-hover:scale-105 transition-transform duration-300"
                     />
+                    {/* On the photo, so this card's title lines up with the
+                        other cards in the row. Same badge as the homepage. */}
+                    {event.pinned && (
+                      <span className="absolute top-2 left-2 bg-white/90 text-stone-800 text-xs font-semibold uppercase tracking-wide px-2 py-0.5 rounded shadow-sm pointer-events-none">
+                        Featured
+                      </span>
+                    )}
                     {event.photoCredit && !event.photoCreditHeroOnly && (
                       <p
                         className="absolute bottom-1.5 right-2 text-white/70 text-[10px] leading-none"
@@ -233,9 +245,7 @@ export default async function EventsPage() {
                         ? formatOccurrenceList(event.occurrences)
                         : null) ??
                         event.recurrenceLabel ?? (
-                        event.endDate && event.endDate !== event.startDate
-                          ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
-                          : formatCardDate(event.startDate)
+                        formatRunDates(event.startDate, event.endDate)
                       )}
                     </p>
                     <h3 className="font-display text-lg text-stone-900 group-hover:text-brick-600 transition-colors">

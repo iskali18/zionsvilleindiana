@@ -53,6 +53,22 @@ export function formatCardDate(value: string | Date, withYear = true): string {
   return `${WEEKDAYS[weekday]}, ${MONTHS[m - 1]} ${d}${withYear ? `, ${y}` : ''}`
 }
 
+/** Dates for an event with a start and end date. Before it starts:
+ *  "Fri, Nov. 20 – Sat, Dec. 19, 2026". Once it has started, the first day is
+ *  in the past, so only the end shows: "Ongoing through Sat, Dec. 19, 2026".
+ *  A one-day event shows its date. */
+export function formatRunDates(
+  start: string | Date,
+  end?: string | Date,
+  today: Date = indianaToday()
+): string {
+  const startIso = ymd(start)
+  if (!end || ymd(end) === startIso) return formatCardDate(start)
+  const todayIso = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`
+  if (todayIso > startIso && todayIso <= ymd(end)) return `Ongoing through ${formatCardDate(end)}`
+  return `${formatCardDate(start, false)} – ${formatCardDate(end)}`
+}
+
 // ─── Generic helpers ─────────────────────────────────────────────────────────
 
 function getContentDir(section: string) {
@@ -189,8 +205,10 @@ function applyRecurrence(event: EventMeta, today: Date): EventMeta | null {
  * Card-friendly summary of an `occurrences` list: the next few upcoming dates,
  * months written as in formatCardDate, ellipsis when more remain. Past dates
  * drop off on their own.
- *   4+ upcoming -> "Sat, March 28, April 25, May 23…"
- *   1-3 upcoming -> "Sat, Sept. 26, Oct. 24, 2026"
+ *   Same weekday     -> "Sat, Oct. 24, Nov. 21, Dec. 19"   (or "…" when more remain)
+ *   Back-to-back days -> "Fri, Dec. 4 – Sat, Dec. 5, 2026"
+ *   Mixed weekdays   -> "Sun, Dec. 6 · Fri, Dec. 11 · Sat, Dec. 12…"
+ *   Crosses a year   -> "Wed, Dec. 16, 2026 · Sun, Feb. 14, 2027"
  * Returns null when every listed date has passed, so callers can fall back.
  */
 export function formatOccurrenceList(
@@ -211,16 +229,36 @@ export function formatOccurrenceList(
 
   if (upcoming.length === 0) return null
 
-  const weekday = WEEKDAYS[dateParts(upcoming[0]).weekday]
-  const shown = upcoming.slice(0, max).map((d) => {
-    const { m, d: day } = dateParts(d)
-    return `${MONTHS[m - 1]} ${day}`
-  })
+  const shown = upcoming.slice(0, max).map(dateParts)
+  const more = upcoming.length > max
+  const first = shown[0]
+  const last = shown[shown.length - 1]
+  const monthDay = (p: typeof first) => `${MONTHS[p.m - 1]} ${p.d}`
+  const withWeekday = (p: typeof first) => `${WEEKDAYS[p.weekday]}, ${monthDay(p)}`
+  const end = more ? '…' : `, ${last.y}`
 
-  if (upcoming.length > max) return `${weekday}, ${shown.join(', ')}…`
+  if (shown.length === 1) return `${withWeekday(first)}${end}`
 
-  const year = dateParts(upcoming[upcoming.length - 1]).y
-  return `${weekday}, ${shown.join(', ')}, ${year}`
+  // Back-to-back days read as a range, like a multi-day event's card.
+  const dayNumber = (p: typeof first) => Date.UTC(p.y, p.m - 1, p.d) / 86400000
+  const consecutive = shown.every((p, i) => i === 0 || dayNumber(p) - dayNumber(shown[i - 1]) === 1)
+  if (consecutive) {
+    const startYear = first.y === last.y ? '' : `, ${first.y}`
+    return `${withWeekday(first)}${startYear} – ${withWeekday(last)}${end}`
+  }
+
+  // Dates in two different years each carry their own year.
+  if (shown.some((p) => p.y !== first.y)) {
+    return shown.map((p) => `${withWeekday(p)}, ${p.y}`).join(' · ') + (more ? '…' : '')
+  }
+
+  // All on one weekday: name it once.
+  if (shown.every((p) => p.weekday === first.weekday)) {
+    return `${WEEKDAYS[first.weekday]}, ${shown.map(monthDay).join(', ')}${end}`
+  }
+
+  // Mixed weekdays: each date gets its own.
+  return shown.map(withWeekday).join(' · ') + end
 }
 
 // ─── Events ──────────────────────────────────────────────────────────────────
@@ -467,9 +505,12 @@ function timeOfDay(event: EventMeta): string {
 
 /** Pass `{ homepage: true }` from the homepage: it drops events with
  *  `showOnHomepage: false`, lists at most one card per series, so a series
- *  can't fill the few slots there, and puts `weekendFeatured` events first.
- *  The events page passes nothing. */
-export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {}): EventMeta[] {
+ *  can't fill the few slots there, and puts `pinned` events first.
+ *  The events page passes `{ featuredFirst: true }`, which only does the last. */
+export function getFeaturedEvents(
+  limit = 3,
+  options: { homepage?: boolean; featuredFirst?: boolean } = {}
+): EventMeta[] {
   const today = indianaToday()
 
   // getAllEvents() already resolves recurrence and sorts by resolved startDate
@@ -487,12 +528,12 @@ export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {
     )
     .filter(seriesCap(options.homepage ? 1 : undefined))
 
-  // On the homepage, an event marked `weekendFeatured` (the same field that puts
-  // it at the top of This Weekend) takes the first card until it ends. The rest
-  // keep date order.
+  // On the homepage and the events page, an event marked `pinned`
+  // (the same field that puts it at the top of This Weekend) takes the first
+  // card until it ends. The rest keep date order.
   const upcoming = (
-    options.homepage
-      ? [...current.filter((e) => e.weekendFeatured), ...current.filter((e) => !e.weekendFeatured)]
+    options.homepage || options.featuredFirst
+      ? [...current.filter((e) => e.pinned), ...current.filter((e) => !e.pinned)]
       : current
   ).slice(0, limit)
 

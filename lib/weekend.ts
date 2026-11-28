@@ -148,7 +148,7 @@ export interface WeekendItem {
   imageAlt?: string
   /** schema.org Event for this listing, when there's enough to build one. */
   schema?: Record<string, unknown>
-  /** Listed first on its day with a "Featured" label (weekendFeatured in the
+  /** Listed first on its day with a "Featured" label (pinned in the
    *  event's frontmatter). */
   featured?: boolean
 }
@@ -318,7 +318,7 @@ export const getWeekendData = cache(async (): Promise<WeekendData> => {
         dates[0],
         Boolean(event.occurrences?.length || event.recurrence)
       ),
-      featured: Boolean(event.weekendFeatured),
+      featured: Boolean(event.pinned),
     }
 
     // Hours that differ by day: each day gets its own hours, and a day with

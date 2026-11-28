@@ -51,23 +51,13 @@ export interface ChristmasEvent {
 
 export const EVENTS: ChristmasEvent[] = [
   {
-    name: 'Teeny Tiny Art Market Opening Party',
-    anchor: 'teeny-tiny-art-market',
-    dates: ['2026-11-19'],
-    types: ['Shopping & Markets'],
-    admission: 'ticketed',
-    time: '5:00\u20138:00 p.m.',
-    venue: 'SullivanMunce Cultural Center',
-    summary: 'Appetizers, drinks, music and hands-on art making',
-  },
-  {
     name: 'Teeny Tiny Art Market',
     anchor: 'teeny-tiny-art-market',
     start: '2026-11-20',
     end: '2026-12-19',
     types: ['Shopping & Markets'],
     admission: 'unknown',
-    time: 'Tue\u2013Sat \u00b7 Closed Nov. 26',
+    time: 'Tue\u2013Sat',
     venue: 'SullivanMunce Cultural Center',
     summary: 'Original artwork measuring 6 by 6 inches or smaller',
   },
@@ -323,7 +313,7 @@ export const EVENTS: ChristmasEvent[] = [
     time: '6:00\u20137:30 p.m.',
     organizer: 'Zionsville Parks & Recreation',
     venue: 'Elm Street Green',
-    summary: 'Evening walk along luminary-lined paths; leashed pets welcome',
+    summary: 'Evening walk along luminary-lined paths; leashed dogs welcome',
   },
   {
     name: 'Metropolitan Youth Ballet: The Nutcracker',
@@ -360,6 +350,17 @@ export function parseDate(iso: string): Date {
   return new Date(y, m - 1, d)
 }
 
+/** Today's date in Indianapolis as YYYY-MM-DD, so the table reads the same on
+ *  the server (UTC) and in the browser. */
+function indianaTodayIso(): string {
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'America/Indiana/Indianapolis',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(new Date())
+}
+
 /** 'Sat, Dec. 5' */
 export function formatDay(iso: string): string {
   const d = parseDate(iso)
@@ -372,6 +373,11 @@ export function formatDay(iso: string): string {
 export function formatRange(startIso: string, endIso: string): string {
   const a = parseDate(startIso)
   const b = parseDate(endIso)
+  // Once a run has started, its first day is in the past, so show only how
+  // long it continues: 'Ongoing through Dec. 19'.
+  if (indianaTodayIso() > startIso && indianaTodayIso() <= endIso) {
+    return `Ongoing through ${MONTH[b.getMonth()]} ${b.getDate()}`
+  }
   const tail =
     a.getMonth() === b.getMonth()
       ? `${MONTH[a.getMonth()]} ${a.getDate()}\u2013${b.getDate()}`

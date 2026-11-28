@@ -3,7 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
-import { getFeaturedEvents, formatOccurrenceList, eventHref, formatCardDate } from '@/lib/content'
+import { getFeaturedEvents, formatOccurrenceList, eventHref, formatRunDates } from '@/lib/content'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
 
 export const metadata: Metadata = {
@@ -256,7 +256,7 @@ export default function HomePage() {
                   />
                   {/* On the photo, not above the date, so this card's title
                       lines up with the other cards in the row. */}
-                  {event.weekendFeatured && (
+                  {event.pinned && (
                     <span className="absolute top-2 left-2 bg-white/90 text-stone-800 text-xs font-semibold uppercase tracking-wide px-2 py-0.5 rounded shadow-sm pointer-events-none">
                       Featured
                     </span>
@@ -278,9 +278,7 @@ export default function HomePage() {
                           ? formatOccurrenceList(event.occurrences)
                           : null) ??
                         event.recurrenceLabel ?? (
-                          event.endDate && event.endDate !== event.startDate
-                            ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
-                            : formatCardDate(event.startDate)
+                          formatRunDates(event.startDate, event.endDate)
                         )
                     }
                   </p>

@@ -15,7 +15,7 @@ import {
   getEvent,
   indianaToday,
   dateParts,
-  formatCardDate,
+  formatRunDates,
   MONTHS,
   activeRelatedEvent,
   relatedEventAnchor,
@@ -271,13 +271,14 @@ function clock12(time?: string): string | undefined {
 }
 
 /** Same month style as the event cards (formatCardDate in lib/content):
- *  "Sat, Oct. 10 – Tue, Oct. 13, 2026" for a range, "Saturday, Oct. 24, 2026"
- *  for a single day. */
+ *  "Sat, Oct. 10 – Tue, Oct. 13, 2026" for a range ("Ongoing through Tue,
+ *  Oct. 13, 2026" once it has started), "Saturday, Oct. 24, 2026" for a
+ *  single day. */
 function formatEventDate(meta: Awaited<ReturnType<typeof getEvent>>['meta']): string {
   if (meta.perennial && meta.perennialLabel) return meta.perennialLabel
   if (meta.recurrenceLabel) return meta.recurrenceLabel
   if (meta.endDate && meta.endDate !== meta.startDate) {
-    return `${formatCardDate(meta.startDate, false)} – ${formatCardDate(meta.endDate)}`
+    return formatRunDates(meta.startDate, meta.endDate)
   }
   const { y, m, d, weekday } = dateParts(meta.startDate)
   return `${WEEKDAYS_LONG[weekday]}, ${MONTHS[m - 1]} ${d}, ${y}`

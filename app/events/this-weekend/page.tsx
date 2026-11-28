@@ -5,7 +5,7 @@ import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import Breadcrumb from '@/components/ui/Breadcrumb'
 import SeasonalGuidesStrip from '@/components/SeasonalGuidesStrip'
-import { eventHref, formatCardDate, formatOccurrenceList, dateParts } from '@/lib/content'
+import { eventHref, formatOccurrenceList, dateParts, formatRunDates } from '@/lib/content'
 import {
   getWeekendData,
   formatDateRange,
@@ -213,9 +213,7 @@ export default async function ThisWeekendPage() {
                     <p className="text-xs text-brick-600 font-medium mb-0.5">
                       {(event.occurrences?.length ? formatOccurrenceList(event.occurrences) : null) ??
                         event.recurrenceLabel ??
-                        (event.endDate && event.endDate !== event.startDate
-                          ? `${formatCardDate(event.startDate, false)} – ${formatCardDate(event.endDate)}`
-                          : formatCardDate(event.startDate))}
+                        (formatRunDates(event.startDate, event.endDate))}
                     </p>
                     <Link
                       href={eventHref(event)}

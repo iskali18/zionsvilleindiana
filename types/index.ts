@@ -28,10 +28,11 @@ export interface EventMeta {
   photoCreditHeroOnly?: boolean
   faqs?: Array<{ q: string; a: string }>
   featured?: boolean
-  /** Puts this event first on /events/this-weekend, with a "Featured" label,
-   *  on each day it runs that weekend. Use it for the weekend's biggest event,
-   *  such as the Christmas parade. */
-  weekendFeatured?: boolean
+  /** Pins this event to the top until it ends: the first card on the homepage
+   *  and /events (with a "Featured" badge), and first on each day it runs on
+   *  /events/this-weekend (with a "Featured" label). More than one can be
+   *  pinned; pinned events go first in date order. */
+  pinned?: boolean
   /** Hours shown on /events/this-weekend when they differ by day. Keys are
    *  weekdays ("friday") or specific dates ("2026-11-28"); a date overrides its
    *  weekday. Values are written as the page shows them, e.g. "10 AM–4 PM" or
