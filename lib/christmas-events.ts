@@ -391,6 +391,21 @@ export interface DateRow {
   key: string
   label: string
   events: ChristmasEvent[]
+  /** A repeating event collapsed into one row (filtered view only). */
+  recurring?: boolean
+}
+
+/** Dates of an event that haven't passed yet, in Indianapolis time. */
+export function upcomingDates(e: ChristmasEvent): string[] {
+  const today = indianaTodayIso()
+  return (e.dates ?? []).filter((d) => d >= today).sort()
+}
+
+/** True while an event still has a date or run ahead of it (or under way). */
+export function isUpcoming(e: ChristmasEvent): boolean {
+  if (e.dates?.length) return upcomingDates(e).length > 0
+  if (e.end) return e.end >= indianaTodayIso()
+  return true
 }
 
 /** Minutes past midnight for the start of a `time` string, for ordering events
@@ -429,11 +444,12 @@ export function buildRows(events: ChristmasEvent[] = EVENTS): DateRow[] {
 
   for (const e of events) {
     if (e.dates?.length) {
-      for (const d of e.dates) {
+      // Past dates drop off, as they do on the event cards.
+      for (const d of upcomingDates(e)) {
         if (!byDay.has(d)) byDay.set(d, [])
         byDay.get(d)!.push(e)
       }
-    } else if (e.start && e.end) {
+    } else if (e.start && e.end && isUpcoming(e)) {
       runs.push({ key: e.start, label: formatRange(e.start, e.end), events: [e] })
     }
   }
@@ -476,15 +492,13 @@ export function formatDateList(isos: string[]): string {
 export function buildFilteredRows(events: ChristmasEvent[]): DateRow[] {
   const rows: DateRow[] = []
   for (const e of events) {
-    if (e.dates && e.dates.length > 1) {
-      rows.push({
-        key: [...e.dates].sort()[0],
-        label: `${e.dates.length} dates`,
-        events: [e],
-      })
-    } else if (e.dates?.length) {
-      rows.push({ key: e.dates[0], label: formatDay(e.dates[0]), events: [e] })
-    } else if (e.start && e.end) {
+    const dates = upcomingDates(e)
+    if (dates.length > 1) {
+      // The dates themselves, not a count: 'Dec. 5–6; 19–20'.
+      rows.push({ key: dates[0], label: formatDateList(dates), events: [e], recurring: true })
+    } else if (dates.length === 1) {
+      rows.push({ key: dates[0], label: formatDay(dates[0]), events: [e] })
+    } else if (e.start && e.end && isUpcoming(e)) {
       rows.push({ key: e.start, label: formatRange(e.start, e.end), events: [e] })
     }
   }
@@ -492,7 +506,7 @@ export function buildFilteredRows(events: ChristmasEvent[]): DateRow[] {
   const merged = new Map<string, DateRow>()
   const out: DateRow[] = []
   for (const r of rows) {
-    if (r.label.endsWith('dates') || r.events[0].start) { out.push(r); continue }
+    if (r.recurring || r.events[0].start) { out.push(r); continue }
     const hit = merged.get(r.key)
     if (hit) {
       hit.events.push(...r.events)

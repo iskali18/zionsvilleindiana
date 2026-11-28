@@ -11,7 +11,7 @@ ctas:
     href: /downtown
   - label: View upcoming events
     href: /events
-lastUpdated: "2026-11-27"
+lastUpdated: "2026-11-28"
 faqs:
   - q: "Can you drink on Main Street Zionsville?"
     a: "Yes. During DORA hours, adults 21 and older may carry an alcoholic beverage purchased from an approved DORA establishment within the district. That includes the brick-paved Main Street area."
@@ -46,8 +46,8 @@ The Zionsville DORA is active every day of the year.
 
 | Day | Hours |
 |---|---|
-| Monday – Saturday | 10:00 AM – 10:00 PM |
-| Sunday | 12:00 PM – 8:00 PM |
+| Monday – Saturday | 10:00 a.m. – 10:00 p.m. |
+| Sunday | 12:00 p.m. – 8:00 p.m. |
 
 You must be 21 or older to purchase and carry an alcoholic beverage within the district. One person may carry up to two open containers at a time.
 
@@ -145,12 +145,10 @@ Participating businesses may change over time. Before ordering, look for officia
   </figcaption>
 </figure>
 
-A public restroom for DORA visitors is located in a temporary structure on the Main and Sycamore parking lot, just south of The Friendly Tavern. The trailer provides an immediate solution to a long-standing need for public restrooms in the Village.
+Public restrooms are located in the public parking lot at the northwest corner of Main Street and Sycamore Street, just south of The Friendly Tavern. They are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The facilities include separate men’s and women’s restrooms and a wheelchair-accessible restroom with a baby changing table.
 
 Features include:
 
-- ADA accessibility, including a baby changing table
-- Daily hours from 7 AM to 10 PM, with extended hours during special events
 - Exterior lighting and a security camera for enhanced safety
 - Routine maintenance by the Town’s Departments of Public Works (DPW) and Parks & Recreation
 

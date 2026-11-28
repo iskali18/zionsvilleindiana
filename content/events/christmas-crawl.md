@@ -16,7 +16,7 @@ hero_position: "center 35%"
 mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
 featured: true
 tags: [holiday, shopping]
-lastUpdated: "2026-11-27"
+lastUpdated: "2026-11-28"
 ---
 
 The annual Christmas Crawl is an evening of holiday shopping and dining in Downtown Zionsville. Part of Christmas in the Village, the event is open to adults ages 21 and older.
@@ -110,18 +110,3 @@ These rides are separate from the complimentary [Vintage Village Carriage Rides]
 **[Book a private carriage ride →](https://www.signupgenius.com/go/9040C48A4AE2C7-67541978-vintage)**
 
 **[Find out more about the Christmas Crawl →](https://www.zionsvillechamber.org/christmas-crawl/)**
-
-## Restrooms
-
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
-    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
-  </a>
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    The public restroom trailer in the Main Street and Sycamore Street parking lot.
-  </figcaption>
-</figure>
-
-Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The wheelchair-accessible restroom includes a baby changing table.
-
-<div style="clear: both;"></div>

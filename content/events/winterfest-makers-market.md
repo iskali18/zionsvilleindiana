@@ -18,7 +18,7 @@ imageAlt: "Handmade wooden Christmas tree ornaments hanging at a holiday market 
 hero_position: "center 50%"
 featured: true
 tags: [family, free, shopping, outdoor, holiday]
-lastUpdated: "2026-11-27"
+lastUpdated: "2026-11-28"
 faqs:
   - q: "When is the 2026 Zionsville Open-Air Maker’s Market?"
     a: "The market is Saturday, December 5, 2026, from 9:00 a.m. to noon."
@@ -68,8 +68,6 @@ Local makers, crafters, and artists sell handmade gifts and specialty goods, wit
 
 The market is part of Zionsville Parks & Recreation’s Winterfest, a seasonal program that also includes [Jingle in the Park](/events/jingle-in-the-park), Lincoln Lights, luminary walks at [Elm Street Green](/events/luminary-walks-elm-street-green) and [Overley-Worman Park](/events/luminary-walk-overley-worman-park), and [Fireside Nights](/events/fireside-nights).
 
-Visit the Town’s [Winterfest page](https://www.zionsville-in.gov/737/Winterfest) for details.
-
 For additional holiday events, see the [Christmas in Zionsville guide](/events/christmas-in-zionsville).
 
 ## Parking & Restrooms
@@ -85,9 +83,9 @@ For additional holiday events, see the [Christmas in Zionsville guide](/events/c
 
 Free public parking is available in lots and on the street throughout downtown Zionsville. See the [downtown parking section](/downtown#parking) for details.
 
-Public restrooms are located in the same parking lot and are open daily from 7 AM to 10 PM. The wheelchair-accessible restroom includes a baby changing table.
+Public restrooms are located in the parking lot where the market is held and are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The facilities include separate men’s and women’s restrooms and a wheelchair-accessible restroom with a baby changing table.
 
-## Downtown map
+## Downtown Map
 
 Save the [downtown Zionsville map](/articles/downtown-zionsville-map) to your phone before you go. It shows the Main Street area, including nearby restaurants, shops, public parking, restrooms, and landmarks.
 

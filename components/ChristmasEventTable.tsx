@@ -7,7 +7,7 @@ import {
   EVENTS,
   buildRows,
   buildFilteredRows,
-  formatDateList,
+  isUpcoming,
   type EventType,
 } from '@/lib/christmas-events'
 
@@ -21,6 +21,8 @@ export default function ChristmasEventTable() {
     () =>
       EVENTS.filter(
         (e) =>
+          // events whose dates have all passed drop out of the table and the count
+          isUpcoming(e) &&
           // an event matches if it carries ANY selected type
           (types.length === 0 || types.some((t) => e.types.includes(t))) &&
           // 'unknown' admission never counts as free
@@ -138,13 +140,6 @@ export default function ChristmasEventTable() {
                       </a>
                       {e.note && <span className="ml-1.5 text-xs text-stone-500">{e.note}</span>}
 
-                      {/* A collapsed recurring event says so, otherwise the
-                          row looks like the date grouping has broken. */}
-                      {filtering && e.dates && e.dates.length > 1 && (
-                        <p className="m-0 text-xs text-stone-500">
-                          Recurring — {formatDateList(e.dates)}
-                        </p>
-                      )}
                       <p className="m-0 text-xs text-stone-500">
                         {[e.time, e.venue].filter(Boolean).join(' · ')}
                       </p>

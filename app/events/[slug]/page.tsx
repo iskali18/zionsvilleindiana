@@ -292,6 +292,44 @@ function formatDate(iso: string | Date): string {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
 }
 
+/** Public restrooms at Main and Sycamore, shown after the map in the downtown
+ *  Parking & Restrooms section. Kept here so the hours and photo change in
+ *  one place. */
+function DowntownRestrooms() {
+  return (
+    <div className="mt-6">
+      <figure className="sm:float-right sm:ml-6 sm:mb-4 sm:w-72 mb-4">
+        <a
+          href="/images/events/public-restrooms-downtown-zionsville.webp"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View full-size image in new tab"
+        >
+          <Image
+            src="/images/events/public-restrooms-downtown-zionsville.webp"
+            alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana."
+            width={576}
+            height={432}
+            sizes="(min-width: 640px) 288px, 100vw"
+            className="rounded-lg shadow-sm w-full h-auto"
+          />
+        </a>
+        <figcaption className="text-xs text-stone-500 italic mt-2">
+          The public restroom trailer in the Main Street and Sycamore Street parking lot.
+        </figcaption>
+      </figure>
+      <p className="text-stone-700 leading-relaxed">
+        Public restrooms are located in the public parking lot at the northwest corner of Main
+        Street and Sycamore Street, just south of The Friendly Tavern. They are open daily from
+        7:00 a.m. to 10:00 p.m., with extended hours during special events. The facilities include
+        separate men’s and women’s restrooms and a wheelchair-accessible restroom with a baby
+        changing table.
+      </p>
+      <div className="clear-both" />
+    </div>
+  )
+}
+
 const getLinkText = (url: string) => {
   const clean = url
     .replace(/^https?:\/\//, '')
@@ -546,10 +584,10 @@ export default async function EventPage({ params }: Props) {
           {meta.mapEmbedUrl && (
             <section className="mt-10">
               {/* Heading and line come from the event's own file. Pages that set
-                  neither keep the original downtown text, so existing maps
-                  look the same. */}
+                  neither get the downtown section: the parking line, the map,
+                  then the downtown restrooms. */}
               <h2 className="font-display text-2xl text-stone-800 font-bold mb-2">
-                {meta.mapHeading ?? 'Parking & nearby restaurants'}
+                {meta.mapHeading ?? 'Parking & Restrooms'}
               </h2>
               {(() => {
                 const line =
@@ -567,6 +605,7 @@ export default async function EventPage({ params }: Props) {
                   title={meta.mapTitle ?? `${meta.title} map`}
                 />
               </div>
+              {!meta.mapHeading && <DowntownRestrooms />}
             </section>
           )}
 

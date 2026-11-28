@@ -14,7 +14,7 @@ hero_position: "center 70%"
 photoCredit: "© ZionsvilleIndiana.com"
 featured: true
 tags: [holiday, family, shopping, concerts]
-lastUpdated: "2026-11-27"
+lastUpdated: "2026-11-28"
 faqs:
   - q: "When do Christmas events start in Zionsville in 2026?"
     a: "Christmas in Zionsville begins Saturday, November 28 with the Holiday Parade and Tree Lighting, and continues through Christmas Eve."
@@ -380,7 +380,7 @@ See the [Back to Bethlehem event page](https://www.zpc.org/event/24467474-2026-1
 
 On most days, free public parking is available in lots at the northwest corner of **Main Street and Sycamore Street** and the southwest corner of **Main Street and Pine Street**. Additional parking is available along nearby streets and in public lots throughout the Village. See the [downtown parking section](/downtown#parking) for details.
 
-Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The wheelchair-accessible restroom includes a baby changing table.
+Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The facilities include separate men’s and women’s restrooms and a wheelchair-accessible restroom with a baby changing table.
 
 Main Street closes to vehicles during the Holiday Parade on November 28. Parking near the parade route fills quickly, so plan to arrive early if you want to park nearby.
 

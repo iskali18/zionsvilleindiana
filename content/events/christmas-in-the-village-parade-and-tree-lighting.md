@@ -1,9 +1,9 @@
 ---
 title: "Zionsville Christmas Parade & Tree Lighting"
 alternateName: ["Zionsville Holiday Parade", "Christmas in the Village Parade & Tree Lighting", "Zionsville Christmas Tree Lighting"]
-description: "Zionsville’s annual Christmas parade and town tree lighting, held the Saturday after Thanksgiving. The parade starts at 5:00 PM at Eagle Elementary, and the tree lighting follows at Main and Pine Streets."
+description: "Zionsville’s annual Christmas parade and town tree lighting, held the Saturday after Thanksgiving. The parade starts at 5:00 p.m. at Eagle Elementary, and the tree lighting follows at Main and Pine Streets."
 metaTitle: "Zionsville Christmas Parade & Tree Lighting 2026 | Nov. 28"
-metaDescription: "The Zionsville Christmas Parade & Tree Lighting takes place November 28, 2026, from 5–6:30 PM. See the parade route, event schedule, and parking information."
+metaDescription: "The Zionsville Christmas Parade & Tree Lighting takes place November 28, 2026, from 5–6:30 p.m. See the parade route, event schedule, and parking information."
 eventType: annual
 startDate: "2026-11-28"
 endDate: "2026-11-28"
@@ -19,10 +19,10 @@ photoCreditHeroOnly: false
 featured: true
 pinned: true
 tags: [holiday, family, parade, free, outdoor]
-lastUpdated: "2026-11-27"
+lastUpdated: "2026-11-28"
 faqs:
   - q: "When is the Zionsville Christmas Parade?"
-    a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026. The parade begins at 5:00 PM at Eagle Elementary and ends near Old National Bank on South Main Street at approximately 6:00 PM."
+    a: "The Zionsville Christmas Parade & Tree Lighting is Saturday, November 28, 2026. The parade begins at 5:00 p.m. at Eagle Elementary and ends near Old National Bank on South Main Street at approximately 6:00 p.m."
   - q: "Is the Zionsville Christmas Parade free?"
     a: "Yes. The parade and tree lighting are both free to attend."
   - q: "Where is the Zionsville Christmas tree lighting?"
@@ -39,7 +39,7 @@ Zionsville’s annual Christmas in the Village Parade & Tree Lighting takes plac
 
 ## Quick Facts
 
-- **The parade begins at 5:00 PM on Saturday, November 28, 2026.**
+- **The parade begins at 5:00 p.m. on Saturday, November 28, 2026.**
 - **Santa and Mrs. Claus light the town tree after the parade.**
 - **The parade and tree lighting are free to attend.**
 
@@ -56,10 +56,10 @@ Zionsville’s annual Christmas in the Village Parade & Tree Lighting takes plac
   </figcaption>
 </figure>
 
-- **5:00 PM** — Christmas parade begins at Eagle Elementary.
-- **Approximately 6:00 PM** — Parade concludes near Old National Bank on South Main Street.
+- **5:00 p.m.** — Christmas parade begins at Eagle Elementary.
+- **Approximately 6:00 p.m.** — Parade concludes near Old National Bank on South Main Street.
 - **Immediately after the parade** — Santa and Mrs. Claus light the town tree at Main and Pine Streets.
-- **6:30–8:00 PM** — [Photos with Santa and Mrs. Claus](/events/selfies-with-santa).
+- **6:30–8:00 p.m.** — [Photos with Santa and Mrs. Claus](/events/selfies-with-santa).
 
 ## The Christmas in the Village Season
 
@@ -69,7 +69,7 @@ The parade and tree lighting mark the start of Christmas in the Village, with do
 
 <div style="clear: both;"></div>
 
-## Location, Parking & Restrooms
+## Location & Parking
 
 <figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
   <a href="/images/events/christmas-in-zionsville-town-tree.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
@@ -93,19 +93,6 @@ Additional parking is available on nearby side streets and in public lots throug
 
 <div style="clear: both;"></div>
 
-<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
-  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
-    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
-  </a>
-  <figcaption class="text-xs text-stone-500 italic mt-2">
-    The public restroom trailer in the Main Street and Sycamore Street parking lot.
-  </figcaption>
-</figure>
-
-**Restrooms:** Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7 AM to 10 PM, with extended hours during special events. The wheelchair-accessible restroom includes a baby changing table.
-
-<div style="clear: both;"></div>
-
 ## Zionsville Christmas Parade Route
 
 The Zionsville Christmas Parade begins at Eagle Elementary, passes the Hussey-Mayfield Memorial Public Library on Fifth Street and continues east toward Main Street. The parade then heads south along Main Street through the Village, ending near Old National Bank.
@@ -118,6 +105,21 @@ The Zionsville Christmas Parade begins at Eagle Elementary, passes the Hussey-Ma
     class="w-full h-full"
   ></iframe>
 </div>
+
+## Restrooms
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The public restroom trailer in the Main Street and Sycamore Street parking lot.
+  </figcaption>
+</figure>
+
+Public restrooms are located in the public parking lot at the northwest corner of Main Street and Sycamore Street, just south of The Friendly Tavern. They are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The facilities include separate men’s and women’s restrooms and a wheelchair-accessible restroom with a baby changing table.
+
+<div style="clear: both;"></div>
 
 ## Downtown Map
 
