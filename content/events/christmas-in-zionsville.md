@@ -372,13 +372,26 @@ See the [Back to Bethlehem event page](https://www.zpc.org/event/24467474-2026-1
 
 [↑ Back to schedule](#schedule)
 
-## Parking for Downtown Christmas Events
+## Parking and Restrooms for Downtown Christmas Events
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The public restroom trailer in the Main Street and Sycamore Street parking lot.
+  </figcaption>
+</figure>
 
 On most days, free public parking is available in lots at the northwest corner of **Main Street and Sycamore Street** and the southwest corner of **Main Street and Pine Street**. Additional parking is available along nearby streets and in public lots throughout the Village. See the [downtown parking section](/downtown#parking) for details.
+
+Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7:00 a.m. to 10:00 p.m. The wheelchair-accessible restroom includes a baby changing table.
 
 Main Street closes to vehicles during the Holiday Parade on November 28. Parking near the parade route fills quickly, so plan to arrive early if you want to park nearby.
 
 The STAR Bank Performing Arts Center and area churches are outside the Main Street event area and offer on-site parking. SullivanMunce Cultural Center is also outside the Main Street event area, with street parking nearby.
+
+<div style="clear: both;"></div>
 
 ## Downtown map
 

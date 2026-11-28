@@ -12,9 +12,11 @@ address: "340 S Main St"
 externalUrl: "https://www.zionsvillechamber.org/ladies-night/"
 image: /images/events/ladies-night-zionsville.webp
 imageAlt: "Woman wearing a dark coat holding red, green, and white patterned Christmas shopping bags outdoors in the evening, with blurred lights in the background."
+hero_position: "center 45%"
+mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
 featured: true
 tags: [holiday, shopping]
-lastUpdated: "2026-11-26"
+lastUpdated: "2026-11-27"
 ---
 
 Ladies’ Night returns to Downtown Zionsville this December for an evening of holiday shopping, dining, and seasonal specials at local businesses. The annual event is part of Christmas in the Village.
@@ -41,7 +43,14 @@ Ladies’ Night returns to Downtown Zionsville this December for an evening of h
 
 ## Event Overview
 
-The 2026 Ladies’ Night features 30 participating locations, including clothing boutiques, jewelry stores, art galleries, specialty food shops, and restaurants. Hours may vary among participating businesses.
+The 2026 Ladies’ Night features 30 participating locations, including clothing boutiques, jewelry stores, art galleries, specialty food shops, and restaurants. Hours may vary among participating businesses. Downtown Zionsville is part of a designated outdoor refreshment area (DORA), where adults 21 and older may carry alcoholic beverages purchased from participating businesses. See the [Downtown DORA guide](/articles/dora).
+
+<figure class="my-8">
+  <img src="/images/events/ladies-night-zionsville-main-street-evening.webp" alt="Tree-lined Main Street in downtown Zionsville with warmly lit storefronts and streetlamps at dusk." class="rounded-lg shadow-sm w-full h-auto" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Illuminated storefronts and streetlamps create a welcoming atmosphere along Main Street in the evening. © ZionsvilleIndiana.com
+  </figcaption>
+</figure>
 
 ## Participating Businesses
 
@@ -82,7 +91,12 @@ The Zionsville Chamber of Commerce has announced the following participating loc
 
 </div>
 
-**[See all Ladies’ Night details and participating businesses →](https://www.zionsvillechamber.org/ladies-night/)**
+<figure class="my-8">
+  <img src="/images/events/ladies-night-zionsville-friendly-tavern-at-dusk.webp" alt="The Friendly Tavern and neighboring buildings along Main Street in downtown Zionsville at dusk." class="rounded-lg shadow-sm w-full h-auto" />
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    Restaurants and shops line the brick-paved streets of Zionsville’s historic Village. © ZionsvilleIndiana.com
+  </figcaption>
+</figure>
 
 ## Shopping Passport and Prizes
 
@@ -114,3 +128,18 @@ These ticketed rides are separate from the complimentary [Vintage Village Carria
 Also scheduled for December 10, Santa’s Stag Night is an evening for men at Zionsville Underground, located beneath Noah Grant’s in the Carter Building. Cocktails, beer, wine, and football viewing are part of the event, which takes place from 5:00 to 9:00 p.m.
 
 See the [Santa’s Stag Night guide](/events/santas-stag-night).
+
+## Restrooms
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The public restroom trailer in the Main Street and Sycamore Street parking lot.
+  </figcaption>
+</figure>
+
+Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The wheelchair-accessible restroom includes a baby changing table.
+
+<div style="clear: both;"></div>

@@ -102,7 +102,7 @@ Additional parking is available on nearby side streets and in public lots throug
   </figcaption>
 </figure>
 
-**Restrooms:** Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7 AM to 10 PM. The wheelchair-accessible restroom includes a baby changing table. Hours may vary during special events.
+**Restrooms:** Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7 AM to 10 PM, with extended hours during special events. The wheelchair-accessible restroom includes a baby changing table.
 
 <div style="clear: both;"></div>
 

@@ -13,6 +13,7 @@ address: "6040 Godello Circle"
 externalUrl: "https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29892"
 image: /images/events/luminary-walk-zionsville-single.webp
 imageAlt: "Golden paper luminary glowing in the snow, illustrating Zionsville’s Winterfest Luminary Walks."
+hero_position: "center 45%"
 featured: true
 tags: [holiday, family, free, outdoor]
 lastUpdated: "2026-11-27"

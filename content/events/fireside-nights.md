@@ -14,10 +14,12 @@ address: "100 W. Oak St."
 externalUrl: "https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29892"
 image: /images/events/fireside-nights-zionsville.webp
 imageAlt: "Clear geodesic igloo tents lit with blue lights along a brick walkway lined with warm string lights at Lincoln Park in Zionsville"
+hero_position: "center 45%"
 photoCredit: "Photo by Zionsville Parks & Recreation"
+mapEmbedUrl: "https://www.google.com/maps/d/embed?mid=1z0IVCRW4QJExI1aa_wvOZ1LwYXDkzNA&ehbc=2E312F"
 featured: true
 tags: [family, outdoor]
-lastUpdated: "2026-11-15"
+lastUpdated: "2026-11-27"
 faqs:
   - q: "When is Fireside Nights at Lincoln Park?"
     a: "Fireside Nights takes place February 5, 6, 12, and 13, 2027, with 45-minute igloo rentals starting at 4, 5, 6, and 7 p.m."
@@ -52,7 +54,7 @@ faqs:
 
 Fireside Nights brings private outdoor igloo rentals to Lincoln Park for two weekends in February. Organized by Zionsville Parks & Recreation, the event allows couples, families, and small groups of friends to reserve an igloo for a 45-minute gathering. The Town suggests using the space for a family picnic, a marriage proposal, or an evening with friends. Each igloo accommodates up to six guests, with hourly reservation times available throughout the late afternoon and evening.
 
-Fireside Nights takes place during the final weekends of Lincoln Lights, the park’s seasonal lighting display. The illuminated gazebo and other holiday lights provide a winter setting, while a nearby campfire offers another place for visitors to gather. The final Fireside Nights session takes place February 13, one day before Lincoln Lights concludes for the season. Lincoln Park is also within Zionsville’s designated outdoor refreshment area, where DORA-compliant alcoholic beverages are permitted.
+Fireside Nights takes place during the final weekends of Lincoln Lights, the park’s seasonal lighting display. The illuminated gazebo and other holiday lights provide a winter setting, while a nearby campfire offers another place for visitors to gather. The final Fireside Nights session takes place February 13, one day before Lincoln Lights concludes for the season. Lincoln Park is also within Zionsville’s [designated outdoor refreshment area](/articles/dora), where DORA-compliant alcoholic beverages are permitted.
 
 ## Reservation Information
 
@@ -70,3 +72,18 @@ Only one person per group needs to register. The registrant must be at least 18 
 Registration for all sessions opens January 15, 2027, at 8 a.m. for both residents and nonresidents. Four reservations are available for each session.
 
 **[Reserve an igloo on the Zionsville Parks & Recreation website →](https://zionsvillein.myrec.com/info/activities/program_details.aspx?ProgramID=29892)**
+
+## Restrooms
+
+<figure class="md:float-right md:ml-6 md:mb-4 md:w-72 mb-4">
+  <a href="/images/events/public-restrooms-downtown-zionsville.webp" target="_blank" rel="noopener noreferrer" aria-label="View full-size image in new tab">
+    <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." class="rounded-lg shadow-sm" />
+  </a>
+  <figcaption class="text-xs text-stone-500 italic mt-2">
+    The public restroom trailer in the Main Street and Sycamore Street parking lot.
+  </figcaption>
+</figure>
+
+Public restrooms are located in the public lot at the northwest corner of Main Street and Sycamore Street, just south of the Friendly Tavern, and are open daily from 7:00 a.m. to 10:00 p.m., with extended hours during special events. The wheelchair-accessible restroom includes a baby changing table.
+
+<div style="clear: both;"></div>

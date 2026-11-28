@@ -11,7 +11,7 @@ ctas:
     href: /downtown
   - label: View upcoming events
     href: /events
-lastUpdated: "2026-06-08"
+lastUpdated: "2026-11-27"
 faqs:
   - q: "Can you drink on Main Street Zionsville?"
     a: "Yes. During DORA hours, adults 21 and older may carry an alcoholic beverage purchased from an approved DORA establishment within the district. That includes the brick-paved Main Street area."
@@ -36,8 +36,7 @@ Before you order, it helps to know where the district begins and ends, what kind
 <figure>
   <img src="/images/articles/zionsville-dora-outdoor-beverage.webp" alt="A clear plastic cup filled with light beer and foam, shown as an illustrative example of a refreshment for the downtown DORA guide." class="rounded-lg shadow-sm" />
   <figcaption class="text-xs text-stone-500 italic mt-2">
-    Zionsville’s DORA allows adults 21 and older to carry alcoholic beverages from participating businesses within the approved downtown district.<br />
-    <!--span class="not-italic">© [YOUR PHOTO CREDIT]</span-->
+    Zionsville’s DORA allows adults 21 and older to carry alcoholic beverages from participating businesses within the approved downtown district.
   </figcaption>
 </figure>
 
@@ -121,23 +120,30 @@ The businesses below are the current designated permittees listed on the Town of
   </figcaption>
 </figure>
 
-1. Greek's Pizzeria
-2. Rosie's Place
-3. Convivio Italian Artisan Cuisine
-4. Noah Grant's
+1. [Greek’s Pizzeria](/businesses/greeks-pizzeria)
+2. [Rosie’s Place](/businesses/rosies-place)
+3. [Convivio Italian Artisan Cuisine](/businesses/convivio)
+4. [Noah Grant’s](/businesses/noah-grants)
 5. Rush on Main
 6. Tipsy Mermaid
-7. Cobblestone
-8. Auberge
+7. [Cobblestone](/businesses/cobblestone)
+8. [Auberge](/businesses/auberge)
 9. Café Patachou
-10. Zionsville Pizzeria
-11. The Friendly Tavern
-12. The Scoop
-13. Bowdie's Chophouse
+10. [Zionsville Pizzeria](/businesses/zionsville-pizzeria)
+11. [The Friendly Tavern](/businesses/friendly-tavern)
+12. [The Scoop](/businesses/the-scoop)
+13. Bowdie’s Chophouse
 
 Participating businesses may change over time. Before ordering, look for official DORA signage at the business or check the town’s current permittee list.
 
 ## Public Restrooms in the DORA {#dora-restrooms}
+
+<figure style="float: right; max-width: 20rem; margin: 0 0 1rem 1.5rem;">
+  <img src="/images/events/public-restrooms-downtown-zionsville.webp" alt="Public restroom trailer with a wheelchair-accessible entrance ramp in downtown Zionsville, Indiana." style="width: 100%; border-radius: 0.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.1);" />
+  <figcaption style="font-size: 0.75rem; color: #78716c; font-style: italic; margin-top: 0.5rem;">
+    The public restroom trailer in the Main Street and Sycamore Street parking lot.
+  </figcaption>
+</figure>
 
 A public restroom for DORA visitors is located in a temporary structure on the Main and Sycamore parking lot, just south of The Friendly Tavern. The trailer provides an immediate solution to a long-standing need for public restrooms in the Village.
 
@@ -149,6 +155,8 @@ Features include:
 - Routine maintenance by the Town’s Departments of Public Works (DPW) and Parks & Recreation
 
 The Town is also planning for the future development of a civic plaza in the Village, which would include permanent public restrooms.
+
+<div style="clear: both;"></div>
 
 ## See the Downtown Map
 
