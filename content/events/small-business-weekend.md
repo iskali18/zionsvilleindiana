@@ -6,8 +6,8 @@ startDate: "2026-11-27"
 endDate: "2026-11-29"
 location: "Downtown Zionsville"
 address: "340 S Main St"
-image: /images/events/small-business-weekend-zionsville.webp
-imageAlt: "Holiday storefront window display at a local Zionsville boutique featuring two mannequins in formal dresses, colorful painted paper trees, and white star decals"
+image: /images/events/small-business-weekend-zionsville-storefront.webp
+imageAlt: "Main Street storefronts with clothing and gift shop banners in downtown Zionsville, Indiana."
 photoCredit: "© ZionsvilleIndiana.com"
 tags: [holiday, shopping]
 featured: true
