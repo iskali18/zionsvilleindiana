@@ -466,8 +466,9 @@ function timeOfDay(event: EventMeta): string {
 }
 
 /** Pass `{ homepage: true }` from the homepage: it drops events with
- *  `showOnHomepage: false` and lists at most one card per series, so a series
- *  can't fill the few slots there. The events page passes nothing. */
+ *  `showOnHomepage: false`, lists at most one card per series, so a series
+ *  can't fill the few slots there, and puts `weekendFeatured` events first.
+ *  The events page passes nothing. */
 export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {}): EventMeta[] {
   const today = indianaToday()
 
@@ -477,7 +478,7 @@ export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {
   // 1. Featured events that have not finished yet (not perennials).
   //    Compare against endDate, not startDate — a multi-day event is still
   //    happening on its second day and should stay listed until it is over.
-  const upcoming = all
+  const current = all
     .filter(
       (e) =>
         e.featured &&
@@ -485,7 +486,15 @@ export function getFeaturedEvents(limit = 3, options: { homepage?: boolean } = {
         new Date((e.endDate ?? e.startDate) + 'T23:59:59') >= today
     )
     .filter(seriesCap(options.homepage ? 1 : undefined))
-    .slice(0, limit)
+
+  // On the homepage, an event marked `weekendFeatured` (the same field that puts
+  // it at the top of This Weekend) takes the first card until it ends. The rest
+  // keep date order.
+  const upcoming = (
+    options.homepage
+      ? [...current.filter((e) => e.weekendFeatured), ...current.filter((e) => !e.weekendFeatured)]
+      : current
+  ).slice(0, limit)
 
   if (upcoming.length >= limit) return upcoming
 

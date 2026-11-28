@@ -102,7 +102,7 @@ const quickLinks = [
 
 const featuredGuides = [
   {
-    title: '25 Best Christmas Lights & Events Near Indianapolis',
+    title: '25 Best Christmas Lights & Events Near Zionsville and Indianapolis',
     description:
       'A guide to the 2026 Christmas season near Zionsville and Indianapolis, covering major light displays and holiday attractions, plus Christmas events at local farms.',
     href: '/articles/christmas-holiday-attractions-near-indianapolis',
@@ -254,6 +254,13 @@ export default function HomePage() {
                     className="object-cover group-hover:scale-105 transition-transform duration-300"
                     quality={65}
                   />
+                  {/* On the photo, not above the date, so this card's title
+                      lines up with the other cards in the row. */}
+                  {event.weekendFeatured && (
+                    <span className="absolute top-2 left-2 bg-white/90 text-stone-800 text-xs font-semibold uppercase tracking-wide px-2 py-0.5 rounded shadow-sm pointer-events-none">
+                      Featured
+                    </span>
+                  )}
                   {event.photoCredit && (
                     <p
                       className="absolute bottom-2 right-3 text-white/60 text-xs pointer-events-none"
